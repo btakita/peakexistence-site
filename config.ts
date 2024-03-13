@@ -27,12 +27,7 @@ export const site:site_T = {
 	light_and_dark_mode: true,
 	google_site_verification: import_meta_env_().PUBLIC_GOOGLE_SITE_VERIFICATION,
 	gtag_id: 'G-F2F171MSE3',
-	body_class:class_(
-		'font-inter',
-		'antialiased',
-		'bg-white',
-		'text-gray-900',
-		'tracking-tight')
+	body_class: class_(),
 }
 export const social_a1:social_T[] = []
 export function config__init() {
