@@ -1,6 +1,5 @@
-import fa_waves_sine_svg from '@btakita/ui--server--peakexistence/icon/fa_waves_sine.svg.file'
-import { type site_T } from '@rappstack/domain--server/site'
-import { type social_T } from '@rappstack/domain--server/social'
+import fa_waves_sine_svg from '@btakita/ui--server--peakexistence/icon/fa_waves_sine.svg.file.js'
+import { type site_T, type social_T } from '@rappstack/domain--server/site'
 import { import_meta_env_ } from 'ctx-core/env'
 import { class_ } from 'ctx-core/html'
 import { relement__use } from 'relementjs'
@@ -20,7 +19,7 @@ export const site:site_T = {
 			rel: 'stylesheet'
 		}
 	],
-	icon: {
+	favicon: {
 		type: 'image/svg+xml',
 		href: fa_waves_sine_svg
 	},
