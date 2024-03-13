@@ -1,10 +1,10 @@
-import fa_waves_sine_svg from '@btakita/ui--server--peakexistence/icon/fa_waves_sine.svg.file.js'
 import { type site_T, type social_T } from '@rappstack/domain--server/site'
 import { import_meta_env_ } from 'ctx-core/env'
 import { class_ } from 'ctx-core/html'
 import { relement__use } from 'relementjs'
 import { server__relement } from 'relementjs/server'
 import { app_ctx, cwd__set, port__set, src_path__set } from 'relysjs/server'
+import fa_waves_sine_svg from './icon/fa_waves_sine.svg.file.js'
 relement__use(server__relement)
 export const site:site_T = {
 	website: 'https://peakexistence.com',
