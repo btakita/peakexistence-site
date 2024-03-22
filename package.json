@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "bun build.ts",
-    "clear": "rm -rf ./dist",
+    "clean": "rm -rf ./dist",
     "dev": "bun run dev:sourcemap__resolve__bun",
     "dev:raw": "bun index.ts",
     "dev:sourcemap__resolve__bun": "sourcemap__resolve__bun -f index.ts",
@@ -15,8 +15,7 @@
     "db:generate": "drizzle-kit generate:sqlite",
     "db:migrate": "bun ./db/migrate.ts",
     "db:push": "drizzle-config push:sqlite",
-    "start": "sourcemap__resolve__bun -f start.ts",
-    "clean": "rm -rf ./dist"
+    "start": "sourcemap__resolve__bun -f start.ts"
   },
   "dependencies": {
     "@btakita/ui--server--peakexistence": "workspace: *",

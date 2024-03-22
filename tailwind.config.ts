@@ -266,3 +266,6 @@ const config = <Config>{
 	],
 }
 export default config
+function rgb_(variable_name:string) {
+	return `rgb(var(${variable_name}))`
+}
