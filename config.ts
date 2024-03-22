@@ -31,7 +31,7 @@ export const site:site_T = {
 }
 export const social_a1:social_T[] = []
 export function config__init() {
-	const port = parseInt(import_meta_env_().PEAKEXISTENCE_PORT) || 4102
+	const port = parseInt(import_meta_env_().PEAKEXISTENCE_PORT) || 4103
 	cwd__set(app_ctx, process.cwd())
 	src_path__set(app_ctx, process.cwd())
 	port__set(app_ctx, port)
