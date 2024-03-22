@@ -22,6 +22,7 @@
     "@btakita/ui--server--peakexistence": "workspace: *",
     "@rappstack/domain--server": "workspace:*",
     "@rappstack/domain--server--auth": "workspace:*",
+    "@tailwindcss/typography": "^0.5.10",
     "aos": "^2.3.4",
     "cssnano": "^6.1.1",
     "ctx-core": "^6.6.2",
