@@ -9,16 +9,16 @@ import { blog_site } from '../../config.js'
 import { peakexistence_request_ctx__ensure } from '../../ctx/index.js'
 export default middleware_(middleware_ctx=>
 	new Elysia({
-		name: 'posts_routes'
+		name: 'articles_routes'
 	})
-		.get('/posts', async context=>{
+		.get('/articles', async context=>{
 			const ctx = peakexistence_request_ctx__ensure(
 				middleware_ctx,
 				context,
 				{ blog_site })
 			return html_response__new(posts__doc_html_({ ctx }))
 		})
-		.get('/posts/:slug_or_page_num', async context=>{
+		.get('/articles/:slug_or_page_num', async context=>{
 			const { params: { slug_or_page_num } } = context
 			const ctx = peakexistence_request_ctx__ensure(
 				middleware_ctx,
