@@ -1,5 +1,5 @@
 import '../index.css'
-import { partner__doc_html_ } from '@btakita/ui--server--peakexistence/partner'
+import { partners__doc_html_ } from '@btakita/ui--server--peakexistence/partner'
 import { Elysia } from 'elysia'
 import { middleware_ } from 'rebuildjs/server'
 import { html_response__new } from 'relysjs/server'
@@ -9,7 +9,7 @@ export default middleware_(middleware_ctx=>
 	new Elysia({
 		name: 'root_routes'
 	})
-		.get('/partner', async context=>{
+		.get('/partners', async context=>{
 			const ctx = peakexistence_request_ctx__ensure(middleware_ctx, context, { blog_site })
-			return html_response__new(partner__doc_html_({ ctx }))
+			return html_response__new(partners__doc_html_({ ctx }))
 		}))
