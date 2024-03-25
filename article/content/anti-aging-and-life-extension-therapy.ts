@@ -2,6 +2,7 @@ import { post_meta__validate } from '@rappstack/domain--any--blog/post'
 import { site__author_ } from '@rappstack/domain--server/site'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { type request_ctx_T } from 'rebuildjs/server'
+import anti_aging_and_life_extension_therapy_webp from '../../public/image/article/anti-aging-and-life-extension-therapy.webp'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate({
 	author: site__author_(ctx)!,
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -14,6 +15,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate({
 		'Senescence',
 	],
 	description: `We take a holistic approach to anti-aging and life-extension therapies. That the key to graceful aging lies in addressing both the external and internal factors. That contribute to the aging process. Our treatments optimize physical health, mental well-being, and emotional balance. Helping you feel younger and more energetic from the inside out.`,
+	hero_image: anti_aging_and_life_extension_therapy_webp,
 })
 
 // @formatter:off

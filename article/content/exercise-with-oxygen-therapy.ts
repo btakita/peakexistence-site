@@ -2,7 +2,7 @@ import { post_meta__validate } from '@rappstack/domain--any--blog/post'
 import { site__author_ } from '@rappstack/domain--server/site'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { type request_ctx_T } from 'rebuildjs/server'
-import exercise_with_oxygen_therapy_webp from '../../public/image/post/exercise-with-oxygen-therapy.webp'
+import exercise_with_oxygen_therapy_webp from '../../public/image/article/exercise-with-oxygen-therapy.webp'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate({
 	author: site__author_(ctx)!,
 	pub_date: '2024-03-22T20:42:15.614Z',
