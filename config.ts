@@ -8,7 +8,7 @@ import fa_waves_sine_svg from './icon/fa_waves_sine.svg.file.js'
 import { post_mod_a1 } from './article/index.js'
 relement__use(server__relement)
 export const blog_site:blog_site_T = {
-	website: 'https://peakexistence.com',
+	website: 'https://pe.peakexistence.com',
 	author: 'Dr. Manny Emenike',
 	author_img_url: 'https://placehold.co/48x48.webp',
 	description: 'Experience Your Peak Existence',
