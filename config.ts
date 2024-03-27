@@ -10,6 +10,7 @@ relement__use(server__relement)
 export const blog_site:blog_site_T = {
 	website: 'https://peakexistence.com',
 	author: 'Dr. Manny Emenike',
+	author_img_url: 'https://placehold.co/48x48.webp',
 	description: 'Experience Your Peak Existence',
 	title: 'Peak Existence',
 	font__meta_props_a1: [
