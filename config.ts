@@ -10,7 +10,11 @@ relement__use(server__relement)
 export const blog_site:blog_site_T = {
 	website: 'https://pe.peakexistence.com',
 	author: 'Dr. Manny Emenike',
+	author_url: 'https://www.mannyemenikemd.com',
 	author_img_url: 'https://placehold.co/48x48.webp',
+	editor: 'Brian Takita',
+	editor_url: 'https://briantakita.me',
+	editor_img_url: 'https://gravatar.com/avatar/a0599814ceddc2e283792f4e47c57f5e',
 	description: 'Experience Your Peak Existence',
 	title: 'Peak Existence',
 	phone: '+18189066900',
