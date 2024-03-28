@@ -1,36 +1,13 @@
+import { anti_aging_and_life_extension_therapy_feature } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--any--blog/post'
 import { site__author_, site__author_img_url_ } from '@rappstack/domain--server/site'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { type request_ctx_T } from 'rebuildjs/server'
-import anti_aging_and_life_extension_therapy_webp
-	from '../../public/image/article/anti-aging-and-life-extension-therapy.webp'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate({
 	author: site__author_(ctx)!,
 	author_img_url: site__author_img_url_(ctx)!,
 	pub_date: '2024-03-22T20:42:15.614Z',
-	title: `Anti-Aging and Life Extension Therapy`,
-	slug: 'anti-aging-and-life-extension-therapy',
-	tag_a1: [
-		'Anti-Aging',
-		'Life Extension',
-		'Holistic Wellness',
-		'Rejuvenation Therapies',
-		'Health and Vitality',
-		'Wellness Innovation',
-		'Longevity Strategies',
-		'Youth Preservation',
-		'Advanced Healthcare',
-		'Mental Well-being',
-		'Emotional Health',
-		'Physical Fitness',
-		'Nature-Inspired Wellness',
-		'Vibrant Living',
-		'Age-Defying Treatments',
-		'Diet',
-		'Senescence',
-	],
-	description: `We take a holistic approach to anti-aging and life-extension therapies. That the key to graceful aging lies in addressing both the external and internal factors. That contribute to the aging process. Our treatments optimize physical health, mental well-being, and emotional balance. Helping you feel younger and more energetic from the inside out.`,
-	hero_image: anti_aging_and_life_extension_therapy_webp,
+	...anti_aging_and_life_extension_therapy_feature,
 })
 
 // @formatter:off

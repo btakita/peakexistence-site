@@ -1,3 +1,4 @@
+import { exercise_with_oxygen_therapy_feature } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--any--blog/post'
 import { site__author_, site__author_img_url_ } from '@rappstack/domain--server/site'
 import { md__raw_ } from '@rappstack/ui--any/md'
@@ -7,27 +8,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate({
 	author: site__author_(ctx)!,
 	author_img_url: site__author_img_url_(ctx)!,
 	pub_date: '2024-03-22T20:42:15.614Z',
-	title: `Exercise with Oxygen Therapy (EWOT)`,
-	slug: 'exercise-with-oxygen-therapy-ewot',
-	tag_a1: [
-		'Exercise',
-		'Oxygen',
-		'EWOT',
-		'Exercise with Oxygen Therapy',
-		'Therapy',
-		'Oxygen Therapy',
-		'Improved Stamina',
-		'Accelerated Recovery',
-		'Cardiovascular Health',
-		'Detoxification',
-		'Mental Clarity',
-		'Inflammation Reduction',
-		'Weight Loss',
-		'Enhanced Physical Performance',
-	],
-	description: `Supercharge your exercise routine & boost your overall well-being.`,
-	// hero_image: exercise_with_oxygen_therapy_webp,
-	hero_image: 'https://placehold.co/1020x520.webp',
+	...exercise_with_oxygen_therapy_feature
 })
 
 // @formatter:off
