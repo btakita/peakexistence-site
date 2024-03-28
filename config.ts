@@ -13,6 +13,7 @@ export const blog_site:blog_site_T = {
 	author_img_url: 'https://placehold.co/48x48.webp',
 	description: 'Experience Your Peak Existence',
 	title: 'Peak Existence',
+	phone: '+18189066900',
 	font__meta_props_a1: [
 		{ rel: 'preconnect', href: 'https://fonts.googleapis.com' },
 		{ rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 1 },
