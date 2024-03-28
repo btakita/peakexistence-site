@@ -1,0 +1,47 @@
+import { naltrexone_implants } from '@btakita/domain--server--peakexistence/feature'
+import { post_meta__validate } from '@rappstack/domain--any--blog/post'
+import { site__author_, site__author_img_url_ } from '@rappstack/domain--server/site'
+import { md__raw_ } from '@rappstack/ui--any/md'
+import { type request_ctx_T } from 'rebuildjs/server'
+export const meta_ = (ctx:request_ctx_T)=>post_meta__validate({
+	author: site__author_(ctx)!,
+	author_img_url: site__author_img_url_(ctx)!,
+	pub_date: '2024-03-22T20:42:15.614Z',
+	...naltrexone_implants,
+})
+
+// @formatter:off
+// language=md
+export default (ctx:request_ctx_T)=>md__raw_(`
+Naltrexone implants are small pellets. Inserted under the skin with minor surgery. Releasing the medication over several months. Naltrexone implants ensures consistent drug delivery. Eliminating the need for daily pills and minimizing the risk of non-adherence. Naltrexone implants can offer an extended period of support and focus on recovery.
+
+## The Advantages of Naltrexone Implants with Exercise
+
+- Reduced Cravings. Naltrexone implants  suppress cravings for opioids and alcohol. Making it easier to maintain sobriety.
+- Increased Motivation. Regular exercise can boost motivation levels, supporting individuals on their journey to recovery.
+- Positive Reinforcement. The discipline of regular exercise promotes the sense of accomplishment. Serving as positive reinforcement during the recovery process.
+- Healthier Coping Mechanisms. Engaging in physical activity can replace harmful coping mechanisms with healthier alternatives.
+- Support for Emotional Well-being. Both Naltrexone implants and exercise improve emotional well-being. Reducing the risk of relapse.
+
+## How Does the Naltrexone Implant Work?
+
+Naltrexone is an opioid antagonist. Removing the psychoactive effects and functions of opoids. Naltrexone binds to and regulates the neurotransmitter receptors. Targeted by opioid drugs in the brain. By doing so, it halts the euphoric feelings associated with opioid use.
+
+Implanting Naltrexone must occur 7-10 days after last use of opoids. To avoid acute withdrawal symptoms.
+
+## Awareness of the implant’s blocking effect on opioids may create a placebo effect.
+
+Naltrexone implants block the physical cravings to abuse of opioids. But Naltrexone does not eliminate the desire for the euphoric effects of opoids. Using opioids with the implant will not result with the usual euphoric effects. This could lead to increasing the opioid dosage, causing a higher risk of overdose. Don't use opoids while using Naltrexone.
+
+## How Is a Naltrexone Implant Inserted?
+
+Naltrexone implants are small pellets inserted under the skin using local anesthesia. The procedure is painless. Once in place, the implants gradually release the medication. Blocking the effects of opiates for two to six months.
+
+## Naltrexone Injections are a non-surgical alternative
+
+Naltrexone slow-release depot injection last around one month.
+
+## Naltrexone is a part of a complete therapy program
+
+Naltrexone’s efficacy depends on the individual’s willingness to remain substance-free. Therapy and addiction treatment are crucial in sticking to the treatment.
+`)
