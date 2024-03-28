@@ -1,4 +1,4 @@
-import { exercise_with_oxygen_therapy_feature } from '@btakita/domain--server--peakexistence/feature'
+import { exercise_with_oxygen_therapy } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--any--blog/post'
 import { site__author_, site__author_img_url_ } from '@rappstack/domain--server/site'
 import { md__raw_ } from '@rappstack/ui--any/md'
@@ -8,7 +8,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate({
 	author: site__author_(ctx)!,
 	author_img_url: site__author_img_url_(ctx)!,
 	pub_date: '2024-03-22T20:42:15.614Z',
-	...exercise_with_oxygen_therapy_feature
+	...exercise_with_oxygen_therapy
 })
 
 // @formatter:off
