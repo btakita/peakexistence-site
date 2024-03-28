@@ -1,7 +1,4 @@
-import {
-	altitude_training_feature,
-	hyperbaric_oxygen_therapy_feature
-} from '@btakita/domain--server--peakexistence/feature'
+import { hyperbaric_oxygen_therapy_feature } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--any--blog/post'
 import { site__author_, site__author_img_url_ } from '@rappstack/domain--server/site'
 import { md__raw_ } from '@rappstack/ui--any/md'
