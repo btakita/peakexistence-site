@@ -1,11 +1,8 @@
 import { naltrexone_implants } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--any--blog/post'
-import { site__author_, site__author_img_url_ } from '@rappstack/domain--server/site'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { type request_ctx_T } from 'rebuildjs/server'
-export const meta_ = (ctx:request_ctx_T)=>post_meta__validate({
-	author: site__author_(ctx)!,
-	author_img_url: site__author_img_url_(ctx)!,
+export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...naltrexone_implants,
 })
@@ -25,13 +22,13 @@ Naltrexone implants are small pellets. Inserted under the skin with minor surger
 
 ## How Does the Naltrexone Implant Work?
 
-Naltrexone is an opioid antagonist. Removing the psychoactive effects and functions of opoids. Naltrexone binds to and regulates the neurotransmitter receptors. Targeted by opioid drugs in the brain. By doing so, it halts the euphoric feelings associated with opioid use.
+Naltrexone is an opioid antagonist. Removing the psychoactive effects and functions of opioids. Naltrexone binds to and regulates the neurotransmitter receptors. Targeted by opioid drugs in the brain. By doing so, it halts the euphoric feelings associated with opioid use.
 
-Implanting Naltrexone must occur 7-10 days after last use of opoids. To avoid acute withdrawal symptoms.
+Implanting Naltrexone must occur 7-10 days after last use of opioids. To avoid acute withdrawal symptoms.
 
 ## Awareness of the implant’s blocking effect on opioids may create a placebo effect.
 
-Naltrexone implants block the physical cravings to abuse of opioids. But Naltrexone does not eliminate the desire for the euphoric effects of opoids. Using opioids with the implant will not result with the usual euphoric effects. This could lead to increasing the opioid dosage, causing a higher risk of overdose. Don't use opoids while using Naltrexone.
+Naltrexone implants block the physical cravings to abuse of opioids. But Naltrexone does not eliminate the desire for the euphoric effects of opioids. Using opioids with the implant will not result with the usual euphoric effects. This could lead to increasing the opioid dosage, causing a higher risk of overdose. Don't use opioids while using Naltrexone.
 
 ## How Is a Naltrexone Implant Inserted?
 
