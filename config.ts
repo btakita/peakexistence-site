@@ -1,4 +1,6 @@
 import { type blog_site_T } from '@rappstack/domain--server--blog/site'
+import { type author_T } from '@rappstack/domain--server/site'
+import { url__join } from 'ctx-core/all'
 import { import_meta_env_ } from 'ctx-core/env'
 import { class_ } from 'ctx-core/html'
 import { relement__use } from 'relementjs'
@@ -7,14 +9,31 @@ import { app_ctx, cwd__set, port__set, src_path__set } from 'relysjs/server'
 import fa_waves_sine_svg from './icon/fa_waves_sine.svg.file.js'
 import { post_mod_a1 } from './article/index.js'
 relement__use(server__relement)
+const website = 'https://pe.briantakita.me'
+export const dr_manny_emenike = <author_T>{
+	'@type': 'Person',
+	'@id': url__join(website, '#dr-manny-emenike-Person'),
+	name: 'Dr. Manny Emenike',
+	url: url__join(website, 'about#dr-manny-emenike'),
+	image: 'https://placehold.co/48x48.webp',
+	sameAs: [
+		'https://www.mannyemenikemd.com'
+	],
+}
+export const brian_takita = <author_T>{
+	'@type': 'Person',
+	'@id': url__join(website, '#brian-takita-Person'),
+	name: 'Brian Takita',
+	url: 'https://briantakita.me',
+	image: 'https://gravatar.com/avatar/a0599814ceddc2e283792f4e47c57f5e',
+	sameAs: [
+		'https://briantakita.me#Person',
+	],
+	a_target_blank: true,
+}
 export const blog_site:blog_site_T = {
-	website: 'https://pe.peakexistence.com',
-	author: 'Dr. Manny Emenike',
-	author_url: 'https://www.mannyemenikemd.com',
-	author_img_url: 'https://placehold.co/48x48.webp',
-	editor: 'Brian Takita',
-	editor_url: 'https://briantakita.me',
-	editor_img_url: 'https://gravatar.com/avatar/a0599814ceddc2e283792f4e47c57f5e',
+	website,
+	author_a1: [dr_manny_emenike, brian_takita],
 	description: 'Experience Your Peak Existence',
 	title: 'Peak Existence',
 	phone: '+18189066900',
@@ -28,7 +47,7 @@ export const blog_site:blog_site_T = {
 	],
 	favicon: {
 		type: 'image/svg+xml',
-		href: fa_waves_sine_svg
+		href: fa_waves_sine_svg,
 	},
 	social_image_url: fa_waves_sine_svg,
 	light_and_dark_mode: true,
@@ -49,4 +68,3 @@ export function config__init() {
 	port__set(app_ctx, port)
 	relement__use(server__relement)
 }
-
