@@ -62,3 +62,4 @@ Anyone looking for a gentle & effective therapy to improve skin health, relieve 
 
 Infrared and red light therapy cast a warm glow on non-invasive healing techniques. By offering a spectrum of health benefits with minimal risks. They are an example of using light as medicine. Solace from pain, yearning for youthful skin, or striving for peak physical performance. These therapies bring wellness illuminated by the very essence of light.
 `)
+// @formatter:on
