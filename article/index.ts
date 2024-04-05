@@ -10,10 +10,10 @@ export const post_mod_a1:post_mod_T[] = await Promise.all([
 	import('./content/full-body-scan-with-low-dose-radiation.js'),
 	import('./content/genetic-testing.js'),
 	import('./content/hyperbaric-oxygen-therapy.js'),
+	import('./content/infrared-and-red-light-therapy.js'),
 	import('./content/intercostal-nerve-block.js'),
 	import('./content/joint-saving-therapy.js'),
 	import('./content/naltrexone-implants.js'),
 	import('./content/performance-improvement.js'),
 	import('./content/psychedelic-therapy.js'),
-	import('./content/red-light-therapy.js'),
 ])
