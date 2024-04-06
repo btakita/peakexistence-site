@@ -10,7 +10,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>md__raw_(`
-## **What are Infrared & Red Light Therapy?**
+## What are Infrared & Red Light Therapy?
 Infrared and red light therapy use low levels of red light and infrared light. To stimulate cellular repair and regeneration. Infrared and red light therapy are forms of photobiomodulation. Using light to stimulate cellular activity. Leading to beneficial effects on the body's tissues. Unlike ultraviolet light, these therapies provide healing energy without adverse effects.
 
 The mechanism behind PBM uses the light's interaction with mitochondria. The energy-producing centers within cells. This interaction boosts the production of adenosine triphosphate (ATP). Enhancing cellular energy and promoting various healing processes. PBM is used in various medical fields, including:
@@ -21,7 +21,7 @@ The mechanism behind PBM uses the light's interaction with mitochondria. The ene
 
 PBM accelerates recovery and relieve symptoms without invasive procedures.
 
-## **How They Work**
+## How They Work
 
 - **Red Light Therapy (RLT):** Utilizes wavelengths of red light, ranging from 630 to 700 nanometers (nm). It's effective for surface-level skin treatments, enhancing collagen production, and reducing inflammation.
 - **Infrared Therapy:** Involves wavelengths longer than red light, usually between 700 nm to 1 mm. It penetrates deeper into the body, improving:
@@ -29,7 +29,7 @@ PBM accelerates recovery and relieve symptoms without invasive procedures.
 	- relieving pain
 	- enhancing muscle recovery
 
-## **Benefits Unveiled**
+## Benefits Unveiled
 
 1. **Skin Rejuvenation:** Promotes collagen production, reducing wrinkles and improving skin tone.
 2. **Pain Relief:** Eases joint and muscle pain by reducing inflammation and increasing circulation.
@@ -37,7 +37,7 @@ PBM accelerates recovery and relieve symptoms without invasive procedures.
 4. **Enhanced Circulation:** Boosts blood flow, delivering more oxygen and nutrients to tissues.
 5. **Mood Enhancement:** Exposure to red and infrared light can improve mood and energy. By increasing serotonin levels.
 
-## **Considerations**
+## Considerations
 
 | **Pros**                                        | **Cons**                                                |
 |-------------------------------------------------|---------------------------------------------------------|
@@ -45,20 +45,20 @@ PBM accelerates recovery and relieve symptoms without invasive procedures.
 | Can be used for a wide range of conditions      | Initial cost of devices or therapy sessions can be high |
 | Scientifically backed by numerous studies       | Not a standalone cure for serious medical conditions    |
 
-## **Who Can Benefit?**
+## Who Can Benefit?
 
 Anyone looking for a gentle & effective therapy to improve skin health, relieve pain, or enhance recovery. It's especially useful for:
 - athletes
 - individuals with chronic pain conditions
 - those seeking anti-aging solutions
 
-## **Getting Started**
+## Getting Started
 
 1. **Research:** Understand the specific benefits and find a reputable provider or device.
 2. **Consultation:** Talk to a healthcare professional, especially if you have pre-existing conditions.
 3. **Trial Sessions:** Start with a few sessions to see how your body responds.
 
-## **Conclusion**
+## Conclusion
 
 Infrared and red light therapy cast a warm glow on non-invasive healing techniques. By offering a spectrum of health benefits with minimal risks. They are an example of using light as medicine. Solace from pain, yearning for youthful skin, or striving for peak physical performance. These therapies bring wellness illuminated by the very essence of light.
 `)
