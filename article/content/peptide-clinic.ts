@@ -21,7 +21,7 @@ Peptide clinics operate under the guidance of medical professionals. Who assess 
 
 Peptides function as signaling molecules in the body. Instructing other cells and molecules on what actions to perform. Such as healing damaged tissue or fighting infections. Peptides naturally occur in the body & are specific in their action. Peptide Therapy offers a targeted approach to treatment. With a lower risk of side effects compared to traditional pharmaceuticals.
 
-## **Potential Benefits of Peptide Therapy**
+## **Benefits of Peptide Therapy**
 
 ### **1. Enhanced Healing and Recovery**
 Peptides like BPC-157 and TB-500 accelerate wound healing and reducing inflammation. Making them popular among athletes and individuals recovering from injuries.
@@ -34,6 +34,9 @@ Peptides like Epitalon promotes telomerase. Slowing the aging process. GHK-Cu pr
 
 ### **4. Immune System Modulation**
 Thymosin alpha-1 enhances immune response. Proving beneficial for patients with chronic infections or autoimmune diseases.
+
+### **5. Sexual Health**
+PT-141 increases sexual desire and arousal for all genders.  For men, PT-141 enhances sexual arousal and erection quality through its action on the brain. PT-141 also addresses female sexual dysfunctions, such as arousal disorders
 
 ## **Considerations Before Starting Peptide Therapy**
 While peptide therapy offers exciting possibilities, it's essential to approach treatment with caution:
