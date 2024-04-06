@@ -20,4 +20,5 @@ export const post_mod_a1:post_mod_T[] = await Promise.all([
 	import('./content/performance-improvement.js'),
 	import('./content/psychedelic-therapy.js'),
 	import('./content/supervised-weight-loss-and-performance.js'),
+	import('./content/ultrasonic-screening-of-chronic-vessels.js'),
 ])
