@@ -1,10 +1,10 @@
-import { ultrasonic_screening_of_chronic_vessels } from '@btakita/domain--server--peakexistence/feature'
+import { ultrasonic_screening_of_chronic_vessel_disease } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { type request_ctx_T } from 'rebuildjs/server'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
-	...ultrasonic_screening_of_chronic_vessels,
+	...ultrasonic_screening_of_chronic_vessel_disease,
 })
 
 // @formatter:off
@@ -18,8 +18,18 @@ Ultrasonic screening, or ultrasound, is a painless and safe procedure. It does n
 - plaque buildup
 - abnormalities in blood flow
 
-## Understanding Chronic Venous Disease (CVD):
+## How is Ultrasound Used for Vessel Screening?
+Ultrasound is used to screen for several types of chronic vascular conditions:
 
+- **Carotid Artery Disease:** Ultrasound of the carotid arteries in the neck can detect plaque buildup. A key indicator of atherosclerosis. This narrowing of the arteries increases the risk of stroke.
+- **Peripheral Artery Disease (PAD):** Ultrasound of the arteries in the legs and arms can diagnose PAD. PAD results from blockages that impede blood flow, leading to:
+	- leg pain
+	- wounds
+	- an increased risk of amputation
+- **Abdominal Aortic Aneurysm (AAA):** Ultrasound can detect an abdominal aortic aneurysm, a potentially life-threatening bulge in the body's largest artery. Early detection enables monitoring and potential surgical intervention before the aneurysm ruptures.
+- **Deep Vein Thrombosis (DVT):** Ultrasound can diagnose dangerous blood clots (DVT) that form in the deep leg veins. Early detection is crucial to prevent the clot from traveling to the lungs (pulmonary embolism) which can be fatal.
+
+### Chronic Venous Disease (CVD) Detection
 CVD occurs when veins struggle to return blood efficiently from the legs and feet back to the heart. This can lead to a cascade of issues, including:
 
 - **Varicose veins:** Twisted, enlarged veins that bulge under the skin.
@@ -27,11 +37,8 @@ CVD occurs when veins struggle to return blood efficiently from the legs and fee
 - **Skin changes:** Discoloration, dryness, or even ulcers can develop on the legs.
 - **Pain and discomfort:** Aching, heaviness, and cramping can occur in the affected leg(s).
 
-### Early detection is crucial:
-
+#### Early detection is crucial
 Left untreated, CVD can worsen. Leading to complications like blood clots or even skin breakdown. Detecting CVD early allows for timely intervention to manage symptoms and prevent complications.
-
-## The Scope of Ultrasonic Screening in Chronic Vessel Conditions
 
 ### Atherosclerosis Detection
 A primary applications of ultrasonic screening is in the detection of atherosclerosis. A condition characterized by the buildup of plaque in the arteries. This can lead to reduced blood flow and can precipitate conditions. Such as coronary artery disease, peripheral artery disease, and stroke. Early detection through ultrasound can lead to timely interventions. Reducing the risk of severe outcomes.
@@ -52,8 +59,22 @@ The early detection of aneurysms. Particularly abdominal aortic aneurysms, throu
 ## Advantages of Ultrasonic Screening
 - **Non-Invasive:** The procedure does not require incisions. Making it a less risky option compared to other diagnostic methods.
 - **No Radiation Exposure:** Unlike CT scans or X-rays, ultrasonic screening uses sound waves. Eliminating exposure to ionizing radiation.
-- **Real-Time Imaging:** It provides immediate feedback, allowing for quick assessment and decision-making.
+- **Guides Treatment and Prevention:** Screening results help doctors determine whether lifestyle changes, medication, or further intervention are needed to manage vascular conditions.
+- **Real-Time Imaging:** Provides immediate feedback, allowing for quick assessment and decision-making.
 - **Accessibility:** Ultrasound machines are widely available. Used in various settings, not just hospitals.
+- **Cost-Effective:** Ultrasound is an inexpensive screening method compared to other imaging modalities.
+
+## Who Should Consider Ultrasound Screening?
+
+Ultrasound screening may be recommended for individuals with risk factors for chronic vascular diseases, including:
+
+- Older adults (especially over the age of 65)
+- Smokers
+- People with diabetes
+- People with high blood pressure (hypertension)
+- People with high cholesterol
+- Family history of heart disease, stroke, or aneurysms
+- Individuals experiencing symptoms like leg pain, unexplained swelling, or non-healing wounds.
 
 ## Conclusion
 Ultrasonic screening has revolutionized the detection and management of chronic vessel conditions. Offering a window into the vascular system. Without the need for invasive procedures or exposure to radiation. Early identification of conditions including:
