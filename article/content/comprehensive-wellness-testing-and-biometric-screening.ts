@@ -1,16 +1,16 @@
-import { comprehensive_wellness_testing_and_screening } from '@btakita/domain--server--peakexistence/feature'
+import { comprehensive_wellness_testing_and_biometric_screening } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { type request_ctx_T } from 'rebuildjs/server'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
-	...comprehensive_wellness_testing_and_screening,
+	...comprehensive_wellness_testing_and_biometric_screening,
 })
 
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>md__raw_(`
-## Taking Charge: A Guide to Comprehensive Wellness Testing & Screening
+## Taking Charge: A Guide to Comprehensive Wellness Testing & Biometric Screening
 In today's world, taking a proactive approach to your health is more important than ever. Comprehensive wellness testing and screening empowers your journey towards optimal well-being. This article explores what these tests entail. Their benefits. How to navigate the options available.
 
 ## What is Comprehensive Wellness Testing & Screening?
