@@ -20,7 +20,14 @@ In the complex machinery of the human body. The cardiovascular system acts as th
 
 Healthy blood flow is essential for:
 
-Healthcare providers use various techniques, often in combination:
+- **Oxygen & Nutrient Delivery:** Every cell in your body depends on a steady supply of oxygen and nutrients. Restricted blood flow can lead to tissue damage and organ dysfunction.
+- **Waste Removal:** Blood carries away waste products like carbon dioxide. Impaired blood flow can lead to a buildup of toxins.
+- **Heart Health:** Adequate blood flow to the heart muscle is crucial to prevent heart attacks. And prevent other cardiac problems.
+- **Brain Function:** The brain is highly sensitive to blood flow disruptions. Which can increase stroke risk and impair cognitive function.
+- **Peripheral Circulation:** Good blood flow in the arms and legs prevents:
+	- pain
+	- wounds
+	- potential complications like amputation in severe cases
 
 ## Conditions Affecting Blood Flow
 
