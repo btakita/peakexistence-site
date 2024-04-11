@@ -14,6 +14,7 @@ export const post_mod_a1:post_mod_T[] = await Promise.all([
 	import('./content/exercise-with-ketamine-infusion-therapy.js'),
 	import('./content/exercise-with-oxygen-therapy.js'),
 	import('./content/exosome-therapy.js'),
+	import('./content/extracoporal-shock-wave-therapy.js'),
 	import('./content/eureka-diagnostics-reference-lab.js'),
 	import('./content/full-body-scan-with-low-dose-radiation.js'),
 	import('./content/genetic-testing.js'),
