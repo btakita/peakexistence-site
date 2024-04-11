@@ -8,7 +8,6 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...extracoporal_shock_wave_therapy,
 	title: 'Extracorporeal Shock Wave Therapy: Non-InvasivePain Management',
-	description: `Extracorporeal shock wave therapy (ESWT) is a non-invasive treatment modality that utilizes high-energy acoustic waves to stimulate healing and reduce pain in various musculoskeletal conditions.`
 })
 // @formatter:off
 // language=md
