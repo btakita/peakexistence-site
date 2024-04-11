@@ -6,6 +6,7 @@ export const post_mod_a1:post_mod_T[] = await Promise.all([
 	import('./content/cardiovascular-health.js'),
 	import('./content/comprehensive-wellness-testing-and-biometric-screening.js'),
 	import('./content/crisis-stabilization-unit.js'),
+	import('./content/early-disease-detection.js'),
 	import('./content/epidural-neoregeneration.js'),
 	import('./content/exercise-with-detox-therapy.js'),
 	import('./content/exercise-with-ketamine-infusion-therapy.js'),
