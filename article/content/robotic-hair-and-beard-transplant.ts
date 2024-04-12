@@ -14,22 +14,22 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>md__raw_(`
 ## Understanding Robotic Hair and Beard Transplants
-Robotic hair and beard transplants are minimally invasive procedures. Using robotics to enhance the accuracy & efficiency of the hair transplantation process. Robotic arms harvest hair follicles from a donor area (usually the back of the scalp). And implant them into balding or thinning areas of the scalp or facial regions. The ARTAS® system uses sophisticated imaging & robotic arms. Designed to augment the capabilities of human surgeons. To select and extract individual follicular units${ref1_footnote__sup_(ctx)}${ref2_footnote__sup_(ctx)}${ref3_footnote__sup_(ctx)}. The technology performs follicular unit extraction (FUE). One of the most advanced and popular techniques in hair transplantation.
+Robotic hair and beard transplants are minimally invasive procedures. Using robotics to enhance the accuracy & efficiency of the hair transplantation process. Robotic arms harvest hair follicles from a donor area (usually the back of the scalp). And implant them into balding or thinning areas of the scalp or facial regions. The ARTAS® system uses sophisticated imaging & robotic arms. Designed to augment the capabilities of human surgeons. To select and extract individual follicular units${bodyexpert_footnote__sup_(ctx)}${bernsteinmedical_footnote__sup_(ctx)}${hairmd_footnote__sup_(ctx)}. The technology performs follicular unit extraction (FUE). One of the most advanced and popular techniques in hair transplantation.
 
 ## How It Works
 
-1. **Digital Mapping:** The robotic system creates a 3D digital map of the patient's scalp or beard area. Analyzing various parameters such as hair density, angle, & orientation${ref2_footnote__sup_(ctx)}${ref3_footnote__sup_(ctx)}.
-1. **Follicular Unit Extraction:** Using its robotic arm & advanced algorithms. The precision system identifies & extracts optimal hair follicles from the donor area.${ref1_footnote__sup_(ctx)}${ref2_footnote__sup_(ctx)}.
-1. **Recipient Site Creation and Implantation:** The surgeon programs the design plan into the robot. Which then creates recipient sites. Implanting the harvested follicles at the correct angle & depth for a natural-looking outcome${ref2_footnote__sup_(ctx)}${ref4_footnote__sup_(ctx)}.
+1. **Digital Mapping:** The robotic system creates a 3D digital map of the patient's scalp or beard area. Analyzing various parameters such as hair density, angle, & orientation${bernsteinmedical_footnote__sup_(ctx)}${hairmd_footnote__sup_(ctx)}.
+1. **Follicular Unit Extraction:** Using its robotic arm & advanced algorithms. The precision system identifies & extracts optimal hair follicles from the donor area.${bodyexpert_footnote__sup_(ctx)}${bernsteinmedical_footnote__sup_(ctx)}.
+1. **Recipient Site Creation and Implantation:** The surgeon programs the design plan into the robot. Which then creates recipient sites. Implanting the harvested follicles at the correct angle & depth for a natural-looking outcome${bernsteinmedical_footnote__sup_(ctx)}${aedit_footnote__sup_(ctx)}.
 
 The process begins with the robotic system scanning & mapping the patient's scalp. To identify the optimal harvesting sites for hair follicles. Sophisticated algorithms guide the robot arm to selects the best donor hairs. Based on their angle and depth to ensure a natural-looking result. The robotic arm has a tiny punch tool. Which extracts individual follicular units from the scalp. These units are then implanted in the balding or thinning areas of the head or face. Following the natural growth pattern of the hair. To ensure seamless & aesthetically pleasing results.
 
 ## Advantages of Robotic Transplants
-- **Precision, Accuracy, & Efficiency:** Robotic systems can perform the extraction & implantation with microscopic accuracy. Reducing the risk of damaging follicles and ensuring a higher graft survival rate${ref1_footnote__sup_(ctx)}${ref2_footnote__sup_(ctx)}. This minimizes damage to healthy follicles. Leading to a more natural-looking hair transplant.
-- **Reduce Scarring:** The precision of robotic systems leads to smaller incisions. Reducing visible scarring compared to traditional methods${ref1_footnote__sup_(ctx)}${ref3_footnote__sup_(ctx)}.
-- **Reduced Procedure Time:** Robotic arms extract follicles faster than manual techniques, shortening the procedure time. Enhancing patient comfort${ref2_footnote__sup_(ctx)}.
+- **Precision, Accuracy, & Efficiency:** Robotic systems can perform the extraction & implantation with microscopic accuracy. Reducing the risk of damaging follicles and ensuring a higher graft survival rate${bodyexpert_footnote__sup_(ctx)}${bernsteinmedical_footnote__sup_(ctx)}. This minimizes damage to healthy follicles. Leading to a more natural-looking hair transplant.
+- **Reduce Scarring:** The precision of robotic systems leads to smaller incisions. Reducing visible scarring compared to traditional methods${bodyexpert_footnote__sup_(ctx)}${hairmd_footnote__sup_(ctx)}.
+- **Reduced Procedure Time:** Robotic arms extract follicles faster than manual techniques, shortening the procedure time. Enhancing patient comfort${bernsteinmedical_footnote__sup_(ctx)}.
 - **Reduced Surgeon Fatigue:** Automation lessens physical strain on the surgeon. Contributing to a more consistent quality of grafts throughout the procedure.
-- **Customizable Results:** Advanced imaging allows for the customization of hairline design & density. Ensuring results that align with patient expectations${ref3_footnote__sup_(ctx)}${ref4_footnote__sup_(ctx)}.
+- **Customizable Results:** Advanced imaging allows for the customization of hairline design & density. Ensuring results that align with patient expectations${hairmd_footnote__sup_(ctx)}${aedit_footnote__sup_(ctx)}.
 
 ### Enhanced Precision and Reduced Trauma
 A key advantages of using robotic technology in hair & beard transplants is precision. The robotic arm can create perfectly sized extraction sites & angle the grafts. Which minimizes scalp trauma and improves the viability of the transplanted follicles. This precision promotes faster healing. And reduces the risk of complications such as scarring.
@@ -60,19 +60,19 @@ The procedure is performed under local anesthesia. Patients can return home the 
 ## Is Robotic Hair & Beard Transplantation Right for You?
 Robotic hair & beard transplants have numerous benefits. But it's not a one-size-fits-all solution. Consider these factors:
 
-- **Hair Type and Color:** Hair quality, scalp laxity, & overall health are crucial factors. The effectiveness of robotic systems, such as ARTAS®, may vary based on hair type and color. They are generally more suited for patients with straight, dark hair${ref7_footnote__sup_(ctx)}${ref11_footnote__sup_(ctx)}.
-- **Cost:** Robotic transplants can be more expensive than manual FUE procedures. Due to the advanced technology involved${ref5_footnote__sup_(ctx)}${ref6_footnote__sup_(ctx)}.
+- **Hair Type and Color:** Hair quality, scalp laxity, & overall health are crucial factors. The effectiveness of robotic systems, such as ARTAS®, may vary based on hair type and color. They are generally more suited for patients with straight, dark hair${estemedicalgroup_footnote__sup_(ctx)}${torontohairtransplant_footnote__sup_(ctx)}.
+- **Cost:** Robotic transplants can be more expensive than manual FUE procedures. Due to the advanced technology involved${nashvillehairdoctor_footnote__sup_(ctx)}${ibrainrobotics_footnote__sup_(ctx)}.
 - **Limited Availability:** Robotic technology is not yet as widely available. Finding a practitioner may be challenging.
-- **Experience of the Surgical Team:** The success of the procedure also depends on the expertise of the surgical team overseeing the robotic system${ref7_footnote__sup_(ctx)}.
+- **Experience of the Surgical Team:** The success of the procedure also depends on the expertise of the surgical team overseeing the robotic system${estemedicalgroup_footnote__sup_(ctx)}.
 
 ## Conclusion
 Robotic hair & beard transplants represent a significant advancement in hair restoration. By harnessing the precision & consistency of robotic technology. This approach enhances the efficiency & safety of hair restoration procedures. Improving the quality & natural appearance of the results. Offering a blend of precision, efficiency, and customizable results. Potential candidates should consult with experienced surgeons. To discuss their suitability for the procedure. Taking into consideration their specific hair characteristics and restoration goals.
 `.trim())
 // @formatter:on
-function ref1_footnote__sup_(ctx:request_ctx_T) {
+function bodyexpert_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
-		id: 'bodyexpert-online'
+		id: 'bodyexpert'
 	}, [
 		tb_a_({
 			href: 'https://www.bodyexpert.online/en/robotic-hair-transplant',
@@ -81,7 +81,7 @@ function ref1_footnote__sup_(ctx:request_ctx_T) {
 		}, 'Robotic Hair Transplant: a state-of-the-art technique with limitations')
 	])
 }
-function ref2_footnote__sup_(ctx:request_ctx_T) {
+function bernsteinmedical_footnote__sup_(ctx:request_ctx_T) {
   return footnote__sup_({
 		ctx,
 		id: 'bernsteinmedical'
@@ -93,7 +93,7 @@ function ref2_footnote__sup_(ctx:request_ctx_T) {
 		}, 'Robotic FUE')
 	])
 }
-function ref3_footnote__sup_(ctx:request_ctx_T) {
+function hairmd_footnote__sup_(ctx:request_ctx_T) {
   return footnote__sup_({
 		ctx,
 		id: 'hairmd'
@@ -105,7 +105,7 @@ function ref3_footnote__sup_(ctx:request_ctx_T) {
 		}, 'A Comprehensive Guide to Robotic Hair Transplants')
 	])
 }
-function ref4_footnote__sup_(ctx:request_ctx_T) {
+function aedit_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
 		id: 'aedit'
@@ -117,7 +117,7 @@ function ref4_footnote__sup_(ctx:request_ctx_T) {
 		}, 'ARTAS® Robotic Hair Transplant')
 	])
 }
-function ref5_footnote__sup_(ctx:request_ctx_T) {
+function nashvillehairdoctor_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
 		id: 'nashvillehairdoctor'
@@ -129,7 +129,7 @@ function ref5_footnote__sup_(ctx:request_ctx_T) {
 		}, 'Pricing Your Hair Transplant')
 	])
 }
-function ref6_footnote__sup_(ctx:request_ctx_T) {
+function ibrainrobotics_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
 		id: 'ibrainrobotics'
@@ -141,7 +141,7 @@ function ref6_footnote__sup_(ctx:request_ctx_T) {
 		}, 'Cost of Robotic Hair Transplant Machines - Comparing FUEsion X and ARTAS ROI')
 	])
 }
-function ref7_footnote__sup_(ctx:request_ctx_T) {
+function estemedicalgroup_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
 		id: 'estemedicalgroup'
@@ -153,7 +153,7 @@ function ref7_footnote__sup_(ctx:request_ctx_T) {
 		}, 'Robotic Hair Transplant vs Manual Follicular Unit Extraction (FUE)')
 	])
 }
-function ref11_footnote__sup_(ctx:request_ctx_T) {
+function torontohairtransplant_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
 		id: 'torontohairtransplant'
