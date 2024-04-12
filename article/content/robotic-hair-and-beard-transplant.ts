@@ -60,8 +60,8 @@ The procedure is performed under local anesthesia. Patients can return home the 
 ## Is Robotic Hair & Beard Transplantation Right for You?
 Robotic hair & beard transplants have numerous benefits. But it's not a one-size-fits-all solution. Consider these factors:
 
-- **Hair Type and Color:** Hair quality, scalp laxity, & overall health are crucial factors. The effectiveness of robotic systems, such as ARTAS®, may vary based on hair type and color. They are generally more suited for patients with straight, dark hair${estemedicalgroup_footnote__sup_(ctx)}${torontohairtransplant_footnote__sup_(ctx)}.
-- **Cost:** Robotic transplants can be more expensive than manual FUE procedures. Due to the advanced technology involved${nashvillehairdoctor_footnote__sup_(ctx)}${ibrainrobotics_footnote__sup_(ctx)}.
+- **Hair Type and Color:** Hair quality, scalp laxity, & overall health are crucial factors. The effectiveness of robotic systems, such as ARTAS®, may vary based on hair type and color. They are generally more suited for patients with straight, dark hair${estemedicalgroup_footnote__sup_(ctx)}<!--torontohairtransplant_footnote__sup_(ctx)-->.
+- **Cost:** Robotic transplants can be more expensive than manual FUE procedures. Due to the advanced technology involved<!--nashvillehairdoctor_footnote__sup_(ctx)-->${ibrainrobotics_footnote__sup_(ctx)}.
 - **Limited Availability:** Robotic technology is not yet as widely available. Finding a practitioner may be challenging.
 - **Experience of the Surgical Team:** The success of the procedure also depends on the expertise of the surgical team overseeing the robotic system${estemedicalgroup_footnote__sup_(ctx)}.
 
