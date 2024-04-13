@@ -1,3 +1,4 @@
+import { post_path_prefix__set } from '@rappstack/domain--any--blog/post'
 import { blog_request_ctx__ensure, type blog_request_ctx__ensure_config_T } from '@rappstack/domain--server--blog/ctx'
 import { type middleware_ctx_T } from 'rebuildjs/server'
 export function peakexistence_request_ctx__ensure(
@@ -9,5 +10,6 @@ export function peakexistence_request_ctx__ensure(
 	config:blog_request_ctx__ensure_config_T
 ) {
   const ctx = blog_request_ctx__ensure(middleware_ctx, context, config)
+	post_path_prefix__set(ctx, 'articles')
 	return ctx
 }
