@@ -1,13 +1,13 @@
 import { type blog_site_T } from '@rappstack/domain--server--blog/site'
 import { type author_T } from '@rappstack/domain--server/site'
-import { url__join } from 'ctx-core/all'
 import { import_meta_env_ } from 'ctx-core/env'
 import { class_ } from 'ctx-core/html'
+import { url__join } from 'ctx-core/uri'
 import { relement__use } from 'relementjs'
 import { server__relement } from 'relementjs/server'
 import { app_ctx, cwd__set, port__set, src_path__set } from 'relysjs/server'
-import fa_waves_sine_svg from './icon/fa_waves_sine.svg.file.js'
 import { post_mod_a1 } from './article/index.js'
+import fa_waves_sine_svg from './icon/fa_waves_sine.svg.file.js'
 relement__use(server__relement)
 const website = 'https://pe.briantakita.me'
 export const dr_manny_emenike = <author_T>{
