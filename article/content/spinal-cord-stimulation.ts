@@ -40,7 +40,7 @@ The SCS procedure typically involves two stages${ref7_footnote__sup_(ctx)}${ref9
 - **Evaluation:** A thorough assessment with a pain specialist determines if SCS is a suitable option. This includes medical history, physical exam, imaging, and often a psychological evaluation.
 - **Trial Period:** Before permanent implantation, a temporary trial is conducted. Connecting leads without surgical incision to an external generator worn on a belt. To test the effectiveness of the device. Success is usually defined as a 50% or greater reduction in pain. This trial phase lasts about a week. Allowing the patient & doctor to evaluate the effectiveness of the stimulation settings. Gauging how well you respond to the therapy.
 - **Permanent Implantation:** If the trial is successful, a permanent device is implanted. Through a minimally invasive surgical procedure. To implant the generator and tunnel the leads to their final position.
-- ** Programming & Optimization:** Your doctor works with you to find the optimal stimulation settings. That provide the best pain relief & minimize any side effects. Adjusting the device's settings according your pain management needs over time.
+- **Programming & Optimization:** Your doctor works with you to find the optimal stimulation settings. That provide the best pain relief & minimize any side effects. Adjusting the device's settings according your pain management needs over time.
 
 ## Applications for Spinal Cord Stimulation
 SCS is most commonly used for chronic pain conditions. That have not responded to more conservative treatments. It is often considered a last resort when other therapies. Such as medication, physical therapy, or surgery, have failed. Conditions commonly treated with SCS include:
