@@ -26,6 +26,7 @@ export const post_mod_a1:post_mod_T[] = await Promise.all([
 	import('./content/joint-saving-therapy.js'),
 	import('./content/kyphoplasty-spinal-fracture-treatment.js'),
 	import('./content/meditation-and-frequency-based-therapy.js'),
+	import('./content/minimally-invasive-spinal-surgery.js'),
 	import('./content/myers-cocktail-with-nad-and-glutathione.js'),
 	import('./content/naltrexone-implants.js'),
 	import('./content/peptide-clinic.js'),
