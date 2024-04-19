@@ -87,34 +87,16 @@ Metformin, a drug used to treat type 2 diabetes, shows promise in extending huma
 
 #### Benefits of Metformin for Anti-Aging & Life Extension Therapy
 
-##### Reduced Inflammation and Oxidative Stress
-Metformin reduces inflammatory responses & oxidative stress. Which are key contributors to aging & age-related diseases. This reduction can slow down the aging process & extend healthspan${ref_m2_1_footnote__sup_(ctx)}${ref_m2_2_footnote__sup_(ctx)}${ref_m2_8_footnote__sup_(ctx)}.
-
-##### Enhanced Insulin Sensitivity
-Metformin improves insulin sensitivity & glucose metabolism. Which are crucial for preventing age-related metabolic diseases such as type 2 diabetes. By regulating metabolism, metformin may help maintain youthful cellular function & delay aging${ref_m2_2_footnote__sup_(ctx)}${ref_m2_9_footnote__sup_(ctx)}.
-
-##### Decreased Risk of Cardiovascular Disease
-Studies associate Metaformin with:
-
-- a lower incidence of cardiac events
-- reduced mortality from cardiovascular diseases
-
-This suggests that metformin contributes to a healthier, longer life. Protecting heart health${ref_m2_2_footnote__sup_(ctx)}.
-
-##### Lower Incidence of Cancer
-Metformin links to a reduced diagnosis of cancer. And lower cancer mortality rates among patients. This protective effect against cancer supports its role in extending life expectancy. Improving overall health${ref_m2_2_footnote__sup_(ctx)}.
-
-##### Neuroprotective Effects
-Some research suggests that metformin offers protection against neurodegenerative diseases like Alzheimer's & Parkinson's. By mediating inflammation & protecting against protein damage${ref_m2_2_footnote__sup_(ctx)}.
-
-##### Slowing Cellular Senescence
-Metformin has been observed to delay cellular senescence in studies. Reducing the impact of aged cells on overall health. This could help maintain organ function and delay the onset of age-related diseases${ref_m2_2_footnote__sup_(ctx)}.
-
-##### Promotion of Longevity Pathways
-Metformin activates pathways such as AMP-activated protein kinase (AMPK). Which is involved in energy balance & can mimic the effects of calorie restriction. A well-known strategy linked to longevity${ref_m2_1_footnote__sup_(ctx)}${ref_m2_9_footnote__sup_(ctx)}.
-
-##### All-Cause Mortality Reduction
-Metformin use associates with lower all-cause mortality. Suggesting that it has broad benefits for extending life span & enhancing healthspan${ref_m2_2_footnote__sup_(ctx)}${ref_m2_7_footnote__sup_(ctx)}.
+- **Reduced Inflammation and Oxidative Stress:** Metformin reduces inflammatory responses & oxidative stress. Which are key contributors to aging & age-related diseases. This reduction can slow down the aging process & extend healthspan${ref_m2_1_footnote__sup_(ctx)}${ref_m2_2_footnote__sup_(ctx)}${ref_m2_8_footnote__sup_(ctx)}.
+- **Enhanced Insulin Sensitivity:** Metformin improves insulin sensitivity & glucose metabolism. Which are crucial for preventing age-related metabolic diseases such as type 2 diabetes. By regulating metabolism, metformin may help maintain youthful cellular function & delay aging${ref_m2_2_footnote__sup_(ctx)}${ref_m2_9_footnote__sup_(ctx)}.
+- **Decreased Risk of Cardiovascular Disease:** Studies associate Metaformin with protecting heart health${ref_m2_2_footnote__sup_(ctx)}:
+	- a lower incidence of cardiac events
+	- reduced mortality from cardiovascular diseases
+- **Lower Incidence of Cancer:** Metformin links to a reduced diagnosis of cancer. And lower cancer mortality rates among patients. This protective effect against cancer supports its role in extending life expectancy. Improving overall health${ref_m2_2_footnote__sup_(ctx)}.
+- **Neuroprotective Effects:** Some research suggests that metformin offers protection against neurodegenerative diseases like Alzheimer's & Parkinson's. By mediating inflammation & protecting against protein damage${ref_m2_2_footnote__sup_(ctx)}.
+- **Slowing Cellular Senescence:** Metformin has been observed to delay cellular senescence in studies. Reducing the impact of aged cells on overall health. This could help maintain organ function and delay the onset of age-related diseases${ref_m2_2_footnote__sup_(ctx)}.
+- **Promotion of Longevity Pathways:** Metformin activates pathways such as AMP-activated protein kinase (AMPK). Which is involved in energy balance & can mimic the effects of calorie restriction. A well-known strategy linked to longevity${ref_m2_1_footnote__sup_(ctx)}${ref_m2_9_footnote__sup_(ctx)}.
+- **All-Cause Mortality Reduction:** Metformin use associates with lower all-cause mortality. Suggesting that it has broad benefits for extending life span & enhancing healthspan${ref_m2_2_footnote__sup_(ctx)}${ref_m2_7_footnote__sup_(ctx)}.
 
 #### Mechanism of Action
 Metformin enhances cellular enzymes that mimic the longevity benefits of calorie restriction. A well-known strategy for extending lifespan in various organisms. This action primarily involves${ref_m1_1_footnote__sup_(ctx)}${ref_m1_2_footnote__sup_(ctx)}${ref_m1_4_footnote__sup_(ctx)}${ref_m1_5_footnote__sup_(ctx)}:
