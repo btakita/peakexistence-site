@@ -120,7 +120,6 @@ While appealing, MIS fusion is not right for everyone. Factors influencing suita
 - **Surgeon's Expertise:** The experience of the surgeon in performing specific MIS procedures is crucial for optimal outcomes.
 
 ## Considerations
-
 - **It's Still Surgery:** Even minimally invasive techniques carry risks like infection, nerve injury, or implant complications.
 - **Thorough Evaluation:** Before considering surgery of any kind. A comprehensive assessment with a spine surgeon is essential.
 - **Realistic Expectations:** MIS fusion offers benefits. But it's not always guaranteed to be less painful or have faster recovery for everyone.
