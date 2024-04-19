@@ -2,7 +2,7 @@ import { aurora_zip_lumbar_fusion } from '@btakita/domain--server--peakexistence
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { md__raw_ } from '@rappstack/ui--any/md'
-import { footnote__sup_ } from '@rappstack/ui--server--blog/footnote'
+import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -16,7 +16,10 @@ export default (ctx:request_ctx_T)=>md__raw_(`
 ## Understanding the Aurora ZIP™ Procedure
 The Aurora ZIP™ Lumbar Fusion involves the insertion of the ZIP™ Interspinous Spacer. A small metal device, between two vertebrae where the spine is unstable. This device acts as a bridge. Strengthening and straightening the spine. Referred to as fusion.
 
-The Aurora ZIP™ procedure is minimally invasive. It requires minimal blood loss, using only intravenous (IV) sedation. Patients typically go home the same day, and the recovery period lasts only about one week<!--ref5_footnote__sup_(ctx)ref10_footnote__sup_(ctx)-->.
+The Aurora ZIP™ procedure is minimally invasive. It requires minimal blood loss, using only intravenous (IV) sedation. Patients typically go home the same day, and the recovery period lasts only about one week${footnote__sup__sort([
+	// ref5_footnote__sup_(ctx),
+	// ref10_footnote__sup_(ctx),
+])}.
 
 The Aurora ZIP™ procedure avoids the disadvantages of traditional fusion surgeries:
 
@@ -30,7 +33,10 @@ The Aurora ZIP™ Lumbar Fusion system is a state-of-the-art spinal fixation dev
 The Aurora ZIP™ system introduces a less invasive alternative.
 
 ### How the Aurora ZIP™ System Works
-The ZIP™ device features a patented one-step lock that eliminates the need for a set screw. And a large barrel designed for ZIP GRAFT™ or other bone material. Accommodating variations in patient anatomy. The zip technology allows for a "no profile" implant solution that lies flush with the spine. The surgeon inserts the device minimally invasive incision. Causing minimal tissue damage and promoting faster recovery. Limiting the potential for implant-related complications post-surgery<!--ref10_footnote__sup_(ctx)-->${ref11_footnote__sup_(ctx)}.
+The ZIP™ device features a patented one-step lock that eliminates the need for a set screw. And a large barrel designed for ZIP GRAFT™ or other bone material. Accommodating variations in patient anatomy. The zip technology allows for a "no profile" implant solution that lies flush with the spine. The surgeon inserts the device minimally invasive incision. Causing minimal tissue damage and promoting faster recovery. Limiting the potential for implant-related complications post-surgery${footnote__sup__sort([
+	// ref10_footnote__sup_(ctx),
+	ref11_footnote__sup_(ctx),
+])}.
 
 ### Key Features and Design Benefits
 - **Minimally Invasive Approach:** The system's innovative design allows for smaller incisions & less muscle disruption. Which leads to:
@@ -57,7 +63,10 @@ Patients undergoing lumbar fusion surgery with the Aurora ZIP™ benefit:
 ### Patient and Surgeon Experiences
 Feedback from both patients & surgeons using the Aurora ZIP™ system is overwhelmingly positive. Surgeons appreciate the ease of use. And the efficiency it brings to spinal fusion surgeries. While patients benefit from the less invasive procedure. Reduced recovery time & complications.
 
-Clinical studies & patient outcomes demonstrate the efficacy of the Aurora ZIP™ Lumbar Fusion. A study involving 32 elderly patients treated with the Aurora ZIP™ Lumbar Fusion at National Spine & Pain Centers. Showed an average pain reduction of 73%. With patients becoming more active and reducing their medications. No complications reported${ref5_footnote__sup_(ctx)}. Another study published in the Journal of Pain. Reported the first 6-month clinical evaluation of the ZIP™ fusion implant. Highlighting its safety & effectiveness in providing relief from chronic pain. Improving function in select patients${ref3_footnote__sup_(ctx)}${ref15_footnote__sup_(ctx)}.
+Clinical studies & patient outcomes demonstrate the efficacy of the Aurora ZIP™ Lumbar Fusion. A study involving 32 elderly patients treated with the Aurora ZIP™ Lumbar Fusion at National Spine & Pain Centers. Showed an average pain reduction of 73%. With patients becoming more active and reducing their medications. No complications reported${ref5_footnote__sup_(ctx)}. Another study published in the Journal of Pain. Reported the first 6-month clinical evaluation of the ZIP™ fusion implant. Highlighting its safety & effectiveness in providing relief from chronic pain. Improving function in select patients${footnote__sup__sort([
+	ref3_footnote__sup_(ctx),
+	ref15_footnote__sup_(ctx)
+])}.
 
 ## Who is a Candidate for Aurora ZIP™ Lumbar Fusion
 
@@ -70,10 +79,19 @@ This procedure may be suitable for patients needing surgical intervention in the
 ## Advantages Over Traditional Surgery
 The Aurora ZIP™ Lumbar Fusion offers several advantages over traditional back surgery:
 
-- **Minimally Invasive:** Tiny skin incisions result in less pain and minimal blood loss<!--ref2_footnote__sup_(ctx)-->.
-- **Quick Recovery:** Patients can expect a fast recovery time of about one week. Compared to several months for traditional surgery<!--ref1_footnote__sup_(ctx)ref2_footnote__sup_(ctx)-->.
-- **No General Anesthesia:** The procedure's performed under sedation. Allowing patients to go home the same day<!--ref2_footnote__sup_(ctx)-->.
-- **Long-Term Relief:** The procedure provides long-term pain relief for months to years. Addressing mild-to-moderate spinal instability<!--ref5_footnote__sup_(ctx)-->.
+- **Minimally Invasive:** Tiny skin incisions result in less pain and minimal blood loss${footnote__sup__sort([
+	// ref2_footnote__sup_(ctx)
+])}.
+- **Quick Recovery:** Patients can expect a fast recovery time of about one week. Compared to several months for traditional surgery${footnote__sup__sort([
+	// ref1_footnote__sup_(ctx),
+	// ref2_footnote__sup_(ctx),
+])}.
+- **No General Anesthesia:** The procedure's performed under sedation. Allowing patients to go home the same day${footnote__sup__sort([
+	// ref2_footnote__sup_(ctx)
+])}.
+- **Long-Term Relief:** The procedure provides long-term pain relief for months to years. Addressing mild-to-moderate spinal instability${footnote__sup__sort([
+	// ref5_footnote__sup_(ctx)
+])}.
 
 ## Expanding Access to Care
 The FDA approved of new lumbar spinal stenosis indications for the ZIP™ family. Expanding access to care for more patients. Lumbar spinal stenosis is one of the most common causes of spinal surgery. Estimated to affect 18 million patients in the next decade${ref6_footnote__sup_(ctx)}.
@@ -135,10 +153,11 @@ function ref3_footnote__sup_(ctx:request_ctx_T) {
 		id: 'biospace'
 	}, [
 		tb_a_({
-			href: 'https://www.biospace.com/article/releases/aurora-spine-corporation-announces-newly-published-paper-on-first-6-month-clinical-evaluation-of-its-zip-fusion-implant/',
-			nofollow: true,
-			wrap: true,
-		}, 'Aurora Spine Corporation Announces Newly Published Paper on First 6-month Clinical Evaluation of its ZIP™ Fusion Implant')
+				href: 'https://www.biospace.com/article/releases/aurora-spine-corporation-announces-newly-published-paper-on-first-6-month-clinical-evaluation-of-its-zip-fusion-implant/',
+				nofollow: true,
+				wrap: true,
+			},
+			'Aurora Spine Corporation Announces Newly Published Paper on First 6-month Clinical Evaluation of its ZIP™ Fusion Implant')
 	])
 }
 function ref5_footnote__sup_(ctx:request_ctx_T) {
@@ -195,9 +214,10 @@ function ref15_footnote__sup_(ctx:request_ctx_T) {
 		id: 'yahoo'
 	}, [
 		tb_a_({
-			href: 'https://finance.yahoo.com/news/aurora-spine-corporation-announces-newly-120000405.html?guccounter=1',
-			nofollow: true,
-			wrap: true,
-		}, 'Aurora Spine Corporation Announces Newly Published Paper on First 6-month Clinical Evaluation of its ZIP™ Fusion Implant')
+				href: 'https://finance.yahoo.com/news/aurora-spine-corporation-announces-newly-120000405.html?guccounter=1',
+				nofollow: true,
+				wrap: true,
+			},
+			'Aurora Spine Corporation Announces Newly Published Paper on First 6-month Clinical Evaluation of its ZIP™ Fusion Implant')
 	])
 }

@@ -2,7 +2,7 @@ import { kyphoplasty_spinal_fracture_treatment } from '@btakita/domain--server--
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { md__raw_ } from '@rappstack/ui--any/md'
-import { footnote__sup_ } from '@rappstack/ui--server--blog/footnote'
+import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -14,7 +14,10 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>md__raw_(`
 ## Understanding Vertebral Compression Fractures
-Vertebral compression fractures occur when the bony block or vertebral body in the spine collapses, which can lead to severe pain, deformity, and loss of height. These fractures are most common in the thoracic and lumbar regions of the spine and are often associated with osteoporosis or metastatic tumors${ref10_footnote__sup_(ctx)}${ref20_footnote__sup_(ctx)}.
+Vertebral compression fractures occur when the bony block or vertebral body in the spine collapses, which can lead to severe pain, deformity, and loss of height. These fractures are most common in the thoracic and lumbar regions of the spine and are often associated with osteoporosis or metastatic tumors${footnote__sup__sort([
+  ref10_footnote__sup_(ctx),
+	ref20_footnote__sup_(ctx),
+])}.
 
 ## Understanding Kyphoplasty
 Kyphoplasty is performed under local anesthesia or mild sedation, allowing the patient to remain awake but comfortable. The procedure involves the insertion of a balloon-like device into the fractured vertebra through a small incision in the back. Under X-ray guidance, the balloon is carefully inflated to elevate the collapsed vertebral body, attempting to return it to its original position. Once the vertebra is elevated, the balloon is deflated and removed, leaving a cavity that is then filled with a special bone cement. This cement hardens quickly, stabilizing the bone and securing it in its corrected position.
@@ -24,10 +27,26 @@ Kyphoplasty is typically performed under local anesthesia. Sedation or general a
 
 - **Small Incision:** A small incision is made in the back.
 - **Image Guidance:** Using X-ray or fluoroscopy, the surgeon guides a narrow tube into the fractured vertebra.
-- **Balloon Inflation:** A special balloon is then inserted through the tube. Gently inflated to create a cavity & restore height to the collapsed vertebra${ref4_footnote__sup_(ctx)}${ref10_footnote__sup_(ctx)}${ref11_footnote__sup_(ctx)}. This helps to create space and elevate the collapsed vertebra.
-- **Bone Cement:** After deflating & removing the balloon. The created cavity is filled with a bone cement called polymethylmethacrylate (PMMA). This cement hardens quickly, stabilizing the bone & securing it in its corrected position${ref4_footnote__sup_(ctx)}${ref10_footnote__sup_(ctx)}${ref11_footnote__sup_(ctx)}.
-- **Stabilization:** The cement hardens quickly, stabilizing the fracture & supporting the vertebral bone. securing it in its corrected position${ref4_footnote__sup_(ctx)}${ref10_footnote__sup_(ctx)}${ref11_footnote__sup_(ctx)}.
-- **Recovery:** Most patients can go home the same day as the procedure. Some patients have immediate pain relief. Others may experience a reduction in pain within a couple of days${ref4_footnote__sup_(ctx)}${ref11_footnote__sup_(ctx)}${ref19_footnote__sup_(ctx)}.
+- **Balloon Inflation:** A special balloon is then inserted through the tube. Gently inflated to create a cavity & restore height to the collapsed vertebra${footnote__sup__sort([
+  ref4_footnote__sup_(ctx),
+	ref10_footnote__sup_(ctx),
+	ref11_footnote__sup_(ctx),
+])}. This helps to create space and elevate the collapsed vertebra.
+- **Bone Cement:** After deflating & removing the balloon. The created cavity is filled with a bone cement called polymethylmethacrylate (PMMA). This cement hardens quickly, stabilizing the bone & securing it in its corrected position${footnote__sup__sort([
+  ref4_footnote__sup_(ctx),
+	ref10_footnote__sup_(ctx),
+	ref11_footnote__sup_(ctx),
+])}.
+- **Stabilization:** The cement hardens quickly, stabilizing the fracture & supporting the vertebral bone. securing it in its corrected position${footnote__sup__sort([
+  ref4_footnote__sup_(ctx),
+	ref10_footnote__sup_(ctx),
+	ref11_footnote__sup_(ctx),
+])}.
+- **Recovery:** Most patients can go home the same day as the procedure. Some patients have immediate pain relief. Others may experience a reduction in pain within a couple of days${footnote__sup__sort([
+  ref4_footnote__sup_(ctx),
+	ref11_footnote__sup_(ctx),
+	ref19_footnote__sup_(ctx),
+])}.
 
 ## The Kyphoplasty Procedure
 - **Preparation:** Patients undergo imaging tests such as X-rays or MRI. To confirm the location & severity of the fracture.
@@ -39,10 +58,20 @@ Kyphoplasty is typically performed under local anesthesia. Sedation or general a
 Kyphoplasty offers several advantages over traditional treatments for vertebral compression fractures:
 
 - **Pain Relief:** The majority of patients report significant pain relief following the procedure. The stabilized vertebra no longer compresses nerves and surrounding tissues. A major study shows significant improvements in back pain & disability${ref17_footnote__sup_(ctx)}.
-- **Improved Mobility:** Stabilizing the spine increases mobility. Patients often experience restored mobility after the procedure. Allowing patients to return to their daily activities with more comfort. Shortly after the procedure${ref14_footnote__sup_(ctx)}${ref18_footnote__sup_(ctx)}.
+- **Improved Mobility:** Stabilizing the spine increases mobility. Patients often experience restored mobility after the procedure. Allowing patients to return to their daily activities with more comfort. Shortly after the procedure${footnote__sup__sort([
+  ref14_footnote__sup_(ctx),
+	ref18_footnote__sup_(ctx),
+])}.
 - **Height Restoration:** The procedure can restore the lost vertebral height. Reducing kyphotic (hunched) posture. Beneficial for improving posture and decreasing spinal deformity.
-- **Spinal Stabilization:** By stabilizing the fracture & restoring vertebral height. Kyphoplasty can prevent further vertebral collapse & correct spinal deformities${ref4_footnote__sup_(ctx)}${ref10_footnote__sup_(ctx)}.
-- **Minimally Invasive:** Kyphoplasty has small incisions & is typically performed as an outpatient procedure. Resulting in less surgical trauma and quicker recovery times compared to open surgery${ref4_footnote__sup_(ctx)}${ref10_footnote__sup_(ctx)}${ref18_footnote__sup_(ctx)}.
+- **Spinal Stabilization:** By stabilizing the fracture & restoring vertebral height. Kyphoplasty can prevent further vertebral collapse & correct spinal deformities${footnote__sup__sort([
+  ref4_footnote__sup_(ctx),
+	ref10_footnote__sup_(ctx),
+])}.
+- **Minimally Invasive:** Kyphoplasty has small incisions & is typically performed as an outpatient procedure. Resulting in less surgical trauma and quicker recovery times compared to open surgery${footnote__sup__sort([
+  ref4_footnote__sup_(ctx),
+	ref10_footnote__sup_(ctx),
+	ref18_footnote__sup_(ctx),
+])}.
 - **Low Complication Rate:** Kyphoplasty has a lower risk of complications compared to open spine surgery.
 - **Short Recovery Time:** Patients often return home on the same day of the procedure. Quickly resuming normal activities.
 
@@ -70,7 +99,11 @@ Kyphoplasty has a high success rate. With most studies showing around a 90% succ
 Kyphoplasty is generally considered safe. As with any surgical procedure, there are potential risks and complications, including:
 
 - **Not for Everyone:** Your doctor will assess if your specific fracture type, bone quality, and overall health make you a good candidate.
-- **Potential Risks:** Like any procedure, kyphoplasty carries some risks, including cement leakage, infection, or nerve damage${ref11_footnote__sup_(ctx)}${ref16_footnote__sup_(ctx)}${ref19_footnote__sup_(ctx)}.
+- **Potential Risks:** Like any procedure, kyphoplasty carries some risks, including cement leakage, infection, or nerve damage${footnote__sup__sort([
+  ref11_footnote__sup_(ctx),
+	ref16_footnote__sup_(ctx),
+	ref19_footnote__sup_(ctx),
+])}.
 - **Temporary Relief:** While often effective, pain relief may diminish over time for some patients.
 
 ## The Role of Your Doctor

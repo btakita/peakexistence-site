@@ -2,7 +2,7 @@ import { minimally_invasive_spinal_fusion } from '@btakita/domain--server--peake
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { md__raw_ } from '@rappstack/ui--any/md'
-import { footnote__sup_ } from '@rappstack/ui--server--blog/footnote'
+import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -33,7 +33,10 @@ Minimally invasive spinal fusion techniques address the drawbacks of open spine 
 - less tissue damage
 - quicker recovery
 
-While achieving clinical outcomes comparable to open surgery${ref14_footnote__sup_(ctx)}${ref18_footnote__sup_(ctx)}. The development of MISF began with lumbar discectomy under a microscope. Since expanding to include a variety of procedures for decompression & fusion${ref14_footnote__sup_(ctx)}.
+While achieving clinical outcomes comparable to open surgery${footnote__sup__sort([
+	ref14_footnote__sup_(ctx),
+	ref18_footnote__sup_(ctx),
+])}. The development of MISF began with lumbar discectomy under a microscope. Since expanding to include a variety of procedures for decompression & fusion${ref14_footnote__sup_(ctx)}.
 
 ## Key Principles of MIS Fusion
 - **Specialized Instruments:** MIS fusion utilizes unique surgical instruments & retractors designed to work through smaller openings.
@@ -49,10 +52,22 @@ Several minimally invasive approaches exist. With your surgeon choosing the best
 - **Extreme Lateral Interbody Fusion (XLIF or DLIF):** XLIF uses a side approach. It minimizes muscle disruption and is ideal for the mid to lower spine. Often used when multiple spinal levels need fusion.
 
 ## Techniques and Technologies in MISF
-MISF employs specialized instruments, such as tubular retractors & endoscopes. To access the spine through small incisions. Using an operating microscope or endoscope equipped with a camera. Allows surgeons to visualize the surgical site. Without the need for large incisions${ref1_footnote__sup_(ctx)}<!--ref3_footnote__sup_(ctx)-->${ref5_footnote__sup_(ctx)}${ref14_footnote__sup_(ctx)}. Using advanced imaging techniques, such as fluoroscopy or computer-assisted navigation. To guide the accurate placement of hardware. Such as screws and rods, to stabilize the spine${ref10_footnote__sup_(ctx)}${ref20_footnote__sup_(ctx)}.
+MISF employs specialized instruments, such as tubular retractors & endoscopes. To access the spine through small incisions. Using an operating microscope or endoscope equipped with a camera. Allows surgeons to visualize the surgical site. Without the need for large incisions${footnote__sup__sort([
+	ref1_footnote__sup_(ctx),
+	// ref3_footnote__sup_(ctx),
+	ref5_footnote__sup_(ctx),
+	ref14_footnote__sup_(ctx),
+])}. Using advanced imaging techniques, such as fluoroscopy or computer-assisted navigation. To guide the accurate placement of hardware. Such as screws and rods, to stabilize the spine${footnote__sup__sort([
+	ref10_footnote__sup_(ctx),
+	ref20_footnote__sup_(ctx),
+])}.
 
 ## Indications for Minimally Invasive Spinal Fusion
-MISF is recommended for various spinal conditions. When nonsurgical treatments fail to provide adequate relief. Indications include${ref11_footnote__sup_(ctx)}${ref16_footnote__sup_(ctx)}${ref20_footnote__sup_(ctx)}:
+MISF is recommended for various spinal conditions. When nonsurgical treatments fail to provide adequate relief. Indications include${footnote__sup__sort([
+	ref11_footnote__sup_(ctx),
+	ref16_footnote__sup_(ctx),
+	ref20_footnote__sup_(ctx),
+])}:
 
 - herniated discs
 - spinal stenosis
@@ -65,11 +80,25 @@ The specific approach and technique used in MISF depend on the location & nature
 ## Benefits of Minimally Invasive Spinal Fusion
 The benefits of MISF over traditional open surgery are numerous:
 
-- **Reduced Tissue Trauma:** Smaller incisions and less muscle dissection lead to reduced blood loss & tissue damage${ref14_footnote__sup_(ctx)}<!--ref19_footnote__sup_(ctx)-->.
-- **Faster Recovery:** Patients typically experience a shorter hospital stay and quicker return to daily activities<!--ref6_footnote__sup_(ctx)--><!--ref7_footnote__sup_(ctx)--><!--ref17_footnote__sup_(ctx)-->.
-- **Less Postoperative Pain:** Reduced tissue trauma often results in less pain after surgery. Minimizing the need for pain medication<!--ref6_footnote__sup_(ctx)--><!--ref12_footnote__sup_(ctx)-->.
-- **Lower Infection Risk:** Smaller incisions decrease the potential for surgical site infections<!--ref19_footnote__sup_(ctx)-->.
-- **Improved Cosmetic Outcomes:** Smaller incisions result in minimal scarring<!--ref19_footnote__sup_(ctx)-->.
+- **Reduced Tissue Trauma:** Smaller incisions and less muscle dissection lead to reduced blood loss & tissue damage${footnote__sup__sort([
+	ref14_footnote__sup_(ctx),
+	// ref19_footnote__sup_(ctx),
+])}.
+- **Faster Recovery:** Patients typically experience a shorter hospital stay and quicker return to daily activities${footnote__sup__sort([
+	// ref6_footnote__sup_(ctx),
+	// ref7_footnote__sup_(ctx),
+	// ref17_footnote__sup_(ctx),
+])}.
+- **Less Postoperative Pain:** Reduced tissue trauma often results in less pain after surgery. Minimizing the need for pain medication${footnote__sup__sort([
+	// ref6_footnote__sup_(ctx),
+	// ref12_footnote__sup_(ctx),
+])}.
+- **Lower Infection Risk:** Smaller incisions decrease the potential for surgical site infections${footnote__sup__sort([
+	// ref19_footnote__sup_(ctx),
+])}.
+- **Improved Cosmetic Outcomes:** Smaller incisions result in minimal scarring${footnote__sup__sort([
+	// ref19_footnote__sup_(ctx),
+])}.
 
 ## Common Minimally Invasive Spinal Fusion Procedures
 - **Transforaminal Lumbar Interbody Fusion (TLIF):** This procedure involves unilateral access to the disc space. To remove a degenerative disc & place a fusion device${ref20_footnote__sup_(ctx)}.
@@ -77,7 +106,11 @@ The benefits of MISF over traditional open surgery are numerous:
 - **Percutaneous Pedicle Screw Fixation:** Screws & rods placed through small skin incisions to stabilize the spine. Guided by X-ray or navigation systems${ref20_footnote__sup_(ctx)}.
 
 ## Recovery and Outcomes
-Recovery from MISF varies depending on the individual patient and the extent of the surgery. Most patients can expect to return home within a few days post-surgery, with a total recovery time averaging around six weeks<!--ref17_footnote__sup_(ctx)-->. Physical therapy is often prescribed to strengthen the muscles around the spine and aid in recovery<!--ref17_footnote__sup_(ctx)-->.
+Recovery from MISF varies depending on the individual patient and the extent of the surgery. Most patients can expect to return home within a few days post-surgery, with a total recovery time averaging around six weeks${footnote__sup__sort([
+	// ref17_footnote__sup_(ctx),
+])}. Physical therapy is often prescribed to strengthen the muscles around the spine and aid in recovery${footnote__sup__sort([
+	// ref17_footnote__sup_(ctx),
+])}.
 
 ## Who is a Candidate for MIS Fusion?
 While appealing, MIS fusion is not right for everyone. Factors influencing suitability include:

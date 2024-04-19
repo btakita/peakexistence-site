@@ -2,7 +2,7 @@ import { discseel_procedure } from '@btakita/domain--server--peakexistence/featu
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { md__raw_ } from '@rappstack/ui--any/md'
-import { footnote__sup_ } from '@rappstack/ui--server--blog/footnote'
+import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -69,10 +69,18 @@ This procedure might be considered if you have:
 Recovery from the Discseel® Procedure is relatively quick. With patients encouraged to walk the same day of their treatment. Some may experience immediate pain relief. The full benefits realized as the fibrin works to promote tissue regeneration. Over several weeks to months.
 
 ## Patient Experiences
-Testimonials from patients who have undergone the Discseel® Procedure are overwhelmingly positive. Many report significant pain reduction and a return to normal activities. For instance, patients have described being able to enjoy active lifestyles again. Free from the chronic pain that once hindered them<!--ref1_footnote__sup_(ctx)--><!--ref4_footnote__sup_(ctx)-->${ref7_footnote__sup_(ctx)}${ref8_footnote__sup_(ctx)}.
+Testimonials from patients who have undergone the Discseel® Procedure are overwhelmingly positive. Many report significant pain reduction and a return to normal activities. For instance, patients have described being able to enjoy active lifestyles again. Free from the chronic pain that once hindered them${footnote__sup__sort([
+  // ref1_footnote__sup_(ctx),
+  // ref4_footnote__sup_(ctx),
+  ref7_footnote__sup_(ctx),
+	ref8_footnote__sup_(ctx)
+])}.
 
 ## The Future of Spinal Disc Treatment
-The Discseel® Procedure is considered a "disruptive technology" in the field of spine treatment. With the potential to replace traditional, less successful fusion surgeries<!--ref5_footnote__sup_(ctx)--><!--ref15_footnote__sup_(ctx)-->. It offers a solution that treats the symptoms. And addresses the underlying cause of disc-related back pain.
+The Discseel® Procedure is considered a "disruptive technology" in the field of spine treatment. With the potential to replace traditional, less successful fusion surgeries${footnote__sup__sort([
+  // ref5_footnote__sup_(ctx),
+	// ref15_footnote__sup_(ctx),
+])}. It offers a solution that treats the symptoms. And addresses the underlying cause of disc-related back pain.
 
 ## Important Considerations
 
