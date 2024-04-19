@@ -776,5 +776,3 @@ function ref11_6_footnote__sup_(ctx:request_ctx_T) {
 		}, 'Altitude Training (naturalathleteclinic)')
 	])
 }
-
-
