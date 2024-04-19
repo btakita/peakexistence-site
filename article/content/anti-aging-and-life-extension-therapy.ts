@@ -127,6 +127,34 @@ Metformin is a well-established treatment for type 2 diabetes. Its role in non-d
 #### Safety and Side Effects
 Metformin is generally considered safe & is inexpensive. Which adds to its appeal as a potential anti-aging therapy. However, it can cause side effects such as gastrointestinal upset. More rarely, it can cause vitamin B12 deficiency. Which must be carefully managed, especially in long-term use${ref3_footnote__sup_(ctx)}${ref4_footnote__sup_(ctx)}.
 
+### Genetic Engineering & Cellular Reprogramming
+Advances in genetic engineering and cellular reprogramming, hold great potential for life extension. Genetic engineering involves manipulating aging-related genes. To slow down or reverse the aging process. Showing potential to extend lifespan and health span. Cellular reprogramming, aims to change the state of cells. Offering the possibility of replacing damaged or aging cells in the body. Slowing down aging or senescence.
+
+These technologies target the fundamental processes of aging at the genetic and cellular levels. Transforming the way we approach age-related diseases and longevity${ref_g1_1_footnote__sup_(ctx)}${ref_g1_3_footnote__sup_(ctx)}${ref_g1_5_footnote__sup_(ctx)}${ref_g1_6_footnote__sup_(ctx)}${ref_g1_7_footnote__sup_(ctx)}${ref_g1_8_footnote__sup_(ctx)}.
+
+#### Cellular Reprogramming
+Cellular Reprogramming involves resetting the epigenetic state of cells. To revert them to a younger state. With the goal of reversing cellular aging & restoring function. It is based on the use of factors like the Yamanaka factors (OCT4, SOX2, KLF4, and sometimes c-MYC). To induce pluripotency or a stem cell-like state in cells. Which can then renew and repair tissues more effectively${ref_g1_1_footnote__sup_(ctx)}${ref_g1_3_footnote__sup_(ctx)}${ref_g1_6_footnote__sup_(ctx)}${ref_g1_7_footnote__sup_(ctx)}.
+
+#### Gene Therapy
+Genetic engineering in anti-aging involves the use of gene therapy techniques. Such as recombinant adeno-associated viruses. To deliver genes that can counteract aging processes. For example, using overexpression of certain genes like SIRT6. Or introducing the aging suppressor gene Klotho. Have beneficial effects on lifespan & healthspan in animal models${ref_g1_1_footnote__sup_(ctx)}.
+
+#### Epigenetic Reprogramming
+This approach targets the epigenome. Which comprises chemical modifications on DNA & proteins that regulate gene activity. Researchers aim to restore a more youthful gene expression profile. By reversing epigenetic changes associated with aging. Potentially reversing signs of aging and improving health${ref_g1_7_footnote__sup_(ctx)}${ref_g1_8_footnote__sup_(ctx)}.
+
+#### Stem Cell Therapies
+The application of stem cell therapeutics aims to delay the aging process. By improving cures for diseases & extending human life. Stem cells have regenerative capabilities that to repair or replace damaged tissues. Combating age-related decline${ref_g1_5_footnote__sup_(ctx)}.
+
+#### Research and Development
+Ongoing research explores the potential of using:
+
+- human-induced pluripotent stem cells (iPSCs)
+- transdifferentiated cells
+
+To model human aging and identify anti-aging drugs. These cellular models can advance our understanding of the aging process. Helping with the development of interventions${ref_g1_6_footnote__sup_(ctx)}.
+
+#### Potential for Clinical Application
+While much of the current research is in preclinical stages or animal models. There is significant interest in translating these findings into human therapies. Developing interventions that reverse age-related changes. Extending both lifespan & healthspan${ref_g1_3_footnote__sup_(ctx)}${ref_g1_7_footnote__sup_(ctx)}.
+
 ## Ethical and Social Considerations
 As with any rapidly advancing field. Anti-aging & life extension therapies raise important ethical & social questions. Issues need to be thoughtfully addressed such as${ref4_footnote__sup_(ctx)}${ref8_footnote__sup_(ctx)}:
 
@@ -404,5 +432,78 @@ function ref_m2_9_footnote__sup_(ctx:request_ctx_T) {
 		}, 'Will Metformin Become the First Anti-Aging Drug?')
 	])
 }
+function ref_g1_1_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'mdpi_g1_1'
+	}, [
+		tb_a_({
+			href: 'https://www.mdpi.com/1422-0067/25/1/643',
+			nofollow: true,
+			wrap: true,
+		}, 'Eternal Youth: A Comprehensive Exploration of Gene, Cellular, and Pharmacological Anti-Aging Strategies')
+	])
+}
+function ref_g1_3_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'nih_g1_3'
+	}, [
+		tb_a_({
+			href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10909732/',
+			nofollow: true,
+			wrap: true,
+		}, 'Gene Therapy-Mediated Partial Reprogramming Extends Lifespan and Reverses Age-Related Changes in Aged Mice')
+	])
+}
+function ref_g1_5_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'nih_g1_5'
+	}, [
+		tb_a_({
+			href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5763529/',
+			nofollow: true,
+			wrap: true,
+		}, 'Stem cells and anti-aging genes: double-edged sword—do the same job of life extension')
+	])
+}
+function ref_g1_6_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'nature_g1_6'
+	}, [
+		tb_a_({
+			href: 'https://www.nature.com/articles/s41467-024-46004-5',
+			nofollow: true,
+			wrap: true,
+		}, 'Cellular reprogramming as a tool to model human aging in a dish')
+	])
+}
+function ref_g1_7_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'science_g1_7'
+	}, [
+		tb_a_({
+			href: 'https://www.science.org/content/article/two-research-teams-reverse-signs-aging-mice',
+			nofollow: true,
+			wrap: true,
+		}, 'Two research teams reverse signs of aging in mice')
+	])
+}
+function ref_g1_8_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'sciencedirect_g1_8'
+	}, [
+		tb_a_({
+			href: 'https://www.sciencedirect.com/science/article/pii/S1568163724000229',
+			nofollow: true,
+			wrap: true,
+		}, 'Epigenetic reprogramming as a key to reverse ageing and increase longevity')
+	])
+}
+
 
 
