@@ -77,6 +77,35 @@ The benefits extend beyond physiological adaptations. Altitude training can also
 
 As athletes learn to perform under challenging conditions${ref16_footnote__sup_(ctx)}${ref17_footnote__sup_(ctx)}.
 
+### Increased Red Blood Cell Production
+High altitude training stimulates the production of erythropoietin (EPO). Which in turn increases the production of red blood cells. This adaptation enhances the oxygen-carrying capacity of the blood. Improving aerobic performance & endurance when the athlete returns to lower altitudes${ref10_8_footnote__sup_(ctx)}${ref8_6_footnote__sup_(ctx)}${ref11_1_footnote__sup_(ctx)}${ref11_2_footnote__sup_(ctx)}${ref11_3_footnote__sup_(ctx)}${ref8_8_footnote__sup_(ctx)}${ref8_1_footnote__sup_(ctx)}${ref11_6_footnote__sup_(ctx)}.
+
+### Improved Aerobic Capacity (VO2 max)
+Training at high altitudes can increase VO2 max. Which is the maximum amount of oxygen the body can utilize during intense exercise. This improvement is due to the body adapting to the lower oxygen levels at high altitudes. Which forces the cardiovascular system to become more efficient${ref8_6_footnote__sup_(ctx)}${ref11_3_footnote__sup_(ctx)}${ref8_8_footnote__sup_(ctx)}.
+
+### Increased Oxygen Efficiency
+Training in a hypoxic environment can lead to increased oxygen efficiency. Allowing for a significant performance boost when returning to lower altitudes${ref11_3_footnote__sup_(ctx)}.
+
+### Enhanced Lung Function
+The lower oxygen levels at high altitudes make the lungs work harder. Which can lead to:
+
+- an increase in lung capacity
+- the strengthening of respiratory muscles
+
+This adaptation helps in maximizing every breath & improving the overall respiratory efficiency${ref10_8_footnote__sup_(ctx)}.
+
+### Enhanced Mental Resilience
+The challenging conditions at high altitudes can also strengthen mental resilience. Athletes training at high altitudes often develop a stronger mental & emotional approach. To cope with the reduced oxygen supply. which can be beneficial in competitive situations${ref10_8_footnote__sup_(ctx)}.
+
+### Accelerated Recovery & Adaptation
+High altitude training can accelerate recovery & adaptation processes. With increased red blood cell production aiding in muscle repair & recovery${ref11_3_footnote__sup_(ctx)}.
+
+### Increased Muscular Endurance & Strength
+The scarcity of oxygen at high altitudes forces the muscles to adapt & become more efficient. This can lead to increased muscular endurance & strength. Which are crucial for performance in endurance sports${ref10_8_footnote__sup_(ctx)}${ref8_1_footnote__sup_(ctx)}.
+
+### Accelerated Recovery & Reduced Inflammation
+High altitude training can increase the lactate threshold. Increasing the body's tolerance to lactic acid. Enabling athletes to perform for longer periods before experiencing muscle fatigue${ref8_1_footnote__sup_(ctx)}. Which means athletes can recover faster & experience less tissue inflammation after intense workouts${ref10_8_footnote__sup_(ctx)}.
+
 ## Who Might Benefit Most
 Altitude training is primarily geared toward endurance athletes like:
 
@@ -685,6 +714,66 @@ function ref9_8_footnote__sup_(ctx:request_ctx_T) {
 			nofollow: true,
 			wrap: true,
 		}, 'Living at high altitude reduces risk of dying from heart disease: Low oxygen may spur genes to create blood vessels')
+	])
+}
+function ref10_8_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'mtntough'
+	}, [
+		tb_a_({
+			href: 'https://mtntough.com/blogs/mtntough-blog/altitude-training-benefits',
+			nofollow: true,
+			wrap: true,
+		}, 'Top 7 Benefits of Altitude Training for Mountain Athletes')
+	])
+}
+function ref11_1_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'webmd'
+	}, [
+		tb_a_({
+			href: 'https://www.webmd.com/fitness-exercise/what-to-know-elevation-training',
+			nofollow: true,
+			wrap: true,
+		}, 'What to Know About Elevation Training')
+	])
+}
+function ref11_2_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'activeataltitude'
+	}, [
+		tb_a_({
+			href: 'https://activeataltitude.com/explore-2/benefits-of-altitude/',
+			nofollow: true,
+			wrap: true,
+		}, 'Benefits of altitude')
+	])
+}
+function ref11_3_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'unchartedsupplyco'
+	}, [
+		tb_a_({
+			href: 'https://unchartedsupplyco.com/blogs/the-four-pillars/the-benefits-and-ow-to-stay-safe-while-training-at-high-altitude',
+			nofollow: true,
+			wrap: true,
+		}, 'How to Reap the Benefits and Stay Safe while Training at High-Altitude')
+	])
+}
+function ref11_6_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'naturalathleteclinic'
+	}, [
+		tb_a_({
+			href: 'https://www.naturalathleteclinic.com/blogs/natural-athlete-solutions/altitude-training',
+			nofollow: true,
+			wrap: true,
+		}, 'Altitude Training (naturalathleteclinic)')
 	])
 }
 
