@@ -80,38 +80,69 @@ Lifestyle choices play a significant role in aging. Impacting one's biological a
 - avoiding harmful habits like smoking
 
 ### Pharmacological Interventions
-Drugs like metformin & rapamycin are being studied for their potential to extend lifespan. By mimicking the effects of calorie restriction. A well-known mechanism associated with longer life spans in various organisms${ref9_footnote__sup_(ctx)}.
+Drugs like Metformin & Rapamycin are being studied for their potential to extend lifespan. By mimicking the effects of calorie restriction. A well-known mechanism associated with longer life spans in various organisms${ref9_footnote__sup_(ctx)}.
 
-## Metformin
+### Metformin
 Metformin, a drug used to treat type 2 diabetes, shows promise in extending human life. Studies suggest that Metformin may have anti-aging properties. Mimicking the longevity benefits of calorie restriction. By reducing oxidative stress and inflammation, both critical factors in the aging process.
 
-### Mechanism of Action
-Metformin enhances cellular enzymes that mimic the longevity benefits of calorie restriction. A well-known strategy for extending lifespan in various organisms. This action primarily involves${ref_m1_footnote__sup_(ctx)}${ref_m2_footnote__sup_(ctx)}${ref_m4_footnote__sup_(ctx)}${ref_m5_footnote__sup_(ctx)}:
+#### Benefits of Metformin for Anti-Aging & Life Extension Therapy
+
+##### Reduced Inflammation and Oxidative Stress
+Metformin reduces inflammatory responses & oxidative stress. Which are key contributors to aging & age-related diseases. This reduction can slow down the aging process & extend healthspan${ref_m2_1_footnote__sup_(ctx)}${ref_m2_2_footnote__sup_(ctx)}${ref_m2_8_footnote__sup_(ctx)}.
+
+##### Enhanced Insulin Sensitivity
+Metformin improves insulin sensitivity & glucose metabolism. Which are crucial for preventing age-related metabolic diseases such as type 2 diabetes. By regulating metabolism, metformin may help maintain youthful cellular function & delay aging${ref_m2_2_footnote__sup_(ctx)}${ref_m2_9_footnote__sup_(ctx)}.
+
+##### Decreased Risk of Cardiovascular Disease
+Studies associate Metaformin with:
+
+- a lower incidence of cardiac events
+- reduced mortality from cardiovascular diseases
+
+This suggests that metformin contributes to a healthier, longer life. Protecting heart health${ref_m2_2_footnote__sup_(ctx)}.
+
+##### Lower Incidence of Cancer
+Metformin links to a reduced diagnosis of cancer. And lower cancer mortality rates among patients. This protective effect against cancer supports its role in extending life expectancy. Improving overall health${ref_m2_2_footnote__sup_(ctx)}.
+
+##### Neuroprotective Effects
+Some research suggests that metformin offers protection against neurodegenerative diseases like Alzheimer's & Parkinson's. By mediating inflammation & protecting against protein damage${ref_m2_2_footnote__sup_(ctx)}.
+
+##### Slowing Cellular Senescence
+Metformin has been observed to delay cellular senescence in studies. Reducing the impact of aged cells on overall health. This could help maintain organ function and delay the onset of age-related diseases${ref_m2_2_footnote__sup_(ctx)}.
+
+##### Promotion of Longevity Pathways
+Metformin activates pathways such as AMP-activated protein kinase (AMPK). Which is involved in energy balance & can mimic the effects of calorie restriction. A well-known strategy linked to longevity${ref_m2_1_footnote__sup_(ctx)}${ref_m2_9_footnote__sup_(ctx)}.
+
+##### All-Cause Mortality Reduction
+Metformin use associates with lower all-cause mortality. Suggesting that it has broad benefits for extending life span & enhancing healthspan${ref_m2_2_footnote__sup_(ctx)}${ref_m2_7_footnote__sup_(ctx)}.
+
+#### Mechanism of Action
+Metformin enhances cellular enzymes that mimic the longevity benefits of calorie restriction. A well-known strategy for extending lifespan in various organisms. This action primarily involves${ref_m1_1_footnote__sup_(ctx)}${ref_m1_2_footnote__sup_(ctx)}${ref_m1_4_footnote__sup_(ctx)}${ref_m1_5_footnote__sup_(ctx)}:
 
 - improving insulin sensitivity
 - reducing oxidative stress
 - enhancing mitochondrial function
 
-### Clinical Studies and Trials
+#### Clinical Studies and Trials
 The drug is currently under investigation in several clinical trials. To determine its efficacy in extending life & improving healthspan. Notably, the Targeting Aging with Metformin (TAME) trial is a significant study that plans to enroll 3,000 individuals aged 65–79. To assess whether Metformin can delay the onset of age-related diseases such as:
 
 - stroke
 - heart failure
 - cancer
 
-This trial aims to provide a more granular understanding of Metformin's effects on the aging process in humans${ref_m3_footnote__sup_(ctx)}.
+This trial aims to provide a more granular understanding of Metformin's effects on the aging process in humans${ref_m1_3_footnote__sup_(ctx)}.
 
-### Preliminary Findings
-Early studies & preliminary data suggest that Metformin may induce anti-aging transcriptional changes in humans. Although the results remain controversial. Some studies have shown that Metformin can improve markers of healthspan. Such as reducing early mortality associated with various diseases, including${ref_m4_footnote__sup_(ctx)}${ref_m5_footnote__sup_(ctx)}:
+#### Preliminary Findings
+Early studies & preliminary data suggest that Metformin may induce anti-aging transcriptional changes in humans. Although the results remain controversial. Some studies have shown that Metformin can improve markers of healthspan. Such as reducing early mortality associated with various diseases, including${ref_m1_4_footnote__sup_(ctx)}${ref_m1_5_footnote__sup_(ctx)}:
 
 - diabetes
 - cardiovascular disease
 - possibly cancer
 
-### Usage Among Non-Diabetics
-Metformin is a well-established treatment for type 2 diabetes. Its role in non-diabetics for anti-aging purposes is less clear. There is ongoing research to determine whether the general population can benefit from Metformin. In the same way diabetics do. With some early evidence suggesting potential health benefits${ref_m5_footnote__sup_(ctx)}.
+#### Usage Among Non-Diabetics
+Metformin is a well-established treatment for type 2 diabetes. Its role in non-diabetics for anti-aging purposes is less clear. There is ongoing research to determine whether the general population can benefit from Metformin. In the same way diabetics do. With some early evidence suggesting potential health benefits${ref_m1_5_footnote__sup_(ctx)}.
 
-### Safety and Side Effects
+#### Safety and Side Effects
 Metformin is generally considered safe & is inexpensive. Which adds to its appeal as a potential anti-aging therapy. However, it can cause side effects such as gastrointestinal upset. More rarely, it can cause vitamin B12 deficiency. Which must be carefully managed, especially in long-term use${ref3_footnote__sup_(ctx)}${ref4_footnote__sup_(ctx)}.
 
 ## Ethical and Social Considerations
@@ -271,10 +302,10 @@ function ref16_footnote__sup_(ctx:request_ctx_T) {
 		}, 'Anti-Aging & Life Extension')
 	])
 }
-function ref_m1_footnote__sup_(ctx:request_ctx_T) {
+function ref_m1_1_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
-		id: 'lifeextension_m1'
+		id: 'lifeextension_m1_1'
 	}, [
 		tb_a_({
 			href: 'https://www.lifeextension.com/magazine/2016/3/anti-aging-human-study-on-metformin-wins-fda-approval',
@@ -283,7 +314,7 @@ function ref_m1_footnote__sup_(ctx:request_ctx_T) {
 		}, 'Anti-Aging Human Study on Metformin Wins FDA Approval')
 	])
 }
-function ref_m2_footnote__sup_(ctx:request_ctx_T) {
+function ref_m1_2_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
 		id: 'fortune'
@@ -295,10 +326,10 @@ function ref_m2_footnote__sup_(ctx:request_ctx_T) {
 		}, 'One of the cheapest diabetes drugs on the market can also slow aging and extend your life span. Here’s how')
 	])
 }
-function ref_m3_footnote__sup_(ctx:request_ctx_T) {
+function ref_m1_3_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
-		id: 'nih_m3'
+		id: 'nih_m1_3'
 	}, [
 		tb_a_({
 			href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6779524/',
@@ -307,7 +338,7 @@ function ref_m3_footnote__sup_(ctx:request_ctx_T) {
 		}, 'Metformin as Anti-Aging Therapy: Is It for Everyone?')
 	])
 }
-function ref_m4_footnote__sup_(ctx:request_ctx_T) {
+function ref_m1_4_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
 		id: 'frontiersin'
@@ -319,16 +350,76 @@ function ref_m4_footnote__sup_(ctx:request_ctx_T) {
 		}, 'A Critical Review of the Evidence That Metformin Is a Putative Anti-Aging Drug That Enhances Healthspan and Extends Lifespan')
 	])
 }
-function ref_m5_footnote__sup_(ctx:request_ctx_T) {
+function ref_m1_5_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
 		id: 'harvard'
 	}, [
+	tb_a_({
+		href: 'https://www.health.harvard.edu/blog/is-metformin-a-wonder-drug-202109222605',
+		nofollow: true,
+		wrap: true,
+	}, 'Is metformin a wonder drug?')
+])
+}
+function ref_m2_1_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'nih2_1'
+	}, [
 		tb_a_({
-			href: 'https://www.health.harvard.edu/blog/is-metformin-a-wonder-drug-202109222605',
+			href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8965502/',
 			nofollow: true,
 			wrap: true,
-		}, 'Is metformin a wonder drug?')
+		}, 'Metformin in aging and aging-related diseases: clinical applications and relevant mechanisms')
+	])
+}
+function ref_m2_2_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'insidetracker'
+	}, [
+		tb_a_({
+			href: 'https://www.insidetracker.com/a/articles/does-metformin-work-as-an-anti-aging-drug',
+			nofollow: true,
+			wrap: true,
+		}, 'Does Metformin Work as an Anti-Aging Drug?')
+	])
+}
+function ref_m2_7_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'everydayhealth'
+	}, [
+		tb_a_({
+			href: 'https://www.everydayhealth.com/longevity/could-the-diabetes-drug-metformin-slow-the-aging-process/',
+			nofollow: true,
+			wrap: true,
+		}, 'Could the Diabetes Drug Metformin Slow the Aging Process?')
+	])
+}
+function ref_m2_8_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'abc7'
+	}, [
+		tb_a_({
+			href: 'https://abc7.com/metformin-diabetes-health-benefits-longevity/14087273/',
+			nofollow: true,
+			wrap: true,
+		}, 'Popular diabetes drug Metformin has other health benefits like anti-aging effects, researches say')
+	])
+}
+function ref_m2_9_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'lifeextension_m2_9'
+	}, [
+		tb_a_({
+			href: 'https://www.lifeextension.com/magazine/2017/4/metformin-slashes-cancer-risks',
+			nofollow: true,
+			wrap: true,
+		}, 'Will Metformin Become the First Anti-Aging Drug?')
 	])
 }
 
