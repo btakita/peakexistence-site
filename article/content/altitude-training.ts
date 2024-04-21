@@ -4,6 +4,7 @@ import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { li_, ul_ } from 'relementjs/html'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...altitude_training,
@@ -69,19 +70,24 @@ As the practice remains popular among endurance sports${footnote__sup__sort([
 ])}.
 
 ## How Altitude Training Works
-- **The Challenge:** At higher altitudes, there's less atmospheric pressure. Meaning fewer oxygen molecules available with each breath.
-- **The Body Adapts:** To compensate for the lack of oxygen, the body undergoes changes, including:
-	- Increased red blood cell production to carry more oxygen.
-	- Enhanced oxygen delivery to muscles.
-	- Changes in how the body utilizes oxygen at a cellular level.
+|||
+|-|-|
+| **The Challenge** | At higher altitudes, there's less atmospheric pressure. Meaning fewer oxygen molecules available with each breath. |
+| **The Body Adapts** | To compensate for the lack of oxygen, the body undergoes changes, including:${ul_([
+	li_(`Increased red blood cell production to carry more oxygen.`),
+	li_(`Enhanced oxygen delivery to muscles.`),
+	li_(`Changes in how the body utilizes oxygen at a cellular level.`),
+])}|
 
 ## Methods of Altitude Training
 Altitude training methodologies vary. Each with its unique approach to integrating hypoxic exposure into an athlete's regimen. The three primary strategies are:
 
-- **Live High-Train Low (LHTL):** Athletes live at high altitudes to experience chronic hypoxic exposure. While training at lower altitudes to maintain training intensity. This method is widely regarded as the most effective. Allowing athletes to reap the benefits of increased red blood cell count. While avoiding the performance detriments of training in a hypoxic environment${ref19_footnote__sup_(ctx)}.
-- **Live High-Train High (LHTH):** This approach involves both living & training at high altitudes. While it offers maximum hypoxic exposure, it may limit training intensity. Due to the reduced oxygen availability. Leading to suboptimal training outcomes${ref19_footnote__sup_(ctx)}.
-- **Live Low-Train High (LLTH):** Athletes live at sea level but train in hypoxic conditions. Either by using altitude chambers or training at high altitudes. This method aims to acclimate athletes to hypoxia. Without the logistical challenges of residing at high altitudes${ref19_footnote__sup_(ctx)}.
-- **Intermittent Hypoxic Training (IHT):** IHT involves breathing low-oxygen air for short periods. Often during rest or specific training sessions at sea level.
+|||
+|-|-|
+| **Live High-Train Low (LHTL)** | Athletes live at high altitudes to experience chronic hypoxic exposure. While training at lower altitudes to maintain training intensity. This method is widely regarded as the most effective. Allowing athletes to reap the benefits of increased red blood cell count. While avoiding the performance detriments of training in a hypoxic environment${ref19_footnote__sup_(ctx)}. |
+| **Live High-Train High (LHTH)** | This approach involves both living & training at high altitudes. While it offers maximum hypoxic exposure, it may limit training intensity. Due to the reduced oxygen availability. Leading to suboptimal training outcomes${ref19_footnote__sup_(ctx)}. |
+| **Live Low-Train High (LLTH)** | Athletes live at sea level but train in hypoxic conditions. Either by using altitude chambers or training at high altitudes. This method aims to acclimate athletes to hypoxia. Without the logistical challenges of residing at high altitudes${ref19_footnote__sup_(ctx)}. |
+| **Intermittent Hypoxic Training (IHT)** | IHT involves breathing low-oxygen air for short periods. Often during rest or specific training sessions at sea level. |
 
 ## Benefits of Altitude Training
 The primary benefit of altitude training is the enhanced aerobic capacity. Attributed to the increased red blood cell mass & improved oxygen delivery mechanisms. Athletes may also experience improvements in:

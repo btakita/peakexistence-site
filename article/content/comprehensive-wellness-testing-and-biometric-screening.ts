@@ -4,9 +4,7 @@ import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
-import { raw_ } from 'relementjs'
 import { li_, ul_ } from 'relementjs/html'
-import { style_ } from 'relementjs/svg'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...comprehensive_wellness_testing_and_biometric_screening,
@@ -15,7 +13,6 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>md__raw_(`
-${style_(raw_(`table tbody tr td:first-child{white-space:nowrap;}`))}
 ## Taking Charge: A Guide to Comprehensive Wellness Testing & Biometric Screening
 Comprehensive wellness testing & biometric screening. Your guide to gain deeper insights into your health. These tools provide a snapshot of one's current health status. And offer a roadmap for making informed lifestyle choices and preventive measures. Taking a proactive approach to your health is more important than ever. Comprehensive wellness testing and screening empowers your journey towards optimal well-being.
 

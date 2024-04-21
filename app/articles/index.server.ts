@@ -1,4 +1,5 @@
 import '../index.css'
+import './index.css'
 import { post__doc_html_, posts__doc_html_ } from '@btakita/ui--server--peakexistence/post'
 import { page_num_ } from '@rappstack/domain--server--blog/page'
 import { blog_post_slug_or_page_num__set } from '@rappstack/domain--server--blog/post'
