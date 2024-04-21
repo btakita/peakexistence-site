@@ -4,6 +4,9 @@ import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { raw_ } from 'relementjs'
+import { li_, ul_ } from 'relementjs/html'
+import { style_ } from 'relementjs/svg'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...comprehensive_wellness_testing_and_biometric_screening,
@@ -12,6 +15,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>md__raw_(`
+${style_(raw_(`table tbody tr td:first-child{white-space:nowrap;}`))}
 ## Taking Charge: A Guide to Comprehensive Wellness Testing & Biometric Screening
 Comprehensive wellness testing & biometric screening. Your guide to gain deeper insights into your health. These tools provide a snapshot of one's current health status. And offer a roadmap for making informed lifestyle choices and preventive measures. Taking a proactive approach to your health is more important than ever. Comprehensive wellness testing and screening empowers your journey towards optimal well-being.
 
@@ -71,44 +75,39 @@ Biometric screening is a clinical process conducted in the clinic or workplace. 
   ref_s1_17_footnote__sup_(ctx), // thyroid
 ])}:
 
-- **Blood tests**: A comprehensive metabolic panel (CMP) and complete blood count (CBC). Assessing organ function, blood cell health, and potential risk factors for various conditions${footnote__sup__sort([
+|                       |  |
+|-----------------------|--|
+| **Blood tests**       | A comprehensive metabolic panel (CMP) and complete blood count (CBC). Assessing organ function, blood cell health, and potential risk factors for various conditions. Assessing${footnote__sup__sort([
   ref4_footnote__sup_(ctx),
-	ref_i1_1_footnote__sup_(ctx),
-	ref_i1_3_footnote__sup_(ctx),
-])}.
-- **Urine tests**: Can reveal signs of infection, kidney function, and diabetes${footnote__sup__sort([
+  ref_i1_1_footnote__sup_(ctx),
+  ref_i1_3_footnote__sup_(ctx),
+])}:${ul_([
+	li_('organ function'),
+	li_('blood cell health'),
+	li_('blood pressure'),
+	li_('blood glucose levels'),
+	li_('potential risk factors for various conditions'),
+])} |
+| **Urine tests**       | Can reveal signs of infection, kidney function, and diabetes${footnote__sup__sort([
   ref4_footnote__sup_(ctx),
   ref_i1_3_footnote__sup_(ctx),
-])}.
-- **Cholesterol tests**: Measures different types of cholesterol (LDL, HDL) to assess heart disease risk${footnote__sup__sort([
+])}. |
+| **Cholesterol tests** | Measures different types of cholesterol (LDL, HDL, triglycerides) to assess heart disease risk${footnote__sup__sort([
   ref4_footnote__sup_(ctx),
   ref_i1_2_footnote__sup_(ctx),
-])}.
-- **Thyroid screening**: Checks thyroid function, which can impact metabolism and energy levels${footnote__sup__sort([
+])}. |
+| **Thyroid screening** | Checks thyroid function, which can impact metabolism and energy levels${footnote__sup__sort([
   ref4_footnote__sup_(ctx),
   ref_i1_3_footnote__sup_(ctx),
-])}.
-- **Vitamin D tests**: Vitamin D deficiency is linked to various health concerns${footnote__sup__sort([
+])}.|
+| **Vitamin D tests**   | Vitamin D deficiency is linked to various health concerns${footnote__sup__sort([
   ref4_footnote__sup_(ctx),
   ref_i1_3_footnote__sup_(ctx),
-])}.
-- **Additional tests**: Depending on your age, gender, and health history. Further tests like STD screenings or bone density scans assess areas of improvement${footnote__sup__sort([
+])}. |
+| **Additional tests**  | Depending on your age, gender, & health history. Further tests like STD screenings or bone density scans assess areas of improvement${footnote__sup__sort([
   ref4_footnote__sup_(ctx),
   ref_i1_3_footnote__sup_(ctx),
-])}.
-
-- **Blood tests**: A comprehensive metabolic panel (CMP) and complete blood count (CBC). Assessing:
-	- organ function
-	- blood cell health
-	- blood pressure
-	- blood glucose levels
-	- potential risk factors for various conditions.
-- **Urine tests**: Can reveal signs of infection, kidney function, and diabetes.
-- **Cholesterol tests**: Measure different types of cholesterol (LDL, HDL, triglycerides) to assess heart disease risk.
-- **Thyroid screening**: Checks thyroid function, which can impact metabolism and energy levels.
-- **Vitamin D tests**: Vitamin D deficiency links to health concerns such as bone pain, muscle weakness, & more.
-- body mass index (BMI)
-- **Additional tests**: Depending on your age, gender, and health history. Further tests like STD screenings or bone density scans assess areas of improvement.
+])}. |
 
 These screenings are quick, usually taking about 10-15 minutes. Providing immediate feedback on an employee's health status. The primary aim is to establish a health baseline. That can be used to monitor changes over time. Identifying risk factors for chronic diseases like${footnote__sup__sort([
   ref1_footnote__sup_(ctx),
@@ -121,9 +120,11 @@ These screenings are quick, usually taking about 10-15 minutes. Providing immedi
 - cardiovascular conditions
 
 ## Benefits of Comprehensive Wellness Testing:
-- **Personalized Healthcare**: Test results help your doctor tailor preventive measures and treatment plans for you.
-- **Proactive Management**: By understanding your risk factors. You can make informed lifestyle choices to improve your overall health.
-- **Peace of Mind**: Knowing your health status can reduce anxiety. Empowering you to take charge of your well-being.
+| | |
+|-|-|
+| **Personalized Healthcare** | Test results help your doctor tailor preventive measures and treatment plans for you. |
+| **Proactive Management**    | By understanding your risk factors. You can make informed lifestyle choices to improve your overall health. |
+| **Peace of Mind**           | Knowing your health status can reduce anxiety. Empowering you to take charge of your well-being. |
 
 ## Considering Comprehensive Wellness Testing?
 Here's what to keep in mind:
