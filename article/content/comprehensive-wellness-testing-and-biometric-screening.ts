@@ -77,7 +77,7 @@ Biometric screening is a clinical process conducted in the clinic or workplace. 
 
 |                       |  |
 |-----------------------|--|
-| **Blood tests**       | A comprehensive metabolic panel (CMP) and complete blood count (CBC). Assessing organ function, blood cell health, and potential risk factors for various conditions. Assessing${footnote__sup__sort([
+| **Blood tests**       | A comprehensive metabolic panel (CMP) & complete blood count (CBC). Assessing organ function, blood cell health, & potential risk factors for various conditions. Assessing${footnote__sup__sort([
   ref4_footnote__sup_(ctx),
   ref_i1_1_footnote__sup_(ctx),
   ref_i1_3_footnote__sup_(ctx),
@@ -88,7 +88,7 @@ Biometric screening is a clinical process conducted in the clinic or workplace. 
 	li_('blood glucose levels'),
 	li_('potential risk factors for various conditions'),
 ])} |
-| **Urine tests**       | Can reveal signs of infection, kidney function, and diabetes${footnote__sup__sort([
+| **Urine tests**       | Can reveal signs of infection, kidney function, & diabetes${footnote__sup__sort([
   ref4_footnote__sup_(ctx),
   ref_i1_3_footnote__sup_(ctx),
 ])}. |
@@ -96,7 +96,7 @@ Biometric screening is a clinical process conducted in the clinic or workplace. 
   ref4_footnote__sup_(ctx),
   ref_i1_2_footnote__sup_(ctx),
 ])}. |
-| **Thyroid screening** | Checks thyroid function, which can impact metabolism and energy levels${footnote__sup__sort([
+| **Thyroid screening** | Checks thyroid function, which can impact metabolism & energy levels${footnote__sup__sort([
   ref4_footnote__sup_(ctx),
   ref_i1_3_footnote__sup_(ctx),
 ])}.|
@@ -122,24 +122,26 @@ These screenings are quick, usually taking about 10-15 minutes. Providing immedi
 ## Benefits of Comprehensive Wellness Testing:
 | | |
 |-|-|
-| **Personalized Healthcare** | Test results help your doctor tailor preventive measures and treatment plans for you. |
+| **Personalized Healthcare** | Test results help your doctor tailor preventive measures & treatment plans for you. |
 | **Proactive Management**    | By understanding your risk factors. You can make informed lifestyle choices to improve your overall health. |
 | **Peace of Mind**           | Knowing your health status can reduce anxiety. Empowering you to take charge of your well-being. |
 
 ## Considering Comprehensive Wellness Testing?
 Here's what to keep in mind:
 
-- **Consult your doctor**: Discuss your health goals and risk factors. To determine if comprehensive testing is right for you.
-- **Understand the options**: Different labs and providers offer various testing panels. Research and choose one that aligns with your needs.
-- **Review costs and insurance coverage**: Testing costs can vary. Investigate insurance coverage to understand your financial responsibility.
-- **Interpreting results**: Don't panic if you see abnormal results. Discuss them with your doctor to determine the next steps.
+| | |
+|-|-|
+| **Consult your doctor** | Discuss your health goals & risk factors. To determine if comprehensive testing is right for you. |
+| **Understand the options** | Different labs & providers offer various testing panels. Research & choose one that aligns with your needs. |
+| **Review costs & insurance coverage** | Testing costs can vary. Investigate insurance coverage to understand your financial responsibility. |
+| **Interpreting results** | Don't panic if you see abnormal results. Discuss them with your doctor to determine the next steps. |
 
-**Comprehensive wellness testing and screening is an investment in your long-term health. By taking a proactive approach, you can:**
+**Comprehensive wellness testing & screening is an investment in your long-term health. By taking a proactive approach, you can:**
 - **gain valuable insights**
 - **empower yourself with knowledge**
 - **work with your doctor to create a personalized path to optimal well-being**
 
-**Remember, this article provides general information and shouldn't replace seeking professional medical advice.**
+**Remember, this article provides general information & shouldn't replace seeking professional medical advice.**
 `)
 function ref1_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
