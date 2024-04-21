@@ -10,7 +10,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## Why Exercise with Detox Therapy?
 
 Exercise and detoxification are both essential elements in maintaining a healthy lifestyle. When combined, their effects can be more transformative.

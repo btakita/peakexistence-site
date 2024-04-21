@@ -9,7 +9,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## Key Benefits of Exercise with Ketamine Infusions
 
 Enhanced Mood and Motivation. Ketamine has shown promise in alleviating symptoms of depression and anxiety. Ketamine with exercise can elevate mood and motivation. Making workouts more enjoyable and rewarding.

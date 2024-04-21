@@ -8,7 +8,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 An Intercostal Nerve Block is a non-surgical procedure. A simple injection. It targets pain. This pain stems from the chest or upper abdominal area. Doctors use this block to diagnose or treat pain.
 
 ## What Is It?

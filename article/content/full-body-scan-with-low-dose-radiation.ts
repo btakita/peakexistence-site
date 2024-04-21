@@ -9,7 +9,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## What is a Full Body Scan?
 A full body scan is a sophisticated medical imaging technique. It employs low-dose radiation to craft detailed visuals. Of the internal architecture of the human body, encompassing bones, organs, and tissues. The brilliance lies in its "low-dose" approach. Balancing minimal radiation exposure with the acquisition of high-quality images.
 

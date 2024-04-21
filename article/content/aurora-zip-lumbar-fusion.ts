@@ -12,7 +12,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## Understanding the Aurora ZIP™ Procedure
 The Aurora ZIP™ Lumbar Fusion involves the insertion of the ZIP™ Interspinous Spacer. A small metal device, between two vertebrae where the spine is unstable. This device acts as a bridge. Strengthening and straightening the spine. Referred to as fusion.
 

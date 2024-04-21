@@ -12,7 +12,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 Chronic back pain originating from damaged spinal discs impacts quality of life. The Discseel® Procedure offers a minimally invasive treatment option. Designed to seal tears within spinal discs. Relieving pain and restoring some disc function.
 
 ## Understanding Disc Pain

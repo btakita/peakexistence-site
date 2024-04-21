@@ -9,7 +9,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 Conventional sports medicine treatments often provide short-term pain relief. Dr. Emenike’s cutting-edge therapies and performance plans go beyond the basics. Of ice, pain medications, and compression. Advanced approaches focus on preventing future injuries. While enhancing an athlete’s current performance. Featured treatments include:
 
 - hyperbaric oxygen therapy

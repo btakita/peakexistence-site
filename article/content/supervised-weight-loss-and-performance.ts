@@ -9,7 +9,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## The Essence of Supervision
 Supervised weight loss programs are led by healthcare professionals. Including dietitians, nutritionists, and fitness trainers. These experts craft personalized plans. Based on thorough health evaluations. Considering factors such as medical history, nutritional needs, and fitness levels. The cornerstone of supervision lies in its ability to offer:
 - tailored advice

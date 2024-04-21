@@ -12,7 +12,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## Understanding Vertebral Compression Fractures
 Vertebral compression fractures occur when the bony block or vertebral body in the spine collapses, which can lead to severe pain, deformity, and loss of height. These fractures are most common in the thoracic and lumbar regions of the spine and are often associated with osteoporosis or metastatic tumors${footnote__sup__sort([
   ref10_footnote__sup_(ctx),

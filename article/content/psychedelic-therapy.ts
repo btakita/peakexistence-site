@@ -9,7 +9,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## What is Psychedelic Therapy?
 
 Psychedelic Exercise Therapy combines physical activity and carefully administered psychedelic substances. To improve mental health and overall well-being. Dr. Manny Emenike addresses the mind and body for comprehensive healing. As a medical doctor specializing in internal medicine.

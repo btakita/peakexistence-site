@@ -19,7 +19,7 @@ Chronic back pain is a prevalent issue that affects millions of individuals worl
 })
 // @formatter:off
 // language=md
-export default(ctx:request_ctx_T)=>md__raw_(`
+export default(ctx:request_ctx_T)=>md__raw_(ctx, `
 Percutaneous spine decompression is a minimally invasive procedure. Aimed at relieving pressure on spinal nerves. Caused by conditions like herniated discs or spinal stenosis. This option may offer an alternative to or with more extensive surgical interventions.
 
 ## Understanding Spinal Compression

@@ -20,7 +20,7 @@ Minimally invasive spinal fusion (MIS fusion) aims to achieve the same goal as t
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 Spinal fusion surgery aims to alleviate chronic back pain. Minimally invasive techniques reduce recovery time and complications.
 
 ## What is Minimally Invasive Spinal Fusion?

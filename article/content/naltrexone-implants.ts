@@ -9,7 +9,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 Naltrexone implants are small pellets. Inserted under the skin with minor surgery. Releasing the medication over several months. Naltrexone implants ensures consistent drug delivery. Eliminating the need for daily pills and minimizing the risk of non-adherence. Naltrexone implants can offer an extended period of support and focus on recovery.
 
 ## The Advantages of Naltrexone Implants with Exercise

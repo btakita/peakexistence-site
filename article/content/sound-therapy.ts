@@ -10,7 +10,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## The Foundations of Sound Therapy
 Sound therapy, is also known as sound healing or vibrational medicine. Sound therapy's predicated on the principle that all matter vibrates at specific frequencies. Including the human body, vibrates at specific frequencies. Health and well-being influenced by these vibrational states. Disrupting or unbalancing the body's natural frequencies leads to physical or emotional disharmony. Sound therapy seeks to restore balance and promote healing. By using various musical instruments & vocal techniques to produce therapeutic sounds and vibrations.
 

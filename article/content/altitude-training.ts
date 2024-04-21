@@ -13,7 +13,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## Definition & Purpose of Altitude Training
 Altitude training is a training method to enhance athletic performance for endurance athletes. It is also known as hypoxic training. Altitude Training involves living and/or training at high altitudes. Where the air contains less oxygen. Typically around 2,400 meters (8,000 feet) above sea level${ref16_footnote__sup_(ctx)}. The purpose of altitude training is to provoke physiological adaptations in the body. That improve oxygen delivery & utilization. This is achieved through increased production of erythropoietin (EPO). Which stimulates the creation of more red blood cells. Thereby enhancing the blood's oxygen-carrying capacity${footnote__sup__sort([
   ref8_1_footnote__sup_(ctx),

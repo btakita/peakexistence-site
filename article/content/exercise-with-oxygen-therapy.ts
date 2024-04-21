@@ -10,7 +10,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## What is Exercise with Oxygen Therapy?
 
 Exercise with Oxygen Therapy (EWOT) combines physical activity with increased oxygen intake. During an EWOT session, you’ll perform simple exercises. While breathing in a higher concentration of oxygen. This process helps your body deliver more oxygen to your cells, muscles, and organs. Resulting in a range of incredible health benefits.

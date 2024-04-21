@@ -9,7 +9,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## What are Infrared & Red Light Therapy?
 Infrared and red light therapy use low levels of red light and infrared light. To stimulate cellular repair and regeneration. Infrared and red light therapy are forms of photobiomodulation. Using light to stimulate cellular activity. Leading to beneficial effects on the body's tissues. Unlike ultraviolet light, these therapies provide healing energy without adverse effects.
 

@@ -9,7 +9,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## The Essence of Early Detection
 Early disease detection. Refers to the identification of a condition before the manifestation of significant symptoms. This proactive approach aims to uncover hidden diseases and risk factors. Enabling interventions that prevent the progression of the disease. The benefits of early detection are manifold. Extending from improved health outcomes to significant cost savings for healthcare systems.
 

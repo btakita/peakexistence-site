@@ -12,7 +12,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## Taking Charge: A Guide to Comprehensive Wellness Testing & Biometric Screening
 Comprehensive wellness testing & biometric screening. Your guide to gain deeper insights into your health. These tools provide a snapshot of one's current health status. And offer a roadmap for making informed lifestyle choices and preventive measures. Taking a proactive approach to your health is more important than ever. Comprehensive wellness testing and screening empowers your journey towards optimal well-being.
 

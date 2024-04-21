@@ -13,7 +13,7 @@ The constant flow of blood throughout our bodies is the essence of life. The blo
 
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 In the complex machinery of the human body. The cardiovascular system acts as the central highway. With blood flow serving as the crucial indicator of its health and efficiency. Blood flow analysis has emerged as an indispensable diagnostic tool in modern medicine. Offering a window into the myriad of factors that influence cardiovascular health. And the overall well-being of individuals.	
 
 ## Why Does Blood Flow Matter?

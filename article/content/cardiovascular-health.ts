@@ -10,7 +10,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 Your heart is a tireless working muscle. The central engine that powers your entire body. Prioritizing cardiac health is crucial for a long, vibrant, and healthy life. Let's dive into the key aspects of protecting your heart.
 
 ## Understanding Your Heart

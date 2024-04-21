@@ -11,7 +11,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## The Science Behind ESWT
  ESWT involves the application of focused or radial shock waves to the affected area. These shock waves create mechanical stress and microtrauma, which triggers a biological response in the treated tissues. This response includes increased blood flow, angiogenesis, and the release of growth factors, ultimately promoting tissue regeneration and healing${PMC10648068_footnote__sup_(ctx)}${PMC7608508_footnote__sup_(ctx)}.
  

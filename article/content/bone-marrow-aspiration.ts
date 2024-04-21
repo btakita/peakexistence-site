@@ -10,7 +10,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 Bone marrow aspiration is a diagnostic procedure. That involves extracting a small sample of the bone marrow. The soft, spongy tissue found within the cavities of certain bones. This tissue is a vital component of the body's hematopoietic system. Responsible for producing blood cells:
 
 - red blood cells

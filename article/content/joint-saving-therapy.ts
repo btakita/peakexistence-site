@@ -8,7 +8,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(`
+export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 # Joint Saving Therapy: A Path to Mobility Without Surgery
 
 Joint Saving Therapy (JST) aims to preserve natural joints. It's an alternative to joint replacement surgery. The focus is on reducing pain, improving function, and delaying or avoiding surgery.
