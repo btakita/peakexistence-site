@@ -122,9 +122,24 @@ These screenings are quick, usually taking about 10-15 minutes. Providing immedi
 ## Benefits of Comprehensive Wellness Testing:
 | | |
 |-|-|
+| **Early Disease Detection** | These tests can detect early signs of chronic conditions, allowing for timely intervention and management${footnote__sup__sort([
+  ref_i1_3_footnote__sup_(ctx),
+  ref_i1_4_footnote__sup_(ctx),
+])}. |
 | **Personalized Healthcare** | Test results help your doctor tailor preventive measures & treatment plans for you. |
-| **Proactive Management**    | By understanding your risk factors. You can make informed lifestyle choices to improve your overall health. |
-| **Peace of Mind**           | Knowing your health status can reduce anxiety. Empowering you to take charge of your well-being. |
+| **Personalized Health Insights** | By understanding individual health risks. Individuals can receive personalized recommendations to improve their health outcomes${footnote__sup__sort([
+  ref_i1_3_footnote__sup_(ctx),
+  ref_i1_4_footnote__sup_(ctx),
+])}. |
+| **Proactive Management** | By understanding your risk factors. You can make informed lifestyle choices to improve your overall health. Identifying & addressing health risks early reduces the likelihood & impact of health issues later${footnote__sup__sort([
+  ref_i1_3_footnote__sup_(ctx),
+  ref_i1_4_footnote__sup_(ctx),
+])}. |
+| **Enhanced Health Awareness** | Comprehensive testing and screening increase health awareness, empowering individuals to make informed decisions about their health and lifestyle${footnote__sup__sort([
+  ref_i1_3_footnote__sup_(ctx),
+  ref_i1_4_footnote__sup_(ctx),
+])}. |
+| **Peace of Mind** | Knowing your health status can reduce anxiety. Empowering you to take charge of your well-being. |
 
 ## Considering Comprehensive Wellness Testing?
 Here's what to keep in mind:
@@ -140,8 +155,6 @@ Here's what to keep in mind:
 - **gain valuable insights**
 - **empower yourself with knowledge**
 - **work with your doctor to create a personalized path to optimal well-being**
-
-**Remember, this article provides general information & shouldn't replace seeking professional medical advice.**
 `)
 function ref1_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
