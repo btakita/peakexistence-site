@@ -10,6 +10,7 @@ import js from 'highlight.js/lib/languages/javascript'
 import sh from 'highlight.js/lib/languages/shell'
 import ts from 'highlight.js/lib/languages/typescript'
 import { Marked } from 'marked'
+import { gfmHeadingId } from 'marked-gfm-heading-id'
 import { markedHighlight } from 'marked-highlight'
 import { relement__use } from 'relementjs'
 import { server__relement } from 'relementjs/server'
@@ -83,12 +84,14 @@ function marked__init() {
 	hljs.registerLanguage('sh', sh)
 	hljs.registerLanguage('shell', sh)
 	hljs.registerLanguage('ts', ts)
-	app_marked__set(app_ctx, new Marked(
+	const marked = new Marked(
 		markedHighlight({
 			langPrefix: 'hljs language-',
 			highlight(code, lang, info) {
 				const language = hljs.getLanguage(lang) ? lang : 'plaintext'
 				return hljs.highlight(code, { language }).value
 			}
-		})))
+		}))
+	marked.use(gfmHeadingId())
+	app_marked__set(app_ctx, marked)
 }
