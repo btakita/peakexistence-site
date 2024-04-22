@@ -167,7 +167,7 @@ const config = <Config>{
 						},
 						'h1': {
 							fontSize: '1.875rem',
-							lineHeight: '2.25rem',
+							lineHeight: '3rem',
 							color: 'rgb(var(--color-text-base))',
 							marginBottom: '.75rem'
 						},

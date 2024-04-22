@@ -1,19 +1,20 @@
 import { comprehensive_wellness_testing_and_biometric_screening } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
+import { dl_dt_dd_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { h3_to_h4_dt_class } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...comprehensive_wellness_testing_and_biometric_screening,
 })
-
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## Taking Charge: A Guide to Comprehensive Wellness Testing & Biometric Screening
-In today's world, taking a proactive approach to your health is more important than ever. Comprehensive wellness testing and screening empowers your journey towards optimal well-being. This article explores what these tests entail. Their benefits. How to navigate the options available.
+In today's world, taking a proactive approach to your health is more important than ever. Comprehensive wellness testing & screening empowers your journey towards optimal well-being. This article explores what these tests entail. Their benefits. How to navigate the options available.
 
 ### Corporate Wellness
 Comprehensive wellness testing & biometric screening emerge as key components in corporate wellness programs. Offering a proactive approach to managing employee health. These initiatives aim to improve individual health outcomes. Enhancing overall workplace productivity & reducing healthcare costs.
@@ -30,17 +31,17 @@ The goal is to identify potential health issues before they become serious. Allo
 ])}.
 
 ## What is Comprehensive Wellness Testing & Screening?
-Comprehensive wellness testing and screening is a detailed checkup for your entire body. It goes beyond addressing immediate concerns. Aiming to provide a detailed snapshot of your overall health. These tests can include:
+Comprehensive wellness testing & screening is a detailed checkup for your entire body. It goes beyond addressing immediate concerns. Aiming to provide a detailed snapshot of your overall health. These tests can include:
 
-- **Blood tests**: A comprehensive metabolic panel (CMP) and complete blood count (CBC). Assessing organ function, blood cell health, and potential risk factors for various conditions.
-- **Urine tests**: Can reveal signs of infection, kidney function, and diabetes.
+- **Blood tests**: A comprehensive metabolic panel (CMP) & complete blood count (CBC). Assessing organ function, blood cell health, & potential risk factors for various conditions.
+- **Urine tests**: Can reveal signs of infection, kidney function, & diabetes.
 - **Cholesterol tests**: Measure different types of cholesterol (LDL, HDL) to assess heart disease risk.
-- **Thyroid screening**: Checks thyroid function, which can impact metabolism and energy levels.
+- **Thyroid screening**: Checks thyroid function, which can impact metabolism & energy levels.
 - **Vitamin D tests**: Vitamin D deficiency is linked to various health concerns
-- **Additional tests**: Depending on your age, gender, and health history. Further tests like STD screenings or bone density scans assess areas of improvement.
+- **Additional tests**: Depending on your age, gender, & health history. Further tests like STD screenings or bone density scans assess areas of improvement.
 
 ## The Role of Biometric Screening
-Comprehensive wellness testing and screening is a detailed checkup for your entire body. Conducted in the clinic, home, or workplace. It goes beyond addressing immediate concerns. Aiming to provide a detailed snapshot of your overall health. These tests can include:
+Comprehensive wellness testing & screening is a detailed checkup for your entire body. Conducted in the clinic, home, or workplace. It goes beyond addressing immediate concerns. Aiming to provide a detailed snapshot of your overall health. These tests can include:
 
 Biometric screening is a clinical process conducted in the clinic or workplace. To assess various health parameters including${footnote__sup__sort([
   ref4_footnote__sup_(ctx),
@@ -51,18 +52,18 @@ Biometric screening is a clinical process conducted in the clinic or workplace. 
   ref_s1_17_footnote__sup_(ctx),
 ])}:
 
-- **Blood tests**: A comprehensive metabolic panel (CMP) and complete blood count (CBC). Assessing:
+- **Blood tests**: A comprehensive metabolic panel (CMP) & complete blood count (CBC). Assessing:
 	- organ function
 	- blood cell health
 	- blood pressure
 	- blood glucose levels
 	- potential risk factors for various conditions.
-- **Urine tests**: Can reveal signs of infection, kidney function, and diabetes.
+- **Urine tests**: Can reveal signs of infection, kidney function, & diabetes.
 - **Cholesterol tests**: Measure different types of cholesterol (LDL, HDL, triglycerides) to assess heart disease risk.
-- **Thyroid screening**: Checks thyroid function, which can impact metabolism and energy levels.
+- **Thyroid screening**: Checks thyroid function, which can impact metabolism & energy levels.
 - **Vitamin D tests**: Vitamin D deficiency links to health concerns such as bone pain, muscle weakness, & more.
 - body mass index (BMI)
-- **Additional tests**: Depending on your age, gender, and health history. Further tests like STD screenings or bone density scans assess areas of improvement.
+- **Additional tests**: Depending on your age, gender, & health history. Further tests like STD screenings or bone density scans assess areas of improvement.
 
 These screenings are quick, usually taking about 10-15 minutes. Providing immediate feedback on an employee's health status. The primary aim is to establish a health baseline. That can be used to monitor changes over time. Identifying risk factors for chronic diseases like${footnote__sup__sort([
   ref1_footnote__sup_(ctx),
@@ -75,29 +76,50 @@ These screenings are quick, usually taking about 10-15 minutes. Providing immedi
 - cardiovascular conditions
 
 ## Benefits of Comprehensive Wellness Testing:
-- **Personalized Healthcare**: Test results help your doctor tailor preventive measures and treatment plans for you.
-- **Proactive Management**: By understanding your risk factors. You can make informed lifestyle choices to improve your overall health.
-- **Peace of Mind**: Knowing your health status can reduce anxiety. Empowering you to take charge of your well-being.
-- **Targeted Wellness Initiatives:** The data collected from biometric screenings enables organizations to tailor their wellness programs. To address specific health issues prevalent among their employees. For instance, if a significant number of employees are found to have high blood pressure. Programs can be designed to promote regular exercise, stress reduction, and healthy eating${ref3_footnote__sup_(ctx)}.
-- **Early Disease Detection:** Biometric screenings can detect early signs of chronic conditions, allowing for early intervention. This helps in managing the condition more effectively. Improving long-term outcomes. And reducing the long-term costs associated with advanced diseases${ref3_footnote__sup_(ctx)}.
-- **Personalized Health Plans:** By understanding individual health risks. Employers can offer personalized support & resources to help employees manage their health better. This may include access to nutrition counseling, fitness programs, or mental health services${ref3_footnote__sup_(ctx)}${ref4_footnote__sup_(ctx)}.
-- **Cost Savings:** By identifying and addressing health risks early. Companies can significantly reduce healthcare expenses related to treating chronic diseases. Additionally, healthier employees tend to have lower absenteeism rates and higher productivity levels${ref3_footnote__sup_(ctx)}${ref10_footnote__sup_(ctx)}.
-- **Enhanced Employee Engagement and Morale:** Implementing health screenings shows employees that their health is valued by the organization. This boosts morale & increases employee engagement. Leading to a more positive & productive work environment${ref15_footnote__sup_(ctx)}.
+${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+[`### Personalized Healthcare`, `
+Test results help your doctor tailor preventive measures & treatment plans for you.`],
+[`### Proactive Management`, `
+By understanding your risk factors. You can make informed lifestyle choices to improve your overall health.`],
+[`### Peace of Mind`, `
+Knowing your health status can reduce anxiety. Empowering you to take charge of your well-being.`],
+[`### Targeted Wellness Initiatives`, `
+The data collected from biometric screenings enables organizations to tailor their wellness programs. To address specific health issues prevalent among their employees. For instance, if a significant number of employees are found to have high blood pressure. Programs can be designed to promote regular exercise, stress reduction, & healthy eating${ref3_footnote__sup_(ctx)}.`],
+[`### Early Disease Detection`, `
+Biometric screenings can detect early signs of chronic conditions, allowing for early intervention. This helps in managing the condition more effectively. Improving long-term outcomes. And reducing the long-term costs associated with advanced diseases${ref3_footnote__sup_(ctx)}.`],
+[`### Personalized Health Plans`, `
+By understanding individual health risks. Employers can offer personalized support & resources to help employees manage their health better. This may include access to nutrition counseling, fitness programs, or mental health services${footnote__sup__sort([
+	ref3_footnote__sup_(ctx),
+	ref4_footnote__sup_(ctx)
+])}.`],
+[`### Cost Savings`, `
+By identifying & addressing health risks early. Companies can significantly reduce healthcare expenses related to treating chronic diseases. Additionally, healthier employees tend to have lower absenteeism rates & higher productivity levels${footnote__sup__sort([
+  ref3_footnote__sup_(ctx),
+	ref10_footnote__sup_(ctx),
+])}.`],
+[`### Enhanced Employee Engagement & Morale`, `
+Implementing health screenings shows employees that their health is valued by the organization. This boosts morale & increases employee engagement. Leading to a more positive & productive work environment${ref15_footnote__sup_(ctx)}.`],
+])}
 
 ## Considering Comprehensive Wellness Testing?
 Here's what to keep in mind:
+${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+[`### Consult your doctor`, `
+Discuss your health goals & risk factors. To determine if comprehensive testing is right for you.`],
+[`### Understand the options`, `
+Different labs & providers offer various testing panels. Research & choose one that aligns with your needs.`],
+[`### Review costs & insurance coverage`, `
+Testing costs can vary. Investigate insurance coverage to understand your financial responsibility.`],
+[`### Interpreting results`, `
+Don't panic if you see abnormal results. Discuss them with your doctor to determine the next steps.`],
+])}
 
-- **Consult your doctor**: Discuss your health goals and risk factors. To determine if comprehensive testing is right for you.
-- **Understand the options**: Different labs and providers offer various testing panels. Research and choose one that aligns with your needs.
-- **Review costs and insurance coverage**: Testing costs can vary. Investigate insurance coverage to understand your financial responsibility.
-- **Interpreting results**: Don't panic if you see abnormal results. Discuss them with your doctor to determine the next steps.
-
-**Comprehensive wellness testing and screening is an investment in your long-term health. By taking a proactive approach, you can:**
+**Comprehensive wellness testing & screening is an investment in your long-term health. By taking a proactive approach, you can:**
 - **gain valuable insights**
 - **empower yourself with knowledge**
 - **work with your doctor to create a personalized path to optimal well-being**
 
-**Remember, this article provides general information and shouldn't replace seeking professional medical advice.**
+**Remember, this article provides general information & shouldn't replace seeking professional medical advice.**
 `)
 function ref1_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({

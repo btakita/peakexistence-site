@@ -1,7 +1,9 @@
 import { erectile_dysfunction_treatment } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
+import { dl_dt_dd_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { h3_to_h4_dt_class } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...erectile_dysfunction_treatment,
@@ -32,26 +34,56 @@ Erections require healthy blood flow. Cardiovascular diseases damage blood vesse
 ED can be an early warning sign of these conditions. Offering a window for proactive heart health measures.
 
 ## Why Treating Cardiovascular Health Can Restore Sexual Function
-- **Improved Blood Flow:** Managing conditions like high blood pressure & cholesterol optimizes blood flow throughout the body. Including to the penis, enhancing erectile function.
-- **Reduced Medication Side Effects:** Some medications used for heart problems can contribute to ED. The right balance or alternative medications can improve both heart health & sexual function.
-- **Overall Well-Being:** Healthy lifestyle changes that benefit your heart. Such as:
-	- exercise
-	- a heart-healthy diet
-	- stress management
+${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+[`### Improved Blood Flow`, `
+Managing conditions like high blood pressure & cholesterol optimizes blood flow throughout the body. Including to the penis, enhancing erectile function.`],
+[`### Reduced Medication Side Effects`, `
+Some medications used for heart problems can contribute to ED. The right balance or alternative medications can improve both heart health & sexual function.`],
+[`### Overall Well-Being`, `
+Healthy lifestyle changes that benefit your heart. Such as:
+- exercise
+- a heart-healthy diet
+- stress management`],
+])}
 
 ## Comprehensive Screening: The First Step
 A thorough evaluation is essential when Erectile Dysfunction occurs. To uncover any underlying cardiovascular risk factors or diseases. This comprehensive screening includes:
 
-- **Medical history review:** Focusing on cardiovascular risk factors such as:
+${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+[`### Medical history review`, `
+Focusing on cardiovascular risk factors such as:
 	- hypertension
 	- diabetes
 	- smoking
-	- family history of heart disease
-- **Physical examination:** Including blood pressure measurement and assessment of the vascular system.
-- **Laboratory tests:** Checking for high cholesterol, diabetes, and other markers of CVD.
-- **Specialized tests:** Such as electrocardiograms (EKGs) or stress tests. If deemed necessary based on initial assessments.
+	- family history of heart disease`],
+[`### Physical examination`, `
+Including blood pressure measurement and assessment of the vascular system.`],
+[`### Laboratory tests`, `
+Checking for high cholesterol, diabetes, and other markers of CVD.`],
+[`### Specialized tests`, `
+Such as electrocardiograms (EKGs) or stress tests. If deemed necessary based on initial assessments.`],
+])}
 
 ## Treatment Strategies Focusing on Heart Health
+${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+[`### Lifestyle as Medicine`, `
+This is foundational.
+
+- **Healthy Diet:** Emphasizing fruits, vegetables, whole grains, & lean protein. While limiting unhealthy fats, sugar, and salt.
+- **Regular Exercise:** Aim for at least 30 minutes of moderate-intensity exercise most days of the week.
+- **Weight Management:** Maintaining a healthy weight reduces strain on your heart and blood vessels.
+- **Quit Smoking:** A crucial step for vascular and sexual health.`],
+[`### Medication Management`, `
+**Blood Pressure Control:** High blood pressure is a major risk factor for both ED and heart disease.
+**Cholesterol Medications:** Statins are often used to lower "bad" cholesterol levels, reducing plaque buildup that hampers blood flow.
+**Addressing Diabetes:** Effective blood sugar management protects blood vessels throughout the body.
+`],
+[`### Supplemental ED Treatment`, `
+While addressing cardiovascular health, your doctor may still recommend:
+
+- Oral medications (PDE5 inhibitors) to support blood flow.
+- Other ED treatments if needed (injections, devices)`],
+])}
 - **Lifestyle as Medicine:** This is foundational.
 	- **Healthy Diet:** Emphasizing fruits, vegetables, whole grains, & lean protein. While limiting unhealthy fats, sugar, and salt.
 	- **Regular Exercise:** Aim for at least 30 minutes of moderate-intensity exercise most days of the week.

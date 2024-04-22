@@ -1,7 +1,9 @@
 import { crisis_stabilization_unit } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
+import { dl_dt_dd_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { h3_to_h4_dt_class } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...crisis_stabilization_unit,
@@ -12,15 +14,21 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## Services Offered by Crisis Stabilization Units
 CSUs offer a range of services, typically including:
+${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+[`### 24/7 Availability`, `
+Offering immediate support during a crisis`],
+[`### Medication Management`, `
+Adjustment of existing medications or starting new ones as needed.`],
+[`### Individual & Group Therapy`, `
+Support groups & therapeutic sessions tailored towards crisis management.`],
+[`### Skill-Building`, `
+Developing coping mechanisms & strategies to manage future challenges.`],
+[`### Discharge Planning`, `
+Connecting individuals with ongoing mental health care & community resources.`],
+])}
 
-- **24/7 Availability:** Offering immediate support during a crisis
-- **Medication Management:** Adjustment of existing medications or starting new ones as needed.
-- **Individual and Group Therapy:** Support groups and therapeutic sessions tailored towards crisis management.
-- **Skill-Building:** Developing coping mechanisms and strategies to manage future challenges.
-- **Discharge Planning:** Connecting individuals with ongoing mental health care and community resources.
-
-### Immediate Assessment and Intervention
-Upon arrival, patients receive a comprehensive evaluation. To determine the nature and severity of their crisis. This assessment is the foundation for all care. Ensuring tailored interventions to each individual's specific needs.
+### Immediate Assessment & Intervention
+Upon arrival, patients receive a comprehensive evaluation. To determine the nature & severity of their crisis. This assessment is the foundation for all care. Ensuring tailored interventions to each individual's specific needs.
 
 ### Short-term Stabilization
 The core offering of CSUs is short-term stabilization. This includes therapeutic interventions aimed at alleviating acute symptoms. Medication management, if necessary. The environment is calming & supportive. Providing a safe space for individuals in distress.
@@ -38,24 +46,35 @@ CSUs may be helpful for people experiencing:
 - Substance use issues contributing to the crisis
 
 CSUs provide advantages over traditional inpatient hospitalization:
-
-- **Less Restrictive:** CSUs provide a more relaxed, home-like environment. Which can be less intimidating and promote faster stabilization.
-- **Community-Based:** Individuals remain connected to their usual support system with less disruption.
-- **Cost-Effective:** Typically less expensive than hospitalization.
-- **Preventative Focus:** Proactive support in CSUs can help prevent relapse. Reducing future need for hospitalization.
-- **Stepping Stone:** For some, CSUs can be a bridge to the appropriate level of treatment. Rather than rushed decisions for long-term care.
+${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+[`### Less Restrictive`, `
+CSUs provide a more relaxed, home-like environment. Which can be less intimidating & promote faster stabilization.`],
+[`### Community-Based`, `
+Individuals remain connected to their usual support system with less disruption.`],
+[`### Cost-Effective`, `
+Typically less expensive than hospitalization.`],
+[`### Preventative Focus`, `
+Proactive support in CSUs can help prevent relapse. Reducing future need for hospitalization.`],
+[`### Stepping Stone`, `
+For some, CSUs can be a bridge to the appropriate level of treatment. Rather than rushed decisions for long-term care.`],
+])}
 
 ## The Importance of Crisis Stabilization Units
-CSUs fill a critical gap in the mental health care system. By offering an alternative to hospitalization for individuals in crisis. This approach not only provides immediate relief for patients. But also alleviates the burden on emergency departments and inpatient psychiatric facilities. By focusing on rapid stabilization & connection to ongoing care. CSUs help prevent the escalation of mental health crises and promote long-term recovery.
+CSUs fill a critical gap in the mental health care system. By offering an alternative to hospitalization for individuals in crisis. This approach not only provides immediate relief for patients. But also alleviates the burden on emergency departments & inpatient psychiatric facilities. By focusing on rapid stabilization & connection to ongoing care. CSUs help prevent the escalation of mental health crises & promote long-term recovery.
 
-### Benefits for Patients and Communities
-- **Reduced Hospitalizations:** Providing an alternative pathway for care. CSUs help decrease the need for hospital admissions. Making it a cost-effective solution for both patients and healthcare systems.
-- **Immediate Support:** The availability of immediate, specialized care can be life-saving for individuals in crisis. Offering them the support they need when they need it most.
-- **Continuity of Care:** By emphasizing the connection to ongoing treatment. CSUs ensure that patients have access to the resources they need. To manage their mental health in the long term.
+### Benefits for Patients & Communities
+${dl_dt_dd_tree_({ ctx }, [
+[`#### Reduced Hospitalizations`, `
+Providing an alternative pathway for care. CSUs help decrease the need for hospital admissions. Making it a cost-effective solution for both patients & healthcare systems.`],
+[`#### Immediate Support`, `
+The availability of immediate, specialized care can be life-saving for individuals in crisis. Offering them the support they need when they need it most.`],
+[`#### Continuity of Care`, `
+By emphasizing the connection to ongoing treatment. CSUs ensure that patients have access to the resources they need. To manage their mental health in the long term.`],
+])}
 
 ## The Future of Mental Health Care
 
-Crisis stabilization units are an accessible and responsive form of mental health care. Providing rapid, compassionate, and targeted support during crises. They empower individuals to:
+Crisis stabilization units are an accessible & responsive form of mental health care. Providing rapid, compassionate, & targeted support during crises. They empower individuals to:
 
 - regain stability
 - connect with resources
