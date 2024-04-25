@@ -289,7 +289,7 @@ Athletes continue to explore the upper limits of their potential, one breath at 
 function ref11_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
-		id: 'wikipedia11'
+		id: 'yahoo11'
 	}, [
 		tb_a_({
 			href: 'http://sports.yahoo.com/news/understanding-benefits-risks-altitude-training-112716092.html',
