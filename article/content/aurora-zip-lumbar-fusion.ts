@@ -42,19 +42,19 @@ The ZIP™ device features a patented one-step lock that eliminates the need for
 ### Key Features & Design Benefits
 ${dl_tree_({ ctx }, [
 	[`Minimally Invasive Approach`, [
-		`The system's innovative design allows for smaller incisions & less muscle disruption. Which leads to:\n`
-		+ `- reduced operative time\n`
-		+ `- less postoperative pain\n`
-		+ `- faster recovery\n`]],
+		`The system's innovative design allows for smaller incisions & less muscle disruption. Which leads to:\n` + 
+		`- reduced operative time\n` +
+		`- less postoperative pain\n` +
+		`- faster recovery\n`]],
 	[`Enhanced Stability`, [
 		`The zip technology provides robust mechanical stabilization. Which is critical for the successful fusion of the vertebrae.`]],
 	[`Biocompatible Materials`, [
 		`Made from high-quality materials that are compatible with the human body. The Aurora ZIP™ system ensures durability & long-term reliability.`]],
 	[`Versatility`, [
-		`The Aurora ZIP™ system is useful to treat various lumbar spinal issues, including:\n`
-		+ `- degenerative disc disease\n`
-		+ `- spondylolisthesis\n`
-		+ `- spinal stenosis\n`]],
+		`The Aurora ZIP™ system is useful to treat various lumbar spinal issues, including:\n` +
+		`- degenerative disc disease\n` +
+		`- spondylolisthesis\n` +
+		`- spinal stenosis\n`]],
 	[`Less Bone Removal`, [
 		`The Aurora ZIP™ procedure may require less bone removal compared to traditional fusion techniques.`]],
 ])}
@@ -136,10 +136,10 @@ ${dl_tree_({ ctx }, [
 	[`### Individualized Approach`, [
 		`The best surgical option depends on your specific diagnosis, health condition, & goals.`]],
 	[`### Candid Discussion`, [
-		`Ask your surgeon about:\n`
-		+ `- their experience with this procedure\n`
-		+ `- the potential benefits & risks in your situation\n`
-		+ `- realistic expectations for recovery\n`]]]
+		`Ask your surgeon about:\n` +
+		`- their experience with this procedure\n` +
+		`- the potential benefits & risks in your situation\n` +
+		`- realistic expectations for recovery\n`]]]
 )}
 
 ## The Takeaway

@@ -29,10 +29,10 @@ ${dl_tree_({ ctx }, [
 	[`### Brain Function`, [
 		`The brain is highly sensitive to blood flow disruptions. Which can increase stroke risk & impair cognitive function.`]],
 	[`### Peripheral Circulation`, [
-		`Good blood flow in the arms & legs prevents:\n`
-		+ `- pain\n`
-		+ `- wounds\n`
-		+ `- potential complications like amputation in severe cases\n`
+		`Good blood flow in the arms & legs prevents:\n` +
+		`- pain\n` +
+		`- wounds\n` +
+		`- potential complications like amputation in severe cases\n`
 	]],
 ])}
 

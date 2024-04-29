@@ -16,48 +16,49 @@ Early disease detection. Refers to the identification of a condition before the 
 
 ## Benefits of Early Disease Detection
 ${dl_tree_({ ctx }, [
-[`### Improved Outcomes`, `
-Many diseases, when caught early, are more responsive to treatment.`],
-[`### Easier Treatment`, `
-Treating diseases in their early stages is often less invasive. With fewer side effects & a higher success rate.`],
-[`### Preventing Complications`, `
-Early intervention can stop a disease from progressing. Preventing serious health complications, such as organ damage or disability.`],
-[`### Improved Quality of Life`, `
-Successful early treatment may mean a faster recovery. And less disruption to a person's life.`],
-[`### Increased Survival Rates`, `
-With deadly illnesses such as cancer. Early diagnosis is often associated with significantly higher survival rates.`],
-[`### Cost-Effectiveness`, `
-By preventing disease progression. Early detection reduces the need for more complex, costly treatments & hospitalizations.`],
+	[`### Improved Outcomes`, [
+		`Many diseases, when caught early, are more responsive to treatment.`]],
+	[`### Easier Treatment`, [
+		`Treating diseases in their early stages is often less invasive. With fewer side effects & a higher success rate.`]],
+	[`### Preventing Complications`, [
+		`Early intervention can stop a disease from progressing. Preventing serious health complications, such as organ damage or disability.`]],
+	[`### Improved Quality of Life`, [
+		`Successful early treatment may mean a faster recovery. And less disruption to a person's life.`]],
+	[`### Increased Survival Rates`, [
+		`With deadly illnesses such as cancer. Early diagnosis is often associated with significantly higher survival rates.`]],
+	[`### Cost-Effectiveness`, [
+		`By preventing disease progression. Early detection reduces the need for more complex, costly treatments & hospitalizations.`]],
 ])}
 
 ## Methods of Early Detection
 Early disease detection utilizes a variety of methods. Tailored to specific diseases & conditions. These include:
 ${dl_tree_({ ctx }, [
-[`### Regular Screenings`, `
-Proactive screenings for various conditions based on age, risk factors, & family history.`],
-[`#### Cancer screenings`, `
-Mammograms, colonoscopies, skin checks`],
-[`#### Cardiovascular health`, `
-Blood pressure, cholesterol, & blood sugar checks`],
-[`#### Bone health`, `
-Bone density scans (for osteoporosis risk)`],
-[`### Self-Awareness`, `
-Paying attention to your body. And reporting any new, persistent, or unusual symptoms to your doctor. This could include unexplained pain, lumps, changes in bowel habits, or non-healing wounds.`],
-[`### Genetic Testing`, `
-For some with a strong family history of specific diseases. Genetic testing may identify a higher risk, prompting closer monitoring or early intervention.`],
-[`### Emerging Technologies`, `
-Researchers are developing new technologies like advanced blood tests & imaging. Continuously improving early detection for many conditions.`],
+	[`### Regular Screenings`, [
+		`Proactive screenings for various conditions based on age, risk factors, & family history.`]],
+	[`#### Cancer screenings`, [
+		`Mammograms, colonoscopies, skin checks`]],
+	[`#### Cardiovascular health`, [
+		`Blood pressure, cholesterol, & blood sugar checks`]],
+	[`#### Bone health`, [
+		`Bone density scans (for osteoporosis risk)`]],
+	[`### Self-Awareness`, [
+		`Paying attention to your body. And reporting any new, persistent, or unusual symptoms to your doctor. This could include unexplained pain, lumps, changes in bowel habits, or non-healing wounds.`]],
+	[`### Genetic Testing`, [
+		`For some with a strong family history of specific diseases. Genetic testing may identify a higher risk, prompting closer monitoring or early intervention.`]],
+	[`### Emerging Technologies`, [
+		`Researchers are developing new technologies like advanced blood tests & imaging. Continuously improving early detection for many conditions.`]],
 ])}
 
 ## Who Should Be Screened?
 ${dl_tree_({ ctx }, [
-[`### Everyone`, `
-Regular health checkups are vital for all.`],
-[`### Higher Risk Individuals`, `
-Those with the following may need more frequent or specialized screenings:
- - Family history of specific diseases
- - Personal risk factors (smoking, obesity, etc.)
- - Prior exposure to toxins or environmental hazards`],
+	[`### Everyone`, [
+		`Regular health checkups are vital for all.`]],
+	[`### Higher Risk Individuals`, [
+		`Those with the following may need more frequent or specialized screenings:\n` +
+		 `- Family history of specific diseases\n` +
+		 `- Personal risk factors (smoking, obesity, etc.)\n` +
+		 `- Prior exposure to toxins or environmental hazards\n`
+	]],
 ])}
 
 ### Screening Programs
@@ -78,22 +79,22 @@ Early disease detection has its challenges. False positives can lead to unnecess
 
 ## Overcoming Barriers
 ${dl_tree_({ ctx }, [
-[`### Cost`, `
-Work with your doctor & insurer to understand coverage & access affordable options.`],
-[`### Misinformation`, `
-Rely on trusted sources of medical information. Like your doctor, reputable health organizations, or peer-reviewed research.`],
-[`### Fear`, `
-The benefits of early detection outweigh the potential discomfort of screenings. Talk to your doctor about any anxiety.`],
+	[`### Cost`, [
+		`Work with your doctor & insurer to understand coverage & access affordable options.`]],
+	[`### Misinformation`, [
+		`Rely on trusted sources of medical information. Like your doctor, reputable health organizations, or peer-reviewed research.`]],
+	[`### Fear`, [
+		`The benefits of early detection outweigh the potential discomfort of screenings. Talk to your doctor about any anxiety.`]],
 ])}
 
 ## Empowering Yourself
 ${dl_tree_({ ctx }, [
-[`### Talk to Your Doctor`, `
-Discuss your individual risk factors & create a personalized screening plan.`],
-[`### Know Your Body`, `
-Be vigilant about changes & get them checked.`],
-[`### Advocate for Your Health`, `
-Don't be afraid to ask questions & seek second opinions if necessary.`],
+	[`### Talk to Your Doctor`, [
+		`Discuss your individual risk factors & create a personalized screening plan.`]],
+	[`### Know Your Body`, [
+		`Be vigilant about changes & get them checked.`]],
+	[`### Advocate for Your Health`, [
+		`Don't be afraid to ask questions & seek second opinions if necessary.`]],
 ])}
 
 ## The Future of Early Detection

@@ -42,10 +42,10 @@ ${dl_tree_({ ctx }, [
 	[`### Reduced Medication Side Effects`, [
 		`Some medications used for heart problems can contribute to ED. The right balance or alternative medications can improve both heart health & sexual function.`]],
 	[`### Overall Well-Being`, [
-		`Healthy lifestyle changes that benefit your heart. Such as:\n`
-		+ `- exercise\n`
-		+ `- a heart-healthy diet\n`
-		+ `- stress management\n`
+		`Healthy lifestyle changes that benefit your heart. Such as:\n` +
+		`- exercise\n` +
+		`- a heart-healthy diet\n` +
+		`- stress management\n`
 	]],
 ])}
 
@@ -54,11 +54,11 @@ A thorough evaluation is essential when Erectile Dysfunction occurs. To uncover 
 
 ${dl_tree_({ ctx }, [
 	[`### Medical history review`, [
-		`Focusing on cardiovascular risk factors such as:\n`
-		+ `- hypertension\n`
-		+ `- diabetes\n`
-		+ `- smoking\n`
-		+ `- family history of heart disease\n`
+		`Focusing on cardiovascular risk factors such as:\n` +
+		`- hypertension\n` +
+		`- diabetes\n` +
+		`- smoking\n` +
+		`- family history of heart disease\n`
 	]],
 	[`### Physical examination`, [
 		`Including blood pressure measurement & assessment of the vascular system.`]],
@@ -128,9 +128,9 @@ ${dl_tree_({ ctx }, [
 			]],
 	])}`]],
 	[`### Supplemental ED Treatment`, [
-		`While addressing cardiovascular health, your doctor may still recommend:\n`
-		+ `- Oral medications (PDE5 inhibitors) to support blood flow.\n`
-		+ `- Other ED treatments if needed (injections, devices)\n`
+		`While addressing cardiovascular health, your doctor may still recommend:\n` +
+		`- Oral medications (PDE5 inhibitors) to support blood flow.\n` +
+		`- Other ED treatments if needed (injections, devices)\n`
 	]],
 ])}
 

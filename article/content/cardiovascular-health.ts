@@ -22,10 +22,10 @@ ${dl_tree_({ ctx }, [
 	[`### The Four Chambers`, [
 		`Your heart has four chambers. Two upper chambers (atria) & two lower chambers (ventricles).`]],
 	[`### Blood Flow`, [
-		`1. Blood enters the right side of the heart.\n`
-		+ `1. Gets pumped to the lungs to pick up oxygen.\n`
-		+ `1. Then returns to the left side of the heart.\n`
-		+ `1. Then pumped out to the rest of the body.\n`
+		`1. Blood enters the right side of the heart.\n` +
+		`1. Gets pumped to the lungs to pick up oxygen.\n` +
+		`1. Then returns to the left side of the heart.\n` +
+		`1. Then pumped out to the rest of the body.\n`
 	]],
 	[`### Heart Valves`, [
 		`Four valves ensure blood flows in one direction, preventing backflow.`]],

@@ -101,9 +101,9 @@ ${dl_tree_({ ctx }, [
 			ref_m2_9_footnote__sup_(ctx)
 		])}.`]],
 	[`##### Decreased Risk of Cardiovascular Disease`, [
-		`Studies associate Metaformin with protecting heart health${ref_m2_2_footnote__sup_(ctx)}\n`
-		+ `- a lower incidence of cardiac events\n`
-		+ `- reduced mortality from cardiovascular diseases\n`]],
+		`Studies associate Metaformin with protecting heart health${ref_m2_2_footnote__sup_(ctx)}\n` +
+		`- a lower incidence of cardiac events\n` +
+		`- reduced mortality from cardiovascular diseases\n`]],
 	[`##### Lower Incidence of Cancer`, [
 		`Metformin links to a reduced diagnosis of cancer. And lower cancer mortality rates among patients. This protective effect against cancer supports its role in extending life expectancy. Improving overall health${ref_m2_2_footnote__sup_(ctx)}.`]],
 	[`##### Neuroprotective Effects`, [
@@ -199,10 +199,10 @@ ${dl_tree_({ ctx }, [
 		`Life extension research continues to progress. Future studies may involve artificial intelligence & nanotechnology to advance understanding & interventions. Achieving an indefinite lifespan may seem like science fiction. Yet ongoing progress gives cause for hope. The goal of life extension is not merely extending life. But enhancing healthy, productive life free from age-related diseases & disabilities. Promoting a longer, healthier existence. A healthy lifestyle includes a balanced diet, regular physical activity, & weight management. Playing a pivotal role in life extension efforts.`,
 	]],
 	[`#### Research & Development`, [
-		`Ongoing research explores the potential of using:\n`
-		+ `- human-induced pluripotent stem cells (iPSCs)\n`
-		+ `- transdifferentiated cells\n\n`
-		+ `To model human aging & identify anti-aging drugs. These cellular models can advance our understanding of the aging process. Helping with the development of interventions${ref_g1_6_footnote__sup_(ctx)}.`]],
+		`Ongoing research explores the potential of using:\n` +
+		`- human-induced pluripotent stem cells (iPSCs)\n` +
+		`- transdifferentiated cells\n\n` +
+		`To model human aging & identify anti-aging drugs. These cellular models can advance our understanding of the aging process. Helping with the development of interventions${ref_g1_6_footnote__sup_(ctx)}.`]],
 	[`#### Potential for Clinical Application`, [
 		`While much of the current research is in preclinical stages or animal models. There is significant interest in translating these findings into human therapies. Developing interventions that reverse age-related changes. Extending both lifespan & healthspan${footnote__sup__sort([
 			ref_g1_3_footnote__sup_(ctx),

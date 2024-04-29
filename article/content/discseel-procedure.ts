@@ -18,10 +18,10 @@ Chronic back pain originating from damaged spinal discs impacts quality of life.
 
 ## Understanding Disc Pain
 ${dl_tree_({ ctx }, [
-[`### Intervertebral Discs`, `
-These shock-absorbing cushions lie between the spinal bones (vertebrae).`],
-[`### Degeneration & Tears`, `
-Over time or due to injury, discs can degenerate. The inner gel-like material can leak through tears in the outer layer. Irritating nerves & causing pain.`],
+	[`### Intervertebral Discs`, [
+    `These shock-absorbing cushions lie between the spinal bones (vertebrae).`]],
+	[`### Degeneration & Tears`, [
+    `Over time or due to injury, discs can degenerate. The inner gel-like material can leak through tears in the outer layer. Irritating nerves & causing pain.`]],
 ])}
 
 ## The Innovation Behind Discseel®
@@ -33,26 +33,26 @@ The Discseel® Procedure utilizes a biologically-based injectable treatment, kno
 ## How Discseel® Works
 The Discseel® Procedure involves several key steps:
 ${dl_tree_({ ctx }, [
-[`### Annulogram`, `
-Detailed imaging technique using a water soluble contrast. Identifying which discs are leaking due to tears. Often revealing issues missed by MRIs<!--ref10_footnote__sup_(ctx)--><!--ref15_footnote__sup_(ctx)-->${ref_annulogram_footnote__sup_(ctx)}.`],
-[`### Minimally Invasive Procedure`, `
-Performed under mild sedation. A small fluoroscopic needle is inserted into the disc.`],
-[`### Fibrin Sealant Injection`, `
-Injecting a specialized biological fibrin sealant into the affected disc(s). In the annulus fibrosus, the outer wall of the spinal disc. Sealing the tears & preventing further leakage of the disc's inner gel${ref18_footnote__sup_(ctx)}<!--ref19_footnote__sup_(ctx)-->.`],
-[`### Natural Healing`, `
-The Fibrin promotes the growth of new disc tissue or tissue regeneration. Allowing the body to heal the damaged disc over time. Restoring the structural integrity of the disc while reducing inflammation & pain${ref18_footnote__sup_(ctx)}.`],
+	[`### Annulogram`, [
+    `Detailed imaging technique using a water soluble contrast. Identifying which discs are leaking due to tears. Often revealing issues missed by MRIs<!--ref10_footnote__sup_(ctx)--><!--ref15_footnote__sup_(ctx)-->${ref_annulogram_footnote__sup_(ctx)}.`]],
+	[`### Minimally Invasive Procedure`, [
+    `Performed under mild sedation. A small fluoroscopic needle is inserted into the disc.`]],
+	[`### Fibrin Sealant Injection`, [
+    `Injecting a specialized biological fibrin sealant into the affected disc(s). In the annulus fibrosus, the outer wall of the spinal disc. Sealing the tears & preventing further leakage of the disc's inner gel${ref18_footnote__sup_(ctx)}<!--ref19_footnote__sup_(ctx)-->.`]],
+	[`### Natural Healing`, [
+    `The Fibrin promotes the growth of new disc tissue or tissue regeneration. Allowing the body to heal the damaged disc over time. Restoring the structural integrity of the disc while reducing inflammation & pain${ref18_footnote__sup_(ctx)}.`]],
 ])}
 
 ## Benefits of the Discseel® Procedure
 ${dl_tree_({ ctx }, [
-[`### Minimally Invasive`, `
-The procedure is performed as an outpatient service, reducing the risks associated with more invasive surgeries<!--ref13_footnote__sup_(ctx)--><!--ref19_footnote__sup_(ctx)-->.`],
-[`### Quick Recovery`, `
-Most patients are walking within the first 24 hours after the procedure. The overall healing process continues over the next 12 months<!--ref13_footnote__sup_(ctx)--><!--ref15_footnote__sup_(ctx)-->.`],
-[`### Targeted Treatment`, `
-Aims to directly address the source of pain within the damaged disc.`],
-[`### Long-Term Relief`, `
-Research shows that 70% of patients treated with the Discseel® Procedure report improvements. In pain, function, & quality of life${ref18_footnote__sup_(ctx)}.`],
+	[`### Minimally Invasive`, [
+    `The procedure is performed as an outpatient service, reducing the risks associated with more invasive surgeries<!--ref13_footnote__sup_(ctx)--><!--ref19_footnote__sup_(ctx)-->.`]],
+	[`### Quick Recovery`, [
+    `Most patients are walking within the first 24 hours after the procedure. The overall healing process continues over the next 12 months<!--ref13_footnote__sup_(ctx)--><!--ref15_footnote__sup_(ctx)-->.`]],
+	[`### Targeted Treatment`, [
+    `Aims to directly address the source of pain within the damaged disc.`]],
+	[`### Long-Term Relief`, [
+    `Research shows that 70% of patients treated with the Discseel® Procedure report improvements. In pain, function, & quality of life${ref18_footnote__sup_(ctx)}.`]],
 ])}
 
 ## Minimally Invasive
@@ -75,12 +75,12 @@ Discseel® is for patients who have failed to find relief through conventional t
 
 This procedure might be considered if you have:
 ${dl_tree_({ ctx }, [
-[`### Chronic Back Pain`, `
-Persistent pain for at least six months, primarily in the lower back.`],
-[`### Discogenic Pain`, `
-Pain confirmed to originate from a damaged disc.`],
-[`### Failed Conservative Treatments`, `
-When rest, medication, & physical therapy haven't provided sufficient relief.`],
+	[`### Chronic Back Pain`, [
+    `Persistent pain for at least six months, primarily in the lower back.`]],
+	[`### Discogenic Pain`, [
+    `Pain confirmed to originate from a damaged disc.`]],
+	[`### Failed Conservative Treatments`, [
+    `When rest, medication, & physical therapy haven't provided sufficient relief.`]],
 ])}
 
 ## Recovery & Outcomes
@@ -102,20 +102,20 @@ The Discseel® Procedure is considered a "disruptive technology" in the field of
 
 ## Important Considerations
 ${dl_tree_({ ctx }, [
-[`### Not a Guaranteed Fix`, `
-Individual results vary. While most experience significant pain relief, others may get partial or no improvement.`],
-[`### Evolving Treatment`, `
-Long-term effectiveness data is still emerging.`],
-[`### Candid Discussion`, `
-Talk to your doctor about the potential risks, success rates, & if it's the right approach. In your specific situation.`],
+	[`### Not a Guaranteed Fix`, [
+    `Individual results vary. While most experience significant pain relief, others may get partial or no improvement.`]],
+	[`### Evolving Treatment`, [
+    `Long-term effectiveness data is still emerging.`]],
+	[`### Candid Discussion`, [
+    `Talk to your doctor about the potential risks, success rates, & if it's the right approach. In your specific situation.`]],
 ])}
 
 ## Where to Find the Discseel® Procedure
 ${dl_tree_({ ctx }, [
-[`### Specialized Providers`, `
-Not all spine centers offer this treatment. Search for surgeons trained in the Discseel® Procedure.`],
-[`### Insurance Coverage`, `
-Coverage varies. Consult with your insurance provider.`],
+	[`### Specialized Providers`, [
+    `Not all spine centers offer this treatment. Search for surgeons trained in the Discseel® Procedure.`]],
+	[`### Insurance Coverage`, [
+    `Coverage varies. Consult with your insurance provider.`]],
 ])}
 
 ## The Bottom Line

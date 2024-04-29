@@ -76,41 +76,41 @@ These screenings are quick, usually taking about 10-15 minutes. Providing immedi
 
 ## Benefits of Comprehensive Wellness Testing:
 ${dl_tree_({ ctx }, [
-[`### Personalized Healthcare`, `
-Test results help your doctor tailor preventive measures & treatment plans for you.`],
-[`### Proactive Management`, `
-By understanding your risk factors. You can make informed lifestyle choices to improve your overall health.`],
-[`### Peace of Mind`, `
-Knowing your health status can reduce anxiety. Empowering you to take charge of your well-being.`],
-[`### Targeted Wellness Initiatives`, `
-The data collected from biometric screenings enables organizations to tailor their wellness programs. To address specific health issues prevalent among their employees. For instance, if a significant number of employees are found to have high blood pressure. Programs can be designed to promote regular exercise, stress reduction, & healthy eating${ref3_footnote__sup_(ctx)}.`],
-[`### Early Disease Detection`, `
-Biometric screenings can detect early signs of chronic conditions, allowing for early intervention. This helps in managing the condition more effectively. Improving long-term outcomes. And reducing the long-term costs associated with advanced diseases${ref3_footnote__sup_(ctx)}.`],
-[`### Personalized Health Plans`, `
-By understanding individual health risks. Employers can offer personalized support & resources to help employees manage their health better. This may include access to nutrition counseling, fitness programs, or mental health services${footnote__sup__sort([
-	ref3_footnote__sup_(ctx),
-	ref4_footnote__sup_(ctx)
-])}.`],
-[`### Cost Savings`, `
-By identifying & addressing health risks early. Companies can significantly reduce healthcare expenses related to treating chronic diseases. Additionally, healthier employees tend to have lower absenteeism rates & higher productivity levels${footnote__sup__sort([
-  ref3_footnote__sup_(ctx),
-	ref10_footnote__sup_(ctx),
-])}.`],
-[`### Enhanced Employee Engagement & Morale`, `
-Implementing health screenings shows employees that their health is valued by the organization. This boosts morale & increases employee engagement. Leading to a more positive & productive work environment${ref15_footnote__sup_(ctx)}.`],
+	[`### Personalized Healthcare`, [
+		`Test results help your doctor tailor preventive measures & treatment plans for you.`]],
+	[`### Proactive Management`, [
+    `By understanding your risk factors. You can make informed lifestyle choices to improve your overall health.`]],
+	[`### Peace of Mind`, [
+    `Knowing your health status can reduce anxiety. Empowering you to take charge of your well-being.`]],
+	[`### Targeted Wellness Initiatives`, [
+    `The data collected from biometric screenings enables organizations to tailor their wellness programs. To address specific health issues prevalent among their employees. For instance, if a significant number of employees are found to have high blood pressure. Programs can be designed to promote regular exercise, stress reduction, & healthy eating${ref3_footnote__sup_(ctx)}.`]],
+	[`### Early Disease Detection`, [
+    `Biometric screenings can detect early signs of chronic conditions, allowing for early intervention. This helps in managing the condition more effectively. Improving long-term outcomes. And reducing the long-term costs associated with advanced diseases${ref3_footnote__sup_(ctx)}.`]],
+	[`### Personalized Health Plans`, [
+    `By understanding individual health risks. Employers can offer personalized support & resources to help employees manage their health better. This may include access to nutrition counseling, fitness programs, or mental health services${footnote__sup__sort([
+      ref3_footnote__sup_(ctx),
+      ref4_footnote__sup_(ctx)
+    ])}.`]],
+	[`### Cost Savings`, [
+    `By identifying & addressing health risks early. Companies can significantly reduce healthcare expenses related to treating chronic diseases. Additionally, healthier employees tend to have lower absenteeism rates & higher productivity levels${footnote__sup__sort([
+      ref3_footnote__sup_(ctx),
+      ref10_footnote__sup_(ctx),
+    ])}.`]],
+	[`### Enhanced Employee Engagement & Morale`, [
+    `Implementing health screenings shows employees that their health is valued by the organization. This boosts morale & increases employee engagement. Leading to a more positive & productive work environment${ref15_footnote__sup_(ctx)}.`]],
 ])}
 
 ## Considering Comprehensive Wellness Testing?
 Here's what to keep in mind:
 ${dl_tree_({ ctx }, [
-[`### Consult your doctor`, `
-Discuss your health goals & risk factors. To determine if comprehensive testing is right for you.`],
-[`### Understand the options`, `
-Different labs & providers offer various testing panels. Research & choose one that aligns with your needs.`],
-[`### Review costs & insurance coverage`, `
-Testing costs can vary. Investigate insurance coverage to understand your financial responsibility.`],
-[`### Interpreting results`, `
-Don't panic if you see abnormal results. Discuss them with your doctor to determine the next steps.`],
+	[`### Consult your doctor`, [
+    `Discuss your health goals & risk factors. To determine if comprehensive testing is right for you.`]],
+	[`### Understand the options`, [
+    `Different labs & providers offer various testing panels. Research & choose one that aligns with your needs.`]],
+	[`### Review costs & insurance coverage`, [
+    `Testing costs can vary. Investigate insurance coverage to understand your financial responsibility.`]],
+	[`### Interpreting results`, [
+    `Don't panic if you see abnormal results. Discuss them with your doctor to determine the next steps.`]],
 ])}
 
 **Comprehensive wellness testing & screening is an investment in your long-term health. By taking a proactive approach, you can:**

@@ -14,16 +14,16 @@ export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 ## Services Offered by Crisis Stabilization Units
 CSUs offer a range of services, typically including:
 ${dl_tree_({ ctx }, [
-[`### 24/7 Availability`, `
-Offering immediate support during a crisis`],
-[`### Medication Management`, `
-Adjustment of existing medications or starting new ones as needed.`],
-[`### Individual & Group Therapy`, `
-Support groups & therapeutic sessions tailored towards crisis management.`],
-[`### Skill-Building`, `
-Developing coping mechanisms & strategies to manage future challenges.`],
-[`### Discharge Planning`, `
-Connecting individuals with ongoing mental health care & community resources.`],
+	[`### 24/7 Availability`, [
+		`Offering immediate support during a crisis`]],
+	[`### Medication Management`, [
+		`Adjustment of existing medications or starting new ones as needed.`]],
+	[`### Individual & Group Therapy`, [
+		`Support groups & therapeutic sessions tailored towards crisis management.`]],
+	[`### Skill-Building`, [
+		`Developing coping mechanisms & strategies to manage future challenges.`]],
+	[`### Discharge Planning`, [
+		`Connecting individuals with ongoing mental health care & community resources.`]],
 ])}
 
 ### Immediate Assessment & Intervention
@@ -46,16 +46,16 @@ CSUs may be helpful for people experiencing:
 
 CSUs provide advantages over traditional inpatient hospitalization:
 ${dl_tree_({ ctx }, [
-[`### Less Restrictive`, `
-CSUs provide a more relaxed, home-like environment. Which can be less intimidating & promote faster stabilization.`],
-[`### Community-Based`, `
-Individuals remain connected to their usual support system with less disruption.`],
-[`### Cost-Effective`, `
-Typically less expensive than hospitalization.`],
-[`### Preventative Focus`, `
-Proactive support in CSUs can help prevent relapse. Reducing future need for hospitalization.`],
-[`### Stepping Stone`, `
-For some, CSUs can be a bridge to the appropriate level of treatment. Rather than rushed decisions for long-term care.`],
+	[`### Less Restrictive`, [
+		`CSUs provide a more relaxed, home-like environment. Which can be less intimidating & promote faster stabilization.`]],
+	[`### Community-Based`, [
+		`Individuals remain connected to their usual support system with less disruption.`]],
+	[`### Cost-Effective`, [
+		`Typically less expensive than hospitalization.`]],
+	[`### Preventative Focus`, [
+		`Proactive support in CSUs can help prevent relapse. Reducing future need for hospitalization.`]],
+	[`### Stepping Stone`, [
+		`For some, CSUs can be a bridge to the appropriate level of treatment. Rather than rushed decisions for long-term care.`]],
 ])}
 
 ## The Importance of Crisis Stabilization Units
@@ -63,12 +63,12 @@ CSUs fill a critical gap in the mental health care system. By offering an altern
 
 ### Benefits for Patients & Communities
 ${dl_tree_({ ctx }, [
-[`#### Reduced Hospitalizations`, `
-Providing an alternative pathway for care. CSUs help decrease the need for hospital admissions. Making it a cost-effective solution for both patients & healthcare systems.`],
-[`#### Immediate Support`, `
-The availability of immediate, specialized care can be life-saving for individuals in crisis. Offering them the support they need when they need it most.`],
-[`#### Continuity of Care`, `
-By emphasizing the connection to ongoing treatment. CSUs ensure that patients have access to the resources they need. To manage their mental health in the long term.`],
+	[`#### Reduced Hospitalizations`, [
+		`Providing an alternative pathway for care. CSUs help decrease the need for hospital admissions. Making it a cost-effective solution for both patients & healthcare systems.`]],
+	[`#### Immediate Support`, [
+		`The availability of immediate, specialized care can be life-saving for individuals in crisis. Offering them the support they need when they need it most.`]],
+	[`#### Continuity of Care`, [
+		`By emphasizing the connection to ongoing treatment. CSUs ensure that patients have access to the resources they need. To manage their mental health in the long term.`]],
 ])}
 
 ## The Future of Mental Health Care

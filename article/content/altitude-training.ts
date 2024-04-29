@@ -74,10 +74,10 @@ ${dl_tree_({ ctx }, [
 	[`### Altitude Training Challenges the Body`, [
 		`At higher altitudes, there's less atmospheric pressure. Meaning fewer oxygen molecules available with each breath.`]],
 	[`### The Body Adapts`, [
-		`To compensate for the lack of oxygen, the body undergoes changes, including:\n`
-		+ `- Increased red blood cell production to carry more oxygen.\n`
-		+ `- Enhanced oxygen delivery to muscles.\n`
-		+ `- Changes in how the body utilizes oxygen at a cellular level.\n`
+		`To compensate for the lack of oxygen, the body undergoes changes, including:\n` +
+		`- Increased red blood cell production to carry more oxygen.\n` +
+		`- Enhanced oxygen delivery to muscles.\n` +
+		`- Changes in how the body utilizes oxygen at a cellular level.\n`
 	]],
 ])}
 
