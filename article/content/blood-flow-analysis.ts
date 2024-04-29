@@ -11,7 +11,6 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 The constant flow of blood throughout our bodies is the essence of life. The blood carries vital oxygen & nutrients to our organs & tissues. And removes waste products. When blood flow becomes compromised, it can put your health at risk. Blood flow analysis provides essential insights into your cardiovascular health. Enabling early detection & management of a wide range of health conditions.
 	`.trim()
 })
-
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>md__raw_(ctx, `
@@ -21,52 +20,52 @@ In the complex machinery of the human body. The cardiovascular system acts as th
 
 Healthy blood flow is essential for:
 ${dl_tree_({ ctx }, [
-[`### Oxygen & Nutrient Delivery`, `
-Every cell in your body depends on a steady supply of oxygen & nutrients. Restricted blood flow can lead to tissue damage & organ dysfunction.`],
-[`### Waste Removal`, `
-Blood carries away waste products like carbon dioxide. Impaired blood flow can lead to a buildup of toxins.`],
-[`### Heart Health`, `
-Adequate blood flow to the heart muscle is crucial to prevent heart attacks. And prevent other cardiac problems.`],
-[`### Brain Function`, `
-The brain is highly sensitive to blood flow disruptions. Which can increase stroke risk & impair cognitive function.`],
-[`### Peripheral Circulation`, `
-Good blood flow in the arms & legs prevents:
-
-- pain
-- wounds
-- potential complications like amputation in severe cases`],
+	[`### Oxygen & Nutrient Delivery`, [
+		`Every cell in your body depends on a steady supply of oxygen & nutrients. Restricted blood flow can lead to tissue damage & organ dysfunction.`]],
+	[`### Waste Removal`, [
+		`Blood carries away waste products like carbon dioxide. Impaired blood flow can lead to a buildup of toxins.`]],
+	[`### Heart Health`, [
+		`Adequate blood flow to the heart muscle is crucial to prevent heart attacks. And prevent other cardiac problems.`]],
+	[`### Brain Function`, [
+		`The brain is highly sensitive to blood flow disruptions. Which can increase stroke risk & impair cognitive function.`]],
+	[`### Peripheral Circulation`, [
+		`Good blood flow in the arms & legs prevents:\n`
+		+ `- pain\n`
+		+ `- wounds\n`
+		+ `- potential complications like amputation in severe cases\n`
+	]],
 ])}
 
 ## Conditions Affecting Blood Flow
 
 Several conditions can compromise blood flow:
 ${dl_tree_({ ctx }, [
-[`### Atherosclerosis`, `
-The buildup of plaque within artery walls is the most common culprit. Narrowing vessels & restricting flow.	`],
-[`### Blood Clots`, `
-Clots (thrombosis) can form in arteries or veins. Blocking blood flow & leading to life-threatening situations.`],
-[`### Heart Valve Problems`, `
-Malfunctioning heart valves can disrupt blood flow within the heart.`],
-[`### Aneurysms`, `
-Weakened sections of arteries can bulge (aneurysm), raising the risk of rupture.`],
-[`### Peripheral Artery Disease (PAD)`, `
-Atherosclerosis in the legs or arms restricts blood flow.`],
+	[`### Atherosclerosis`, [
+    `The buildup of plaque within artery walls is the most common culprit. Narrowing vessels & restricting flow.`]],
+	[`### Blood Clots`, [
+    `Clots (thrombosis) can form in arteries or veins. Blocking blood flow & leading to life-threatening situations.`]],
+	[`### Heart Valve Problems`, [
+    `Malfunctioning heart valves can disrupt blood flow within the heart.`]],
+	[`### Aneurysms`, [
+    `Weakened sections of arteries can bulge (aneurysm), raising the risk of rupture.`]],
+	[`### Peripheral Artery Disease (PAD)`, [
+    `Atherosclerosis in the legs or arms restricts blood flow.`]],
 ])}
 
 ## How is Blood Flow Analyzed
 
 Blood flow analysis uses diagnostic techniques to visualize & assess the movement of blood. Through the body's arteries & veins. Providing valuable information on the velocity, volume, & turbulence of blood flow. Allowing healthcare professionals to detect abnormalities indicating underlying health issues. Various techniques help doctors evaluate blood flow:
 ${dl_tree_({ ctx }, [
-[`### Doppler Ultrasound`, `
-The primary non-invasive method. Uses sound waves to visualize blood flow & detect blockages or abnormal flow patterns.`],
-[`### Arterial Pressure Waveform Analysis`, `
-Offers insights into the heart's health. By evaluating the pressure changes within the arteries throughout the cardiac cycle.`],
-[`### Blood Pressure Testing`, `
-A basic but crucial measure of the force of blood against vessel walls. High blood pressure indicates stress on the circulatory system.`],
-[`### Cardiac Catheterization`, `
-A more invasive procedure. A catheter is inserted into blood vessels. To provide detailed images, pressure readings, & allows for potential interventions.`],
-[`### Specialized Blood Tests`, `
-Cholesterol levels are a key indicator of heart disease risk. High cholesterol correlates with plaque formation.`],
+	[`### Doppler Ultrasound`, [
+    `The primary non-invasive method. Uses sound waves to visualize blood flow & detect blockages or abnormal flow patterns.`]],
+	[`### Arterial Pressure Waveform Analysis`, [
+    `Offers insights into the heart's health. By evaluating the pressure changes within the arteries throughout the cardiac cycle.`]],
+	[`### Blood Pressure Testing`, [
+    `A basic but crucial measure of the force of blood against vessel walls. High blood pressure indicates stress on the circulatory system.`]],
+	[`### Cardiac Catheterization`, [
+    `A more invasive procedure. A catheter is inserted into blood vessels. To provide detailed images, pressure readings, & allows for potential interventions.`]],
+	[`### Specialized Blood Tests`, [
+    `Cholesterol levels are a key indicator of heart disease risk. High cholesterol correlates with plaque formation.`]],
 ])}
 
 ## The Significance of Blood Flow Analysis
@@ -83,19 +82,18 @@ Blood flow analysis diagnoses, manages, & prevents cardiovascular diseases. Incl
 Early detection is key in managing cardiovascular diseases. Blood flow analysis provides a critical advantage. By identifying issues like blockages, clots, or weakened vessel walls. Physicians can intervene early, often preventing the progression of disease & avoiding severe complications.
 
 ## Applications of Blood Flow Analysis
-
 Blood flow analysis aids in the diagnosis & management of many conditions:
 ${dl_tree_({ ctx }, [
-[`### Coronary Artery Disease`, `
-Identifying blockages that increase heart attack risk.`],
-[`### Peripheral Artery Disease (PAD)`, `
-Diagnosing narrowed arteries in limbs.`],
-[`### Stroke Risk Assessment`, `
-Evaluating blood flow in the carotid arteries that supply the brain.`],
-[`### Deep Vein Thrombosis (DVT)`, `
-Locating dangerous blood clots.`],
-[`### Monitoring Treatment Effectiveness`, `
-Assessing how medications, lifestyle changes, or procedures are improving blood flow.`],
+	[`### Coronary Artery Disease`, [
+    `Identifying blockages that increase heart attack risk.`]],
+	[`### Peripheral Artery Disease (PAD)`, [
+    `Diagnosing narrowed arteries in limbs.`]],
+	[`### Stroke Risk Assessment`, [
+    `Evaluating blood flow in the carotid arteries that supply the brain.`]],
+	[`### Deep Vein Thrombosis (DVT)`, [
+    `Locating dangerous blood clots.`]],
+	[`### Monitoring Treatment Effectiveness`, [
+    `Assessing how medications, lifestyle changes, or procedures are improving blood flow.`]],
 ])}
 
 ### Guiding Treatment Decisions
@@ -123,16 +121,16 @@ Preventive medicine uses blood flow analysis. To identify people at risk of card
 
 Blood flow analysis informs treatment but also highlights the importance of prevention. Prioritize heart-healthy habits:
 ${dl_tree_({ ctx }, [
-[`### Healthy Eating`, `
-A balanced diet rich in fruits, vegetables, whole grains, & lean protein. While limiting unhealthy fats & processed foods.`],
-[`### Regular Exercise`, `
-Strive for moderate-intensity exercise most days of the week.`],
-[`### Stress Management`, `
-Chronic stress takes a toll on the cardiovascular system.`],
-[`### Weight Control`, `
-Maintaining a healthy weight reduces strain on your blood vessels.`],
-[`### Blood Pressure Monitoring`, `
-Regular checkups are crucial.`],
+	[`### Healthy Eating`, [
+    `A balanced diet rich in fruits, vegetables, whole grains, & lean protein. While limiting unhealthy fats & processed foods.`]],
+	[`### Regular Exercise`, [
+    `Strive for moderate-intensity exercise most days of the week.`]],
+	[`### Stress Management`, [
+    `Chronic stress takes a toll on the cardiovascular system.`]],
+	[`### Weight Control`, [
+    `Maintaining a healthy weight reduces strain on your blood vessels.`]],
+	[`### Blood Pressure Monitoring`, [
+    `Regular checkups are crucial.`]],
 ])}
 
 ### Lifestyle & Dietary Interventions

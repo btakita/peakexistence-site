@@ -1,11 +1,10 @@
 import { erectile_dysfunction_treatment } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
-import { dd_md_, dl_tree_ } from '@rappstack/ui--any/dl'
+import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
-import { dd_, dl_, dt_, h3_, h4_, h5_ } from 'relementjs/html'
 // TODO: Add References: WIP
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -38,170 +37,101 @@ ED can be an early warning sign of these conditions. Offering a window for proac
 
 ## Why Treating Cardiovascular Health Can Restore Sexual Function
 ${dl_tree_({ ctx }, [
-[`### Improved Blood Flow`, `
-Managing conditions like high blood pressure & cholesterol optimizes blood flow throughout the body. Including to the penis, enhancing erectile function.`],
-[`### Reduced Medication Side Effects`, `
-Some medications used for heart problems can contribute to ED. The right balance or alternative medications can improve both heart health & sexual function.`],
-[`### Overall Well-Being`, `
-Healthy lifestyle changes that benefit your heart. Such as:
-- exercise
-- a heart-healthy diet
-- stress management`],
+	[`### Improved Blood Flow`, [
+		`Managing conditions like high blood pressure & cholesterol optimizes blood flow throughout the body. Including to the penis, enhancing erectile function.`]],
+	[`### Reduced Medication Side Effects`, [
+		`Some medications used for heart problems can contribute to ED. The right balance or alternative medications can improve both heart health & sexual function.`]],
+	[`### Overall Well-Being`, [
+		`Healthy lifestyle changes that benefit your heart. Such as:\n`
+		+ `- exercise\n`
+		+ `- a heart-healthy diet\n`
+		+ `- stress management\n`
+	]],
 ])}
 
 ## Comprehensive Screening: The First Step
 A thorough evaluation is essential when Erectile Dysfunction occurs. To uncover any underlying cardiovascular risk factors or diseases. This comprehensive screening includes:
 
 ${dl_tree_({ ctx }, [
-[`### Medical history review`, `
-Focusing on cardiovascular risk factors such as:
-- hypertension
-- diabetes
-- smoking
-- family history of heart disease`],
-[`### Physical examination`, `
-Including blood pressure measurement & assessment of the vascular system.`],
-[`### Laboratory tests`, `
-Checking for high cholesterol, diabetes, & other markers of CVD.`],
-[`### Specialized tests`, `
-Such as electrocardiograms (EKGs) or stress tests. If deemed necessary based on initial assessments.`],
+	[`### Medical history review`, [
+		`Focusing on cardiovascular risk factors such as:\n`
+		+ `- hypertension\n`
+		+ `- diabetes\n`
+		+ `- smoking\n`
+		+ `- family history of heart disease\n`
+	]],
+	[`### Physical examination`, [
+		`Including blood pressure measurement & assessment of the vascular system.`]],
+	[`### Laboratory tests`, [
+		`Checking for high cholesterol, diabetes, & other markers of CVD.`]],
+	[`### Specialized tests`, [
+		`Such as electrocardiograms (EKGs) or stress tests. If deemed necessary based on initial assessments.`]],
 ])}
 
 ## Treatment Strategies Focusing on Heart Health
-${dl_([
-	dt_(h3_(`Lifestyle as Medicine`)),
-	dd_(`A healthy lifestyle is foundational to improve blood circulation. Solving root causes of Erectile Dysfunction.`),
-	dt_(h3_(`Healthy Diet`), [
-		dl_([
-			dt_(h4_(`Mechanism`)),
-			dd_(`Consuming a diet rich in fruits, vegetables, whole grains, & lean proteins. Improves blood flow & decrease inflammation. Beneficial for erectile function.`),
-			dt_(h4_(`Impact on ED`)),
-			dd_md_({ ctx }, `A healthy diet prevents the onset of ED. Improving erectile function in men experiencing mild to moderate symptoms${footnote__sup__sort([
-				ref_d1_1_footnote__sup_(ctx),
-				ref_d1_2_footnote__sup_(ctx),
-				// ref_d1_3_footnote__sup_(ctx),
-				ref_d1_4_footnote__sup_(ctx),
-				ref_d1_5_footnote__sup_(ctx),
-			])}.`)
-		])
-	]),
-	dt_(h3_(`Regular Exercise`)),
-	dd_(`Aim for at least 30 minutes of moderate-intensity exercise most days of the week.`),
-	dt_(h3_(`Weight Management`)),
-	dd_(`Maintaining a healthy weight reduces strain on your heart & blood vessels.`),
-	dt_(h3_(`Quit Smoking`)),
-	dd_(`A crucial step for vascular & sexual health.`),
-	dt_(h3_(`Blood Pressure Control`)),
-	dd_(`High blood pressure is a major risk factor for both ED & heart disease.`),
-	dt_(h3_(`Cholesterol Levels`)),
-	dd_(`A healthy balance of LDL, HDL, & Triglycerides through healthy living. Indicates good cardiovascular health.`),
-	dt_(h3_(`Addressing Diabetes`)),
-	dd_(`Effective blood sugar management protects blood vessels throughout the body.`),
-	dt_(h3_(`Medication Management`)),
-	dd_([
-		`Healthy living is the best strategy to manage body vital signs. If additional intervention is needed, the doctor may prescribe medication.`,
-		dl_([
-			dt_(h4_(`Blood Pressure Medication`)),
-			dd_([
-				dl_([
-					dt_(h5_(`Medications Used`)),
-					dd_(`Antihypertensive drugs, including ACE inhibitors & beta-blockers.`),
-					dt_(h5_(`Mechanism`)),
-					dd_(`These medications help lower high blood pressure, enhancing arterial health & blood flow.`),
-					dt_(h5_(`Impact on ED`)),
-					dd_md_({ ctx }, `Improved blood flow can alleviate ED symptoms. As erectile function depends on the ability to achieve & adequate penile blood flow${ref_m1_1_footnote__sup_(ctx)}.`),
-				])
-			]),
-			dt_(h4_(`Cholesterol Level Medication`)),
-			dd_([
-				dl_([
-					dt_(h5_(`Medications Used`)),
-					dd_(`Statins & other lipid-lowering agents.`),
-					dt_(h5_(`Mechanism`)),
-					dd_(`These drugs reduce cholesterol levels. Decreasing the risk of atherosclerosis. A condition where plaque builds up in the arteries.`),
-					dt_(h5_(`Impact on ED`)),
-					dd_md_({ ctx }, `These medications prevent arterial plaque buildup. Helping ensure better blood flow throughout the body, including to the penile region. Improving or preventing ED${ref_m1_2_footnote__sup_(ctx)}.`),
-				])
-			]),
-			dt_(h4_(`Diabetes Medication`)),
-			dd_([
-				dl_([
-					dt_(h5_(`Medications Used`)),
-					dd_(`Blood glucose-regulating medications such as metformin, insulin, & other antidiabetic drugs.`),
-					dt_(h5_(`Mechanism`)),
-					dd_(`These medications help control blood sugar levels. Preventing spikes that can damage blood vessels & nerves over time.`),
-					dt_(h5_(`Impact on ED`)),
-					dd_md_({ ctx }, `Reduces the risk of vascular & neurological damage that can impair erectile function. Thereby helping to maintain or improve sexual health${ref_m1_3_footnote__sup_(ctx)}.`),
-				])
-			]),
-		]),
-	]),
-	dt_(h3_(`Supplemental ED Treatment`)),
-	dd_([`
-While addressing cardiovascular health, your doctor may still recommend:
-- Oral medications (PDE5 inhibitors) to support blood flow.
-- Other ED treatments if needed (injections, devices)`
-	])
-])}
 ${dl_tree_({ ctx }, [
-[`### Lifestyle as Medicine`, `
-A healthy lifestyle is foundational to improve blood circulation. Solving root causes of Erectile Dysfunction.`],
-[`### Healthy Diet`, dl_tree_({ ctx }, [
-	[`#### Mechanism`, `
-	Consuming a diet rich in fruits, vegetables, whole grains, & lean proteins. Improves blood flow & decrease inflammation. Beneficial for erectile function.`],
-	[`#### Impact on ED`, `
-	A healthy diet prevents the onset of ED. Improving erectile function in men experiencing mild to moderate symptoms${footnote__sup__sort([
-		ref_d1_1_footnote__sup_(ctx),
-		ref_d1_2_footnote__sup_(ctx),
-		// ref_d1_3_footnote__sup_(ctx),
-		ref_d1_4_footnote__sup_(ctx),
-		ref_d1_5_footnote__sup_(ctx),
-	])}.`],
-])],
-// Emphasizing fruits, vegetables, whole grains, & lean protein. While limiting unhealthy fats, sugar, & salt.`
-[`### Regular Exercise`, `
-Aim for at least 30 minutes of moderate-intensity exercise most days of the week.`],
-[`### Weight Management`, `
-Maintaining a healthy weight reduces strain on your heart & blood vessels.`],
-[`### Quit Smoking`, `
-A crucial step for vascular & sexual health.`],
-[`### Blood Pressure Control`, `
-High blood pressure is a major risk factor for both ED & heart disease.`],
-[`### Cholesterol Levels`, `
-A healthy balance of LDL, HDL, & Triglycerides through healthy living. Indicates good cardiovascular health.`],
-[`### Addressing Diabetes`, `
-Effective blood sugar management protects blood vessels throughout the body.`],
-[`### Medication Management`, `
-Healthy living is the best strategy to manage body vital signs. If additional intervention is needed, the doctor may prescribe medication.
-${dl_tree_({ ctx }, [
-[`#### Blood Pressure Medication`, dl_tree_({ ctx }, [
-[`##### Medications Used`, `
-Antihypertensive drugs, including ACE inhibitors & beta-blockers.`],
-[`##### Mechanism`, `
-These medications help lower high blood pressure, enhancing arterial health & blood flow.`],
-[`##### Impact on ED`, `Improved blood flow can alleviate ED symptoms. As erectile function depends on the ability to achieve & adequate penile blood flow${ref_m1_1_footnote__sup_(ctx)}.`],
-])],
-[`#### Cholesterol Level Medication`, dl_tree_({ ctx }, [
-[`##### Medications Used`, `
-Statins & other lipid-lowering agents.`],
-[`##### Mechanism`, `
-These drugs reduce cholesterol levels. Decreasing the risk of atherosclerosis. A condition where plaque builds up in the arteries.`],
-[`##### Impact on ED`, `
-These medications prevent arterial plaque buildup. Helping ensure better blood flow throughout the body, including to the penile region. Improving or preventing ED${ref_m1_2_footnote__sup_(ctx)}.`],
-])],
-[`#### Diabetes Medication`, dl_tree_({ ctx }, [
-[`##### Medications Used`, `
-Blood glucose-regulating medications such as metformin, insulin, & other antidiabetic drugs.`],
-[`##### Mechanism`, `
-These medications help control blood sugar levels. Preventing spikes that can damage blood vessels & nerves over time.`],
-[`##### Impact on ED`, `
-Reduces the risk of vascular & neurological damage that can impair erectile function. Thereby helping to maintain or improve sexual health${ref_m1_3_footnote__sup_(ctx)}.`],
-])],
-])}`],
-[`### Supplemental ED Treatment`, `
-While addressing cardiovascular health, your doctor may still recommend:
-- Oral medications (PDE5 inhibitors) to support blood flow.
-- Other ED treatments if needed (injections, devices)`],
+	[`### Lifestyle as Medicine`, [
+		`A healthy lifestyle is foundational to improve blood circulation. Solving root causes of Erectile Dysfunction.`]],
+	[`### Healthy Diet`, [
+		`Consuming a diet rich in fruits, vegetables, whole grains, & lean proteins. Improves blood flow & decrease inflammation. A healthy diet prevents the onset of ED. Improving erectile function in men experiencing mild to moderate symptoms${footnote__sup__sort([
+			ref_d1_1_footnote__sup_(ctx),
+			ref_d1_2_footnote__sup_(ctx),
+			// ref_d1_3_footnote__sup_(ctx),
+			ref_d1_4_footnote__sup_(ctx),
+			ref_d1_5_footnote__sup_(ctx),
+		])}.`]],
+	// Emphasizing fruits, vegetables, whole grains, & lean protein. While limiting unhealthy fats, sugar, & salt.`
+	[`### Regular Exercise`, [
+		`Aim for at least 30 minutes of moderate-intensity exercise most days of the week.`]],
+	[`### Weight Management`, [
+		`Maintaining a healthy weight reduces strain on your heart & blood vessels.`]],
+	[`### Quit Smoking`, [
+		`A crucial step for vascular & sexual health.`]],
+	[`### Blood Pressure Control`, [
+		`High blood pressure is a major risk factor for both ED & heart disease.`]],
+	[`### Cholesterol Levels`, [
+		`A healthy balance of LDL, HDL, & Triglycerides through healthy living. Indicates good cardiovascular health.`]],
+	[`### Addressing Diabetes`, [
+		`Effective blood sugar management protects blood vessels throughout the body.`]],
+	[`### Medication Management`, [
+		`Healthy living is the best strategy to manage body vital signs. If additional intervention is needed, the doctor may prescribe medication.
+	${dl_tree_({ ctx }, [
+			[`#### Blood Pressure Medication`, [
+				dl_tree_({ ctx }, [
+					[`##### Medications Used`, [
+						`Antihypertensive drugs, including ACE inhibitors & beta-blockers.`]],
+					[`##### Mechanism`, [
+						`These medications help lower high blood pressure, enhancing arterial health & blood flow.`]],
+					[`##### Impact on ED`, [
+						`Improved blood flow can alleviate ED symptoms. As erectile function depends on the ability to achieve & adequate penile blood flow${ref_m1_1_footnote__sup_(ctx)}.`]],
+				])
+			]],
+			[`#### Cholesterol Level Medication`, [
+				dl_tree_({ ctx }, [
+					[`##### Medications Used`, [
+						`Statins & other lipid-lowering agents.`]],
+					[`##### Mechanism`, [
+						`These drugs reduce cholesterol levels. Decreasing the risk of atherosclerosis. A condition where plaque builds up in the arteries.`]],
+					[`##### Impact on ED`, [
+						`These medications prevent arterial plaque buildup. Helping ensure better blood flow throughout the body, including to the penile region. Improving or preventing ED${ref_m1_2_footnote__sup_(ctx)}.`]],
+				])
+			]],
+			[`#### Diabetes Medication`, [
+				dl_tree_({ ctx }, [
+					[`##### Medications Used`, [
+						`Blood glucose-regulating medications such as metformin, insulin, & other antidiabetic drugs.`]],
+					[`##### Mechanism`, [
+						`These medications help control blood sugar levels. Preventing spikes that can damage blood vessels & nerves over time.`]],
+					[`##### Impact on ED`, [
+						`Reduces the risk of vascular & neurological damage that can impair erectile function. Thereby helping to maintain or improve sexual health${ref_m1_3_footnote__sup_(ctx)}.`]],
+				])
+			]],
+	])}`]],
+	[`### Supplemental ED Treatment`, [
+		`While addressing cardiovascular health, your doctor may still recommend:\n`
+		+ `- Oral medications (PDE5 inhibitors) to support blood flow.\n`
+		+ `- Other ED treatments if needed (injections, devices)\n`
+	]],
 ])}
 
 ## Integrated Treatment Approaches
@@ -319,6 +249,42 @@ function ref_d1_5_footnote__sup_(ctx:request_ctx_T) {
 			nofollow: true,
 			wrap: true,
 		}, 'Association of Diet With Erectile Dysfunction Among Men in the Health Professionals Follow-up Study')
+	])
+}
+function ref_e1_1_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'nejm_e1_1'
+	}, [
+		tb_a_({
+			href: 'https://www.nejm.org/doi/full/10.1056/NEJMoa022252',
+			nofollow: true,
+			wrap: true,
+		}, 'Leisure Activities and the Risk of Dementia in the Elderly')
+	])
+}
+function ref_e1_2_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'bmj_e1_2'
+	}, [
+		tb_a_({
+			href: 'https://bjsm.bmj.com/content/51/19/1419',
+			nofollow: true,
+			wrap: true,
+		}, 'Physical activity and exercise for erectile dysfunction: systematic review and meta-analysis')
+	])
+}
+function ref_e1_3_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'bmj_e1_2'
+	}, [
+		tb_a_({
+			href: 'https://bjsm.bmj.com/content/51/19/1419',
+			nofollow: true,
+			wrap: true,
+		}, 'Physical activity and exercise for erectile dysfunction: systematic review and meta-analysis')
 	])
 }
 function ref_f1_1_footnote__sup_(ctx:request_ctx_T) {

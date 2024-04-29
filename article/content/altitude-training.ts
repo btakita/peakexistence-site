@@ -71,51 +71,51 @@ As the practice remains popular among endurance sports${footnote__sup__sort([
 
 ## How Altitude Training Works
 ${dl_tree_({ ctx }, [
-[`### Altitude Training Challenges the Body`, `
-At higher altitudes, there's less atmospheric pressure. Meaning fewer oxygen molecules available with each breath.`],
-[`### The Body Adapts`, `
-To compensate for the lack of oxygen, the body undergoes changes, including:
-
-- Increased red blood cell production to carry more oxygen.
-- Enhanced oxygen delivery to muscles.
-- Changes in how the body utilizes oxygen at a cellular level.`],
+	[`### Altitude Training Challenges the Body`, [
+		`At higher altitudes, there's less atmospheric pressure. Meaning fewer oxygen molecules available with each breath.`]],
+	[`### The Body Adapts`, [
+		`To compensate for the lack of oxygen, the body undergoes changes, including:\n`
+		+ `- Increased red blood cell production to carry more oxygen.\n`
+		+ `- Enhanced oxygen delivery to muscles.\n`
+		+ `- Changes in how the body utilizes oxygen at a cellular level.\n`
+	]],
 ])}
 
 ## Methods of Altitude Training
 Altitude training methodologies vary. Each with its unique approach to integrating hypoxic exposure into an athlete's regimen. The three primary strategies are:
 
 ${dl_tree_({ ctx }, [
-[`### Live High-Train Low (LHTL)`, `
-Athletes live at high altitudes to experience chronic hypoxic exposure. While training at lower altitudes to maintain training intensity. This method is widely regarded as the most effective. Allowing athletes to reap the benefits of increased red blood cell count. While avoiding the performance detriments of training in a hypoxic environment${ref19_footnote__sup_(ctx)}.`],
-[`### Live High-Train High (LHTH)`, `
-This approach involves both living & training at high altitudes. While it offers maximum hypoxic exposure, it may limit training intensity. Due to the reduced oxygen availability. Leading to suboptimal training outcomes${ref19_footnote__sup_(ctx)}.`],
-[`### Live Low-Train High (LLTH)`, `
-Athletes live at sea level but train in hypoxic conditions. Either by using altitude chambers or training at high altitudes. This method aims to acclimate athletes to hypoxia. Without the logistical challenges of residing at high altitudes${ref19_footnote__sup_(ctx)}.`],
-[`### Intermittent Hypoxic Training (IHT)`, `
-IHT involves breathing low-oxygen air for short periods. Often during rest or specific training sessions at sea level.`]
+	[`### Live High-Train Low (LHTL)`, [
+		`Athletes live at high altitudes to experience chronic hypoxic exposure. While training at lower altitudes to maintain training intensity. This method is widely regarded as the most effective. Allowing athletes to reap the benefits of increased red blood cell count. While avoiding the performance detriments of training in a hypoxic environment${ref19_footnote__sup_(ctx)}.`]],
+	[`### Live High-Train High (LHTH)`, [
+		`This approach involves both living & training at high altitudes. While it offers maximum hypoxic exposure, it may limit training intensity. Due to the reduced oxygen availability. Leading to suboptimal training outcomes${ref19_footnote__sup_(ctx)}.`]],
+	[`### Live Low-Train High (LLTH)`, [
+		`Athletes live at sea level but train in hypoxic conditions. Either by using altitude chambers or training at high altitudes. This method aims to acclimate athletes to hypoxia. Without the logistical challenges of residing at high altitudes${ref19_footnote__sup_(ctx)}.`]],
+	[`### Intermittent Hypoxic Training (IHT)`, [
+		`IHT involves breathing low-oxygen air for short periods. Often during rest or specific training sessions at sea level.`]]
 ])}
 
 ## Benefits of Altitude Training
 The primary benefit of altitude training is the enhanced aerobic capacity. Attributed to the increased red blood cell mass & improved oxygen delivery mechanisms. Athletes may also experience improvements in:
 
 ${dl_tree_({ ctx }, [
-[`Improved Endurance`, `
-Increased oxygen-carrying capacity can boost stamina for endurance sports.`],
-[`Enhanced VO2 Max`, `
-Improvements in VO2 max, a measure of the body's ability to utilize oxygen during exercise.`],
-[`Increased red blood cell production to carry more oxygen`],
-[`Enhanced oxygen delivery to muscles`],
-[`Changes in how the body utilizes oxygen at a cellular level`],
-[`Improved endurance capacity`],
-[`Increased endurance`],
-[`Increased strength`],
-[`Faster Recovery`, `
-Potential adaptations for better oxygen delivery could help with recovery between workouts.`],
-[`Mental Resilience & Focus`, `
-The benefits extend beyond physiological adaptations. As athletes learn to perform under challenging conditions${footnote__sup__sort([
-  ref16_footnote__sup_(ctx),
-  ref17_footnote__sup_(ctx)
-])}.`],
+	[`Improved Endurance`, [
+		`Increased oxygen-carrying capacity can boost stamina for endurance sports.`]],
+	[`Enhanced VO2 Max`, [
+		`Improvements in VO2 max, a measure of the body's ability to utilize oxygen during exercise.`]],
+	[`Increased red blood cell production to carry more oxygen`],
+	[`Enhanced oxygen delivery to muscles`],
+	[`Changes in how the body utilizes oxygen at a cellular level`],
+	[`Improved endurance capacity`],
+	[`Increased endurance`],
+	[`Increased strength`],
+	[`Faster Recovery`, [
+		`Potential adaptations for better oxygen delivery could help with recovery between workouts.`]],
+	[`Mental Resilience & Focus`, [
+		`The benefits extend beyond physiological adaptations. As athletes learn to perform under challenging conditions${footnote__sup__sort([
+			ref16_footnote__sup_(ctx),
+			ref17_footnote__sup_(ctx)
+		])}.`]],
 ])}
 
 ### Increased Red Blood Cell Production
@@ -250,28 +250,28 @@ Altitude training offers significant advantages. It requires careful planning & 
 ### Potential Risks
 
 ${dl_tree_({ ctx }, [
-[`#### Altitude Sickness`, `
-Acclimatization is crucial, as too rapid ascent can lead to altitude sickness.`],
-[`#### Individualized Approach`, `
-The optimal altitude, duration, & training strategy varies between athletes. Working with a coach specializing in altitude training is recommended`],
-[`#### It's Not Magic`, `
-Altitude training is a demanding tool that must be integrated within a well-structured training program for best outcomes.`],
-[`#### Medical Considerations`, `
-Some health conditions may make altitude training unsafe. Always consult with a doctor before embarking on this training method.`],
-[`#### Dehydration`, `
-Studies indicate that dehydration is a significant concern during high-altitude training. With increased respiratory water loss & hypoxic-induced diuresis contributing to fluid losses. Techniques like contrast water therapy (CWT) are being explored to mitigate dehydration${ref5_1_footnote__sup_(ctx)}. Athletes are advised to increase hydration diligence. Monitoring hydration status through urine characteristics & body mass changes${footnote__sup__sort([
-  ref4_1_footnote__sup_(ctx),
-  ref4_3_footnote__sup_(ctx),
-  ref4_4_footnote__sup_(ctx),
-  ref4_6_footnote__sup_(ctx),
-  ref4_7_footnote__sup_(ctx),
-  ref4_8_footnote__sup_(ctx),
-  ref5_2_footnote__sup_(ctx),
-  ref5_3_footnote__sup_(ctx),
-  ref4_11_footnote__sup_(ctx)
-])}.`],
-[`#### Reduced training intensity`, `
-Impacting skill & speed`],
+	[`#### Altitude Sickness`, [
+		`Acclimatization is crucial, as too rapid ascent can lead to altitude sickness.`]],
+	[`#### Individualized Approach`, [
+		`The optimal altitude, duration, & training strategy varies between athletes. Working with a coach specializing in altitude training is recommended`]],
+	[`#### It's Not Magic`, [
+		`Altitude training is a demanding tool that must be integrated within a well-structured training program for best outcomes.`]],
+	[`#### Medical Considerations`, [
+		`Some health conditions may make altitude training unsafe. Always consult with a doctor before embarking on this training method.`]],
+	[`#### Dehydration`, [
+		`Studies indicate that dehydration is a significant concern during high-altitude training. With increased respiratory water loss & hypoxic-induced diuresis contributing to fluid losses. Techniques like contrast water therapy (CWT) are being explored to mitigate dehydration${ref5_1_footnote__sup_(ctx)}. Athletes are advised to increase hydration diligence. Monitoring hydration status through urine characteristics & body mass changes${footnote__sup__sort([
+			ref4_1_footnote__sup_(ctx),
+			ref4_3_footnote__sup_(ctx),
+			ref4_4_footnote__sup_(ctx),
+			ref4_6_footnote__sup_(ctx),
+			ref4_7_footnote__sup_(ctx),
+			ref4_8_footnote__sup_(ctx),
+			ref5_2_footnote__sup_(ctx),
+			ref5_3_footnote__sup_(ctx),
+			ref4_11_footnote__sup_(ctx)
+		])}.`]],
+	[`#### Reduced training intensity`, [
+		`Impacting skill & speed`]],
 ])}
 
 ## The Takeaway

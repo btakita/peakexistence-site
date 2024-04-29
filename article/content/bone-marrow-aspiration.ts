@@ -22,14 +22,14 @@ Bone marrow aspiration is a diagnostic procedure. That involves extracting a sma
 ## Why Bone Marrow Aspiration is Done
 Doctors may order a bone marrow aspiration to:
 ${dl_tree_({ ctx }, [
-[`### Diagnose Blood Disorders`, `
-Helps identify problems with the production of red blood cells, white blood cells, or platelets. Examples include anemia, leukemia, & other blood cancers.`],
-[`### Detect Cancer`, `
-Can reveal if cancer from another area of the body has spread to the bone marrow.`],
-[`### Monitor Treatment Effectiveness`, `
-Assess how well treatments for blood disorders or cancers are working.`],
-[`### Investigate Unexplained Symptoms`, `
-Is often used when other tests cannot identify the cause of fevers, fatigue, or weakness.`],
+	[`### Diagnose Blood Disorders`, [
+		`Helps identify problems with the production of red blood cells, white blood cells, or platelets. Examples include anemia, leukemia, & other blood cancers.`]],
+	[`### Detect Cancer`, [
+		`Can reveal if cancer from another area of the body has spread to the bone marrow.`]],
+	[`### Monitor Treatment Effectiveness`, [
+		`Assess how well treatments for blood disorders or cancers are working.`]],
+	[`### Investigate Unexplained Symptoms`, [
+		`Is often used when other tests cannot identify the cause of fevers, fatigue, or weakness.`]],
 ])}
 
 ### Diagnostic Clarity
@@ -47,28 +47,32 @@ Bone marrow aspiration enables monitoring the progress of known conditions. And 
 
 ## The Procedure: A Closer Look
 Performed by a specialized medical professional. The procedure often targets the marrow within the hipbone or breastbone. Under local anesthesia to minimize discomfort. A needle inserted into the bone draws out a sample of marrow. The process is swift, usually completed within a few minutes. It provides invaluable insights into the health & functionality of the patient's marrow.
-${dl_tree_({ ctx, dl_class: '[counter-reset:_order]', dt_class: class_(h3_to_h4_dt_class, '[&>h3]:before:[counter-increment:order]', '[&>h3]:before:content-[counter(order)_\'._\']') }, [
-[`### Location`, `
-Commonly performed on the back of the hip bone (pelvis), less often on the breastbone (sternum).`],
-[`### Numbing`, `
-The area is thoroughly cleaned, & local anesthetic numbs the skin & the outer surface of the bone.`],
-[`### Aspiration`, `
-A special needle inserted through the bone into the bone marrow cavity. A syringe withdraws a small amount of liquid bone marrow.`],
-[`### Biopsy`, `
-Often a bone marrow biopsy is also done. This involves removing a tiny, solid core of bone marrow tissue.`],
+${dl_tree_({ 
+	ctx,
+	dl_class: '[counter-reset:_order]',
+	dt_class: class_('[&>h3]:before:[counter-increment:order]', '[&>h3]:before:content-[counter(order)_\'._\']') 
+}, [
+	[`### Location`, [
+		`Commonly performed on the back of the hip bone (pelvis), less often on the breastbone (sternum).`]],
+	[`### Numbing`, [
+		`The area is thoroughly cleaned, & local anesthetic numbs the skin & the outer surface of the bone.`]],
+	[`### Aspiration`, [
+		`A special needle inserted through the bone into the bone marrow cavity. A syringe withdraws a small amount of liquid bone marrow.`]],
+	[`### Biopsy`, [
+		`Often a bone marrow biopsy is also done. This involves removing a tiny, solid core of bone marrow tissue.`]],
 ])}
 
 ## What to Expect
 Despite its importance, a bone marrow aspiration procedure may evoke apprehension. Understanding what to expect:
 ${dl_tree_({ ctx }, [
-[`### Preparation`, `
-Bone Marrow Aspiration requires little preparation. Though certain medications should be avoided before the procedure.`],
-[`### During the Procedure`, `
-The area around the aspiration site is numbed. While patients may feel pressure, pain is typically minimal.`],
-[`### Post-Procedure`, `
-Recovery is quick, with patients able to resume most activities shortly after. Some soreness at the site of aspiration may occur but generally subsides within a few days.`],
-[`### Results`, `
-Samples analysis occurs in a lab. Your doctor will discuss the results with you, usually within a week or two.`],
+	[`### Preparation`, [
+		`Bone Marrow Aspiration requires little preparation. Though certain medications should be avoided before the procedure.`]],
+	[`### During the Procedure`, [
+		`The area around the aspiration site is numbed. While patients may feel pressure, pain is typically minimal.`]],
+	[`### Post-Procedure`, [
+		`Recovery is quick, with patients able to resume most activities shortly after. Some soreness at the site of aspiration may occur but generally subsides within a few days.`]],
+	[`### Results`, [
+		`Samples analysis occurs in a lab. Your doctor will discuss the results with you, usually within a week or two.`]],
 ])}
 
 ## What the Results Can Reveal

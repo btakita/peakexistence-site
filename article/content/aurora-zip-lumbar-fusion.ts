@@ -41,39 +41,37 @@ The ZIP™ device features a patented one-step lock that eliminates the need for
 
 ### Key Features & Design Benefits
 ${dl_tree_({ ctx }, [
-[`Minimally Invasive Approach`, `
-The system's innovative design allows for smaller incisions & less muscle disruption. Which leads to:
-
-- reduced operative time
-- less postoperative pain
-- faster recovery`],
-[`Enhanced Stability`, `
-The zip technology provides robust mechanical stabilization. Which is critical for the successful fusion of the vertebrae.`],
-[`Biocompatible Materials`, `
-Made from high-quality materials that are compatible with the human body. The Aurora ZIP™ system ensures durability & long-term reliability.`],
-[`Versatility`, `
-The Aurora ZIP™ system is useful to treat various lumbar spinal issues, including:
-
-- degenerative disc disease
-- spondylolisthesis
-- spinal stenosis`],
-[`Less Bone Removal`, `
-The Aurora ZIP™ procedure may require less bone removal compared to traditional fusion techniques.`],
+	[`Minimally Invasive Approach`, [
+		`The system's innovative design allows for smaller incisions & less muscle disruption. Which leads to:\n`
+		+ `- reduced operative time\n`
+		+ `- less postoperative pain\n`
+		+ `- faster recovery\n`]],
+	[`Enhanced Stability`, [
+		`The zip technology provides robust mechanical stabilization. Which is critical for the successful fusion of the vertebrae.`]],
+	[`Biocompatible Materials`, [
+		`Made from high-quality materials that are compatible with the human body. The Aurora ZIP™ system ensures durability & long-term reliability.`]],
+	[`Versatility`, [
+		`The Aurora ZIP™ system is useful to treat various lumbar spinal issues, including:\n`
+		+ `- degenerative disc disease\n`
+		+ `- spondylolisthesis\n`
+		+ `- spinal stenosis\n`]],
+	[`Less Bone Removal`, [
+		`The Aurora ZIP™ procedure may require less bone removal compared to traditional fusion techniques.`]],
 ])}
 
 ## Clinical Efficacy & Patient Outcomes
 Patients undergoing lumbar fusion surgery with the Aurora ZIP™ benefit:
 ${dl_tree_({ ctx }, [
-[`### Shorter Surgery Time`, `
-The minimally invasive nature can result in a faster procedure.`],
-[`### Reduced Surgical Risks`, `
-Minimally invasive procedures reduces risks associated with larger surgical exposures. Such as infection & blood loss.`],
-[`### Reduced Post-Op Pain`, `
-Due to less tissue disruption & muscle damage.`],
-[`### Faster Recovery`, `
-Patients experience quicker recovery times. With less postoperative pain & faster return to daily activities.`],
-[`### Improved Surgical Outcomes`, `
-Early clinical studies & patient reports. Suggest the Aurora ZIP™ system leads to higher patient satisfaction & improved outcomes. Compared to traditional fusion techniques.`]
+	[`### Shorter Surgery Time`, [
+		`The minimally invasive nature can result in a faster procedure.`]],
+	[`### Reduced Surgical Risks`, [
+		`Minimally invasive procedures reduces risks associated with larger surgical exposures. Such as infection & blood loss.`]],
+	[`### Reduced Post-Op Pain`, [
+		`Due to less tissue disruption & muscle damage.`]],
+	[`### Faster Recovery`, [
+		`Patients experience quicker recovery times. With less postoperative pain & faster return to daily activities.`]],
+	[`### Improved Surgical Outcomes`, [
+		`Early clinical studies & patient reports. Suggest the Aurora ZIP™ system leads to higher patient satisfaction & improved outcomes. Compared to traditional fusion techniques.`]]
 ])}
 
 ### Patient & Surgeon Experiences
@@ -88,34 +86,34 @@ Clinical studies & patient outcomes demonstrate the efficacy of the Aurora ZIP�
 
 This procedure may be suitable for patients needing surgical intervention in the Lumbar Spine:
 ${dl_tree_({ ctx }, [
-[`### Degenerative Disc Disease`, `
-A breakdown of one or more spinal discs causing severe pain & instability.`],
-[`### Spondylolisthesis`, `
-When a vertebra slips out of alignment with the one below it.`],
-[`### Spinal Instability`, `
-Excessive or abnormal motion in the spinal joints that causes pain and/or neurological symptoms.`],
+	[`### Degenerative Disc Disease`, [
+		`A breakdown of one or more spinal discs causing severe pain & instability.`]],
+	[`### Spondylolisthesis`, [
+		`When a vertebra slips out of alignment with the one below it.`]],
+	[`### Spinal Instability`, [
+		`Excessive or abnormal motion in the spinal joints that causes pain and/or neurological symptoms.`]],
 ])}
 
 ## Advantages Over Traditional Surgery
 The Aurora ZIP™ Lumbar Fusion offers several advantages over traditional back surgery:
 ${dl_tree_({ ctx }, [
-[`### Minimally Invasive`, `
-Tiny skin incisions result in less pain & minimal blood loss${footnote__sup__sort([
-	// ref2_footnote__sup_(ctx)
-])}.`],
-[`### Quick Recovery`, `
-Patients can expect a fast recovery time of about one week. Compared to several months for traditional surgery${footnote__sup__sort([
-	// ref1_footnote__sup_(ctx),
-	// ref2_footnote__sup_(ctx),
-])}.`],
-[`### No General Anesthesia`, `
-The procedure's performed under sedation. Allowing patients to go home the same day${footnote__sup__sort([
-	// ref2_footnote__sup_(ctx)
-])}.`],
-[`### Long-Term Relief`, `
-The procedure provides long-term pain relief for months to years. Addressing mild-to-moderate spinal instability${footnote__sup__sort([
-	// ref5_footnote__sup_(ctx)
-])}.`],
+	[`### Minimally Invasive`, [
+		`Tiny skin incisions result in less pain & minimal blood loss${footnote__sup__sort([
+			// ref2_footnote__sup_(ctx)
+		])}.`]],
+	[`### Quick Recovery`, [
+		`Patients can expect a fast recovery time of about one week. Compared to several months for traditional surgery${footnote__sup__sort([
+			// ref1_footnote__sup_(ctx),
+			// ref2_footnote__sup_(ctx),
+		])}.`]],
+	[`### No General Anesthesia`, [
+		`The procedure's performed under sedation. Allowing patients to go home the same day${footnote__sup__sort([
+			// ref2_footnote__sup_(ctx)
+		])}.`]],
+	[`### Long-Term Relief`, [
+		`The procedure provides long-term pain relief for months to years. Addressing mild-to-moderate spinal instability${footnote__sup__sort([
+			// ref5_footnote__sup_(ctx)
+		])}.`]],
 ])}
 
 ## Expanding Access to Care
@@ -123,27 +121,26 @@ The FDA approved of new lumbar spinal stenosis indications for the ZIP™ family
 
 ## Important Considerations
 ${dl_tree_({ ctx }, [
-[`### Not for Everyone`, `
-Your surgeon will assess if you a good candidate. By your specific condition severity, anatomy, & overall health.`],
-[`### It's Still Surgery`, `
-While minimally invasive, it carries potential risks like infection, bleeding, or implant-related issues.`],
-[`### Recovery Matters`, `
-Proper rehabilitation after surgery is crucial for optimal outcomes. Even with minimally invasive techniques.`],
+	[`### Not for Everyone`, [
+		`Your surgeon will assess if you a good candidate. By your specific condition severity, anatomy, & overall health.`]],
+	[`### It's Still Surgery`, [
+		`While minimally invasive, it carries potential risks like infection, bleeding, or implant-related issues.`]],
+	[`### Recovery Matters`, [
+		`Proper rehabilitation after surgery is crucial for optimal outcomes. Even with minimally invasive techniques.`]],
 ])}
 
 ## The Role of Your Surgeon
 ${dl_tree_({ ctx }, [
-[`### Experience Counts`, `
-The surgeon's expertise in performing Aurora ZIP™ Lumbar Fusion significantly influences success & safety.`],
-[`### Individualized Approach`, `
-The best surgical option depends on your specific diagnosis, health condition, & goals.`],
-[`### Candid Discussion`, `
-Ask your surgeon about:
-
-- their experience with this procedure
-- the potential benefits & risks in your situation
-- realistic expectations for recovery
-`]])}
+	[`### Experience Counts`, [
+		`The surgeon's expertise in performing Aurora ZIP™ Lumbar Fusion significantly influences success & safety.`]],
+	[`### Individualized Approach`, [
+		`The best surgical option depends on your specific diagnosis, health condition, & goals.`]],
+	[`### Candid Discussion`, [
+		`Ask your surgeon about:\n`
+		+ `- their experience with this procedure\n`
+		+ `- the potential benefits & risks in your situation\n`
+		+ `- realistic expectations for recovery\n`]]]
+)}
 
 ## The Takeaway
 Aurora ZIP™ Lumbar Fusion provides a  minimally invasive option for spinal fusion. This evolving technology may offer benefits for certain patients. Consult with an experienced spine surgeon specializing in this technique. To determine if it's the right approach for your individual needs.
