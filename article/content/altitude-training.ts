@@ -2,7 +2,7 @@ import { altitude_training } from '@btakita/domain--server--peakexistence/featur
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { md__raw_ } from '@rappstack/ui--any/md'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
@@ -13,279 +13,201 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>md__raw_(ctx, `
-## Definition & Purpose of Altitude Training
-Altitude training is a training method to enhance athletic performance for endurance athletes. It is also known as hypoxic training. Altitude Training involves living and/or training at high altitudes. Where the air contains less oxygen. Typically around 2,400 meters (8,000 feet) above sea level${ref16_footnote__sup_(ctx)}. The purpose of altitude training is to provoke physiological adaptations in the body. That improve oxygen delivery & utilization. This is achieved through increased production of erythropoietin (EPO). Which stimulates the creation of more red blood cells. Thereby enhancing the blood's oxygen-carrying capacity${footnote__sup__sort([
-  ref8_1_footnote__sup_(ctx),
-	ref16_footnote__sup_(ctx),
-	ref8_6_footnote__sup_(ctx)
-])}.
-
-The adaptations induced by altitude training are intended to provide a competitive edge. When athletes return to compete at lower altitudes. The benefits include${footnote__sup__sort([
-  ref8_1_footnote__sup_(ctx),
-	ref16_footnote__sup_(ctx)
-])}:
-
-- Improved VO2 max (The maximum rate of oxygen consumption measured during incremental exercise)
-- Increased endurance
-- Higher lactic acid threshold
-- Faster recovery from muscle fatigue
-
-Athletes may use natural high-altitude environments or simulate these conditions. Using altitude tents or hypoxic devices${footnote__sup__sort([
-  ref16_footnote__sup_(ctx),
-	ref8_8_footnote__sup_(ctx),
-	ref6_9_footnote__sup_(ctx)
-])}. While the primary audience for altitude training is elite endurance athletes, there is some evidence to suggest that non-athletes living at high altitudes may also experience cardiovascular benefits${ref8_5_footnote__sup_(ctx)}.
-
-## A Brief History on Altitude Training
-Records of altitude exposure on human health go back to the 19th century. When alpinists & balloonists first documented the physiological effects of high altitudes${ref7_3_footnote__sup_(ctx)}. Research on high-altitude training continued through World War II${footnote__sup__sort([
-  ref7_2_footnote__sup_(ctx),
-	ref7_4_footnote__sup_(ctx)
-])}. With soldiers operating at high elevations.
-
-After World War II, scientific research into altitude training gained significant traction. The 1968 Mexico City Olympics, held at an elevation of 7,349 feet, provided a pivotal moment. Endurance athletes struggled with the lack of oxygen. While sprint events saw record-breaking performances${ref16_footnote__sup_(ctx)}. Sparking intensive study into how altitude affects athletic performance${footnote__sup__sort([
-  ref7_1_footnote__sup_(ctx),
-	ref16_footnote__sup_(ctx)
-])}.
-
-Throughout the 1960s-1990s, different altitude training methods were developed. And refined by sports scientists. Like "live high-train high" & the more popular "live high-train low"${footnote__sup__sort([
-  ref7_4_footnote__sup_(ctx),
-	ref16_footnote__sup_(ctx)
-])}. Elite endurance athletes began widely adopting these protocols. In pursuit of legal performance enhancement.
-
-The use of altitude tents & other simulated altitude devices emerged in this period. Allowing athletes to experience the benefits of altitude exposure at sea level locations${footnote__sup__sort([
-  ref7_2_footnote__sup_(ctx),
-	ref7_3_footnote__sup_(ctx)
-])}.
-
-With the core principles established by the 1990s. Research into optimizing:
-
-- altitude training protocols
-- individual responses
-- the specific physiological adaptations continues today
-
-As the practice remains popular among endurance sports${footnote__sup__sort([
-  ref7_4_footnote__sup_(ctx),
-	ref16_footnote__sup_(ctx)
-])}.
-
-## How Altitude Training Works
-${dl_tree_({ ctx }, [
-	[`### Altitude Training Challenges the Body`, [
-		`At higher altitudes, there's less atmospheric pressure. Meaning fewer oxygen molecules available with each breath.`]],
-	[`### The Body Adapts`, [
-		`To compensate for the lack of oxygen, the body undergoes changes, including:\n` +
-		`- Increased red blood cell production to carry more oxygen.\n` +
-		`- Enhanced oxygen delivery to muscles.\n` +
-		`- Changes in how the body utilizes oxygen at a cellular level.\n`
-	]],
-])}
-
-## Methods of Altitude Training
-Altitude training methodologies vary. Each with its unique approach to integrating hypoxic exposure into an athlete's regimen. The three primary strategies are:
-
-${dl_tree_({ ctx }, [
-	[`### Live High-Train Low (LHTL)`, [
-		`Athletes live at high altitudes to experience chronic hypoxic exposure. While training at lower altitudes to maintain training intensity. This method is widely regarded as the most effective. Allowing athletes to reap the benefits of increased red blood cell count. While avoiding the performance detriments of training in a hypoxic environment${ref19_footnote__sup_(ctx)}.`]],
-	[`### Live High-Train High (LHTH)`, [
-		`This approach involves both living & training at high altitudes. While it offers maximum hypoxic exposure, it may limit training intensity. Due to the reduced oxygen availability. Leading to suboptimal training outcomes${ref19_footnote__sup_(ctx)}.`]],
-	[`### Live Low-Train High (LLTH)`, [
-		`Athletes live at sea level but train in hypoxic conditions. Either by using altitude chambers or training at high altitudes. This method aims to acclimate athletes to hypoxia. Without the logistical challenges of residing at high altitudes${ref19_footnote__sup_(ctx)}.`]],
-	[`### Intermittent Hypoxic Training (IHT)`, [
-		`IHT involves breathing low-oxygen air for short periods. Often during rest or specific training sessions at sea level.`]]
-])}
-
-## Benefits of Altitude Training
-The primary benefit of altitude training is the enhanced aerobic capacity. Attributed to the increased red blood cell mass & improved oxygen delivery mechanisms. Athletes may also experience improvements in:
-
-${dl_tree_({ ctx }, [
-	[`Improved Endurance`, [
-		`Increased oxygen-carrying capacity can boost stamina for endurance sports.`]],
-	[`Enhanced VO2 Max`, [
-		`Improvements in VO2 max, a measure of the body's ability to utilize oxygen during exercise.`]],
-	[`Increased red blood cell production to carry more oxygen`],
-	[`Enhanced oxygen delivery to muscles`],
-	[`Changes in how the body utilizes oxygen at a cellular level`],
-	[`Improved endurance capacity`],
-	[`Increased endurance`],
-	[`Increased strength`],
-	[`Faster Recovery`, [
-		`Potential adaptations for better oxygen delivery could help with recovery between workouts.`]],
-	[`Mental Resilience & Focus`, [
-		`The benefits extend beyond physiological adaptations. As athletes learn to perform under challenging conditions${footnote__sup__sort([
-			ref16_footnote__sup_(ctx),
-			ref17_footnote__sup_(ctx)
-		])}.`]],
-])}
-
-### Increased Red Blood Cell Production
-High altitude training stimulates the production of erythropoietin (EPO). Which in turn increases the production of red blood cells. This adaptation enhances the oxygen-carrying capacity of the blood. Improving aerobic performance & endurance when the athlete returns to lower altitudes${footnote__sup__sort([
-		ref10_8_footnote__sup_(ctx),
-		ref8_6_footnote__sup_(ctx),
-		ref11_1_footnote__sup_(ctx),
-		ref11_2_footnote__sup_(ctx),
-		ref11_3_footnote__sup_(ctx),
-		ref8_8_footnote__sup_(ctx),
-		ref8_1_footnote__sup_(ctx),
-		ref11_6_footnote__sup_(ctx)
-	])}.
-
-### Improved Aerobic Capacity (VO2 max)
-Training at high altitudes can increase VO2 max. Which is the maximum amount of oxygen the body can utilize during intense exercise. This improvement is due to the body adapting to the lower oxygen levels at high altitudes. Which forces the cardiovascular system to become more efficient${footnote__sup__sort([
-	ref8_6_footnote__sup_(ctx),
-	ref11_3_footnote__sup_(ctx),
-	ref8_8_footnote__sup_(ctx)
-])}.
-
-### Increased Oxygen Efficiency
-Training in a hypoxic environment can lead to increased oxygen efficiency. Allowing for a significant performance boost when returning to lower altitudes${ref11_3_footnote__sup_(ctx)}.
-
-### Enhanced Lung Function
-The lower oxygen levels at high altitudes make the lungs work harder. Which can lead to:
-
-- an increase in lung capacity
-- the strengthening of respiratory muscles
-
-This adaptation helps in maximizing every breath & improving the overall respiratory efficiency${ref10_8_footnote__sup_(ctx)}.
-
-### Enhanced Mental Resilience
-The challenging conditions at high altitudes can also strengthen mental resilience. Athletes training at high altitudes often develop a stronger mental & emotional approach. To cope with the reduced oxygen supply. which can be beneficial in competitive situations${footnote__sup__sort([
-  ref10_8_footnote__sup_(ctx)
-])}.
-
-### Accelerated Recovery & Adaptation
-High altitude training can accelerate recovery & adaptation processes. With increased red blood cell production aiding in muscle repair & recovery${footnote__sup__sort([
-  ref11_3_footnote__sup_(ctx)
-])}.
-
-### Increased Muscular Endurance & Strength
-The scarcity of oxygen at high altitudes forces the muscles to adapt & become more efficient. This can lead to increased muscular endurance & strength. Which are crucial for performance in endurance sports${footnote__sup__sort([
-		ref10_8_footnote__sup_(ctx),
-		ref8_1_footnote__sup_(ctx)
-	])}.
-
-### Accelerated Recovery & Reduced Inflammation
-High altitude training can increase the lactate threshold. Increasing the body's tolerance to lactic acid. Enabling athletes to perform for longer periods before experiencing muscle fatigue${ref8_1_footnote__sup_(ctx)}. Which means athletes can recover faster & experience less tissue inflammation after intense workouts${ref10_8_footnote__sup_(ctx)}.
-
-## Who Might Benefit Most
-Altitude training is primarily geared toward endurance athletes like:
-
-- Runners
-- Cyclists
-- Swimmers
-- Triathletes
-
-Less benefit is typically seen in strength or power-based sports.
-
-## Effective Altitude Levels
-The optimal altitude for training varies. Most benefits occur between 2,000 to 3,000 meters. Above 3,000 meters, the risks of adverse effects increase.
-
-## The Science of Altitude Training
-At elevations above 2,400 meters (approximately 8,000 feet). The air's reduced oxygen content challenges the body's ability to supply muscles with adequate oxygen. This hypoxic condition triggers a cascade of physiological adaptations. Aimed at improving oxygen delivery & utilization. The most notable adaptation is the increase in erythropoietin (EPO) production. Stimulating the production of red blood cells or hemocrit. And enhancing the blood's oxygen-carrying capacity${ref16_footnote__sup_(ctx)}. Altitude exposure can lead to increased capillarization in muscles & changes in muscle metabolism. Further optimizing oxygen usage during physical exertion${footnote__sup__sort([
-	ref16_footnote__sup_(ctx),
-	ref17_footnote__sup_(ctx)
-])}.
-
-### Improved Aerobic Power
-Studies show improved aerobic power in runners who trained at 6,000 feet for 10 days. Then performing at low altitude. The study noted that lower oxygen levels at altitude stimulate EPO. Leading to increased red blood cells or hematocrit. Which allows more oxygen to be carried to the tissues. This process is akin to blood doping but is achieved naturally${ref2_1_footnote__sup_(ctx)}. A three-week traditional altitude training increased hemoglobin mass & red cell volume. In elite biathlon athletes${ref2_3_footnote__sup_(ctx)}. Even world-class athletes can experience significant hematological changes from altitude training.
-
-### Short Exposures to High Elevation, Weeks to Months of Benefit
-A study reported that even short exposures to high elevation can cause a complex cascade of changes within red blood cells that make it easier to breathe at high altitudes, & these changes persist for weeks & possibly months after descending to lower elevations${ref2_9_footnote__sup_(ctx)}.
-
-### Broad Scientific Consensus of Hematological changes Enhancing Aerobic Performance
-These findings are consistent with the broader scientific consensus that altitude training can lead to hematological changes that enhance aerobic performance at sea level${footnote__sup__sort([
-	ref3_5_footnote__sup_(ctx),
-	ref2_1_footnote__sup_(ctx),
-	ref2_3_footnote__sup_(ctx),
-	ref2_9_footnote__sup_(ctx),
-	ref2_16_footnote__sup_(ctx)
-])}.
-
-### Different People Respond Differently to Altitude Training
-It is important to note that the response to altitude training can be quite individual, & not all athletes may experience the same level of benefit${footnote__sup__sort([
-	ref2_2_footnote__sup_(ctx),
-	ref2_6_footnote__sup_(ctx),
-	ref2_7_footnote__sup_(ctx),
-	ref2_13_footnote__sup_(ctx),
-	ref2_20_footnote__sup_(ctx)
-])}. Professional guidance is beneficial in navigating your training.
-
-### Studies that Correlate Living at Altitude with Longevity
-
-#### Frontiers in Stroke Research (2023)
-This study does not directly link altitude with longevity. But discusses the impact of altitude on health outcomes. Such as stroke mortality & hospitalization risk. Suggesting broader implications for health at high altitudes${ref9_1_footnote__sup_(ctx)}.
-
-#### Steamboat Pilot (2019)
-This article mentions that people living at higher altitudes${ref9_2_footnote__sup_(ctx)}:
-
-- tend to be healthier
-- have lower rates of cardiovascular disease
-- lower rates of some types of cancer
-
-#### PMC - NCBI (2013)
-Narrative review stating that living at higher altitudes associates with lower mortality from${ref9_3_footnote__sup_(ctx)}:
-
-- cardiovascular diseases
-- stroke
-- certain types of cancer
-
-#### Harvard Medical School (2023)
-This study focuses on animal models. Suggesting that living in a low-oxygen environment extends life spans & preserve neurologic function. Hinting at potential benefits for humans living at high altitudes${ref9_4_footnote__sup_(ctx)}.
-
-#### Boulder Community Health (2023)
-This article discusses increased life expectancy for both men & women. Living at higher altitude counties compared to those at sea level. Directly linking altitude with longevity${ref9_5_footnote__sup_(ctx)}.
-
-#### Earth.com (2023)
-This source discusses how living at high altitude leads to metabolic changes. Associated with a reduced risk of diseases like diabetes & coronary artery disease. Indirectly supporting how high altitude living could contribute to longer life spans${ref9_7_footnote__sup_(ctx)}.
-
-#### Science Daily (2011)
-Study titled "Living at high altitude reduces risk of dying from heart disease: Low oxygen may spur genes to create blood vessels"${ref9_8_footnote__sup_(ctx)}.
-
-## Considerations & Risks
-Altitude training offers significant advantages. It requires careful planning & monitoring to avoid potential drawbacks. Such as altitude sickness & overtraining. Athletes must allow adequate time for acclimatization & recovery. They should consider individual responses to altitude, as these can vary${footnote__sup__sort([
-  ref11_footnote__sup_(ctx),
-	ref17_footnote__sup_(ctx)
-])}. The logistics of accessing suitable high-altitude training locations. Or the costs associated with simulated altitude environments can be prohibitive for some.
-
-### Potential Risks
-
-${dl_tree_({ ctx }, [
-	[`#### Altitude Sickness`, [
-		`Acclimatization is crucial, as too rapid ascent can lead to altitude sickness.`]],
-	[`#### Individualized Approach`, [
-		`The optimal altitude, duration, & training strategy varies between athletes. Working with a coach specializing in altitude training is recommended`]],
-	[`#### It's Not Magic`, [
-		`Altitude training is a demanding tool that must be integrated within a well-structured training program for best outcomes.`]],
-	[`#### Medical Considerations`, [
-		`Some health conditions may make altitude training unsafe. Always consult with a doctor before embarking on this training method.`]],
-	[`#### Dehydration`, [
-		`Studies indicate that dehydration is a significant concern during high-altitude training. With increased respiratory water loss & hypoxic-induced diuresis contributing to fluid losses. Techniques like contrast water therapy (CWT) are being explored to mitigate dehydration${ref5_1_footnote__sup_(ctx)}. Athletes are advised to increase hydration diligence. Monitoring hydration status through urine characteristics & body mass changes${footnote__sup__sort([
-			ref4_1_footnote__sup_(ctx),
-			ref4_3_footnote__sup_(ctx),
-			ref4_4_footnote__sup_(ctx),
-			ref4_6_footnote__sup_(ctx),
-			ref4_7_footnote__sup_(ctx),
-			ref4_8_footnote__sup_(ctx),
-			ref5_2_footnote__sup_(ctx),
-			ref5_3_footnote__sup_(ctx),
-			ref4_11_footnote__sup_(ctx)
-		])}.`]],
-	[`#### Reduced training intensity`, [
-		`Impacting skill & speed`]],
-])}
-
-## The Takeaway
-Altitude training offers a way for athletes to naturally boost their physiological capabilities. By strategically stressing their bodies under low-oxygen conditions. With responsible application & integration in a training plan. It can be a powerful tool to help endurance athletes reach new performance heights.
-
-## Conclusion
-Altitude training harnessing the body's adaptive responses to hypoxia. Allowing athletes to achieve remarkable improvements in performance.  Whether it's altitude training by:
-
-- living high & training low
-- embracing the rigors of high-altitude life & training
-- incorporating simulated altitude conditions into their regimen
-
-Athletes continue to explore the upper limits of their potential, one breath at a time.
-`)
+export default (ctx:request_ctx_T)=>{
+	return '' + dl_tree_({ ctx }, [
+		[`## Definition & Purpose of Altitude Training`, [
+			`Altitude training is a training method to enhance athletic performance for endurance athletes. It is also known as hypoxic training. Altitude Training involves living and/or training at high altitudes. Where the air contains less oxygen. Typically around 2,400 meters (8,000 feet) above sea level${ref16_footnote__sup_(ctx)}. The purpose of altitude training is to provoke physiological adaptations in the body. That improve oxygen delivery & utilization. This is achieved through increased production of erythropoietin (EPO). Which stimulates the creation of more red blood cells. Thereby enhancing the blood's oxygen-carrying capacity${footnote__sup__sort([ref8_1_footnote__sup_(ctx), ref16_footnote__sup_(ctx), ref8_6_footnote__sup_(ctx)])}.`,
+			``,
+			`The adaptations induced by altitude training are intended to provide a competitive edge. When athletes return to compete at lower altitudes. The benefits include${footnote__sup__sort([ref8_1_footnote__sup_(ctx), ref16_footnote__sup_(ctx)])}:`,
+			`- Improved VO2 max (The maximum rate of oxygen consumption measured during incremental exercise)`,
+			`- Increased endurance`,
+			`- Higher lactic acid threshold`,
+			`- Faster recovery from muscle fatigue`,
+			``,
+			`Athletes may use natural high-altitude environments or simulate these conditions. Using altitude tents or hypoxic devices${footnote__sup__sort([ref16_footnote__sup_(ctx), ref8_8_footnote__sup_(ctx), ref6_9_footnote__sup_(ctx)])}. While the primary audience for altitude training is elite endurance athletes, there is some evidence to suggest that non-athletes living at high altitudes may also experience cardiovascular benefits${ref8_5_footnote__sup_(ctx)}.`].join(nl)],
+		[`## A Brief History on Altitude Training`, [
+			`Records of altitude exposure on human health go back to the 19th century. When alpinists & balloonists first documented the physiological effects of high altitudes${ref7_3_footnote__sup_(ctx)}. Research on high-altitude training continued through World War II${footnote__sup__sort([ref7_2_footnote__sup_(ctx), ref7_4_footnote__sup_(ctx)])}. With soldiers operating at high elevations.`,
+			``,
+			`After World War II, scientific research into altitude training gained significant traction. The 1968 Mexico City Olympics, held at an elevation of 7,349 feet, provided a pivotal moment. Endurance athletes struggled with the lack of oxygen. While sprint events saw record-breaking performances${ref16_footnote__sup_(ctx)}. Sparking intensive study into how altitude affects athletic performance${footnote__sup__sort([ref7_1_footnote__sup_(ctx), ref16_footnote__sup_(ctx)])}.`,
+			``,
+			`Throughout the 1960s-1990s, different altitude training methods were developed. And refined by sports scientists. Like "live high-train high" & the more popular "live high-train low"${footnote__sup__sort([ref7_4_footnote__sup_(ctx), ref16_footnote__sup_(ctx)])}. Elite endurance athletes began widely adopting these protocols. In pursuit of legal performance enhancement.`,
+			``,
+			`The use of altitude tents & other simulated altitude devices emerged in this period. Allowing athletes to experience the benefits of altitude exposure at sea level locations${footnote__sup__sort([ref7_2_footnote__sup_(ctx), ref7_3_footnote__sup_(ctx)])}.`,
+			``,
+			`With the core principles established by the 1990s. Research into optimizing:`,
+			`- altitude training protocols`,
+			`- individual responses`,
+			`- the specific physiological adaptations continues today`,
+			``,
+			`As the practice remains popular among endurance sports${footnote__sup__sort([ref7_4_footnote__sup_(ctx), ref16_footnote__sup_(ctx)])}.`].join(nl)],
+		[`## How Altitude Training Works`, [
+			dl_tree_({ ctx }, [
+				[`### Altitude Training Challenges the Body`, [
+					`At higher altitudes, there's less atmospheric pressure. Meaning fewer oxygen molecules available with each breath.`].join(nl)],
+				[`### The Body Adapts`, [
+					`To compensate for the lack of oxygen, the body undergoes changes, including:`,
+					`- Increased red blood cell production to carry more oxygen.`,
+					`- Enhanced oxygen delivery to muscles.`,
+					`- Changes in how the body utilizes oxygen at a cellular level.`
+				].join(nl)]])
+		].join(nl)],
+		[`## Methods of Altitude Training`, [
+			`Altitude training methodologies vary. Each with its unique approach to integrating hypoxic exposure into an athlete's regimen. The three primary strategies are:`,
+			dl_tree_({ ctx }, [
+				[`### Live High-Train Low (LHTL)`, [
+					`Athletes live at high altitudes to experience chronic hypoxic exposure. While training at lower altitudes to maintain training intensity. This method is widely regarded as the most effective. Allowing athletes to reap the benefits of increased red blood cell count. While avoiding the performance detriments of training in a hypoxic environment${ref19_footnote__sup_(ctx)}.`]],
+				[`### Live High-Train High (LHTH)`, [
+					`This approach involves both living & training at high altitudes. While it offers maximum hypoxic exposure, it may limit training intensity. Due to the reduced oxygen availability. Leading to suboptimal training outcomes${ref19_footnote__sup_(ctx)}.`]],
+				[`### Live Low-Train High (LLTH)`, [
+					`Athletes live at sea level but train in hypoxic conditions. Either by using altitude chambers or training at high altitudes. This method aims to acclimate athletes to hypoxia. Without the logistical challenges of residing at high altitudes${ref19_footnote__sup_(ctx)}.`]],
+				[`### Intermittent Hypoxic Training (IHT)`, [
+					`IHT involves breathing low-oxygen air for short periods. Often during rest or specific training sessions at sea level.`].join(nl)]
+			])
+		].join(nl)],
+		[`## Benefits of Altitude Training`, [
+			`The primary benefit of altitude training is the enhanced aerobic capacity. Attributed to the increased red blood cell mass & improved oxygen delivery mechanisms. Athletes may also experience improvements in:`,
+			dl_tree_({ ctx }, [
+				[`Improved Endurance`, [
+					`Increased oxygen-carrying capacity can boost stamina for endurance sports.`].join(nl)],
+				[`Enhanced VO2 Max`, [
+					`Improvements in VO2 max, a measure of the body's ability to utilize oxygen during exercise.`].join(nl)],
+				[`Increased red blood cell production to carry more oxygen`],
+				[`Enhanced oxygen delivery to muscles`],
+				[`Changes in how the body utilizes oxygen at a cellular level`],
+				[`Improved endurance capacity`],
+				[`Increased endurance`],
+				[`Increased strength`],
+				[`Faster Recovery`, [
+					`Potential adaptations for better oxygen delivery could help with recovery between workouts.`].join(nl)],
+				[`Mental Resilience & Focus`, [
+					`The benefits extend beyond physiological adaptations. As athletes learn to perform under challenging conditions${footnote__sup__sort([
+						ref16_footnote__sup_(ctx),
+						ref17_footnote__sup_(ctx)
+					])}.`].join(nl)],
+			]),
+			dl_tree_({ ctx }, [
+				[`### Increased Red Blood Cell Production`, [
+					`High altitude training stimulates the production of erythropoietin (EPO). Which in turn increases the production of red blood cells. This adaptation enhances the oxygen-carrying capacity of the blood. Improving aerobic performance & endurance when the athlete returns to lower altitudes${footnote__sup__sort([
+						ref10_8_footnote__sup_(ctx),
+						ref8_6_footnote__sup_(ctx),
+						ref11_1_footnote__sup_(ctx),
+						ref11_2_footnote__sup_(ctx),
+						ref11_3_footnote__sup_(ctx),
+						ref8_8_footnote__sup_(ctx),
+						ref8_1_footnote__sup_(ctx),
+						ref11_6_footnote__sup_(ctx)
+					])}.`].join(nl)],
+				[`### Improved Aerobic Capacity (VO2 max)`, [
+					`Training at high altitudes can increase VO2 max. Which is the maximum amount of oxygen the body can utilize during intense exercise. This improvement is due to the body adapting to the lower oxygen levels at high altitudes. Which forces the cardiovascular system to become more efficient${footnote__sup__sort([
+						ref8_6_footnote__sup_(ctx),
+						ref11_3_footnote__sup_(ctx),
+						ref8_8_footnote__sup_(ctx)
+					])}.`].join(nl)],
+				[`### Increased Oxygen Efficiency`, [
+					`Training in a hypoxic environment can lead to increased oxygen efficiency. Allowing for a significant performance boost when returning to lower altitudes${ref11_3_footnote__sup_(ctx)}.`].join(nl)],
+				[`### Enhanced Lung Function`, [
+					`The lower oxygen levels at high altitudes make the lungs work harder. Which can lead to:`,
+					`- an increase in lung capacity`,
+					`- the strengthening of respiratory muscles`,
+					``,
+					`This adaptation helps in maximizing every breath & improving the overall respiratory efficiency${ref10_8_footnote__sup_(ctx)}.`].join(nl)],
+				[`### Enhanced Mental Resilience`, [
+					`The challenging conditions at high altitudes can also strengthen mental resilience. Athletes training at high altitudes often develop a stronger mental & emotional approach. To cope with the reduced oxygen supply. which can be beneficial in competitive situations${footnote__sup__sort([ref10_8_footnote__sup_(ctx)])}.`].join(nl)],
+				[`### Accelerated Recovery & Adaptation`, [
+					`High altitude training can accelerate recovery & adaptation processes. With increased red blood cell production aiding in muscle repair & recovery${footnote__sup__sort([ref11_3_footnote__sup_(ctx)])}.`].join(nl)],
+				[`### Increased Muscular Endurance & Strength`, [
+					`The scarcity of oxygen at high altitudes forces the muscles to adapt & become more efficient. This can lead to increased muscular endurance & strength. Which are crucial for performance in endurance sports${footnote__sup__sort([ref10_8_footnote__sup_(ctx), ref8_1_footnote__sup_(ctx)])}.`].join(nl)],
+				[`### Accelerated Recovery & Reduced Inflammation`, [
+					`High altitude training can increase the lactate threshold. Increasing the body's tolerance to lactic acid. Enabling athletes to perform for longer periods before experiencing muscle fatigue${ref8_1_footnote__sup_(ctx)}. Which means athletes can recover faster & experience less tissue inflammation after intense workouts${ref10_8_footnote__sup_(ctx)}.`].join(nl)],
+			])
+		].join(nl)],
+		[`## Who Might Benefit Most`, [
+			`Altitude training is primarily geared toward endurance athletes like:`,
+			`- Runners`,
+			`- Cyclists`,
+			`- Swimmers`,
+			`- Triathletes`,
+			``,
+			`Less benefit is typically seen in strength or power-based sports.`].join(nl)],
+		[`## Effective Altitude Levels`, [
+			`The optimal altitude for training varies. Most benefits occur between 2,000 to 3,000 meters. Above 3,000 meters, the risks of adverse effects increase.`].join(nl)],
+		[`## The Science of Altitude Training`, [
+			`At elevations above 2,400 meters (approximately 8,000 feet). The air's reduced oxygen content challenges the body's ability to supply muscles with adequate oxygen. This hypoxic condition triggers a cascade of physiological adaptations. Aimed at improving oxygen delivery & utilization. The most notable adaptation is the increase in erythropoietin (EPO) production. Stimulating the production of red blood cells or hemocrit. And enhancing the blood's oxygen-carrying capacity${ref16_footnote__sup_(ctx)}. Altitude exposure can lead to increased capillarization in muscles & changes in muscle metabolism. Further optimizing oxygen usage during physical exertion${footnote__sup__sort([ref16_footnote__sup_(ctx), ref17_footnote__sup_(ctx)])}.`,
+			dl_tree_({ ctx }, [
+				[`### Improved Aerobic Power`, [
+					`Studies show improved aerobic power in runners who trained at 6,000 feet for 10 days. Then performing at low altitude. The study noted that lower oxygen levels at altitude stimulate EPO. Leading to increased red blood cells or hematocrit. Which allows more oxygen to be carried to the tissues. This process is akin to blood doping but is achieved naturally${ref2_1_footnote__sup_(ctx)}. A three-week traditional altitude training increased hemoglobin mass & red cell volume. In elite biathlon athletes${ref2_3_footnote__sup_(ctx)}. Even world-class athletes can experience significant hematological changes from altitude training.`].join(nl)],
+				[`### Short Exposures to High Elevation, Weeks to Months of Benefit`, [
+					`A study reported that even short exposures to high elevation can cause a complex cascade of changes within red blood cells that make it easier to breathe at high altitudes, & these changes persist for weeks & possibly months after descending to lower elevations${ref2_9_footnote__sup_(ctx)}.`].join(nl)],
+				[`### Broad Scientific Consensus of Hematological changes Enhancing Aerobic Performance`, [
+					`These findings are consistent with the broader scientific consensus that altitude training can lead to hematological changes that enhance aerobic performance at sea level${footnote__sup__sort([ref3_5_footnote__sup_(ctx), ref2_1_footnote__sup_(ctx), ref2_3_footnote__sup_(ctx), ref2_9_footnote__sup_(ctx), ref2_16_footnote__sup_(ctx)])}.`].join(nl)],
+				[`### Different People Respond Differently to Altitude Training`, [
+					`It is important to note that the response to altitude training can be quite individual, & not all athletes may experience the same level of benefit${footnote__sup__sort([ref2_2_footnote__sup_(ctx), ref2_6_footnote__sup_(ctx), ref2_7_footnote__sup_(ctx), ref2_13_footnote__sup_(ctx), ref2_20_footnote__sup_(ctx)])}. Professional guidance is beneficial in navigating your training.`].join(nl)],
+				[`### Studies that Correlate Living at Altitude with Longevity`, [
+					dl_tree_({ ctx }, [
+						[`#### Frontiers in Stroke Research (2023)`, [
+							`This study does not directly link altitude with longevity. But discusses the impact of altitude on health outcomes. Such as stroke mortality & hospitalization risk. Suggesting broader implications for health at high altitudes${ref9_1_footnote__sup_(ctx)}.`].join(nl)],
+						[`#### Steamboat Pilot (2019)`, [
+							`This article mentions that people living at higher altitudes${ref9_2_footnote__sup_(ctx)}:`,
+							`- tend to be healthier`,
+							`- have lower rates of cardiovascular disease`,
+							`- lower rates of some types of cancer`].join(nl)],
+						[`#### PMC - NCBI (2013)`, [
+							`Narrative review stating that living at higher altitudes associates with lower mortality from${ref9_3_footnote__sup_(ctx)}:`,
+							`- cardiovascular diseases`,
+							`- stroke`,
+							`- certain types of cancer`].join(nl)],
+						[`#### Harvard Medical School (2023)`, [
+							`This study focuses on animal models. Suggesting that living in a low-oxygen environment extends life spans & preserve neurologic function. Hinting at potential benefits for humans living at high altitudes${ref9_4_footnote__sup_(ctx)}.`].join(nl)],
+						[`#### Boulder Community Health (2023)`, [
+							`This article discusses increased life expectancy for both men & women. Living at higher altitude counties compared to those at sea level. Directly linking altitude with longevity${ref9_5_footnote__sup_(ctx)}.`].join(nl)],
+						[`#### Earth.com (2023)`, [
+							`This source discusses how living at high altitude leads to metabolic changes. Associated with a reduced risk of diseases like diabetes & coronary artery disease. Indirectly supporting how high altitude living could contribute to longer life spans${ref9_7_footnote__sup_(ctx)}.`].join(nl)],
+						[`#### Science Daily (2011)`, [
+							`Study titled "Living at high altitude reduces risk of dying from heart disease: Low oxygen may spur genes to create blood vessels"${ref9_8_footnote__sup_(ctx)}.`].join(nl)],
+					])].join(nl)],
+			])
+		].join(nl)],
+		[`## Considerations & Risks`, [
+			`Altitude training offers significant advantages. It requires careful planning & monitoring to avoid potential drawbacks. Such as altitude sickness & overtraining. Athletes must allow adequate time for acclimatization & recovery. They should consider individual responses to altitude, as these can vary${footnote__sup__sort([ref11_footnote__sup_(ctx), ref17_footnote__sup_(ctx)])}. The logistics of accessing suitable high-altitude training locations. Or the costs associated with simulated altitude environments can be prohibitive for some.`,
+			dl_tree_({ ctx }, [
+				[`### Potential Risks`, [
+					dl_tree_({ ctx }, [
+						[`#### Altitude Sickness`, [
+							`Acclimatization is crucial, as too rapid ascent can lead to altitude sickness.`]],
+						[`#### Individualized Approach`, [
+							`The optimal altitude, duration, & training strategy varies between athletes. Working with a coach specializing in altitude training is recommended`]],
+						[`#### It's Not Magic`, [
+							`Altitude training is a demanding tool that must be integrated within a well-structured training program for best outcomes.`]],
+						[`#### Medical Considerations`, [
+							`Some health conditions may make altitude training unsafe. Always consult with a doctor before embarking on this training method.`]],
+						[`#### Dehydration`, [
+							`Studies indicate that dehydration is a significant concern during high-altitude training. With increased respiratory water loss & hypoxic-induced diuresis contributing to fluid losses. Techniques like contrast water therapy (CWT) are being explored to mitigate dehydration${ref5_1_footnote__sup_(ctx)}. Athletes are advised to increase hydration diligence. Monitoring hydration status through urine characteristics & body mass changes${footnote__sup__sort([
+								ref4_1_footnote__sup_(ctx),
+								ref4_3_footnote__sup_(ctx),
+								ref4_4_footnote__sup_(ctx),
+								ref4_6_footnote__sup_(ctx),
+								ref4_7_footnote__sup_(ctx),
+								ref4_8_footnote__sup_(ctx),
+								ref5_2_footnote__sup_(ctx),
+								ref5_3_footnote__sup_(ctx),
+								ref4_11_footnote__sup_(ctx)
+							])}.`]],
+						[`#### Reduced training intensity`, [
+							`Impacting skill & speed`]],
+					])].join(nl)]
+			])
+		].join(nl)],
+		[`## The Takeaway`, [
+			`Altitude training offers a way for athletes to naturally boost their physiological capabilities. By strategically stressing their bodies under low-oxygen conditions. With responsible application & integration in a training plan. It can be a powerful tool to help endurance athletes reach new performance heights.`].join(nl)],
+		[`## Conclusion`, [
+			`Altitude training harnessing the body's adaptive responses to hypoxia. Allowing athletes to achieve remarkable improvements in performance.  Whether it's altitude training by:`,
+			`- living high & training low`,
+			`- embracing the rigors of high-altitude life & training`,
+			`- incorporating simulated altitude conditions into their regimen`,
+			``,
+			`Athletes continue to explore the upper limits of their potential, one breath at a time.`].join(nl)]
+	])
+}
 function ref11_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
