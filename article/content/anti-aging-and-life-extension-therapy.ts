@@ -1,7 +1,7 @@
 import { anti_aging_and_life_extension_therapy } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
-import { dl_dt_dd_tree_ } from '@rappstack/ui--any/dl'
+import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
@@ -88,7 +88,7 @@ Drugs like Metformin & Rapamycin are being studied for their potential to extend
 Metformin, a drug used to treat type 2 diabetes, shows promise in extending human life. Studies suggest that Metformin may have anti-aging properties. Mimicking the longevity benefits of calorie restriction. By reducing oxidative stress & inflammation, both critical factors in the aging process.
 
 #### Benefits of Metformin for Anti-Aging & Life Extension Therapy
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`##### Reduced Inflammation & Oxidative Stress`, `
 Metformin reduces inflammatory responses & oxidative stress. Which are key contributors to aging & age-related diseases. This reduction can slow down the aging process & extend healthspan${footnote__sup__sort([
   ref_m2_1_footnote__sup_(ctx),
@@ -175,7 +175,7 @@ These technologies target the fundamental processes of aging at the genetic & ce
 	ref_g1_8_footnote__sup_(ctx)
 ])}.
 
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`#### Cellular Reprogramming`, `
 Cellular Reprogramming involves resetting the epigenetic state of cells. To revert them to a younger state. With the goal of reversing cellular aging & restoring function. It is based on the use of factors like the Yamanaka factors (OCT4, SOX2, KLF4, & sometimes c-MYC). To induce pluripotency or a stem cell-like state in cells. Which can then renew & repair tissues more effectively${footnote__sup__sort([
     ref_g1_1_footnote__sup_(ctx),

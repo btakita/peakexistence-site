@@ -181,7 +181,6 @@ const config = <Config>{
 						'h3': {
 							fontSize: '1.25rem',
 							lineHeight: '1.75rem',
-							fontStyle: 'italic',
 							color: 'rgb(var(--color-text-base))',
 							marginBottom: '.75rem'
 						},

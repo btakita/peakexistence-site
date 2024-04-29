@@ -1,9 +1,8 @@
 import { blood_flow_analysis } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
-import { dl_dt_dd_tree_ } from '@rappstack/ui--any/dl'
+import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { type request_ctx_T } from 'rebuildjs/server'
-import { h3_to_h4_dt_class } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...blood_flow_analysis,
@@ -21,7 +20,7 @@ In the complex machinery of the human body. The cardiovascular system acts as th
 ## Why Does Blood Flow Matter?
 
 Healthy blood flow is essential for:
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Oxygen & Nutrient Delivery`, `
 Every cell in your body depends on a steady supply of oxygen & nutrients. Restricted blood flow can lead to tissue damage & organ dysfunction.`],
 [`### Waste Removal`, `
@@ -41,7 +40,7 @@ Good blood flow in the arms & legs prevents:
 ## Conditions Affecting Blood Flow
 
 Several conditions can compromise blood flow:
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Atherosclerosis`, `
 The buildup of plaque within artery walls is the most common culprit. Narrowing vessels & restricting flow.	`],
 [`### Blood Clots`, `
@@ -57,7 +56,7 @@ Atherosclerosis in the legs or arms restricts blood flow.`],
 ## How is Blood Flow Analyzed
 
 Blood flow analysis uses diagnostic techniques to visualize & assess the movement of blood. Through the body's arteries & veins. Providing valuable information on the velocity, volume, & turbulence of blood flow. Allowing healthcare professionals to detect abnormalities indicating underlying health issues. Various techniques help doctors evaluate blood flow:
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Doppler Ultrasound`, `
 The primary non-invasive method. Uses sound waves to visualize blood flow & detect blockages or abnormal flow patterns.`],
 [`### Arterial Pressure Waveform Analysis`, `
@@ -86,7 +85,7 @@ Early detection is key in managing cardiovascular diseases. Blood flow analysis 
 ## Applications of Blood Flow Analysis
 
 Blood flow analysis aids in the diagnosis & management of many conditions:
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Coronary Artery Disease`, `
 Identifying blockages that increase heart attack risk.`],
 [`### Peripheral Artery Disease (PAD)`, `
@@ -123,7 +122,7 @@ Preventive medicine uses blood flow analysis. To identify people at risk of card
 ## Beyond Diagnosis: Protecting Your Health
 
 Blood flow analysis informs treatment but also highlights the importance of prevention. Prioritize heart-healthy habits:
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Healthy Eating`, `
 A balanced diet rich in fruits, vegetables, whole grains, & lean protein. While limiting unhealthy fats & processed foods.`],
 [`### Regular Exercise`, `

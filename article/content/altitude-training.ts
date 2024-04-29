@@ -1,7 +1,7 @@
 import { altitude_training } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
-import { dl_dt_dd_tree_ } from '@rappstack/ui--any/dl'
+import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
@@ -70,7 +70,7 @@ As the practice remains popular among endurance sports${footnote__sup__sort([
 ])}.
 
 ## How Altitude Training Works
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`### Altitude Training Challenges the Body`, `
 At higher altitudes, there's less atmospheric pressure. Meaning fewer oxygen molecules available with each breath.`],
 [`### The Body Adapts`, `
@@ -84,7 +84,7 @@ To compensate for the lack of oxygen, the body undergoes changes, including:
 ## Methods of Altitude Training
 Altitude training methodologies vary. Each with its unique approach to integrating hypoxic exposure into an athlete's regimen. The three primary strategies are:
 
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`### Live High-Train Low (LHTL)`, `
 Athletes live at high altitudes to experience chronic hypoxic exposure. While training at lower altitudes to maintain training intensity. This method is widely regarded as the most effective. Allowing athletes to reap the benefits of increased red blood cell count. While avoiding the performance detriments of training in a hypoxic environment${ref19_footnote__sup_(ctx)}.`],
 [`### Live High-Train High (LHTH)`, `
@@ -98,7 +98,7 @@ IHT involves breathing low-oxygen air for short periods. Often during rest or sp
 ## Benefits of Altitude Training
 The primary benefit of altitude training is the enhanced aerobic capacity. Attributed to the increased red blood cell mass & improved oxygen delivery mechanisms. Athletes may also experience improvements in:
 
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`Improved Endurance`, `
 Increased oxygen-carrying capacity can boost stamina for endurance sports.`],
 [`Enhanced VO2 Max`, `
@@ -249,7 +249,7 @@ Altitude training offers significant advantages. It requires careful planning & 
 
 ### Potential Risks
 
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`#### Altitude Sickness`, `
 Acclimatization is crucial, as too rapid ascent can lead to altitude sickness.`],
 [`#### Individualized Approach`, `

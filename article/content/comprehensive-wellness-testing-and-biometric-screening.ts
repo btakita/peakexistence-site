@@ -1,7 +1,7 @@
 import { comprehensive_wellness_testing_and_biometric_screening } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
-import { dl_dt_dd_tree_ } from '@rappstack/ui--any/dl'
+import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
@@ -73,7 +73,7 @@ Biometric screening is a clinical process conducted in the clinic or workplace. 
   ref_s1_17_footnote__sup_(ctx), // thyroid
 ])}:
 
-${dl_dt_dd_tree_([
+${dl_tree_([
 	['Blood tests', [
     `A comprehensive metabolic panel (CMP) & complete blood count (CBC). Assessing organ function, blood cell health, & potential risk factors for various conditions. Assessing`, footnote__sup__sort([
       ref4_footnote__sup_(ctx),
@@ -121,7 +121,7 @@ These screenings are quick, usually taking about 10-15 minutes. Providing immedi
 - cardiovascular conditions
 
 ## Benefits of Comprehensive Wellness Testing:
-${dl_dt_dd_tree_([
+${dl_tree_([
 	[`Early Disease Detection`, [
 		`These tests can detect early signs of chronic conditions, allowing for timely intervention and management`, footnote__sup__sort([
       ref_i1_3_footnote__sup_(ctx),
@@ -147,7 +147,7 @@ ${dl_dt_dd_tree_([
 ## Considering Comprehensive Wellness Testing?
 Here's what to keep in mind:
 
-${dl_dt_dd_tree_([
+${dl_tree_([
 	[`Consult your doctor`, [
 		`Discuss your health goals & risk factors. To determine if comprehensive testing is right for you.`]],
 	[`Understand the options`, [

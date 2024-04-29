@@ -1,9 +1,8 @@
 import { early_disease_detection } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
-import { dl_dt_dd_tree_ } from '@rappstack/ui--any/dl'
+import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { type request_ctx_T } from 'rebuildjs/server'
-import { h3_to_h4_dt_class } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...early_disease_detection,
@@ -16,7 +15,7 @@ export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 Early disease detection. Refers to the identification of a condition before the manifestation of significant symptoms. This proactive approach aims to uncover hidden diseases & risk factors. Enabling interventions that prevent the progression of the disease. The benefits of early detection are manifold. Extending from improved health outcomes to significant cost savings for healthcare systems.
 
 ## Benefits of Early Disease Detection
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Improved Outcomes`, `
 Many diseases, when caught early, are more responsive to treatment.`],
 [`### Easier Treatment`, `
@@ -33,7 +32,7 @@ By preventing disease progression. Early detection reduces the need for more com
 
 ## Methods of Early Detection
 Early disease detection utilizes a variety of methods. Tailored to specific diseases & conditions. These include:
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Regular Screenings`, `
 Proactive screenings for various conditions based on age, risk factors, & family history.`],
 [`#### Cancer screenings`, `
@@ -51,7 +50,7 @@ Researchers are developing new technologies like advanced blood tests & imaging.
 ])}
 
 ## Who Should Be Screened?
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Everyone`, `
 Regular health checkups are vital for all.`],
 [`### Higher Risk Individuals`, `
@@ -78,7 +77,7 @@ Advancements in medical science have led to the identification of biomarkers. In
 Early disease detection has its challenges. False positives can lead to unnecessary anxiety & interventions. While false negatives may provide a false sense of security. The sensitivity & specificity of screening tests are crucial factors. Socioeconomic factors limit access to early detection programs. Underscoring the need for equitable healthcare policies.
 
 ## Overcoming Barriers
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Cost`, `
 Work with your doctor & insurer to understand coverage & access affordable options.`],
 [`### Misinformation`, `
@@ -88,7 +87,7 @@ The benefits of early detection outweigh the potential discomfort of screenings.
 ])}
 
 ## Empowering Yourself
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Talk to Your Doctor`, `
 Discuss your individual risk factors & create a personalized screening plan.`],
 [`### Know Your Body`, `

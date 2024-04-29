@@ -1,10 +1,9 @@
 import { cardiovascular_health } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
-import { dl_dt_dd_tree_ } from '@rappstack/ui--any/dl'
+import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { class_ } from 'ctx-core/html'
 import { type request_ctx_T } from 'rebuildjs/server'
-import { h3_to_h4_dt_class } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...cardiovascular_health,
@@ -19,7 +18,7 @@ Your heart is a tireless working muscle. The central engine that powers your ent
 ## Understanding Your Heart
 
 The heart is a muscular organ roughly the size of a fist. The heart is the centerpiece of the cardiovascular system. Its primary role is to pump blood throughout the body. Supplying oxygen & nutrients to tissues while removing carbon dioxide & other wastes. The significance of maintaining heart health is central to whole body health. It impacts every aspect of our physical function & quality of life. Key concepts to understand:
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### The Four Chambers`, `
 Your heart has four chambers. Two upper chambers (atria) & two lower chambers (ventricles).	`],
 [`### Blood Flow`, `
@@ -36,7 +35,7 @@ Your heart muscle itself needs oxygen-rich blood supplied by the coronary arteri
 ## Threats to Cardiac Health
 
 Several conditions can compromise your heart's function:
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Coronary Artery Disease (CAD)`, `
 The buildup of plaque (atherosclerosis) in the coronary arteries is the most common heart problem. This narrows the arteries, restricting blood supply to the heart muscle.`],
 [`### Heart Failure`, `
@@ -50,7 +49,7 @@ Malfunctioning valves can leak or become narrow. Affecting the heart's ability t
 ## Risk Factors You Can Control
 
 Many factors influencing heart disease are within your power to modify:
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### High Blood Pressure`, `
 Puts excessive strain on your heart & blood vessels.`],
 [`### High Cholesterol`, `
@@ -89,7 +88,7 @@ Limiting categories of foods can reduce the risk of heart disease:
 
 ### Exercise
 Aim for at least 30 minutes of moderate-intensity exercise most days. Exercise has profound effects on improving the heart & cardiovascular system:
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`#### A Stronger Heart Muscle`, `
 Regular aerobic exercises such as walking, cycling, or swimming enhance the heart's efficiency. Enabling effective blood pumping throughout the body. Over time, this increased efficiency can lower the resting heart rate. Reducing the workload on the heart. A significant step towards cardiovascular resilience.`],
 [`#### Improved Circulation & Reduced Blood Pressure`, `
@@ -112,7 +111,7 @@ Excess fat, particularly visceral fat, contributes to cardiovascular strain. Thi
 - insulin resistance
 
 #### Key Benefits of Weight Management on Cardiac Health
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`##### Reduced Blood Pressure`, `
 Even modest amounts of weight loss can significantly lower blood pressure. Reducing the heart's workload & lowering the risk of heart disease.`],
 [`##### Improved Cholesterol Levels`, `
@@ -138,7 +137,7 @@ A heart-healthy diet rich in fruits, vegetables, whole grains, & lean proteins. 
 Stress, particularly when chronic, can have deleterious effects on the heart. Stress triggers a cascade of physiological responses. This includes the release of adrenaline. Which increases heart rate & blood pressure. Placing undue strain on the cardiovascular system. Stress often leads to unhealthy coping mechanisms. Such as poor dietary choices, smoking, & inactivity. Which further exacerbate heart disease risk.
 
 #### Key Benefits of Stress Management for Cardiac Health
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`##### Lower Blood Pressure`, `
 Effective stress management leads to reductions in blood pressure. A critical factor in preventing heart disease & stroke.`],
 [`##### Reduced Arrhythmia Risk`, `
@@ -152,7 +151,7 @@ Chronic stress links to inflammation, a key player in heart disease. Stress mana
 #### Strategies for Effective Stress Management
 
 Achieving effective stress management requires a multifaceted approach. Tailored to an your lifestyle & preferences. Key strategies include:
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`##### Regular Physical Activity`, `
 Exercise is a powerful stress reliever & heart health booster. Improving circulation & reducing stress hormones.`],
 [`##### Mindfulness, Meditation, & Yoga`, `
@@ -254,7 +253,7 @@ Antihypertensive medications help achieve & maintain target blood pressure level
 
 ### Control Cholesterol
 Cholesterol, a waxy substance found in the blood. Plays a dual role in the body's functioning, being both vital & potentially harmful.
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`#### Low-density Lipoprotein (LDL) Cholesterol, the "bad cholesterol"`, `
 Elevated levels of low-density lipoprotein (LDL) cholesterol leads to the buildup of plaque in the arteries. Increasing the risk of coronary artery disease & other cardiovascular conditions.`],
 [`#### High-density Lipoprotein (HDL) Cholesterol, the "good" cholesterol`, `
@@ -265,7 +264,7 @@ High-density Lipoprotein (HDL) cholesterol helps remove LDL cholesterol from the
 Excess LDL cholesterol in the bloodstream can adhere to the walls of arteries. Forming a thick, hard deposit called plaque. Over time, this plaque narrows the arteries & hardens their walls. A condition known as atherosclerosis. This narrowing impedes blood flow to the heart & other organs. Leading to increased blood pressure & to heart attacks or strokes. Managing LDL & HDL cholesterol levels reduces plaque buildup. Safeguarding the heart & ensuring optimal blood flow.
 
 #### Key Benefits of Cholesterol Management
-${dl_dt_dd_tree_({ ctx, dl_class: '[counter-reset:_order]', dt_class: class_('[&>h5]:before:[counter-increment:order]', '[&>h5]:before:content-[counter(order)_\'._\']') }, [
+${dl_tree_({ ctx, dl_class: '[counter-reset:_order]', dt_class: class_('[&>h5]:before:[counter-increment:order]', '[&>h5]:before:content-[counter(order)_\'._\']') }, [
 [`##### Reduced Risk of Coronary Artery Disease`, `
 Lowering LDL cholesterol levels decreases the likelihood of plaque formation. Reducing the risk of developing coronary artery disease.`],
 [`##### Improved Arterial Health`, `
@@ -278,7 +277,7 @@ Balanced cholesterol levels support heart health by preventing conditions that s
 
 #### Strategies for Cholesterol Management
 Controlling cholesterol involves a multifaceted approach.
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`##### Dietary Changes`, `
 Incorporating a diet rich in fruits, vegetables, whole grains, & lean proteins. While limiting saturated fats, trans fats, & LDL cholesterol. Can lower LDL levels & boost HDL levels.`],
 [`##### Regular Physical Activity`, `
@@ -294,7 +293,7 @@ Macrophages, a type of white blood cell, play a complex role in plaque buildup w
 
 Macrophages play a pivotal role in the development & progression of atherosclerotic plaque. A key factor in coronary artery disease & other forms of cardiovascular disease. These immune cells are part of the body's first line of defense against infection. Macrophages can have a dual effect on plaque buildup, both protective & detrimental. Depending on the stage & context of atherosclerosis.
 
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`#### Early Stages`, `
 In the initial stages of plaque formation. Macrophages identify LDL cholesterol that has infiltrated the artery wall. They act as scavengers, engulfing & trying some of this LDL cholesterol.`],
 [`#### Foam Cells`, `
@@ -310,7 +309,7 @@ The process begins when LDL cholesterol ("bad" cholesterol) accumulates in the w
 As the plaque continues to grow, more macrophages converge on the plaque. They release chemicals that can attract even more immune cells. And promote the migration of smooth muscle cells into the plaque. Macrophages also secrete enzymes that degrade the structural matrix of the artery wall. Weakening the plaque. This can lead to plaque instability, making it more likely to rupture. A plaque rupture can result in a blood clot that blocks blood flow, leading to heart attacks or strokes.
 
 **Macrophages & Inflammation:**
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`##### Inflamed Plaque`, `
 As plaque grows, macrophages release chemicals that further attract inflammatory cells. Increasing inflammation within the artery wall.`],
 [`##### Unstable Plaques`, `
@@ -321,7 +320,7 @@ Inflammation destabilizes the plaque, increasing its risk of rupture. Which can 
 Macrophages are not only agents of plaque instability. But can also contribute to plaque stability & resolution. Some macrophages can remove cholesterol from plaques. Transporting it back to the liver for excretion. A process known as reverse cholesterol transport. Certain macrophage phenotypes can promote healing & tissue repair. Within the plaque & the artery wall. Stabilizing the plaque & reducing the risk of rupture.
 
 **Macrophages & Regression:**
-${dl_dt_dd_tree_({ ctx }, [
+${dl_tree_({ ctx }, [
 [`##### Changing Types`, `
 There are different subtypes of macrophages, some more inflammatory than others. Promoting a shift towards less inflammatory types may be helpful.`],
 [`##### Cholesterol Removal`, `
@@ -394,7 +393,7 @@ Regular monitoring of heart health, including check-ups & at-home blood pressure
 
 ## Recovery & Rehabilitation
 Recovering from a heart condition or surgery is a journey. A multidisciplinary approach ensures comprehensive rehabilitation.
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Physical Therapy`, `
 Gradually reintroducing physical activity, under the guidance of healthcare professionals, is essential for rebuilding heart strength.`],
 [`### Dietary Adjustments`, `
@@ -405,7 +404,7 @@ Recovery can be challenging to your emotions & mental health. Support groups & c
 
 ## The Future of Cardiac Health
 Advancements in medical research offer new pathways for treating & preventing heart disease. From innovative surgical techniques & personalized medicine. To wearable technology that monitors heart health in real-time.
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Genetic Screening`, `
 Identifying genetic predispositions to heart conditions allows for early interventions.`],
 [`### Regenerative Medicine`, `

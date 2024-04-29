@@ -1,11 +1,10 @@
 import { discseel_procedure } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
-import { dl_dt_dd_tree_ } from '@rappstack/ui--any/dl'
+import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
-import { h3_to_h4_dt_class } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...discseel_procedure,
@@ -18,7 +17,7 @@ export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 Chronic back pain originating from damaged spinal discs impacts quality of life. The Discseel® Procedure offers a minimally invasive treatment option. Designed to seal tears within spinal discs. Relieving pain & restoring some disc function.
 
 ## Understanding Disc Pain
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Intervertebral Discs`, `
 These shock-absorbing cushions lie between the spinal bones (vertebrae).`],
 [`### Degeneration & Tears`, `
@@ -33,7 +32,7 @@ The Discseel® Procedure utilizes a biologically-based injectable treatment, kno
 
 ## How Discseel® Works
 The Discseel® Procedure involves several key steps:
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Annulogram`, `
 Detailed imaging technique using a water soluble contrast. Identifying which discs are leaking due to tears. Often revealing issues missed by MRIs<!--ref10_footnote__sup_(ctx)--><!--ref15_footnote__sup_(ctx)-->${ref_annulogram_footnote__sup_(ctx)}.`],
 [`### Minimally Invasive Procedure`, `
@@ -45,7 +44,7 @@ The Fibrin promotes the growth of new disc tissue or tissue regeneration. Allowi
 ])}
 
 ## Benefits of the Discseel® Procedure
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Minimally Invasive`, `
 The procedure is performed as an outpatient service, reducing the risks associated with more invasive surgeries<!--ref13_footnote__sup_(ctx)--><!--ref19_footnote__sup_(ctx)-->.`],
 [`### Quick Recovery`, `
@@ -75,7 +74,7 @@ The Discseel® Procedure allows patients to retain their natural range of motion
 Discseel® is for patients who have failed to find relief through conventional treatments. Such as physical therapy, medications, or injections. Ideal candidates are those with confirmed annular tears. Often detected using an Annulogram. Often undetectable through standard MRI scans.
 
 This procedure might be considered if you have:
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Chronic Back Pain`, `
 Persistent pain for at least six months, primarily in the lower back.`],
 [`### Discogenic Pain`, `
@@ -102,7 +101,7 @@ The Discseel® Procedure is considered a "disruptive technology" in the field of
 ])}. It offers a solution that treats the symptoms. And addresses the underlying cause of disc-related back pain.
 
 ## Important Considerations
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Not a Guaranteed Fix`, `
 Individual results vary. While most experience significant pain relief, others may get partial or no improvement.`],
 [`### Evolving Treatment`, `
@@ -112,7 +111,7 @@ Talk to your doctor about the potential risks, success rates, & if it's the righ
 ])}
 
 ## Where to Find the Discseel® Procedure
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Specialized Providers`, `
 Not all spine centers offer this treatment. Search for surgeons trained in the Discseel® Procedure.`],
 [`### Insurance Coverage`, `

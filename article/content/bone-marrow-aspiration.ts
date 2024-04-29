@@ -1,10 +1,9 @@
 import { bone_marrow_aspiration } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
-import { dl_dt_dd_tree_ } from '@rappstack/ui--any/dl'
+import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { class_ } from 'ctx-core/html'
 import { type request_ctx_T } from 'rebuildjs/server'
-import { h3_to_h4_dt_class } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...bone_marrow_aspiration,
@@ -22,7 +21,7 @@ Bone marrow aspiration is a diagnostic procedure. That involves extracting a sma
 
 ## Why Bone Marrow Aspiration is Done
 Doctors may order a bone marrow aspiration to:
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Diagnose Blood Disorders`, `
 Helps identify problems with the production of red blood cells, white blood cells, or platelets. Examples include anemia, leukemia, & other blood cancers.`],
 [`### Detect Cancer`, `
@@ -48,7 +47,7 @@ Bone marrow aspiration enables monitoring the progress of known conditions. And 
 
 ## The Procedure: A Closer Look
 Performed by a specialized medical professional. The procedure often targets the marrow within the hipbone or breastbone. Under local anesthesia to minimize discomfort. A needle inserted into the bone draws out a sample of marrow. The process is swift, usually completed within a few minutes. It provides invaluable insights into the health & functionality of the patient's marrow.
-${dl_dt_dd_tree_({ ctx, dl_class: '[counter-reset:_order]', dt_class: class_(h3_to_h4_dt_class, '[&>h3]:before:[counter-increment:order]', '[&>h3]:before:content-[counter(order)_\'._\']') }, [
+${dl_tree_({ ctx, dl_class: '[counter-reset:_order]', dt_class: class_(h3_to_h4_dt_class, '[&>h3]:before:[counter-increment:order]', '[&>h3]:before:content-[counter(order)_\'._\']') }, [
 [`### Location`, `
 Commonly performed on the back of the hip bone (pelvis), less often on the breastbone (sternum).`],
 [`### Numbing`, `
@@ -61,7 +60,7 @@ Often a bone marrow biopsy is also done. This involves removing a tiny, solid co
 
 ## What to Expect
 Despite its importance, a bone marrow aspiration procedure may evoke apprehension. Understanding what to expect:
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Preparation`, `
 Bone Marrow Aspiration requires little preparation. Though certain medications should be avoided before the procedure.`],
 [`### During the Procedure`, `

@@ -1,10 +1,9 @@
 import { epidural_neoregeneration } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
-import { dl_dt_dd_tree_ } from '@rappstack/ui--any/dl'
+import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { class_ } from 'ctx-core/html'
 import { type request_ctx_T } from 'rebuildjs/server'
-import { h3_to_h4_dt_class } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...epidural_neoregeneration
@@ -16,7 +15,7 @@ export default (ctx:request_ctx_T)=>md__raw_(ctx, `
 
 It’s a cutting-edge technique. It targets the epidural space around the spinal cord. The aim is to regenerate damaged nerves. This can lead to pain reduction & improved function.
 
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Epidural`, `
 Refers to the epidural space, which is the area surrounding the spinal cord filled with fatty tissue & cerebrospinal fluid. This space is where epidural injections for pain relief are delivered.`],
 [`### Neuroregeneration`, `
@@ -26,7 +25,7 @@ The process of regrowing damaged nerve cells & fibers. This is a field of active
 ## How Does Epidural Neoregeneration Work?
 
 The process involves injecting substances into the epidural space. These substances might promote nerve healing & growth. They could be:
-${dl_dt_dd_tree_({ ctx, dt_class: h3_to_h4_dt_class }, [
+${dl_tree_({ ctx }, [
 [`### Growth Factors`, `
 Proteins that encourage cell growth.`],
 [`### Stem Cells`, `
@@ -49,7 +48,7 @@ People turn to Epidural Neuroregeneration for several reasons:
 - Failed back surgery syndrome.
 
 ## The Process
-${dl_dt_dd_tree_({ ctx, dl_class: '[counter-reset:_order]', dt_class: class_(h3_to_h4_dt_class, '[&>h3]:before:[counter-increment:order]', '[&>h3]:before:content-[counter(order)_\'._\']') }, [
+${dl_tree_({ ctx, dl_class: '[counter-reset:_order]', dt_class: class_('[&>h3]:before:[counter-increment:order]', '[&>h3]:before:content-[counter(order)_\'._\']') }, [
 [`### Consultation`, `
 A specialist assesses the patient.`],
 [`### Procedure`, `
