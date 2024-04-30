@@ -315,4 +315,3 @@ function ref_m1_3_footnote__sup_(ctx:request_ctx_T) {
 		}, 'Obesity and sexual dysfunction, male and female')
 	])
 }
-
