@@ -13,14 +13,12 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
+export default (ctx:request_ctx_T)=>''
++ dl_tree_({ ctx }, [
 	[`## Understanding the Aurora ZIP™ Procedure`, [
 		`The Aurora ZIP™ Lumbar Fusion involves the insertion of the ZIP™ Interspinous Spacer. A small metal device, between two vertebrae where the spine is unstable. This device acts as a bridge. Strengthening & straightening the spine. Referred to as fusion.`,
 		``,
-		`The Aurora ZIP™ procedure is minimally invasive. It requires minimal blood loss, using only intravenous (IV) sedation. Patients typically go home the same day, & the recovery period lasts only about one week${footnote__sup__sort([
-			// ref5_footnote__sup_(ctx),
-			// ref10_footnote__sup_(ctx),
-		])}.`,
+		`The Aurora ZIP™ procedure is minimally invasive. It requires minimal blood loss, using only intravenous (IV) sedation. Patients typically go home the same day, & the recovery period lasts only about one week${footnote__sup__sort([/* ref5_footnote__sup_(ctx), ref10_footnote__sup_(ctx), */])}.`,
 		``,
 		`The Aurora ZIP™ procedure avoids the disadvantages of traditional fusion surgeries:`,
 		`- general anesthesia`,

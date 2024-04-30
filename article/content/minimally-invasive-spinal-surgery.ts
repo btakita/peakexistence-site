@@ -21,7 +21,8 @@ Minimally invasive spinal surgery (MISS) offers patients a variety of options. F
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
+export default (ctx:request_ctx_T)=>''
++ dl_tree_({ ctx }, [
 	[`## [Aurora ZIP™ Procedure](/articles/aurora-zip-lumbar-fusion)`, [
 		`The Aurora ZIP™ Procedure is a minimally invasive lumbar fusion treatment. Designed to address back & leg pain caused by spinal instability. This procedure utilizes the Aurora ZIP™ Interspinous Spacer. A device implanted to bridge and stabilize the affected vertebrae without sacrificing mobility. Ideal for patients with spinal stenosis or narrowing of the spine. The Aurora ZIP™ Procedure is a viable option when conservative treatments fail to provide relief. Like physical therapy & epidural steroid injections${ref2_6_footnote__sup_(ctx)}.`,
 		dl_tree_({ ctx }, [
@@ -105,6 +106,7 @@ export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
 		`- quicker recovery`,
 		`- effective pain management`].join(nl)],
 ])
+// @formatter:on
 function ref1_16_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
@@ -213,4 +215,3 @@ function ref2_20_footnote__sup_(ctx:request_ctx_T) {
 		}, 'DISCSEEL® PROCEDURE')
 	])
 }
-

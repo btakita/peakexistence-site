@@ -10,7 +10,8 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
+export default (ctx:request_ctx_T)=>''
++ dl_tree_({ ctx }, [
 	[`## What is Epidural Neoregeneration?`, [
 		`It’s a cutting-edge technique. It targets the epidural space around the spinal cord. The aim is to regenerate damaged nerves. This can lead to pain reduction & improved function.`,
 		dl_tree_({ ctx }, [

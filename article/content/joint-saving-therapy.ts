@@ -10,7 +10,8 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
+export default (ctx:request_ctx_T)=>''
++ dl_tree_({ ctx }, [
 	[`## What is it?`, [
 		`JST encompasses various treatments. These aim to maintain or enhance joint health. It's for those with joint pain or degenerative conditions.`].join(nl)],
 	[`## Core Approaches`, [

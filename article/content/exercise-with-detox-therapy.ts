@@ -8,10 +8,10 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...exercise_with_detox_therapy
 })
-
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
+export default (ctx:request_ctx_T)=>''
++ dl_tree_({ ctx }, [
 	[`## Why Exercise with Detox Therapy?`, [
 		`Exercise and detoxification are both essential elements in maintaining a healthy lifestyle. When combined, their effects can be more transformative.`,
 		``,
@@ -72,3 +72,4 @@ export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
 		`- promotes healthy skin`,
 		`- aids in weight loss by improving metabolism`].join(nl)],
 ])
+// @formatter:on

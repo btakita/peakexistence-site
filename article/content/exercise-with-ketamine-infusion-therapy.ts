@@ -7,10 +7,10 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...exercise_with_ketamine_infusion_therapy,
 })
-
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
+export default (ctx:request_ctx_T)=>''
++ dl_tree_({ ctx }, [
 	[`## Key Benefits of Exercise with Ketamine Infusions`, [
 		`Enhanced Mood and Motivation. Ketamine has shown promise in alleviating symptoms of depression and anxiety. Ketamine with exercise can elevate mood and motivation. Making workouts more enjoyable and rewarding.`,
 		``,
@@ -57,3 +57,4 @@ export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
 		``,
 		`Only Kaiser Insurance covers Ketamine infusion therapy for insurance reimbursement. But Ketamine treatment is an affordable option for depression and other psychiatric indications.`].join(nl)],
 ])
+// @formatter:on

@@ -11,7 +11,8 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
+export default (ctx:request_ctx_T)=>''
++ dl_tree_({ ctx }, [
 	[`## The Science of Exosomes`, [
 		`Exosomes are tiny, extracellular vesicles released by almost all types of cells. Acting as messengers that for intercellular communication. These vesicles influence the behavior and function of recipient cells, including:`,
 		`- proteins`,

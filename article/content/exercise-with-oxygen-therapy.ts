@@ -8,10 +8,10 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...exercise_with_oxygen_therapy
 })
-
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
+export default (ctx:request_ctx_T)=>''
++ dl_tree_({ ctx }, [
 	[`## What is Exercise with Oxygen Therapy?`, [
 		`Exercise with Oxygen Therapy (EWOT) combines physical activity with increased oxygen intake. During an EWOT session, you’ll perform simple exercises. While breathing in a higher concentration of oxygen. This process helps your body deliver more oxygen to your cells, muscles, and organs. Resulting in a range of incredible health benefits.`].join(nl)],
 	[`## Improved Stamina and Endurance`, [
@@ -54,3 +54,4 @@ export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
 		``,
 		`Exercise with Oxygen Therapy (EWOT) is a safe and efficient method. To improve oxygen circulation in the body and promote overall health and wellness. With overwhelming benefits and faster results compared to other oxygen therapies. EWOT is an accessible and effective option. For individuals seeking to optimize their health and vitality.`].join(nl)],
 ])
+// @formatter:on

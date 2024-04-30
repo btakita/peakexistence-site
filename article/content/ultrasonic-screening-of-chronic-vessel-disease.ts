@@ -9,7 +9,8 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
+export default (ctx:request_ctx_T)=>''
++ dl_tree_({ ctx }, [
 	[`## Understanding Ultrasonic Screening`, [
 		`Ultrasonic screening, or ultrasound, is a painless and safe procedure. It does not involve ionizing radiation. It offers a real-time view of blood flow and vessel structure. Allowing healthcare professionals to assess the health of arteries and veins. The versatility of ultrasonic technology makes it indispensable in identifying abnormalities. Which are indicative of chronic vessel conditions. Such as:`,
 		`- blockages`,

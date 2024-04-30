@@ -11,7 +11,8 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
+export default (ctx:request_ctx_T)=>''
++ dl_tree_({ ctx }, [
 	[`## Meditation: An Ancient Tool for Inner Exploration`, [
 		dl_tree_({ ctx }, [
 			[`### Centering the Mind`, [

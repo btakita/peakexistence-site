@@ -14,7 +14,8 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
+export default (ctx:request_ctx_T)=>''
++ dl_tree_({ ctx }, [
 	[`## The Heart of the Matter: ED & Cardiovascular Health`, [
 		`ED can be a harbinger of cardiovascular diseases. Serving as an early warning sign. Due to the shared pathophysiology between erectile function & vascular health. Atherosclerotic processes impede blood flow to the coronary arteries. Will often occur in penile arteries first due to their smaller size. Erectile Dysfunction is a "canary in the coalmine". Offering an early warning sign of cardiovascular disease. Offering a critical window for intervention.`,
 		dl_tree_({ ctx }, [

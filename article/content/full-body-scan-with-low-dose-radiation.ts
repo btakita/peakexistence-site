@@ -9,7 +9,8 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
+export default (ctx:request_ctx_T)=>''
++ dl_tree_({ ctx }, [
 	[`## The Purpose`, [
 		`The scan stands on the frontline of preventive medicine. Its mission? Early detection of health anomalies. Among the array of conditions it can reveal are:`,
 		`- Early-stage cancers`,
@@ -38,3 +39,4 @@ export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
 	[`## Conclusion`, [
 		`Full body scans with low-dose radiation stand at the forefront of preventive healthcare, offering a lens into the body's internal state and the potential to catch diseases early. While considerations exist, the value of these scans in a comprehensive health strategy is undeniable. Conversations with healthcare providers can illuminate whether this innovative procedure aligns with your health journey. In the pursuit of wellness, armed with knowledge, we navigate towards a healthier future.`].join(nl)],
 ])
+// @formatter:on

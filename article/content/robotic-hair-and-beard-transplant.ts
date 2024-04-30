@@ -13,7 +13,8 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
+export default (ctx:request_ctx_T)=>''
++ dl_tree_({ ctx }, [
 	[`## Understanding Robotic Hair and Beard Transplants`, [
 		`Robotic hair and beard transplants are minimally invasive procedures. Using robotics to enhance the accuracy & efficiency of the hair transplantation process. Robotic arms harvest hair follicles from a donor area (usually the back of the scalp). And implant them into balding or thinning areas of the scalp or facial regions. The ARTAS® system uses sophisticated imaging & robotic arms. Designed to augment the capabilities of human surgeons. To select and extract individual follicular units${bodyexpert_footnote__sup_(ctx)}${bernsteinmedical_footnote__sup_(ctx)}${hairmd_footnote__sup_(ctx)}. The technology performs follicular unit extraction (FUE). One of the most advanced and popular techniques in hair transplantation.`].join(nl)],
 	[`## How It Works`, [

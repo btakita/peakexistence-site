@@ -9,7 +9,8 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 })
 // @formatter:off
 // language=md
-export default (ctx:request_ctx_T)=>'' + dl_tree_({ ctx }, [
+export default (ctx:request_ctx_T)=>''
++ dl_tree_({ ctx }, [
 	[`## A Closer Look at Eureka Diagnostics`, [
 		`Eureka Diagnostics is more than a laboratory. It's a critical partner in the healthcare process. Offering an extensive array of tests. Spanning from routine blood work to complex genetic screenings. This facility equips state-of-the-art instruments. Employing a team of skilled professionals. Dedicated to upholding the highest standards of accuracy and reliability.`].join(nl)],
 	[`## Services Offered`, [
