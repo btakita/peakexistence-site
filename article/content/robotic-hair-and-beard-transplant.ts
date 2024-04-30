@@ -43,7 +43,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Enhanced Precision & Reduced Trauma`, [
 				`A key advantage of using robotic technology in hair & beard transplants is precision. The robotic arm can create perfectly sized extraction sites & angle the grafts. Which minimizes scalp trauma & improves the viability of the transplanted follicles. This precision promotes faster healing. And it reduces the risk of complications such as scarring.`].join(nl)],
 			[`### Increased Efficiency`, [
-				`The robotic system operates without fatigue. Allowing for quicker procedures compared to traditional manual techniques. This efficiency translates into shorter treatment times & potentially lower costs for patients.`].join(nl)],
+				`The robotic system operates with no fatigue. Allowing for quicker procedures compared to traditional manual techniques. This efficiency translates into shorter treatment times & potentially lower costs for patients.`].join(nl)],
 			[`### Improved Aesthetic Outcomes`, [
 				`With its ability to meticulously follow specified aesthetic designs & patterns. The robotic system ensures that the final appearance looks natural & uniform. This is particularly important in beard transplants. Where achieving a naturally dense & appropriate contoured beard is crucial.`].join(nl)],
 			[`### Customization & Versatility`, [
