@@ -10,21 +10,21 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, [
++ dl_tree_({ ctx }, ()=>[
 	[`## Benefits of Exercise with Oxygen Therapy`, [
-		`HBOT enhances the body’s immune response to fight bacterial and fungal infections. Aiding in the recovery from severe soft tissue infections.`].join(nl)],
+		`HBOT enhances the body’s immune response to fight bacterial & fungal infections. Aiding in the recovery from severe soft tissue infections.`].join(nl)],
 	[`## The Science Behind EWOT: How it Works`, [
 		`During conventional exercise, our muscles require oxygen to produce energy for movement. As we age or encounter health challenges, our body’s ability to deliver oxygen efficiently may diminish. However, EWOT addresses this by enhancing oxygen delivery, allowing your body to work at its full potential during exercise.`,
 		``,
-		`When you exercise with additional oxygen, your blood becomes oxygen-rich. Enhancing the oxygen saturation of tissues and organs. This increased oxygenation:`,
+		`When you exercise with additional oxygen, your blood becomes oxygen-rich. Enhancing the oxygen saturation of tissues & organs. This increased oxygenation:`,
 		`- supports cellular function`,
 		`- aids in detoxification`,
 		`- helps improve overall cardiovascular health`].join(nl)],
 	[`## Conditions Treated with HBOT`, [
 		`HBOT has shown remarkable benefits in treating various medical conditions. Including but not limited to:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Radiation Injuries`, [
-				`HBOT can alleviate the side effects of radiation therapy in cancer patients. Promoting tissue healing and reducing inflammation.`].join(nl)],
+				`HBOT can alleviate the side effects of radiation therapy in cancer patients. Promoting tissue healing & reducing inflammation.`].join(nl)],
 			[`### Chronic Wounds`, [
 				`HBOT stimulates the growth of new blood vessels. And enhances the body’s ability to heal chronic wounds, such as:`,
 				`- diabetic foot ulcers`,
@@ -33,16 +33,16 @@ export default (ctx:request_ctx_T)=>''
 			[`### Carbon Monoxide Poisoning`, [
 				`HBOT helps eliminate carbon monoxide from the bloodstream. Reducing the risk of long-term complications associated with carbon monoxide poisoning.`].join(nl)],
 			[`### Non-Healing Bone Fractures`, [
-				`HBOT aids in bone repair and regeneration. Accelerating the healing process for non-healing bone fractures.`].join(nl)],
+				`HBOT aids in bone repair & regeneration. Accelerating the healing process for non-healing bone fractures.`].join(nl)],
 		])
 	].join(nl)],
 	[`## Your HBOT Experience:`, [
-		`During your HBOT sessions at Dr. Manny Emenike’s Internal Medicine practice, you can expect a warm and supportive atmosphere. Our team will guide you through the entire process, addressing any questions or concerns you may have.`,
+		`During your HBOT sessions at Dr. Manny Emenike’s Internal Medicine practice, you can expect a warm & supportive atmosphere. Our team will guide you through the entire process, addressing any questions or concerns you may have.`,
 		``,
-		`HBOT sessions last between 60 to 90 minutes. During which you can relax inside the hyperbaric chamber. Many patients find this time to be an excellent opportunity to unwind, read, or listen to music.`,
+		`HBOT sessions last between 60 & 90 minutes. During which you can relax inside the hyperbaric chamber. Many patients find this time to be an excellent opportunity to unwind, read, or listen to music.`,
 		``,
-		`The number of HBOT sessions varies on your specific medical condition and response to treatment. Dr. Manny Emenike will create your personalized treatment plan. To ensure the best possible outcome for you.`,
-		`Athletes have found tremendous benefits in HBOT treatments. Professional athletes and sports organizations incorporate hyperbaric chambers into their training regiment. The increased oxygen promotes blood flow and waste removal, expediting recovery time. The heightened oxygen levels enhance brain function and decision-making abilities. Providing athletes with improved focus and quicker decision-making during games. HBOT’s elevated oxygen levels accelerates healing time from injuries. Enabling athletes a swift return to training and competition.`,
+		`The number of HBOT sessions varies on your specific medical condition & response to treatment. Dr. Manny Emenike will create your personalized treatment plan. To ensure the best possible outcome for you.`,
+		`Athletes have found tremendous benefits in HBOT treatments. Professional athletes & sports organizations incorporate hyperbaric chambers into their training regiment. The increased oxygen promotes blood flow & waste removal, expediting recovery time. The heightened oxygen levels enhance brain function & decision-making abilities. Providing athletes with improved focus & quicker decision-making during games. HBOT’s elevated oxygen levels accelerate healing time from injuries. Enabling athletes a swift return to training & competition.`,
 		``,
 		`Prominent athletes regularly use hyperbaric chambers for recovery, training, enhancement, & well-being. Such as:`,
 		`- Steve Weatherford (NFL)`,

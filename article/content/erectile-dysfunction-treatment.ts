@@ -5,20 +5,24 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__h2_class } from '../../css/index.js'
 // TODO: Add References: WIP
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...erectile_dysfunction_treatment,
-	title: 'Erectile Dysfunction Treatment: Addressing the Heart of the Matter',
+	title: 'Erectile Dysfunction Treatment: The Heart of the Matter',
 	description: `Erectile dysfunction (ED) is often viewed through the narrow lens of sexual health. Yet its implications extend far into the broader spectrum of overall well-being. Particularly cardiovascular health. The interconnectedness between ED & cardiovascular diseases (CVD) reveals a complex relationship. Where treating ED offers a unique opportunity not only to improve sexual health. But to address & manage the underlying cardiovascular conditions.`
 })
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, [
-	[`## The Heart of the Matter: ED & Cardiovascular Health`, [
++ dl_tree_({
+	ctx,
+	dt_class: sticky__h2_class
+}, ()=>[
+	[`## ED & Cardiovascular Health`, [
 		`ED can be a harbinger of cardiovascular diseases. Serving as an early warning sign. Due to the shared pathophysiology between erectile function & vascular health. Atherosclerotic processes impede blood flow to the coronary arteries. Will often occur in penile arteries first due to their smaller size. Erectile Dysfunction is a "canary in the coalmine". Offering an early warning sign of cardiovascular disease. Offering a critical window for intervention.`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Unveiling the Connection`, [
 				`Endothelial dysfunction is the endothelium's impaired ability to regulate blood vessel dilation. It plays a pivotal role in both ED & CVD. Risk factors exacerbate this condition, such as:`,
 				`- hypertension`,
@@ -26,7 +30,7 @@ export default (ctx:request_ctx_T)=>''
 				`- hyperlipidemia`,
 				`- smoking`].join(nl)]
 		])].join(nl)],
-	[`## The Intimate Connection: ED & Your Heart`, [
+	[`## ED & Your Heart`, [
 		`Erections require healthy blood flow. Cardiovascular diseases damage blood vessels & impair this vital function. Diseases like:`,
 		`- atherosclerosis (plaque buildup in arteries)`,
 		`- high blood pressure`,
@@ -34,7 +38,7 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		`ED can be an early warning sign of these conditions. Offering a window for proactive heart health measures.`].join(nl)],
 	[`## Why Treating Cardiovascular Health Can Restore Sexual Function`, [
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Improved Blood Flow`, [
 				`Managing conditions like high blood pressure & cholesterol optimizes blood flow throughout the body. Including to the penis, enhancing erectile function.`].join(nl)],
 			[`### Reduced Medication Side Effects`, [
@@ -47,7 +51,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Comprehensive Screening: The First Step`, [
 		`A thorough evaluation is essential when Erectile Dysfunction occurs. To uncover any underlying cardiovascular risk factors or diseases. This comprehensive screening includes:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Medical history review`, [
 				`Focusing on cardiovascular risk factors such as:`,
 				`- hypertension`,
@@ -63,7 +67,7 @@ export default (ctx:request_ctx_T)=>''
 		])
 	].join(nl)],
 	[`## Treatment Strategies Focusing on Heart Health`, [
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Lifestyle as Medicine`, [
 				`A healthy lifestyle is foundational to improve blood circulation. Solving root causes of Erectile Dysfunction.`].join(nl)],
 			[`### Healthy Diet`, [
@@ -83,9 +87,9 @@ export default (ctx:request_ctx_T)=>''
 				`Effective blood sugar management protects blood vessels throughout the body.`].join(nl)],
 			[`### Medication Management`, [
 				`Healthy living is the best strategy to manage body vital signs. If additional intervention is needed, the doctor may prescribe medication.`,
-				dl_tree_({ ctx }, [
+				dl_tree_({ ctx }, ()=>[
 					[`#### Blood Pressure Medication`, [
-						dl_tree_({ ctx }, [
+						dl_tree_({ ctx }, ()=>[
 							[`##### Medications Used`, [
 								`Antihypertensive drugs, including ACE inhibitors & beta-blockers.`].join(nl)],
 							[`##### Mechanism`, [
@@ -95,7 +99,7 @@ export default (ctx:request_ctx_T)=>''
 						])
 					].join(nl)],
 					[`#### Cholesterol Level Medication`, [
-						dl_tree_({ ctx }, [
+						dl_tree_({ ctx }, ()=>[
 							[`##### Medications Used`, [
 								`Statins & other lipid-lowering agents.`].join(nl)],
 							[`##### Mechanism`, [
@@ -105,7 +109,7 @@ export default (ctx:request_ctx_T)=>''
 						])
 					].join(nl)],
 					[`#### Diabetes Medication`, [
-						dl_tree_({ ctx }, [
+						dl_tree_({ ctx }, ()=>[
 							[`##### Medications Used`, [
 								`Blood glucose-regulating medications such as metformin, insulin, & other antidiabetic drugs.`].join(nl)],
 							[`##### Mechanism`, [
@@ -123,7 +127,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Integrated Treatment Approaches`, [
 		`Addressing ED in the context of cardiovascular health involves a multifaceted treatment strategy. Improving erectile function & mitigating cardiovascular risk factors.`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Lifestyle Modifications`, [
 				`Central to managing both ED & cardiovascular health are lifestyle changes. A healthy lifestyle has a significant positive impact:`,
 				`- dietary improvements`,
@@ -146,7 +150,7 @@ export default (ctx:request_ctx_T)=>''
 	].join(nl)],
 	[`## Beyond Treating Symptoms`, [
 		`Recognizing the link between ED & heart health empowers you to take an active role in managing both. This involves:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Comprehensive Evaluation`, [
 				`A thorough cardiovascular checkup to identify risks & create a personalized management plan.`].join(nl)],
 			[`### Open Communication with Your Doctor`, [

@@ -15,10 +15,10 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, [
++ dl_tree_({ ctx }, ()=>[
 	[`## Taking Charge: A Guide to Comprehensive Wellness Testing & Biometric Screening`, [
 		`In today's world, taking a proactive approach to your health is more important than ever. Comprehensive wellness testing & screening empowers your journey towards optimal well-being. This article explores what these tests entail. Their benefits. How to navigate the options available.`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Corporate Wellness`, [
 				`Comprehensive wellness testing & biometric screening emerge as key components in corporate wellness programs. Offering a proactive approach to managing employee health. These initiatives aim to improve individual health outcomes. Enhancing overall workplace productivity & reducing healthcare costs.`].join(nl)]])].join(nl)],
 	[`## Understanding Comprehensive Wellness Testing`, [
@@ -30,7 +30,7 @@ export default (ctx:request_ctx_T)=>''
 		`The goal is to identify potential health issues before they become serious. Allowing for timely intervention & management${footnote__sup__sort([/* ref6_footnote__sup_(ctx), */])}.`].join(nl)],
 	[`## What is Comprehensive Wellness Testing & Screening?`, [
 		`Comprehensive wellness testing & screening is a detailed checkup for your entire body. It goes beyond addressing immediate concerns. Aiming to provide a detailed snapshot of your overall health. These tests can include:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Blood tests`, [
 				`A comprehensive metabolic panel (CMP) & complete blood count (CBC). Assessing organ function, blood cell health, & potential risk factors for various conditions.`].join(nl)],
 			[`### Urine tests`, [
@@ -48,7 +48,7 @@ export default (ctx:request_ctx_T)=>''
 		`Comprehensive wellness testing & screening is a detailed checkup for your entire body. Conducted in the clinic, home, or workplace. It goes beyond addressing immediate concerns. Aiming to provide a detailed snapshot of your overall health. These tests can include:`,
 		``,
 		`Biometric screening is a clinical process conducted in the clinic or workplace. To assess various health parameters including${footnote__sup__sort([ref4_footnote__sup_(ctx),/* ref_s1_3_footnote__sup_(ctx), */ ref_s1_5_footnote__sup_(ctx), ref_s1_9_footnote__sup_(ctx), ref_s1_10_footnote__sup_(ctx), ref_s1_17_footnote__sup_(ctx),])}:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Blood tests`, [
 				`A comprehensive metabolic panel (CMP) & complete blood count (CBC). Assessing:`,
 				`- organ function`,
@@ -73,7 +73,7 @@ export default (ctx:request_ctx_T)=>''
 		`- diabetes`,
 		`- cardiovascular conditions`].join(nl)],
 	[`## Benefits of Comprehensive Wellness Testing:`, [
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Personalized Healthcare`, [
 				`Test results help your doctor tailor preventive measures & treatment plans for you.`].join(nl)],
 			[`### Proactive Management`, [
@@ -93,7 +93,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Considering Comprehensive Wellness Testing?`, [
 		`Here's what to keep in mind:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Consult your doctor`, [
 				`Discuss your health goals & risk factors. To determine if comprehensive testing is right for you.`].join(nl)],
 			[`### Understand the options`, [

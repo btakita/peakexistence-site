@@ -19,10 +19,10 @@ export default (ctx:request_ctx_T)=>''
 	`- red blood cells`,
 	`- white blood cells`,
 	`- platelets`].join(nl))
-+ dl_tree_({ ctx }, [
++ dl_tree_({ ctx }, ()=>[
 	[`## Why Bone Marrow Aspiration is Done`, [
 		`Doctors may order a bone marrow aspiration to:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Diagnose Blood Disorders`, [
 				`Helps identify problems with the production of red blood cells, white blood cells, or platelets. Examples include anemia, leukemia, & other blood cancers.`].join(nl)],
 			[`### Detect Cancer`, [
@@ -49,7 +49,7 @@ export default (ctx:request_ctx_T)=>''
 			ctx,
 			dl_class: '[counter-reset:_order]',
 			dt_class: class_('[&>h3]:before:[counter-increment:order]', '[&>h3]:before:content-[counter(order)_\'._\']')
-		}, [
+		}, ()=>[
 			[`### Location`, [
 				`Commonly performed on the back of the hip bone (pelvis), less often on the breastbone (sternum).`].join(nl)],
 			[`### Numbing`, [
@@ -61,7 +61,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## What to Expect`, [
 		`Despite its importance, a bone marrow aspiration procedure may evoke apprehension. Understanding what to expect:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Preparation`, [
 				`Bone Marrow Aspiration requires little preparation. Though certain medications should be avoided before the procedure.`].join(nl)],
 			[`### During the Procedure`, [

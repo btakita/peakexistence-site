@@ -16,10 +16,10 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + md__raw_(ctx,
 	`Your heart is a tireless working muscle. The central engine that powers your entire body. Prioritizing cardiac health is crucial for a long, vibrant, & healthy life. Let's dive into the key aspects of protecting your heart.`)
-+ dl_tree_({ ctx }, [
++ dl_tree_({ ctx }, ()=>[
 	[`## Understanding Your Heart`, [
 		`The heart is a muscular organ roughly the size of a fist. The heart is the centerpiece of the cardiovascular system. Its primary role is to pump blood throughout the body. Supplying oxygen & nutrients to tissues while removing carbon dioxide & other wastes. The significance of maintaining heart health is central to whole body health. It impacts every aspect of our physical function & quality of life. Key concepts to understand:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### The Four Chambers`, [
 				`Your heart has four chambers. Two upper chambers (atria) & two lower chambers (ventricles).`].join(nl)],
 			[`### Blood Flow`, [
@@ -36,7 +36,7 @@ export default (ctx:request_ctx_T)=>''
 	].join(nl)],
 	[`## Threats to Cardiac Health`, [
 		`Several conditions can compromise your heart's function:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Coronary Artery Disease (CAD)`, [
 				`The buildup of plaque (atherosclerosis) in the coronary arteries is the most common heart problem. This narrows the arteries, restricting blood supply to the heart muscle.`].join(nl)],
 			[`### Heart Failure`, [
@@ -49,7 +49,7 @@ export default (ctx:request_ctx_T)=>''
 	].join(nl)],
 	[`## Risk Factors You Can Control`, [
 		`Many factors influencing heart disease are within your power to modify:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### High Blood Pressure`, [
 				`Puts excessive strain on your heart & blood vessels.`].join(nl)],
 			[`### High Cholesterol`, [
@@ -68,7 +68,7 @@ export default (ctx:request_ctx_T)=>''
 	].join(nl)],
 	[`## Protecting Your Heart: The Power of Prevention`, [
 		`A healthy Lifestyle is your greatest weapon against heart disease.`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Heart-Healthy Diet`, [
 				`A heart-healthy diet is rich in:`,
 				`- fruits`,
@@ -84,7 +84,7 @@ export default (ctx:request_ctx_T)=>''
 				`- seed oils`,
 				`- added sugars`].join(nl)],
 			[`### Exercise`, [
-				dl_tree_({ ctx }, [
+				dl_tree_({ ctx }, ()=>[
 					[`#### A Stronger Heart Muscle`, [
 						`Regular aerobic exercises such as walking, cycling, or swimming enhance the heart's efficiency. Enabling effective blood pumping throughout the body. Over time, this increased efficiency can lower the resting heart rate. Reducing the workload on the heart. A significant step towards cardiovascular resilience.`].join(nl)],
 					[`#### Improved Circulation & Reduced Blood Pressure`, [
@@ -104,9 +104,9 @@ export default (ctx:request_ctx_T)=>''
 				`- cholesterol levels`,
 				`- insulin resistance`,
 				``,
-				dl_tree_({ ctx }, [
+				dl_tree_({ ctx }, ()=>[
 					[`#### Key Benefits of Weight Management on Cardiac Health`, [
-						dl_tree_({ ctx }, [
+						dl_tree_({ ctx }, ()=>[
 							[`##### Reduced Blood Pressure`, [
 								`Even modest amounts of weight loss can significantly lower blood pressure. Reducing the heart's workload & lowering the risk of heart disease.`].join(nl)],
 							[`##### Improved Cholesterol Levels`, [
@@ -126,9 +126,9 @@ export default (ctx:request_ctx_T)=>''
 			].join(nl)],
 			[`### Manage Stress`, [
 				`Stress, particularly when chronic, can have deleterious effects on the heart. Stress triggers a cascade of physiological responses. This includes the release of adrenaline. Which increases heart rate & blood pressure. Placing undue strain on the cardiovascular system. Stress often leads to unhealthy coping mechanisms. Such as poor dietary choices, smoking, & inactivity. Which further exacerbate heart disease risk.`,
-				dl_tree_({ ctx }, [
+				dl_tree_({ ctx }, ()=>[
 					[`#### Key Benefits of Stress Management for Cardiac Health`, [
-						dl_tree_({ ctx }, [
+						dl_tree_({ ctx }, ()=>[
 							[`##### Lower Blood Pressure`, [
 								`Effective stress management leads to reductions in blood pressure. A critical factor in preventing heart disease & stroke.`].join(nl)],
 							[`##### Reduced Arrhythmia Risk`, [
@@ -140,7 +140,7 @@ export default (ctx:request_ctx_T)=>''
 						])].join(nl)],
 					[`#### Strategies for Effective Stress Management`, [
 						`Achieving effective stress management requires a multifaceted approach. Tailored to an your lifestyle & preferences. Key strategies include:`,
-						dl_tree_({ ctx }, [
+						dl_tree_({ ctx }, ()=>[
 							[`##### Regular Physical Activity`, [
 								`Exercise is a powerful stress reliever & heart health booster. Improving circulation & reducing stress hormones.`].join(nl)],
 							[`##### Mindfulness, Meditation, & Yoga`, [
@@ -162,7 +162,7 @@ export default (ctx:request_ctx_T)=>''
 			].join(nl)],
 			[`### Unraveling Stress with Yoga`, [
 				`Yoga activates the body's relaxation response. Counteracting the stress-induced "fight or flight" mode. That can be detrimental to heart health. Through a series of postures (asanas) & controlled breathing techniques (pranayama). Yoga encourages a deep sense of relaxation & mindfulness.`,
-				dl_tree_({ ctx }, [
+				dl_tree_({ ctx }, ()=>[
 					[`#### Mind-Body Connection`, [
 						`Yoga strengthens the mind-body connection, promoting awareness & presence. This mindfulness reduces the psychological stress that lead to anxiety & depression. Both of which link to increased risk for heart disease.`].join(nl)],
 					[`#### Lowering Blood Pressure`, [
@@ -179,7 +179,7 @@ export default (ctx:request_ctx_T)=>''
 			].join(nl)],
 			[`### Quit Smoking & Other Tobacco Products`, [
 				`One of the best things you can do for your heart. Smoking & chronic nicotine use causes damage to blood vessels & the heart. Smoking is a major risk factor for heart disease. Quitting smoking drastically reduces the risk of cardiac complications.`,
-				dl_tree_({ ctx }, [
+				dl_tree_({ ctx }, ()=>[
 					[`#### Immediate Benefits: The First Step to Recovery`, [
 						`The journey toward improved cardiac health begins moments after the last cigarette. Within 20 minutes, heart rate & blood pressure, which spike with each cigarette, begin to return to normal levels. This immediate change reduces the strain on the heart & improves blood circulation. Setting the stage for ongoing healing & recovery.`].join(nl)],
 					[`#### Mid-term Improvements: Strengthening the Heart`, [
@@ -196,7 +196,7 @@ export default (ctx:request_ctx_T)=>''
 				`- stroke`,
 				`- other cardiovascular complications`,
 				``,
-				dl_tree_({ ctx }, [
+				dl_tree_({ ctx }, ()=>[
 					[`#### Reducing Strain on the Heart`, [
 						`High blood pressure adds strain on the heart. Forcing it to work harder to pump blood through the body. This increased workload leads to the thickening of the heart's muscle tissue. Left ventricular hypertrophy. A condition that heightens the risk of heart failure. Managing blood pressure helps to ease the heart's workload. Preventing hypertrophy & preserving the heart's function.`].join(nl)],
 					[`#### Lowering Risk of Atherosclerosis`, [
@@ -229,7 +229,7 @@ export default (ctx:request_ctx_T)=>''
 			].join(nl)],
 			[`### Control Cholesterol`, [
 				`Cholesterol, a waxy substance found in the blood. Plays a dual role in the body's functioning, being both vital & potentially harmful.`,
-				dl_tree_({ ctx }, [
+				dl_tree_({ ctx }, ()=>[
 					[`#### Low-density Lipoprotein (LDL) Cholesterol, the "bad cholesterol"`, [
 						`Elevated levels of low-density lipoprotein (LDL) cholesterol leads to the buildup of plaque in the arteries. Increasing the risk of coronary artery disease & other cardiovascular conditions.`].join(nl)],
 					[`#### High-density Lipoprotein (HDL) Cholesterol, the "good" cholesterol`, [
@@ -241,7 +241,7 @@ export default (ctx:request_ctx_T)=>''
 							ctx,
 							dl_class: '[counter-reset:_order]',
 							dt_class: class_('[&>h5]:before:[counter-increment:order]', '[&>h5]:before:content-[counter(order)_\'._\']')
-						}, [
+						}, ()=>[
 							[`##### Reduced Risk of Coronary Artery Disease`, [
 								`Lowering LDL cholesterol levels decreases the likelihood of plaque formation. Reducing the risk of developing coronary artery disease.`].join(nl)],
 							[`##### Improved Arterial Health`, [
@@ -253,7 +253,7 @@ export default (ctx:request_ctx_T)=>''
 						])].join(nl)],
 					[`#### Strategies for Cholesterol Management`, [
 						`Controlling cholesterol involves a multifaceted approach.`,
-						dl_tree_({ ctx }, [
+						dl_tree_({ ctx }, ()=>[
 							[`##### Dietary Changes`, [
 								`Incorporating a diet rich in fruits, vegetables, whole grains, & lean proteins. While limiting saturated fats, trans fats, & LDL cholesterol. Can lower LDL levels & boost HDL levels.`].join(nl)],
 							[`##### Regular Physical Activity`, [
@@ -271,7 +271,7 @@ export default (ctx:request_ctx_T)=>''
 				``,
 				`Macrophages play a pivotal role in the development & progression of atherosclerotic plaque. A key factor in coronary artery disease & other forms of cardiovascular disease. These immune cells are part of the body's first line of defense against infection. Macrophages can have a dual effect on plaque buildup, both protective & detrimental. Depending on the stage & context of atherosclerosis.`,
 				``,
-				dl_tree_({ ctx }, [
+				dl_tree_({ ctx }, ()=>[
 					[`#### Early Stages`, [
 						`In the initial stages of plaque formation. Macrophages identify LDL cholesterol that has infiltrated the artery wall. They act as scavengers, engulfing & trying some of this LDL cholesterol.`].join(nl)],
 					[`#### Foam Cells`, [
@@ -285,7 +285,7 @@ export default (ctx:request_ctx_T)=>''
 						``,
 						`**Macrophages & Inflammation:**`,
 						``,
-						dl_tree_({ ctx }, [
+						dl_tree_({ ctx }, ()=>[
 							[`##### Inflamed Plaque`, [
 								`As plaque grows, macrophages release chemicals that further attract inflammatory cells. Increasing inflammation within the artery wall.`].join(nl)],
 							[`##### Unstable Plaques`, [
@@ -297,7 +297,7 @@ export default (ctx:request_ctx_T)=>''
 						``,
 						`**Macrophages & Regression:**`,
 						``,
-						dl_tree_({ ctx }, [
+						dl_tree_({ ctx }, ()=>[
 							[`##### Changing Types`, [
 								`There are different subtypes of macrophages, some more inflammatory than others. Promoting a shift towards less inflammatory types may be helpful.`].join(nl)],
 							[`##### Cholesterol Removal`, [
@@ -313,7 +313,7 @@ export default (ctx:request_ctx_T)=>''
 				`- personalized advice`,
 				`- ongoing monitoring`,
 				``,
-				dl_tree_({ ctx }, [
+				dl_tree_({ ctx }, ()=>[
 					[`#### Early Detection: The First Line of Defense`, [
 						`Some conditions like hypertension, high cholesterol, & diabetes, may not present obvious symptoms. Routine screenings detect these conditions early. Early detection facilitates timely intervention. Reducing the risk of developing more severe cardiovascular diseases. Including coronary artery disease & heart failure.`].join(nl)],
 					[`#### Tailored Health Strategies: A Personalized Approach`, [
@@ -345,7 +345,7 @@ export default (ctx:request_ctx_T)=>''
 		`- **Swelling in Your Legs**`].join(nl)],
 	[`## Managing Heart Conditions`, [
 		`For those diagnosed with heart conditions. Management is key to maintaining quality of life & preventing further complications.`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Medication Adherence`, [
 				`For conditions like hypertension or atrial fibrillation, adhering to prescribed medications is vital. To:`,
 				`- reduce plaque`,
@@ -361,7 +361,7 @@ export default (ctx:request_ctx_T)=>''
 	].join(nl)],
 	[`## Recovery & Rehabilitation`, [
 		`Recovering from a heart condition or surgery is a journey. A multidisciplinary approach ensures comprehensive rehabilitation.`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Physical Therapy`, [
 				`Gradually reintroducing physical activity, under the guidance of healthcare professionals, is essential for rebuilding heart strength.`].join(nl)],
 			[`### Dietary Adjustments`, [
@@ -372,7 +372,7 @@ export default (ctx:request_ctx_T)=>''
 	].join(nl)],
 	[`## The Future of Cardiac Health`, [
 		`Advancements in medical research offer new pathways for treating & preventing heart disease. From innovative surgical techniques & personalized medicine. To wearable technology that monitors heart health in real-time.`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Genetic Screening`, [
 				`Identifying genetic predispositions to heart conditions allows for early interventions.`].join(nl)],
 			[`### Regenerative Medicine`, [

@@ -17,10 +17,10 @@ The constant flow of blood throughout our bodies is the essence of life. The blo
 export default (ctx:request_ctx_T)=>''
 + md__raw_(ctx,
 	`In the complex machinery of the human body. The cardiovascular system acts as the central highway. With blood flow serving as the crucial indicator of its health & efficiency. Blood flow analysis has emerged as an indispensable diagnostic tool in modern medicine. Offering a window into the myriad of factors that influence cardiovascular health. And the overall well-being of individuals.`)
-+ dl_tree_({ ctx }, [
++ dl_tree_({ ctx }, ()=>[
 	[`## Why Does Blood Flow Matter?`, [
 		`Healthy blood flow is essential for:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Oxygen & Nutrient Delivery`, [
 				`Every cell in your body depends on a steady supply of oxygen & nutrients. Restricted blood flow can lead to tissue damage & organ dysfunction.`].join(nl)],
 			[`### Waste Removal`, [
@@ -37,7 +37,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Conditions Affecting Blood Flow`, [
 		`Several conditions can compromise blood flow:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Atherosclerosis`, [
 				`The buildup of plaque within artery walls is the most common culprit. Narrowing vessels & restricting flow.`].join(nl)],
 			[`### Blood Clots`, [
@@ -51,7 +51,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## How is Blood Flow Analyzed`, [
 		`Blood flow analysis uses diagnostic techniques to visualize & assess the movement of blood. Through the body's arteries & veins. Providing valuable information on the velocity, volume, & turbulence of blood flow. Allowing healthcare professionals to detect abnormalities indicating underlying health issues. Various techniques help doctors evaluate blood flow:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Doppler Ultrasound`, [
 				`The primary non-invasive method. Uses sound waves to visualize blood flow & detect blockages or abnormal flow patterns.`].join(nl)],
 			[`### Arterial Pressure Waveform Analysis`, [
@@ -70,13 +70,13 @@ export default (ctx:request_ctx_T)=>''
 		`- aortic stenosis`,
 		`- congenital heart defects`,
 		``,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Diagnosing Cardiovascular Diseases`, [
 				`Early detection is key in managing cardiovascular diseases. Blood flow analysis provides a critical advantage. By identifying issues like blockages, clots, or weakened vessel walls. Physicians can intervene early, often preventing the progression of disease & avoiding severe complications.`].join(nl)]])
 	].join(nl)],
 	[`## Applications of Blood Flow Analysis`, [
 		`Blood flow analysis aids in the diagnosis & management of many conditions:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Coronary Artery Disease`, [
 				`Identifying blockages that increase heart attack risk.`].join(nl)],
 			[`### Peripheral Artery Disease (PAD)`, [
@@ -105,7 +105,7 @@ export default (ctx:request_ctx_T)=>''
 		`Preventive medicine uses blood flow analysis. To identify people at risk of cardiovascular diseases before symptoms manifest. This proactive approach can lead to lifestyle changes, dietary adjustments, & treatments. That significantly reduce the risk of heart attack, stroke, & other life-threatening events.`].join(nl)],
 	[`## Beyond Diagnosis: Protecting Your Health`, [
 		`Blood flow analysis informs treatment but also highlights the importance of prevention. Prioritize heart-healthy habits:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Healthy Eating`, [
 				`A balanced diet rich in fruits, vegetables, whole grains, & lean protein. While limiting unhealthy fats & processed foods.`].join(nl)],
 			[`### Regular Exercise`, [
@@ -122,7 +122,7 @@ export default (ctx:request_ctx_T)=>''
 				`- engaging in regular exercise`,
 				`- managing stress`].join(nl)],
 			[`### The Role of Supplements & Medications`, [
-				`Supplements or medications may be necessary to improve blood flow & heart health. Blood flow analysis can help determine the most effective options. Whether it's anticoagulants to prevent clots or statins to lower cholesterol levels.`].join(nl)],
+				`Supplements or medications may be necessary to improve blood flow & heart health. Blood flow analysis can help determine the most effective options. Whether its anticoagulants to prevent clots or statins to lower cholesterol levels.`].join(nl)],
 		])
 	].join(nl)],
 	[`## The Takeaway`, [

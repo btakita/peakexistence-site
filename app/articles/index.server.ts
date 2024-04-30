@@ -7,6 +7,7 @@ import { blog_post__estimate_read_minutes__wait } from '@rappstack/ui--server--b
 import { Elysia } from 'elysia'
 import { html_response__new, middleware_ } from 'relysjs/server'
 import { blog_site } from '../../config.js'
+import { sticky__breadcrumbs__nav_class } from '../../css/index.js'
 import { peakexistence_request_ctx__ensure } from '../../ctx/index.js'
 export default middleware_(middleware_ctx=>
 	new Elysia({
@@ -30,5 +31,5 @@ export default middleware_(middleware_ctx=>
 				page_num_(ctx)
 					? posts__doc_html_({ ctx })
 					: await blog_post__estimate_read_minutes__wait(ctx)
-						.then(()=>post__doc_html_({ ctx })))
+						.then(()=>post__doc_html_({ ctx, breadcrumbs__nav_class: sticky__breadcrumbs__nav_class })))
 		}))

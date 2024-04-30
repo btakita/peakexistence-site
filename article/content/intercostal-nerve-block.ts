@@ -13,7 +13,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + md__raw_(ctx,
 	`An Intercostal Nerve Block is a non-surgical procedure. A simple injection. It targets pain. This pain stems from the chest or upper abdominal area. Doctors use this block to diagnose or treat pain.`)
-+	dl_tree_({ ctx }, [
++	dl_tree_({ ctx }, ()=>[
 		[`## What Is It?`, [
 			`An Intercostal Nerve Block involves local anesthetics & Corticosteroids. This medicine gets injected near the ribs. It numbs nerve pain in the chest or abdomen.`].join(nl)],
 		[`## How Does It Work?`, [
@@ -32,7 +32,7 @@ export default (ctx:request_ctx_T)=>''
 			`- Bleeding.`,
 			`- Rarely, lung puncture.`].join(nl)],
 		[`## Conclusion`, [
-			`An Intercostal Nerve Block offers a path to relief for those battling persistent chest or abdominal pain. It's simple and effective. Yet, it's not without risks. Discuss with your doctor.`,
+			`An Intercostal Nerve Block offers a path to relief for those battling a persistent chest or abdominal pain. It's simple & effective. Yet, it's not without risks. Discuss with your doctor.`,
 			``,
 			`Remember, this procedure is a tool. It's part of a broader pain management strategy. Always consider the full spectrum of your health needs.`].join(nl)],
 	])

@@ -11,9 +11,9 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, [
++ dl_tree_({ ctx }, ()=>[
 	[`## Why Exercise with Detox Therapy?`, [
-		`Exercise and detoxification are both essential elements in maintaining a healthy lifestyle. When combined, their effects can be more transformative.`,
+		`Exercise & detoxification are both essential elements in maintaining a healthy lifestyle. When combined, their effects can be more transformative.`,
 		``,
 		`Exercise helps in:`,
 		`- weight management`,
@@ -29,37 +29,37 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		`The synergy between exercise & detox therapy is a potent approach to a healthier life.`].join(nl)],
 	[`## The Benefits of Exercise with Detox Therapy`, [
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Enhanced Detoxification`, [
-				`Exercise stimulates blood flow and oxygenation, aiding the body in flushing out toxins. Sweating during physical activity expels toxins through the skin. Further supporting the detox process.`].join(nl)],
+				`Exercise stimulates blood flow & oxygenation, aiding the body in flushing out toxins. Sweating during physical activity expels toxins through the skin. Further supporting the detox process.`].join(nl)],
 			[`### Weight Management`, [
-				`Regular exercise assists in burning calories and building lean muscle mass. Which is vital for maintaining a healthy weight. Combining exercise with detox therapy, supports the body's functions. To shed excess weight and maintain an ideal balance.`].join(nl)],
+				`Regular exercise assists in burning calories & building lean muscle mass. Which is vital for maintaining a healthy weight. Combining exercise with detox therapy supports the body's functions. To shed excess weight & maintain an ideal balance.`].join(nl)],
 			[`### Improved Digestion`, [
-				`Certain exercises can stimulate the digestive system. While detox therapy eliminates digestive waste and promotes a healthier gut environment.`].join(nl)],
+				`Certain exercises can stimulate the digestive system. While detox therapy eliminates digestive waste & promotes a healthier gut environment.`].join(nl)],
 			[`### Boosted Energy Levels`, [
-				`Exercise releases endorphins, providing an instant mood lift and a surge in energy. Detox therapy revitalizes you by removing energy-draining toxins.`].join(nl)],
+				`Exercise releases endorphins, providing an instant mood lift & a surge in energy. Detox therapy revitalizes you by removing energy-draining toxins.`].join(nl)],
 			[`### Enhanced Mental Clarity`, [
-				`The combination of exercise and detoxification supports brain health. By improving circulation and oxygen supply to the brain. This results in better focus, memory, and cognitive function.`].join(nl)],
+				`The combination of exercise & detoxification supports brain health. By improving circulation & oxygen supply to the brain. This results in better focus, memory, & cognitive function.`].join(nl)],
 			[`### Balanced Hormones`, [
 				`Regular exercise helps regulate hormone levels. Detox therapy eliminates hormone-disrupting toxins from the body. Bringing harmony to your body's internal environment.`].join(nl)],
 		])].join(nl)],
 	[`## Exercise with Detox Therapy Techniques`, [
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Cardiovascular Exercise`, [
-				`Engage in activities like brisk walking, jogging, swimming, or cycling. To get your heart rate up and stimulate blood circulation.`].join(nl)],
+				`Engage in activities like brisk walking, jogging, swimming, or cycling. To get your heart rate up & stimulate blood circulation.`].join(nl)],
 			[`### Strength Training`, [
-				`Incorporate resistance exercises to build muscle mass, boost metabolism, and support detoxification.`].join(nl)],
-			[`### Yoga and Stretching`, [
-				`Practice yoga or stretching exercises to enhance flexibility, reduce stress, and encourage detoxification. Through improved lymphatic flow.`].join(nl)],
+				`Incorporate resistance exercises to build muscle mass, boost metabolism, & support detoxification.`].join(nl)],
+			[`### Yoga & Stretching`, [
+				`Practice yoga or stretching exercises to enhance flexibility, reduce stress, & encourage detoxification. Through improved lymphatic flow.`].join(nl)],
 			[`### High-Intensity Interval Training (HIIT)`, [
-				`HIIT workouts maximize detoxification. By promoting the release of stored toxins and improving metabolic efficiency.`].join(nl)],
+				`HIIT workouts maximize detoxification. By promoting the release of stored toxins & improving metabolic efficiency.`].join(nl)],
 			[`Sauna Sessions`, [
 				`Combine exercise with sauna sessions, facilitating toxin release through sweat.`].join(nl)],
 			[`Hydration`, [
-				`Stay well-hydrated during exercise to support detoxification through urine and sweat.`].join(nl)],
+				`Stay well-hydrated during exercise to support detoxification through urine & sweat.`].join(nl)],
 		]),
 		``,
-		`Detoxification and fasting has been practiced for therapeutic purposes for thousands of years. Evolving to cater to diverse needs beyond drug and alcohol rehab. By removing free radicals and heavy metals, detoxification promotes:`,
+		`Detoxification & fasting has been practiced for therapeutic purposes for thousands of years. Evolving to cater to diverse needs beyond drug & alcohol rehab. By removing free radicals & heavy metals, detoxification promotes:`,
 		`- anti-aging benefits`,
 		`- enhances nutrient absorption`,
 		`- enables the body to combat oxidative stress`,

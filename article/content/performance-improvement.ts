@@ -11,23 +11,23 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + md__raw_(ctx, [
-	`Conventional sports medicine treatments often provide short-term pain relief. Dr. Emenike’s cutting-edge therapies and performance plans go beyond the basics. Of ice, pain medications, and compression. Advanced approaches focus on preventing future injuries. While enhancing an athlete’s current performance. Featured treatments include:`,
+	`Conventional sports medicine treatments often provide short-term pain relief. Dr. Emenike’s cutting-edge therapies & performance plans go beyond the basics. Of ice, pain medications, & compression. Advanced approaches focus on preventing future injuries. While enhancing an athlete’s current performance. Featured treatments include:`,
 	`- hyperbaric oxygen therapy`,
 	`- platelet-rich plasma`,
 	`- bone marrow aspirate`,
 	`- IV vitamin supplementation`,
 	``,
-	`Dr. Emenike draws on his endurance athletic experience. To understand what it takes to support and optimize one’s health to excel in sports. Adapting to injuries and overtraining, he emphasizes with athletes and their struggles. Starting with the protocols that helped him recover and reach peak performance. He has honed expertise in:`,
+	`Dr. Emenike draws on his endurance athletic experience. To understand what it takes to support & optimize one’s health to excel in sports. Adapting to injuries & overtraining, he emphasizes with athletes & their struggles. Starting with the protocols that helped him recover & reach peak performance. He has honed expertise in:`,
 	`- sports nutrition`,
 	`- supplementation`,
 	`- hormone balancing`,
 	`- natural pain relief therapies`,
 	``,
-	`With Dr. Emenike’s guidance, athletes can boost their performance. And maintain long-term health. Individual and comprehensive care ensures each athlete is well-prepared. To achieve goals and stay in top shape for competitions.`,
+	`With Dr. Emenike’s guidance, athletes can boost their performance. And maintain long-term health. Individual & comprehensive care ensures each athlete is well-prepared. To achieve goals & stay in top shape for competitions.`,
 	``,
-	`Dr. Emenike emphasizes the importance of nutrition and hydration, especially during altitude training. Lower oxygen levels trigger heightened stress hormone responses. Requiring the need for increased caloric intake, particularly carbohydrates. To replenish glycogen stores and meet the heightened energy demands at high altitudes.`,
+	`Dr. Emenike emphasizes the importance of nutrition & hydration, especially during altitude training. Lower oxygen levels trigger heightened stress hormone responses. Requiring the need for increased caloric intake, particularly carbohydrates. To replenish glycogen stores & meet the heightened energy demands at high altitudes.`,
 	``,
-	`Proper hydration is critical for maintaining peak performance and well-being. Athletes should monitor hydration levels. By weighing before and after training. Optimizing fluid intake to suit individual needs.`,
+	`Proper hydration is critical for maintaining peak performance & well-being. Athletes should monitor hydration levels. By weighing before & after training. Optimizing fluid intake to suit individual needs.`,
 	``,
-	`Dr. Emenike’s expert guidance brings confidence to athletes to pursue their endeavors. Focusing on injury prevention, performance optimization, and long-term health and well-being.`
+	`Dr. Emenike’s expert guidance brings confidence to athletes to pursue their endeavors. Focusing on injury prevention, performance optimization, long-term health, & well-being.`
 ].join(nl))

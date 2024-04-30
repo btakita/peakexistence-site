@@ -11,11 +11,11 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, [
++ dl_tree_({ ctx }, ()=>[
 	[`## The Essence of Early Detection`, [
 		`Early disease detection. Refers to the identification of a condition before the manifestation of significant symptoms. This proactive approach aims to uncover hidden diseases & risk factors. Enabling interventions that prevent the progression of the disease. The benefits of early detection are manifold. Extending from improved health outcomes to significant cost savings for healthcare systems.`].join(nl)],
 	[`## Benefits of Early Disease Detection`, [
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Improved Outcomes`, [
 				`Many diseases, when caught early, are more responsive to treatment.`].join(nl)],
 			[`### Easier Treatment`, [
@@ -31,7 +31,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Methods of Early Detection`, [
 		`Early disease detection utilizes a variety of methods. Tailored to specific diseases & conditions. These include:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Regular Screenings`, [
 				`Proactive screenings for various conditions based on age, risk factors, & family history.`].join(nl)],
 			[`#### Cancer screenings`, [
@@ -49,7 +49,7 @@ export default (ctx:request_ctx_T)=>''
 		])
 	].join(nl)],
 	[`## Who Should Be Screened?`, [
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Everyone`, [
 				`Regular health checkups are vital for all.`].join(nl)],
 			[`### Higher Risk Individuals`, [
@@ -65,12 +65,12 @@ export default (ctx:request_ctx_T)=>''
 			[`### Genetic Testing & Counseling`, [
 				`For diseases with a known genetic predisposition. Genetic testing & counseling can provide individuals with information about their risk factors. Guiding preventive measures & early interventions.`].join(nl)],
 			[`### Biomarker Detection`, [
-				`Advancements in medical science have led to the identification of biomarkers. Indicating the early stages of a disease. Markers found in blood, tissues, or other bodily fluids. Can signal the presence of disease before symptoms occur.`].join(nl)],
+				`Advancements in medical science have led to the identification of biomarkers. Indicating the early stages of a disease. Markers found in blood, tissues, or other bodily fluids. It Can signal the presence of disease before symptoms occur.`].join(nl)],
 		])].join(nl)],
 	[`## Challenges & Considerations`, [
 		`Early disease detection has its challenges. False positives can lead to unnecessary anxiety & interventions. While false negatives may provide a false sense of security. The sensitivity & specificity of screening tests are crucial factors. Socioeconomic factors limit access to early detection programs. Underscoring the need for equitable healthcare policies.`].join(nl)],
 	[`## Overcoming Barriers`, [
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Cost`, [
 				`Work with your doctor & insurer to understand coverage & access affordable options.`].join(nl)],
 			[`### Misinformation`, [
@@ -79,7 +79,7 @@ export default (ctx:request_ctx_T)=>''
 				`The benefits of early detection outweigh the potential discomfort of screenings. Talk to your doctor about any anxiety.`].join(nl)],
 		])].join(nl)],
 	[`## Empowering Yourself`, [
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Talk to Your Doctor`, [
 				`Discuss your individual risk factors & create a personalized screening plan.`].join(nl)],
 			[`### Know Your Body`, [

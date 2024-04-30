@@ -14,7 +14,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, [
++ dl_tree_({ ctx }, ()=>[
 	[`## Understanding the Aurora ZIP™ Procedure`, [
 		`The Aurora ZIP™ Lumbar Fusion involves the insertion of the ZIP™ Interspinous Spacer. A small metal device, between two vertebrae where the spine is unstable. This device acts as a bridge. Strengthening & straightening the spine. Referred to as fusion.`,
 		``,
@@ -33,7 +33,7 @@ export default (ctx:request_ctx_T)=>''
 			ref11_footnote__sup_(ctx),
 		])}.`].join(nl)],
 	[`## Key Features & Design Benefits`, [
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`Minimally Invasive Approach`, [
 				`The system's innovative design allows for smaller incisions & less muscle disruption. Which leads to:`,
 				`- reduced operative time`,
@@ -59,7 +59,7 @@ export default (ctx:request_ctx_T)=>''
 			ref15_footnote__sup_(ctx)
 		])}.`,
 		``,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Shorter Surgery Time`, [
 				`The minimally invasive nature can result in a faster procedure.`]],
 			[`### Reduced Surgical Risks`, [
@@ -73,7 +73,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Who is a Candidate for Aurora ZIP™ Lumbar Fusion`, [
 		`This procedure may be suitable for patients needing surgical intervention in the Lumbar Spine:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Degenerative Disc Disease`, [
 				`A breakdown of one or more spinal discs causing severe pain & instability.`]],
 			[`### Spondylolisthesis`, [
@@ -83,7 +83,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Advantages Over Traditional Surgery`, [
 		`The Aurora ZIP™ Lumbar Fusion offers several advantages over traditional back surgery:`,
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Minimally Invasive`, [
 				`Tiny skin incisions result in less pain & minimal blood loss${footnote__sup__sort([
 					// ref2_footnote__sup_(ctx)
@@ -105,7 +105,7 @@ export default (ctx:request_ctx_T)=>''
 	[`## Expanding Access to Care`, [
 		`The FDA approved of new lumbar spinal stenosis indications for the ZIP™ family. Expanding access to care for more patients. Lumbar spinal stenosis is one of the most common causes of spinal surgery. Estimated to affect 18 million patients in the next decade${ref6_footnote__sup_(ctx)}.`].join(nl)],
 	[`## Important Considerations`, [
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Not for Everyone`, [
 				`Your surgeon will assess if you a good candidate. By your specific condition severity, anatomy, & overall health.`].join(nl)],
 			[`### It's Still Surgery`, [
@@ -114,7 +114,7 @@ export default (ctx:request_ctx_T)=>''
 				`Proper rehabilitation after surgery is crucial for optimal outcomes. Even with minimally invasive techniques.`].join(nl)],
 		])].join(nl)],
 	[`## The Role of Your Surgeon`, [
-		dl_tree_({ ctx }, [
+		dl_tree_({ ctx }, ()=>[
 			[`### Experience Counts`, [
 				`The surgeon's expertise in performing Aurora ZIP™ Lumbar Fusion significantly influences success & safety.`].join(nl)],
 			[`### Individualized Approach`, [
@@ -126,7 +126,7 @@ export default (ctx:request_ctx_T)=>''
 				`- realistic expectations for recovery`].join(nl)]]
 		)].join(nl)],
 	[`## The Takeaway`, [
-		`Aurora ZIP™ Lumbar Fusion provides a  minimally invasive option for spinal fusion. This evolving technology may offer benefits for certain patients. Consult with an experienced spine surgeon specializing in this technique. To determine if it's the right approach for your individual needs.`].join(nl)],
+		`Aurora ZIP™ Lumbar Fusion provides a  minimally invasive option for spinal fusion. This evolving technology may offer benefits for certain patients. Consult with an experienced spine surgeon specializing in this technique. To determine if its the right approach for your individual needs.`].join(nl)],
 	[`## Conclusion`, [
 		`The Aurora ZIP™ Lumbar Fusion is an alternative to traditional spinal surgery. It is:`,
 		`- minimally invasive`,
