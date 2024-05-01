@@ -176,27 +176,31 @@ const config = <Config>{
 							lineHeight: '2rem',
 							marginTop: '0',
 							color: 'rgb(var(--color-text-base))',
-							marginBottom: '.75rem'
+							marginBottom: '.5rem'
 						},
 						'h3': {
 							fontSize: '1.25rem',
 							lineHeight: '1.75rem',
 							color: 'rgb(var(--color-text-base))',
-							marginBottom: '.75rem'
+							marginTop: '.25rem',
+							marginBottom: '.5rem'
 						},
 						'h4': {
 							fontSize: '1.125rem',
 							lineHeight: '1.75rem',
 							color: 'rgb(var(--color-text-base))',
-							marginBottom: '.75rem'
+							marginTop: '.25rem',
+							marginBottom: '.5rem'
 						},
 						'h5': {
 							color: 'rgb(var(--color-text-base))',
-							marginBottom: '.75rem'
+							marginTop: '.25rem',
+							marginBottom: '.5rem'
 						},
 						'h6': {
 							color: 'rgb(var(--color-text-base))',
-							marginBottom: '.75rem'
+							marginTop: '.25rem',
+							marginBottom: '.5rem'
 						},
 						'hr': {
 							borderColor: 'rgb(var(--color-border))',

@@ -3,7 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
-import { sticky__dl_tree_props_ } from '../../css/index.js'
+import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...supervised_weight_loss_and_performance,
@@ -34,7 +34,7 @@ export default (ctx:request_ctx_T)=>''
 				`- address challenges`,
 				`- celebrate successes along the way.`].join(nl)],
 		])].join(nl)],
-	[`## Enhanced Performance as a Goal`, [
+	[`## Goal: Enhance Performance`, [
 		`The primary aim of supervised weight loss is to achieve a healthy weight. Enhancing physical performance is a significant secondary goal. Programs designed to reduce weight. And to improve the body’s efficiency & capability in physical activities. Enhanced performance might include:`,
 		`- increased stamina`,
 		`- increased strength`,

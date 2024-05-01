@@ -1,6 +1,12 @@
 table tbody tr td:first-child{
 	white-space:nowrap;
 }
+dd {
+	margin-bottom: 16px;
+}
+dt h1, dt h2, dt h3, dt h4, dt h5, dt h6 {
+	margin: 0 !important;
+}
 .prose :where(dt + *):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
 	margin-top: 0;
 }
