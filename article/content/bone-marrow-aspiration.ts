@@ -5,6 +5,7 @@ import { md__raw_ } from '@rappstack/ui--any/md'
 import { nl } from '@rappstack/ui--any/string'
 import { class_ } from 'ctx-core/html'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...bone_marrow_aspiration,
@@ -19,18 +20,18 @@ export default (ctx:request_ctx_T)=>''
 	`- red blood cells`,
 	`- white blood cells`,
 	`- platelets`].join(nl))
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Why Bone Marrow Aspiration is Done`, [
 		`Doctors may order a bone marrow aspiration to:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Diagnose Blood Disorders`, [
 				`Helps identify problems with the production of red blood cells, white blood cells, or platelets. Examples include anemia, leukemia, & other blood cancers.`].join(nl)],
 			[`### Detect Cancer`, [
-				`Can reveal if cancer from another area of the body has spread to the bone marrow.`].join(nl)],
+				`It can reveal if cancer from another area of the body has spread to the bone marrow.`].join(nl)],
 			[`### Monitor Treatment Effectiveness`, [
 				`Assess how well treatments for blood disorders or cancers are working.`].join(nl)],
 			[`### Investigate Unexplained Symptoms`, [
-				`Is often used when other tests cannot identify the cause of fevers, fatigue, or weakness.`].join(nl)],
+				`It's often used when other tests cannot identify the cause of fevers, fatigue, or weakness.`].join(nl)],
 			[`### Diagnostic Clarity`, [
 				`The primary purpose of bone marrow aspiration is diagnostic. The procedure allows for the detailed examination of marrow cells. Aiding in the diagnosis of a wide array of diseases affecting the blood & bone marrow. It identifies conditions such as:`,
 				`- leukemia`,
@@ -61,7 +62,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## What to Expect`, [
 		`Despite its importance, a bone marrow aspiration procedure may evoke apprehension. Understanding what to expect:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Preparation`, [
 				`Bone Marrow Aspiration requires little preparation. Though certain medications should be avoided before the procedure.`].join(nl)],
 			[`### During the Procedure`, [
@@ -69,7 +70,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Post-Procedure`, [
 				`Recovery is quick, with patients able to resume most activities shortly after. Some soreness at the site of aspiration may occur but generally subsides within a few days.`].join(nl)],
 			[`### Results`, [
-				`Samples analysis occurs in a lab. Your doctor will discuss the results with you, usually within a week or two.`].join(nl)],
+				`Sample analysis occurs in a lab. Your doctor will discuss the results with you, usually within a week or two.`].join(nl)],
 		])
 	].join(nl)],
 	[`## What the Results Can Reveal`, [
@@ -77,6 +78,6 @@ export default (ctx:request_ctx_T)=>''
 	[`## Innovations & Advances in Bone Marrow Aspiration`, [
 		`The field of bone marrow aspiration is evolving. With advances in technique & technology. Enhancing both the efficacy & comfort of the procedure. Improved needle designs & aspiration methods have reduced discomfort. And increased the yield of viable cells for analysis. Developments in molecular & genetic testing of marrow samples enable personal medicine. Allowing tailored treatments with unprecedented precision & efficacy.`].join(nl)],
 	[`## Conclusion`, [
-		`Bone marrow aspiration is provides a direct glimpse into the marrow's function. This procedure plays an indispensable role in diagnosing, monitoring, & managing hematological diseases. Bone marrow aspiration continues to refine our understanding of blood disorders. Guiding the way to more effective treatments & saving lives.`].join(nl)],
+		`Bone marrow aspiration provides a direct glimpse into the marrow's function. This procedure plays an indispensable role in diagnosing, monitoring, & managing hematological diseases. Bone marrow aspiration continues to refine our understanding of blood disorders. Guiding the way to more effective treatments & saving lives.`].join(nl)],
 ])
 // @formatter:on

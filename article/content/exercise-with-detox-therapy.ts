@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 // import exercise_with_oxygen_therapy_webp from '../../public/image/article/exercise-with-oxygen-therapy.webp'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -11,7 +12,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Why Exercise with Detox Therapy?`, [
 		`Exercise & detoxification are both essential elements in maintaining a healthy lifestyle. When combined, their effects can be more transformative.`,
 		``,
@@ -29,7 +30,7 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		`The synergy between exercise & detox therapy is a potent approach to a healthier life.`].join(nl)],
 	[`## The Benefits of Exercise with Detox Therapy`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Enhanced Detoxification`, [
 				`Exercise stimulates blood flow & oxygenation, aiding the body in flushing out toxins. Sweating during physical activity expels toxins through the skin. Further supporting the detox process.`].join(nl)],
 			[`### Weight Management`, [
@@ -44,7 +45,7 @@ export default (ctx:request_ctx_T)=>''
 				`Regular exercise helps regulate hormone levels. Detox therapy eliminates hormone-disrupting toxins from the body. Bringing harmony to your body's internal environment.`].join(nl)],
 		])].join(nl)],
 	[`## Exercise with Detox Therapy Techniques`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Cardiovascular Exercise`, [
 				`Engage in activities like brisk walking, jogging, swimming, or cycling. To get your heart rate up & stimulate blood circulation.`].join(nl)],
 			[`### Strength Training`, [

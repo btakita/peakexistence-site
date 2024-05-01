@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...infrared_and_red_light_therapy,
@@ -10,7 +11,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## What are Infrared & Red Light Therapy?`, [
 		`Infrared & red light therapy use low levels of red light & infrared light. To stimulate cellular repair & regeneration. Infrared & red light therapy are forms of photobiomodulation. Using light to stimulate cellular activity. Leading to beneficial effects on the body's tissues. Unlike ultraviolet light, these therapies provide healing energy without adverse effects.`,
 		``,
@@ -22,7 +23,7 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		`PBM accelerates recovery & relieve symptoms without invasive procedures.`].join(nl)],
 	[`## How They Work`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Red Light Therapy (RLT)`, [
 				`Utilizes wavelengths of red light, ranging from 630 to 700 nanometers (nm). It's effective for surface-level skin treatments, enhancing collagen production, & reducing inflammation.`].join(nl)],
 			[`### Infrared Therapy`, [
@@ -32,7 +33,7 @@ export default (ctx:request_ctx_T)=>''
 				`- enhancing muscle recovery`].join(nl)]
 		])].join(nl)],
 	[`## Benefits Unveiled`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Skin Rejuvenation`, [
 				`Promotes collagen production, reducing wrinkles & improving skin tone.`].join(nl)],
 			[`### Pain Relief`, [

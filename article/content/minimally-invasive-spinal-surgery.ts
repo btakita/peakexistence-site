@@ -5,6 +5,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_ } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...minimally_invasive_spinal_surgery,
@@ -22,10 +23,10 @@ Minimally invasive spinal surgery (MISS) offers patients a variety of options. F
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## [Aurora ZIP™ Procedure](/articles/aurora-zip-lumbar-fusion)`, [
 		`The Aurora ZIP™ Procedure is a minimally invasive lumbar fusion treatment. Designed to address back & leg pain caused by spinal instability. This procedure utilizes the Aurora ZIP™ Interspinous Spacer. A device implanted to bridge & stabilize the affected vertebrae without sacrificing mobility. Ideal for patients with spinal stenosis or narrowing of the spine. The Aurora ZIP™ Procedure is a viable option when conservative treatments fail to provide relief. Like physical therapy & epidural steroid injections${ref2_6_footnote__sup_(ctx)}.`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Targets`, [
 				`Degenerative disc disease, spondylolisthesis, spinal instability.`].join(nl)],
 			[`### Approach`, [
@@ -36,13 +37,13 @@ export default (ctx:request_ctx_T)=>''
 				`- Quicker recovery time`].join(nl)],
 		])].join(nl)],
 	[`## [Discseel® Procedure](/articles/discseel-procedure)`, [
-		`The Discseel® Procedure treats chronic low back & neck pain. This non-surgical spine procedure utilizes an FDA-approved biologic called Fibrin. To seal & heal damaged spinal discs. The procedure replaces many spine surgeries currently performed. Offering a regenerative medicine approach to treating degenerative:`,
+		`The Discseel® Procedure treats chronic low-back & neck pain. This non-surgical spine procedure uses an FDA-approved biologic called Fibrin. To seal & heal damaged spinal discs. The procedure replaces many spine surgeries currently performed. Offering a regenerative medicine approach to treating degenerative:`,
 		`- disc disease`,
 		`- disc herniation`,
 		`- other spinal conditions`,
 		``,
 		`Patients are discharged 30 minutes following treatment. Returning to daily activities within a week. The U.S. Department of Defense & Veterans Affairs recognizes this procedure. Awarding a contract to Discseel® Technologies to train physicians. Distributing this medical technology across their hospitals${ref2_14_footnote__sup_(ctx)}${ref2_20_footnote__sup_(ctx)}.`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Targets`, [
 				`Chronic pain from damaged spinal discs.`].join(nl)],
 			[`### Approach`, [
@@ -53,8 +54,8 @@ export default (ctx:request_ctx_T)=>''
 				`- Minimizes recovery time`].join(nl)],
 		])].join(nl)],
 	[`## [Kyphoplasty](/articles/kyphoplasty-spinal-fracture-treatment)`, [
-		`Kyphoplasty is a minimally invasive procedure used to treat painful vertebral compression fractures. It involves the percutaneous insertion of a balloon into the fractured vertebra. Which is then inflated to restore the vertebral height. Then injecting bone cement to stabilize the bone. This procedure not only addresses pain but also corrects vertebral deformity. Kyphoplasty provide significant pain relief. Improving in vertebral body height with a low rate of complications${ref2_16_footnote__sup_(ctx)}${ref2_19_footnote__sup_(ctx)}.`,
-		dl_tree_({ ctx }, ()=>[
+		`Kyphoplasty is a minimally invasive procedure used to treat painful vertebral compression fractures. It involves the percutaneous insertion of a balloon into the fractured vertebra. Which is then inflated to restore the vertebral height. Then injecting bone cement to stabilize the bone. This procedure not only addresses pain but also corrects vertebral deformity. Kyphoplasty provides significant pain relief. Improving in vertebral body height with a low rate of complications${ref2_16_footnote__sup_(ctx)}${ref2_19_footnote__sup_(ctx)}.`,
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Targets`, [
 				`Painful compression fractures caused by osteoporosis or cancer.`].join(nl)],
 			[`### Approach`, [
@@ -66,7 +67,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## [Percutaneous Spine Decompression](/articles/percutaneous-spine-decompression)`, [
 		`Percutaneous spine decompression is also known as nucleoplasty. It is a minimally invasive procedure that relieves pain caused by herniated discs. The procedure uses a needle inserted into the disc. To remove excess tissue, relieving pressure on the nerves. This technique is guided by real-time imaging & can be performed using various methods. Including cutting & aspiration, chemical dissolution, or thermal ablation. Patients typically report a positive change in their condition following the procedure. Returning to normal daily activities with minimal pain${ref1_16_footnote__sup_(ctx)}${ref1_20_footnote__sup_(ctx)}.`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Targets`, [
 				`Pressure on spinal nerves caused by disc bulges or stenosis.`].join(nl)],
 			[`### Approach`, [
@@ -83,11 +84,11 @@ export default (ctx:request_ctx_T)=>''
 		`- gastrointestinal disorders`,
 		``,
 		`This method is particularly useful for patients who have not found relief through other treatments. SCS can reduce pain levels & improve the quality of life for patients with chronic pain syndromes. Including those resulting from failed back surgery syndrome. The procedure involves a trial stage followed by final implantation. With the device's electrical impulses being adjustable to maximize pain relief${ref2_1_footnote__sup_(ctx)}${ref2_9_footnote__sup_(ctx)}.`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Targets`, [
-				`Chronic neuropathic pain unresponsive to other treatments.`].join(nl)],
+				`Chronic neuropathic pain is unresponsive to other treatments.`].join(nl)],
 			[`### Approach`, [
-				`Implanted device delivers electrical impulses to help mask pain signals.`].join(nl)],
+				`The implanted device delivers electrical impulses to help mask pain signals.`].join(nl)],
 			[`### Advantages of Spinal Cord Stimulation`, [
 				`- Controlled by the patient`,
 				`- Adjustable pain relief`,

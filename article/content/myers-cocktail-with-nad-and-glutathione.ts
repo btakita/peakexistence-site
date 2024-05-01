@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...myers_cocktail_with_nad_and_glutathione,
@@ -10,9 +11,9 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
   [`## Understanding the Components`, [
-    dl_tree_({ ctx }, ()=>[
+    dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
       [`### Myer's Cocktail`, [
         `Dr. John Myers developed this therapy in the 1950s. This intravenous therapy combines essential vitamins & minerals. Including vitamin C, B vitamins, magnesium, & calcium. It bypasses the digestive system, maximizing absorption into the bloodstream.`].join(nl)],
       [`### NAD (Nicotinamide Adenine Dinucleotide)`, [
@@ -22,7 +23,7 @@ export default (ctx:request_ctx_T)=>''
     ])].join(nl)],
   [`## The Foundation: The Myers' Cocktail`, [
     `Myers' Cocktail is a combination of:`,
-    dl_tree_({ ctx }, ()=>[
+    dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
       [`### B vitamins`, [
         `Play a crucial role in energy production, metabolism, & cell function.`].join(nl)],
       [`### Vitamin C`, [
@@ -36,7 +37,7 @@ export default (ctx:request_ctx_T)=>''
     ]),
     ``,
     `Benefits of the Myers' Cocktail:`,
-    dl_tree_({ ctx }, ()=>[
+    dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
       [`### Fatigue & chronic pain`, [
         `Alleviates symptoms of fatigue, headaches, & chronic pain conditions like fibromyalgia.`].join(nl)],
       [`### Migraines`, [
@@ -47,16 +48,16 @@ export default (ctx:request_ctx_T)=>''
         `It can enhance energy levels, improve mood, & promote well-being.`].join(nl)],
     ])].join(nl)],
   [`## NAD+ & Glutathione`, [
-    dl_tree_({ ctx }, ()=>[
+    dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
       [`### NAD+ (nicotinamide adenine dinucleotide)`, [
         `An essential coenzyme involved in cellular energy production & metabolism. NAD+ levels decline with age. Some research suggests it may play a role in aging & age-related health conditions.`].join(nl)],
       [`### Glutathione`, [
         `Glutathione protects cells from damage & helps with detoxification. Glutathione levels can also decrease with age & various health issues.`].join(nl)],
     ])].join(nl)],
   [`## Benefits of adding NAD+ & glutathione to the Myers' Cocktail`, [
-    dl_tree_({ ctx }, ()=>[
+    dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
       [`### Enhanced energy production`, [
-        `NAD+ impacts cellular energy. It's inclusion can further boost energy levels.`].join(nl)],
+        `NAD+ impacts cellular energy. Its inclusion can further boost energy levels.`].join(nl)],
       [`### Increased antioxidant defense`, [
         `Glutathione's potent antioxidant properties offer protection against cellular damage.`].join(nl)],
       [`### Anti-aging effects`, [

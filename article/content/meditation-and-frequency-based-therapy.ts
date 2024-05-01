@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...meditation_and_frequency_based_therapy,
@@ -12,9 +13,9 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Meditation: An Ancient Tool for Inner Exploration`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Centering the Mind`, [
 				`Meditation involves techniques to focus attention & cultivate calmness. Common forms include mindfulness meditation, focused breathing, & guided visualizations.`].join(nl)],
 			[`### Benefits Beyond Relaxation`, [
@@ -46,13 +47,13 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		`These changes lead to significant improvements in psychological well-being. Making meditation a powerful tool in mental health care.`].join(nl)],
 	[`## Frequency-Based Therapy: The Science of Vibrations`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Everything Has a Frequency`, [
 				`At the atomic level, everything vibrates at a specific frequency. Including our cells & organs.`].join(nl)],
 			[`### The Concept`, [
 				`Frequency-based therapy uses frequencies of sound, light, or other forms of energy. To influence the body & promote healing states.`].join(nl)],
 			[`### Types of Frequency Therapy`, [
-				dl_tree_({ ctx }, ()=>[
+				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Binaural Beats`, [
 						`Using headphones to deliver slightly different sound frequencies to each ear. Inducing altered brainwave states.`].join(nl)],
 					[`#### Sound Baths`, [
@@ -67,7 +68,8 @@ export default (ctx:request_ctx_T)=>''
 		`- tuning forks`,
 		`- singing bowls`,
 		`- other modalities`,
-		dl_tree_({ ctx }, ()=>[
+		``,
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Resonating with Health`, [
 				`Research into frequency-based therapy has shown its potential in various areas, including:`,
 				`- pain management`,
@@ -78,7 +80,7 @@ export default (ctx:request_ctx_T)=>''
 		])
 	].join(nl)],
 	[`## Where Meditation & Frequency Therapy May Intersect`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Enhanced Relaxation`, [
 				`Frequency-based therapies like binaural beats & sound baths facilitate a deeper meditative state.`].join(nl)],
 			[`### Brainwave Entrainment`, [
@@ -93,7 +95,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Mindfulness is Key`, [
 		`Whether exploring meditation, frequency therapies, or other wellness practices, it's important to:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Maintain realistic expectations`, [
 				`These techniques are tools, not magic cures.`].join(nl)],
 			[`### Seek credible information`, [

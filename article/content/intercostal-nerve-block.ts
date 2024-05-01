@@ -4,6 +4,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...intercostal_nerve_block
@@ -13,7 +14,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + md__raw_(ctx,
 	`An Intercostal Nerve Block is a non-surgical procedure. A simple injection. It targets pain. This pain stems from the chest or upper abdominal area. Doctors use this block to diagnose or treat pain.`)
-+	dl_tree_({ ctx }, ()=>[
++	dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 		[`## What Is It?`, [
 			`An Intercostal Nerve Block involves local anesthetics & Corticosteroids. This medicine gets injected near the ribs. It numbs nerve pain in the chest or abdomen.`].join(nl)],
 		[`## How Does It Work?`, [

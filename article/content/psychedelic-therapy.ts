@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...psychedelic_therapy,
@@ -10,7 +11,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## What is Psychedelic Therapy?`, [
 		`Psychedelic Exercise Therapy combines physical activity & carefully administered psychedelic substances. To improve mental health & overall well-being. Dr. Manny Emenike addresses the mind & body for comprehensive healing. As a medical doctor specializing in internal medicine.`,
 		``,
@@ -30,7 +31,7 @@ export default (ctx:request_ctx_T)=>''
 		`- MDMA`,
 		`- LSD`].join(nl)],
 	[`## Why Choose Psychedelic Therapy?`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Holistic Healing`, [
 				`Dr. Emenike treats the root causes of ailments with treating symptoms. Combining exercise & psychedelic therapy addresses mental, emotional, & physical health. Promoting a truly holistic healing experience`].join(nl)],
 			[`### Safe & Professional Environment`, [

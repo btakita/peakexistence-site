@@ -5,6 +5,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...aurora_zip_lumbar_fusion,
@@ -14,7 +15,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Understanding the Aurora ZIP™ Procedure`, [
 		`The Aurora ZIP™ Lumbar Fusion involves the insertion of the ZIP™ Interspinous Spacer. A small metal device, between two vertebrae where the spine is unstable. This device acts as a bridge. Strengthening & straightening the spine. Referred to as fusion.`,
 		``,
@@ -33,7 +34,7 @@ export default (ctx:request_ctx_T)=>''
 			ref11_footnote__sup_(ctx),
 		])}.`].join(nl)],
 	[`## Key Features & Design Benefits`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`Minimally Invasive Approach`, [
 				`The system's innovative design allows for smaller incisions & less muscle disruption. Which leads to:`,
 				`- reduced operative time`,
@@ -59,11 +60,11 @@ export default (ctx:request_ctx_T)=>''
 			ref15_footnote__sup_(ctx)
 		])}.`,
 		``,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Shorter Surgery Time`, [
 				`The minimally invasive nature can result in a faster procedure.`]],
 			[`### Reduced Surgical Risks`, [
-				`Minimally invasive procedures reduces risks associated with larger surgical exposures. Such as infection & blood loss.`]],
+				`Minimally invasive procedures reduce risks associated with larger surgical exposures. Such as infection & blood loss.`]],
 			[`### Reduced Post-Op Pain`, [
 				`Due to less tissue disruption & muscle damage.`]],
 			[`### Faster Recovery`, [
@@ -73,7 +74,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Who is a Candidate for Aurora ZIP™ Lumbar Fusion`, [
 		`This procedure may be suitable for patients needing surgical intervention in the Lumbar Spine:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Degenerative Disc Disease`, [
 				`A breakdown of one or more spinal discs causing severe pain & instability.`]],
 			[`### Spondylolisthesis`, [
@@ -83,7 +84,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Advantages Over Traditional Surgery`, [
 		`The Aurora ZIP™ Lumbar Fusion offers several advantages over traditional back surgery:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Minimally Invasive`, [
 				`Tiny skin incisions result in less pain & minimal blood loss${footnote__sup__sort([
 					// ref2_footnote__sup_(ctx)
@@ -105,16 +106,16 @@ export default (ctx:request_ctx_T)=>''
 	[`## Expanding Access to Care`, [
 		`The FDA approved of new lumbar spinal stenosis indications for the ZIP™ family. Expanding access to care for more patients. Lumbar spinal stenosis is one of the most common causes of spinal surgery. Estimated to affect 18 million patients in the next decade${ref6_footnote__sup_(ctx)}.`].join(nl)],
 	[`## Important Considerations`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Not for Everyone`, [
-				`Your surgeon will assess if you a good candidate. By your specific condition severity, anatomy, & overall health.`].join(nl)],
+				`Your surgeon will assess if you are a good candidate. By your specific condition severity, anatomy, & overall health.`].join(nl)],
 			[`### It's Still Surgery`, [
 				`While minimally invasive, it carries potential risks like infection, bleeding, or implant-related issues.`].join(nl)],
 			[`### Recovery Matters`, [
 				`Proper rehabilitation after surgery is crucial for optimal outcomes. Even with minimally invasive techniques.`].join(nl)],
 		])].join(nl)],
 	[`## The Role of Your Surgeon`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Experience Counts`, [
 				`The surgeon's expertise in performing Aurora ZIP™ Lumbar Fusion significantly influences success & safety.`].join(nl)],
 			[`### Individualized Approach`, [
@@ -126,41 +127,41 @@ export default (ctx:request_ctx_T)=>''
 				`- realistic expectations for recovery`].join(nl)]]
 		)].join(nl)],
 	[`## The Takeaway`, [
-		`Aurora ZIP™ Lumbar Fusion provides a  minimally invasive option for spinal fusion. This evolving technology may offer benefits for certain patients. Consult with an experienced spine surgeon specializing in this technique. To determine if its the right approach for your individual needs.`].join(nl)],
+		`Aurora ZIP™ Lumbar Fusion provides a minimally invasive option for spinal fusion. This evolving technology may offer benefits for certain patients. Consult with an experienced spine surgeon specializing in this technique. To determine if it's the right approach for your individual needs.`].join(nl)],
 	[`## Conclusion`, [
 		`The Aurora ZIP™ Lumbar Fusion is an alternative to traditional spinal surgery. It is:`,
 		`- minimally invasive`,
 		`- effective`,
 		`- safe`,
 		``,
-		`It's innovative design & positive clinical outcomes. Positions it as a preferred option for patients. Seeking relief from chronic back & leg pain due to spinal instability. The Aurora ZIP™ Lumbar Fusion offers a quicker path to recovery & improved quality of life. For those suffering from debilitating spinal conditions.`
+		`Its innovative design & positive clinical outcomes. Positions it as a preferred option for patients. Seeking relief from chronic back & leg pain due to spinal instability. The Aurora ZIP™ Lumbar Fusion offers a quicker path to recovery & improved quality of life. For those suffering from debilitating spinal conditions.`
 	].join(nl)]
 ])
 // @formatter:on
-function ref1_footnote__sup_(ctx:request_ctx_T) {
-	return footnote__sup_({
-		ctx,
-		id: 'painandspinespecialists'
-	}, [
-		tb_a_({
-			href: 'https://painandspinespecialists.com/treatments/aurora-zip/',
-			nofollow: true,
-			wrap: true,
-		}, 'Aurora ZIP™ Lumbar Fusion Treatment')
-	])
-}
-function ref2_footnote__sup_(ctx:request_ctx_T) {
-	return footnote__sup_({
-		ctx,
-		id: 'treatingpain-2'
-	}, [
-		tb_a_({
-			href: 'https://www.treatingpain.com/news-updates/2021/february/the-aurora-zip-lumbar-fusion-a-new-treatment-for/',
-			nofollow: true,
-			wrap: true,
-		}, 'The Aurora ZIP™ Lumbar Fusion — A New Treatment for Low Back and Leg Pain')
-	])
-}
+// function ref1_footnote__sup_(ctx:request_ctx_T) {
+// 	return footnote__sup_({
+// 		ctx,
+// 		id: 'painandspinespecialists'
+// 	}, [
+// 		tb_a_({
+// 			href: 'https://painandspinespecialists.com/treatments/aurora-zip/',
+// 			nofollow: true,
+// 			wrap: true,
+// 		}, 'Aurora ZIP™ Lumbar Fusion Treatment')
+// 	])
+// }
+// function ref2_footnote__sup_(ctx:request_ctx_T) {
+// 	return footnote__sup_({
+// 		ctx,
+// 		id: 'treatingpain-2'
+// 	}, [
+// 		tb_a_({
+// 			href: 'https://www.treatingpain.com/news-updates/2021/february/the-aurora-zip-lumbar-fusion-a-new-treatment-for/',
+// 			nofollow: true,
+// 			wrap: true,
+// 		}, 'The Aurora ZIP™ Lumbar Fusion — A New Treatment for Low Back and Leg Pain')
+// 	])
+// }
 function ref3_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
@@ -198,18 +199,18 @@ function ref6_footnote__sup_(ctx:request_ctx_T) {
 		}, 'Aurora Spine bags FDA lumbar spinal stenosis indication clearance for ZIP MIS implants')
 	])
 }
-function ref10_footnote__sup_(ctx:request_ctx_T) {
-	return footnote__sup_({
-		ctx,
-		id: 'chicagoneuropain'
-	}, [
-		tb_a_({
-			href: 'https://www.chicagoneuropain.com/zip-procedure',
-			nofollow: true,
-			wrap: true,
-		}, 'Minimally Invasive procedure to treat Chronic low back pain')
-	])
-}
+// function ref10_footnote__sup_(ctx:request_ctx_T) {
+// 	return footnote__sup_({
+// 		ctx,
+// 		id: 'chicagoneuropain'
+// 	}, [
+// 		tb_a_({
+// 			href: 'https://www.chicagoneuropain.com/zip-procedure',
+// 			nofollow: true,
+// 			wrap: true,
+// 		}, 'Minimally Invasive procedure to treat Chronic low back pain')
+// 	])
+// }
 function ref11_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,

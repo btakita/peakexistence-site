@@ -6,7 +6,7 @@ import { md__raw_ } from '@rappstack/ui--any/md'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
-import { sticky__h2_class, sticky__h3_class } from '../../css/index.js'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...anti_aging_and_life_extension_therapy,
@@ -17,7 +17,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + md__raw_(ctx,
 	`Interest in life extension is showing rapid growth. Life Extension aims to slow the biological aging process. To extend the average human lifespan & healthspan. The period of time spent in good health. Considerable attention focuses on healthspan due to its potential for human longevity. Extending human life has been a pursuit of human culture & philosophy for centuries. Significant progress in recent decades come from advances in modern science & medicine.`)
-+ dl_tree_({ ctx, dt_class: sticky__h2_class }, ()=>[
++ dl_tree_({ ctx, _:sticky__dl_tree_props_ }, ()=>[
 	[`## Understanding Anti-Aging & Life Extension`, [
 		`Anti-aging therapies are primarily concerned with slowing down or reversing the processes. That are commonly associated with aging. This includes the:`,
 		`- appearance of wrinkles`,
@@ -25,7 +25,7 @@ export default (ctx:request_ctx_T)=>''
 		`- the decline in organ function`,
 		``,
 		`Life extension therapies go a step further by seeking to increase the overall lifespan of individuals. Through various biomedical interventions${footnote__sup__sort([ref1_footnote__sup_(ctx), ref3_footnote__sup_(ctx), ref4_footnote__sup_(ctx)])}.`].join(nl)],
-	[`## Scientific Foundations & Approaches`, [dl_tree_({ ctx, dt_class: sticky__h3_class }, ()=>[
+	[`## Scientific Foundations & Approaches`, [dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 		[`### Cellular & Molecular Strategies`, [
 			`At the heart of many anti-aging therapies is the focus on cellular & molecular health. Research identifies critical factors in the aging process.:`,
 			``,
@@ -44,7 +44,7 @@ export default (ctx:request_ctx_T)=>''
 			`- mesenchymal stem cells`,
 			`- induced pluripotent stem cells (iPSCs)`].join(nl)],
 	])].join(nl)],
-	[`## Practical Applications & Treatments`, [dl_tree_({ ctx, dt_class: sticky__h3_class }, ()=>[
+	[`## Practical Applications & Treatments`, [dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 		[`### Skin & Cosmetic Treatments`, [
 			`Anti-aging skin care treatments such as retinoids, antioxidants, & various non-surgical procedures like laser therapy & microneedling help in reducing the visible signs of aging, thereby improving skin health & appearance${footnote__sup__sort([ref2_footnote__sup_(ctx), ref10_footnote__sup_(ctx), ref14_footnote__sup_(ctx)])}.`].join(nl)],
 		[`### Diet & Lifestyle Modifications`, [
@@ -56,9 +56,9 @@ export default (ctx:request_ctx_T)=>''
 			`Drugs like Metformin & Rapamycin are being studied for their potential to extend lifespan. By mimicking the effects of calorie restriction. A well-known mechanism associated with longer life spans in various organisms${ref9_footnote__sup_(ctx)}.`].join(nl)],
 		[`### Metformin`, [
 			`Metformin, a drug used to treat type 2 diabetes, shows promise in extending human life. Studies suggest that Metformin may have anti-aging properties. Mimicking the longevity benefits of calorie restriction. By reducing oxidative stress & inflammation, both critical factors in the aging process.`,
-			dl_tree_({ ctx }, ()=>[
+			dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 				[`#### Benefits of Metformin for Anti-Aging & Life Extension Therapy`, [
-					dl_tree_({ ctx }, ()=>[
+					dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 						[`##### Reduced Inflammation & Oxidative Stress`, [
 							`Metformin reduces inflammatory responses & oxidative stress. Which are key contributors to aging & age-related diseases. This reduction can slow down the aging process & extend healthspan${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx), ref_m2_2_footnote__sup_(ctx), ref_m2_8_footnote__sup_(ctx)])}.`].join(nl)],
 						[`##### Enhanced Insulin Sensitivity`, [
@@ -107,7 +107,7 @@ export default (ctx:request_ctx_T)=>''
 			`Advances in genetic engineering & cellular reprogramming, hold great potential for life extension. Genetic engineering involves manipulating aging-related genes. To slow down or reverse the aging process. Showing potential to extend lifespan & health span. Cellular reprogramming, aims to change the state of cells. Offering the possibility of replacing damaged or aging cells in the body. Slowing down aging or senescence.`,
 			``,
 			`These technologies target the fundamental processes of aging at the genetic & cellular levels. Transforming the way we approach age-related diseases & longevity${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx), ref_g1_3_footnote__sup_(ctx), ref_g1_5_footnote__sup_(ctx), ref_g1_6_footnote__sup_(ctx), ref_g1_7_footnote__sup_(ctx), ref_g1_8_footnote__sup_(ctx)])}.`,
-			dl_tree_({ ctx }, ()=>[
+			dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 				[`#### Cellular Reprogramming`, [
 					`Cellular Reprogramming involves resetting the epigenetic state of cells. To revert them to a younger state. With the goal of reversing cellular aging & restoring function. It is based on the use of factors like the Yamanaka factors (OCT4, SOX2, KLF4, & sometimes c-MYC). To induce pluripotency or a stem cell-like state in cells. Which can then renew & repair tissues more effectively${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx), ref_g1_3_footnote__sup_(ctx), ref_g1_6_footnote__sup_(ctx), ref_g1_7_footnote__sup_(ctx)])}.`].join(nl)],
 				[`#### Gene Therapy`, [

@@ -4,6 +4,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...naltrexone_implants,
@@ -13,9 +14,9 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + md__raw_(ctx,
 	`Naltrexone implants are small pellets. Inserted under the skin with minor surgery. Releasing the medication over several months. Naltrexone implants ensure consistent drug delivery. Eliminating the need for daily pills & minimizing the risk of non-adherence. Naltrexone implants can offer an extended period of support & focus on recovery.`)
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## The Advantages of Naltrexone Implants with Exercise`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Reduced Cravings`, [
 				`Naltrexone implants suppress cravings for opioids & alcohol. Making it easier to maintain sobriety.`].join(nl)],
 			[`### Increased Motivation`, [

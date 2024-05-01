@@ -5,7 +5,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
-import { sticky__h2_class } from '../../css/index.js'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...altitude_training,
@@ -15,7 +15,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, dt_class: sticky__h2_class }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Definition & Purpose of Altitude Training`, [
 		`Altitude training is a training method to enhance athletic performance for endurance athletes. It is also known as hypoxic training. Altitude Training involves living and/or training at high altitudes. Where the air contains less oxygen. Typically around 2,400 meters (8,000 feet) above sea level${ref16_footnote__sup_(ctx)}. The purpose of altitude training is to provoke physiological adaptations in the body. That improves oxygen delivery & utilization. This is achieved through increased production of erythropoietin (EPO). Which stimulates the creation of more red blood cells. Thereby enhancing the blood's oxygen-carrying capacity${footnote__sup__sort([ref8_1_footnote__sup_(ctx), ref16_footnote__sup_(ctx), ref8_6_footnote__sup_(ctx)])}.`,
 		``,
@@ -42,7 +42,7 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		`As the practice remains popular among endurance sports${footnote__sup__sort([ref7_4_footnote__sup_(ctx), ref16_footnote__sup_(ctx)])}.`].join(nl)],
 	[`## How Altitude Training Works`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Altitude Training Challenges the Body`, [
 				`At higher altitudes, there's less atmospheric pressure. Meaning fewer oxygen molecules available with each breath.`].join(nl)],
 			[`### The Body Adapts`, [
@@ -54,7 +54,7 @@ export default (ctx:request_ctx_T)=>''
 	].join(nl)],
 	[`## Methods of Altitude Training`, [
 		`Altitude training methodologies vary. Each with its unique approach to integrating hypoxic exposure into an athlete's regimen. The three primary strategies are:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Live High-Train Low (LHTL)`, [
 				`Athletes live at high altitudes to experience chronic hypoxic exposure. While training at lower altitudes to maintain training intensity. This method is widely regarded as the most effective. Allowing athletes to reap the benefits of increased red blood cell count. While avoiding the performance detriments of training in a hypoxic environment${ref19_footnote__sup_(ctx)}.`]],
 			[`### Live High-Train High (LHTH)`, [
@@ -67,7 +67,7 @@ export default (ctx:request_ctx_T)=>''
 	].join(nl)],
 	[`## Benefits of Altitude Training`, [
 		`The primary benefit of altitude training is the enhanced aerobic capacity. Attributed to the increased red blood cell mass & improved oxygen delivery mechanisms. Athletes may also experience improvements in:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`Improved Endurance`, [
 				`Increased oxygen-carrying capacity can boost stamina for endurance sports.`].join(nl)],
 			[`Enhanced VO2 Max`, [
@@ -83,7 +83,7 @@ export default (ctx:request_ctx_T)=>''
 			[`Mental Resilience & Focus`, [
 				`The benefits extend beyond physiological adaptations. As athletes learn to perform under challenging conditions${footnote__sup__sort([ref16_footnote__sup_(ctx), ref17_footnote__sup_(ctx)])}.`].join(nl)],
 		]),
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Increased Red Blood Cell Production`, [
 				`High-altitude training stimulates the production of erythropoietin (EPO). Which in turn increases the production of red blood cells. This adaptation enhances the oxygen-carrying capacity of the blood. Improving aerobic performance & endurance when the athlete returns to lower altitudes${footnote__sup__sort([ref10_8_footnote__sup_(ctx), ref8_6_footnote__sup_(ctx), ref11_1_footnote__sup_(ctx), ref11_2_footnote__sup_(ctx), ref11_3_footnote__sup_(ctx), ref8_8_footnote__sup_(ctx), ref8_1_footnote__sup_(ctx), ref11_6_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Improved Aerobic Capacity (VO2 max)`, [
@@ -118,7 +118,7 @@ export default (ctx:request_ctx_T)=>''
 		`The optimal altitude for training varies. Most benefits occur between 2,000 to 3,000 meters. Above 3,000 meters, the risks of adverse effects increase.`].join(nl)],
 	[`## The Science of Altitude Training`, [
 		`At elevations above 2,400 meters (approximately 8,000 feet). The air's reduced oxygen content challenges the body's ability to supply muscles with adequate oxygen. This hypoxic condition triggers a cascade of physiological adaptations. Aimed at improving oxygen delivery & utilization. The most notable adaptation is the increase in erythropoietin (EPO) production. Stimulating the production of red blood cells or hemocrit. And enhancing the blood's oxygen-carrying capacity${ref16_footnote__sup_(ctx)}. Altitude exposure can lead to increased capillarization in muscles & changes in muscle metabolism. Further optimizing oxygen usage during physical exertion${footnote__sup__sort([ref16_footnote__sup_(ctx), ref17_footnote__sup_(ctx)])}.`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Improved Aerobic Power`, [
 				`Studies show improved aerobic power in runners who trained at 6,000 feet for 10 days. Then performing at low altitude. The study noted that lower oxygen levels at altitude stimulate EPO. Leading to increased red blood cells or hematocrit. Which allows more oxygen to be carried to the tissues. This process is akin to blood doping but is achieved naturally${ref2_1_footnote__sup_(ctx)}. A three-week traditional altitude training increased hemoglobin mass & red cell volume. In elite biathlon athletes${ref2_3_footnote__sup_(ctx)}. Even world-class athletes can experience significant hematological changes from altitude training.`].join(nl)],
 			[`### Short Exposures to High Elevation, Weeks to Months of Benefit`, [
@@ -128,7 +128,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Different People Respond Differently to Altitude Training`, [
 				`It is important to note that the response to altitude training can be quite individual, & not all athletes may experience the same level of benefit${footnote__sup__sort([ref2_2_footnote__sup_(ctx), ref2_6_footnote__sup_(ctx), ref2_7_footnote__sup_(ctx), ref2_13_footnote__sup_(ctx), ref2_20_footnote__sup_(ctx)])}. Professional guidance is beneficial in navigating your training.`].join(nl)],
 			[`### Studies that Correlate Living at Altitude with Longevity`, [
-				dl_tree_({ ctx }, ()=>[
+				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Frontiers in Stroke Research (2023)`, [
 						`This study does not directly link altitude with longevity. But discusses the impact of altitude on health outcomes. Such as stroke mortality & hospitalization risk. Suggesting broader implications for health at high altitudes${ref9_1_footnote__sup_(ctx)}.`].join(nl)],
 					[`#### Steamboat Pilot (2019)`, [
@@ -154,9 +154,9 @@ export default (ctx:request_ctx_T)=>''
 	].join(nl)],
 	[`## Considerations & Risks`, [
 		`Altitude training offers significant advantages. It requires careful planning & monitoring to avoid potential drawbacks. Such as altitude sickness & overtraining. Athletes must allow adequate time for acclimatization & recovery. They should consider individual responses to altitude, as these can vary${footnote__sup__sort([ref11_footnote__sup_(ctx), ref17_footnote__sup_(ctx)])}. The logistics of accessing suitable high-altitude training locations. Or the costs associated with simulated altitude environments can be prohibitive for some.`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Potential Risks`, [
-				dl_tree_({ ctx }, ()=>[
+				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Altitude Sickness`, [
 						`Acclimatization is crucial, as too rapid ascent can lead to altitude sickness.`]],
 					[`#### Individualized Approach`, [

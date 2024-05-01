@@ -4,6 +4,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...blood_flow_analysis,
@@ -17,10 +18,10 @@ The constant flow of blood throughout our bodies is the essence of life. The blo
 export default (ctx:request_ctx_T)=>''
 + md__raw_(ctx,
 	`In the complex machinery of the human body. The cardiovascular system acts as the central highway. With blood flow serving as the crucial indicator of its health & efficiency. Blood flow analysis has emerged as an indispensable diagnostic tool in modern medicine. Offering a window into the myriad of factors that influence cardiovascular health. And the overall well-being of individuals.`)
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Why Does Blood Flow Matter?`, [
 		`Healthy blood flow is essential for:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Oxygen & Nutrient Delivery`, [
 				`Every cell in your body depends on a steady supply of oxygen & nutrients. Restricted blood flow can lead to tissue damage & organ dysfunction.`].join(nl)],
 			[`### Waste Removal`, [
@@ -37,7 +38,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Conditions Affecting Blood Flow`, [
 		`Several conditions can compromise blood flow:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Atherosclerosis`, [
 				`The buildup of plaque within artery walls is the most common culprit. Narrowing vessels & restricting flow.`].join(nl)],
 			[`### Blood Clots`, [
@@ -49,9 +50,9 @@ export default (ctx:request_ctx_T)=>''
 			[`### Peripheral Artery Disease (PAD)`, [
 				`Atherosclerosis in the legs or arms restricts blood flow.`].join(nl)],
 		])].join(nl)],
-	[`## How is Blood Flow Analyzed`, [
+	[`## How is Blood Flow Analyzed?`, [
 		`Blood flow analysis uses diagnostic techniques to visualize & assess the movement of blood. Through the body's arteries & veins. Providing valuable information on the velocity, volume, & turbulence of blood flow. Allowing healthcare professionals to detect abnormalities indicating underlying health issues. Various techniques help doctors evaluate blood flow:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Doppler Ultrasound`, [
 				`The primary non-invasive method. Uses sound waves to visualize blood flow & detect blockages or abnormal flow patterns.`].join(nl)],
 			[`### Arterial Pressure Waveform Analysis`, [
@@ -70,13 +71,13 @@ export default (ctx:request_ctx_T)=>''
 		`- aortic stenosis`,
 		`- congenital heart defects`,
 		``,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Diagnosing Cardiovascular Diseases`, [
 				`Early detection is key in managing cardiovascular diseases. Blood flow analysis provides a critical advantage. By identifying issues like blockages, clots, or weakened vessel walls. Physicians can intervene early, often preventing the progression of disease & avoiding severe complications.`].join(nl)]])
 	].join(nl)],
 	[`## Applications of Blood Flow Analysis`, [
 		`Blood flow analysis aids in the diagnosis & management of many conditions:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Coronary Artery Disease`, [
 				`Identifying blockages that increase heart attack risk.`].join(nl)],
 			[`### Peripheral Artery Disease (PAD)`, [
@@ -98,14 +99,14 @@ export default (ctx:request_ctx_T)=>''
 				``,
 				`For patients undergoing treatment for conditions like atrial fibrillation or chronic heart failure. Regular blood flow assessments can monitor disease progression & guide ongoing care.`]],
 			[`### Advancing Surgical Outcomes`, [
-				`In the realm of cardiac surgery, blood flow analysis is invaluable. Surgeons rely on detailed blood flow data, to plan procedures with precision. Ensuring that interventions like valve replacements or repairs. Are tailored to the unique needs of each patient's cardiovascular system.`].join(nl)],
+				`In the realm of cardiac surgery, blood flow analysis is invaluable. Surgeons rely on detailed blood flow data to plan procedures. Tailoring interventions to the unique needs of each patient's cardiovascular system.`].join(nl)],
 		])
 	].join(nl)],
 	[`## Blood Flow Analysis in Preventive Medicine`, [
-		`Preventive medicine uses blood flow analysis. To identify people at risk of cardiovascular diseases before symptoms manifest. This proactive approach can lead to lifestyle changes, dietary adjustments, & treatments. That significantly reduce the risk of heart attack, stroke, & other life-threatening events.`].join(nl)],
+		`Preventive medicine uses blood flow analysis. To identify people at risk of cardiovascular diseases before symptoms manifest. This proactive approach can lead to lifestyle changes, dietary adjustments, & treatments. That significantly reduces the risk of heart attack, stroke, & other life-threatening events.`].join(nl)],
 	[`## Beyond Diagnosis: Protecting Your Health`, [
 		`Blood flow analysis informs treatment but also highlights the importance of prevention. Prioritize heart-healthy habits:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Healthy Eating`, [
 				`A balanced diet rich in fruits, vegetables, whole grains, & lean protein. While limiting unhealthy fats & processed foods.`].join(nl)],
 			[`### Regular Exercise`, [

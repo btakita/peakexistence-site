@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...sound_therapy,
@@ -12,12 +13,12 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## The Foundations of Sound Therapy`, [
 		`Sound therapy is also known as sound healing or vibrational medicine. Sound therapy's predicated on the principle that matter vibrates at specific frequencies. Including the human body, vibrates at specific frequencies. Health & well-being influenced by these vibrational states. Disrupting or unbalancing the body's natural frequencies leads to physical or emotional disharmony. Sound therapy seeks to restore balance & promote healing. By using various musical instruments & vocal techniques to produce therapeutic sounds & vibrations.`].join(nl)],
 	[`## How Does Sound Therapy Work?`, [
 		`Several theories explain the potential mechanisms of sound therapy:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Brainwave Entrainment`, [
 				`Our brainwaves naturally shift between different states (beta for alertness, alpha for relaxation, etc.). Sound therapy uses rhythmic beats or frequencies that resonate with your body & mind. Towards desired states.`].join(nl)],
 			[`### Cellular Resonance`, [
@@ -35,7 +36,7 @@ export default (ctx:request_ctx_T)=>''
 		`- enhanced cognitive function`].join(nl)],
 	[`## Modalities of Sound Therapy`, [
 		`Sound therapy encompasses a wide range of techniques & instruments. Offering unique vibrational qualities & benefits. Some of the most widely used modalities include:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Sound Baths`, [
 				`Immersive experiences using crystal singing bowls, gongs, & other resonant instruments. To bathe participants in a wash of vibrations.`].join(nl)],
 			[`### Music Therapy`, [
@@ -55,7 +56,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Applications & Benefits`, [
 		`The applications of sound therapy are as diverse as its techniques. Addressing a wide array of health concerns & objectives:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Reduce Stress & Anxiety`, [
 				`Sound therapy lowers stress & anxiety levels. Promoting a sense of peace & well-being.`].join(nl)],
 			[`### Improve Sleep`, [

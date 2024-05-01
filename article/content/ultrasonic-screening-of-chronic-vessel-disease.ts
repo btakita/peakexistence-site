@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...ultrasonic_screening_of_chronic_vessel_disease,
@@ -10,7 +11,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Understanding Ultrasonic Screening`, [
 		`Ultrasonic screening, or ultrasound, is a painless & safe procedure. It does not involve ionizing radiation. It offers a real-time view of blood flow & vessel structure. Allowing healthcare professionals to assess the health of arteries & veins. The versatility of ultrasonic technology makes it indispensable in identifying abnormalities. Which are indicative of chronic vessel conditions. Such as:`,
 		`- blockages`,
@@ -19,7 +20,7 @@ export default (ctx:request_ctx_T)=>''
 		`- abnormalities in blood flow`].join(nl)],
 	[`## How is Ultrasound Used for Vessel Screening?`, [
 		`Ultrasound is used to screen for several types of chronic vascular conditions:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Carotid Artery Disease`, [
 				`Ultrasound of the carotid arteries in the neck can detect plaque buildup. A key indicator of atherosclerosis. This narrowing of the arteries increases the risk of stroke.`].join(nl)],
 			[`### Peripheral Artery Disease (PAD)`, [
@@ -33,7 +34,7 @@ export default (ctx:request_ctx_T)=>''
 				`Ultrasound can diagnose dangerous blood clots (DVT) that form in the deep leg veins. Early detection is crucial to prevent the clot from traveling to the lungs (pulmonary embolism) which can be fatal.`].join(nl)],
 			[`### Chronic Venous Disease (CVD) Detection`, [
 				`CVD occurs when veins struggle to return blood efficiently from the legs & feet back to the heart. This can lead to a cascade of issues, including:`,
-				dl_tree_({ ctx }, ()=>[
+				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Varicose veins`, [
 						`Twisted, enlarged veins that bulge under the skin.`].join(nl)],
 					[`#### Swelling`, [
@@ -58,7 +59,7 @@ export default (ctx:request_ctx_T)=>''
 				`The early detection of aneurysms. Particularly abdominal aortic aneurysms, through ultrasonic screening can be life-saving. Identifying these dilations in blood vessels early enables monitoring & management of the condition. Before it leads to vessel rupture, which can have fatal consequences.`].join(nl)],
 		])].join(nl)],
 	[`## Advantages of Ultrasonic Screening`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Non-Invasive`, [
 				`The procedure does not require incisions. Making it a less risky option compared to other diagnostic methods.`].join(nl)],
 			[`### No Radiation Exposure`, [

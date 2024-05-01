@@ -6,6 +6,7 @@ import { md__raw_ } from '@rappstack/ui--any/md'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...discseel_procedure,
@@ -17,21 +18,21 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + md__raw_(ctx,
 	`Chronic back pain originating from damaged spinal discs impacts quality of life. The Discseel® Procedure offers a minimally invasive treatment option. Designed to seal tears within spinal discs. Relieving pain & restoring some disc function.`)
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Understanding Disc Pain`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Intervertebral Discs`, [
 				`These shock-absorbing cushions lie between the spinal bones (vertebrae).`].join(nl)],
 			[`### Degeneration & Tears`, [
 				`Over time or due to injury, discs can degenerate. The inner gel-like material can leak through tears in the outer layer. Irritating nerves & causing pain.`].join(nl)],
 		])].join(nl)],
 	[`## The Innovation Behind Discseel®`, [
-		`Developed by Dr. Kevin Pauza, the Discseel® Procedure addresses the root cause of many spine problems. Annular tears in spinal discs. These tears can lead to disc degeneration, herniation, & chronic pain. The procedure utilizes an FDA-approved biologic called Fibrin. Fibrin is naturally found in human blood & used in various medical applications. Including facial reconstruction surgery & controlling cardiac bleeding${ref18_footnote__sup_(ctx)}<!--ref19_footnote__sup_(ctx)-->.`].join(nl)],
+		`Developed by Dr. Kevin Pauza, the Discseel® Procedure addresses the root cause of many spine problems. Annular tears in spinal discs. These tears can lead to disc degeneration, herniation, & chronic pain. The procedure uses Fibrin, an FDA-approved biologic. Fibrin is naturally found in human blood & used in various medical applications. Including facial reconstruction surgery & controlling cardiac bleeding${ref18_footnote__sup_(ctx)}<!--ref19_footnote__sup_(ctx)-->.`].join(nl)],
 	[`## Understanding the Discseel® Procedure`, [
 		`The Discseel® Procedure utilizes a biologically based injectable treatment, known as fibrin. To seal tears in the annulus fibrosus—the tough outer layer of intervertebral discs. These tears are a significant & often overlooked cause of back & neck pain. The fibrin sealant used in this procedure is similar to a substance naturally found in the body. Which helps blood clot. When applied to disc tears, it promotes healing. By sealing the tear & encouraging tissue growth.`].join(nl)],
 	[`## How Discseel® Works`, [
 		`The Discseel® Procedure involves several key steps:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Annulogram`, [
 				`Detailed imaging technique using a water-soluble contrast. Identifying which discs are leaking due to tears. Often revealing issues missed by MRIs<!--ref10_footnote__sup_(ctx)--><!--ref15_footnote__sup_(ctx)-->${ref_annulogram_footnote__sup_(ctx)}.`].join(nl)],
 			[`### Minimally Invasive Procedure`, [
@@ -42,7 +43,7 @@ export default (ctx:request_ctx_T)=>''
 				`The Fibrin promotes the growth of new disc tissue or tissue regeneration. Allowing the body to heal the damaged disc over time. Restoring the structural integrity of the disc while reducing inflammation & pain${ref18_footnote__sup_(ctx)}.`].join(nl)],
 		])].join(nl)],
 	[`## Benefits of the Discseel® Procedure`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Minimally Invasive`, [
 				`The procedure is performed as an outpatient service, reducing the risks associated with more invasive surgeries<!--ref13_footnote__sup_(ctx)--><!--ref19_footnote__sup_(ctx)-->.`]],
 			[`### Quick Recovery`, [
@@ -67,7 +68,7 @@ export default (ctx:request_ctx_T)=>''
 		`Discseel® is for patients who have failed to find relief through conventional treatments. Such as physical therapy, medications, or injections. Ideal candidates are those with confirmed annular tears. Often detected using an Annulogram. Often undetectable through standard MRI scans.`,
 		``,
 		`This procedure might be considered if you have:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Chronic Back Pain`, [
 				`Persistent pain for at least six months, primarily in the lower back.`].join(nl)],
 			[`### Discogenic Pain`, [
@@ -82,7 +83,7 @@ export default (ctx:request_ctx_T)=>''
 		[`## The Future of Spinal Disc Treatment`, [
 		`The Discseel® Procedure is considered a "disruptive technology" in the field of spine treatment. With the potential to replace traditional, less successful fusion surgeries${footnote__sup__sort([/* ref5_footnote__sup_(ctx), ref15_footnote__sup_(ctx), */])}. It offers a solution that treats the symptoms. And addresses the underlying cause of disc-related back pain.`].join(nl)],
 	[`## Important Considerations`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Not a Guaranteed Fix`, [
 				`Individual results vary. While most experience significant pain relief, others may get partial or no improvement.`].join(nl)],
 			[`### Evolving Treatment`, [
@@ -91,7 +92,7 @@ export default (ctx:request_ctx_T)=>''
 				`Talk to your doctor about the potential risks, success rates, & if it's the right approach. In your specific situation.`].join(nl)],
 		])].join(nl)],
 	[`## Where to Find the Discseel® Procedure`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Specialized Providers`, [
 				`Not all spine centers offer this treatment. Search for surgeons trained in the Discseel® Procedure.`].join(nl)],
 			[`### Insurance Coverage`, [

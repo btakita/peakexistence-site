@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...peptide_clinic,
@@ -10,7 +11,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## What Are Peptide Clinics?`, [
 		`Peptide clinics operate under the guidance of medical professionals. Who assess individual health needs to prescribe specific peptides. That can target a variety of health goals for:`,
 		`- anti-aging`,
@@ -20,7 +21,7 @@ export default (ctx:request_ctx_T)=>''
 	[`## The Science Behind Peptides`, [
 		`Peptides function as signaling molecules in the body. Instructing other cells & molecules on what actions to perform. Such as healing damaged tissue or fighting infections. Peptides naturally occur in the body & are specific in their action. Peptide Therapy offers a targeted approach to treatment. With a lower risk of side effects compared to traditional pharmaceuticals.`].join(nl)],
 	[`## Benefits of Peptide Therapy`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Enhanced Healing & Recovery`, [
 				`Peptides like BPC-157 & TB-500 accelerate wound healing & reduce inflammation. Making them popular among athletes & individuals recovering from injuries.`].join(nl)],
 			[`### Improved Body Composition`, [
@@ -34,7 +35,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Considerations Before Starting Peptide Therapy`, [
 		`While peptide therapy offers exciting possibilities, it's essential to approach treatment with caution:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Consultation with a Healthcare Professional`, [
 				`A thorough evaluation by a qualified practitioner is crucial. To determine the most appropriate peptide therapy for your needs.`].join(nl)],
 			[`### Quality & Safety`, [

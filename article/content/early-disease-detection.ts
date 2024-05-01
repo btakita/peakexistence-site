@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...early_disease_detection,
@@ -11,11 +12,11 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## The Essence of Early Detection`, [
 		`Early disease detection. Refers to the identification of a condition before the manifestation of significant symptoms. This proactive approach aims to uncover hidden diseases & risk factors. Enabling interventions that prevent the progression of the disease. The benefits of early detection are manifold. Extending from improved health outcomes to significant cost savings for healthcare systems.`].join(nl)],
 	[`## Benefits of Early Disease Detection`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Improved Outcomes`, [
 				`Many diseases, when caught early, are more responsive to treatment.`].join(nl)],
 			[`### Easier Treatment`, [
@@ -31,7 +32,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Methods of Early Detection`, [
 		`Early disease detection utilizes a variety of methods. Tailored to specific diseases & conditions. These include:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Regular Screenings`, [
 				`Proactive screenings for various conditions based on age, risk factors, & family history.`].join(nl)],
 			[`#### Cancer screenings`, [
@@ -49,7 +50,7 @@ export default (ctx:request_ctx_T)=>''
 		])
 	].join(nl)],
 	[`## Who Should Be Screened?`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Everyone`, [
 				`Regular health checkups are vital for all.`].join(nl)],
 			[`### Higher Risk Individuals`, [
@@ -70,7 +71,7 @@ export default (ctx:request_ctx_T)=>''
 	[`## Challenges & Considerations`, [
 		`Early disease detection has its challenges. False positives can lead to unnecessary anxiety & interventions. While false negatives may provide a false sense of security. The sensitivity & specificity of screening tests are crucial factors. Socioeconomic factors limit access to early detection programs. Underscoring the need for equitable healthcare policies.`].join(nl)],
 	[`## Overcoming Barriers`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Cost`, [
 				`Work with your doctor & insurer to understand coverage & access affordable options.`].join(nl)],
 			[`### Misinformation`, [
@@ -79,7 +80,7 @@ export default (ctx:request_ctx_T)=>''
 				`The benefits of early detection outweigh the potential discomfort of screenings. Talk to your doctor about any anxiety.`].join(nl)],
 		])].join(nl)],
 	[`## Empowering Yourself`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Talk to Your Doctor`, [
 				`Discuss your individual risk factors & create a personalized screening plan.`].join(nl)],
 			[`### Know Your Body`, [

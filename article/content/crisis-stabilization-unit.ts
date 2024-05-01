@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...crisis_stabilization_unit,
@@ -11,10 +12,10 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Services Offered by Crisis Stabilization Units`, [
 		`CSUs offer a range of services, typically including:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### 24/7 Availability`, [
 				`Offering immediate support during a crisis`].join(nl)],
 			[`### Medication Management`, [
@@ -41,7 +42,7 @@ export default (ctx:request_ctx_T)=>''
 		`- Substance use issues contributing to the crisis`,
 		``,
 		`CSUs provide advantages over traditional inpatient hospitalization:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Less Restrictive`, [
 				`CSUs provide a more relaxed, home-like environment. Which can be less intimidating & promote faster stabilization.`].join(nl)],
 			[`### Community-Based`, [
@@ -55,9 +56,9 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## The Importance of Crisis Stabilization Units`, [
 		`CSUs fill a critical gap in the mental health care system. By offering an alternative to hospitalization for individuals in crisis. This approach provides immediate relief for patients. Alleviating the burden on emergency departments & inpatient psychiatric facilities. By focusing on rapid stabilization & connection to ongoing care. CSUs helps prevent the escalation of mental health crises & promote long-term recovery.`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Benefits for Patients & Communities`, [
-				dl_tree_({ ctx }, ()=>[
+				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Reduced Hospitalizations`, [
 						`Providing an alternative pathway for care. CSUs helps decrease the need for hospital admissions. Making it a cost-effective solution for both patients & healthcare systems.`].join(nl)],
 					[`#### Immediate Support`, [

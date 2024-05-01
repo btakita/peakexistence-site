@@ -5,6 +5,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...robotic_hair_and_beard_transplant,
@@ -14,11 +15,11 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Understanding Robotic Hair & Beard Transplants`, [
 		`Robotic hair & beard transplants are minimally invasive procedures. Using robotics to enhance the accuracy & efficiency of the hair transplantation process. Robotic arms harvest hair follicles from a donor area (usually the back of the scalp). And implant them into balding or thinning areas of the scalp or facial regions. The ARTAS® system uses sophisticated imaging & robotic arms. Designed to augment the capabilities of human surgeons. To select & extract individual follicular units${bodyexpert_footnote__sup_(ctx)}${bernsteinmedical_footnote__sup_(ctx)}${hairmd_footnote__sup_(ctx)}. The technology performs follicular unit extraction (FUE). One of the most advanced & popular techniques in hair transplantation.`].join(nl)],
 	[`## How It Works`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Digital Mapping`, [
 				`The robotic system creates a 3D digital map of the patient's scalp or beard area. Analyzing various parameters such as hair density, angle, & orientation${bernsteinmedical_footnote__sup_(ctx)}${hairmd_footnote__sup_(ctx)}.`].join(nl)],
 			[`### Follicular Unit Extraction`, [
@@ -29,7 +30,7 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		`The process begins with the robotic system scanning & mapping the patient's scalp. To identify the optimal harvesting sites for hair follicles. Sophisticated algorithms guide the robot arm to select the best donor hairs. Based on their angle & depth to ensure a natural-looking result. The robotic arm has a tiny punch tool. Which extracts individual follicular units from the scalp. These units are then implanted in the balding or thinning areas of the head or face. Following the natural growth pattern of the hair. To ensure seamless & aesthetically pleasing results.`].join(nl)],
 	[`## Advantages of Robotic Transplants`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Precision, Accuracy, & Efficiency`, [
 				`Robotic systems can perform the extraction & implantation with microscopic accuracy. Reducing the risk of damaging follicles & ensuring a higher graft survival rate${bodyexpert_footnote__sup_(ctx)}${bernsteinmedical_footnote__sup_(ctx)}. This minimizes damage to healthy follicles. Leading to a more natural-looking hair transplant.`].join(nl)],
 			[`### Reduce Scarring`, [
@@ -50,7 +51,7 @@ export default (ctx:request_ctx_T)=>''
 				`Customizing robotic transplantation suits individual needs & preferences. Whether the goal is to restore a receding hairline, fill in a patchy beard, or even camouflage scars. The surgeon adjusts the system's software. To match the unique contours & density preferences of each patient.`].join(nl)],
 		])].join(nl)],
 	[`## What Patients Can Expect`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Consultation & Planning`, [
 				`Before undergoing a robotic hair or beard transplant. patients will have a detailed consultation with a specialist to:`,
 				`- discuss their goals`,
@@ -63,7 +64,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Is Robotic Hair & Beard Transplantation Right for You?`, [
 		`Robotic hair & beard transplants have numerous benefits. But it's not a one-size-fits-all solution. Consider these factors:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Hair Type & Color`, [
 				`Hair quality, scalp laxity, & overall health are crucial factors. The effectiveness of robotic systems, such as ARTAS®, may vary based on hair types & color. They are generally more suited for patients with straight, dark hair${footnote__sup__sort([estemedicalgroup_footnote__sup_(ctx), /*torontohairtransplant_footnote__sup_(ctx)*/])}`].join(nl)],
 			[`### Cost`, [

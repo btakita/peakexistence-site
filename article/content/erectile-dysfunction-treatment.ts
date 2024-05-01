@@ -5,7 +5,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
-import { sticky__h2_class } from '../../css/index.js'
+import { sticky__dl_tree_props_, sticky__h2_class } from '../../css/index.js'
 // TODO: Add References: WIP
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -21,8 +21,8 @@ export default (ctx:request_ctx_T)=>''
 	dt_class: sticky__h2_class
 }, ()=>[
 	[`## ED & Cardiovascular Health`, [
-		`ED can be a harbinger of cardiovascular diseases. Serving as an early warning sign. Due to the shared pathophysiology between erectile function & vascular health. Atherosclerotic processes impede blood flow to the coronary arteries. Will often occur in penile arteries first due to their smaller size. Erectile Dysfunction is a "canary in the coalmine". Offering an early warning sign of cardiovascular disease. Offering a critical window for intervention.`,
-		dl_tree_({ ctx }, ()=>[
+		`ED can be a harbinger of cardiovascular diseases. Serving as an early warning sign. Due to the shared pathophysiology between erectile function & vascular health. Atherosclerotic processes impede blood flow to the coronary arteries. It will often occur in penile arteries first due to their smaller size. Erectile Dysfunction is a "canary in the coalmine". Offering an early warning sign of cardiovascular disease. Offering a critical window for intervention.`,
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Unveiling the Connection`, [
 				`Endothelial dysfunction is the endothelium's impaired ability to regulate blood vessel dilation. It plays a pivotal role in both ED & CVD. Risk factors exacerbate this condition, such as:`,
 				`- hypertension`,
@@ -37,8 +37,8 @@ export default (ctx:request_ctx_T)=>''
 		`- diabetes`,
 		``,
 		`ED can be an early warning sign of these conditions. Offering a window for proactive heart health measures.`].join(nl)],
-	[`## Why Treating Cardiovascular Health Can Restore Sexual Function`, [
-		dl_tree_({ ctx }, ()=>[
+	[`## Treating Cardiovascular Health Can Restore Sexual Function`, [
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Improved Blood Flow`, [
 				`Managing conditions like high blood pressure & cholesterol optimizes blood flow throughout the body. Including to the penis, enhancing erectile function.`].join(nl)],
 			[`### Reduced Medication Side Effects`, [
@@ -51,7 +51,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Comprehensive Screening: The First Step`, [
 		`A thorough evaluation is essential when Erectile Dysfunction occurs. To uncover any underlying cardiovascular risk factors or diseases. This comprehensive screening includes:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Medical history review`, [
 				`Focusing on cardiovascular risk factors such as:`,
 				`- hypertension`,
@@ -67,7 +67,7 @@ export default (ctx:request_ctx_T)=>''
 		])
 	].join(nl)],
 	[`## Treatment Strategies Focusing on Heart Health`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Lifestyle as Medicine`, [
 				`A healthy lifestyle is foundational to improve blood circulation. Solving root causes of Erectile Dysfunction.`].join(nl)],
 			[`### Healthy Diet`, [
@@ -87,9 +87,9 @@ export default (ctx:request_ctx_T)=>''
 				`Effective blood sugar management protects blood vessels throughout the body.`].join(nl)],
 			[`### Medication Management`, [
 				`Healthy living is the best strategy to manage body vital signs. If additional intervention is needed, the doctor may prescribe medication.`,
-				dl_tree_({ ctx }, ()=>[
+				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Blood Pressure Medication`, [
-						dl_tree_({ ctx }, ()=>[
+						dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 							[`##### Medications Used`, [
 								`Antihypertensive drugs, including ACE inhibitors & beta-blockers.`].join(nl)],
 							[`##### Mechanism`, [
@@ -99,7 +99,7 @@ export default (ctx:request_ctx_T)=>''
 						])
 					].join(nl)],
 					[`#### Cholesterol Level Medication`, [
-						dl_tree_({ ctx }, ()=>[
+						dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 							[`##### Medications Used`, [
 								`Statins & other lipid-lowering agents.`].join(nl)],
 							[`##### Mechanism`, [
@@ -109,7 +109,7 @@ export default (ctx:request_ctx_T)=>''
 						])
 					].join(nl)],
 					[`#### Diabetes Medication`, [
-						dl_tree_({ ctx }, ()=>[
+						dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 							[`##### Medications Used`, [
 								`Blood glucose-regulating medications such as metformin, insulin, & other antidiabetic drugs.`].join(nl)],
 							[`##### Mechanism`, [
@@ -127,7 +127,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Integrated Treatment Approaches`, [
 		`Addressing ED in the context of cardiovascular health involves a multifaceted treatment strategy. Improving erectile function & mitigating cardiovascular risk factors.`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Lifestyle Modifications`, [
 				`Central to managing both ED & cardiovascular health are lifestyle changes. A healthy lifestyle has a significant positive impact:`,
 				`- dietary improvements`,
@@ -142,7 +142,7 @@ export default (ctx:request_ctx_T)=>''
 				`- adoption of heart-healthy diets`,
 				`- regular follow-up with healthcare providers`].join(nl)],
 			[`### Addressing Psychological Components`, [
-				`The psychological impact of ED & heart disease are critical to long term health. Counseling & therapy benefit sexual function & heart health by:`,
+				`The psychological impact of ED & heart disease is critical to long-term health. Counseling & therapy benefits sexual function & heart health by:`,
 				`- providing support`,
 				`- alleviating stress`,
 				`- improving well-being`].join(nl)],
@@ -150,7 +150,7 @@ export default (ctx:request_ctx_T)=>''
 	].join(nl)],
 	[`## Beyond Treating Symptoms`, [
 		`Recognizing the link between ED & heart health empowers you to take an active role in managing both. This involves:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Comprehensive Evaluation`, [
 				`A thorough cardiovascular checkup to identify risks & create a personalized management plan.`].join(nl)],
 			[`### Open Communication with Your Doctor`, [
@@ -159,8 +159,8 @@ export default (ctx:request_ctx_T)=>''
 				`Lifestyle changes & ongoing medication management are key for sustainable improvement.`].join(nl)],
 		])].join(nl)],
 	[`## The Benefits of a Heart-Centered Approach`, [
-		`By addressing the underlying cardiovascular issues contributing to ED. You're not just improving your sex life, you're:`,
-		`- Reducing risk of heart attack & stroke`,
+		`By addressing the underlying cardiovascular issues that contributing to ED. You're not just improving your sex life, you're:`,
+		`- Reducing the risk of heart attack & stroke`,
 		`- Enhancing your overall energy & well-being`,
 		`- Protecting your health for years to come`].join(nl)],
 	[`## The Takeaway`, [
@@ -199,19 +199,19 @@ function ref_d1_2_footnote__sup_(ctx:request_ctx_T) {
 	])
 }
 // Too much emphasis on Plant Based Diet + not full article
-function ref_d1_3_footnote__sup_(ctx:request_ctx_T) {
-	return footnote__sup_({
-		ctx,
-		id: 'goldjournal_d1_3'
-	}, [
-		tb_a_({
-				href: 'https://www.goldjournal.net/article/S0090-4295(21)01196-1/abstract',
-				nofollow: true,
-				wrap: true,
-			},
-			'Consumption of a Healthy Plant-based Diet is Associated With a Decreased Risk of Erectile Dysfunction: A Cross-sectional Study of the National Health and Nutrition Examination Survey')
-	])
-}
+// function ref_d1_3_footnote__sup_(ctx:request_ctx_T) {
+// 	return footnote__sup_({
+// 		ctx,
+// 		id: 'goldjournal_d1_3'
+// 	}, [
+// 		tb_a_({
+// 				href: 'https://www.goldjournal.net/article/S0090-4295(21)01196-1/abstract',
+// 				nofollow: true,
+// 				wrap: true,
+// 			},
+// 			'Consumption of a Healthy Plant-based Diet is Associated With a Decreased Risk of Erectile Dysfunction: A Cross-sectional Study of the National Health and Nutrition Examination Survey')
+// 	])
+// }
 function ref_d1_4_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,
@@ -236,54 +236,54 @@ function ref_d1_5_footnote__sup_(ctx:request_ctx_T) {
 		}, 'Association of Diet With Erectile Dysfunction Among Men in the Health Professionals Follow-up Study')
 	])
 }
-function ref_e1_1_footnote__sup_(ctx:request_ctx_T) {
-	return footnote__sup_({
-		ctx,
-		id: 'nejm_e1_1'
-	}, [
-		tb_a_({
-			href: 'https://www.nejm.org/doi/full/10.1056/NEJMoa022252',
-			nofollow: true,
-			wrap: true,
-		}, 'Leisure Activities and the Risk of Dementia in the Elderly')
-	])
-}
-function ref_e1_2_footnote__sup_(ctx:request_ctx_T) {
-	return footnote__sup_({
-		ctx,
-		id: 'bmj_e1_2'
-	}, [
-		tb_a_({
-			href: 'https://bjsm.bmj.com/content/51/19/1419',
-			nofollow: true,
-			wrap: true,
-		}, 'Physical activity and exercise for erectile dysfunction: systematic review and meta-analysis')
-	])
-}
-function ref_e1_3_footnote__sup_(ctx:request_ctx_T) {
-	return footnote__sup_({
-		ctx,
-		id: 'bmj_e1_2'
-	}, [
-		tb_a_({
-			href: 'https://bjsm.bmj.com/content/51/19/1419',
-			nofollow: true,
-			wrap: true,
-		}, 'Physical activity and exercise for erectile dysfunction: systematic review and meta-analysis')
-	])
-}
-function ref_f1_1_footnote__sup_(ctx:request_ctx_T) {
-	return footnote__sup_({
-		ctx,
-		id: 'nih_m1_1'
-	}, [
-		tb_a_({
-			href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8109585/',
-			nofollow: true,
-			wrap: true,
-		}, 'The Effect of Antihypertensive Drugs on Erectile Function: A Proposed Management Algorithm')
-	])
-}
+// function ref_e1_1_footnote__sup_(ctx:request_ctx_T) {
+// 	return footnote__sup_({
+// 		ctx,
+// 		id: 'nejm_e1_1'
+// 	}, [
+// 		tb_a_({
+// 			href: 'https://www.nejm.org/doi/full/10.1056/NEJMoa022252',
+// 			nofollow: true,
+// 			wrap: true,
+// 		}, 'Leisure Activities and the Risk of Dementia in the Elderly')
+// 	])
+// }
+// function ref_e1_2_footnote__sup_(ctx:request_ctx_T) {
+// 	return footnote__sup_({
+// 		ctx,
+// 		id: 'bmj_e1_2'
+// 	}, [
+// 		tb_a_({
+// 			href: 'https://bjsm.bmj.com/content/51/19/1419',
+// 			nofollow: true,
+// 			wrap: true,
+// 		}, 'Physical activity and exercise for erectile dysfunction: systematic review and meta-analysis')
+// 	])
+// }
+// function ref_e1_3_footnote__sup_(ctx:request_ctx_T) {
+// 	return footnote__sup_({
+// 		ctx,
+// 		id: 'bmj_e1_2'
+// 	}, [
+// 		tb_a_({
+// 			href: 'https://bjsm.bmj.com/content/51/19/1419',
+// 			nofollow: true,
+// 			wrap: true,
+// 		}, 'Physical activity and exercise for erectile dysfunction: systematic review and meta-analysis')
+// 	])
+// }
+// function ref_f1_1_footnote__sup_(ctx:request_ctx_T) {
+// 	return footnote__sup_({
+// 		ctx,
+// 		id: 'nih_m1_1'
+// 	}, [
+// 		tb_a_({
+// 			href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8109585/',
+// 			nofollow: true,
+// 			wrap: true,
+// 		}, 'The Effect of Antihypertensive Drugs on Erectile Function: A Proposed Management Algorithm')
+// 	])
+// }
 function ref_m1_1_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,

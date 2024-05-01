@@ -5,6 +5,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_ } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...extracoporal_shock_wave_therapy,
@@ -13,12 +14,12 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## The Science Behind ESWT`, [
 		`ESWT involves the application of focused or radial shock waves to the affected area. These shock waves create mechanical stress & microtrauma, which triggers a biological response in the treated tissues. This response includes increased blood flow, angiogenesis, & the release of growth factors, ultimately promoting tissue regeneration & healing${PMC10648068_footnote__sup_(ctx)}${PMC7608508_footnote__sup_(ctx)}.`,
 		``,
 		`Extracorporeal shock wave therapy uses focused, high-energy sound waves. To cascade biological effects that promote tissue healing & pain relief. Shock waves delivered to the target area through the skin:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Stimulate Cellular Response & Repair`, [
 				`Shock waves trigger biological responses in the affected area. Increasing blood flow & stimulating the release of growth factors involved in healing.`].join(nl)],
 			[`### Enhance Blood Circulation`, [
@@ -34,7 +35,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Conditions ESWT May Be Used For`, [
 		`The therapy capitalizes on the body's natural healing mechanisms. Triggering the release of growth factors & anti-inflammatory compounds. Facilitating tissue regeneration & repair.`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Tendinopathies`, [
 				`Chronic conditions like:`,
 				`- plantar fasciitis (heel pain)`,
@@ -54,7 +55,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Types of ESWT`, [
 		`There are two main types of ESWT:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Focused Shock Wave Therapy (FSWT)`, [
 				`This involves the application of acoustic waves transmitted in a narrow, focused pattern. Initially used for lithotripsy (kidney stone treatment) & later explored for musculoskeletal applications.`].join(nl)],
 			[`### Radial Shock Wave Therapy (RSWT)`, [
@@ -69,7 +70,7 @@ export default (ctx:request_ctx_T)=>''
 		`- Spasticity in neurological disorders (e.g., stroke, multiple sclerosis, cerebral palsy)${mac_20527246_footnote__sup_(ctx)}`,
 		``,
 		`The versatility of extracorporeal shock wave therapy extends across various domains of medicine. With its application proving beneficial in the treatment of:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Musculoskeletal Disorders`, [
 				`ESWT has shown remarkable efficacy in managing conditions such as:`,
 				`- plantar fasciitis`,
@@ -87,7 +88,7 @@ export default (ctx:request_ctx_T)=>''
 		])
 	].join(nl)],
 	[`## The Benefits of ESWT`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Non-Invasive`, [
 				`ESWT provides a non-surgical alternative to pain management. Eliminating the risks associated with invasive procedures.`].join(nl)],
 			[`### Minimal Side Effects`, [
@@ -98,7 +99,7 @@ export default (ctx:request_ctx_T)=>''
 				`ESWT requires no downtime. Allowing patients to continue with their daily activities immediately after treatment.`].join(nl)],
 		])].join(nl)],
 	[`## The ESWT Procedure`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Non-Invasive`, [
 				`No incisions are needed.`].join(nl)],
 			[`### Ultrasound Guidance`, [
@@ -111,7 +112,7 @@ export default (ctx:request_ctx_T)=>''
 				`The procedure can cause tingling, aching, or a feeling similar to a strong elastic band snap.`].join(nl)],
 		])].join(nl)],
 	[`## What the Evidence Says`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Mixed Results`, [
 				`Research shows ESWT can be effective for certain conditions. Especially plantar fasciitis, tennis elbow, & some shoulder problems. Research is ongoing for other conditions.`].join(nl)],
 			[`### Not a Cure-All`, [
@@ -122,7 +123,7 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		`A systematic review found ~76% of delayed unions/nonunions had successful ESWT treatment.${jot_10_1097__footnote__sup_(ctx)} Further investigations are needed to compare ESWT with other treatment approaches. To determine optimal treatment doses.${PMC10648068_footnote__sup_(ctx)}${jot_10_1097__footnote__sup_(ctx)}`].join(nl)],
 	[`## Who Might Consider ESWT`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### If Conservative Treatment Fails`, [
 				`ESWT may be useful when like rest, medication, or physical therapy are not sufficient.`].join(nl)],
 			[`### Seeking a Non-Surgical Option`, [

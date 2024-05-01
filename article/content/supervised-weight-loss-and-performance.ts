@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...supervised_weight_loss_and_performance,
@@ -11,7 +12,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## The Essence of Supervision`, [
 		`Supervised weight loss programs are led by healthcare professionals. Including dietitians, nutritionists, & fitness trainers. These experts craft personalized plans. Based on thorough health evaluations. Considering factors such as medical history, nutritional needs, & fitness levels. The cornerstone of supervision lies in its ability to offer:`,
 		`- tailored advice`,
@@ -20,7 +21,7 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		`Ensuring a healthy, sustainable weight loss journey.`].join(nl)],
 	[`## Components of Success`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Nutritional Guidance`, [
 				`A balanced diet is pivotal. Professionals provide meal plans that ensure nutritional adequacy. Focusing on whole foods, balanced macros, & portion control. This guidance helps individuals make informed dietary choices. Fostering habits that support long-term health & weight management.`].join(nl)],
 			[`### Exercise Regimens`, [
@@ -40,7 +41,7 @@ export default (ctx:request_ctx_T)=>''
 		`- increased flexibility`,
 		`- reduction in fatigue during exercise or daily activities`].join(nl)],
 	[`## The Benefits Unveiled`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Customized Approach`, [
 				`Tailored plans address individual needs, preferences, & goals, enhancing effectiveness.`].join(nl)],
 			[`### Safety`, [
@@ -52,7 +53,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Why Supervised Weight Loss for Athletes?`, [
 		`Athletes often have specific weight goals based on their sport or discipline. Here's the advantage of supervised weight loss programs for athletes:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Personalized Plans`, [
 				`Supervised programs create a weight loss plan tailored to the athlete's individual needs. Considering factors like sport, body composition, & training schedule.`].join(nl)],
 			[`### Nutritional Guidance`, [
@@ -66,7 +67,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## What to Expect in a Supervised Weight Loss Program`, [
 		`The specifics will vary, but here's a general idea:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Initial Assessment`, [
 				`Evaluation by a doctor or nutritionist. To understand the athlete's goals, health history, & body composition.`].join(nl)],
 			[`### Goal Setting`, [
@@ -82,7 +83,7 @@ export default (ctx:request_ctx_T)=>''
 				`- address any concerns`].join(nl)],
 		])].join(nl)],
 	[`## Important Considerations`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Finding the Right Program`, [
 				`Look for programs led by qualified healthcare professionals. With experience in sports nutrition & weight management for athletes.`].join(nl)],
 			[`### Transparency & Communication`, [

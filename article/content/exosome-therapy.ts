@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...exosome_therapy,
@@ -12,7 +13,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## The Science of Exosomes`, [
 		`Exosomes are tiny, extracellular vesicles released by almost all types of cells. Acting as messengers that for intercellular communication. These vesicles influence the behavior & function of recipient cells, including:`,
 		`- proteins`,
@@ -21,13 +22,13 @@ export default (ctx:request_ctx_T)=>''
 		`- DNA`,
 		``,
 		`Exosomes play a critical role in the regulation of numerous physiological processes. From tissue repair to immune responses.`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Understanding Exosome Therapy`, [
 				`Exosome therapy leverages the natural signaling pathways of exosomes to promote healing & regeneration. By isolating exosomes from stem cells or other cell types & administering them to target areas. It's possible to stimulate repair & recovery at a cellular level. Unlike stem cell therapy, which introduces live cells into the body. Exosome therapy uses acellular vesicles. Minimizing the risk of immune rejection & other complications associated with cell-based therapies.`].join(nl)],
 		])
 	].join(nl)],
 	[`## How Exosome Therapy Works`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Harvesting`, [
 				`Exosomes derived & isolated from stem cells or other cell types. In a laboratory setting.`].join(nl)],
 			[`### Administration`, [
@@ -45,7 +46,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Applications of Exosome Therapy`, [
 		`Exosome therapy has wide-ranging applications across various fields of medicine. Some of the most promising areas of research & treatment include:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Wound Healing & Tissue Regeneration`, [
 				`Accelerates healing in burns, diabetic ulcers, or after surgery.`].join(nl)],
 			[`### Joint Pain & Osteoarthritis`, [
@@ -57,7 +58,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Cosmetic Uses`, [
 				`Investigated for hair regrowth & skin rejuvenation.`].join(nl)],
 			[`### Advantages Over Traditional Stem Cell Therapy`, [
-				dl_tree_({ ctx }, ()=>[
+				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Lower Risk`, [
 						`Exosomes are less likely to trigger immune reactions or unintended growth. Compared to whole stem cells.`].join(nl)],
 					[`#### Easier Storage & Delivery`, [
@@ -94,7 +95,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## A Note of Caution`, [
 		`It's crucial to approach exosome therapy with a balanced perspective:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Avoid Unproven Claims`, [
 				`Be wary of clinics offering unapproved exosome therapies making exaggerated promises.`].join(nl)],
 			[`### Talk to Your Doctor`, [

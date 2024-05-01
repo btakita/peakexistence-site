@@ -6,6 +6,7 @@ import { md__raw_ } from '@rappstack/ui--any/md'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_ } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...percutaneous_spine_decompression,
@@ -25,7 +26,7 @@ Chronic back pain is a prevalent issue that affects millions of individuals worl
 export default(ctx:request_ctx_T)=>''
 + md__raw_(ctx,
 	`Percutaneous spine decompression is a minimally invasive procedure. Aimed at relieving pressure on spinal nerves. Caused by conditions like herniated discs or spinal stenosis. This option may offer an alternative to or with more extensive surgical interventions.`)
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Understanding Spinal Compression`, [
 		`Spinal compression occurs when the spinal cord or nerve roots compressed by:`,
 		`- bone`,
@@ -47,14 +48,14 @@ export default(ctx:request_ctx_T)=>''
 	[`## Understanding Percutaneous Spine Decompression`, [
 		`Percutaneous spine decompression is a procedure that involves minimal surgical intervention. To relieve pressure on compressed nerves in the spine. This technique treats conditions that cause chronic lower back & leg pain. The procedure's named "percutaneous" due to using a small puncture in the skin. Rather than through an open incision.`].join(nl)],
 	[`## The Procedure: How It Works`, [
-		`Percutaneous spine decompression is performed using a needle-like instrument. Inserted through the skin (percutaneously) into the affected area of the spine. The procedure is typically guided by fluoroscopy (live X-ray) to ensure accuracy. Depending on the specific technique used, the procedure may involve:`,
+		`Percutaneous spine decompression is performed using a needle-like instrument. Inserted through the skin (percutaneous) into the affected area of the spine. The procedure is typically guided by fluoroscopy (live X-ray) to ensure accuracy. Depending on the specific technique used, the procedure may involve:`,
 		`- removing a small portion of the herniated disc (percutaneous discectomy)`,
 		`- enlarging the spinal canal (percutaneous laminotomy/laminectomy)`,
 		`- reducing pressure on the nerve roots (foraminotomy)`,
 		``,
 		`Percutaneous spine decompression is generally performed under local anesthesia combined with sedation. Allowing the patient to remain awake but relaxed. The specifics of the procedure can vary depending on the technique used. Commonly involves:`,
 		``,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Imaging Guidance`, [
 				`Fluoroscopy, a type of real-time X-ray. Guides the procedure, ensuring accurate targeting of the affected spinal area.`].join(nl)],
 			[`### Needle Insertion`, [
@@ -69,7 +70,7 @@ export default(ctx:request_ctx_T)=>''
 		]),
 		``,
 		`Common techniques under the umbrella of percutaneous decompression include:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Nucleoplasty`, [
 				`Where a small amount of disc nucleus is removed to decompress the disc`].join(nl)],
 			[`### Annuloplasty`, [
@@ -78,7 +79,7 @@ export default(ctx:request_ctx_T)=>''
 		``,
 		`One of the tools used in percutaneous discectomy is the Stryker Dekompressor. Which allows for the aspiration of disc material during percutaneous discectomies. In the lumbar, thoracic, & cervical regions of the spine. This system offers clinically proven tools for identifying & treating symptomatic discs. Providing significant pain relief, reduced use of analgesics, & improved quality of life${ref1_footnote__sup_(ctx)}.`].join(nl)],
 	[`## Conditions of Percutaneous Spine Decompression May Be Used For`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Herniated Discs`, [
 				`When a portion of a spinal disc bulges outwards, potentially pinching a nerve.`].join(nl)],
 			[`### Spinal Stenosis`, [
@@ -88,7 +89,7 @@ export default(ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Benefits of Percutaneous Spine Decompression`, [
 		`Percutaneous spine decompression is desirable for its minimally invasive nature. And the significant benefits it offers:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Minimally Invasive`, [
 				`The procedure involves small incisions. Resulting in less tissue damage, reduced blood loss, & minimal scarring. Compared to traditional open spinal surgery.`].join(nl)],
 			[`### Quick Recovery`, [
@@ -106,7 +107,7 @@ export default(ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Ideal Candidates for the Procedure`, [
 		`Percutaneous spine decompression is not suitable for everyone with back pain. Ideal candidates typically include those who:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Chronic Back Pain`, [
 				`Due to a diagnosed disc or vertebral body problem.`].join(nl)],
 			[`### Failed Conservative Treatment`, [
@@ -127,7 +128,7 @@ export default(ctx:request_ctx_T)=>''
 		`Before undergoing percutaneous spine decompression, patients will undergo a thorough evaluation. Including imaging studies to determine the exact cause & location of their pain. Post-procedure, patients are generally advised to engage in light activities. Avoiding strenuous exercise for a period. Follow-up care may include physical therapy to strengthen the spine & improve mobility.`].join(nl)],
 	[`## Risks & Considerations`, [
 		`Percutaneous spine decompression is generally considered safe. As with any surgical procedure, there are potential risks & complications. These may include infection, bleeding, nerve damage, or incomplete relief of symptoms. It is crucial for patients to discuss these risks with their healthcare provider. To determine if this procedure is the right choice for their specific condition.`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Mixed Results`, [
 				`The effectiveness of percutaneous spine decompression can vary. With some people experiencing significant improvement & others minimal relief.`].join(nl)],
 			[`### Evolving Techniques`, [
@@ -136,7 +137,7 @@ export default(ctx:request_ctx_T)=>''
 				`Symptoms sometimes return over time, potentially requiring further treatments.`].join(nl)],
 		])].join(nl)],
 	[`## The Importance of a Comprehensive Evaluation`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Accurate Diagnosis`, [
 				`Ensures that nerve compression is the primary source of your symptoms.`].join(nl)],
 			[`### Individualized Treatment Plan`, [

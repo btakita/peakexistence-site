@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...eureka_diagnostics_reference_lab,
@@ -10,12 +11,12 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## A Closer Look at Eureka Diagnostics`, [
 		`Eureka Diagnostics is more than a laboratory. It's a critical partner in the healthcare process. Offering an extensive array of tests. Spanning from routine blood work to complex genetic screenings. This facility equips state-of-the-art instruments. Employing a team of skilled professionals. Dedicated to upholding the highest standards of accuracy & reliability.`].join(nl)],
 	[`## Services Offered`, [
 		`The range of services provided by Eureka Diagnostics includes:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Clinical Pathology`, [
 				`A wide spectrum of blood tests, urinalysis, & other bodily fluids assessments. To detect diseases & monitor organ function.`].join(nl)],
 			[`### Molecular Diagnostics`, [
@@ -29,7 +30,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## The Eureka Advantage`, [
 		`What sets Eureka Diagnostics apart is its commitment to innovation, accuracy, & speed. The laboratory employs cutting-edge technologies. Ensuring precise results & reduced turnaround times. This efficiency is critical in healthcare. Where timely diagnosis can impact patient outcomes.`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Precision & Reliability`, [
 				`At Eureka Diagnostics, every test undergoes rigorous quality control processes. To ensure the highest level of accuracy. Patients & healthcare providers can trust the results. Which is fundamental in making informed medical decisions.`].join(nl)],
 			[`### Rapid Turnaround Times`, [
@@ -44,8 +45,6 @@ export default (ctx:request_ctx_T)=>''
 		`Eureka Diagnostics exemplifies the future of medical diagnostics. It plays a crucial role in the healthcare ecosystem:`,
 		`- through its advanced testing capabilities`,
 		`- rapid service`,
-		`- patient-focused approach`,
-		``,
-		`As medical science continues to evolve, Eureka Diagnostics remains at the forefront. Ready to meet the challenges of tomorrow & transform patient care today.`].join(nl)],
+		`- patient-focused approach`].join(nl)],
 ])
 // @formatter:on

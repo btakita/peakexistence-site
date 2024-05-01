@@ -4,6 +4,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { class_ } from 'ctx-core/html'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...epidural_neoregeneration
@@ -11,10 +12,10 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## What is Epidural Neoregeneration?`, [
 		`It’s a cutting-edge technique. It targets the epidural space around the spinal cord. The aim is to regenerate damaged nerves. This can lead to pain reduction & improved function.`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Epidural`, [
 				`Refers to the epidural space, which is the area surrounding the spinal cord filled with fatty tissue & cerebrospinal fluid. This space is where epidural injections for pain relief are delivered.`].join(nl)],
 			[`### Neuroregeneration`, [
@@ -23,7 +24,7 @@ export default (ctx:request_ctx_T)=>''
 	].join(nl)],
 	[`## How Does Epidural Neoregeneration Work?`, [
 		`The process involves injecting substances into the epidural space. These substances might promote nerve healing & growth. They could be:`,
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Growth Factors`, [
 				`Proteins that encourage cell growth.`].join(nl)],
 			[`### Stem Cells`, [
@@ -44,6 +45,7 @@ export default (ctx:request_ctx_T)=>''
 	[`## The Process`, [
 		dl_tree_({
 			ctx,
+			_:sticky__dl_tree_props_,
 			dl_class: '[counter-reset:_order]',
 			dt_class: class_('[&>h3]:before:[counter-increment:order]', '[&>h3]:before:content-[counter(order)_\'._\']')
 		}, ()=>[

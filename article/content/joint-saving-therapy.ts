@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...joint_saving_therapy,
@@ -11,18 +12,18 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx }, ()=>[
++ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## What is it?`, [
 		`JST encompasses various treatments. These aim to maintain or enhance joint health. It's for those with joint pain or degenerative conditions.`].join(nl)],
 	[`## Core Approaches`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Physical Therapy`, [
-				dl_tree_({ ctx }, ()=>[
+				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Aims`, [
 						`Improve movement, strengthen muscles.`].join(nl)],
 					[`#### How`, [
 						`Exercises, stretches, & manual therapy.`,
-						dl_tree_({ ctx }, ()=>[
+						dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 							[`##### Proper body mechanics`, [
 								`Learning techniques for daily activities (lifting, walking, etc.) that minimize stress on joints.`].join(nl)],
 							[`##### Assistive devices`, [
@@ -35,19 +36,19 @@ export default (ctx:request_ctx_T)=>''
 					].join(nl)],
 				])].join(nl)],
 			[`### Medications`, [
-				dl_tree_({ ctx }, ()=>[
+				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Aims`, [
 						`Reduce pain, control inflammation.`].join(nl)],
 					[`#### Types`, [
 						`NSAIDs, supplements like glucosamine.`].join(nl)],
 				])].join(nl)],
 			[`### Injections`, [
-				dl_tree_({ ctx }, ()=>[
+				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Aims`, [
 						`Provide lubrication, reduce inflammation.`].join(nl)],
 					[`#### Types`, [
 						`Corticosteroids, hyaluronic acid.`,
-						dl_tree_({ ctx }, ()=>[
+						dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 							[`##### Corticosteroid injections`, [
 								`Reduce inflammation & pain around the joint, but their use is limited due to potential side effects.`].join(nl)],
 							[`##### Hyaluronic acid injections`, [
@@ -57,7 +58,7 @@ export default (ctx:request_ctx_T)=>''
 						])].join(nl)]
 				])].join(nl)],
 			[`### Lifestyle Changes`, [
-				dl_tree_({ ctx }, ()=>[
+				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Aims`, [
 						`Reduce joint stress.`].join(nl)],
 					[`#### How`, [
@@ -65,7 +66,7 @@ export default (ctx:request_ctx_T)=>''
 				])].join(nl)],
 		])].join(nl)],
 	[`## Benefits`, [
-		dl_tree_({ ctx }, ()=>[
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Pain Reduction`, [
 				`Alleviates discomfort.`].join(nl)],
 			[`### Mobility Improvement`, [
