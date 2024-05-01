@@ -1,8 +1,10 @@
 import { blood_flow_analysis } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
+import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
 import { nl } from '@rappstack/ui--any/string'
+import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { sticky__dl_tree_props_ } from '../../css/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
@@ -20,16 +22,53 @@ export default (ctx:request_ctx_T)=>''
 	`In the complex machinery of the human body. The cardiovascular system acts as the central highway. With blood flow serving as the crucial indicator of its health & efficiency. Blood flow analysis has emerged as an indispensable diagnostic tool in modern medicine. Offering a window into the myriad of factors that influence cardiovascular health. And the overall well-being of individuals.`)
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Why Does Blood Flow Matter?`, [
-		`Healthy blood flow is essential for:`,
+		`Proper circulation is fundamental to maintaining optimal health. It ensures the continuous flow of blood & oxygen throughout the body. Enabling every organ to function efficiently. Healthy blood flow is essential for:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Oxygen & Nutrient Delivery`, [
 				`Every cell in your body depends on a steady supply of oxygen & nutrients. Restricted blood flow can lead to tissue damage & organ dysfunction.`].join(nl)],
 			[`### Waste Removal`, [
 				`Blood carries away waste products like carbon dioxide. Impaired blood flow can lead to a buildup of toxins.`].join(nl)],
 			[`### Heart Health`, [
-				`Adequate blood flow to the heart muscle is crucial to prevent heart attacks. And prevent other cardiac problems.`].join(nl)],
+				`Adequate blood flow to the heart muscle is crucial to prevent heart attacks. And prevent other cardiac problems.`,
+				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+					[`#### Nutrient & Oxygen Supply`, [
+						`Effective circulation delivers a steady supply of oxygen & essential nutrients to the heart. This is vital for the heart's energy production & function. The Cleveland Clinic emphasizes the importance of blood flow in delivering oxygen & nutrients. To all organs & and tissues, including the heart itself.`].join(nl)],
+					[`#### Removing Waste Products`, [
+						`Blood circulation aids in removing carbon dioxide & other metabolic waste products. From the heart and other tissues. This process is essential for preventing the accumulation of harmful substances. That impairs heart function${ref_h1_5__sup_(ctx)}.`].join(nl)],
+					[`#### Regulate Blood Pressure`, [
+						`The circulatory system, through its complex network of arteries, veins, & capillaries. It plays a key role in maintaining optimal blood pressure levels. Blood pressure is crucial for ensuring that blood travels quickly throughout the body. Blood pressure is created by the relationship between the heart's output & the resistance of the blood vessels${ref_h1_2__sup_(ctx)}. Effective circulation helps in keeping blood pressure within a healthy range. Thereby reducing the strain on the heart.`].join(nl)],
+					[`#### Preventing Cardiovascular Diseases`, [
+						`Good circulation helps in preventing the buildup of plaque (atherosclerosis) in the arteries. A major risk factor for cardiovascular diseases such as coronary artery disease & stroke. Maintaining healthy blood flow lowers the risk of these conditions. The Vascular Society discusses how plaque buildup narrows blood vessels. Making it harder for oxygenated blood to flow${ref_h1_3__sup_(ctx)}.`].join(nl)],
+					[`#### Supports Heart's Electrical System`, [
+						`The heart's electrical system controls the rate & rhythm of the heartbeat. The heart's electrical system relies on adequate blood flow to function. The entire electrical conduction system depends on a continuous supply of oxygenated blood. To generate the electrical impulses that regulate heartbeats${ref_h1_7__sup_(ctx)}.`].join(nl)],
+					[`#### Adaptation to Physical Activity`, [
+						`During exercise or physical activity, the heart's demand for oxygen & nutrients increases. Effective circulation allows for an increase in cardiac output & blood pressure. To meet these heightened demands${ref_h1_17__sup_(ctx)}.`].join(nl)],
+				]),
+			].join(nl)],
 			[`### Brain Function`, [
-				`The brain is highly sensitive to blood flow disruptions. Which can increase stroke risk & impair cognitive function.`].join(nl)],
+				`Effective blood flow enhances brain function. Allowing you to operate with peak cognitive function. The brain is highly sensitive to blood flow disruptions. Which can increase stroke risk & impair cognitive function.`,
+				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+					[`#### Enhanced Cognitive Function`, [
+						`Proper blood circulation ensures the brain receives a continuous supply of oxygen & glucose. Which is essential for energy production. This energy is vital for the brain to perform various cognitive functions efficiently. Including memory, problem-solving, & decision-making${footnote__sup__sort([ref_b2_1_footnote__sup_(ctx),ref_b2_2_footnote__sup_(ctx),ref_b2_3_footnote__sup_(ctx)])}.`].join(nl)],
+					[`#### Increased Brain Activity`, [
+						`Studies have shown that increased blood flow, particularly in regions of the brain, correlate with:`,
+          	`- memory & learning`,
+          	`- correlates with higher cognitive abilities`,
+          	`- IQ scores`,
+						``,
+            `Research has demonstrated that cerebral blood flow (CBF) is positively correlated with IQ. Highlighting that areas with more blood flow tend to have better cognitive functioning${ref_b2_2_footnote__sup_(ctx)}.`
+					].join(nl)],
+					[`#### Prevention of Cognitive Decline`, [
+						`Adequate blood circulation helps in maintaining brain health & preventing cognitive decline. Conditions that impair circulation include cardiovascular diseases & diabetes. Decreased blood flow associates with higher risks of dementia & decreased cognitive abilities${footnote__sup__sort([ref_b2_3_footnote__sup_(ctx),ref_b2_4_footnote__sup_(ctx)])}.`
+					].join(nl)],
+					[`#### Support for Neurovascular Coupling`, [
+						`Blood flow to the brain links to neural activity. A relationship known as neurovascular coupling. Intense cognitive activity requires more blood flow in the involved brain regions. To meet increased metabolic demands. Effective circulation supports these dynamic adjustments. Ensuring that cognitive function is maintained at optimal levels during critical tasks${ref_b2_3_footnote__sup_(ctx)}.`
+					].join(nl)],
+					[`#### Impact on Brain Structure & Function`, [
+						`Enhanced blood circulation has long-term effects. Including the maintenance of healthy brain structure & function. Studies using imaging techniques like arterial spin labeling. Show that individuals with higher IQ scores exhibit distinct patterns of blood flow in the brain. Suggesting that efficient vascular health is integral to superior cognitive performance${ref_b2_2_footnote__sup_(ctx)}.`
+					].join(nl)],
+				])
+			].join(nl)],
 			[`### Peripheral Circulation`, [
 				`Good blood flow in the arms & legs prevents:`,
 				`- pain`,
@@ -50,9 +89,11 @@ export default (ctx:request_ctx_T)=>''
 			[`### Peripheral Artery Disease (PAD)`, [
 				`Atherosclerosis in the legs or arms restricts blood flow.`].join(nl)],
 		])].join(nl)],
-	[`## How is Blood Flow Analyzed?`, [
+		[`## How is Blood Flow Analyzed?`, [
 		`Blood flow analysis uses diagnostic techniques to visualize & assess the movement of blood. Through the body's arteries & veins. Providing valuable information on the velocity, volume, & turbulence of blood flow. Allowing healthcare professionals to detect abnormalities indicating underlying health issues. Various techniques help doctors evaluate blood flow:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+			[`### Laser Doppler Flowmetry & Other Techniques`, [
+				`Laser Doppler flowmetry (LDF) exemplifies one of the many techniques used in blood flow analysis. Offering the advantage of continuous measurements. It does not provide volumetric flow measurements. Making comparisons between different sites or subjects challenging${ref_b1_1_footnote__sup_(ctx)}. Despite this limitation, LDF and other methods. Like the radioactive microsphere technique & optical coherence tomography. Play crucial roles in specific applications. Particularly in ocular blood flow measurements.`].join(nl)],
 			[`### Doppler Ultrasound`, [
 				`The primary non-invasive method. Uses sound waves to visualize blood flow & detect blockages or abnormal flow patterns.`].join(nl)],
 			[`### Arterial Pressure Waveform Analysis`, [
@@ -136,3 +177,124 @@ export default (ctx:request_ctx_T)=>''
 ])
 + md__raw_(ctx, `**Important Note:** Consult a healthcare professional with any health concern or treatment. This article is for informational purposes & does not replace medical advice.`)
 // @formatter:on
+function ref_b1_1_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'ref_b1_1'
+	}, [
+		tb_a_({
+			href: 'https://www.ncbi.nlm.nih.gov/books/NBK53330/',
+			nofollow: true,
+			wrap: true,
+		}, 'Blood flow measuring techniques')
+	])
+}
+function ref_b2_1_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'ref_b2_1'
+	}, [
+		tb_a_({
+			href: 'https://doxyva.com/blood-circulation/how-improving-your-blood-circulation-makes-you-smarter/',
+			nofollow: true,
+			wrap: true,
+		}, 'How Improving Your Blood Circulation Makes You Smarter')
+	])
+}
+function ref_b2_2_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'ref_b2_2'
+	}, [
+		tb_a_({
+			href: 'https://pubmed.ncbi.nlm.nih.gov/23976891/',
+			nofollow: true,
+			wrap: true,
+		}, 'Relationships between Cerebral Blood Flow and IQ in Typically Developing Children and Adolescents')
+	])
+}
+function ref_b2_3_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'ref_b2_3'
+	}, [
+		tb_a_({
+			href: 'https://jps.biomedcentral.com/articles/10.1007/s12576-017-0525-0',
+			nofollow: true,
+			wrap: true,
+		}, 'Relationship between cognitive function and regulation of cerebral blood flow')
+	])
+}
+function ref_b2_4_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'ref_b2_4'
+	}, [
+		tb_a_({
+			href: 'https://www.psychologicalscience.org/news/releases/blood-vessels-in-eye-linked-with-iq-cognitive-function.html',
+			nofollow: true,
+			wrap: true,
+		}, 'Blood Vessels in the Eye Linked With IQ, Cognitive Function')
+	])
+}
+function ref_h1_2__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'ref_h1_2'
+	}, [
+		tb_a_({
+			href: 'https://en.wikipedia.org/wiki/Blood_pressure#Regulation',
+			nofollow: true,
+			wrap: true,
+		}, 'Blood pressure (Wikipedia)')
+	])
+}
+function ref_h1_3__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'ref_h1_3'
+	}, [
+		tb_a_({
+			href: 'https://www.vascularsociety.org.uk/patients/vascular_health/the_circulatory_system.aspx',
+			nofollow: true,
+			wrap: true,
+		}, 'The Circulatory System (Vascular Society)')
+	])
+}
+function ref_h1_5__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'ref_h1_5'
+	}, [
+		tb_a_({
+			href: 'https://www.ncbi.nlm.nih.gov/books/NBK279250/',
+			nofollow: true,
+			wrap: true,
+		}, 'In brief: How does the blood circulatory system work?')
+	])
+}
+function ref_h1_7__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'ref_h1_7'
+	}, [
+		tb_a_({
+			href: 'https://kidshealth.org/en/parents/heart.html',
+			nofollow: true,
+			wrap: true,
+		}, 'Heart and Circulatory System')
+	])
+}
+function ref_h1_17__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'ref_h1_17'
+	}, [
+		tb_a_({
+			href: 'https://www.hopkinsmedicine.org/health/wellness-and-prevention/exercise-and-the-heart',
+			nofollow: true,
+			wrap: true,
+		}, 'Exercise and the Heart')
+	])
+}
+
