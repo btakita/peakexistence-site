@@ -6,6 +6,7 @@ import { md__raw_ } from '@rappstack/ui--any/md'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -18,14 +19,14 @@ export default (ctx:request_ctx_T)=>''
 + md__raw_(ctx,
 	`Interest in life extension is showing rapid growth. Life Extension aims to slow the biological aging process. To extend the average human lifespan & healthspan. The period of time spent in good health. Considerable attention focuses on healthspan due to its potential for human longevity. Extending human life has been a pursuit of human culture & philosophy for centuries. Significant progress in recent decades come from advances in modern science & medicine.`)
 + dl_tree_({ ctx, _:sticky__dl_tree_props_ }, ()=>[
-	[`## Understanding Anti-Aging & Life Extension`, [
+	[`## ${mobile_hidden__span_(['Understanding '])}Anti-Aging & Life Extension`, [
 		`Anti-aging therapies are primarily concerned with slowing down or reversing the processes. That are commonly associated with aging. This includes the:`,
 		`- appearance of wrinkles`,
 		`- loss of skin elasticity`,
 		`- the decline in organ function`,
 		``,
 		`Life extension therapies go a step further by seeking to increase the overall lifespan of individuals. Through various biomedical interventions${footnote__sup__sort([ref1_footnote__sup_(ctx), ref3_footnote__sup_(ctx), ref4_footnote__sup_(ctx)])}.`].join(nl)],
-	[`## Scientific Foundations & Approaches`, [dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+	[`## ${mobile_hidden__span_(['Scientific '])}Foundations & Approaches`, [dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 		[`### Cellular & Molecular Strategies`, [
 			`At the heart of many anti-aging therapies is the focus on cellular & molecular health. Research identifies critical factors in the aging process.:`,
 			``,
@@ -37,14 +38,14 @@ export default (ctx:request_ctx_T)=>''
 			`- telomerase activators`,
 			`- senolytics which selectively remove aging cells`,
 			`- antioxidants that reduce cellular damage caused by free radicals`].join(nl)],
-		[`###  Hormonal & Genetic Interventions`, [
+		[`###  Hormonal & Genetic Intervention`, [
 			`Hormone replacement therapies have been used to replace or augment hormones that decline with age. Such as DHEA & growth hormone. potentially restoring some youthful characteristics. Additionally, genetic engineering & the use of CRISPR technology offer promising avenues. For modifying the genetic factors that contribute to aging & disease${footnote__sup__sort([ref13_footnote__sup_(ctx), ref16_footnote__sup_(ctx)])}.`].join(nl)],
 		[`### Stem Cell Therapies`, [
 			`Stem cells have the potential to repair or replace damaged tissues & organs. A capability that diminishes with age. Recent advancements in stem cell technology are being explored. For their ability to treat age-related diseases & extend lifespan. Such as${footnote__sup__sort([ref3_footnote__sup_(ctx), ref16_footnote__sup_(ctx)])}:`,
 			`- mesenchymal stem cells`,
 			`- induced pluripotent stem cells (iPSCs)`].join(nl)],
 	])].join(nl)],
-	[`## Practical Applications & Treatments`, [dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+	[`## ${mobile_hidden__span_(['Practical '])}Applications & Treatments`, [dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 		[`### Skin & Cosmetic Treatments`, [
 			`Anti-aging skin care treatments such as retinoids, antioxidants, & various non-surgical procedures like laser therapy & microneedling help in reducing the visible signs of aging, thereby improving skin health & appearance${footnote__sup__sort([ref2_footnote__sup_(ctx), ref10_footnote__sup_(ctx), ref14_footnote__sup_(ctx)])}.`].join(nl)],
 		[`### Diet & Lifestyle Modifications`, [
@@ -57,13 +58,13 @@ export default (ctx:request_ctx_T)=>''
 		[`### Metformin`, [
 			`Metformin, a drug used to treat type 2 diabetes, shows promise in extending human life. Studies suggest that Metformin may have anti-aging properties. Mimicking the longevity benefits of calorie restriction. By reducing oxidative stress & inflammation, both critical factors in the aging process.`,
 			dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-				[`#### Benefits of Metformin for Anti-Aging & Life Extension Therapy`, [
+				[`#### Benefits of Metformin${mobile_hidden__span_([` for Anti-Aging & Life Extension Therapy`])}`, [
 					dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-						[`##### Reduced Inflammation & Oxidative Stress`, [
+						[`##### ${mobile_hidden__span_(['Reduce '])}Inflammation${mobile_hidden__span_([' & ', '/'])}Oxidative Stress`, [
 							`Metformin reduces inflammatory responses & oxidative stress. Which are key contributors to aging & age-related diseases. This reduction can slow down the aging process & extend healthspan${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx), ref_m2_2_footnote__sup_(ctx), ref_m2_8_footnote__sup_(ctx)])}.`].join(nl)],
-						[`##### Enhanced Insulin Sensitivity`, [
+						[`##### ${mobile_hidden__span_(['Enhanced '])}Insulin Sensitivity`, [
 							`Metformin improves insulin sensitivity & glucose metabolism. Which are crucial for preventing age-related metabolic diseases such as type 2 diabetes. By regulating metabolism, metformin may help maintain youthful cellular function & delay aging${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx), ref_m2_9_footnote__sup_(ctx)])}.`].join(nl)],
-						[`##### Decreased Risk of Cardiovascular Disease`, [
+						[`##### ${mobile_hidden__span_(['Decreased Risk of '])}Cardiovascular Disease`, [
 							`Studies associate Metformin with protecting heart health${ref_m2_2_footnote__sup_(ctx)}`,
 							`- a lower incidence of cardiac events`,
 							`- reduced mortality from cardiovascular diseases`].join(nl)],
@@ -103,7 +104,7 @@ export default (ctx:request_ctx_T)=>''
 					`Metformin is generally considered safe & is inexpensive. Which adds to its appeal as a potential anti-aging therapy. However, it can cause side effects such as gastrointestinal upset. More rarely, it can cause vitamin B12 deficiency. Which must be carefully managed, especially in long-term use${footnote__sup__sort([ref3_footnote__sup_(ctx), ref4_footnote__sup_(ctx)])}.`].join(nl)],
 			])
 		].join(nl)],
-		[`### Genetic Engineering & Cellular Reprogramming`, [
+		[`### ${mobile_hidden__span_([`Genetic Engineering & Cellular Reprogramming`, `Genetic/Cellular Reprogramming`])}`, [
 			`Advances in genetic engineering & cellular reprogramming, hold great potential for life extension. Genetic engineering involves manipulating aging-related genes. To slow down or reverse the aging process. Showing potential to extend lifespan & health span. Cellular reprogramming, aims to change the state of cells. Offering the possibility of replacing damaged or aging cells in the body. Slowing down aging or senescence.`,
 			``,
 			`These technologies target the fundamental processes of aging at the genetic & cellular levels. Transforming the way we approach age-related diseases & longevity${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx), ref_g1_3_footnote__sup_(ctx), ref_g1_5_footnote__sup_(ctx), ref_g1_6_footnote__sup_(ctx), ref_g1_7_footnote__sup_(ctx), ref_g1_8_footnote__sup_(ctx)])}.`,
@@ -141,7 +142,7 @@ export default (ctx:request_ctx_T)=>''
 		`- disparity in access to these treatments`,
 		`- implications of a significantly longer human lifespan on resources & social structures`,
 		`- moral considerations of extending life at all costs`].join(nl)],
-	[`## The Future of Anti-Aging & Life Extension`, [
+	[`## The Future${mobile_hidden__span_([` of Anti-Aging & Life Extension`])}`, [
 		`The field of anti-aging & life extension is at a fascinating juncture. With breakthroughs in biology, technology, & medicine paving the way for revolutionary therapies. With the goals of${footnote__sup__sort([ref3_footnote__sup_(ctx), ref4_footnote__sup_(ctx), ref16_footnote__sup_(ctx)])}:`,
 		`- extending lifespan`,
 		`- ensuring that those extra years are lived in good health`].join(nl)],

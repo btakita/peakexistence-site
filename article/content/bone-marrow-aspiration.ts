@@ -5,6 +5,7 @@ import { md__raw_ } from '@rappstack/ui--any/md'
 import { nl } from '@rappstack/ui--any/string'
 import { class_ } from 'ctx-core/html'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -30,7 +31,7 @@ export default (ctx:request_ctx_T)=>''
 				`It can reveal if cancer from another area of the body has spread to the bone marrow.`].join(nl)],
 			[`### Monitor Treatment Effectiveness`, [
 				`Assess how well treatments for blood disorders or cancers are working.`].join(nl)],
-			[`### Investigate Unexplained Symptoms`, [
+			[`### Investigate ${mobile_hidden__span_([`Unexplained `])}Symptoms`, [
 				`It's often used when other tests cannot identify the cause of fevers, fatigue, or weakness.`].join(nl)],
 			[`### Diagnostic Clarity`, [
 				`The primary purpose of bone marrow aspiration is diagnostic. The procedure allows for the detailed examination of marrow cells. Aiding in the diagnosis of a wide array of diseases affecting the blood & bone marrow. It identifies conditions such as:`,
@@ -75,7 +76,7 @@ export default (ctx:request_ctx_T)=>''
 	].join(nl)],
 	[`## What the Results Can Reveal`, [
 		`Bone marrow aspiration provides crucial information about your blood cells & bone marrow function. Aiding in the diagnosis, management, & monitoring of various conditions.`].join(nl)],
-	[`## Innovations & Advances in Bone Marrow Aspiration`, [
+	[`## Innovations & Advances${mobile_hidden__span_([` in Bone Marrow Aspiration`])}`, [
 		`The field of bone marrow aspiration is evolving. With advances in technique & technology. Enhancing both the efficacy & comfort of the procedure. Improved needle designs & aspiration methods have reduced discomfort. And increased the yield of viable cells for analysis. Developments in molecular & genetic testing of marrow samples enable personal medicine. Allowing tailored treatments with unprecedented precision & efficacy.`].join(nl)],
 	[`## Conclusion`, [
 		`Bone marrow aspiration provides a direct glimpse into the marrow's function. This procedure plays an indispensable role in diagnosing, monitoring, & managing hematological diseases. Bone marrow aspiration continues to refine our understanding of blood disorders. Guiding the way to more effective treatments & saving lives.`].join(nl)],

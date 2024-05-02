@@ -5,6 +5,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -26,14 +27,14 @@ export default (ctx:request_ctx_T)=>''
 		`- extensive back surgery`,
 		`- a prolonged recovery period`
 	].join(nl)],
-	[`## How the Aurora ZIP™ System Works`, [
+	[`## How ${mobile_hidden__span_([`the `])}Aurora ZIP™ ${mobile_hidden__span_([`System `])}Works`, [
 		`The Aurora ZIP™ Lumbar Fusion system is a state-of-the-art spinal fixation device. That aims to provide superior stabilization & support during lumbar spinal fusion surgeries. Traditional fusion procedures rely on screws & rods. Which is an invasive surgery. Requiring significant recovery time. The Aurora ZIP™ system introduces a less invasive alternative.`,
 		``,
 		`The ZIP™ device features a patented one-step lock that eliminates the need for a set screw. And a large barrel designed for ZIP GRAFT™ or other bone material. Accommodating variations in patient anatomy. The zip technology allows for a "no profile" implant solution that lies flush with the spine. The surgeon inserts the device minimally invasive incision. Causing minimal tissue damage & promoting faster recovery. Limiting the potential for implant-related complications post-surgery${footnote__sup__sort([
 			// ref10_footnote__sup_(ctx),
 			ref11_footnote__sup_(ctx),
 		])}.`].join(nl)],
-	[`## Key Features & Design Benefits`, [
+	[`## ${mobile_hidden__span_([`Key Features`, `Feature`])} & Design Benefits`, [
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`Minimally Invasive Approach`, [
 				`The system's innovative design allows for smaller incisions & less muscle disruption. Which leads to:`,
@@ -52,7 +53,7 @@ export default (ctx:request_ctx_T)=>''
 			[`Less Bone Removal`, [
 				`The Aurora ZIP™ procedure may require less bone removal compared to traditional fusion techniques.`].join(nl)],
 		])].join(nl)],
-	[`## Clinical Efficacy, Patient Outcomes, & Surgeon Experiences`, [
+	[`## ${mobile_hidden__span_([`Clinical Efficacy, Patient Outcomes, & Surgeon Experiences`, `Efficacy & Patient Outcomes`])}`, [
 		`Feedback from both patients & surgeons using the Aurora ZIP™ system is overwhelmingly positive. Surgeons appreciate the ease of use. And the efficiency it brings to spinal fusion surgeries. While patients benefit from the less invasive procedure. Reduced recovery time & complications.`,
 		``,
 		`Clinical studies & patient outcomes demonstrate the efficacy of the Aurora ZIP™ Lumbar Fusion. A study involving 32 elderly patients treated with the Aurora ZIP™ Lumbar Fusion at National Spine & Pain Centers. Showed an average pain reduction of 73%. With patients becoming more active & reducing their medications. No complications reported${ref5_footnote__sup_(ctx)}. Another study published in the Journal of Pain. Reported the first 6-month clinical evaluation of the ZIP™ fusion implant. Highlighting its safety & effectiveness in providing relief from chronic pain. Improving function in select patients${footnote__sup__sort([
@@ -72,7 +73,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Improved Surgical Outcomes`, [
 				`Early clinical studies & patient reports. Suggest the Aurora ZIP™ system leads to higher patient satisfaction & improved outcomes. Compared to traditional fusion techniques.`]]
 		])].join(nl)],
-	[`## Who is a Candidate for Aurora ZIP™ Lumbar Fusion`, [
+	[`## ${mobile_hidden__span_([`Who is a Candidate for Aurora ZIP™ Lumbar Fusion`, `Candidates for Aurora ZIP™`])}`, [
 		`This procedure may be suitable for patients needing surgical intervention in the Lumbar Spine:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Degenerative Disc Disease`, [
@@ -82,7 +83,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Spinal Instability`, [
 				`Excessive or abnormal motion in the spinal joints that causes pain and/or neurological symptoms.`]],
 		])].join(nl)],
-	[`## Advantages Over Traditional Surgery`, [
+	[`## Advantages${mobile_hidden__span_([` Over Traditional Surgery`])}`, [
 		`The Aurora ZIP™ Lumbar Fusion offers several advantages over traditional back surgery:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Minimally Invasive`, [
