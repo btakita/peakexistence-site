@@ -69,19 +69,19 @@ export default (ctx:request_ctx_T)=>''
 	[`## Benefits of Altitude Training`, [
 		`The primary benefit of altitude training is the enhanced aerobic capacity. Attributed to the increased red blood cell mass & improved oxygen delivery mechanisms. Athletes may also experience improvements in:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-			[`Improved Endurance`, [
+			[`### Improved Endurance`, [
 				`Increased oxygen-carrying capacity can boost stamina for endurance sports.`].join(nl)],
-			[`Enhanced VO2 Max`, [
+			[`### Enhanced VO2 Max`, [
 				`Improvements in VO2 max, a measure of the body's ability to utilize oxygen during exercise.`].join(nl)],
-			[`Increased red blood cell production to carry more oxygen`],
-			[`Enhanced oxygen delivery to muscles`],
-			[`Changes in how the body utilizes oxygen at a cellular level`],
-			[`Improved endurance capacity`],
-			[`Increased endurance`],
-			[`Increased strength`],
-			[`Faster Recovery`, [
+			[`### Increased red blood cell production to carry more oxygen`],
+			[`### Enhanced oxygen delivery to muscles`],
+			[`### Changes in how the body utilizes oxygen at a cellular level`],
+			[`### Improved endurance capacity`],
+			[`### Increased endurance`],
+			[`### Increased strength`],
+			[`### Faster Recovery`, [
 				`Potential adaptations for better oxygen delivery could help with recovery between workouts.`].join(nl)],
-			[`Mental Resilience & Focus`, [
+			[`### Mental Resilience & Focus`, [
 				`The benefits extend beyond physiological adaptations. As athletes learn to perform under challenging conditions${footnote__sup__sort([ref16_footnote__sup_(ctx), ref17_footnote__sup_(ctx)])}.`].join(nl)],
 		]),
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
