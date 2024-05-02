@@ -33,9 +33,9 @@ export default (ctx:request_ctx_T)=>''
 				`Adequate blood flow to the heart muscle is crucial to prevent heart attacks. And prevent other cardiac problems.`,
 				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Nutrient & Oxygen Supply`, [
-						`Effective circulation delivers a steady supply of oxygen & essential nutrients to the heart. This is vital for the heart's energy production & function. The Cleveland Clinic emphasizes the importance of blood flow in delivering oxygen & nutrients. To all organs & and tissues, including the heart itself.`].join(nl)],
+						`Effective circulation delivers a steady supply of oxygen & essential nutrients to the heart. This is vital for the heart's energy production & function. The Cleveland Clinic emphasizes the importance of blood flow in delivering oxygen & nutrients. To all organs & tissues, including the heart itself.`].join(nl)],
 					[`#### Removing Waste Products`, [
-						`Blood circulation aids in removing carbon dioxide & other metabolic waste products. From the heart and other tissues. This process is essential for preventing the accumulation of harmful substances. That impairs heart function${ref_h1_5__sup_(ctx)}.`].join(nl)],
+						`Blood circulation aids in removing carbon dioxide & other metabolic waste products. From the heart & other tissues. This process is essential for preventing the accumulation of harmful substances. That impairs heart function${ref_h1_5__sup_(ctx)}.`].join(nl)],
 					[`#### Regulate Blood Pressure`, [
 						`The circulatory system, through its complex network of arteries, veins, & capillaries. It plays a key role in maintaining optimal blood pressure levels. Blood pressure is crucial for ensuring that blood travels quickly throughout the body. Blood pressure is created by the relationship between the heart's output & the resistance of the blood vessels${ref_h1_2__sup_(ctx)}. Effective circulation helps in keeping blood pressure within a healthy range. Thereby reducing the strain on the heart.`].join(nl)],
 					[`#### Prevents Cardiovascular Disease`, [
@@ -94,7 +94,7 @@ export default (ctx:request_ctx_T)=>''
 		`Blood flow analysis uses diagnostic techniques to visualize & assess the movement of blood. Through the body's arteries & veins. Providing valuable information on the velocity, volume, & turbulence of blood flow. Allowing healthcare professionals to detect abnormalities indicating underlying health issues. Various techniques help doctors evaluate blood flow:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Laser Doppler Flowmetry`, [
-				`Laser Doppler flowmetry (LDF) exemplifies one of the many techniques used in blood flow analysis. Offering the advantage of continuous measurements. It does not provide volumetric flow measurements. Making comparisons between different sites or subjects challenging${ref_b1_1_footnote__sup_(ctx)}. Despite this limitation, LDF and other methods. Like the radioactive microsphere technique & optical coherence tomography. Play crucial roles in specific applications. Particularly in ocular blood flow measurements.`].join(nl)],
+				`Laser Doppler flowmetry (LDF) exemplifies one of the many techniques used in blood flow analysis. Offering the advantage of continuous measurements. It does not provide volumetric flow measurements. Making comparisons between different sites or subjects challenging${ref_b1_1_footnote__sup_(ctx)}. Despite this limitation, LDF & other methods. Like the radioactive microsphere technique & optical coherence tomography. Play crucial roles in specific applications. Particularly in ocular blood flow measurements.`].join(nl)],
 			[`### Doppler Ultrasound`, [
 				`The primary non-invasive method. Uses sound waves to visualize blood flow & detect blockages or abnormal flow patterns.`].join(nl)],
 			[`### Arterial Pressure Waveforms`, [

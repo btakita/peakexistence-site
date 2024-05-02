@@ -24,12 +24,12 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Early Disease Detection`, [
-		`Early disease detection. Refers to the identification of a condition before the manifestation of significant symptoms. This proactive approach aims to uncover hidden diseases & risk factors. Enabling interventions that prevent the progression of the disease. Particularly chronic and life-threatening illnesses such as:`,
+		`Early disease detection. Refers to the identification of a condition before the manifestation of significant symptoms. This proactive approach aims to uncover hidden diseases & risk factors. Enabling interventions that prevent the progression of the disease. Particularly chronic & life-threatening illnesses such as:`,
     `- cancer`,
     `- cardiovascular diseases`,
     `- diabetes`,
 		``,
-    `Is crucial for effective treatment. Diagnosing diseases before they progress leads to better health outcomes. For instance, early-stage cancers are more treatable & often curable. Compared to their later-stage counterparts which might require more complex and costly interventions${footnote__sup__sort([ref_m1_2_footnote__sup_(ctx),ref_m1_3_footnote__sup_(ctx)])}.`,
+    `Diagnosing diseases before they progress leads to better health outcomes. For instance, early-stage cancers are more treatable & often curable. Compared to their later-stage counterparts, which might require more complex & costly interventions${footnote__sup__sort([ref_m1_2_footnote__sup_(ctx),ref_m1_3_footnote__sup_(ctx)])}.`,
 		``,
 		`The benefits of early detection are manifold. Extending from improved health outcomes to significant cost savings for healthcare systems.`].join(nl)],
 	[`## Benefits${mobile_hidden__span_([` of Early Disease Detection`])}`, [
@@ -113,7 +113,7 @@ export default (ctx:request_ctx_T)=>''
         `- medical imaging`,
         `- patient health records`,
 				``,
-        `To identify patterns that precede illness3. For example, AI algorithms can analyze mammograms with higher accuracy than traditional methods. Leading to earlier detection of breast cancer${ref_m1_2_footnote__sup_(ctx)}. Similarly, AI-driven tools used in cardiology, detect subtle signs of heart disease. That may be overlooked in routine examinations${ref_m1_2_footnote__sup_(ctx)}.`].join(nl)],
+        `To identify patterns that precede illness3. For example, AI algorithms can analyze mammograms with higher accuracy than traditional methods. Leading to earlier detection of breast cancer${ref_m1_2_footnote__sup_(ctx)}. Similarly, AI-driven tools used in cardiology detect subtle signs of heart disease. That may be overlooked in routine examinations${ref_m1_2_footnote__sup_(ctx)}.`].join(nl)],
 			[`### Genetic Screening`, [
 				`Advancements in genetic screening have also enhanced our ability to detect diseases early. Technologies like CRISPR & next-generation sequencing. Allow for detailed analysis of an individual’s genetic makeup. Helping to predict the likelihood of developing certain conditions${ref_m1_3_footnote__sup_(ctx)}. This facilitates early intervention & personalizes medicine. Crafting treatments to the genetic profile of the patient.`].join(nl)],
 			[`### Wearable Technology`, [
@@ -124,10 +124,10 @@ export default (ctx:request_ctx_T)=>''
 				``,
         `Can alert users to potential health issues before they become apparent${ref_m1_3_footnote__sup_(ctx)}. This continuous monitoring is invaluable for early disease detection & management. Particularly for chronic conditions.`].join(nl)],
 			[`### Impact on Healthcare`, [
-				`The integration of advanced technologies into routine medical practice. Has profound implications for healthcare delivery. Early disease detection enables:`,
+				`The integration of advanced technologies into routine medical practice. It has profound implications for healthcare delivery. Early disease detection enables:`,
 				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Reduce Healthcare Costs`, [
-						`Early intervention typically requires less extensive treatment compared to addressing advanced-stage diseases. This reduction in treatment complexity and duration can lead to significant cost savings${ref_m1_2_footnote__sup_(ctx)}.`].join(nl)],
+						`Early intervention typically requires less extensive treatment compared to addressing advanced-stage diseases. This reduction in treatment complexity & duration can lead to significant cost savings${ref_m1_2_footnote__sup_(ctx)}.`].join(nl)],
 					[`#### Improved Patient Outcomes`, [
 						`Patients benefit from higher survival rates & better quality of life. When catching & treating diseases early${ref_m1_2_footnote__sup_((ctx))}.`].join(nl)],
 					[`#### Enhanced Preventive Care`, [
@@ -141,7 +141,7 @@ export default (ctx:request_ctx_T)=>''
 		`Despite its benefits, the implementation of early disease detection technologies faces several challenges. These include${footnote__sup__sort([ref_m1_2_footnote__sup_(ctx),ref_m1_3_footnote__sup_(ctx)])}:`,
     `- the need for large-scale validation studies`,
     `- integration into existing healthcare systems`,
-    `- addressing privacy concerns related to genetic and data privacy`,
+    `- addressing privacy concerns related to genetic & data privacy`,
     `- widespread education & training for healthcare providers to effectively utilize these advanced technologies`,
 		``,
 		`Early disease detection will play an increasingly central role in healthcare. The potential to transform healthcare is immense with:`,

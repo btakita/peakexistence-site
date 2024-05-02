@@ -35,7 +35,7 @@ export default (ctx:request_ctx_T)=>''
         `- psychotic episodes`,
         `- substance withdrawal`,
 				``,
-        `They provide 24-hour monitoring & support, ensuring that individuals receive timely and appropriate care${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`].join(nl)],
+        `They provide 24-hour monitoring & support, ensuring that individuals receive timely & appropriate care${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Comprehensive Assessment`, [
 				`Upon arrival, patients undergo a thorough assessment. Which includes evaluating their:`,
         `- mental status`,
@@ -46,7 +46,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Short-term Treatment`, [
 				`Treatment in a CSU typically includes:`,
         `- medication management`,
-        `- individual and group counseling`,
+        `- individual & group counseling`,
         `- psychoeducation`,
 				``,
         `These interventions are focused on stabilizing the patient's condition. To allow them to transition to less intensive care settings${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)/*,ref_c1_5_footnote__sup_(ctx)*/])}.`].join(nl)],
@@ -100,11 +100,11 @@ export default (ctx:request_ctx_T)=>''
 			[`### ${mobile_hidden__span_([`Benefits for `])}Patients & Communities`, [
 				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Reduced Hospitalization Rates`, [
-						`By providing an immediate and effective response to crises. CSUs reduce the need for hospital admissions. Which are more costly and can be more traumatic for patients${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`].join(nl)],
+						`By providing an immediate & effective response to crises. CSUs reduce the need for hospital admissions. Which are more costly & can be more traumatic for patients${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`].join(nl)],
 					[`#### Immediate Support`, [
 						`The availability of immediate, specialized care can be life-saving for individuals in crisis. Offering them the support they need when they need it most.`].join(nl)],
 					[`#### Enhanced Patient Outcomes`, [
-						`Patients treated in CSUs often experience better outcomes. Due to the timely & specialized care they receive. The supportive & less restrictive environment of CSUs contribute to more positive experiences. With higher satisfaction among patients${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`].join(nl)],
+						`Patients treated in CSUs often experience better outcomes. Due to the timely & specialized care they receive. The supportive & less restrictive environment of CSUs contributes to more positive experiences. With higher satisfaction among patients${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`].join(nl)],
 					[`#### Cost-Effectiveness`, [
 						`CSUs are a cost-effective alternative to hospital emergency departments. They provide specialized care at a lower cost. Which helps to optimize the allocation of healthcare resources${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`].join(nl)],
 					[`#### Continuity of Care`, [
@@ -119,7 +119,7 @@ export default (ctx:request_ctx_T)=>''
 		`- connect with resources`,
 		`- pave the way for lasting recovery`].join(nl)],
 	[`## Conclusion`, [
-		`Crisis Stabilization Units are an integral part of the behavioral health care continuum. Offering a critical service for individuals in acute psychological distress. CSUs save lives. And enhance the efficiency and effectiveness of mental health services by providing:`,
+		`Crisis Stabilization Units are an integral part of the behavioral health care continuum. Offering a critical service for individuals in acute psychological distress. CSUs save lives. And enhance the efficiency & effectiveness of mental health services by providing:`,
     `- immediate intervention`,
     `- comprehensive assessment`,
     `- a pathway to continued care`,
