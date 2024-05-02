@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -12,7 +13,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-	[`## A Closer Look at Eureka Diagnostics`, [
+	[`## A Closer Look${mobile_hidden__span_([` at Eureka Diagnostics`])}`, [
 		`Eureka Diagnostics is more than a laboratory. It's a critical partner in the healthcare process. Offering an extensive array of tests. Spanning from routine blood work to complex genetic screenings. This facility equips state-of-the-art instruments. Employing a team of skilled professionals. Dedicated to upholding the highest standards of accuracy & reliability.`].join(nl)],
 	[`## Services Offered`, [
 		`The range of services provided by Eureka Diagnostics includes:`,
@@ -39,7 +40,7 @@ export default (ctx:request_ctx_T)=>''
 				`Eureka Diagnostics places a strong emphasis on patient care. The lab works with healthcare providers. To tailor testing according to individual patient needs. Ensuring a personalized & effective diagnostic experience.`].join(nl)],
 		])
 	].join(nl)],
-	[`## Empowering Healthcare Providers`, [
+	[`## Empowering ${mobile_hidden__span_([`Healthcare `])}Providers`, [
 		`By offering a comprehensive suite of diagnostic services. Eureka Diagnostics empowers healthcare providers. With the information needed to make accurate diagnoses & develop effective treatment plans. This collaboration is pivotal in advancing patient care & improving health outcomes.`].join(nl)],
 	[`## Conclusion`, [
 		`Eureka Diagnostics exemplifies the future of medical diagnostics. It plays a crucial role in the healthcare ecosystem:`,

@@ -5,6 +5,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_ } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -20,7 +21,7 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		`Extracorporeal shock wave therapy uses focused, high-energy sound waves. To cascade biological effects that promote tissue healing & pain relief. Shock waves delivered to the target area through the skin:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-			[`### Stimulate Cellular Response & Repair`, [
+			[`### ${mobile_hidden__span_([`Stimulate `])}Cellular Response & Repair`, [
 				`Shock waves trigger biological responses in the affected area. Increasing blood flow & stimulating the release of growth factors involved in healing.`].join(nl)],
 			[`### Enhance Blood Circulation`, [
 				`Enhances blood circulation. Stimulates the release of growth factors that promote forming new blood vessels. This increase in blood vessel formation improves the delivery of oxygen & nutrients. To the targeted tissues, facilitating faster healing & recovery.`].join(nl)],
@@ -33,7 +34,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Break down scar tissue`, [
 				`The high-energy shock waves disrupt the fibrous tissue bands. That cause pain & restrict movement. This process promotes the remodeling of scar tissue into a more organized structure. Enhancing flexibility & function.`].join(nl)],
 		])].join(nl)],
-	[`## Conditions ESWT May Be Used For`, [
+	[`## Conditions${mobile_hidden__span_([` ESWT May Be Used For`, ` Treated`])}`, [
 		`The therapy capitalizes on the body's natural healing mechanisms. Triggering the release of growth factors & anti-inflammatory compounds. Facilitating tissue regeneration & repair.`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Tendinopathies`, [

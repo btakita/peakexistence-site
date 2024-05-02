@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -12,7 +13,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-	[`## Key Benefits of Exercise with Ketamine Infusions`, [
+	[`## Key Benefits${mobile_hidden__span_([` of Exercise with Ketamine Infusions`])}`, [
 		`Enhanced Mood & Motivation. Ketamine has shown promise in alleviating symptoms of depression & anxiety. Ketamine with exercise can elevate mood & motivation. Making workouts more enjoyable & rewarding.`,
 		``,
 		`Reduced Pain & Improved Performance. Ketamine’s analgesic properties can help individuals manage pain during exercise. Enabling them to push beyond their limits & achieve better results.`,
@@ -20,7 +21,7 @@ export default (ctx:request_ctx_T)=>''
 		`Faster Recovery. Ketamine promotes cellular repair & reduces inflammation. These benefits may lead to faster recovery times after strenuous workouts. Allowing you to bounce back for consistent training.`,
 		``,
 		`Heightened Mind-Body Connection. Ketamine infusions can enhance mindfulness & promote a stronger mind-body connection during exercise. Helping you stay present & focused on your fitness journey.`].join(nl)],
-	[`## Conditions Treated by Ketamine Infusion Therapy`, [
+	[`## Conditions Treated${mobile_hidden__span_([` by Ketamine Infusion Therapy`])}`, [
 		`Ketamine infusion therapy targets major depressive disorder (MDD) & treatment-resistant depression (TRD):`,
 		`- Researched success rate as high as 70% in treating MDD & TRD`,
 		`- Many patients experience significant improvement after just one or two infusions.`,
@@ -31,13 +32,13 @@ export default (ctx:request_ctx_T)=>''
 		`- anxiety disorders`,
 		`- post-traumatic stress disorder (PTSD)`,
 		`- obsessive-compulsive disorder (OCD)`].join(nl)],
-	[`## How Does Ketamine Treatment Work?`, [
+	[`## How Does ${mobile_hidden__span_([`Ketamine Treatment`, `It`])} Work?`, [
 		`Ketamine differs from traditional antidepressants, such as selective serotonin reuptake inhibitors (SSRIs). Ketamine targets:`,
 		`- NMDA (N-methyl-D-aspartate) receptors`,
 		`- Increases glutamate levels. Glutamate is the brain’s most powerful chemical messenger.`,
 		``,
 		`Targeting NMDA & Glutamate strengthens & restores vital neural connections & pathways. In regions of the brain impacted by depression. leading to positive changes in brain circuit function & improved mood regulation. Low-dose ketamine infusion therapy can rapidly produce significant symptom improvement. Often within hours to days. With a greater reach & impact on brain cells compared to antidepressants.`].join(nl)],
-	[`## Typical Course of Treatment & Side Effects`, [
+	[`## ${mobile_hidden__span_([`Typical Course of `])}Treatment & Side Effects`, [
 		`The initial ketamine infusion therapy consists of six IV treatments over three weeks. With an average of two treatments per week. Successful control over initial symptoms leads to long-term treatment plans & maintenance treatments. Which includes Ketamine Exercise sessions every two to four weeks. Side effects of Ketamine during the treatment session are usually mild & transient. Including:`,
 		``,
 		`- disassociation`,

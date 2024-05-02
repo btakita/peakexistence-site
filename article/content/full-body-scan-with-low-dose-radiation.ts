@@ -26,11 +26,16 @@ export default (ctx:request_ctx_T)=>''
 	[`## What is a Full Body Scan?`, [
 		`A full body scan is a sophisticated medical imaging technique. It employs low-dose radiation to craft detailed visuals. Of the internal architecture of the human body, encompassing bones, organs, & tissues. The brilliance lies in its "low-dose" approach. Balancing minimal radiation exposure with the acquisition of high-quality images.`].join(nl)],
 	[`## Considerations`, [
-		`| **Pros**                                  | **Cons**                                            |`,
-		`|:------------------------------------------|:----------------------------------------------------|`,
-		`| Quick & painless                        | Not a replacement for routine health screenings     |`,
-		`| Identifies a broad spectrum of conditions | May lead to unwarranted worry or additional testing |`,
-		`| Provides peace of mind                    | Accessibility & cost may be prohibitive for some  |`].join(nl)],
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+			[`Pros`, [
+				`- Quick & painless`,
+				`- Identifies a broad spectrum of conditions`,
+				`- Provides peace of mind`].join(nl)],
+			[`Cons`, [
+				`- Not a replacement for routine health screenings`,
+				`- May lead to unwarranted worry or additional testing`,
+				`- Accessibility & cost may be prohibitive for some`].join(nl)],
+		])].join(nl)],
 	[`## Who Should Consider It?`, [
 		`The scan is particularly beneficial for individuals with a moderate to high risk of certain conditions, owing to genetic predispositions, lifestyle factors, or age. Nonetheless, it's imperative to engage in a dialogue with a healthcare professional to ascertain the appropriateness of a full body scan in your health regimen.`].join(nl)],
 	[`## How to Prepare`, [

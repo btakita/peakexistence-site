@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -13,7 +14,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-	[`## Services Offered by Crisis Stabilization Units`, [
+	[`## Services Offered${mobile_hidden__span_([` by Crisis Stabilization Units`])}`, [
 		`CSUs offer a range of services, typically including:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### 24/7 Availability`, [
@@ -26,7 +27,7 @@ export default (ctx:request_ctx_T)=>''
 				`Developing coping mechanisms & strategies to manage future challenges.`].join(nl)],
 			[`### Discharge Planning`, [
 				`Connecting individuals with ongoing mental health care & community resources.`].join(nl)],
-			[`### Immediate Assessment & Intervention`, [
+			[`### ${mobile_hidden__span_([`Immediate `])}Assessment & Intervention`, [
 				`Upon arrival, patients receive a comprehensive evaluation. To determine the nature & severity of their crisis. This assessment is the foundation for all care. Ensuring tailored interventions to each individual's specific needs.`].join(nl)],
 			[`### Short-term Stabilization`, [
 				`The core offering of CSUs is short-term stabilization. This includes therapeutic interventions aimed at alleviating acute symptoms. Medication management, if necessary. The environment is calming & supportive. Providing a safe space for individuals in distress.`].join(nl)],
@@ -54,10 +55,10 @@ export default (ctx:request_ctx_T)=>''
 			[`### Stepping Stone`, [
 				`For some, CSUs can be a bridge to the appropriate level of treatment. Rather than rushed decisions for long-term care.`].join(nl)],
 		])].join(nl)],
-	[`## The Importance of Crisis Stabilization Units`, [
+	[`## Benefits${mobile_hidden__span_([` of Crisis Stabilization Units`])}`, [
 		`CSUs fill a critical gap in the mental health care system. By offering an alternative to hospitalization for individuals in crisis. This approach provides immediate relief for patients. Alleviating the burden on emergency departments & inpatient psychiatric facilities. By focusing on rapid stabilization & connection to ongoing care. CSUs helps prevent the escalation of mental health crises & promote long-term recovery.`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-			[`### Benefits for Patients & Communities`, [
+			[`### ${mobile_hidden__span_([`Benefits for `])}Patients & Communities`, [
 				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 					[`#### Reduced Hospitalizations`, [
 						`Providing an alternative pathway for care. CSUs helps decrease the need for hospital admissions. Making it a cost-effective solution for both patients & healthcare systems.`].join(nl)],
@@ -67,7 +68,7 @@ export default (ctx:request_ctx_T)=>''
 						`By emphasizing the connection to ongoing treatment. CSUs ensure that patients have access to the resources they need. To manage their mental health in the long term.`].join(nl)],
 				])].join(nl)],
 		])].join(nl)],
-	[`## The Future of Mental Health Care`, [
+	[`## The Future${mobile_hidden__span_([` of Mental Health Care`])}`, [
 		`Crisis stabilization units are an accessible & responsive form of mental health care. Providing rapid, compassionate, & targeted support during crises. They empower individuals to:`,
 		`- regain stability`,
 		`- connect with resources`,

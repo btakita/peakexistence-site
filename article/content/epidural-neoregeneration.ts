@@ -4,6 +4,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { class_ } from 'ctx-core/html'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -22,7 +23,7 @@ export default (ctx:request_ctx_T)=>''
 				`The process of regrowing damaged nerve cells & fibers. This is a field of active research with the goal of restoring function after nervous system injuries like spinal cord injuries.`].join(nl)],
 		])
 	].join(nl)],
-	[`## How Does Epidural Neoregeneration Work?`, [
+	[`## How ${mobile_hidden__span_([`Epidural Neoregeneration`, `It`])} Works?`, [
 		`The process involves injecting substances into the epidural space. These substances might promote nerve healing & growth. They could be:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Growth Factors`, [

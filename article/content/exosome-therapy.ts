@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -27,7 +28,7 @@ export default (ctx:request_ctx_T)=>''
 				`Exosome therapy leverages the natural signaling pathways of exosomes to promote healing & regeneration. By isolating exosomes from stem cells or other cell types & administering them to target areas. It's possible to stimulate repair & recovery at a cellular level. Unlike stem cell therapy, which introduces live cells into the body. Exosome therapy uses acellular vesicles. Minimizing the risk of immune rejection & other complications associated with cell-based therapies.`].join(nl)],
 		])
 	].join(nl)],
-	[`## How Exosome Therapy Works`, [
+	[`## How ${mobile_hidden__span_([`Exosome Therapy`, `It`])} Works?`, [
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Harvesting`, [
 				`Exosomes derived & isolated from stem cells or other cell types. In a laboratory setting.`].join(nl)],
@@ -44,7 +45,7 @@ export default (ctx:request_ctx_T)=>''
 				`- stimulate tissue repair`
 			].join(nl)],
 		])].join(nl)],
-	[`## Applications of Exosome Therapy`, [
+	[`## Applications${mobile_hidden__span_([` of Exosome Therapy`])}`, [
 		`Exosome therapy has wide-ranging applications across various fields of medicine. Some of the most promising areas of research & treatment include:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Wound Healing & Tissue Regeneration`, [
@@ -85,7 +86,7 @@ export default (ctx:request_ctx_T)=>''
 				`- minimize the side effects of traditional treatments`,
 				``,
 				`The prospects of exosome therapy in oncology are promising.`].join(nl)],
-			[`### Cosmetic & Anti-Aging Treatments`, [
+			[`### Cosmetic & Anti-Aging${mobile_hidden__span_([` Treatments`])}`, [
 				`Exosome therapy is also making strides in cosmetic medicine. Offering novel solutions for:`,
 				`- skin rejuvenation`,
 				`- hair regrowth`,
@@ -103,7 +104,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Seek Reliable Information`, [
 				`Look for information from research institutions, medical societies, & patient advocacy groups.`].join(nl)],
 		])].join(nl)],
-	[`## The Future of Exosome Therapy`, [
+	[`## The Future${mobile_hidden__span_([` of Exosome Therapy`])}`, [
 		`As research into exosome therapy continues to unfold. The potential for this innovative treatment grows. Clinical trials & ongoing studies are unlocking understanding of:`,
 		`- the full therapeutic potential of exosomes`,
 		`- their safety`,

@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 // import exercise_with_oxygen_therapy_webp from '../../public/image/article/exercise-with-oxygen-therapy.webp'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
@@ -13,9 +14,9 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-	[`## What is Exercise with Oxygen Therapy?`, [
+	[`## What is ${mobile_hidden__span_([`Exercise with Oxygen Therapy`, `It`])}?`, [
 		`Exercise with Oxygen Therapy (EWOT) combines physical activity with increased oxygen intake. During an EWOT session, you’ll perform simple exercises. While breathing in a higher concentration of oxygen. This process helps your body deliver more oxygen to your cells, muscles, & organs. Resulting in a range of incredible health benefits.`].join(nl)],
-	[`## Improved Stamina & Endurance`, [
+	[`## ${mobile_hidden__span_([`Improved `])}Stamina & Endurance`, [
 		`By increasing oxygen intake during exercise, EWOT helps you push your boundaries. Leading to improved stamina & endurance over time.`].join(nl)],
 	[`## Accelerated Recovery`, [
 		`EWOT reduces recovery time after workouts. Giving you more frequent & effective exercise.`].join(nl)],
@@ -29,7 +30,7 @@ export default (ctx:request_ctx_T)=>''
 		`Improved oxygenation improves cognitive function. Promoting better focus & mental clarity.`].join(nl)],
 	[`## Reduced Inflammation`, [
 		`Oxygen plays a vital role in reducing inflammation. Alleviating chronic inflammatory conditions.`].join(nl)],
-	[`## Why Choose Dr. Manny Emenike for EWOT?`, [
+	[`## Why Choose Dr. ${mobile_hidden__span_([`Manny `])}Emenike${mobile_hidden__span_([` for EWOT`])}?`, [
 		`When you choose Dr. Manny Emenike for your EWOT journey, you can expect:`,
 		`- A comprehensive evaluation to determine if EWOT is right for you`,
 		`- Personalized EWOT programs tailored to your specific health goals`,

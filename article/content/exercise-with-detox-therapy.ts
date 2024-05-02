@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 // import exercise_with_oxygen_therapy_webp from '../../public/image/article/exercise-with-oxygen-therapy.webp'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
@@ -13,7 +14,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-	[`## Why Exercise with Detox Therapy?`, [
+	[`## Why${mobile_hidden__span_([` Exercise with Detox Therapy`])}?`, [
 		`Exercise & detoxification are both essential elements in maintaining a healthy lifestyle. When combined, their effects can be more transformative.`,
 		``,
 		`Exercise helps in:`,
@@ -29,7 +30,7 @@ export default (ctx:request_ctx_T)=>''
 		`- bolstering the immune system`,
 		``,
 		`The synergy between exercise & detox therapy is a potent approach to a healthier life.`].join(nl)],
-	[`## The Benefits of Exercise with Detox Therapy`, [
+	[`## Benefits${mobile_hidden__span_([` of Exercise with Detox Therapy`])}`, [
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Enhanced Detoxification`, [
 				`Exercise stimulates blood flow & oxygenation, aiding the body in flushing out toxins. Sweating during physical activity expels toxins through the skin. Further supporting the detox process.`].join(nl)],
@@ -44,7 +45,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Balanced Hormones`, [
 				`Regular exercise helps regulate hormone levels. Detox therapy eliminates hormone-disrupting toxins from the body. Bringing harmony to your body's internal environment.`].join(nl)],
 		])].join(nl)],
-	[`## Exercise with Detox Therapy Techniques`, [
+	[`## ${mobile_hidden__span_([`Exercise with Detox Therapy `])}Techniques`, [
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Cardiovascular Exercise`, [
 				`Engage in activities like brisk walking, jogging, swimming, or cycling. To get your heart rate up & stimulate blood circulation.`].join(nl)],

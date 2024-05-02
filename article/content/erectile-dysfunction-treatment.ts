@@ -5,6 +5,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_, sticky__h2_class } from '../../sticky/index.js'
 // TODO: Add References: WIP
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
@@ -49,7 +50,7 @@ export default (ctx:request_ctx_T)=>''
 				`- a heart-healthy diet`,
 				`- stress management`].join(nl)],
 		])].join(nl)],
-	[`## Comprehensive Screening: The First Step`, [
+	[`## Comprehensive Screening${mobile_hidden__span_([`: The First Step`])}`, [
 		`A thorough evaluation is essential when Erectile Dysfunction occurs. To uncover any underlying cardiovascular risk factors or diseases. This comprehensive screening includes:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Medical history review`, [
@@ -66,7 +67,7 @@ export default (ctx:request_ctx_T)=>''
 				`Such as electrocardiograms (EKGs) or stress tests. If deemed necessary based on initial assessments.`].join(nl)],
 		])
 	].join(nl)],
-	[`## Treatment Strategies Focusing on Heart Health`, [
+	[`## Treatment Strategies${mobile_hidden__span_([` Focusing on Heart Health`])}`, [
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Lifestyle as Medicine`, [
 				`A healthy lifestyle is foundational to improve blood circulation. Solving root causes of Erectile Dysfunction.`].join(nl)],
@@ -125,7 +126,7 @@ export default (ctx:request_ctx_T)=>''
 				`- Other ED treatments if needed (injections, devices)`
 			].join(nl)],
 		])].join(nl)],
-	[`## Integrated Treatment Approaches`, [
+	[`## Integrated Treatment${mobile_hidden__span_([` Approaches`])}`, [
 		`Addressing ED in the context of cardiovascular health involves a multifaceted treatment strategy. Improving erectile function & mitigating cardiovascular risk factors.`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Lifestyle Modifications`, [
@@ -136,12 +137,12 @@ export default (ctx:request_ctx_T)=>''
 				`- moderation of alcohol consumption.`].join(nl)],
 			[`### Pharmacological Treatments`, [
 				`For many men with ED, phosphodiesterase type 5 (PDE5) inhibitors are effective. These medications may not be suitable for everyone. Especially those with certain heart conditions or those taking nitrates for chest pain. In such cases, alternative treatments & careful management of cardiovascular medications are necessary.`].join(nl)],
-			[`### Monitoring & Management of Cardiovascular Conditions`, [
+			[`### Monitoring & Management${mobile_hidden__span_([` of Cardiovascular Conditions`])}`, [
 				`Continuous monitoring & management of their heart condition are paramount. Integral components of treatment include:`,
 				`- adjustments to cardiovascular medications`,
 				`- adoption of heart-healthy diets`,
 				`- regular follow-up with healthcare providers`].join(nl)],
-			[`### Addressing Psychological Components`, [
+			[`### ${mobile_hidden__span_([`Addressing `])}Psychological Components`, [
 				`The psychological impact of ED & heart disease is critical to long-term health. Counseling & therapy benefits sexual function & heart health by:`,
 				`- providing support`,
 				`- alleviating stress`,
@@ -153,12 +154,12 @@ export default (ctx:request_ctx_T)=>''
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Comprehensive Evaluation`, [
 				`A thorough cardiovascular checkup to identify risks & create a personalized management plan.`].join(nl)],
-			[`### Open Communication with Your Doctor`, [
+			[`### Open Communication${mobile_hidden__span_([` with Your Doctor`])}`, [
 				`Discussing your sexual concerns allows for better treatment coordination.`].join(nl)],
 			[`### Long-Term Commitment`, [
 				`Lifestyle changes & ongoing medication management are key for sustainable improvement.`].join(nl)],
 		])].join(nl)],
-	[`## The Benefits of a Heart-Centered Approach`, [
+	[`## Benefits${mobile_hidden__span_([` of a Heart-Centered Approach`])}`, [
 		`By addressing the underlying cardiovascular issues that contributing to ED. You're not just improving your sex life, you're:`,
 		`- Reducing the risk of heart attack & stroke`,
 		`- Enhancing your overall energy & well-being`,
