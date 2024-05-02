@@ -5,6 +5,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -16,7 +17,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-	[`## Understanding Robotic Hair & Beard Transplants`, [
+	[`## ${mobile_hidden__span_([`Understanding `])}Robotic Hair & Beard Transplants`, [
 		`Robotic hair & beard transplants are minimally invasive procedures. Using robotics to enhance the accuracy & efficiency of the hair transplantation process. Robotic arms harvest hair follicles from a donor area (usually the back of the scalp). And implant them into balding or thinning areas of the scalp or facial regions. The ARTAS® system uses sophisticated imaging & robotic arms. Designed to augment the capabilities of human surgeons. To select & extract individual follicular units${bodyexpert_footnote__sup_(ctx)}${bernsteinmedical_footnote__sup_(ctx)}${hairmd_footnote__sup_(ctx)}. The technology performs follicular unit extraction (FUE). One of the most advanced & popular techniques in hair transplantation.`].join(nl)],
 	[`## How It Works`, [
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
@@ -24,12 +25,12 @@ export default (ctx:request_ctx_T)=>''
 				`The robotic system creates a 3D digital map of the patient's scalp or beard area. Analyzing various parameters such as hair density, angle, & orientation${bernsteinmedical_footnote__sup_(ctx)}${hairmd_footnote__sup_(ctx)}.`].join(nl)],
 			[`### Follicular Unit Extraction`, [
 				`Using its robotic arm & advanced algorithms. The precision system identifies & extracts optimal hair follicles from the donor area.${bodyexpert_footnote__sup_(ctx)}${bernsteinmedical_footnote__sup_(ctx)}.`].join(nl)],
-			[`### Recipient Site Creation & Implantation`, [
+			[`### ${mobile_hidden__span_([`Recipient `])}Site Creation & Implantation`, [
 				`The surgeon programs the design plan into the robot. Which then creates recipient sites. Implanting the harvested follicles at the correct angle & depth for a natural-looking outcome${bernsteinmedical_footnote__sup_(ctx)}${aedit_footnote__sup_(ctx)}.`].join(nl)],
 		]),
 		``,
 		`The process begins with the robotic system scanning & mapping the patient's scalp. To identify the optimal harvesting sites for hair follicles. Sophisticated algorithms guide the robot arm to select the best donor hairs. Based on their angle & depth to ensure a natural-looking result. The robotic arm has a tiny punch tool. Which extracts individual follicular units from the scalp. These units are then implanted in the balding or thinning areas of the head or face. Following the natural growth pattern of the hair. To ensure seamless & aesthetically pleasing results.`].join(nl)],
-	[`## Advantages of Robotic Transplants`, [
+	[`## Advantages${mobile_hidden__span_([` of Robotic Transplants`])}`, [
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Precision, Accuracy, & Efficiency`, [
 				`Robotic systems can perform the extraction & implantation with microscopic accuracy. Reducing the risk of damaging follicles & ensuring a higher graft survival rate${bodyexpert_footnote__sup_(ctx)}${bernsteinmedical_footnote__sup_(ctx)}. This minimizes damage to healthy follicles. Leading to a more natural-looking hair transplant.`].join(nl)],
@@ -41,7 +42,7 @@ export default (ctx:request_ctx_T)=>''
 				`Automation lessens physical strain on the surgeon. Contributing to a more consistent quality of grafts throughout the procedure.`].join(nl)],
 			[`### Customizable Results`, [
 				`Advanced imaging allows for the customization of hairline design & density. Ensuring results that align with patient expectations${hairmd_footnote__sup_(ctx)}${aedit_footnote__sup_(ctx)}.`].join(nl)],
-			[`### Enhanced Precision & Reduced Trauma`, [
+			[`### Enhanced Precision${mobile_hidden__span_([` & `, `/`])}Reduced Trauma`, [
 				`A key advantage of using robotic technology in hair & beard transplants is precision. The robotic arm can create perfectly sized extraction sites & angle the grafts. Which minimizes scalp trauma & improves the viability of the transplanted follicles. This precision promotes faster healing. And it reduces the risk of complications such as scarring.`].join(nl)],
 			[`### Increased Efficiency`, [
 				`The robotic system operates with no fatigue. Allowing for quicker procedures compared to traditional manual techniques. This efficiency translates into shorter treatment times & potentially lower costs for patients.`].join(nl)],
@@ -62,7 +63,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Procedure & Recovery`, [
 				`The procedure is performed under local anesthesia. Patients can return home the same day. Recovery involves minimal discomfort. With many patients resuming normal activities within a few days. The transplanted hair usually falls out within a few weeks. A normal part of the process. Before growing back permanently over several months.`].join(nl)],
 		])].join(nl)],
-	[`## Is Robotic Hair & Beard Transplantation Right for You?`, [
+	[`## Is ${mobile_hidden__span_([`Robotic Hair & Beard Transplantation`, `It`])} Right for You?`, [
 		`Robotic hair & beard transplants have numerous benefits. But it's not a one-size-fits-all solution. Consider these factors:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Hair Type & Color`, [

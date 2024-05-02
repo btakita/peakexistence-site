@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -12,16 +13,9 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-	[`## Benefits of Exercise with Oxygen Therapy`, [
+	[`## Benefits${mobile_hidden__span_([` of Exercise with Oxygen Therapy`])}`, [
 		`HBOT enhances the body’s immune response to fight bacterial & fungal infections. Aiding in the recovery from severe soft tissue infections.`].join(nl)],
-	[`## The Science Behind EWOT: How it Works`, [
-		`During conventional exercise, our muscles require oxygen to produce energy for movement. As we age or encounter health challenges, our body’s ability to deliver oxygen efficiently may diminish. However, EWOT addresses this by enhancing oxygen delivery, allowing your body to work at its full potential during exercise.`,
-		``,
-		`When you exercise with additional oxygen, your blood becomes oxygen-rich. Enhancing the oxygen saturation of tissues & organs. This increased oxygenation:`,
-		`- supports cellular function`,
-		`- aids in detoxification`,
-		`- helps improve overall cardiovascular health`].join(nl)],
-	[`## Conditions Treated with HBOT`, [
+	[`## Conditions Treated${mobile_hidden__span_([` with HBOT`])}`, [
 		`HBOT has shown remarkable benefits in treating various medical conditions. Including but not limited to:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Radiation Injuries`, [

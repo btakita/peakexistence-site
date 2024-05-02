@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -12,7 +13,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-  [`## Understanding the Components`, [
+  [`## ${mobile_hidden__span_([`Understanding the `])}Components`, [
     dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
       [`### Myer's Cocktail`, [
         `Dr. John Myers developed this therapy in the 1950s. This intravenous therapy combines essential vitamins & minerals. Including vitamin C, B vitamins, magnesium, & calcium. It bypasses the digestive system, maximizing absorption into the bloodstream.`].join(nl)],
@@ -21,7 +22,7 @@ export default (ctx:request_ctx_T)=>''
       [`### Glutathione`, [
         `Dubbed the "master antioxidant". Glutathione plays a critical role in detoxifying the body. Combating oxidative stress, & supporting the immune system. It's essential for maintaining cellular health & preventing aging-related decline.`].join(nl)],
     ])].join(nl)],
-  [`## The Foundation: The Myers' Cocktail`, [
+  [`## ${mobile_hidden__span_([`The Foundation: `])}The Myers' Cocktail`, [
     `Myers' Cocktail is a combination of:`,
     dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
       [`### B vitamins`, [
@@ -54,7 +55,7 @@ export default (ctx:request_ctx_T)=>''
       [`### Glutathione`, [
         `Glutathione protects cells from damage & helps with detoxification. Glutathione levels can also decrease with age & various health issues.`].join(nl)],
     ])].join(nl)],
-  [`## Benefits of adding NAD+ & glutathione to the Myers' Cocktail`, [
+  [`## Benefits of ${mobile_hidden__span_([`adding `])}NAD+ & glutathione${mobile_hidden__span_([` to the Myers' Cocktail`])}`, [
     dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
       [`### Enhanced energy production`, [
         `NAD+ impacts cellular energy. Its inclusion can further boost energy levels.`].join(nl)],
@@ -65,7 +66,7 @@ export default (ctx:request_ctx_T)=>''
     ])].join(nl)],
   [`## Synergistic Benefits`, [
     `When combined, the Myer's Cocktail with NAD & Glutathione offers a comprehensive approach to wellness:`,
-    dl_tree_({ctx }, ()=>[
+    dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
       [`### Enhanced Energy Production`, [
         `The Myer's vitamins & NAD boost mitochondrial function, providing a significant energy uplift.`].join(nl)],
       [`### Detoxification & Antioxidant Support`, [

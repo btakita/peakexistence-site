@@ -37,11 +37,18 @@ export default (ctx:request_ctx_T)=>''
 				`Informs couples about potential genetic disorders in offspring.`].join(nl)],
 		])].join(nl)],
 	[`## Considerations`, [
-		`| **Pros**                                     | **Cons**                                            |`,
-		`|:---------------------------------------------|:----------------------------------------------------|`,
-		`| Offers detailed health insights              | Potential for emotional distress                    |`,
-		`| Can guide personalized healthcare            | Privacy concerns regarding genetic information      |`,
-		`| Help family planning & risk assessment       | May lead to discrimination by insurers or employers |`].join(nl)],
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+			[`### Pros`, [
+				`- Offers detailed health insights`,
+				`- Can guide personalized healthcare`,
+				`- Help family planning & risk assessment`,
+			].join(nl)],
+			[`### Cons`, [
+				`- Potential for emotional distress`,
+				`- Privacy concerns regarding genetic information`,
+				`- May lead to discrimination by insurers or employers`,
+			].join(nl)],
+		])].join(nl)],
 	[`## Who Should Consider Genetic Testing?`, [
 		`Individuals with:`,
 		`- a family history of certain genetic conditions`,

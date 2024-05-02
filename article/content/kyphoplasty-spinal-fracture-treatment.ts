@@ -5,6 +5,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -16,7 +17,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-	[`## Understanding Vertebral Compression Fractures`, [
+	[`## ${mobile_hidden__span_([`Understanding `])}Vertebral Compression Fractures`, [
 		`Vertebral compression fractures occur when the bony block or vertebral body in the spine collapses, which can lead to severe pain, deformity, & loss of height. These fractures are most common in the thoracic & lumbar regions of the spine & are often associated with osteoporosis or metastatic tumors${footnote__sup__sort([ref10_footnote__sup_(ctx), ref20_footnote__sup_(ctx),])}.`].join(nl)],
 	[`## Understanding Kyphoplasty`, [
 		`Kyphoplasty is performed under local anesthesia or mild sedation, allowing the patient to remain awake but comfortable. The procedure involves the insertion of a balloon-like device into the fractured vertebra through a small incision in the back. Under X-ray guidance, the balloon is carefully inflated to elevate the collapsed vertebral body, attempting to return it to its original position. Once the vertebra is elevated, the balloon is deflated & removed, leaving a cavity that is then filled with a special bone cement. This cement hardens quickly, stabilizing the bone & securing it in its corrected position.`].join(nl)],
@@ -65,7 +66,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Short Recovery Time`, [
 				`Patients often return home on the same day of the procedure. Quickly resuming normal activities.`].join(nl)],
 		])].join(nl)],
-	[`## Ideal Candidates for Kyphoplasty`, [
+	[`## Ideal Candidates${mobile_hidden__span_([` or Kyphoplasty`])}`, [
 		`Kyphoplasty is most effective for patients who have recently suffered vertebral compression fractures. Ideal candidates typically include:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Osteoporosis Patients`, [
@@ -79,7 +80,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Persistent Pain`, [
 				`When conservative measures like rest, medication, or bracing haven't helped.`].join(nl)],
 		])].join(nl)],
-	[`## Recovery & Care Post-Procedure`, [
+	[`## Recovery & Care${mobile_hidden__span_([` Post-Procedure`])}`, [
 		`Post-procedure care for kyphoplasty is straightforward. Patients are generally advised to:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Rest`, [
@@ -91,7 +92,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Physical Therapy`, [
 				`Physical therapy benefits some patients. Strengthening their back muscles & improving spinal flexibility.`].join(nl)],
 		])].join(nl)],
-	[`## Success Rates & Patient Satisfaction`, [
+	[`## Success Rates${mobile_hidden__span_([` & Patient Satisfaction`])}`, [
 		`Kyphoplasty has a high success rate. With most studies showing around a 90% success rate. Significantly relieving the pain of fractured vertebrae${ref13_footnote__sup_(ctx)}. Patient satisfaction is also high. Studies indicating ~92% of people who undergo kyphoplasty report better pain relief. After the procedure${ref11_footnote__sup_(ctx)}.`].join(nl)],
 	[`## Important Considerations`, [
 		`Kyphoplasty is generally considered safe. As with any surgical procedure, there are potential risks & complications, including:`,

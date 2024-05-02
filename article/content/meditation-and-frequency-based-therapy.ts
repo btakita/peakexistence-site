@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -14,7 +15,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-	[`## Meditation: An Ancient Tool for Inner Exploration`, [
+	[`## Meditation: ${mobile_hidden__span_([`An Ancient Tool for `])}Inner Exploration`, [
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Centering the Mind`, [
 				`Meditation involves techniques to focus attention & cultivate calmness. Common forms include mindfulness meditation, focused breathing, & guided visualizations.`].join(nl)],
@@ -39,14 +40,14 @@ export default (ctx:request_ctx_T)=>''
 		`- improved concentration`,
 		`- lower blood pressure`,
 		`- enhanced immune function`].join(nl)],
-	[`## The Science Behind the Serenity`, [
+	[`## ${mobile_hidden__span_([`The `])}Science Behind the Serenity`, [
 		`The benefits of meditation go beyond anecdotes. Neuroimaging & physiological studies have documented changes in brain activity during meditation. Particularly in areas associated with:`,
 		` attention`,
 		` emotion regulation`,
 		` mental flexibility`,
 		``,
 		`These changes lead to significant improvements in psychological well-being. Making meditation a powerful tool in mental health care.`].join(nl)],
-	[`## Frequency-Based Therapy: The Science of Vibrations`, [
+	[`## ${mobile_hidden__span_([`Frequency-Based Therapy: `])}The Science of Vibrations`, [
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Everything Has a Frequency`, [
 				`At the atomic level, everything vibrates at a specific frequency. Including our cells & organs.`].join(nl)],
@@ -79,7 +80,7 @@ export default (ctx:request_ctx_T)=>''
 				`Sound frequencies can influence brain wave patterns. Promoting relaxation & healing responses in the body. This therapy is particularly effective in conjunction with meditation. Enhancing the meditative experience & facilitating deeper states of relaxation & awareness.`].join(nl)]
 		])
 	].join(nl)],
-	[`## Where Meditation & Frequency Therapy May Intersect`, [
+	[`## ${mobile_hidden__span_([`Where `])}Meditation & Frequency Therapy${mobile_hidden__span_([` Intersects`])}`, [
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Enhanced Relaxation`, [
 				`Frequency-based therapies like binaural beats & sound baths facilitate a deeper meditative state.`].join(nl)],
@@ -103,7 +104,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Consult with your doctor`, [
 				`Especially if you have any existing health conditions.`].join(nl)],
 		])].join(nl)],
-	[`## Practical Applications & Accessibility`, [
+	[`## Practical Applications${mobile_hidden__span_([` & Accessibility`])}`, [
 		`The connections between our minds, bodies. We are learning more about the subtle vibrational nature of our world. Meditation, with its long history & growing scientific support, illuminates the potential & application.`,
 		``,
 		`Meditation & frequency-based therapy into daily life is becoming more accessible. Examples include guided meditation apps that include sound therapy components. To specialized classes & sessions offered by wellness centers. You can find resources tailored to your needs & preferences. The simplicity of these practices promotes integration into various settings, including:`,

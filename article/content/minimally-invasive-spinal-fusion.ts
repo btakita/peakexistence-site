@@ -6,6 +6,7 @@ import { md__raw_ } from '@rappstack/ui--any/md'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -27,9 +28,9 @@ export default (ctx:request_ctx_T)=>''
 + md__raw_(ctx,
 	`Spinal fusion surgery aims to alleviate chronic back pain. Minimally invasive techniques reduce recovery time & complications.`)
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-	[`## What is Minimally Invasive Spinal Fusion?`, [
+	[`## ${mobile_hidden__span_([`What is `])}Minimally Invasive Spinal Fusion?`, [
 		`Minimally invasive spinal fusion joins two or more vertebrae. This limits movement & reduces pain. Small incisions & specialized instruments aid the procedure.`].join(nl)],
-	[`## The Evolution of Minimally Invasive Spinal Fusion`, [
+	[`## ${mobile_hidden__span_([`The `])}Evolution of ${mobile_hidden__span_([`Minimally Invasive Spinal`, `MIS`])} Fusion`, [
 		`Minimally invasive spinal fusion techniques address the drawbacks of open spine surgery. These techniques involve:`,
 		`- smaller skin incisions`,
 		`- less tissue damage`,
@@ -45,7 +46,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Muscle Sparing Techniques`, [
 				`Surgeons employ approaches that avoid cutting through large muscles. Instead of working between them to reach the spine.`].join(nl)],
 		])].join(nl)],
-	[`## Types of MIS Fusion Techniques`, [
+	[`## ${mobile_hidden__span_([`Types of `])}MIS Fusion Techniques`, [
 		`Several minimally invasive approaches exist. With your surgeon choosing the best option based on your specific condition. Common types include:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Transforaminal Lumbar Interbody Fusion (TLIF)`, [
@@ -55,11 +56,11 @@ export default (ctx:request_ctx_T)=>''
 			[`### Anterior Lumbar Interbody Fusion (ALIF)`, [
 				`ALIF accesses the spine from the front of the body (abdomen). It provides a clear path to the spine & avoids major back muscles.`].join(nl)],
 			[`### Extreme Lateral Interbody Fusion (XLIF or DLIF)`, [
-				`XLIF uses a side approach. It minimizes muscle disruption & is ideal for the mid to lower spine. Often used when multiple spinal levels need fusion.`].join(nl)],
+				`XLIF (or DLIF) uses a side approach. It minimizes muscle disruption & is ideal for the mid to lower spine. Often used when multiple spinal levels need fusion.`].join(nl)],
 		])].join(nl)],
 	[`## Techniques & Technologies in MISF`, [
 		`MISF employs specialized instruments, such as tubular retractors & endoscopes. To access the spine through small incisions. Using an operating microscope or endoscope equipped with a camera. Allows surgeons to visualize the surgical site. Without the need for large incisions${footnote__sup__sort([ref1_footnote__sup_(ctx),/* ref3_footnote__sup_(ctx), */ ref5_footnote__sup_(ctx), ref14_footnote__sup_(ctx),])}. Using advanced imaging techniques, such as fluoroscopy or computer-assisted navigation. To guide the accurate placement of hardware. Such as screws & rods, to stabilize the spine${footnote__sup__sort([ref10_footnote__sup_(ctx), ref20_footnote__sup_(ctx),])}.`].join(nl)],
-	[`## Indications for Minimally Invasive Spinal Fusion`, [
+	[`## Indications for ${mobile_hidden__span_([`Minimally Invasive Spinal`, `MIS`])} Fusion`, [
 		`MISF is recommended for various spinal conditions. When nonsurgical treatments fail to provide adequate relief. Indications include${footnote__sup__sort([ref11_footnote__sup_(ctx), ref16_footnote__sup_(ctx), ref20_footnote__sup_(ctx),])}:`,
 		`- herniated discs`,
 		`- spinal stenosis`,
@@ -67,7 +68,7 @@ export default (ctx:request_ctx_T)=>''
 		`- degenerative spinal disease`,
 		`- spine deformities like scoliosis`,
 		`The specific approach & technique used in MISF depend on the location & nature of the spinal pathology.`].join(nl)],
-	[`## Benefits of Minimally Invasive Spinal Fusion`, [
+	[`## Benefits of ${mobile_hidden__span_([`Minimally Invasive Spinal`, `MIS`])} Fusion`, [
 		`The benefits of MISF over traditional open surgery are numerous:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Reduced Tissue Trauma`, [
@@ -81,7 +82,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Improved Cosmetic Outcomes`, [
 				`Smaller incisions result in minimal scarring${footnote__sup__sort([/* ref19_footnote__sup_(ctx), */])}.`].join(nl)],
 		])].join(nl)],
-	[`## Common Minimally Invasive Spinal Fusion Procedures`, [
+	[`## ${mobile_hidden__span_([`Common Minimally Invasive Spinal`, `MIS`])} Fusion Procedures`, [
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Transforaminal Lumbar Interbody Fusion (TLIF)`, [
 				`This procedure involves unilateral access to the disc space. To remove a degenerative disc & place a fusion device${ref20_footnote__sup_(ctx)}.`].join(nl)],
@@ -92,7 +93,7 @@ export default (ctx:request_ctx_T)=>''
 		])].join(nl)],
 	[`## Recovery & Outcomes`, [
 		`Recovery from MISF varies depending on the individual patient & the extent of the surgery. Most patients can expect to return home within a few days post-surgery, with a total recovery time averaging around six weeks${footnote__sup__sort([/* ref17_footnote__sup_(ctx), */])}. Physical therapy is often prescribed to strengthen the muscles around the spine & aid in recovery${footnote__sup__sort([/* ref17_footnote__sup_(ctx), */])}.`].join(nl)],
-	[`## Who is a Candidate for MIS Fusion?`, [
+	[`## ${mobile_hidden__span_([`Who is a Candidate`, `Candidates`])} for MIS Fusion?`, [
 		`While appealing, MIS fusion is not right for everyone. Factors influencing suitability include:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Severity of Condition`, [

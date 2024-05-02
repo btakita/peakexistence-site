@@ -7,7 +7,7 @@ import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...joint_saving_therapy,
-	title: `Joint Saving Therapy: A Path to Mobility Without Surgery`,
+	title: `Joint Saving Therapy`,
 })
 // @formatter:off
 // language=md
@@ -75,11 +75,18 @@ export default (ctx:request_ctx_T)=>''
 				`Buying time may prevent the need for replacement.`].join(nl)],
 		])]],
 	[`## Considerations`, [
-		`| **Pros**                                  | **Cons**                                   |`,
-		`|:------------------------------------------|:-------------------------------------------|`,
-		`| Non-surgical, less risk.                  | May not offer permanent solutions.         |`,
-		`| Can improve joint health naturally.       | Results vary by individual.                |`,
-		`| Offers comprehensive, holistic approach.  | Some treatments require ongoing commitment.|`].join(nl)],
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+			[`### Pros`, [
+				`- Non-surgical, less risk.`,
+				`- Can improve joint health naturally.`,
+				`- Offers comprehensive, holistic approach.`,
+			].join(nl)],
+			[`### Cons`, [
+				`- May not offer permanent solutions.`,
+				`- Results vary by individual.`,
+				`- Some treatments require ongoing commitment.`,
+			].join(nl)],
+		])].join(nl)],
 	[`## Conclusion`, [
 		`Joint Saving Therapy offers hope. It's for those seeking to avoid joint replacement. It combines treatments to enhance joint health & mobility. Yet, it's not a one-size-fits-all. Discuss options with your healthcare provider. It's a journey toward maintaining your body's natural joints for as long as possible.`].join(nl)],
 ])

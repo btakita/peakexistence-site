@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -12,7 +13,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-	[`## What is Psychedelic Therapy?`, [
+	[`## ${mobile_hidden__span_([`What is `])}Psychedelic Therapy?`, [
 		`Psychedelic Exercise Therapy combines physical activity & carefully administered psychedelic substances. To improve mental health & overall well-being. Dr. Manny Emenike addresses the mind & body for comprehensive healing. As a medical doctor specializing in internal medicine.`,
 		``,
 		`Psychedelic therapy is also known as psychedelic-assisted psychotherapy (PAP).  Psychedelic therapy is a psychiatric practice. Involving the controlled use of psychedelic substances as part of a psychotherapeutic process.`,

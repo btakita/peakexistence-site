@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -18,7 +19,7 @@ export default (ctx:request_ctx_T)=>''
 		`- clots`,
 		`- plaque buildup`,
 		`- abnormalities in blood flow`].join(nl)],
-	[`## How is Ultrasound Used for Vessel Screening?`, [
+	[`## ${mobile_hidden__span_([`How is `])}Ultrasound Used for Vessel Screening${mobile_hidden__span_([`?`])}`, [
 		`Ultrasound is used to screen for several types of chronic vascular conditions:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Carotid Artery Disease`, [

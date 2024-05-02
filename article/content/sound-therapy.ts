@@ -3,6 +3,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -16,7 +17,7 @@ export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## The Foundations of Sound Therapy`, [
 		`Sound therapy is also known as sound healing or vibrational medicine. Sound therapy's predicated on the principle that matter vibrates at specific frequencies. Including the human body, vibrates at specific frequencies. Health & well-being influenced by these vibrational states. Disrupting or unbalancing the body's natural frequencies leads to physical or emotional disharmony. Sound therapy seeks to restore balance & promote healing. By using various musical instruments & vocal techniques to produce therapeutic sounds & vibrations.`].join(nl)],
-	[`## How Does Sound Therapy Work?`, [
+	[`## How Does ${mobile_hidden__span_([`Sound Therapy`, `It`])} Work?`, [
 		`Several theories explain the potential mechanisms of sound therapy:`,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Brainwave Entrainment`, [
@@ -75,14 +76,14 @@ export default (ctx:request_ctx_T)=>''
 				`- clarity`,
 				`- cognitive function`].join(nl)],
 		])].join(nl)],
-	[`## Who Might Consider Sound Therapy?`, [
+	[`## Who Might Consider ${mobile_hidden__span_([`Sound Therapy`, `It`])}?`, [
 		`Sound therapy is generally safe & can be explored by anyone interested in:`,
 		`- Stress Reduction`,
 		`- Seeking deeper relaxation`,
 		`- Mood support`,
 		`- Enhancing creativity or meditation`,
 		`- Complement to other therapies`].join(nl)],
-	[`## Finding a Sound Therapy Practitioner`, [
+	[`## ${mobile_hidden__span_([`Finding a `])}Sound Therapy Practitioner`, [
 		`- If seeking sound therapy for specific health conditions. Look for certified therapists with training & experience in addressing your needs.`,
 		`- Consider whether you prefer individual sessions or group experiences like sound baths.`,
 		`- **Trust your intuition:** Choose a practitioner & environment that feels comfortable & resonant for you.`].join(nl)],
