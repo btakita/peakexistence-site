@@ -126,7 +126,7 @@ export default (ctx:request_ctx_T)=>''
 				`A study reported that even short exposures to high elevation can cause a complex cascade of changes within red blood cells that make it easier to breathe at high altitudes, & these changes persist for weeks & possibly months after descending to lower elevations${ref2_9_footnote__sup_(ctx)}.`].join(nl)],
 			[`### ${mobile_hidden__span_(['Broad Scientific Consensus of Hematological changes '])}Enhancing Aerobic Performance`, [
 				`These findings are consistent with the broader scientific consensus that altitude training can lead to hematological changes that enhance aerobic performance at sea level${footnote__sup__sort([ref3_5_footnote__sup_(ctx), ref2_1_footnote__sup_(ctx), ref2_3_footnote__sup_(ctx), ref2_9_footnote__sup_(ctx), ref2_16_footnote__sup_(ctx)])}.`].join(nl)],
-			[`### ${mobile_hidden__span_(['Different '])}People Respond Differently${mobile_hidden__span_(' to Altitude Training')}`, [
+			[`### ${mobile_hidden__span_(['Different '])}People Respond Differently${mobile_hidden__span_([' to Altitude Training'])}`, [
 				`It is important to note that the response to altitude training can be quite individual, & not all athletes may experience the same level of benefit${footnote__sup__sort([ref2_2_footnote__sup_(ctx), ref2_6_footnote__sup_(ctx), ref2_7_footnote__sup_(ctx), ref2_13_footnote__sup_(ctx), ref2_20_footnote__sup_(ctx)])}. Professional guidance is beneficial in navigating your training.`].join(nl)],
 			[`### ${mobile_hidden__span_(['Studies that Correlate '])}Living at Altitude with Longevity`, [
 				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
