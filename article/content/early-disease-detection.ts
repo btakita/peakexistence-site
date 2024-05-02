@@ -1,20 +1,37 @@
 import { early_disease_detection } from '@btakita/domain--server--peakexistence/feature'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
+import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
+import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...early_disease_detection,
+	description_md: [
+		`Early disease detection stands as a cornerstone of preventive medicine. Offering significant benefits to patient outcomes & healthcare economics.`,
+		``,
+		`Medical professionals can implement interventions that are both more effective & less invasive. By identifying diseases at their nascent stages. Enhancing patient prognosis & reducing the burden on healthcare systems. This article delves into the importance of:`,
+		`- early disease detection`,
+		`- the technologies driving advancements in this field`,
+		`- the impact of these developments on patient care`,
+	].join(nl)
 })
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Early Disease Detection`, [
-		`Early disease detection. Refers to the identification of a condition before the manifestation of significant symptoms. This proactive approach aims to uncover hidden diseases & risk factors. Enabling interventions that prevent the progression of the disease. The benefits of early detection are manifold. Extending from improved health outcomes to significant cost savings for healthcare systems.`].join(nl)],
+		`Early disease detection. Refers to the identification of a condition before the manifestation of significant symptoms. This proactive approach aims to uncover hidden diseases & risk factors. Enabling interventions that prevent the progression of the disease. Particularly chronic and life-threatening illnesses such as:`,
+    `- cancer`,
+    `- cardiovascular diseases`,
+    `- diabetes`,
+		``,
+    `Is crucial for effective treatment. Diagnosing diseases before they progress leads to better health outcomes. For instance, early-stage cancers are more treatable & often curable. Compared to their later-stage counterparts which might require more complex and costly interventions${footnote__sup__sort([ref_m1_2_footnote__sup_(ctx),ref_m1_3_footnote__sup_(ctx)])}.`,
+		``,
+		`The benefits of early detection are manifold. Extending from improved health outcomes to significant cost savings for healthcare systems.`].join(nl)],
 	[`## Benefits${mobile_hidden__span_([` of Early Disease Detection`])}`, [
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Improved Outcomes`, [
@@ -88,8 +105,51 @@ export default (ctx:request_ctx_T)=>''
 			[`### Advocate for Your Health`, [
 				`Don't be afraid to ask questions & seek second opinions if necessary.`].join(nl)],
 		])].join(nl)],
-	[`## The Future of Early Detection`, [
-		`Innovations such as AI & machine learning enhance the accuracy of diagnostic tools. While wearable technology is enabling continuous monitoring of vital health indicators. These advancements promise to make early detection more accessible & accurate. Revolutionizing the approach to preventive healthcare.`].join(nl)],
+	[`## Technologies Paving the Way`, [
+		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+			[`### AI & Machine Learning`, [
+				`Artificial intelligence (AI) & machine learning (ML) are transforming early disease detection. These technologies are capable of analyzing vast amounts of medical data, including:`,
+        `- genetic information`,
+        `- medical imaging`,
+        `- patient health records`,
+				``,
+        `To identify patterns that precede illness3. For example, AI algorithms can analyze mammograms with higher accuracy than traditional methods. Leading to earlier detection of breast cancer${ref_m1_2_footnote__sup_(ctx)}. Similarly, AI-driven tools used in cardiology, detect subtle signs of heart disease. That may be overlooked in routine examinations${ref_m1_2_footnote__sup_(ctx)}.`].join(nl)],
+			[`### Genetic Screening`, [
+				`Advancements in genetic screening have also enhanced our ability to detect diseases early. Technologies like CRISPR & next-generation sequencing. Allow for detailed analysis of an individual’s genetic makeup. Helping to predict the likelihood of developing certain conditions${ref_m1_3_footnote__sup_(ctx)}. This facilitates early intervention & personalizes medicine. Crafting treatments to the genetic profile of the patient.`].join(nl)],
+			[`### Wearable Technology`, [
+				`Wearable technology has become sophisticated. Capable of monitoring a wide range of physiological parameters in real-time. Devices that track:`,
+        `- heart rate`,
+        `- blood glucose levels`,
+        `- even oxygen saturation`,
+				``,
+        `Can alert users to potential health issues before they become apparent${ref_m1_3_footnote__sup_(ctx)}. This continuous monitoring is invaluable for early disease detection & management. Particularly for chronic conditions.`].join(nl)],
+			[`### Impact on Healthcare`, [
+				`The integration of advanced technologies into routine medical practice. Has profound implications for healthcare delivery. Early disease detection enables:`,
+				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+					[`#### Reduce Healthcare Costs`, [
+						`Early intervention typically requires less extensive treatment compared to addressing advanced-stage diseases. This reduction in treatment complexity and duration can lead to significant cost savings${ref_m1_2_footnote__sup_(ctx)}.`].join(nl)],
+					[`#### Improved Patient Outcomes`, [
+						`Patients benefit from higher survival rates & better quality of life. When catching & treating diseases early${ref_m1_2_footnote__sup_((ctx))}.`].join(nl)],
+					[`#### Enhanced Preventive Care`, [
+						`With better predictive tools, healthcare shifts from a reactive to a proactive model. Where prevention & early intervention become the norm${ref_m1_2_footnote__sup_(ctx)}.`].join(nl)],
+				]),
+			].join(nl)],
+		])].join(nl)],
+	[`## Challenges & Future Directions`, [
+		`Innovations such as AI & machine learning enhance the accuracy of diagnostic tools. While wearable technology is enabling continuous monitoring of vital health indicators. These advancements promise to make early detection more accessible & accurate. Revolutionizing the approach to preventive healthcare.`,
+		``,
+		`Despite its benefits, the implementation of early disease detection technologies faces several challenges. These include${footnote__sup__sort([ref_m1_2_footnote__sup_(ctx),ref_m1_3_footnote__sup_(ctx)])}:`,
+    `- the need for large-scale validation studies`,
+    `- integration into existing healthcare systems`,
+    `- addressing privacy concerns related to genetic and data privacy`,
+    `- widespread education & training for healthcare providers to effectively utilize these advanced technologies`,
+		``,
+		`Early disease detection will play an increasingly central role in healthcare. The potential to transform healthcare is immense with:`,
+    `- ongoing advancements in AI`,
+    `- genetic screening`,
+    `- wearable technologies`,
+		``,
+    `The focus will continue to shift towards more personalized & preventive care. Promising a future where life-threatening diseases can be more effectively managed. Or eradicated. Before they can cause significant harm.`].join(nl)],
 	[`## The Takeaway`, [
 		`Early disease detection offers the potential to change the course of your health by:`,
 		`- partnering with your doctor`,
@@ -99,3 +159,28 @@ export default (ctx:request_ctx_T)=>''
 		`Give yourself the invaluable gift of a longer, healthier, & more fulfilling life.`].join(nl)],
 ])
 // @formatter:on
+function ref_m1_2_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'm1_2'
+	}, [
+		tb_a_({
+			href: 'https://ycpsolidiance.com/article/artifical-intelligence-healthcare-southeast-asia',
+			nofollow: true,
+			wrap: true,
+		}, 'Partner Expertise: How AI is Revolutionizing Early Detection of Diseases')
+	])
+}
+function ref_m1_3_footnote__sup_(ctx:request_ctx_T) {
+	return footnote__sup_({
+		ctx,
+		id: 'm1_3'
+	}, [
+		tb_a_({
+			href: 'https://binariks.com/blog/ai-machine-learning-for-early-disease-detection/',
+			nofollow: true,
+			wrap: true,
+		}, 'AI/ML Algorithms for Early Disease Detection and Medical Diagnosis')
+	])
+}
+

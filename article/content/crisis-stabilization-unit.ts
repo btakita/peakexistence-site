@@ -175,5 +175,3 @@ function ref_c1_3_footnote__sup_(ctx:request_ctx_T) {
 // 		}, 'Coleman Crisis Stabilization Unit')
 // 	])
 // }
-
-
