@@ -32,11 +32,11 @@ export default (ctx:request_ctx_T)=>''
 	[`## Types of Genetic Testing`, [
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Diagnostic Testing`, [
-				`Genetic Testing Identifies specific genetic conditions if symptoms suggest a particular disorder. It confirms or rules out a suspected genetic disorder in symptomatic individuals. It provides a definitive diagnosis. And can be crucial in determining the appropriate management & treatment of the condition${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx),ref_g1_2_footnote__sup_(ctx)])}.`].join(nl)],
+				`Genetic Testing Identifies specific genetic conditions if symptoms suggest a particular disorder. It confirms or rules out a suspected genetic disorder in symptomatic individuals. It provides a definitive diagnosis. And it can be crucial in determining the appropriate management & treatment of the condition${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx),ref_g1_2_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Predictive & Presymptomatic Testing`, [
 				`Genetic Testing detects gene mutations associated with disorders that appear after birth. Often later in life. They can be particularly valuable for individuals with a family history of a genetic disorder but no current symptoms. This testing helps in taking preventive measures. Or planning for the future healthcare needs${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx),ref_g1_2_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Pharmacogenomics`, [
-				`Genetic testing for pharmacogenomics predicts how an individual will respond to specific medications. Helping healthcare providers choose the most effective and least harmful treatment options. This personalized approach improves patient care. Reducing the trial-and-error process often associated with prescribing medications${ref_g1_4_footnote__sup_(ctx)}.`].join(nl)],
+				`Genetic testing for pharmacogenomics predicts how an individual will respond to specific medications. Helping healthcare providers choose the most effective & least harmful treatment options. This personalized approach improves patient care. Reducing the trial-and-error process often associated with prescribing medications${ref_g1_4_footnote__sup_(ctx)}.`].join(nl)],
 			[`### Carrier Testing`, [
 				`Offered to individuals who have a family history of a genetic disorder. Or belong to certain ethnic groups that are at a higher risk for specific genetic conditions. Carrier testing can determine whether a person carries a copy of a gene mutation. That could be passed on to their children. Helping couples make informed reproductive choices${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx),ref_g1_2_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Prenatal Testing & Newborn Screening`, [
@@ -74,7 +74,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Cons`, [
 				`- Potential for emotional distress`,
 				`- Privacy concerns regarding genetic information`,
-				`- May lead to discrimination by insurers or employers`,
+				`- It may lead to discrimination by insurers or employers`,
 			].join(nl)],
 		])].join(nl)],
 	[`## Who Should Consider Genetic Testing?`, [
@@ -92,7 +92,7 @@ export default (ctx:request_ctx_T)=>''
 				`Discuss the results with a professional to understand the implications.`].join(nl)],
 		])].join(nl)],
 	[`## Conclusion`, [
-		`Genetic illuminates the path to understanding our deepest biological secrets. Genetic testing holds the promise of personalized healthcare. Offering insights that enable more precise & personalized healthcare. As technology advances, the scope and accuracy of genetic testing will continue to improve. Further integrating genetics into everyday medical practice & helping individuals make better-informed health decisions.`].join(nl)],
+		`Genetic illuminates the path to understanding our deepest biological secrets. Genetic testing holds the promise of personalized healthcare. Offering insights that enable more precise & personalized healthcare. As technology advances, the scope & accuracy of genetic testing will continue to improve. Further integrating genetics into everyday medical practice & helping individuals make better-informed health decisions.`].join(nl)],
 ])
 // @formatter:on
 function ref_g1_1_footnote__sup_(ctx:request_ctx_T) {
