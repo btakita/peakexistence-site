@@ -96,7 +96,7 @@ export default (ctx:request_ctx_T)=>''
       `- improving mental health`,
       `- boosting immune function`,
 			``,
-      `Consult with healthcare professionals before starting any new exercise with detox regimen. To ensure it's safety & application for your individual health needs.`].join(nl)],
+      `Consult with healthcare professionals before starting any new exercise with detox regimen. To ensure its safety & application for your individual health needs.`].join(nl)],
 ])
 // @formatter:on
 function ref_e1_1_footnote__sup_(ctx:request_ctx_T) {
