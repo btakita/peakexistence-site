@@ -27,7 +27,7 @@ export default (ctx:request_ctx_T)=>''
 			`Exosomes play a critical role in the regulation of numerous physiological processes. From tissue repair to immune responses.`,
 		].join(nl)],
 	[`## Understanding Exosome Therapy`, [
-		`Exosomes are typically 30-150 nm in diameter. Almost all types of cells release exosomes. Exosomes are involved in numerous physiological processes, including:`,
+		`Exosomes are typically 30–150 nm in diameter. Almost all types of cells release exosomes. Exosomes are involved in numerous physiological processes, including:`,
 		``,
     `- tissue repair`,
     `- immune response`,
@@ -113,7 +113,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Safety`, [
 				`As acellular products, exosomes have a lower risk of inducing immune rejection. Or forming tumors. Compared to whole stem cells.`].join(nl)],
 			[`### Targeting Ability`, [
-				`Exosomes can target specific tissues or cells. To deliver specific therapeutic molecules to target tissues. Enhancing the efficacy and reducing the side effects of treatments.`].join(nl)],
+				`Exosomes can target specific tissues or cells. To deliver specific therapeutic molecules to target tissues. Enhancing the efficacy & reducing the side effects of treatments.`].join(nl)],
 			[`### Versatility`, [
 				`Exosomes can carry a wide range of therapeutic molecules. Making them suitable for various therapeutic applications${footnote__sup__sort([ref_e1_2_footnote__sup_(ctx),ref_e1_8_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Easier Storage & Delivery`, [
@@ -124,7 +124,7 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 			[`### Standardization`, [
-				`There is a need for standardized methods for exosome isolation, characterization, & storage. To ensure the consistency and quality of therapeutic exosomes${ref_e1_3_footnote__sup_(ctx)}.`].join(nl)],
+				`There is a need for standardized methods for exosome isolation, characterization, & storage. To ensure the consistency & quality of therapeutic exosomes${ref_e1_3_footnote__sup_(ctx)}.`].join(nl)],
 			[`### Regulatory Hurdles`, [
 				`As a relatively new therapeutic approach, exosome therapy must navigate complex regulatory pathways. To gain approval for clinical use${ref_e1_4_footnote__sup_(ctx)}.`].join(nl)],
 		]),
@@ -145,7 +145,7 @@ export default (ctx:request_ctx_T)=>''
 		`- minimal invasiveness`,
 		`- promising outcomes`,
 		``,
-		`Exosome therapy represents a significant advance in the field of regenerative medicine. Offering a versatile & safe approach to treating a wide array of diseases. As research continues to unravel the full potential of exosomes. This therapy is poised to become a cornerstone of future medical treatments. Transforming the landscape of disease management and patient care.`].join(nl)],
+		`Exosome therapy represents a significant advance in the field of regenerative medicine. Offering a versatile & safe approach to treating a wide array of diseases. As research continues to unravel, the full potential of exosomes. This therapy is poised to become a cornerstone of future medical treatments. Transforming the landscape of disease management & patient care.`].join(nl)],
 ])
 // @formatter:on
 function ref_e1_1_footnote__sup_(ctx:request_ctx_T) {
