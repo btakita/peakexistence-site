@@ -43,15 +43,15 @@ export default (ctx:request_ctx_T)=>''
     dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
       [`### Enhanced Detoxification & Antioxidant Protection`, [
         `- Glutathione plays a critical role in detoxifying harmful substances in the body. By neutralizing free radicals & reactive oxygen species, Glutathione helps protect cells from damage${footnote__sup__sort([ref_m2_3_footnote__sup_(ctx),ref_m1_7_footnote__sup_(ctx),ref_m1_13_footnote__sup_(ctx)])}.`,
-        `- NAD assists in the repair of damaged DNA & enhances the body's resilience to stress and aging${footnote__sup__sort([ref_m1_18_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx),ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx)])}.`
+        `- NAD assists in the repair of damaged DNA & enhances the body's resilience to stress & aging${footnote__sup__sort([ref_m1_18_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx),ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx)])}.`
       ].join(nl)],
       [`### Boosted Metabolic Function & Energy Levels`, [
-        `- NAD is converts energy from carbohydrates, fats, & proteins into ATP. The cellular energy currency${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx),ref_m1_18_footnote__sup_(ctx),ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx)])}.`,
+        `- NAD converts energy from carbohydrates, fats, & proteins into ATP. The cellular energy currency${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx),ref_m1_18_footnote__sup_(ctx),ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx)])}.`,
         `- The B vitamins in Myer's Cocktail are crucial co-factors in metabolic processes. Improving energy production${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx),ref_m1_9_footnote__sup_(ctx)])}.`
       ].join(nl)],
       [`### Improved Immune Function`, [
-        `- Vitamin C & Zinc in Myer's Cocktail support various cellular functions. Of the innate & adaptive immune system${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx),ref_m1_9_footnote__sup_(ctx)])}.`,
-        `- Glutathione enhances the immune response by promoting the proliferation of lymphocytes. Which are cells crucial for immune responses${footnote__sup__sort([ref_m2_3_footnote__sup_(ctx),ref_m1_13_footnote__sup_(ctx)])}.`].join(nl)],
+        `- Vitamin C & Zinc in Myer's Cocktail supports various cellular functions. Of the innate & adaptive immune system${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx),ref_m1_9_footnote__sup_(ctx)])}.`,
+        `- Glutathione enhances the immune response by promoting the proliferation of lymphocytes. Crucial white blood cells for immune responses${footnote__sup__sort([ref_m2_3_footnote__sup_(ctx),ref_m1_13_footnote__sup_(ctx)])}.`].join(nl)],
       [`### Support for Neurological Health`, [
         `- NAD benefits brain health. By supporting the function of neurons & protecting against neurodegenerative diseases${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx),ref_m1_18_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx),ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx)])}.`,
         `- Magnesium in Myer's Cocktail can help regulate neurotransmitter function. Which is vital for maintaining normal nerve & muscle function, & brain health${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx),ref_m1_9_footnote__sup_(ctx)])}.`
@@ -90,7 +90,7 @@ export default (ctx:request_ctx_T)=>''
   [`## NAD+ & Glutathione`, [
     dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
       [`### NAD+ (nicotinamide adenine dinucleotide)`, [
-        `An essential coenzyme involved in cellular energy production & metabolism. NAD+ levels decline with age. Some research suggests it may play a role in aging & age-related health conditions${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx)]),ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx)}.`].join(nl)],
+        `An essential coenzyme involved in cellular energy production & metabolism. NAD+ levels decline with age. Some research suggests it may play a role in aging & age-related health conditions${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx)],ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx))}.`].join(nl)],
       [`### Glutathione`, [
         `Glutathione protects cells from damage & helps with detoxification. Glutathione levels can also decrease with age & various health issues${ref_m2_3_footnote__sup_(ctx)}.`].join(nl)],
 			[`### Benefits`, [
@@ -144,7 +144,7 @@ export default (ctx:request_ctx_T)=>''
     `- discomfort at the injection site`,
     `- infrequent allergic reactions`,
 		``,
-    `Which underscore the importance of a professional medical setting for administration${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx),ref_m1_2_footnote__sup_(ctx),ref_m1_5_footnote__sup_(ctx),ref_m3_2_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx)])}.`].join(nl)],
+    `Which underscores the importance of a professional medical setting for administration${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx),ref_m1_2_footnote__sup_(ctx),ref_m1_5_footnote__sup_(ctx),ref_m3_2_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx)])}.`].join(nl)],
   [`## Conclusion`, [
 		`The combination of Myer's Cocktail with NAD & Glutathione offers a potent therapeutic option. That leverages the benefits of each component to support overall health. And treat specific health conditions. This integrative approach:`,
 		``,
@@ -258,7 +258,7 @@ function ref_m2_3_footnote__sup_(ctx:request_ctx_T) {
 		id: 'm2_3'
 	}, [
 		tb_a_({
-			href: 'http://imjournal.com/openaccess/pizzorno131.pdf',
+			href: 'https://imjournal.com/openaccess/pizzorno131.pdf',
 			nofollow: true,
 			wrap: true,
 		}, 'Glutathione!'),
