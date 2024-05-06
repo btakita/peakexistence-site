@@ -3,6 +3,7 @@ export const post_mod_a1:post_mod_T[] = await Promise.all([
 	import('./content/altitude-training.js'),
 	import('./content/anti-aging-and-life-extension-therapy.js'),
 	import('./content/aurora-zip-lumbar-fusion.js'),
+	import('./content/biote.js'),
 	import('./content/blood-flow-analysis.js'),
 	import('./content/bone-marrow-aspiration.js'),
 	import('./content/cardiovascular-health.js'),

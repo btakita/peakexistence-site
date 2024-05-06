@@ -12,15 +12,15 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...minimally_invasive_spinal_fusion,
 	title: 'Minimally Invasive Spinal Fusion:  Stabilizing the Spine with Less Disruption',
-	description_md: `
-Spinal fusion is a surgical procedure to join two or more vertebrae. This eliminates painful motion from an unstable spinal segment caused by conditions like:
-
-- degenerative disc disease
-- spondylolisthesis
-- some fractures
-
-Minimally invasive spinal fusion (MIS fusion) aims to achieve the same goal as traditional open fusion. With smaller incisions & less disruption to surrounding tissues.
-	`.trim()
+	description_md: [
+		`Spinal fusion is a surgical procedure to join two or more vertebrae. This eliminates painful motion from an unstable spinal segment caused by conditions like:`,
+		``,
+		`- degenerative disc disease`,
+		`- spondylolisthesis`,
+		`- some fractures`,
+		``,
+		`Minimally invasive spinal fusion (MIS fusion) aims to achieve the same goal as traditional open fusion. With smaller incisions & less disruption to surrounding tissues.`
+	].join(nl)
 })
 // @formatter:off
 // language=md

@@ -12,9 +12,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...blood_flow_analysis,
 	title: 'Blood Flow Analysis: Deciphering the Secrets of Your Cardiovascular System',
-	description: `
-The constant flow of blood throughout our bodies is the essence of life. The blood carries vital oxygen & nutrients to our organs & tissues. And removes waste products. When blood flow becomes compromised, it can put your health at risk. Blood flow analysis provides essential insights into your cardiovascular health. Enabling early detection & management of a wide range of health conditions.
-	`.trim()
+	description: `The constant flow of blood throughout our bodies is the essence of life. The blood carries vital oxygen & nutrients to our organs & tissues. And removes waste products. When blood flow becomes compromised, it can put your health at risk. Blood flow analysis provides essential insights into your cardiovascular health. Enabling early detection & management of a wide range of health conditions.`
 })
 // @formatter:off
 // language=md

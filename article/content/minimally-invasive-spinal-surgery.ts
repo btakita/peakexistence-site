@@ -10,15 +10,15 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...minimally_invasive_spinal_surgery,
 	title: 'Minimally Invasive Spinal Surgery: An Overview',
-	description_md: `
-Minimally invasive spinal surgery (MISS) offers patients a variety of options. For relief from back pain and other spinal conditions. MISS techniques involve smaller incisions than traditional open surgery. Which has less tissue damage & quicker recovery periods. Peakexistence provides minimally invasive spinal procedures including:
-
-- Aurora ZIP™ Procedure
-- Discseel® Procedure
-- Kyphoplasty
-- Percutaneous Spine Decompression
-- Spinal Cord Stimulation
-	`.trim(),
+	description_md: [
+		`Minimally invasive spinal surgery (MISS) offers patients a variety of options. For relief from back pain and other spinal conditions. MISS techniques involve smaller incisions than traditional open surgery. Which has less tissue damage & quicker recovery periods. Peakexistence provides minimally invasive spinal procedures including:`,
+		``,
+		`- Aurora ZIP™ Procedure`,
+		`- Discseel® Procedure`,
+		`- Kyphoplasty`,
+		`- Percutaneous Spine Decompression`,
+		`- Spinal Cord Stimulation`,
+	].join(nl),
 })
 // @formatter:off
 // language=md
