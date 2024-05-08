@@ -38,7 +38,7 @@ export default (ctx:request_ctx_T)=>''
 		`- aids in detoxification`,
 		`- helps improve overall cardiovascular health`].join(nl)],
 	[`## Benefits of EWOT`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Improved Exercise Performance`, [
 				`Studies have shown that EWOT enhances physical performance by increasing endurance & reducing fatigue. This is particularly beneficial for athletes & individuals engaged in high-intensity workouts${footnote__sup__sort([ref_e1_3_footnote__sup_(ctx),ref_e1_11_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Accelerated Recovery`, [
@@ -46,11 +46,11 @@ export default (ctx:request_ctx_T)=>''
 			[`### Enhanced Cognitive Function`, [
 				`EWOT benefits physical performance & has positive effects on cognitive functions. Such as:`,
 				``,
-        `- memory`,
-        `- focus`,
-        `- reaction times`,
+				`- memory`,
+				`- focus`,
+				`- reaction times`,
 				``,
-        `This is due to improved oxygenation of the brain during exercise${footnote__sup__sort([ref_e1_7_footnote__sup_(ctx),ref_e1_17_footnote__sup_(ctx)])}.`].join(nl)],
+				`This is due to improved oxygenation of the brain during exercise${footnote__sup__sort([ref_e1_7_footnote__sup_(ctx),ref_e1_17_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Cardiovascular Health`, [
 				`Increased oxygen levels support heart health. Improving blood flow & circulation. By improving oxygen delivery & reducing the workload on the heart during physical activity. EWOT contributes to better cardiovascular health. And helps in managing conditions, like hypertension & chronic heart failure${footnote__sup__sort([ref_e1_9_footnote__sup_(ctx),ref_e1_19_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Enhanced Weight Loss`, [
@@ -61,7 +61,7 @@ export default (ctx:request_ctx_T)=>''
 				`Improved oxygenation improves cognitive function. Promoting better focus & mental clarity.`].join(nl)],
 			[`### Reduced Inflammation`, [
 				`Oxygen plays a vital role in reducing inflammation. Alleviating chronic inflammatory conditions.`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Applications of EWOT`, [
 		`EWOT is used in various settings, from sports training facilities to rehabilitation centers. It is particularly effective for:`,
 		`- Athletes looking to enhance performance & reduce recovery times.`,

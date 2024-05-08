@@ -20,9 +20,10 @@ export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_([`Comprehensive `])}Wellness Testing & Biometric Screening for Companies`, [
 		`In today's world, taking a proactive approach to your health is more important than ever. Comprehensive wellness testing & screening empowers your journey towards optimal well-being. This article explores what these tests entail. Their benefits. How to navigate the options available.`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Corporate Wellness`, [
-				`Comprehensive wellness testing & biometric screening emerge as key components in corporate wellness programs. Offering a proactive approach to managing employee health. These initiatives aim to improve individual health outcomes. Enhancing overall workplace productivity & reducing healthcare costs.`].join(nl)]])].join(nl)],
+				`Comprehensive wellness testing & biometric screening emerge as key components in corporate wellness programs. Offering a proactive approach to managing employee health. These initiatives aim to improve individual health outcomes. Enhancing overall workplace productivity & reducing healthcare costs.`].join(nl)]]
+		]],
 	[`## ${mobile_hidden__span_([`Understanding Comprehensive `])}Wellness Testing`, [
 		`Comprehensive wellness testing goes beyond traditional health assessments. To provide a detailed overview of an employee's health status. This type of testing typically includes:`,
 		`- expanded lab panels`,
@@ -31,10 +32,12 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		`The goal is to identify potential health issues before they become serious. Allowing for timely intervention & management${footnote__sup__sort([/* ref6_footnote__sup_(ctx), */])}.`].join(nl)],
 	[`## ${mobile_hidden__span_([`The Role of `])}Biometric Screening`, [
-		`Comprehensive wellness testing & screening is a detailed checkup for your entire body. Conducted in the clinic, home, or workplace. It goes beyond addressing immediate concerns. Aiming to provide a detailed snapshot of your overall health. These tests can include:`,
-		``,
-		`Biometric screening is a clinical process conducted in the clinic or workplace. To assess various health parameters including${footnote__sup__sort([ref_c_4_footnote__sup_(ctx),/* ref_s1_3_footnote__sup_(ctx), */ ref_c_s1_5_footnote__sup_(ctx), ref_c_s1_9_footnote__sup_(ctx), ref_c_s1_10_footnote__sup_(ctx), ref_c_s1_17_footnote__sup_(ctx),])}:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		[
+			`Comprehensive wellness testing & screening is a detailed checkup for your entire body. Conducted in the clinic, home, or workplace. It goes beyond addressing immediate concerns. Aiming to provide a detailed snapshot of your overall health. These tests can include:`,
+			``,
+			`Biometric screening is a clinical process conducted in the clinic or workplace. To assess various health parameters including${footnote__sup__sort([ref_c_4_footnote__sup_(ctx),/* ref_s1_3_footnote__sup_(ctx), */ ref_c_s1_5_footnote__sup_(ctx), ref_c_s1_9_footnote__sup_(ctx), ref_c_s1_10_footnote__sup_(ctx), ref_c_s1_17_footnote__sup_(ctx),])}:`
+		].join(nl),
+		()=>[
 			[`### Blood tests`, [
 				`A comprehensive metabolic panel (CMP) & complete blood count (CBC). Assessing:`,
 				`- organ function`,
@@ -50,16 +53,19 @@ export default (ctx:request_ctx_T)=>''
 				`Thyroid function can impact metabolism & energy levels.`].join(nl)],
 			[`### Vitamin D tests`, [
 				`Vitamin D deficiency links to health concerns such as bone pain, muscle weakness, & more.`].join(nl)],
-			[`### body mass index (BMI)`],
+			[`### Body Mass Index (BMI)`],
 			[`### Additional tests`, [
-				`Depending on your age, gender, & health history. Further tests like STD screenings or bone density scans assess areas of improvement.`].join(nl)]]),
-		``,
-		`These screenings are quick, usually taking about 10–15 minutes. Providing immediate feedback on an employee's health status. The primary aim is to establish a health baseline. That can be used to monitor changes over time. Identifying risk factors for chronic diseases like${footnote__sup__sort([ref_c_1_footnote__sup_(ctx), ref_c_3_footnote__sup_(ctx), ref_c_4_footnote__sup_(ctx),])}:`,
-		`- hypertension`,
-		`- diabetes`,
-		`- cardiovascular conditions`].join(nl)],
+				`Depending on your age, gender, & health history. Further tests like STD screenings or bone density scans assess areas of improvement.`].join(nl)]],
+		[
+			``,
+			`These screenings are quick, usually taking about 10–15 minutes. Providing immediate feedback on an employee's health status. The primary aim is to establish a health baseline. That can be used to monitor changes over time. Identifying risk factors for chronic diseases like${footnote__sup__sort([ref_c_1_footnote__sup_(ctx), ref_c_3_footnote__sup_(ctx), ref_c_4_footnote__sup_(ctx),])}:`,
+			`- hypertension`,
+			`- diabetes`,
+			`- cardiovascular conditions`
+		].join(nl)
+	]],
 	[`## Benefits${mobile_hidden__span_([` of Comprehensive Wellness Testing:`])}`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Personalized Healthcare`, [
 				`Test results help your doctor tailor preventive measures & treatment plans for you.`].join(nl)],
 			[`### Proactive Management`, [
@@ -76,10 +82,10 @@ export default (ctx:request_ctx_T)=>''
 				`By identifying & addressing health risks early. Companies can significantly reduce healthcare expenses related to treating chronic diseases. Additionally, healthier employees tend to have lower absenteeism rates & higher productivity levels${footnote__sup__sort([ref_c_3_footnote__sup_(ctx), ref_c_10_footnote__sup_(ctx),])}.`].join(nl)],
 			[`### ${mobile_hidden__span_([`Enhanced `])}Employee Engagement & Morale`, [
 				`Implementing health screenings shows employees that their health is valued by the organization. This boosts morale & increases employee engagement. Leading to a more positive & productive work environment${ref_c_15_footnote__sup_(ctx)}.`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Considering ${mobile_hidden__span_([`Comprehensive `])}Wellness Testing?`, [
 		`Here's what to keep in mind:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Consult your doctor`, [
 				`Discuss your health goals & risk factors. To determine if comprehensive testing is right for you.`].join(nl)],
 			[`### Understand the options`, [
@@ -88,8 +94,7 @@ export default (ctx:request_ctx_T)=>''
 				`Testing costs can vary. Investigate insurance coverage to understand your financial responsibility.`].join(nl)],
 			[`### Interpreting results`, [
 				`Don't panic if you see abnormal results. Discuss them with your doctor to determine the next steps.`].join(nl)],
-		])
-	].join(nl)],
+		]]],
 ])
 + md__raw_(ctx, [
 	`**Comprehensive wellness testing & screening is an investment in your long-term health. By taking a proactive approach, you can:**`,

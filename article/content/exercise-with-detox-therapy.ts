@@ -5,6 +5,7 @@ import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
+import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 // import exercise_with_oxygen_therapy_webp from '../../public/image/article/exercise-with-oxygen-therapy.webp'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
@@ -48,7 +49,7 @@ export default (ctx:request_ctx_T)=>''
 			`- promotes healthy skin`,
 			`- aids in weight loss by improving metabolism`].join(nl)],
 	[`## Benefits of Exercise with Detox Therapy`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Enhanced Detoxification`, [
 				`Exercise stimulates blood flow & oxygenation, aiding the body in flushing out toxins. Sweating during physical activity expels toxins through the skin. Further supporting the detox process.`].join(nl)],
 			[`### Improved Circulation`, [
@@ -71,9 +72,9 @@ export default (ctx:request_ctx_T)=>''
 				`The combination of exercise & detoxification supports brain health. By improving circulation & oxygen supply to the brain. This results in better focus, memory, & cognitive function.`].join(nl)],
 			[`### Balanced Hormones`, [
 				`Regular exercise helps regulate hormone levels. Detox therapy eliminates hormone-disrupting toxins from the body. Bringing harmony to your body's internal environment.`].join(nl)],
-		])].join(nl)],
-	[`## Exercise with Detox Therapy Techniques`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		]]],
+	[`## ${mobile_hidden__span_([`Exercise with Detox Therapy `])}Techniques`, [
+		()=>[
 			[`### Yoga & Stretching`, [
 				`Practice yoga or stretching exercises to enhance flexibility, reduce stress, & encourage detoxification. Through improved lymphatic flow.`].join(nl)],
 			[`### Cardiovascular Exercise`, [
@@ -86,7 +87,7 @@ export default (ctx:request_ctx_T)=>''
 				`Combine exercise with sauna sessions, facilitating toxin release through sweat.`].join(nl)],
 			[`### Hydration`, [
 				`Stay well-hydrated during exercise to support detoxification through urine & sweat.`].join(nl)],
-		])].join(nl)],
+		]]],
 		[`## Implementing Exercise into Detox Therapy`, [
 			`When incorporating exercise into a detox plan. It's essential to choose activities that align with the body's current state. With the goals of the detox. Gentle, low-impact exercises like walking, swimming, yoga, & Tai Chi are often recommended. Especially for those in the early stages of detox or those with limited physical fitness. As the body adjusts & strengthens, more vigorous activities can be introduced.`].join(nl)],
 		[`## Conclusion`, [

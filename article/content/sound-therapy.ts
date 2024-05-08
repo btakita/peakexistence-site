@@ -21,7 +21,7 @@ export default (ctx:request_ctx_T)=>''
 		`Sound therapy is also known as sound healing or vibrational medicine. Sound therapy's predicated on the principle that matter vibrates at specific frequencies. Including the human body, vibrates at specific frequencies. Health & well-being influenced by these vibrational states. Disrupting or unbalancing the body's natural frequencies leads to physical or emotional disharmony. Sound therapy seeks to restore balance & promote healing. By using various musical instruments & vocal techniques to produce therapeutic sounds & vibrations${footnote__sup__sort([ref_s1_2_footnote__sup_(ctx),ref_s2_5_footnote__sup_(ctx),ref_s2_9_footnote__sup_(ctx)])}.`].join(nl)],
 	[`## How Does ${mobile_hidden__span_([`Sound Therapy`, `It`])} Work?`, [
 		`Several theories explain the potential mechanisms of sound therapy:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Brainwave Entrainment`, [
 				`Our brainwaves naturally shift between different states (beta for alertness, alpha for relaxation, etc.). Sound therapy uses rhythmic beats or frequencies that resonate with your body & mind. Towards desired states.`].join(nl)],
 			[`### Cellular Resonance`, [
@@ -31,7 +31,7 @@ export default (ctx:request_ctx_T)=>''
 				`- evoke emotions`,
 				`- reduce stress`,
 				`- facilitate a sense of calm`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## The Science of Sound`, [
 		`The therapeutic effects of sound ground in both physics & neurobiology. Sound waves transmit through the air as vibrations. Interacting with the body in a profound way. These vibrations can stimulate the release of nitric oxide. A molecule that promotes healing & reduces inflammation. Sound therapy influences brainwave patterns. Leading to${ref_s2_5_footnote__sup_(ctx)}:`,
 		``,
@@ -40,15 +40,15 @@ export default (ctx:request_ctx_T)=>''
 		`- enhanced cognitive function`].join(nl)],
 	[`## Modalities of Sound Therapy`, [
 		`Sound therapy encompasses a wide range of techniques & instruments. Offering unique vibrational qualities & benefits. Some of the most widely used modalities include:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Sound Baths`, [
 				`Immersive experiences using crystal singing bowls, gongs, & other resonant instruments. To bathe participants in a wash of vibrations. Participants lie down & are "bathed" in sound waves. Produced by gongs, singing bowls, or other instruments. These sessions promote deep relaxation & stress relief${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s1_2_footnote__sup_(ctx),ref_s1_4_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Binaural Beats`, [
 				`A method involving the delivery of two slightly different frequencies to each ear. Encouraging the brain to perceive a third tone that promotes relaxation & focus. The brain perceives these tones as a single beat. Altering brainwave activity to${footnote__sup__sort([ref_s2_7_footnote__sup_(ctx),ref_s1_1_footnote__sup_(ctx)])}:`,
 				``,
-        `- reduce stress`,
-        `- enhance relaxation`,
-        `- improve sleep quality`].join(nl)],
+				`- reduce stress`,
+				`- enhance relaxation`,
+				`- improve sleep quality`].join(nl)],
 			[`### Tuning Forks`, [
 				`Used to apply specific vibrations directly to the body. Helping to release tension & energy blockages. This method uses calibrated metal tuning forks. To apply specific vibrations to different parts of the body. It is similar to acupuncture. But uses sound frequencies instead of needles to stimulate the body's energy pathways${ref_s1_3_footnote__sup_(ctx)}.`].join(nl)],
 			[`### Vibroacoustic Therapy`, [
@@ -63,10 +63,10 @@ export default (ctx:request_ctx_T)=>''
 				`Voice guidance combined with ambient music or nature sounds. Facilitate relaxation & introspection${ref_s2_1_footnote__sup_(ctx)}.`].join(nl)],
 			[`### Voice`, [
 				`Chanting, toning, & overtone singing help you find your natural resonance. Facilitating emotional release & connection.`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Applications & Benefits`, [
 		`Sound therapy offers a wide range of health benefits, which include:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Reduce Stress & Anxiety`, [
 				`Sound therapy significantly lowers stress levels by promoting relaxation & reducing anxiety. Through the calming effect of harmonic sounds on the brain & nervous system. Promoting a sense of peace & well-being${footnote__sup__sort([ref_s1_2_footnote__sup_(ctx),ref_s1_6_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Improve Sleep`, [
@@ -83,13 +83,13 @@ export default (ctx:request_ctx_T)=>''
 			[`### Manage Pain`, [
 				`Vibrational medicine has shown promise in alleviating chronic pain & discomfort. Offering a non-invasive alternative to traditional pain management strategies. Certain sound frequencies reduce pain by altering the body's pain perception pathways. Including${footnote__sup__sort([ref_s1_3_footnote__sup_(ctx),ref_s2_7_footnote__sup_(ctx),ref_s2_10_footnote__sup_(ctx)])}:`,
 				``,
-        `- chronic pain`,
-        `- postoperative pain`].join(nl)],
+				`- chronic pain`,
+				`- postoperative pain`].join(nl)],
 			[`### Improve Mood`, [
 				`Uplifting sounds may boost mood & offer temporary relief for depression${ref_s2_5_footnote__sup_(ctx)}.`].join(nl)],
 			[`### Enhanced Meditation`, [
 				`Sound can serve as a focus or enhance a meditative state.`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Clinical Applications & Research`, [
 		`Sound therapy is increasingly being incorporated into clinical settings. To complement traditional medical treatments. Research has demonstrated its effectiveness in various settings, including hospitals. Where it helps patients manage pain & anxiety. It is also used in mental health clinics. To support treatments for conditions like PTSD & depression${footnote__sup__sort([ref_s1_2_footnote__sup_(ctx),ref_s1_8_footnote__sup_(ctx),ref_s2_7_footnote__sup_(ctx),ref_s2_10_footnote__sup_(ctx)])}.`].join(nl)],
 	[`## Who Might Consider ${mobile_hidden__span_([`Sound Therapy`, `It`])}?`, [

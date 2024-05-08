@@ -17,16 +17,16 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + md__raw_(ctx,
-	`Interest in life extension is showing rapid growth. Life Extension aims to slow the biological aging process. To extend the average human lifespan & healthspan. The period of time spent in good health. Considerable attention focuses on healthspan due to its potential for human longevity. Extending human life has been a pursuit of human culture & philosophy for centuries. Significant progress in recent decades come from advances in modern science & medicine.`)
+	`Interest in life extension is showing rapid growth. Life Extension aims to slow the biological aging process. To extend the average human lifespan & healthspan. The period of time spent in good health. Considerable attention focuses on healthspan due to its potential for human longevity. Extending human life has been a pursuit of human culture & philosophy for centuries. Significant progress in recent decades comes from advances in modern science & medicine.`)
 + dl_tree_({ ctx, _:sticky__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_(['Understanding '])}Anti-Aging & Life Extension`, [
-		`Anti-aging therapies are primarily concerned with slowing down or reversing the processes. That are commonly associated with aging. This includes the:`,
+		`Anti-aging therapies are primarily concerned with slowing down or reversing the processes. That is commonly associated with aging. This includes the:`,
 		`- appearance of wrinkles`,
 		`- loss of skin elasticity`,
 		`- the decline in organ function`,
 		``,
 		`Life extension therapies go a step further by seeking to increase the overall lifespan of individuals. Through various biomedical interventions${footnote__sup__sort([ref1_footnote__sup_(ctx), ref3_footnote__sup_(ctx), ref4_footnote__sup_(ctx)])}.`].join(nl)],
-	[`## ${mobile_hidden__span_(['Scientific '])}Foundations & Approaches`, [dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+	[`## ${mobile_hidden__span_(['Scientific '])}Foundations & Approaches`, ()=>[
 		[`### Cellular & Molecular Strategies`, [
 			`At the heart of many anti-aging therapies is the focus on cellular & molecular health. Research identifies critical factors in the aging process.:`,
 			``,
@@ -44,8 +44,8 @@ export default (ctx:request_ctx_T)=>''
 			`Stem cells have the potential to repair or replace damaged tissues & organs. A capability that diminishes with age. Recent advancements in stem cell technology are being explored. For their ability to treat age-related diseases & extend lifespan. Such as${footnote__sup__sort([ref3_footnote__sup_(ctx), ref16_footnote__sup_(ctx)])}:`,
 			`- mesenchymal stem cells`,
 			`- induced pluripotent stem cells (iPSCs)`].join(nl)],
-	])].join(nl)],
-	[`## ${mobile_hidden__span_(['Practical '])}Applications & Treatments`, [dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+	]],
+	[`## ${mobile_hidden__span_(['Practical '])}Applications & Treatments`, ()=>[
 		[`### Skin & Cosmetic Treatments`, [
 			`Anti-aging skin care treatments such as retinoids, antioxidants, & various non-surgical procedures like laser therapy & microneedling help in reducing the visible signs of aging, thereby improving skin health & appearance${footnote__sup__sort([ref2_footnote__sup_(ctx), ref10_footnote__sup_(ctx), ref14_footnote__sup_(ctx)])}.`].join(nl)],
 		[`### Diet & Lifestyle Modifications`, [
@@ -56,30 +56,30 @@ export default (ctx:request_ctx_T)=>''
 		[`### Pharmacological Interventions`, [
 			`Drugs like Metformin & Rapamycin are being studied for their potential to extend lifespan. By mimicking the effects of calorie restriction. A well-known mechanism associated with longer life spans in various organisms${ref9_footnote__sup_(ctx)}.`].join(nl)],
 		[`### Metformin`, [
-			`Metformin, a drug used to treat type 2 diabetes, shows promise in extending human life. Studies suggest that Metformin may have anti-aging properties. Mimicking the longevity benefits of calorie restriction. By reducing oxidative stress & inflammation, both critical factors in the aging process.`,
-			dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-				[`#### Benefits of Metformin${mobile_hidden__span_([` for Anti-Aging & Life Extension Therapy`])}`, [
-					dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-						[`##### ${mobile_hidden__span_(['Reduce '])}Inflammation${mobile_hidden__span_([' & ', '/'])}Oxidative Stress`, [
-							`Metformin reduces inflammatory responses & oxidative stress. Which are key contributors to aging & age-related diseases. This reduction can slow down the aging process & extend healthspan${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx), ref_m2_2_footnote__sup_(ctx), ref_m2_8_footnote__sup_(ctx)])}.`].join(nl)],
-						[`##### ${mobile_hidden__span_(['Enhanced '])}Insulin Sensitivity`, [
-							`Metformin improves insulin sensitivity & glucose metabolism. Which are crucial for preventing age-related metabolic diseases such as type 2 diabetes. By regulating metabolism, metformin may help maintain youthful cellular function & delay aging${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx), ref_m2_9_footnote__sup_(ctx)])}.`].join(nl)],
-						[`##### ${mobile_hidden__span_(['Decreased Risk of '])}Cardiovascular Disease`, [
-							`Studies associate Metformin with protecting heart health${ref_m2_2_footnote__sup_(ctx)}`,
-							`- a lower incidence of cardiac events`,
-							`- reduced mortality from cardiovascular diseases`].join(nl)],
-						[`##### Lower Incidence of Cancer`, [
-							`Metformin links to a reduced diagnosis of cancer. And lower cancer mortality rates among patients. This protective effect against cancer supports its role in extending life expectancy. Improving overall health${ref_m2_2_footnote__sup_(ctx)}.`].join(nl)],
-						[`##### Neuroprotective Effects`, [
-							`Some research suggests that metformin offers protection against neurodegenerative diseases like Alzheimer's & Parkinson's. By mediating inflammation & protecting against protein damage`].join(nl)],
-						[`##### Slowing Cellular Senescence`, [
-							`Metformin has been observed to delay cellular senescence in studies. Reducing the impact of aged cells on overall health. This could help maintain organ function & delay the onset of age-related diseases`].join(nl)],
-						[`##### Promotion of Longevity Pathways`, [
-							`Metformin activates pathways such as AMP-activated protein kinase (AMPK). Which is involved in energy balance & can mimic the effects of calorie restriction. A well-known strategy linked to longevity${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx), ref_m2_9_footnote__sup_(ctx)])}.`].join(nl)],
-						[`##### All-Cause Mortality Reduction`, [
-							`Metformin use associates with lower all-cause mortality. Suggesting that it has broad benefits for extending life span & enhancing healthspan${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx), ref_m2_7_footnote__sup_(ctx)])}.`].join(nl)],
-					])
-				].join(nl)],
+			[
+				`Metformin, a drug used to treat type 2 diabetes, shows promise in extending human life. Studies suggest that Metformin may have anti-aging properties. Mimicking the longevity benefits of calorie restriction. By reducing oxidative stress & inflammation, both critical factors in the aging process.`,
+				``].join(nl),
+			()=>[
+				[`#### Benefits of Metformin${mobile_hidden__span_([` for Anti-Aging & Life Extension Therapy`])}`, ()=>[
+					[`##### ${mobile_hidden__span_(['Reduce '])}Inflammation${mobile_hidden__span_([' & ', '/'])}Oxidative Stress`, [
+						`Metformin reduces inflammatory responses & oxidative stress. Which are key contributors to aging & age-related diseases. This reduction can slow down the aging process & extend healthspan${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx), ref_m2_2_footnote__sup_(ctx), ref_m2_8_footnote__sup_(ctx)])}.`].join(nl)],
+					[`##### ${mobile_hidden__span_(['Enhanced '])}Insulin Sensitivity`, [
+						`Metformin improves insulin sensitivity & glucose metabolism. Which is crucial for preventing age-related metabolic diseases such as type 2 diabetes. By regulating metabolism, metformin may help maintain youthful cellular function & delay aging${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx), ref_m2_9_footnote__sup_(ctx)])}.`].join(nl)],
+					[`##### ${mobile_hidden__span_(['Decreased Risk of '])}Cardiovascular Disease`, [
+						`Studies associate Metformin with protecting heart health${ref_m2_2_footnote__sup_(ctx)}`,
+						`- a lower incidence of cardiac events`,
+						`- reduced mortality from cardiovascular diseases`].join(nl)],
+					[`##### Lower Incidence of Cancer`, [
+						`Metformin links to a reduced diagnosis of cancer. And lower cancer mortality rates among patients. This protective effect against cancer supports its role in extending life expectancy. Improving overall health${ref_m2_2_footnote__sup_(ctx)}.`].join(nl)],
+					[`##### Neuroprotective Effects`, [
+						`Some research suggests that metformin offers protection against neurodegenerative diseases like Alzheimer's & Parkinson's. By mediating inflammation & protecting against protein damage`].join(nl)],
+					[`##### Slowing Cellular Senescence`, [
+						`Metformin has been observed to delay cellular senescence in studies. Reducing the impact of aged cells on overall health. This could help maintain organ function & delay the onset of age-related diseases`].join(nl)],
+					[`##### Promotion of Longevity Pathways`, [
+						`Metformin activates pathways such as AMP-activated protein kinase (AMPK). Which is involved in energy balance & can mimic the effects of calorie restriction. A well-known strategy linked to longevity${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx), ref_m2_9_footnote__sup_(ctx)])}.`].join(nl)],
+					[`##### All-Cause Mortality Reduction`, [
+						`Metformin use associates with lower all-cause mortality. Suggesting that it has broad benefits for extending life span & enhancing healthspan${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx), ref_m2_7_footnote__sup_(ctx)])}.`].join(nl)],
+				]],
 				[`#### Mechanism of Action`, [
 					`Metformin enhances cellular enzymes that mimic the longevity benefits of calorie restriction. A well-known strategy for extending lifespan in various organisms. This action primarily involves${footnote__sup__sort([ref_m1_1_footnote__sup_(ctx), ref_m1_2_footnote__sup_(ctx), ref_m1_4_footnote__sup_(ctx), ref_m1_5_footnote__sup_(ctx)])}:`,
 					``,
@@ -102,13 +102,16 @@ export default (ctx:request_ctx_T)=>''
 					`Metformin is a well-established treatment for type 2 diabetes. Its role in non-diabetics for anti-aging purposes is less clear. There is ongoing research to determine whether the general population can benefit from Metformin. In the same way diabetics do. With some early evidence suggesting potential health benefits${ref_m1_5_footnote__sup_(ctx)}.`].join(nl)],
 				[`#### Safety & Side Effects`, [
 					`Metformin is generally considered safe & is inexpensive. Which adds to its appeal as a potential anti-aging therapy. However, it can cause side effects such as gastrointestinal upset. More rarely, it can cause vitamin B12 deficiency. Which must be carefully managed, especially in long-term use${footnote__sup__sort([ref3_footnote__sup_(ctx), ref4_footnote__sup_(ctx)])}.`].join(nl)],
-			])
-		].join(nl)],
+			]
+		]],
 		[`### ${mobile_hidden__span_([`Genetic Engineering & Cellular Reprogramming`, `Genetic/Cellular Reprogramming`])}`, [
-			`Advances in genetic engineering & cellular reprogramming, hold great potential for life extension. Genetic engineering involves manipulating aging-related genes. To slow down or reverse the aging process. Showing potential to extend lifespan & health span. Cellular reprogramming, aims to change the state of cells. Offering the possibility of replacing damaged or aging cells in the body. Slowing down aging or senescence.`,
-			``,
-			`These technologies target the fundamental processes of aging at the genetic & cellular levels. Transforming the way we approach age-related diseases & longevity${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx), ref_g1_3_footnote__sup_(ctx), ref_g1_5_footnote__sup_(ctx), ref_g1_6_footnote__sup_(ctx), ref_g1_7_footnote__sup_(ctx), ref_g1_8_footnote__sup_(ctx)])}.`,
-			dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+			[
+				`Advances in genetic engineering & cellular reprogramming, hold great potential for life extension. Genetic engineering involves manipulating aging-related genes. To slow down or reverse the aging process. Showing potential to extend lifespan & health span. Cellular reprogramming, aims to change the state of cells. Offering the possibility of replacing damaged or aging cells in the body. Slowing down aging or senescence.`,
+				``,
+				`These technologies target the fundamental processes of aging at the genetic & cellular levels. Transforming the way we approach age-related diseases & longevity${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx), ref_g1_3_footnote__sup_(ctx), ref_g1_5_footnote__sup_(ctx), ref_g1_6_footnote__sup_(ctx), ref_g1_7_footnote__sup_(ctx), ref_g1_8_footnote__sup_(ctx)])}.`,
+				``,
+			].join(nl),
+			()=>[
 				[`#### Cellular Reprogramming`, [
 					`Cellular Reprogramming involves resetting the epigenetic state of cells. To revert them to a younger state. With the goal of reversing cellular aging & restoring function. It is based on the use of factors like the Yamanaka factors (OCT4, SOX2, KLF4, & sometimes c-MYC). To induce pluripotency or a stem cell-like state in cells. Which can then renew & repair tissues more effectively${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx), ref_g1_3_footnote__sup_(ctx), ref_g1_6_footnote__sup_(ctx), ref_g1_7_footnote__sup_(ctx)])}.`].join(nl)],
 				[`#### Gene Therapy`, [
@@ -118,13 +121,13 @@ export default (ctx:request_ctx_T)=>''
 				[`#### Stem Cell Therapies`, [
 					`The application of stem cell therapeutics aims to delay the aging process. By improving cures for diseases & extending human life. Stem cells have regenerative capabilities that to repair or replace damaged tissues. Combating age-related decline${ref_g1_5_footnote__sup_(ctx)}.`,
 					``,
-					`Stem cell therapy, particularly with mesenchymal stem cells, shows promise for life extension. By way of regenerative medicine. Mesenchymal stem cells demonstrates therapeutic value. Due to their ability to regenerate & repair tissue. Making them potential candidates for treating age-related diseases & improving overall health.`,
+					`Stem cell therapy, particularly with mesenchymal stem cells, shows promise for life extension. By way of regenerative medicine. Mesenchymal stem cells demonstrate therapeutic value. Due to their ability to regenerate & repair tissue. Making them potential candidates for treating age-related diseases & improving overall health.`,
 					``,
 					`Rejuvenation strategies may counteract the aging & replicative exhaustion of stem cells. Strategies involve induced pluripotent stem cell-derived MSCs. Or gene manipulation, such as overexpressing SIRTs (Sirtuin genes). To delay senescence & maintain MSCs’ differentiation capacity.`,
 					``,
 					`The potential benefits of using mesenchymal stem cells for life extension are extensive. Including the extension of both lifespan & health span. Contributing to economic growth & alleviating the burden on healthcare systems. Ethical considerations, accessibility, & addressing health disparities remain challenges in implementing life-extension technologies.`,
 					``,
-					`Life extension research continues to progress. Future studies may involve artificial intelligence & nanotechnology to advance understanding & interventions. Achieving an indefinite lifespan may seem like science fiction. Yet ongoing progress gives cause for hope. The goal of life extension is not merely extending life. But enhancing healthy, productive life free from age-related diseases & disabilities. Promoting a longer, healthier existence. A healthy lifestyle includes a balanced diet, regular physical activity, & weight management. Playing a pivotal role in life extension efforts.`].join(nl)],
+					`Life extension research continues to progress. Future studies may involve artificial intelligence & nanotechnology to advance understanding & interventions. Achieving an indefinite lifespan may seem like science fiction. Yet ongoing progress gives cause for hope. The goal of life extension is not merely extending life. But enhancing healthy, productive life is free from age-related diseases & disabilities. Promoting a longer, healthier existence. A healthy lifestyle includes a balanced diet, regular physical activity, & weight management. Playing a pivotal role in life extension efforts.`].join(nl)],
 				[`#### Research & Development`, [
 					`Ongoing research explores the potential of using:`,
 					`- human-induced pluripotent stem cells (iPSCs)`,
@@ -133,10 +136,9 @@ export default (ctx:request_ctx_T)=>''
 					`To model human aging & identify anti-aging drugs. These cellular models can advance our understanding of the aging process. Helping with the development of interventions${ref_g1_6_footnote__sup_(ctx)}.`].join(nl)],
 				[`#### Potential for Clinical Application`, [
 					`While much of the current research is in preclinical stages or animal models. There is significant interest in translating these findings into human therapies. Developing interventions that reverse age-related changes. Extending both lifespan & healthspan${footnote__sup__sort([ref_g1_3_footnote__sup_(ctx), ref_g1_7_footnote__sup_(ctx)])}.`].join(nl)],
-			])
-		].join(nl)],
-	])
-	].join(nl)],
+			]
+		]],
+	]],
 	[`## Ethical & Social Considerations`, [
 		`As with any rapidly advancing field. Anti-aging & life extension therapies raise important ethical & social questions. Issues need to be thoughtfully addressed such as${footnote__sup__sort([ref4_footnote__sup_(ctx), ref8_footnote__sup_(ctx)])}:`,
 		`- disparity in access to these treatments`,

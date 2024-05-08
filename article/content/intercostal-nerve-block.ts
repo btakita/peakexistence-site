@@ -41,15 +41,14 @@ export default (ctx:request_ctx_T)=>''
 			`- To reduce pain after surgery in the chest or upper abdomen.`].join(nl)],
 		[`## Benefits of ${mobile_hidden__span_([`Intercostal Nerve Block`, `ICNB`])}`, [
 			`The primary benefit of ICNB is its ability to provide targeted & effective pain relief. Which can significantly improve a patient's quality of life. Especially in the context of acute injuries or postoperative recovery. By alleviating pain. ICNB can facilitate better respiratory function in patients with rib fractures. reducing the risk of pulmonary complications. For surgical patients, ICNB can enhance recovery. By allowing earlier mobilization & reducing the reliance on systemic opioids. Which come with their own set of side effects${footnote__sup__sort([ref_i1_2_footnote__sup_(ctx),ref_i1_6_footnote__sup_(ctx)])}.`,
-			``,
-			dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+			()=>[
 				[`### Pain relief`, [
 					`Effective for acute pain from rib fractures, chest wall injuries, or shingles (postherpetic neuralgia).`].join(nl)],
 				[`### Pain management after surgery`, [
 					`Helps manage pain after chest or upper abdominal surgeries.`].join(nl)],
 				[`### Diagnostic tool`, [
 					`It can help pinpoint the source of chronic pain.`].join(nl)],
-			])].join(nl)],
+			]]],
 		[`## Risks & Considerations`, [
 			`While ICNB is generally safe, it is not without risks. Potential complications include:`,
 			``,

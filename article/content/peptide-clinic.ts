@@ -46,8 +46,8 @@ export default (ctx:request_ctx_T)=>''
 		`- immune system support`].join(nl)],
 	[`## Services Offered in Peptide Clinics`, [
 		`Peptide clinics specialize in the administration of peptide therapies. Tailored to individual health needs. These clinics often provide a comprehensive assessment. That includes detailed medical histories. To ensure that peptide therapy is suitable for the patient. Common treatments offered include:`,
-		``,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		nl,
+		()=>[
 			[`### Anti-Aging & Skin Rejuvenation`, [
 				`Collagen peptides can improve skin elasticity & reduce wrinkles. Offering anti-aging benefits${footnote__sup__sort([/*ref_p1_3_footnote__sup_(ctx)*/])}.`].join(nl)],
 			[`### Weight Management`, [
@@ -62,8 +62,9 @@ export default (ctx:request_ctx_T)=>''
 				`Some peptides have immunomodulatory properties that can strengthen the immune system. Making it more effective at fighting infections & diseases${ref_p1_4_footnote__sup_(ctx)}.`].join(nl)],
 			[`### Improved Cognitive Function`, [
 				`Peptides can also support brain health, improving memory & cognitive functions${ref_p1_2_footnote__sup_(ctx)}.`].join(nl)],
-		]),
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		],
+		nl,
+		()=>[
 			[`### Improved Body Composition`, [
 				`Peptides such as CJC-1295 & Ipamorelin can stimulate growth hormone production. Aiding in fat loss & muscle gain. Offering a promising approach for weight management & body sculpting.`].join(nl)],
 			[`### Anti-Aging Properties`, [
@@ -72,29 +73,27 @@ export default (ctx:request_ctx_T)=>''
 				`Thymosin alpha-1 enhances immune response. Proving beneficial for patients with chronic infections or autoimmune diseases.`].join(nl)],
 			[`### Sexual Health`, [
 				`PT-141 increases sexual desire & arousal for all genders.  For men, PT-141 enhances sexual arousal & erection quality through its action on the brain. PT-141 also addresses female sexual dysfunctions, such as arousal disorders`].join(nl)],
-		])
-	].join(nl)],
+		]]],
 	[`## Benefits of Peptide Therapy`, [
 		`Peptide therapy offers numerous benefits. Due to its ability to target specific physiological processes:`,
-		``,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Precision`, [
 				`Peptides can target specific cellular receptors & functions. Which can lead to more effective treatments with fewer side effects. Compared to traditional medications${ref_p1_2_footnote__sup_(ctx)}.`].join(nl)],
 			[`### Safety`, [
 				`Many Peptides are well-tolerated, with few side effects. As they are similar to the peptides naturally produced by the body. Some peptides & enzymes may induce high toxicity${ref_p1_5_footnote__sup_(ctx)}.`].join(nl)],
 			[`### Versatility`, [
 				`Peptides can be used to treat a wide range of conditions. From cosmetic issues like aging skin to serious health conditions. Such as osteoporosis & autoimmune diseases${ref_p1_2_footnote__sup_(ctx)}.`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Considerations & Safety`, [
 		` While peptide therapy is promising, it is crucial to receive treatment from reputable peptide clinics that use peptides sourced from reliable providers to ensure purity & efficacy. Patients should always consult with healthcare professionals to determine if peptide therapy is appropriate for their specific health conditions${ref_p1_6_footnote__sup_(ctx)}.`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Consultation with ${mobile_hidden__span_([`a Healthcare Professional`, `Professionals`])}`, [
 				`A thorough evaluation by a qualified practitioner is crucial. To determine the most appropriate peptide therapy for your needs.`].join(nl)],
 			[`### Quality & Safety`, [
 				`Ensure that the peptides are sourced from reputable suppliers. To guarantee their purity & efficacy.`].join(nl)],
 			[`### Regulatory Status`, [
 				`Be aware of the legal & regulatory status of peptides in your jurisdiction.`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Regulatory & Quality Assurance`, [
 		`Peptide therapies are regulated to ensure safety & efficacy. Patients should seek treatment from licensed medical professionals & clinics. That adheres to strict regulatory standards. This ensures that${footnote__sup__sort([/*ref_p1_7_footnote__sup_(ctx)*/])}:`,
 		``,

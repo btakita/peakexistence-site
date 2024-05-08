@@ -27,35 +27,35 @@ export default (ctx:request_ctx_T)=>''
     `In a less restrictive setting than a hospital emergency department. CSUs help to alleviate the burden on traditional emergency rooms. Improving the overall efficiency of the mental health care system${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx),ref_c1_3_footnote__sup_(ctx)])}.`].join(nl)],
 	[`## Services Offered${mobile_hidden__span_([` by Crisis Stabilization Units`])}`, [
 		`CSUs offer a range of services, typically including:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Immediate Crisis Intervention`, [
 				`CSUs handle various crises, including:`,
-        `- severe anxiety`,
-        `- suicidal ideation`,
-        `- psychotic episodes`,
-        `- substance withdrawal`,
+				`- severe anxiety`,
+				`- suicidal ideation`,
+				`- psychotic episodes`,
+				`- substance withdrawal`,
 				``,
-        `They provide 24-hour monitoring & support, ensuring that individuals receive timely & appropriate care${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`].join(nl)],
+				`They provide 24-hour monitoring & support, ensuring that individuals receive timely & appropriate care${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Comprehensive Assessment`, [
 				`Upon arrival, patients undergo a thorough assessment. Which includes evaluating their:`,
-        `- mental status`,
-        `- medical stability`,
-        `- overall risk factors`,
+				`- mental status`,
+				`- medical stability`,
+				`- overall risk factors`,
 				``,
-        `Creating a tailored treatment plan that addresses the specific needs of each individual${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`].join(nl)],
+				`Creating a tailored treatment plan that addresses the specific needs of each individual${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Short-term Treatment`, [
 				`Treatment in a CSU typically includes:`,
-        `- medication management`,
-        `- individual & group counseling`,
-        `- psychoeducation`,
+				`- medication management`,
+				`- individual & group counseling`,
+				`- psychoeducation`,
 				``,
-        `These interventions are focused on stabilizing the patient's condition. To allow them to transition to less intensive care settings${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)/*,ref_c1_5_footnote__sup_(ctx)*/])}.`].join(nl)],
+				`These interventions are focused on stabilizing the patient's condition. To allow them to transition to less intensive care settings${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)/*,ref_c1_5_footnote__sup_(ctx)*/])}.`].join(nl)],
 			[`### Connection to Ongoing Care`, [
 				`CSUs facilitate a smooth transition to ongoing treatment services. Depending on the individual's needs, this may involve${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}:`,
 
-        `- arranging outpatient therapy`,
-        `- connecting patients with community resources`,
-        `- coordinating with longer-term residential facilities`].join(nl)],
+				`- arranging outpatient therapy`,
+				`- connecting patients with community resources`,
+				`- coordinating with longer-term residential facilities`].join(nl)],
 			[`### 24/7 Availability`, [
 				`Offering immediate support during a crisis`].join(nl)],
 			[`### Medication Management`, [
@@ -72,17 +72,19 @@ export default (ctx:request_ctx_T)=>''
 				`The core offering of CSUs is short-term stabilization. This includes therapeutic interventions aimed at alleviating acute symptoms. Medication management, if necessary. The environment is calming & supportive. Providing a safe space for individuals in distress.`].join(nl)],
 			[`### Connection to Ongoing Care`, [
 				`Crisis Stabilization Units play connect patients with long-term care options. Before discharge, staff work with patients to develop a follow-up care plan. Which may include outpatient therapy, community resources, or other supportive services.`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Who Can Benefit?`, [
-		`CSUs may be helpful for people experiencing:`,
-		`- Severe depression or anxiety`,
-		`- Suicidal thoughts or attempts`,
-		`- Psychotic symptoms`,
-		`- Crisis due to major life stressors`,
-		`- Substance use issues contributing to the crisis`,
-		``,
-		`CSUs provide advantages over traditional inpatient hospitalization:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		[
+			`CSUs may be helpful for people experiencing:`,
+			`- Severe depression or anxiety`,
+			`- Suicidal thoughts or attempts`,
+			`- Psychotic symptoms`,
+			`- Crisis due to major life stressors`,
+			`- Substance use issues contributing to the crisis`,
+			``,
+			`CSUs provide advantages over traditional inpatient hospitalization:`
+		].join(nl),
+		()=>[
 			[`### Less Restrictive`, [
 				`CSUs provide a more relaxed, home-like environment. Which can be less intimidating & promote faster stabilization.`].join(nl)],
 			[`### Community-Based`, [
@@ -93,12 +95,12 @@ export default (ctx:request_ctx_T)=>''
 				`Proactive support in CSUs can help prevent relapse. Reducing the future need for hospitalization.`].join(nl)],
 			[`### Stepping Stone`, [
 				`For some, CSUs can be a bridge to the appropriate level of treatment. Rather than rushed decisions for long-term care.`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Benefits${mobile_hidden__span_([` of Crisis Stabilization Units`])}`, [
 		`CSUs fill a critical gap in the mental health care system. By offering an alternative to hospitalization for individuals in crisis. This approach provides immediate relief for patients. Alleviating the burden on emergency departments & inpatient psychiatric facilities. By focusing on rapid stabilization & connection to ongoing care. CSUs helps prevent the escalation of mental health crises & promote long-term recovery.`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### ${mobile_hidden__span_([`Benefits for `])}Patients & Communities`, [
-				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+				()=>[
 					[`#### Reduced Hospitalization Rates`, [
 						`By providing an immediate & effective response to crises. CSUs reduce the need for hospital admissions. Which are more costly & can be more traumatic for patients${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`].join(nl)],
 					[`#### Immediate Support`, [
@@ -110,9 +112,10 @@ export default (ctx:request_ctx_T)=>''
 					[`#### Continuity of Care`, [
 						`By emphasizing the connection to ongoing treatment. CSUs ensure that patients have access to the resources they need. To manage their mental health in the long term.`].join(nl)],
 					[`#### Community Impact`, [
-						`CSUs play a vital role in maintaining public safety & enhancing the quality of life within communities. By stabilizing individuals in acute crisis & connecting them with ongoing support${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`].join(nl)],
-				])].join(nl)],
-		])].join(nl)],
+						`CSUs play a vital role in maintaining public safety & enhancing the quality of life within communities. By stabilizing individuals in acute crisis & connecting them with ongoing support${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`].join(nl)]
+				]
+			]],
+		]]],
 	[`## The Takeaway`, [
 		`Crisis stabilization units are an accessible & responsive form of mental health care. Providing rapid, compassionate, & targeted support during crises. They empower individuals to:`,
 		`- regain stability`,

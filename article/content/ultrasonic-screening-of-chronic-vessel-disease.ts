@@ -16,7 +16,8 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 		``,
 		`- ultrasonic screening technologies`,
 		`- their applications in chronic vessel assessment`,
-		`- the benefits they offer in clinical settings`].join(nl)
+		`- the benefits they offer in clinical settings`
+	].join(nl)
 })
 // @formatter:off
 // language=md
@@ -34,37 +35,37 @@ export default (ctx:request_ctx_T)=>''
     `- malformations in blood vessels`,
 		``,
 		`Ultrasonic screening, or ultrasound, is a painless & safe procedure. It does not involve ionizing radiation. It offers a real-time view of blood flow & vessel structure. Allowing healthcare professionals to assess the health of arteries & veins. The versatility of ultrasonic technology makes it indispensable in identifying abnormalities. Which are indicative of chronic vessel conditions.`].join(nl)],
-	[`## Benefits of Ultrasonic Screening${mobile_hidden__span_([` in Chronic Vessel Management`])}`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-			[`### Non-invasive & Safe`, [
-				`Ultrasound does not use ionizing radiation. Making it a safe option for repeated use, which is often necessary in chronic conditions. The procedure does not require incisions. Making it a less risky option compared to other diagnostic methods${ref_s3_1_footnote__sup_(ctx)}.`].join(nl)],
-			[`### Cost-effective`, [
-				`Ultrasound is less expensive & more accessible in various healthcare settings. Compared to other imaging modalities like CT or MRI${ref_s3_1_footnote__sup_(ctx)}.`].join(nl)],
-			[`### Real-time Imaging`, [
-				`Ultrasound provides real-time imaging. Making it possible for healthcare providers to conduct dynamic assessments. And immediate interpretations during the examination. This immediate feedback allows quick assessment & decision-making${ref_s3_1_footnote__sup_(ctx)}.`].join(nl)],
-			[`### Guides for Treatment & Prevention`, [
-				`Screening results help doctors determine whether lifestyle changes, medication, or further intervention is needed to manage vascular conditions${footnote__sup__sort([ref_s3_1_footnote__sup_(ctx),ref_s3_3_footnote__sup_(ctx)])}.`].join(nl)],
-			[`### Accessibility & Portability`, [
-				`Ultrasound machines are widely available. Used in various settings, not just hospitals. Modern ultrasound devices are often portable. Allowing for bedside assessments & use in various clinical environments. From hospitals to outpatient clinics${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s1_3_footnote__sup_(ctx),ref_s1_5_footnote__sup_(ctx)])}.`].join(nl)],
-		])].join(nl)],
-	[`## Clinical Applications of Ultrasonic Screening`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-			[`### Diagnosis of Peripheral Artery Disease (PAD)`, [
-				`Ultrasonic screening is extensively used to diagnose PAD. A common circulatory problem where narrowed arteries reduce blood flow to limbs. Ultrasound helps in assessing the severity of artery narrowing & blockages, guiding treatment decisions${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s3_7_footnote__sup_(ctx),ref_s3_8_footnote__sup_(ctx)])}.`].join(nl)],
-			[`### Evaluation of Carotid Artery Disease`, [
-				`Carotid ultrasound is employed to examine the carotid arteries in the neck. That supply blood to the brain. This screening is vital for assessing the risk of stroke. Especially in patients with known risk factors such as${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s3_3_footnote__sup_(ctx),ref_s3_5_footnote__sup_(ctx),ref_s3_6_footnote__sup_(ctx)])}:`,
-				``,
-        `- high blood pressure`,
-        `- high cholesterol`,
-        `- history of smoking`].join(nl)],
-			[`### Monitoring of Aneurysms`, [
-				`Ultrasound is crucial in the surveillance of aneurysms, particularly abdominal aortic aneurysms. Regular ultrasound screenings can monitor the size & growth of aneurysms. Helping to determine the need for surgical intervention to prevent rupture${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s3_1_footnote__sup_(ctx)])}.`].join(nl)],
-			[`### Venous Insufficiency Assessment`, [
-				`Chronic venous insufficiency. Which occurs when the venous wall or valves in the leg veins are not working effectively. Can be evaluated using ultrasound. This helps in planning appropriate interventions. To improve blood flow & reduce the risk of complications. Like ulcers or deep vein thrombosis${ref_s2_1_footnote__sup_(ctx)}.`].join(nl)],
-		])].join(nl)],
+	[`## Benefits of Ultrasonic Screening${mobile_hidden__span_([` in Chronic Vessel Management`])}`, ()=>[
+		[`### Non-invasive & Safe`, [
+			`Ultrasound does not use ionizing radiation. Making it a safe option for repeated use, which is often necessary in chronic conditions. The procedure does not require incisions. Making it a less risky option compared to other diagnostic methods${ref_s3_1_footnote__sup_(ctx)}.`].join(nl)],
+		[`### Cost-effective`, [
+			`Ultrasound is less expensive & more accessible in various healthcare settings. Compared to other imaging modalities like CT or MRI${ref_s3_1_footnote__sup_(ctx)}.`].join(nl)],
+		[`### Real-time Imaging`, [
+			`Ultrasound provides real-time imaging. Making it possible for healthcare providers to conduct dynamic assessments. And immediate interpretations during the examination. This immediate feedback allows quick assessment & decision-making${ref_s3_1_footnote__sup_(ctx)}.`].join(nl)],
+		[`### Guides for Treatment & Prevention`, [
+			`Screening results help doctors determine whether lifestyle changes, medication, or further intervention is needed to manage vascular conditions${footnote__sup__sort([ref_s3_1_footnote__sup_(ctx),ref_s3_3_footnote__sup_(ctx)])}.`].join(nl)],
+		[`### Accessibility & Portability`, [
+			`Ultrasound machines are widely available. Used in various settings, not just hospitals. Modern ultrasound devices are often portable. Allowing for bedside assessments & use in various clinical environments. From hospitals to outpatient clinics${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s1_3_footnote__sup_(ctx),ref_s1_5_footnote__sup_(ctx)])}.`].join(nl)],
+	]],
+	[`## Clinical Applications of Ultrasonic Screening`, ()=>[
+		[`### Diagnosis of Peripheral Artery Disease (PAD)`, [
+			`Ultrasonic screening is extensively used to diagnose PAD. A common circulatory problem where narrowed arteries reduce blood flow to limbs. Ultrasound helps in assessing the severity of artery narrowing & blockages, guiding treatment decisions${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s3_7_footnote__sup_(ctx),ref_s3_8_footnote__sup_(ctx)])}.`].join(nl)],
+		[`### Evaluation of Carotid Artery Disease`, [
+			`Carotid ultrasound is employed to examine the carotid arteries in the neck. That supply blood to the brain. This screening is vital for assessing the risk of stroke. Especially in patients with known risk factors such as${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s3_3_footnote__sup_(ctx),ref_s3_5_footnote__sup_(ctx),ref_s3_6_footnote__sup_(ctx)])}:`,
+			``,
+			`- high blood pressure`,
+			`- high cholesterol`,
+			`- history of smoking`].join(nl)],
+		[`### Monitoring of Aneurysms`, [
+			`Ultrasound is crucial in the surveillance of aneurysms, particularly abdominal aortic aneurysms. Regular ultrasound screenings can monitor the size & growth of aneurysms. Helping to determine the need for surgical intervention to prevent rupture${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s3_1_footnote__sup_(ctx)])}.`].join(nl)],
+		[`### Venous Insufficiency Assessment`, [
+			`Chronic venous insufficiency. Which occurs when the venous wall or valves in the leg veins are not working effectively. Can be evaluated using ultrasound. This helps in planning appropriate interventions. To improve blood flow & reduce the risk of complications. Like ulcers or deep vein thrombosis${ref_s2_1_footnote__sup_(ctx)}.`].join(nl)],
+	]],
 	[`## ${mobile_hidden__span_([`How is `])}Ultrasound ${mobile_hidden__span_([`Used for `])}Vessel Screening${mobile_hidden__span_([`?`])}`, [
-		`Ultrasound is used to screen for several types of chronic vascular conditions:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		[
+			`Ultrasound is used to screen for several types of chronic vascular conditions:`,
+			``].join(nl),
+		()=>[
 			[`### Carotid Artery Disease`, [
 				`Ultrasound of the carotid arteries in the neck can detect plaque buildup. A key indicator of atherosclerosis. This narrowing of the arteries increases the risk of stroke${footnote__sup__sort([ref_s3_3_footnote__sup_(ctx),ref_s3_4_footnote__sup_(ctx),ref_s3_5_footnote__sup_(ctx),ref_s3_6_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Peripheral Artery Disease (PAD)`, [
@@ -79,8 +80,10 @@ export default (ctx:request_ctx_T)=>''
 			[`### Deep Vein Thrombosis (DVT)`, [
 				`Ultrasound can diagnose dangerous blood clots (DVT) that form in the deep leg veins. DVT can be swiftly identified through ultrasonic screening. This is critical as DVT can lead to potentially life-threatening complications. If a clot dislodges & travels to the lungs, causing a pulmonary embolism.`].join(nl)],
 			[`### Chronic Venous Disease (CVD) Detection`, [
-				`CVD occurs when veins struggle to return blood efficiently from the legs & feet back to the heart. This can lead to a cascade of issues, including:`,
-				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+				[
+					`CVD occurs when veins struggle to return blood efficiently from the legs & feet back to the heart. This can lead to a cascade of issues, including:`,
+					``].join(nl),
+				()=>[
 					[`#### Varicose veins`, [
 						`Twisted, enlarged veins that bulge under the skin.`].join(nl)],
 					[`#### Swelling`, [
@@ -91,7 +94,7 @@ export default (ctx:request_ctx_T)=>''
 						`Aching, heaviness, & cramping can occur in the affected leg(s).`].join(nl)],
 					[`#### Early detection is crucial`, [
 						`Left untreated, CVD can worsen. Leading to complications like blood clots or even skin breakdown. Detecting CVD early allows for timely intervention to manage symptoms & prevent complications.`].join(nl)],
-				])].join(nl)],
+				]]],
 			[`### Atherosclerosis Detection`, [
 				`A primary application of ultrasonic screening is in the detection of atherosclerosis. A condition characterized by the buildup of plaque in the arteries. This can lead to reduced blood flow & can precipitate conditions. Such as coronary artery disease, peripheral artery disease, & stroke. Early detection through ultrasound can lead to timely interventions. Reducing the risk of severe outcomes${footnote__sup__sort([ref_s3_3_footnote__sup_(ctx),ref_s3_4_footnote__sup_(ctx),ref_s3_5_footnote__sup_(ctx),ref_s3_6_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Varicose Veins & Chronic Venous Insufficiency`, [
@@ -99,7 +102,7 @@ export default (ctx:request_ctx_T)=>''
 				`- discomfort`,
 				`- pain`,
 				`- more serious health issues if left untreated`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Who Should Consider Ultrasound Screening?`, [
 		`Ultrasound screening may be recommended for individuals with risk factors for chronic vascular diseases, including${footnote__sup__sort([ref_s3_1_footnote__sup_(ctx),ref_s3_2_footnote__sup_(ctx),ref_s3_3_footnote__sup_(ctx),ref_s3_5_footnote__sup_(ctx),ref_s3_6_footnote__sup_(ctx)])}:`,
 		``,
@@ -199,10 +202,11 @@ function ref_s3_3_footnote__sup_(ctx:request_ctx_T) {
 		id: 's3_3'
 	}, [
 		tb_a_({
-			href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2944149/',
-			nofollow: true,
-			wrap: true,
-		}, 'Standardized ultrasound evaluation of carotid stenosis for clinical trials: University of Washington Ultrasound Reading Center')
+				href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2944149/',
+				nofollow: true,
+				wrap: true,
+			},
+			'Standardized ultrasound evaluation of carotid stenosis for clinical trials: University of Washington Ultrasound Reading Center')
 	])
 }
 function ref_s3_4_footnote__sup_(ctx:request_ctx_T) {
@@ -223,10 +227,11 @@ function ref_s3_5_footnote__sup_(ctx:request_ctx_T) {
 		id: 's3_5'
 	}, [
 		tb_a_({
-			href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4765273/',
-			nofollow: true,
-			wrap: true,
-		}, 'Evaluation of carotid arteries in stroke patients using color Doppler sonography: A prospective study conducted in a tertiary care hospital in South India')
+				href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4765273/',
+				nofollow: true,
+				wrap: true,
+			},
+			'Evaluation of carotid arteries in stroke patients using color Doppler sonography: A prospective study conducted in a tertiary care hospital in South India')
 	])
 }
 function ref_s3_6_footnote__sup_(ctx:request_ctx_T) {

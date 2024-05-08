@@ -15,8 +15,8 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-		[`## What is a Full Body Scan?`, [
-			`A full body scan is a sophisticated medical imaging technique. It employs low-dose radiation to craft detailed visuals. Of the internal architecture of the human body, encompassing bones, organs, & tissues. The brilliance lies in its "low-dose" approach. Balancing minimal radiation exposure with the acquisition of high-quality images.`].join(nl)],
+	[`## What is a Full Body Scan?`, [
+		`A full body scan is a sophisticated medical imaging technique. It employs low-dose radiation to craft detailed visuals. Of the internal architecture of the human body, encompassing bones, organs, & tissues. The brilliance lies in its "low-dose" approach. Balancing minimal radiation exposure with the acquisition of high-quality images.`].join(nl)],
 	[`## Understanding Low-Dose Radiation Scans`, [
 		`A low-dose radiation scan involves a lower amount of radiation. Compared to standard diagnostic CT scans. A low-dose CT scan for lung cancer screening might use about 1.4 millisieverts (mSv) of radiation. Less than the 7 mSv used in a regular diagnostic CT scan of the chest${footnote__sup__sort([ref_l1_7_footnote__sup_(ctx),ref_l1_14_footnote__sup_(ctx)])}. Reducing the radiation dose minimizes the risks associated with ionizing radiation. Which includes DNA damage that could lead to cancer.`].join(nl)],
 	[`## The Purpose`, [
@@ -27,33 +27,33 @@ export default (ctx:request_ctx_T)=>''
 	[`## How It Works`, [
 		`During the procedure, you'll lie on a scanning table that slides through the machine. The machine rotates around you, capturing numerous X-ray images.  A computer then processes these images to create detailed cross-sections of your body, allowing doctors to examine your organs, bones, & blood vessels for potential issues. The entire process is swift, often concluding within mere minutes.`].join(nl)],
 	[`## The Benefits`, [
-		`Full-body scans use low-dose radiation to detect a wide range of diseases & conditions. Before symptoms appear. These scans identify early stages of diseases that are otherwise asymptomatic in their initial stages. Such as${footnote__sup__sort([ref_l1_4_footnote__sup_(ctx),ref_l1_9_footnote__sup_(ctx)])}:`,
-		``,
-    `- certain cancers`,
-    `- vascular diseases`,
-    `- musculoskeletal disorders`,
-		``,
-    `Early detection often allows for earlier treatment. Which can improve prognosis and, in some cases, lead to a cure.`,
-		``,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		[
+			`Full-body scans use low-dose radiation to detect a wide range of diseases & conditions. Before symptoms appear. These scans identify early stages of diseases that are otherwise asymptomatic in their initial stages. Such as${footnote__sup__sort([ref_l1_4_footnote__sup_(ctx),ref_l1_9_footnote__sup_(ctx)])}:`,
+			``,
+			`- certain cancers`,
+			`- vascular diseases`,
+			`- musculoskeletal disorders`,
+			``,
+			`Early detection often allows for earlier treatment. Which can improve prognosis and, in some cases, lead to a cure.`,
+			``
+		].join(nl),
+		()=>[
 			[`### Early Detection`, [
 				`Pinpoints diseases in their nascent stages when they're most amenable to treatment.`].join(nl)],
 			[`### Comprehensive Insight`, [
 				`Delivers a holistic health snapshot, potentially uncovering hidden issues.`].join(nl)],
 			[`### Non-Invasive`, [
 				`Simple & straightforward, the scan requires no incisions or extended hospital stays.`].join(nl)],
-		])].join(nl)],
-	[`## Considerations`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-			[`Pros`, [
-				`- Quick & painless`,
-				`- Identifies a broad spectrum of conditions`,
-				`- Provides peace of mind`].join(nl)],
-			[`Cons`, [
-				`- Radiation Exposure`,
-				`- May lead to unwarranted worry or additional testing`,
-				`- Accessibility & cost may be prohibitive for some`].join(nl)],
-		])].join(nl)],
+		]]],
+	[`## Considerations`, ()=>[
+		[`Pros`, [
+			`- Quick & painless`,
+			`- Identifies a broad spectrum of conditions`,
+			`- Provides peace of mind`].join(nl)],
+		[`Cons`, [
+			`- Radiation Exposure`,
+			`- May lead to unwarranted worry or additional testing`,
+			`- Accessibility & cost may be prohibitive for some`].join(nl)]]],
 	[`## Risks & Concerns`, [
 		`Despite their benefits, full-body scans with low-dose radiation are not without risks. The main concern is the cumulative effect of radiation exposure. Even low doses of radiation can contribute to an increased risk of cancer over a person’s lifetime. According to studies, repeated exposure, even to low doses, can add up. Increasing the risk of developing cancer${footnote__sup__sort([ref_l1_5_footnote__sup_(ctx),ref_l1_10_footnote__sup_(ctx)])}. These scans can lead to false positives. Where the detection of benign conditions might lead to unnecessary follow-up tests & procedures. That carry their own risks${ref_l1_4_footnote__sup_(ctx)}.`
 	].join(nl)],

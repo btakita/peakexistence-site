@@ -39,22 +39,23 @@ export default (ctx:request_ctx_T)=>''
 		``,
     `Exercise elevates endorphin levels, which can alleviate pain & boost mood. Providing a natural antidepressant effect${footnote__sup__sort([ref_k1_6_footnote__sup_(ctx),ref_k1_18_footnote__sup_(ctx)])}. Regular physical activity improves cognitive functions & delays the progression of neurodegenerative diseases. Making it a valuable component of mental health treatment${footnote__sup__sort(ref_k1_3_footnote__sup_(ctx),ref_k1_8_footnote__sup_(ctx))}.`].join(nl)],
 	[`## ${mobile_hidden__span_([`Combining `])}Exercise with Ketamine Therapy`, [
-		`Integrating exercise with ketamine therapy amplifies the benefits of each treatment modality. Exercise prolongs the antidepressant effects of ketamine. After the initial pharmacological effects of the drug have worn off, exercise${footnote__sup__sort([ref_k1_12_footnote__sup_(ctx),ref_k1_13_footnote__sup_(ctx)])}:`,
-		``,
-    `- continues to stimulate neuroplasticity`,
-    `- enhances mood`,
-		``,
-    `Exercise helps mitigate side effects of ketamine. Such as sedation or dissociation, by promoting overall physical health & resilience${ref_k1_13_footnote__sup_(ctx)}.`,
-		``,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_}, ()=>[
+		[
+			`Integrating exercise with ketamine therapy amplifies the benefits of each treatment modality. Exercise prolongs the antidepressant effects of ketamine. After the initial pharmacological effects of the drug have worn off, exercise${footnote__sup__sort([ref_k1_12_footnote__sup_(ctx),ref_k1_13_footnote__sup_(ctx)])}:`,
+			``,
+			`- continues to stimulate neuroplasticity`,
+			`- enhances mood`,
+			``,
+			`Exercise helps mitigate side effects of ketamine. Such as sedation or dissociation, by promoting overall physical health & resilience${ref_k1_13_footnote__sup_(ctx)}.`,
+			``
+		].join(nl),
+		()=>[
 			[`### Enhanced Neuroplastic Effects`, [
 				`Both ketamine & exercise promote the growth of new neural connections. Combining these could lead to more robust improvements in brain plasticity & cognitive function${footnote__sup__sort([ref_k1_3_footnote__sup_(ctx),ref_k1_5_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Sustained Antidepressant Effects`, [
 				`Exercise could help maintain the antidepressant effects of ketamine over longer periods. Reducing the frequency of required doses${footnote__sup__sort([ref_k1_12_footnote__sup_(ctx),ref_k1_13_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Improved Physical & Mental Health`, [
 				`Regular exercise enhances physical fitness & mental health. Which supports the overall effectiveness of ketamine therapy in improving patient outcomes${footnote__sup__sort([ref_k1_16_1_footnote__sup_(ctx),ref_k1_16_2_footnote__sup_(ctx),ref_k1_18_footnote__sup_(ctx)])}.`].join(nl)],
-		])
-	].join(nl)],
+		]]],
 	[`## Key Benefits${mobile_hidden__span_([` of Exercise with Ketamine Infusions`])}`, [
 		`Enhanced Mood & Motivation. Ketamine has shown promise in alleviating symptoms of depression & anxiety. Ketamine with exercise can elevate mood & motivation. Making workouts more enjoyable & rewarding.`,
 		``,

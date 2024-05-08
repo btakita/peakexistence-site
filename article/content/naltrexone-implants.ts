@@ -46,15 +46,16 @@ export default (ctx:request_ctx_T)=>''
 	[`## ${mobile_hidden__span_([`Naltrexone is a part of a complete therapy program`, `Part of a Therapy Program`])}`, [
 		`Naltrexone’s efficacy depends on the individual’s willingness to remain substance-free. Therapy & addiction treatment are crucial in sticking to the treatment.`].join(nl)],
 	[`## Challenges & Considerations`, [
-		`Despite their benefits, naltrexone implants are not devoid of challenges. The implantation procedure is minor but still invasive. It can be a deterrent for some patients. There are also potential side effects related to the implant site. Such as infection or irritation${footnote__sup__sort([ref_n1_2_footnote__sup_(ctx),ref_n1_3_footnote__sup_(ctx)])}.`,
-		``,
-		`The cost & availability of naltrexone implants can be a barrier. As these implants are relatively new & not widely available in all regions. Accessing this treatment option can be difficult for some patients. The cost of the implants includes the procedure & the device. May not be covered by all insurance plans${ref_n1_3_footnote__sup_(ctx)}.`,
-		``,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		[
+			`Despite their benefits, naltrexone implants are not devoid of challenges. The implantation procedure is minor but still invasive. It can be a deterrent for some patients. There are also potential side effects related to the implant site. Such as infection or irritation${footnote__sup__sort([ref_n1_2_footnote__sup_(ctx),ref_n1_3_footnote__sup_(ctx)])}.`,
+			``,
+			`The cost & availability of naltrexone implants can be a barrier. As these implants are relatively new & not widely available in all regions. Accessing this treatment option can be difficult for some patients. The cost of the implants includes the procedure & the device. May not be covered by all insurance plans${ref_n1_3_footnote__sup_(ctx)}.`,
+			``
+		].join(nl),
+		()=>[
 			[`### ${mobile_hidden__span_([`Awareness of the implant’s blocking effect on opioids may create a placebo effect.`, `Placebo Effect`])}`, [
 				`Naltrexone implants block the physical cravings to abuse of opioids. But Naltrexone does not eliminate the desire for the euphoric effects of opioids. Using opioids with the implant will not result in the usual euphoric effects. This could lead to increasing the opioid dosage, causing a higher risk of overdose. Don't use opioids while using Naltrexone.`].join(nl)]
-		])
-	].join(nl)],
+		]]],
 	[`## Conclusion`, [
 		`Naltrexone implants represent a significant advancement in the treatment of opioid & alcohol dependence. By providing a long-term, steady release of medication, these implants:`,
 		``,

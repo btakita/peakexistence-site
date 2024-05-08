@@ -6,7 +6,7 @@ import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
-import { sticky__dl_tree_props_, sticky__h2_class } from '../../sticky/index.js'
+import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 // TODO: Add References: WIP
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -19,18 +19,18 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({
 	ctx,
-	dt_class: sticky__h2_class
+	_: sticky__dl_tree_props_
 }, ()=>[
 	[`## ED & Cardiovascular Health`, [
 		`ED can be a harbinger of cardiovascular diseases. Serving as an early warning sign. Due to the shared pathophysiology between erectile function & vascular health. Atherosclerotic processes impede blood flow to the coronary arteries. It will often occur in penile arteries first due to their smaller size. Erectile Dysfunction is a "canary in the coalmine". Offering an early warning sign of cardiovascular disease. Offering a critical window for intervention.`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Unveiling the Connection`, [
 				`Endothelial dysfunction is the endothelium's impaired ability to regulate blood vessel dilation. It plays a pivotal role in both ED & CVD. Risk factors exacerbate this condition, such as:`,
 				`- hypertension`,
 				`- diabetes`,
 				`- hyperlipidemia`,
 				`- smoking`].join(nl)]
-		])].join(nl)],
+		]]],
 	[`## ED & Your Heart`, [
 		`Erections require healthy blood flow. Cardiovascular diseases damage blood vessels & impair this vital function. Diseases like:`,
 		`- atherosclerosis (plaque buildup in arteries)`,
@@ -39,7 +39,7 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		`ED can be an early warning sign of these conditions. Offering a window for proactive heart health measures.`].join(nl)],
 	[`## Treating Cardiovascular Health Can Restore Sexual Function`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Improved Blood Flow`, [
 				`Managing conditions like high blood pressure & cholesterol optimizes blood flow throughout the body. Including to the penis, enhancing erectile function.`].join(nl)],
 			[`### Reduced Medication Side Effects`, [
@@ -49,10 +49,10 @@ export default (ctx:request_ctx_T)=>''
 				`- exercise`,
 				`- a heart-healthy diet`,
 				`- stress management`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Comprehensive Screening${mobile_hidden__span_([`: The First Step`])}`, [
 		`A thorough evaluation is essential when Erectile Dysfunction occurs. To uncover any underlying cardiovascular risk factors or diseases. This comprehensive screening includes:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Medical history review`, [
 				`Focusing on cardiovascular risk factors such as:`,
 				`- hypertension`,
@@ -65,10 +65,9 @@ export default (ctx:request_ctx_T)=>''
 				`Checking for high cholesterol, diabetes, & other markers of CVD.`].join(nl)],
 			[`### Specialized tests`, [
 				`Such as electrocardiograms (EKGs) or stress tests. If deemed necessary based on initial assessments.`].join(nl)],
-		])
-	].join(nl)],
+		]]],
 	[`## Treatment Strategies${mobile_hidden__span_([` Focusing on Heart Health`])}`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Lifestyle as Medicine`, [
 				`A healthy lifestyle is foundational to improve blood circulation. Solving root causes of Erectile Dysfunction.`].join(nl)],
 			[`### Healthy Diet`, [
@@ -88,47 +87,44 @@ export default (ctx:request_ctx_T)=>''
 				`Effective blood sugar management protects blood vessels throughout the body.`].join(nl)],
 			[`### Medication Management`, [
 				`Healthy living is the best strategy to manage body vital signs. If additional intervention is needed, the doctor may prescribe medication.`,
-				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+				()=>[
 					[`#### Blood Pressure Medication`, [
-						dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+						()=>[
 							[`##### Medications Used`, [
 								`Antihypertensive drugs, including ACE inhibitors & beta-blockers.`].join(nl)],
 							[`##### Mechanism`, [
 								`These medications help lower high blood pressure, enhancing arterial health & blood flow.`].join(nl)],
 							[`##### Impact on ED`, [
 								`Improved blood flow can alleviate ED symptoms. As erectile function depends on the ability to achieve & adequate penile blood flow${ref_m1_1_footnote__sup_(ctx)}.`].join(nl)],
-						])
-					].join(nl)],
+						]]],
 					[`#### Cholesterol Level Medication`, [
-						dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+						()=>[
 							[`##### Medications Used`, [
 								`Statins & other lipid-lowering agents.`].join(nl)],
 							[`##### Mechanism`, [
 								`These drugs reduce cholesterol levels. Decreasing the risk of atherosclerosis. A condition where plaque builds up in the arteries.`].join(nl)],
 							[`##### Impact on ED`, [
 								`These medications prevent arterial plaque buildup. Helping ensure better blood flow throughout the body, including to the penile region. Improving or preventing ED${ref_m1_2_footnote__sup_(ctx)}.`].join(nl)],
-						])
-					].join(nl)],
+						]]],
 					[`#### Diabetes Medication`, [
-						dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+						()=>[
 							[`##### Medications Used`, [
 								`Blood glucose-regulating medications such as metformin, insulin, & other antidiabetic drugs.`].join(nl)],
 							[`##### Mechanism`, [
 								`These medications help control blood sugar levels. Preventing spikes that can damage blood vessels & nerves over time.`].join(nl)],
 							[`##### Impact on ED`, [
 								`Reduces the risk of vascular & neurological damage that can impair erectile function. Thereby helping to maintain or improve sexual health${ref_m1_3_footnote__sup_(ctx)}.`].join(nl)],
-						])
-					].join(nl)],
-				])].join(nl)],
+						]]],
+				]]],
 			[`### Supplemental ED Treatment`, [
 				`While addressing cardiovascular health, your doctor may still recommend:`,
 				`- Oral medications (PDE5 inhibitors) to support blood flow.`,
 				`- Other ED treatments if needed (injections, devices)`
 			].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Integrated Treatment${mobile_hidden__span_([` Approaches`])}`, [
 		`Addressing ED in the context of cardiovascular health involves a multifaceted treatment strategy. Improving erectile function & mitigating cardiovascular risk factors.`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Lifestyle Modifications`, [
 				`Central to managing both ED & cardiovascular health are lifestyle changes. A healthy lifestyle has a significant positive impact:`,
 				`- dietary improvements`,
@@ -147,18 +143,17 @@ export default (ctx:request_ctx_T)=>''
 				`- providing support`,
 				`- alleviating stress`,
 				`- improving well-being`].join(nl)],
-		])
-	].join(nl)],
+		]]],
 	[`## Beyond Treating Symptoms`, [
 		`Recognizing the link between ED & heart health empowers you to take an active role in managing both. This involves:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Comprehensive Evaluation`, [
 				`A thorough cardiovascular checkup to identify risks & create a personalized management plan.`].join(nl)],
 			[`### Open Communication${mobile_hidden__span_([` with Your Doctor`])}`, [
 				`Discussing your sexual concerns allows for better treatment coordination.`].join(nl)],
 			[`### Long-Term Commitment`, [
 				`Lifestyle changes & ongoing medication management are key for sustainable improvement.`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Benefits${mobile_hidden__span_([` of a Heart-Centered Approach`])}`, [
 		`By addressing the underlying cardiovascular issues that contributing to ED. You're not just improving your sex life, you're:`,
 		`- Reducing the risk of heart attack & stroke`,

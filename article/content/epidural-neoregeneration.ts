@@ -23,16 +23,16 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## What is Epidural Neoregeneration?`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Epidural`, [
 				`Refers to the epidural space, which is the area surrounding the spinal cord filled with fatty tissue & cerebrospinal fluid.`].join(nl)],
 			[`### Neuroregeneration`, [
 				`The process of regrowing damaged nerve cells & fibers. This is a field of active research with the goal of restoring function after nervous system injuries like spinal cord injuries.`].join(nl)],
-		]),
-		``,
+		],
+		nl,
 		`Epidural neoregeneration involves the application of therapies through the epidural space. The area outside the dura mater of the spinal cord. The outermost layer of meninges around the spinal cord. To promote the healing & regrowth of neural tissues. Regenerating damaged nerves. Leading to pain reduction & improved function. Several approaches show promising results in facilitating neural recovery. With functional improvements in SCI patients or animal experiments:`,
-		``,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		nl,
+		()=>[
 			[`### Epidural Electrical Stimulation (EES)`, [
 				`EES involves the delivery of continuous electrical currents to the spinal cord. Via electrodes placed in the epidural space. This stimulation reactivates dormant neural pathways & enhancing the plasticity of spinal circuits. Improving motor control & sensory functions${ref_e1_13_footnote__sup_(ctx)}.`].join(nl)],
 			[`### Epidural Oscillating Field Stimulation (OFS)`, [
@@ -43,8 +43,8 @@ export default (ctx:request_ctx_T)=>''
 				`Stem cells have promising potential for use in Epidural Neoregeneration. Through their ability to differentiate into various types of cells, including neural cells. And to secrete growth factors that promote tissue repair & regeneration. These stem cells can repair damaged neural tissues in the spinal cord. By fostering the growth of new neurons & supporting cells. Enhancing neural connectivity & reducing inflammation. This regenerative capability is particularly promising for treating spinal cord injuries. As it can lead to the restoration of motor and sensory functions that were impaired or lost due to the injury${footnote__sup__sort([ref_s1_6_footnote__sup_(ctx),ref_s1_2_footnote__sup_(ctx),ref_s1_3_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Anti-inflammatory Agents`, [
 				`Reduce inflammation, creating a better environment for healing. Are considered safe to use with Epidural Procedures${ref_a1_1_footnote__sup_(ctx)}.`].join(nl)],
-		]),
-	].join(nl)],
+		],
+	]],
 	[`## Why Consider Epidural Neoregeneration?`, [
 		`People turn to Epidural Neuroregeneration for several reasons:`,
 		`- Restoring nervous function.`,
@@ -77,7 +77,7 @@ export default (ctx:request_ctx_T)=>''
 				`Patients often go home the same day. Full benefits may take time to appear.`]],
 		])].join(nl)],
 	[`## Pros & Cons`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Pros`, [
 				`- Potential for long-term pain relief.`,
 				`- Non-surgical. Lower risk than surgery.`,
@@ -88,24 +88,23 @@ export default (ctx:request_ctx_T)=>''
 				`- May require multiple sessions.`,
 				`- Limited availability. Not widely offered yet.`,
 			].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Challenges & Future Directions`, [
 		`While epidural neoregeneration offers substantial promise. There are several challenges that researchers & clinicians continue to face:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Optimizing Stimulation Parameters`, [
 				`Determining the most effective parameters of stimulation, including:`,
 				``,
-        `- frequencies`,
-        `- intensities`,
-        `- durations`,
+				`- frequencies`,
+				`- intensities`,
+				`- durations`,
 				``,
-        `For different types of SCI remains a critical area of research.`].join(nl)],
+				`For different types of SCI remains a critical area of research.`].join(nl)],
 			[`### Long-Term Efficacy & Safety`, [
 				`More long-term studies are needed. To fully understand the potential side effects & long-term benefits of continuous epidural stimulation.`].join(nl)],
 			[`### Integration with Other Therapies`, [
 				`Combining epidural stimulation with other therapeutic approaches. Such as pharmacological treatments & physical therapy. It is likely to enhance outcomes but requires careful coordination.`].join(nl)],
-		])
-	].join(nl)],
+		]]],
 	[`## Conclusion`, [
 		`Epidural neoregeneration represents a transformative approach to treating spinal cord injuries. With the potential to significantly improve the quality of life for affected individuals. By harnessing the power of epidural stimulation technologies. Researchers & clinicians are making strides toward enabling SCI patients. To regain mobility & other functions.`,
 		``,

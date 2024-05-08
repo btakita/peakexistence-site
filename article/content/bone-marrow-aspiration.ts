@@ -22,9 +22,9 @@ export default (ctx:request_ctx_T)=>''
 	`- white blood cells`,
 	`- platelets`].join(nl))
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-	[`## Why Bone Marrow Aspiration is Done`, [
+	[`## ${mobile_hidden__span_([`Why `])}Bone Marrow Aspiration${mobile_hidden__span_([` is Done`])}`, [
 		`Doctors may order a bone marrow aspiration to:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Diagnose Blood Disorders`, [
 				`Helps identify problems with the production of red blood cells, white blood cells, or platelets. Examples include anemia, leukemia, & other blood cancers.`].join(nl)],
 			[`### Detect Cancer`, [
@@ -43,8 +43,8 @@ export default (ctx:request_ctx_T)=>''
 				`The procedure also plays a crucial role in detecting infections. And the presence of other abnormal cells.`].join(nl)],
 			[`### Monitoring & Management`, [
 				`Bone marrow aspiration enables monitoring the progress of known conditions. And measuring the effectiveness of treatments. For patients undergoing chemotherapy or other targeted therapies. Periodic aspirations can provide a clear picture of response & recovery. Guiding further treatment decisions & adjustments.`].join(nl)],
-		])
-	].join(nl)],
+		]
+	]],
 	[`## The Procedure: A Closer Look`, [
 		`Performed by a specialized medical professional. The procedure often targets the marrow within the hipbone or breastbone. Under local anesthesia to minimize discomfort. A needle inserted into the bone draws out a sample of marrow. The process is swift, usually completed within a few minutes. It provides invaluable insights into the health & functionality of the patient's marrow.`,
 		dl_tree_({
@@ -63,10 +63,10 @@ export default (ctx:request_ctx_T)=>''
 				`A special needle inserted through the bone into the bone marrow cavity. A syringe withdraws a small amount of liquid bone marrow.`].join(nl)],
 			[`### Biopsy`, [
 				`Often a bone marrow biopsy is also done. This involves removing a tiny, solid core of bone marrow tissue.`].join(nl)],
-		])].join(nl)],
+		])]],
 	[`## What to Expect`, [
 		`Despite its importance, a bone marrow aspiration procedure may evoke apprehension. Understanding what to expect:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Preparation`, [
 				`Bone Marrow Aspiration requires little preparation. Though certain medications should be avoided before the procedure.`].join(nl)],
 			[`### During the Procedure`, [
@@ -75,8 +75,7 @@ export default (ctx:request_ctx_T)=>''
 				`Recovery is quick, with patients able to resume most activities shortly after. Some soreness at the site of aspiration may occur but generally subsides within a few days.`].join(nl)],
 			[`### Results`, [
 				`Sample analysis occurs in a lab. Your doctor will discuss the results with you, usually within a week or two.`].join(nl)],
-		])
-	].join(nl)],
+		]]],
 	[`## What the Results Can Reveal`, [
 		`Bone marrow aspiration provides crucial information about your blood cells & bone marrow function. Aiding in the diagnosis, management, & monitoring of various conditions.`].join(nl)],
 	[`## Innovations & Advances${mobile_hidden__span_([` in Bone Marrow Aspiration`])}`, [

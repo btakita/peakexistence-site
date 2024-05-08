@@ -22,14 +22,15 @@ export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Why Does Blood Flow Matter?`, [
 		`Proper circulation is fundamental to maintaining optimal health. It ensures the continuous flow of blood & oxygen throughout the body. Enabling every organ to function efficiently. Healthy blood flow is essential for:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Oxygen & Nutrient Delivery`, [
 				`Every cell in your body depends on a steady supply of oxygen & nutrients. Restricted blood flow can lead to tissue damage & organ dysfunction.`].join(nl)],
 			[`### Waste Removal`, [
 				`Blood carries away waste products like carbon dioxide. Impaired blood flow can lead to a buildup of toxins.`].join(nl)],
 			[`### Heart Health`, [
 				`Adequate blood flow to the heart muscle is crucial to prevent heart attacks. And prevent other cardiac problems.`,
-				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+				nl,
+				()=>[
 					[`#### Nutrient & Oxygen Supply`, [
 						`Effective circulation delivers a steady supply of oxygen & essential nutrients to the heart. This is vital for the heart's energy production & function. The Cleveland Clinic emphasizes the importance of blood flow in delivering oxygen & nutrients. To all organs & tissues, including the heart itself.`].join(nl)],
 					[`#### Removing Waste Products`, [
@@ -42,20 +43,19 @@ export default (ctx:request_ctx_T)=>''
 						`The heart's electrical system controls the rate & rhythm of the heartbeat. The heart's electrical system relies on adequate blood flow to function. The entire electrical conduction system depends on a continuous supply of oxygenated blood. To generate the electrical impulses that regulate heartbeats${ref_h1_7__sup_(ctx)}.`].join(nl)],
 					[`#### Adaptation to Physical Activity`, [
 						`During exercise or physical activity, the heart's demand for oxygen & nutrients increases. Effective circulation allows for an increase in cardiac output & blood pressure. To meet these heightened demands${ref_h1_17__sup_(ctx)}.`].join(nl)],
-				]),
-			].join(nl)],
+				]]],
 			[`### Brain Function`, [
 				`Effective blood flow enhances brain function. Allowing you to operate with peak cognitive function. The brain is highly sensitive to blood flow disruptions. Which can increase stroke risk & impair cognitive function.`,
-				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+				()=>[
 					[`#### Enhance Cognitive Function`, [
 						`Proper blood circulation ensures the brain receives a continuous supply of oxygen & glucose. Which is essential for energy production. This energy is vital for the brain to perform various cognitive functions efficiently. Including memory, problem-solving, & decision-making${footnote__sup__sort([ref_b2_1_footnote__sup_(ctx),ref_b2_2_footnote__sup_(ctx),ref_b2_3_footnote__sup_(ctx)])}.`].join(nl)],
 					[`#### Increase Brain Activity`, [
 						`Studies have shown that increased blood flow, particularly in regions of the brain, correlate with:`,
-          	`- memory & learning`,
-          	`- correlates with higher cognitive abilities`,
-          	`- IQ scores`,
+						`- memory & learning`,
+						`- correlates with higher cognitive abilities`,
+						`- IQ scores`,
 						``,
-            `Research has demonstrated that cerebral blood flow (CBF) is positively correlated with IQ. Highlighting that areas with more blood flow tend to have better cognitive functioning${ref_b2_2_footnote__sup_(ctx)}.`
+						`Research has demonstrated that cerebral blood flow (CBF) is positively correlated with IQ. Highlighting that areas with more blood flow tend to have better cognitive functioning${ref_b2_2_footnote__sup_(ctx)}.`
 					].join(nl)],
 					[`#### Prevent of Cognitive Decline`, [
 						`Adequate blood circulation helps in maintaining brain health & preventing cognitive decline. Conditions that impair circulation include cardiovascular diseases & diabetes. Decreased blood flow associates with higher risks of dementia & decreased cognitive abilities${footnote__sup__sort([ref_b2_3_footnote__sup_(ctx),ref_b2_4_footnote__sup_(ctx)])}.`
@@ -66,17 +66,16 @@ export default (ctx:request_ctx_T)=>''
 					[`#### Brain Structure & Function`, [
 						`Enhanced blood circulation has long-term effects. Including the maintenance of healthy brain structure & function. Studies using imaging techniques like arterial spin labeling. Show that individuals with higher IQ scores exhibit distinct patterns of blood flow in the brain. Suggesting that efficient vascular health is integral to superior cognitive performance${ref_b2_2_footnote__sup_(ctx)}.`
 					].join(nl)],
-				])
-			].join(nl)],
+				]]],
 			[`### Peripheral Circulation`, [
 				`Good blood flow in the arms & legs prevents:`,
 				`- pain`,
 				`- wounds`,
 				`- potential complications like amputation in severe cases`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Conditions Affect Blood Flow`, [
 		`Several conditions can compromise blood flow:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Atherosclerosis`, [
 				`The buildup of plaque within artery walls is the most common culprit. Narrowing vessels & restricting flow.`].join(nl)],
 			[`### Blood Clots`, [
@@ -87,37 +86,38 @@ export default (ctx:request_ctx_T)=>''
 				`Weakened sections of arteries can bulge (aneurysm), raising the risk of rupture.`].join(nl)],
 			[`### Peripheral Artery Disease (PAD)`, [
 				`Atherosclerosis in the legs or arms restricts blood flow.`].join(nl)],
-		])].join(nl)],
+		]]],
 		[`## How is Blood Flow Analyzed?`, [
 		`Blood flow analysis uses diagnostic techniques to visualize & assess the movement of blood. Through the body's arteries & veins. Providing valuable information on the velocity, volume, & turbulence of blood flow. Allowing healthcare professionals to detect abnormalities indicating underlying health issues. Various techniques help doctors evaluate blood flow:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-			[`### Laser Doppler Flowmetry`, [
-				`Laser Doppler flowmetry (LDF) exemplifies one of the many techniques used in blood flow analysis. Offering the advantage of continuous measurements. It does not provide volumetric flow measurements. Making comparisons between different sites or subjects challenging${ref_b1_1_footnote__sup_(ctx)}. Despite this limitation, LDF & other methods. Like the radioactive microsphere technique & optical coherence tomography. Play crucial roles in specific applications. Particularly in ocular blood flow measurements.`].join(nl)],
-			[`### Doppler Ultrasound`, [
-				`The primary non-invasive method. Uses sound waves to visualize blood flow & detect blockages or abnormal flow patterns.`].join(nl)],
-			[`### Arterial Pressure Waveforms`, [
-				`Offers insights into the heart's health. By evaluating the pressure changes within the arteries throughout the cardiac cycle.`].join(nl)],
-			[`### Blood Pressure Testing`, [
-				`A basic but crucial measure of the force of blood against vessel walls. High blood pressure indicates stress on the circulatory system.`].join(nl)],
-			[`### Cardiac Catheterization`, [
-				`A more invasive procedure. A catheter is inserted into blood vessels. To provide detailed images, pressure readings, & allows for potential interventions.`].join(nl)],
-			[`### Specialized Blood Tests`, [
-				`Cholesterol levels are a key indicator of heart disease risk. High cholesterol correlates with plaque formation.`].join(nl)],
-		])].join(nl)],
+			()=>[
+				[`### Laser Doppler Flowmetry`, [
+					`Laser Doppler flowmetry (LDF) exemplifies one of the many techniques used in blood flow analysis. Offering the advantage of continuous measurements. It does not provide volumetric flow measurements. Making comparisons between different sites or subjects challenging${ref_b1_1_footnote__sup_(ctx)}. Despite this limitation, LDF & other methods. Like the radioactive microsphere technique & optical coherence tomography. Play crucial roles in specific applications. Particularly in ocular blood flow measurements.`].join(nl)],
+				[`### Doppler Ultrasound`, [
+					`The primary non-invasive method. Uses sound waves to visualize blood flow & detect blockages or abnormal flow patterns.`].join(nl)],
+				[`### Arterial Pressure Waveforms`, [
+					`Offers insights into the heart's health. By evaluating the pressure changes within the arteries throughout the cardiac cycle.`].join(nl)],
+				[`### Blood Pressure Testing`, [
+					`A basic but crucial measure of the force of blood against vessel walls. High blood pressure indicates stress on the circulatory system.`].join(nl)],
+				[`### Cardiac Catheterization`, [
+					`A more invasive procedure. A catheter is inserted into blood vessels. To provide detailed images, pressure readings, & allows for potential interventions.`].join(nl)],
+				[`### Specialized Blood Tests`, [
+					`Cholesterol levels are a key indicator of heart disease risk. High cholesterol correlates with plaque formation.`].join(nl)],
+			]]],
 	[`## Significance${mobile_hidden__span_([` of Blood Flow Analysis`])}`, [
-		`Blood flow analysis diagnoses, manages, & prevents cardiovascular diseases. Including:`,
-		`- arteriosclerosis`,
-		`- peripheral artery disease`,
-		`- aortic stenosis`,
-		`- congenital heart defects`,
-		``,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		[
+			`Blood flow analysis diagnoses, manages, & prevents cardiovascular diseases. Including:`,
+			`- arteriosclerosis`,
+			`- peripheral artery disease`,
+			`- aortic stenosis`,
+			`- congenital heart defects`,
+		].join(nl),
+		()=>[
 			[`### Diagnosing ${mobile_hidden__span_([`Cardiovascular `])}Disease`, [
-				`Early detection is key in managing cardiovascular diseases. Blood flow analysis provides a critical advantage. By identifying issues like blockages, clots, or weakened vessel walls. Physicians can intervene early, often preventing the progression of disease & avoiding severe complications.`].join(nl)]])
-	].join(nl)],
+				`Early detection is key in managing cardiovascular diseases. Blood flow analysis provides a critical advantage. By identifying issues like blockages, clots, or weakened vessel walls. Physicians can intervene early, often preventing the progression of disease & avoiding severe complications.`].join(nl)]]
+	]],
 	[`## Applications${mobile_hidden__span_([` of Blood Flow Analysis`])}`, [
 		`Blood flow analysis aids in the diagnosis & management of many conditions:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Coronary Artery Disease`, [
 				`Identifying blockages that increase heart attack risk.`].join(nl)],
 			[`### Peripheral Artery Disease (PAD)`, [
@@ -137,16 +137,15 @@ export default (ctx:request_ctx_T)=>''
 				`  - stenting`,
 				`  - bypass surgery`,
 				``,
-				`For patients undergoing treatment for conditions like atrial fibrillation or chronic heart failure. Regular blood flow assessments can monitor disease progression & guide ongoing care.`]],
+				`For patients undergoing treatment for conditions like atrial fibrillation or chronic heart failure. Regular blood flow assessments can monitor disease progression & guide ongoing care.`].join(nl)],
 			[`### Advancing Surgical Outcomes`, [
-				`In the realm of cardiac surgery, blood flow analysis is invaluable. Surgeons rely on detailed blood flow data to plan procedures. Tailoring interventions to the unique needs of each patient's cardiovascular system.`].join(nl)],
-		])
-	].join(nl)],
+				`In the realm of cardiac surgery, blood flow analysis is invaluable. Surgeons rely on detailed blood flow data to plan procedures. Tailoring interventions to the unique needs of each patient's cardiovascular system.`].join(nl)]]
+	]],
 	[`## ${mobile_hidden__span_([`Blood Flow Analysis in `])}Preventive Medicine`, [
 		`Preventive medicine uses blood flow analysis. To identify people at risk of cardiovascular diseases before symptoms manifest. This proactive approach can lead to lifestyle changes, dietary adjustments, & treatments. That significantly reduces the risk of heart attack, stroke, & other life-threatening events.`].join(nl)],
 	[`## ${mobile_hidden__span_([`Beyond Diagnosis: `])}Protecting Your Health`, [
 		`Blood flow analysis informs treatment but also highlights the importance of prevention. Prioritize heart-healthy habits:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Healthy Eating`, [
 				`A balanced diet rich in fruits, vegetables, whole grains, & lean protein. While limiting unhealthy fats & processed foods.`].join(nl)],
 			[`### Regular Exercise`, [
@@ -164,8 +163,7 @@ export default (ctx:request_ctx_T)=>''
 				`- managing stress`].join(nl)],
 			[`### ${mobile_hidden__span_([`Role of `])}Supplements & Medications`, [
 				`Supplements or medications may be necessary to improve blood flow & heart health. Blood flow analysis can help determine the most effective options. Whether its anticoagulants to prevent clots or statins to lower cholesterol levels.`].join(nl)],
-		])
-	].join(nl)],
+		]]],
 	[`## The Takeaway`, [
 		`Blood flow analysis provides a window into your circulatory health. Offering unparalleled insights into the health of the heart & vessels. Enabling:`,
 		`- early detection`,

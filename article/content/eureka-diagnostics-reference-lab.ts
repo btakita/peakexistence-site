@@ -17,7 +17,7 @@ export default (ctx:request_ctx_T)=>''
 		`Eureka Diagnostics is more than a laboratory. It's a critical partner in the healthcare process. Offering an extensive array of tests. Spanning from routine blood work to complex genetic screenings. This facility equips state-of-the-art instruments. Employing a team of skilled professionals. Dedicated to upholding the highest standards of accuracy & reliability.`].join(nl)],
 	[`## Services Offered`, [
 		`The range of services provided by Eureka Diagnostics includes:`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Clinical Pathology`, [
 				`A wide spectrum of blood tests, urinalysis, & other bodily fluids assessments. To detect diseases & monitor organ function.`].join(nl)],
 			[`### Molecular Diagnostics`, [
@@ -28,18 +28,17 @@ export default (ctx:request_ctx_T)=>''
 				`Offering comprehensive drug & alcohol testing for various contexts. Including employment screening & medical evaluations.`].join(nl)],
 			[`### Imaging`, [
 				`X-rays, ultrasounds, CT scans, & potentially other modalities depending on their capabilities.`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## The Eureka Advantage`, [
 		`What sets Eureka Diagnostics apart is its commitment to innovation, accuracy, & speed. The laboratory employs cutting-edge technologies. Ensuring precise results & reduced turnaround times. This efficiency is critical in healthcare. Where timely diagnosis can impact patient outcomes.`,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Precision & Reliability`, [
 				`At Eureka Diagnostics, every test undergoes rigorous quality control processes. To ensure the highest level of accuracy. Patients & healthcare providers can trust the results. Which is fundamental in making informed medical decisions.`].join(nl)],
 			[`### Rapid Turnaround Times`, [
 				`Understanding the importance of swift diagnostics, Eureka Diagnostics prioritizes efficient processing. This rapid turnaround facilitates quicker treatment initiation. Offering patients a better chance at a favorable prognosis.`].join(nl)],
 			[`### Patient-Centered Approach`, [
 				`Eureka Diagnostics places a strong emphasis on patient care. The lab works with healthcare providers. To tailor testing according to individual patient needs. Ensuring a personalized & effective diagnostic experience.`].join(nl)],
-		])
-	].join(nl)],
+		]].join(nl)],
 	[`## Empowering ${mobile_hidden__span_([`Healthcare `])}Providers`, [
 		`By offering a comprehensive suite of diagnostic services. Eureka Diagnostics empowers healthcare providers. With the information needed to make accurate diagnoses & develop effective treatment plans. This collaboration is pivotal in advancing patient care & improving health outcomes.`].join(nl)],
 	[`## Conclusion`, [

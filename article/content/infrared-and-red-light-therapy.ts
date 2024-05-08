@@ -36,11 +36,13 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		`PBM accelerates recovery & relieves symptoms without invasive procedures.`].join(nl)],
 	[`## Mechanisms of Action`, [
-		`The therapeutic effects of infrared & red light therapy. Are primarily attributed to their impact on mitochondrial function within cells. The mitochondria are the "powerhouses" of cells, responsible for energy production. Red & infrared light is absorbed by a mitochondrial enzyme called cytochrome c oxidase. Which plays a pivotal role in the cellular respiratory chain${footnote__sup__sort(ref_i1_7_footnote__sup_(ctx),ref_i1_8_footnote__sup_(ctx))}.`,
-		``,
-		`This absorption of light energy leads to:`,
-		``,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		[
+			`The therapeutic effects of infrared & red light therapy. Are primarily attributed to their impact on mitochondrial function within cells. The mitochondria are the "powerhouses" of cells, responsible for energy production. Red & infrared light is absorbed by a mitochondrial enzyme called cytochrome c oxidase. Which plays a pivotal role in the cellular respiratory chain${footnote__sup__sort(ref_i1_7_footnote__sup_(ctx),ref_i1_8_footnote__sup_(ctx))}.`,
+			``,
+			`This absorption of light energy leads to:`,
+			``
+		].join(nl),
+		()=>[
 			[`### Increased Production of ATP`, [
 				`Enhanced ATP (adenosine triphosphate) production provides more energy for cells. Facilitating various healing & regenerative processes${footnote__sup__sort(ref_i1_7_footnote__sup_(ctx),ref_i1_8_footnote__sup_(ctx))}.`].join(nl)],
 			[`### Release of Nitric Oxide`, [
@@ -48,13 +50,12 @@ export default (ctx:request_ctx_T)=>''
 			[`### Reduction in Oxidative Stress`, [
 				`By increasing cellular energy production, light therapy helps reduce oxidative stress. Oxidative stress causes${footnote__sup__sort(ref_i1_7_footnote__sup_(ctx),ref_i1_8_footnote__sup_(ctx))}:`,
 				``,
-        `- inflammation`,
-        `- aging`,
-        `- chronic disease processes`].join(nl)],
-		]),
-	].join(nl)],
+				`- inflammation`,
+				`- aging`,
+				`- chronic disease processes`].join(nl)],
+		]]],
 	[`## How They Work`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Red Light Therapy (RLT)`, [
 				`Utilizes wavelengths of red light, ranging from 630 to 700 nanometers (nm). It's effective for surface-level skin treatments, enhancing collagen production, & reducing inflammation.`].join(nl)],
 			[`### Infrared Therapy`, [
@@ -62,20 +63,20 @@ export default (ctx:request_ctx_T)=>''
 				`- circulation`,
 				`- relieving pain`,
 				`- enhancing muscle recovery`].join(nl)]
-		])].join(nl)],
+		]]],
 	[`## Clinical Applications${mobile_hidden__span_([` & `, `/`])}Benefits`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Pain Management`, [
 				`Infrared & red light therapy is effective in reducing pain associated with various conditions. Including arthritis, back pain, & tendinitis. By enhancing circulation & reducing inflammation. These therapies help alleviate pain & improve mobility${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx),ref_i1_15_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Skin Health & Rejuvenation`, [
 				`Red light therapy is particularly noted for its anti-aging effects on the skin. It${footnote__sup__sort([ref_i1_11_footnote__sup_(ctx),ref_i1_13_footnote__sup_(ctx)])}:`,
 				``,
-        `- stimulates collagen production`,
-        `- reduces wrinkles`,
-        `- improves skin elasticity`,
-        `- accelerates wound healing`,
-        `- reduces scarring`,
-        `- reduces signs of UV damage`].join(nl)],
+				`- stimulates collagen production`,
+				`- reduces wrinkles`,
+				`- improves skin elasticity`,
+				`- accelerates wound healing`,
+				`- reduces scarring`,
+				`- reduces signs of UV damage`].join(nl)],
 			[`### Accelerated Healing`, [
 				`Both therapies promote faster healing of wounds, burns, & surgical incisions. By stimulating tissue regeneration & reducing inflammation. This makes them valuable tools in post-operative care & injury recovery${footnote__sup__sort([ref_i1_1_footnote__sup_(ctx),ref_i1_2_footnote__sup_(ctx)])}.`].join(nl)],
 			[`### Improved Muscle Recovery`, [
@@ -88,9 +89,9 @@ export default (ctx:request_ctx_T)=>''
 				`Exposure to red & infrared light can improve mood & energy. By increasing serotonin levels.`].join(nl)],
 			[`### Safety & Considerations`, [
 				`Infrared & red light therapy is generally considered safe, with minimal side effects. It is crucial to use these therapies under the guidance of a qualified professional. especially when treating serious medical conditions. The most common side effects include temporary discomfort & redness at the treatment site${ref_i1_14_footnote__sup_(ctx)}.`].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Considerations`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		()=>[
 			[`### Pros`, [
 				`- Non-invasive with no known serious side effects`,
 				`- Can be used for a wide range of conditions`,
@@ -101,7 +102,7 @@ export default (ctx:request_ctx_T)=>''
 				`- The initial cost of devices or therapy sessions can be high`,
 				`- Not a standalone cure for serious medical conditions`,
 			].join(nl)],
-		])].join(nl)],
+		]]],
 	[`## Who Can Benefit?`, [
 		`Anyone looking for a gentle & effective therapy to improve skin health, relieve pain, or enhance recovery. It's especially useful for:`,
 		`- athletes`,

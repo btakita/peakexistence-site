@@ -23,33 +23,36 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_([`Understanding `])}Psychedelic Therapy`, [
-		`Psychedelic therapy involves the controlled use of substances like psilocybin, DMT, peyote, ayahuasca, ibogaine, ketamine, MDMA, & LSD.`,
-		``,
-		`To facilitate deep psychological insights & emotional healing. Clinical research demonstrates the potential of psychedelics to treat mental health conditions including${footnote__sup__sort([ref_p2_2_footnote__sup_(ctx),ref_p2_4_footnote__sup_(ctx)])}:`,
-		``,
-    `- depression`,
-    `- anxiety`,
-    `- PTSD`,
-    `- substance use disorders`,
-		``,
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+		[
+			`Psychedelic therapy involves the controlled use of substances like psilocybin, DMT, peyote, ayahuasca, ibogaine, ketamine, MDMA, & LSD.`,
+			``,
+			`To facilitate deep psychological insights & emotional healing. Clinical research demonstrates the potential of psychedelics to treat mental health conditions including${footnote__sup__sort([ref_p2_2_footnote__sup_(ctx),ref_p2_4_footnote__sup_(ctx)])}:`,
+			``,
+			`- depression`,
+			`- anxiety`,
+			`- PTSD`,
+			`- substance use disorders`,
+			``
+		].join(nl),
+		()=>[
 			[`### Benefits`, [
 				`By promoting neuroplasticity & altering consciousness. In a way that can lead to significant therapeutic breakthroughs. Psychedelic therapy typically involves one to a few dosing sessions. In conjunction with psychotherapy sessions. These substances induce altered states of consciousness that can lead to${footnote__sup__sort([ref_p1_5_footnote__sup_(ctx),ref_p1_8_footnote__sup_(ctx)])}:`,
-				``,
-				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+				()=>[
 					[`### Rapid Symptom Relief`, [
 						`Psychedelic therapy often produces quick & lasting improvements in symptoms. Unlike many traditional treatments that can take weeks to become effective.`].join(nl)],
 					[`### ${mobile_hidden__span_([`Enhanced `])}Self-awareness${mobile_hidden__span_([` & `, `/`])}Emotional Processing`, [
 						`Patients often report increased self-awareness & emotional processing. Which is critical for long-term psychological health.`].join(nl)],
 					[`### ${mobile_hidden__span_([`Reduction in `])}Treatment-Resistant Symptoms`, [
 						`Psychedelic therapy has been particularly effective in treating symptoms. That has not responded to other treatment modalities.`].join(nl)],
-				])].join(nl)],
+				]]],
 			[`### Mechanisms of Action`, [
-				`The therapeutic effects of psychedelics stem from altering brain function. Research suggests that psychedelics disrupt the default mode network (DMN). A brain network associated with self-referential thoughts & the ego. This disruption increases brain connectivity & plasticity. Allowing patients to break free from rigid patterns of thought & behavior${footnote__sup__sort([ref_p1_12_footnote__sup_(ctx),ref_p1_15_footnote__sup_(ctx)])}.`,
-				``,
-				`Psychedelics enhance emotional openness & introspection. Which can lead to profound insights & emotional catharsis during therapy sessions. This can be particularly beneficial for patients dealing with deeply rooted psychological issues${footnote__sup__sort([ref_p1_5_footnote__sup_(ctx),ref_p1_8_footnote__sup_(ctx)])}.`,
-				``,
-				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+				[
+					`The therapeutic effects of psychedelics stem from altering brain function. Research suggests that psychedelics disrupt the default mode network (DMN). A brain network associated with self-referential thoughts & the ego. This disruption increases brain connectivity & plasticity. Allowing patients to break free from rigid patterns of thought & behavior${footnote__sup__sort([ref_p1_12_footnote__sup_(ctx),ref_p1_15_footnote__sup_(ctx)])}.`,
+					``,
+					`Psychedelics enhance emotional openness & introspection. Which can lead to profound insights & emotional catharsis during therapy sessions. This can be particularly beneficial for patients dealing with deeply rooted psychological issues${footnote__sup__sort([ref_p1_5_footnote__sup_(ctx),ref_p1_8_footnote__sup_(ctx)])}.`,
+					``
+				].join(nl),
+				()=>[
 					[`#### Enhanced Cognitive Flexibility`, [
 						`Psychedelics such as psilocybin & LSD temporarily disrupt the brain's default mode network (DMN). Which is involved in self-referential thoughts & maintaining one's sense of ego or identity${ref_p1_12_footnote__sup_(ctx)}. By reducing the activity of the DMN, psychedelics increase cognitive flexibility. Allowing individuals to think in more creative & less rigid ways. This can lead to new insights into personal & interpersonal issues. Which are often inaccessible under normal states of consciousness.`].join(nl)],
 					[`#### Increased Emotional Connectivity`, [
@@ -57,28 +60,27 @@ export default (ctx:request_ctx_T)=>''
 					[`#### Shift in Perspective`, [
 						`Altered states of consciousness can lead to experiences described as mystical or transcendent. These experiences can change the way individuals perceive their problems, including${footnote__sup__sort([ref_p3_2_footnote__sup_(ctx),ref_p3_4_footnote__sup_(ctx)])}:`,
 						``,
-            `- reducing the perceived magnitude of issues`,
-            `- enhancing their sense of meaning & purpose in life`,
+						`- reducing the perceived magnitude of issues`,
+						`- enhancing their sense of meaning & purpose in life`,
 						``,
-            `Such shifts can be particularly beneficial for individuals dealing with existential distress. Or those who feel stuck in negative thought cycles.`].join(nl)],
-				])
-			].join(nl)],
+						`Such shifts can be particularly beneficial for individuals dealing with existential distress. Or those who feel stuck in negative thought cycles.`].join(nl)],
+				]]],
 			[`### Clinical Research & Evidence`, [
-				`Recent studies show promising results for psychedelic therapy. In treating various mental health conditions. Research on psilocybin has demonstrated significant improvements in symptoms of depression & anxiety. Particularly in individuals with life-threatening cancer. Highlighting its potential to alleviate existential distress${footnote__sup__sort([ref_p1_5_footnote__sup_(ctx),ref_p1_9_footnote__sup_(ctx)])}. MDMA-assisted therapy has shown efficacy in treating PTSD. With patients experiencing considerable reductions in symptoms after just a few sessions${footnote__sup__sort([ref_p1_8_footnote__sup_(ctx),ref_p1_18_footnote__sup_(ctx)])}.`,
-				``,
-				`Clinical trials have recognized the safety & efficacy of these treatments. Leading to breakthrough therapy designations by the FDA for psilocybin & MDMA. For specific conditions. This designation expedites the development & review of drugs. That shows the potential to improve treatment for serious conditions${footnote__sup__sort([ref_p1_5_footnote__sup_(ctx),ref_p1_8_footnote__sup_(ctx)])}.`,
-				``,
-				dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
+				[
+					`Recent studies show promising results for psychedelic therapy. In treating various mental health conditions. Research on psilocybin has demonstrated significant improvements in symptoms of depression & anxiety. Particularly in individuals with life-threatening cancer. Highlighting its potential to alleviate existential distress${footnote__sup__sort([ref_p1_5_footnote__sup_(ctx),ref_p1_9_footnote__sup_(ctx)])}. MDMA-assisted therapy has shown efficacy in treating PTSD. With patients experiencing considerable reductions in symptoms after just a few sessions${footnote__sup__sort([ref_p1_8_footnote__sup_(ctx),ref_p1_18_footnote__sup_(ctx)])}.`,
+					``,
+					`Clinical trials have recognized the safety & efficacy of these treatments. Leading to breakthrough therapy designations by the FDA for psilocybin & MDMA. For specific conditions. This designation expedites the development & review of drugs. That shows the potential to improve treatment for serious conditions${footnote__sup__sort([ref_p1_5_footnote__sup_(ctx),ref_p1_8_footnote__sup_(ctx)])}.`,
+					``
+				].join(nl),
+				()=>[
 					[`#### Depression & Anxiety`, [
 						`Patients often report reductions in symptoms of depression & anxiety following psychedelic therapy. As they are able to view their life's challenges from a broader, more detached perspective. This can diminish the overwhelming nature of such challenges. And increase individuals' confidence in their ability to overcome them${footnote__sup__sort([ref_p1_12_footnote__sup_(ctx),ref_p3_2_footnote__sup_(ctx)])}.`].join(nl)],
 					[`#### PTSD`, [
 						`Psychedelic therapy can help individuals with PTSD reframe & process traumatic memories. In a safe & controlled environment. **Psychedelic-altered perception can reduce the emotional impact of traumatic memories.** Making them less distressing & easier to integrate${ref_p3_3_footnote__sup_(ctx)}.`].join(nl)],
 					[`#### Addiction`, [
 						`Psychedelic therapy can help individuals understand the underlying emotional & psychological drivers. Of addictive behaviors. By altering their perception of these problems. Individuals may find new motivations & pathways to recovery. That was previously obscured by habitual patterns of behavior${footnote__sup__sort([ref_p3_3_footnote__sup_(ctx),ref_p3_4_footnote__sup_(ctx)])}.`].join(nl)],
-				])
-			].join(nl)],
-		])
-	].join(nl)],
+				]]],
+		]]],
 	[`## Exercise Therapy${mobile_hidden__span_([`: Enhancing Physical & Mental Health`])}`, [
 		`Exercise therapy encompasses structured physical activities designed to achieve specific health outcomes. Beyond its physical benefits, exercise is known to${footnote__sup__sort([ref_p2_12_footnote__sup_(ctx)/*,ref_p2_15_footnote__sup_(ctx)*/])}:`,
 		``,
@@ -103,22 +105,20 @@ export default (ctx:request_ctx_T)=>''
     `- the legal status of psychedelics`,
     `- variability in individual responses to these substances`,
     `- the need for professional guidance to safely navigate psychedelic experiences`].join(nl)],
-	[`## Psychedelic Therapy with Peak Existence`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
-			[`### Holistic Healing`, [
-				`Dr. Emenike treats the root causes of ailments with treating symptoms. Combining exercise & psychedelic therapy addresses mental, emotional, & physical health. Promoting a truly holistic healing experience`].join(nl)],
-			[`### Safe & Professional Environment`, [
-				`Dr. Emenike ensures a safe & controlled environment for your psychedelic sessions. Dr. Emenike is a licensed medical professional. Adhering to medical best practices & ethical standards. Prioritizing patient well-being.`].join(nl)],
-			[`### Personalized Treatment Plans`, [
-				`Dr. Manny Emenike tailors treatment plans to suit each patient’s:`,
-				`- unique needs`,
-				`- medical history`,
-				`- therapeutic goals`,
-				``,
-				`Dr. Emenike maintains a patient-centric approach, emphasizing collaboration & understanding.`].join(nl)],
-			[`### Cutting-edge Research`, [
-				`Dr. Emenike continually integrates evidence-based research & best practices into his treatment protocols. Offering patients the most effective & up to date care. Dr. Emenike's brings expert discresion with avid interest in the latest scientific advancements. Bringing the best up-to-date care to you.`].join(nl)],
-		])].join(nl)],
+	[`## Psychedelic Therapy with Peak Existence`, ()=>[
+		[`### Holistic Healing`, [
+			`Dr. Emenike treats the root causes of ailments with treating symptoms. Combining exercise & psychedelic therapy addresses mental, emotional, & physical health. Promoting a truly holistic healing experience`].join(nl)],
+		[`### Safe & Professional Environment`, [
+			`Dr. Emenike ensures a safe & controlled environment for your psychedelic sessions. Dr. Emenike is a licensed medical professional. Adhering to medical best practices & ethical standards. Prioritizing patient well-being.`].join(nl)],
+		[`### Personalized Treatment Plans`, [
+			`Dr. Manny Emenike tailors treatment plans to suit each patient’s:`,
+			`- unique needs`,
+			`- medical history`,
+			`- therapeutic goals`,
+			``,
+			`Dr. Emenike maintains a patient-centric approach, emphasizing collaboration & understanding.`].join(nl)],
+		[`### Cutting-edge Research`, [
+			`Dr. Emenike continually integrates evidence-based research & best practices into his treatment protocols. Offering patients the most effective & up to date care. Dr. Emenike's brings expert discresion with avid interest in the latest scientific advancements. Bringing the best up-to-date care to you.`].join(nl)]]],
 ])
 // @formatter:on
 function ref_p1_5_footnote__sup_(ctx:request_ctx_T) {
