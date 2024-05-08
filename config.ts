@@ -5,7 +5,6 @@ import { import_meta_env_ } from 'ctx-core/env'
 import { class_ } from 'ctx-core/html'
 import { url__join } from 'ctx-core/uri'
 import hljs from 'highlight.js'
-import cs from 'highlight.js/lib/languages/csharp'
 import js from 'highlight.js/lib/languages/javascript'
 import sh from 'highlight.js/lib/languages/shell'
 import ts from 'highlight.js/lib/languages/typescript'
@@ -79,7 +78,6 @@ export function config__init() {
 	relement__use(server__relement)
 }
 function marked__init() {
-	hljs.registerLanguage('cs', cs)
 	hljs.registerLanguage('js', js)
 	hljs.registerLanguage('sh', sh)
 	hljs.registerLanguage('shell', sh)
