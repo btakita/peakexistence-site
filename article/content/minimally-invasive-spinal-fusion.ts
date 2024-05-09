@@ -25,7 +25,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ md__raw_(ctx,
++ md__raw_({ ctx },
 	`Spinal fusion surgery aims to alleviate chronic back pain. Minimally invasive techniques reduce recovery time & complications.`)
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_([`What is `])}Minimally Invasive Spinal Fusion?`, [

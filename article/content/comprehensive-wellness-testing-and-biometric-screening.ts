@@ -104,7 +104,7 @@ export default (ctx:request_ctx_T)=>''
 				`Don't panic if you see abnormal results. Discuss them with your doctor to determine the next steps.`].join(nl)],
 		]]],
 ])
-+ md__raw_(ctx, [
++ md__raw_({ ctx }, [
 	`**Comprehensive wellness testing & screening is an investment in your long-term health. By taking a proactive approach, you can:**`,
 	`- **gain valuable insights**`,
 	`- **empower yourself with knowledge**`,

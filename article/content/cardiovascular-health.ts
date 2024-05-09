@@ -15,7 +15,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ md__raw_(ctx,
++ md__raw_({ ctx },
 	`Your heart is a tireless working muscle. The central engine that powers your entire body. Prioritizing cardiac health is crucial for a long, vibrant, & healthy life. Let's dive into the key aspects of protecting your heart.`)
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Understanding Your Heart`, [
@@ -373,6 +373,6 @@ export default (ctx:request_ctx_T)=>''
 	[`## The Bottom Line`, [
 		`Cardiac health is largely in your hands. With healthy choices, managing risk factors, & seeking prompt medical care when necessary. You can maximize your chances of enjoying a long & heart-healthy life.`].join(nl)],
 ])
-+ md__raw_(ctx,
++ md__raw_({ ctx },
 	`**Disclaimer:** The information in this article is for educational purposes only. Always consult your doctor for diagnosis, treatment advice, & management of any health conditions.`)
 // @formatter:on

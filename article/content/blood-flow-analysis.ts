@@ -17,7 +17,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ md__raw_(ctx,
++ md__raw_({ ctx },
 	`In the complex machinery of the human body. The cardiovascular system acts as the central highway. With blood flow serving as the crucial indicator of its health & efficiency. Blood flow analysis has emerged as an indispensable diagnostic tool in modern medicine. Offering a window into the myriad of factors that influence cardiovascular health. And the overall well-being of individuals.`)
 + dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
 	[`## Why Does Blood Flow Matter?`, [
@@ -172,7 +172,7 @@ export default (ctx:request_ctx_T)=>''
 		``,
 		`This advanced diagnostic tool paves the way for healthier hearts & longer lives.`].join(nl)],
 ])
-+ md__raw_(ctx, `**Important Note:** Consult a healthcare professional with any health concern or treatment. This article is for informational purposes & does not replace medical advice.`)
++ md__raw_({ ctx }, `**Important Note:** Consult a healthcare professional with any health concern or treatment. This article is for informational purposes & does not replace medical advice.`)
 // @formatter:on
 function ref_b1_1_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
