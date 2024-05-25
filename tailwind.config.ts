@@ -17,6 +17,7 @@ const config = <Config>{
 			skin: {
 				fill: rgb_('--color-fill'),
 				accent: rgb_('--color-accent'),
+				'accent-light': rgb_('--color-accent-light'),
 				invert: rgb_('--color-text-base'),
 				card: rgb_('--color-card'),
 				'card-muted': rgb_('--color-card-muted'),
