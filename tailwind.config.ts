@@ -5,6 +5,43 @@ const { paddingLeft, paddingRight } = (typography() as any).config.theme.typogra
 const config = <Config>{
 	content: [],
 	theme: {
+		textColor: {
+			skin: {
+				base: rgb_('--color-text-base'),
+				light: rgb_('--color-text-light'),
+				accent: rgb_('--color-accent'),
+				invert: rgb_('--color-fill'),
+			},
+		},
+		backgroundColor: {
+			skin: {
+				fill: rgb_('--color-fill'),
+				accent: rgb_('--color-accent'),
+				invert: rgb_('--color-text-base'),
+				card: rgb_('--color-card'),
+				'card-muted': rgb_('--color-card-muted'),
+			},
+		},
+		outlineColor: {
+			skin: {
+				fill: rgb_('--color-accent'),
+			},
+		},
+		borderColor: {
+			skin: {
+				line: rgb_('--color-border'),
+				fill: rgb_('--color-text-base'),
+				accent: rgb_('--color-accent'),
+			},
+			transparent: 'transparent',
+		},
+		fill: {
+			skin: {
+				base: rgb_('--color-text-base'),
+				accent: rgb_('--color-accent'),
+			},
+			transparent: 'transparent',
+		},
 		extend: {
 			colors: {
 				gray: {
