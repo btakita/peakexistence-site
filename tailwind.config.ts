@@ -20,6 +20,7 @@ const config = <Config>{
 				accent: rgb_('--color-accent'),
 				'accent-light': rgb_('--color-accent-light'),
 				invert: rgb_('--color-text-base'),
+				'invert-light': rgb_('--color-text-light'),
 				card: rgb_('--color-card'),
 				'card-muted': rgb_('--color-card-muted'),
 			},
