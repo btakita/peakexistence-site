@@ -16,6 +16,7 @@ const config = <Config>{
 		backgroundColor: {
 			skin: {
 				fill: rgb_('--color-fill'),
+				'fill-light': rgb_('--color-fill-light'),
 				accent: rgb_('--color-accent'),
 				'accent-light': rgb_('--color-accent-light'),
 				invert: rgb_('--color-text-base'),
@@ -33,6 +34,7 @@ const config = <Config>{
 				line: rgb_('--color-border'),
 				fill: rgb_('--color-text-base'),
 				accent: rgb_('--color-accent'),
+				'accent-light': rgb_('--color-accent-light'),
 			},
 			transparent: 'transparent',
 		},

@@ -61,6 +61,7 @@ export const blog_site:blog_site_T = {
 	color_scheme_vars: {
 		light: {
 			'--color-fill': '251,251,251',
+			'--color-fill-light': '200,200,200',
 			'--color-text-base': '25,25,25',
 			'--color-text-light': '102,102,102',
 			'--color-accent': '0,108,172',
@@ -71,13 +72,14 @@ export const blog_site:blog_site_T = {
 		},
 		dark: {
 			'--color-fill': '25,25,25',
+			'--color-fill-light': '55,55,55',
 			'--color-text-base': '234,237,243',
 			'--color-text-light': '153,153,153',
 			'--color-accent': '255,107,1',
 			'--color-accent-light': '204,86,1',
 			'--color-card': '52,63,96',
 			'--color-card-muted': '138,51,2',
-			'--color-border': '76,76,76',
+			'--color-border': '100,100,100',
 		},
 	},
 	google_site_verification: import_meta_env_().PUBLIC_GOOGLE_SITE_VERIFICATION,
