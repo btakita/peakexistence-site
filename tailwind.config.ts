@@ -40,6 +40,7 @@ const config = <Config>{
 				skin: {
 					line: rgb_('--color-border'),
 					fill: rgb_('--color-text-base'),
+					'fill-light': rgb_('--color-text-light'),
 					accent: rgb_('--color-accent'),
 					'accent-light': rgb_('--color-accent-light'),
 				},
