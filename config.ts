@@ -73,8 +73,8 @@ export const blog_site:blog_site_T = {
 		dark: {
 			'--color-fill': '25,25,25',
 			'--color-fill-light': '55,55,55',
-			'--color-text-base': '234,237,243',
-			'--color-text-light': '153,153,153',
+			'--color-text-base': '251,251,251',
+			'--color-text-light': '200,200,200',
 			'--color-accent': '255,107,1',
 			'--color-accent-light': '204,86,1',
 			'--color-card': '52,63,96',
