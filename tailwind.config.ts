@@ -1,53 +1,60 @@
 import tailwindcss_forms from '@tailwindcss/forms'
 import typography from '@tailwindcss/typography'
 import { type Config } from 'tailwindcss'
+import { backgroundColor, borderColor, colors, fill, outlineColor, textColor } from 'tailwindcss/defaultTheme.js'
 const { paddingLeft, paddingRight } = (typography() as any).config.theme.typography.base.css[0]['thead th']
 const config = <Config>{
 	content: [],
 	theme: {
-		textColor: {
-			skin: {
-				base: rgb_('--color-text-base'),
-				light: rgb_('--color-text-light'),
-				accent: rgb_('--color-accent'),
-				invert: rgb_('--color-fill'),
-			},
-		},
-		backgroundColor: {
-			skin: {
-				fill: rgb_('--color-fill'),
-				'fill-light': rgb_('--color-fill-light'),
-				accent: rgb_('--color-accent'),
-				'accent-light': rgb_('--color-accent-light'),
-				invert: rgb_('--color-text-base'),
-				'invert-light': rgb_('--color-text-light'),
-				card: rgb_('--color-card'),
-				'card-muted': rgb_('--color-card-muted'),
-			},
-		},
-		outlineColor: {
-			skin: {
-				fill: rgb_('--color-accent'),
-			},
-		},
-		borderColor: {
-			skin: {
-				line: rgb_('--color-border'),
-				fill: rgb_('--color-text-base'),
-				accent: rgb_('--color-accent'),
-				'accent-light': rgb_('--color-accent-light'),
-			},
-			transparent: 'transparent',
-		},
-		fill: {
-			skin: {
-				base: rgb_('--color-text-base'),
-				accent: rgb_('--color-accent'),
-			},
-			transparent: 'transparent',
-		},
 		extend: {
+			textColor: {
+				...textColor,
+				skin: {
+					base: rgb_('--color-text-base'),
+					light: rgb_('--color-text-light'),
+					accent: rgb_('--color-accent'),
+					invert: rgb_('--color-fill'),
+				},
+			},
+			backgroundColor: {
+				...backgroundColor,
+				skin: {
+					fill: rgb_('--color-fill'),
+					'fill-light': rgb_('--color-fill-light'),
+					accent: rgb_('--color-accent'),
+					'accent-light': rgb_('--color-accent-light'),
+					invert: rgb_('--color-text-base'),
+					'invert-light': rgb_('--color-text-light'),
+					card: rgb_('--color-card'),
+					'card-muted': rgb_('--color-card-muted'),
+				},
+			},
+			outlineColor: {
+				...outlineColor,
+				skin: {
+					fill: rgb_('--color-accent'),
+				},
+			},
+			borderColor: {
+				...borderColor,
+				skin: {
+					line: rgb_('--color-border'),
+					fill: rgb_('--color-text-base'),
+					accent: rgb_('--color-accent'),
+					'accent-light': rgb_('--color-accent-light'),
+				},
+				transparent: 'transparent',
+			},
+			fill: {
+				...fill,
+				skin: {
+					base: rgb_('--color-text-base'),
+					accent: rgb_('--color-accent'),
+				},
+				transparent: 'transparent',
+			},
 			colors: {
+				...colors,
 				gray: {
 					100: '#FBFBFB',
 					200: '#EAEAEA',
