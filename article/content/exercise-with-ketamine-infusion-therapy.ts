@@ -7,10 +7,14 @@ import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
 import { sticky__dl_tree_props_ } from '../../sticky/index.js'
+/**
+ * This is kept for historical references.
+ */
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...exercise_with_ketamine_infusion_therapy,
-	description: `Ketamine is a general anesthetic widely used in operating rooms since the 1970s. Ketamine has shown rapid & profound antidepressant effects, administered in intravenous low doses. Over 20 years of extensive research demonstrates the effectiveness of ketamine infusion therapy. In providing relief for depression & other mental health conditions.`
+	description: `Ketamine is a general anesthetic widely used in operating rooms since the 1970s. Ketamine has shown rapid & profound antidepressant effects, administered in intravenous low doses. Over 20 years of extensive research demonstrates the effectiveness of ketamine infusion therapy. In providing relief for depression & other mental health conditions.`,
+	draft: true,
 })
 // @formatter:off
 // language=md
