@@ -41,5 +41,6 @@ export const post_mod_a1:post_mod_T[] = await Promise.all([
 	import('./content/spinal-cord-stimulation.js'),
 	import('./content/supervised-weight-loss-and-performance.js'),
 	import('./content/transcranial-magnetic-stimulation.js'),
+	import('./content/traumatic-brain-injury-concussion-diagnostics-therapy.js'),
 	import('./content/ultrasonic-screening-of-chronic-vessel-disease.js'),
 ])
