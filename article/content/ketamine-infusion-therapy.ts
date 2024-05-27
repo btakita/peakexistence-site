@@ -74,7 +74,7 @@ export default (ctx:request_ctx_T)=>''
 			`- teenagers`,
 			`- older adults with dementia`,].join(nl),]],
 	[`## Long-Term Efficacy & Research`, [
-		`The long-term benefits & safety of ketamine infusion therapy are still under investigation. Current research suggests that ketamine provides rapid relief. Its effects may diminish over time necessitating repeated treatments. There is also a need for more studies to determine the optimal dosing schedules. And to explore the potential of other administration routes. Such as intranasal or oral ketamine${footnote__sup__sort([ref_k2_1_footnote__sup_(ctx),ref_k2_4_footnote__sup_(ctx)])}.`,]],
+		`The long-term benefits & safety of ketamine infusion therapy are still under investigation. Current research suggests that ketamine provides rapid relief. Its effects may diminish over time, necessitating repeated treatments. There is also a need for more studies to determine the optimal dosing schedules. And to explore the potential of other administration routes. Such as intranasal or oral ketamine${footnote__sup__sort([ref_k2_1_footnote__sup_(ctx),ref_k2_4_footnote__sup_(ctx)])}.`,]],
 	[`## Getting Ketamine Infusion Therapy`, [
 		`If ketamine infusion therapy interests you, consult with your healthcare provider. Dr Emenike, & the staff will:`,
 		`- gather information about your symptoms & medical history`,
@@ -82,8 +82,8 @@ export default (ctx:request_ctx_T)=>''
 		`- schedule your treatment sessions`,
 		``,
 		`Only Kaiser Insurance covers Ketamine infusion therapy for insurance reimbursement. But Ketamine treatment is an affordable option for depression & other psychiatric indications.`].join(nl)],
-		[`## Conclusion`, [
-			`Ketamine infusion therapy represents a significant advancement in the treatment of depression. Offering hope to those who have not found relief with traditional antidepressants. Its rapid onset of action & effectiveness in reducing suicidal ideation make it a valuable option. For managing severe and treatment-resistant depression. As research continues, ketamine may become an integral part of the therapeutic arsenal for mood disorders. Providing a lifeline to many patients in need.`,]],
+	[`## Conclusion`, [
+		`Ketamine infusion therapy represents a significant advancement in the treatment of depression. Offering hope to those who have not found relief with traditional antidepressants. Its rapid onset of action & effectiveness in reducing suicidal ideation make it a valuable option. For managing severe and treatment-resistant depression. As research continues, ketamine may become an integral part of the therapeutic arsenal for mood disorders. Providing a lifeline to many patients in need${footnote__sup__sort([ref_k1_12_footnote__sup_(ctx),ref_k1_13_footnote__sup_(ctx)])}.`,]],
 ])
 // @formatter:on
 function ref_k1_1_footnote__sup_(ctx:request_ctx_T) {
@@ -108,18 +108,6 @@ function ref_k1_2_footnote__sup_(ctx:request_ctx_T) {
 			nofollow: true,
 			wrap: true,
 		}, 'Understanding Ketamine Treatment for Depression')
-	])
-}
-function ref_k1_3_footnote__sup_(ctx:request_ctx_T) {
-	return footnote__sup_({
-		ctx,
-		id: 'k1_3'
-	}, [
-		tb_a_({
-			href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6296269/',
-			nofollow: true,
-			wrap: true,
-		}, 'Physical Exercise Enhances Neuroplasticity and Delays Alzheimer’s Disease')
 	])
 }
 function ref_k1_5_footnote__sup_(ctx:request_ctx_T) {
@@ -156,43 +144,6 @@ function ref_k1_13_footnote__sup_(ctx:request_ctx_T) {
 			nofollow: true,
 			wrap: true,
 		}, `Maximize Ketamine’s Benefits with Physical Wellness`)
-	])
-}
-function ref_k1_16_1_footnote__sup_(ctx:request_ctx_T) {
-	return footnote__sup_({
-		ctx,
-		id: 'k1_16_1'
-	}, [
-		tb_a_({
-				href: 'https://www.sciencedirect.com/science/article/abs/pii/S0306452206003228',
-				nofollow: true,
-				wrap: true,
-			},
-			'Insulin-like growth factor I interfaces with brain-derived neurotrophic factor-mediated synaptic plasticity to modulate aspects of exercise-induced cognitive function')
-	])
-}
-function ref_k1_16_2_footnote__sup_(ctx:request_ctx_T) {
-	return footnote__sup_({
-		ctx,
-		id: 'k1_16_2'
-	}, [
-		tb_a_({
-			href: 'https://pubmed.ncbi.nlm.nih.gov/15769301/',
-			nofollow: true,
-			wrap: true,
-		}, 'The antidepressant effect of running is associated with increased hippocampal cell proliferation')
-	])
-}
-function ref_k1_18_footnote__sup_(ctx:request_ctx_T) {
-	return footnote__sup_({
-		ctx,
-		id: 'k1_18'
-	}, [
-		tb_a_({
-			href: 'https://my.clevelandclinic.org/health/body/23040-endorphins/',
-			nofollow: true,
-			wrap: true,
-		}, 'Endorphins')
 	])
 }
 function ref_k2_1_footnote__sup_(ctx:request_ctx_T) {

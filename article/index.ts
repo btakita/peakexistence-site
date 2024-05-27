@@ -24,6 +24,7 @@ export const post_mod_a1:post_mod_T[] = await Promise.all([
 	import('./content/hyperbaric-oxygen-therapy.js'),
 	import('./content/infrared-and-red-light-therapy.js'),
 	import('./content/intercostal-nerve-block.js'),
+	import('./content/intractable-headaches-migraines.js'),
 	import('./content/joint-saving-therapy.js'),
 	import('./content/ketamine-infusion-therapy.js'),
 	import('./content/kyphoplasty-spinal-fracture-treatment.js'),
