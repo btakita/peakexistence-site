@@ -9,7 +9,6 @@ import { type request_ctx_T } from 'rebuildjs/server'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...traumatic_brain_injury_concussion_diagnostics_therapy,
-	title: 'Traumatic Brain Injury (TBI) with Concussion Diagnostics & Therapy',
 })
 // @formatter:off
 // language=md
