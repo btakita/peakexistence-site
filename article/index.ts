@@ -38,6 +38,7 @@ export const post_mod_a1:post_mod_T[] = await Promise.all([
 	import('./content/performance-improvement.js'),
 	import('./content/psychedelic-therapy.js'),
 	import('./content/robotic-hair-and-beard-transplant.js'),
+	import('./content/qeeg-brain-mapping.js'),
 	import('./content/sound-therapy.js'),
 	import('./content/spinal-cord-stimulation.js'),
 	import('./content/supervised-weight-loss-and-performance.js'),
