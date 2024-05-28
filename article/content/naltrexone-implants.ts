@@ -1,4 +1,5 @@
 import { naltrexone_implants } from '@btakita/domain--server--peakexistence/feature'
+import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -6,7 +7,6 @@ import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
-import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 const description_md = [
 	`Naltrexone implants. A significant advancement in the treatment of opioid & alcohol dependence. These implants deliver a steady dose of the opioid antagonist naltrexone. Over an extended period typically ranging from two to six months. By providing a continuous blockade of opioid receptors. Naltrexone implants help reduce cravings & prevent relapse.`,
 	``,

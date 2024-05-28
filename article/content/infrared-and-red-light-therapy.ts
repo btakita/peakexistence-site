@@ -1,4 +1,5 @@
 import { infrared_and_red_light_therapy } from '@btakita/domain--server--peakexistence/feature'
+import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -7,7 +8,6 @@ import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog
 import { class_ } from 'ctx-core/html'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
-import { sticky__dl_tree_props_ } from '../../sticky/index.js'
 const description_md = [
 	`The sun's warmth on your skin is a comforting sensation. Red light therapy treatments harness specific wavelengths of light. To penetrate the skin, aiming to rejuvenate, heal, & energize at a cellular level. Infrared & red light therapy, collectively known as photobiomodulation (PBM), are non-invasive treatments that use specific wavelengths of light to penetrate the skin & promote cellular repair & regeneration. These therapies have gained significant attention in the medical community for their ability to alleviate pain, reduce inflammation, enhance skin health, & accelerate healing.`,
 	``,
