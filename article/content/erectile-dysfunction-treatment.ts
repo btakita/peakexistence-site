@@ -1,5 +1,5 @@
 import { erectile_dysfunction_treatment } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -19,7 +19,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({
 	ctx,
-	_: sticky__dl_tree_props_
+	_: sticky_h2__dl_tree_props_
 }, ()=>[
 	[`## ED & Cardiovascular Health`, [
 		`ED can be a harbinger of cardiovascular diseases. Serving as an early warning sign. Due to the shared pathophysiology between erectile function & vascular health. Atherosclerotic processes impede blood flow to the coronary arteries. It will often occur in penile arteries first due to their smaller size. Erectile Dysfunction is a "canary in the coalmine". Offering an early warning sign of cardiovascular disease. Offering a critical window for intervention.`,

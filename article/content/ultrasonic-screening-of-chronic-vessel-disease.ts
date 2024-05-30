@@ -1,5 +1,5 @@
 import { ultrasonic_screening_of_chronic_vessel_disease } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -22,7 +22,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_([`Understanding `])}Ultrasonic Screening`, [
 		`Ultrasonic screening, or ultrasound, is a diagnostic imaging technique. That uses sound waves to produce images of structures within the body. It helps visualize blood flow & the condition of blood vessel walls. This method is crucial for detecting abnormalities. Which are common in chronic vascular diseases. Such as${footnote__sup__sort([ref_s1_3_footnote__sup_(ctx),ref_s1_5_footnote__sup_(ctx),ref_s3_1_footnote__sup_(ctx),ref_s3_4_footnote__sup_(ctx)])}:`,
 		``,

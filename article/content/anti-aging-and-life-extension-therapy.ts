@@ -1,5 +1,5 @@
 import { anti_aging_and_life_extension_therapy } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -18,7 +18,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + md__raw_({ ctx },
 	`Interest in life extension is showing rapid growth. Life Extension aims to slow the biological aging process. To extend the average human lifespan & health span. The period of time spent in good health. Considerable attention focuses on healthspan due to its potential for human longevity. Extending human life has been a pursuit of human culture & philosophy for centuries. Significant progress in recent decades comes from advances in modern science & medicine.`)
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_(['Understanding '])}Anti-Aging & Life Extension`, [
 		`Anti-aging therapies are primarily concerned with slowing down or reversing the processes. That is commonly associated with aging. This includes the:`,
 		`- appearance of wrinkles`,

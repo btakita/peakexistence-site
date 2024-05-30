@@ -1,5 +1,5 @@
 import { cardiovascular_health } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
@@ -17,7 +17,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + md__raw_({ ctx },
 	`Your heart is a tireless working muscle. The central engine that powers your entire body. Prioritizing cardiac health is crucial for a long, vibrant, & healthy life. Let's dive into the key aspects of protecting your heart.`,)
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## Understanding Your Heart`, [
 		`The heart is a muscular organ roughly the size of a fist. The heart is the centerpiece of the cardiovascular system. Its primary role is to pump blood throughout the body. Supplying oxygen & nutrients to tissues while removing carbon dioxide & other wastes. The significance of maintaining heart health is central to whole body health. It impacts every aspect of our physical function & quality of life. Key concepts to understand:`,
 		()=>[

@@ -1,5 +1,5 @@
 import { transcranial_magnetic_stimulation } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -15,7 +15,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## Mechanism of Action`, [
 		`TMS operates by generating a rapidly changing magnetic field. Through an electromagnetic coil placed against the scalp. This magnetic field induces small electric currents in the brain. Targeting the superficial layers of the cerebral cortex. These currents modulate neuronal activity, leading to changes in brain function. The repeated stimulation is known as repetitive TMS (rTMS). TMS can produce lasting changes in brain activity. Through mechanisms akin to synaptic plasticity. Such as long-term potentiation${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx),ref_1_5_footnote__sup_(ctx)])}.`]],
 	[`## Clinical Applications`, ()=>[

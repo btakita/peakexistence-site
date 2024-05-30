@@ -1,5 +1,5 @@
 import { performance_improvement } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -36,7 +36,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## Performance Improvement`, ()=>[
 		[`### Altitude Training`, [
 			`Altitude training is a well-established method that improves athletic performance. By training at high altitudes where oxygen levels are lower. This type of training increases the body's red blood cell count. Enhancing oxygen delivery & aerobic capacity when the athlete returns to lower altitudes. Altitude training is a staple in many elite athletes' regimens with benefits including${footnote__sup__sort([ref_p2_1_footnote__sup_(ctx),ref_p3_1_footnote__sup_(ctx)])}:`,

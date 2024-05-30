@@ -1,5 +1,5 @@
 import { naltrexone_implants } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -22,7 +22,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_([`Understanding `])}Naltrexone Implants`, [
 		`Naltrexone is a medication that works by blocking opioid receptors in the brain. Which prevents opioids from producing euphoric effects & helps reduce cravings. While traditionally available in oral & injectable forms. Naltrexone implants provide a long-term solution. By continuously releasing the medication into the bloodstream. Maintaining stable plasma levels & enhancing treatment compliance${ref_n1_1_footnote__sup_(ctx)}.`,
 		``,

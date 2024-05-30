@@ -1,5 +1,5 @@
 import { bone_marrow_aspiration } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
@@ -21,7 +21,7 @@ export default (ctx:request_ctx_T)=>''
 	`- red blood cells`,
 	`- white blood cells`,
 	`- platelets`].join(nl))
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_([`Why `])}Bone Marrow Aspiration${mobile_hidden__span_([` is Done`])}`, [
 		`Doctors may order a bone marrow aspiration to:`,
 		()=>[
@@ -49,7 +49,7 @@ export default (ctx:request_ctx_T)=>''
 		`Performed by a specialized medical professional. The procedure often targets the marrow within the hipbone or breastbone. Under local anesthesia to minimize discomfort. A needle inserted into the bone draws out a sample of marrow. The process is swift, usually completed within a few minutes. It provides invaluable insights into the health & functionality of the patient's marrow.`,
 		dl_tree_({
 			ctx,
-			_: sticky__dl_tree_props_,
+			_: sticky_h2__dl_tree_props_,
 			dl_class: '[counter-reset:_order]',
 			dt_class: class_(
 				'[&>h3]:before:[counter-increment:order]',

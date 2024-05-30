@@ -1,7 +1,7 @@
 import {
 	comprehensive_wellness_testing_and_biometric_screening_for_companies
 } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -17,7 +17,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_([`Comprehensive `])}Wellness Testing & Biometric Screening for Companies`, [
 		`In today's world, taking a proactive approach to your health is more important than ever. Comprehensive wellness testing & screening empowers your journey towards optimal well-being. This article explores what these tests entail. Their benefits. How to navigate the options available.`,
 		()=>[

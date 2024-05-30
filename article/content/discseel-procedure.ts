@@ -1,5 +1,5 @@
 import { discseel_procedure } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -19,7 +19,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + md__raw_({ ctx },
 	`Chronic back pain originating from damaged spinal discs impacts quality of life. The Discseel® Procedure offers a minimally invasive treatment option. Designed to seal tears within spinal discs. Relieving pain & restoring some disc function.`)
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## Understanding Disc Pain`, [
 		()=>[
 			[`### Intervertebral Discs`, [

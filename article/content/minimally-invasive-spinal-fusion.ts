@@ -1,5 +1,5 @@
 import { minimally_invasive_spinal_fusion } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -27,7 +27,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + md__raw_({ ctx },
 	`Spinal fusion surgery aims to alleviate chronic back pain. Minimally invasive techniques reduce recovery time & complications.`)
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_([`What is `])}Minimally Invasive Spinal Fusion?`, [
 		`Minimally invasive spinal fusion joins two or more vertebrae. This limits movement & reduces pain. Small incisions & specialized instruments aid the procedure.`].join(nl)],
 	[`## ${mobile_hidden__span_([`The `])}Evolution of ${mobile_hidden__span_([`Minimally Invasive Spinal`, `MIS`])} Fusion`, [

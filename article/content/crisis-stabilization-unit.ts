@@ -1,5 +1,5 @@
 import { crisis_stabilization_unit } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -15,7 +15,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## Crisis Stabilization Units`, [
 		`Crisis Stabilization Units (CSUs) are facilities providing immediate support & intervention. For individuals experiencing acute behavioral health crises. These units play a crucial role in the mental health care system. By offering a safe & structured environment for stabilization & assessment. Thereby preventing the need for more restrictive treatments like hospitalization. `].join(nl)],
 	[`## Purpose${mobile_hidden__span_([` of Crisis Stabilization Units`])}`, [

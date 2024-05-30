@@ -1,5 +1,5 @@
 import { exercise_with_oxygen_therapy } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -24,7 +24,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## What is ${mobile_hidden__span_([`Exercise with Oxygen Therapy`, `It`])}?`, [
 		`Exercise with Oxygen Therapy (EWOT) combines physical activity with increased oxygen intake. During an EWOT session, you’ll perform simple exercises. While breathing in a higher concentration of oxygen. This process helps your body deliver more oxygen to your cells, muscles, & organs. Resulting in a range of incredible health benefits.`].join(nl)],
 	[`## The Science Behind EWOT: How it Works`, [

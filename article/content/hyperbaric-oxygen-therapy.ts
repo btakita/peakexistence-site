@@ -1,5 +1,5 @@
 import { hyperbaric_oxygen_therapy } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -21,7 +21,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## Principles of ${mobile_hidden__span_([`Hyperbaric Oxygen Therapy`, `HBOT`])}`, [
 		`HBOT involves placing a patient in a hyperbaric chamber. Either a large room or a smaller, individual unit. Increasing atmospheric pressure is up to three times higher than normal air pressure. Under these conditions, patients breathe 100% oxygen. Which significantly increases the oxygen saturation of the blood${footnote__sup__sort([ref_h1_2_footnote__sup_(ctx),ref_h1_4_footnote__sup_(ctx)])}. This hyper-oxygenated blood circulates throughout the body. Promoting healing & regeneration at a cellular level.`].join(nl)],
 	[`## Clinical Applications`, [

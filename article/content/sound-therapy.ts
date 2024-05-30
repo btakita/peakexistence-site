@@ -1,5 +1,5 @@
 import { sound_therapy } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -16,7 +16,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## The Foundations of Sound Therapy`, [
 		`Sound therapy is also known as sound healing or vibrational medicine. Sound therapy's predicated on the principle that matter vibrates at specific frequencies. Including the human body, vibrates at specific frequencies. Health & well-being influenced by these vibrational states. Disrupting or unbalancing the body's natural frequencies leads to physical or emotional disharmony. Sound therapy seeks to restore balance & promote healing. By using various musical instruments & vocal techniques to produce therapeutic sounds & vibrations${footnote__sup__sort([ref_s1_2_footnote__sup_(ctx),ref_s2_5_footnote__sup_(ctx),ref_s2_9_footnote__sup_(ctx)])}.`].join(nl)],
 	[`## How Does ${mobile_hidden__span_([`Sound Therapy`, `It`])} Work?`, [

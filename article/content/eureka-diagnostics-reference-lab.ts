@@ -1,5 +1,5 @@
 import { eureka_diagnostics_reference_lab } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { nl } from '@rappstack/ui--any/string'
@@ -12,7 +12,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## A Closer Look${mobile_hidden__span_([` at Eureka Diagnostics`])}`, [
 		`Eureka Diagnostics is more than a laboratory. It's a critical partner in the healthcare process. Offering an extensive array of tests. Spanning from routine blood work to complex genetic screenings. This facility equips state-of-the-art instruments. Employing a team of skilled professionals. Dedicated to upholding the highest standards of accuracy & reliability.`].join(nl)],
 	[`## Services Offered`, [

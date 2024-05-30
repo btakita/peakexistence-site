@@ -1,5 +1,5 @@
 import { biote } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -27,7 +27,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## What is BioTE®?`, [
 		`BioTE® Medical specializes in BHRT using pellet therapy. A method that involves the subcutaneous insertion of bioidentical hormone pellets. These pellets are about the size of a grain of rice. The pellets are placed under the skin. Typically, in the hip or buttock area. During a quick & minimally invasive procedure. The pellets release small, physiologic doses of hormones. Identical to the ones naturally produced by the body. Providing a steady stream of hormones over several months. Which helps in minimizing side effects & improving the efficacy of the treatment${footnote__sup__sort([ref_b3_4_footnote__sup_(ctx),ref_b3_3_footnote__sup_(ctx),ref_b3_3_1_footnote__sup_(ctx),ref_b2_7_footnote__sup_(ctx),ref_b2_7_1_footnote__sup_(ctx),ref_b4_2_footnote__sup_(ctx),ref_b4_2_1_footnote__sup_(ctx),ref_b4_5_footnote__sup_(ctx),ref_b4_7_footnote__sup_(ctx),ref_b1_5_1_footnote__sup_(ctx),ref_b1_1_footnote__sup_(ctx),ref_b1_2_footnote__sup_(ctx)])}.`].join(nl)],
 	[`## Services & Offerings`, [

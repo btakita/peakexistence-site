@@ -1,5 +1,5 @@
 import { extracoporal_shock_wave_therapy } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -15,7 +15,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## The Science Behind ESWT`, [
 		[
 			`ESWT involves the application of focused or radial shock waves to the affected area. These shock waves create mechanical stress & microtrauma, which triggers a biological response in the treated tissues. This response includes increased blood flow, angiogenesis, & the release of growth factors, ultimately promoting tissue regeneration & healing${PMC10648068_footnote__sup_(ctx)}${PMC7608508_footnote__sup_(ctx)}.`,

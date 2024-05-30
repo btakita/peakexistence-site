@@ -1,5 +1,5 @@
 import { comprehensive_wellness_testing_and_biometric_screening } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -15,7 +15,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_([`Guide to Comprehensive `])}Wellness Testing & Biometric Screening`, [
 		`Comprehensive wellness testing & biometric screening. Your guide to gain deeper insights into your health. These tools provide a snapshot of one's current health status. And offer a roadmap for making informed lifestyle choices & preventive measures. Taking a proactive approach to your health is more important than ever. Comprehensive wellness testing & screening empowers your journey towards optimal well-being.`].join(nl)],
 	[`## ${mobile_hidden__span_([`Comprehensive `])}Wellness Testing`, [

@@ -1,5 +1,5 @@
 import { infrared_and_red_light_therapy } from '@btakita/domain--server--peakexistence/feature'
-import { sticky__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
+import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
@@ -22,7 +22,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
-+ dl_tree_({ ctx, _: sticky__dl_tree_props_ }, ()=>[
++ dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_([`What is `])}Infrared & Red Light Therapy${mobile_hidden__span_([`?`])}`, [
 		`Infrared & red light therapy uses low levels of red light & infrared light. To stimulate cellular repair & regeneration. Infrared & red light therapy are forms of photobiomodulation. Using light to stimulate cellular activity. Leading to beneficial effects on the body's tissues. Unlike ultraviolet light, these therapies provide healing energy without adverse effects.`,
 		``,
@@ -109,7 +109,7 @@ export default (ctx:request_ctx_T)=>''
 		`- individuals with chronic pain conditions`,
 		`- those seeking anti-aging solutions`].join(nl)],
 	[`## Getting Started`, [
-		dl_tree_({ ctx, _: sticky__dl_tree_props_,
+		dl_tree_({ ctx, _: sticky_h2__dl_tree_props_,
 			dl_class: '[counter-reset:_order]',
 			dt_class: class_('[&>h3]:before:[counter-increment:order]', '[&>h3]:before:content-[counter(order)_\'._\']')
 		}, ()=>[
