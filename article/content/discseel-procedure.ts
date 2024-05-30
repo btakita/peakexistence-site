@@ -4,7 +4,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
-import { nl } from '@rappstack/ui--any/string'
+import { lines_, nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -23,26 +23,24 @@ export default (ctx:request_ctx_T)=>''
 	[`## Understanding Disc Pain`, [
 		()=>[
 			[`### Intervertebral Discs`, [
-				`These shock-absorbing cushions lie between the spinal bones (vertebrae).`].join(nl)],
+				`These shock-absorbing cushions lie between the spinal bones (vertebrae).`,]],
 			[`### Degeneration & Tears`, [
-				`Over time or due to injury, discs can degenerate. The inner gel-like material can leak through tears in the outer layer. Irritating nerves & causing pain.`].join(nl)],
-		]]],
+				`Over time or due to injury, discs can degenerate. The inner gel-like material can leak through tears in the outer layer. Irritating nerves & causing pain.`,]],],]],
 	[`## Innovation Behind Discseel®`, [
-		`Developed by Dr. Kevin Pauza, the Discseel® Procedure addresses the root cause of many spine problems. Annular tears in spinal discs. These tears can lead to disc degeneration, herniation, & chronic pain. The procedure uses Fibrin, an FDA-approved biologic. Fibrin is naturally found in human blood & used in various medical applications. Including facial reconstruction surgery & controlling cardiac bleeding${ref18_footnote__sup_(ctx)}<!--ref19_footnote__sup_(ctx)-->.`].join(nl)],
+		`Developed by Dr. Kevin Pauza, the Discseel® Procedure addresses the root cause of many spine problems. Annular tears in spinal discs. These tears can lead to disc degeneration, herniation, & chronic pain. The procedure uses Fibrin, an FDA-approved biologic. Fibrin is naturally found in human blood & used in various medical applications. Including facial reconstruction surgery & controlling cardiac bleeding${ref18_footnote__sup_(ctx)}<!--ref19_footnote__sup_(ctx)-->.`,]],
 	[`## Understanding ${mobile_hidden__span_([`the `])}Discseel®${mobile_hidden__span_([` Procedure`])}`, [
-		`The Discseel® Procedure utilizes a biologically based injectable treatment, known as fibrin. To seal tears in the annulus fibrosus—the tough outer layer of intervertebral discs. These tears are a significant & often overlooked cause of back & neck pain. The fibrin sealant used in this procedure is similar to a substance naturally found in the body. Which helps blood clot. When applied to disc tears, it promotes healing. By sealing the tear & encouraging tissue growth.`].join(nl)],
+		`The Discseel® Procedure utilizes a biologically based injectable treatment, known as fibrin. To seal tears in the annulus fibrosus—the tough outer layer of intervertebral discs. These tears are a significant & often overlooked cause of back & neck pain. The fibrin sealant used in this procedure is similar to a substance naturally found in the body. Which helps blood clot. When applied to disc tears, it promotes healing. By sealing the tear & encouraging tissue growth.`,]],
 	[`## How Discseel® Works`, [
 		`The Discseel® Procedure involves several key steps:`,
 		()=>[
 			[`### Annulogram`, [
-				`Detailed imaging technique using a water-soluble contrast. Identifying which discs are leaking due to tears. Often revealing issues missed by MRIs<!--ref10_footnote__sup_(ctx)--><!--ref15_footnote__sup_(ctx)-->${ref_annulogram_footnote__sup_(ctx)}.`].join(nl)],
+				`Detailed imaging technique using a water-soluble contrast. Identifying which discs are leaking due to tears. Often revealing issues missed by MRIs<!--ref10_footnote__sup_(ctx)--><!--ref15_footnote__sup_(ctx)-->${ref_annulogram_footnote__sup_(ctx)}.`,]],
 			[`### Minimally Invasive Procedure`, [
-				`Performed under mild sedation. A small fluoroscopic needle is inserted into the disc.`].join(nl)],
+				`Performed under mild sedation. A small fluoroscopic needle is inserted into the disc.`,]],
 			[`### Fibrin Sealant Injection`, [
-				`Injecting a specialized biological fibrin sealant into the affected disc(s). In the annulus fibrosus, the outer wall of the spinal disc. Sealing the tears & preventing further leakage of the disc's inner gel${ref18_footnote__sup_(ctx)}<!--ref19_footnote__sup_(ctx)-->.`].join(nl)],
+				`Injecting a specialized biological fibrin sealant into the affected disc(s). In the annulus fibrosus, the outer wall of the spinal disc. Sealing the tears & preventing further leakage of the disc's inner gel${ref18_footnote__sup_(ctx)}<!--ref19_footnote__sup_(ctx)-->.`,]],
 			[`### Natural Healing`, [
-				`The Fibrin promotes the growth of new disc tissue or tissue regeneration. Allowing the body to heal the damaged disc over time. Restoring the structural integrity of the disc while reducing inflammation & pain${ref18_footnote__sup_(ctx)}.`].join(nl)],
-		]]],
+				`The Fibrin promotes the growth of new disc tissue or tissue regeneration. Allowing the body to heal the damaged disc over time. Restoring the structural integrity of the disc while reducing inflammation & pain${ref18_footnote__sup_(ctx)}.`,]],],]],
 	[`## Benefits${mobile_hidden__span_([` of the Discseel® Procedure`])}`, [
 		()=>[
 			[`### Minimally Invasive`, [
@@ -52,59 +50,58 @@ export default (ctx:request_ctx_T)=>''
 			[`### Targeted Treatment`, [
 				`It aims to directly address the source of pain within the damaged disc.`]],
 			[`### Long-Term Relief`, [
-				`Research shows that 70% of patients treated with the Discseel® Procedure report improvements. In pain, function, & quality of life${ref18_footnote__sup_(ctx)}.`]],
-		]]],
+				`Research shows that 70% of patients treated with the Discseel® Procedure report improvements. In pain, function, & quality of life${ref18_footnote__sup_(ctx)}.`]],],]],
 	[`## Minimally Invasive`, [
 		`The Discseel® Procedure is minimally invasive. Discseel® uses a needle puncture & does not have disadvantages of traditional spinal surgery:`,
-		`- large incisions`,
-		`- significant blood loss`,
-		`- lengthy recovery times`,
-		``,
-		`This approach reduces the risk of complications & shortens the recovery period.`].join(nl)],
+		lines_(
+			`- large incisions`,
+			`- significant blood loss`,
+			`- lengthy recovery times`,),
+		nl,
+		`This approach reduces the risk of complications & shortens the recovery period.`,]],
 	[`## Treating Pain`, [
-		`The Discseel® Procedure has shown promising results in reducing spinal pain. Caused by annular tears. Many patients experience significant improvement in their symptoms. With less reliance on pain medication & improved overall function.`].join(nl)],
+		`The Discseel® Procedure has shown promising results in reducing spinal pain. Caused by annular tears. Many patients experience significant improvement in their symptoms. With less reliance on pain medication & improved overall function.`,]],
 	[`## Preserving Spinal Mobility`, [
-		`The Discseel® Procedure allows patients to retain their natural range of motion. Other surgical options, like spinal fusion, limit range of motion. This is particularly important for maintaining quality of life & daily function.`].join(nl)],
+		`The Discseel® Procedure allows patients to retain their natural range of motion. Other surgical options, like spinal fusion, limit range of motion. This is particularly important for maintaining quality of life & daily function.`,]],
 	[`## Who Might Benefit${mobile_hidden__span_([` from the Discseel® Procedure`])}`, [
-		[
-			`Discseel® is for patients who have failed to find relief through conventional treatments. Such as physical therapy, medications, or injections. Ideal candidates are those with confirmed annular tears. Often detected using an Annulogram. Often undetectable through standard MRI scans.`,
-			``,
-			`This procedure might be considered if you have:`,
-		].join(nl),
+		`Discseel® is for patients who have failed to find relief through conventional treatments. Such as physical therapy, medications, or injections. Ideal candidates are those with confirmed annular tears. Often detected using an Annulogram. Often undetectable through standard MRI scans.`,
+		nl,
+		`This procedure might be considered if you have:`,
+		,
 		()=>[
 			[`### Chronic Back Pain`, [
-				`Persistent pain for at least six months, primarily in the lower back.`].join(nl)],
+				`Persistent pain for at least six months, primarily in the lower back.`,]],
 			[`### Discogenic Pain`, [
-				`Pain confirmed to originate from a damaged disc.`].join(nl)],
+				`Pain confirmed to originate from a damaged disc.`,]],
 			[`### Failed Conservative Treatments`, [
-				`When rest, medication, & physical therapy haven't provided sufficient relief.`].join(nl)],
+				`When rest, medication, & physical therapy haven't provided sufficient relief.`,]],
 		]]],
 	[`## Patient Experiences`, [
-		`Testimonials from patients who have undergone the Discseel® Procedure are overwhelmingly positive. Many report significant pain reduction & a return to normal activities. For instance, patients have described being able to enjoy active lifestyles again. Free from the chronic pain that once hindered them${footnote__sup__sort([/* ref1_footnote__sup_(ctx), ref4_footnote__sup_(ctx), */ ref7_footnote__sup_(ctx), ref8_footnote__sup_(ctx)])}.`].join(nl)],
+		`Testimonials from patients who have undergone the Discseel® Procedure are overwhelmingly positive. Many report significant pain reduction & a return to normal activities. For instance, patients have described being able to enjoy active lifestyles again. Free from the chronic pain that once hindered them${footnote__sup__sort([/* ref1_footnote__sup_(ctx), ref4_footnote__sup_(ctx), */ ref7_footnote__sup_(ctx), ref8_footnote__sup_(ctx)])}.`,]],
 		[`## Recovery & Outcomes`, [
-			`Recovery from the Discseel® Procedure is relatively quick. Patients are encouraged to walk the same day after their treatment. Some may experience immediate pain relief. The full benefits are realized as the fibrin works to promote tissue regeneration. Over several weeks to months.`].join(nl)],
+			`Recovery from the Discseel® Procedure is relatively quick. Patients are encouraged to walk the same day after their treatment. Some may experience immediate pain relief. The full benefits are realized as the fibrin works to promote tissue regeneration. Over several weeks to months.`,]],
 		[`## ${mobile_hidden__span_([`The `])}Future of Spinal Disc Treatment`, [
-		`The Discseel® Procedure is considered a "disruptive technology" in the field of spine treatment. With the potential to replace traditional, less successful fusion surgeries${footnote__sup__sort([/* ref5_footnote__sup_(ctx), ref15_footnote__sup_(ctx), */])}. It offers a solution that treats the symptoms. And addresses the underlying cause of disc-related back pain.`].join(nl)],
+		`The Discseel® Procedure is considered a "disruptive technology" in the field of spine treatment. With the potential to replace traditional, less successful fusion surgeries${footnote__sup__sort([/* ref5_footnote__sup_(ctx), ref15_footnote__sup_(ctx), */])}. It offers a solution that treats the symptoms. And addresses the underlying cause of disc-related back pain.`,]],
 	[`## Important Considerations`, [
 		()=>[
 			[`### Not a Guaranteed Fix`, [
-				`Individual results vary. While most experience significant pain relief, others may get partial or no improvement.`].join(nl)],
+				`Individual results vary. While most experience significant pain relief, others may get partial or no improvement.`,]],
 			[`### Evolving Treatment`, [
-				`Long-term effectiveness data is still emerging.`].join(nl)],
+				`Long-term effectiveness data is still emerging.`,]],
 			[`### Candid Discussion`, [
-				`Talk to your doctor about the potential risks, success rates, & if it's the right approach. In your specific situation.`].join(nl)],
+				`Talk to your doctor about the potential risks, success rates, & if it's the right approach. In your specific situation.`,]],
 		]]],
 	[`## Where to Find the Discseel® Procedure`, [
 		()=>[
 			[`### Specialized Providers`, [
-				`Not all spine centers offer this treatment. Search for surgeons trained in the Discseel® Procedure.`].join(nl)],
+				`Not all spine centers offer this treatment. Search for surgeons trained in the Discseel® Procedure.`,]],
 			[`### Insurance Coverage`, [
-				`Coverage varies. Consult with your insurance provider.`].join(nl)],
+				`Coverage varies. Consult with your insurance provider.`,]],
 		]]],
 	[`## The Bottom Line`, [
-		`The Discseel® Procedure provides an alternative for chronic back pain. Stemming from damaged discs. When other treatments have failed. It's a promising & less invasive option. It's vital to have realistic expectations. And a thorough discussion with a qualified spine specialist. To determine if it's suitable for your individual needs.`].join(nl)],
+		`The Discseel® Procedure provides an alternative for chronic back pain. Stemming from damaged discs. When other treatments have failed. It's a promising & less invasive option. It's vital to have realistic expectations. And a thorough discussion with a qualified spine specialist. To determine if it's suitable for your individual needs.`,]],
 	[`## Conclusion`, [
-		`The Discseel® Procedure's a significant advancement in the treatment of spinal disc damage. Using the body's natural healing processes. It offers a less invasive, more effective alternative to traditional spine surgeries. As more patients seek solutions beyond the limitations of spinal fusions & discectomies. The Discseel® Procedure stands out as an option for long-term relief & recovery from back pain.`].join(nl)],
+		`The Discseel® Procedure's a significant advancement in the treatment of spinal disc damage. Using the body's natural healing processes. It offers a less invasive, more effective alternative to traditional spine surgeries. As more patients seek solutions beyond the limitations of spinal fusions & discectomies. The Discseel® Procedure stands out as an option for long-term relief & recovery from back pain.`,]],
 ])
 // @formatter:on
 // function ref1_footnote__sup_(ctx:request_ctx_T) {

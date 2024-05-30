@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
-import { nl } from '@rappstack/ui--any/string'
+import { lines_, nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
@@ -24,12 +24,11 @@ export default (ctx:request_ctx_T)=>''
 			[`### The Four Chambers`, [
 				`Your heart has four chambers. Two upper chambers (atria) & two lower chambers (ventricles).`,]],
 			[`### Blood Flow`, [
-				[
+				lines_(
 					`1. Blood enters the right side of the heart.`,
 					`1. Gets pumped to the lungs to pick up oxygen.`,
 					`1. Then returns to the left side of the heart.`,
-					`1. Then pumped out to the rest of the body.`,
-				].join(nl)]],
+					`1. Then pumped out to the rest of the body.`,),]],
 			[`### Heart Valves`, [
 				`Four valves ensure blood flows in one direction, preventing backflow.`,]],
 			[`### The Coronary Arteries`, [
@@ -68,23 +67,21 @@ export default (ctx:request_ctx_T)=>''
 		`A healthy Lifestyle is your greatest weapon against heart disease.`,
 		()=>[
 			[`### Heart-Healthy Diet`, [
-				[
-					`A heart-healthy diet is rich in:`,
+				`A heart-healthy diet is rich in:`,
+				lines_(
 					`- fruits`,
 					`- vegetables`,
 					`- whole grains`,
 					`- lean protein`,
-					`- healthy fats`,
-				].join(nl),]],
+					`- healthy fats`,),]],
 			[`### Limit Unhealthy Food`, [
-				[
-					`Limiting categories of foods can reduce the risk of heart disease:`,
+				`Limiting categories of foods can reduce the risk of heart disease:`,
+				lines_(
 					`- saturated fats`,
 					`- sodium`,
 					`- processed food`,
 					`- seed oils`,
-					`- added sugars`,
-				].join(nl),]],
+					`- added sugars`,),]],
 			[`### Exercise`, ()=>[
 				[`#### A Stronger Heart Muscle`, [
 					`Regular aerobic exercises such as walking, cycling, or swimming enhance the heart's efficiency. Enabling effective blood pumping throughout the body. Over time, this increased efficiency can lower the resting heart rate. Reducing the workload on the heart. A significant step towards cardiovascular resilience.`,]],
@@ -97,15 +94,14 @@ export default (ctx:request_ctx_T)=>''
 				[`#### Mental & Emotional Health`, [
 					`The benefits of exercise extend beyond the physical realm. Engaging in regular physical activity releases endorphins, the "feel-good" hormones. Which reduces stress, anxiety, & depression. Stress increases the risk of heart disease. The psychological benefits of exercise are a crucial component of cardiovascular wellness.`,]],]],
 			[`### Weight Management`, [
-				[
-					`Excess body weight poses significant risks to the cardiovascular system. Especially when concentrated around the abdomen. Contributing to a spectrum of heart-related issues.`,
-					``,
-					`Excess fat, particularly visceral fat, contributes to cardiovascular strain. This type of fat is not inert. It's biologically active, releasing inflammatory markers & hormones. That can increase risk factors for heart disease:`,
+				`Excess body weight poses significant risks to the cardiovascular system. Especially when concentrated around the abdomen. Contributing to a spectrum of heart-related issues.`,
+				nl,
+				`Excess fat, particularly visceral fat, contributes to cardiovascular strain. This type of fat is not inert. It's biologically active, releasing inflammatory markers & hormones. That can increase risk factors for heart disease:`,
+				lines_(
 					`- blood pressure`,
 					`- cholesterol levels`,
-					`- insulin resistance`,
-					``,
-				].join(nl),
+					`- insulin resistance`,),
+				nl,
 				()=>[
 					[`#### ${mobile_hidden__span_([`Key `])}Benefits of Weight Management${mobile_hidden__span_([` on Cardiac Health`])}`, ()=>[
 						[`##### Reduced Blood Pressure`, [
@@ -117,14 +113,13 @@ export default (ctx:request_ctx_T)=>''
 						[`##### Decreased Risk of Atherosclerosis`, [
 							`Atherosclerosis is the plaque builds up in the arteries. Which narrows & hardens the arteries. Excess weight accelerates atherosclerosis. Weight loss helps slow this process. Improving blood flow & reducing the risk of heart attack & stroke.`,]],]],
 					[`#### Strategies${mobile_hidden__span_([` for Effective Weight Management`])}`, [
-						[
-							`Achieving & maintaining a healthy weight involves a combination of:`,
+						`Achieving & maintaining a healthy weight involves a combination of:`,
+						lines_(
 							`- dietary changes`,
 							`- regular physical activity`,
-							`- behavioral modifications`,
-							``,
-							`A heart-healthy diet rich in fruits, vegetables, whole grains, & lean proteins. With consistent exercise, it forms the foundation of effective weight management. Addressing psychological factors & establishing a supportive environment are crucial for long-term success.`
-						].join(nl),]]],]],
+							`- behavioral modifications`,),
+						nl,
+						`A heart-healthy diet rich in fruits, vegetables, whole grains, & lean proteins. With consistent exercise, it forms the foundation of effective weight management. Addressing psychological factors & establishing a supportive environment are crucial for long-term success.`,]]],]],
 			[`### Manage Stress`, [
 				`Stress, particularly when chronic, can have deleterious effects on the heart. Stress triggers a cascade of physiological responses. This includes the release of adrenaline. Which increases heart rate & blood pressure. Placing undue strain on the cardiovascular system. Stress often leads to unhealthy coping mechanisms. Such as poor dietary choices, smoking, & inactivity. Which further exacerbates heart disease risk.`,
 				()=>[
@@ -151,17 +146,15 @@ export default (ctx:request_ctx_T)=>''
 							[`##### Healthy Social Connections`, [
 								`Maintaining supportive relationships provides emotional support & alleviates stress.`,]],
 							[`##### Professional Guidance`, [
-								`For some, consulting with a mental health professional or attending stress management programs. Are beneficial in developing effective coping strategies.`,]],
-						],
-						[
-							``,
-							`Chronic stress can lead to high blood pressure & other heart-related issues. Healthy practices are vital for stress reduction:`,
+								`For some, consulting with a mental health professional or attending stress management programs. Are beneficial in developing effective coping strategies.`,]],],
+						nl,
+						`Chronic stress can lead to high blood pressure & other heart-related issues. Healthy practices are vital for stress reduction:`,
+						lines_(
 							`- adequate sleep`,
 							`- mindfulness`,
 							`- meditation`,
 							`- yoga`,
-							`- deep breathing`
-						].join(nl),]],],]],
+							`- deep breathing`,),]],],]],
 			[`### Unraveling Stress with Yoga`, [
 				`Yoga activates the body's relaxation response. Counteracting the stress-induced "fight or flight" mode. That can be detrimental to heart health. Through a series of postures (asanas) & controlled breathing techniques (pranayama). Yoga encourages a deep sense of relaxation & mindfulness.`,
 				()=>[
@@ -190,45 +183,44 @@ export default (ctx:request_ctx_T)=>''
 					[`#### Beyond the Heart${mobile_hidden__span_([`: Holistic Health Improvements`])}`, [
 						`Quitting smoking improves cardiac health. And it has widespread benefits across the entire body. Lung function begins to improve. Reducing the risk of chronic obstructive pulmonary disease (COPD) & lung cancer. Quitting smoking can add years to your life. Enhancing the quality & longevity of their existence.`,]],],]],
 			[`### Manage Blood Pressure`, [
-				[
-					`Blood pressure management is a cornerstone of maintaining & enhancing cardiac health. Hypertension, or high blood pressure, is often dubbed the "silent killer". Due to it inflicting damage on the cardiovascular system without clear symptoms. Keeping blood pressure within a healthy range reduces the risk of:`,
+				`Blood pressure management is a cornerstone of maintaining & enhancing cardiac health. Hypertension, or high blood pressure, is often dubbed the "silent killer". Due to it inflicting damage on the cardiovascular system without clear symptoms. Keeping blood pressure within a healthy range reduces the risk of:`,
+				lines_(
 					`- the risk of heart disease`,
 					`- stroke`,
-					`- other cardiovascular complications`,
-					``,
-				].join(nl),
+					`- other cardiovascular complications`,),
+				nl,
 				()=>[
 					[`#### Reducing Strain on the Heart`, [
 						`High-blood pressure adds strain on the heart. Forcing it to work harder to pump blood through the body. This increased workload leads to the thickening of the heart's muscle tissue. Left ventricular hypertrophy. A condition that heightens the risk of heart failure. Managing blood pressure helps to ease the heart's workload. Preventing hypertrophy & preserving the heart's function.`,]],
 					[`#### Lowering ${mobile_hidden__span_([`the `])}Risk of Atherosclerosis`, [
-						[
-							`Hypertension accelerates the process of atherosclerosis. Where plaque builds up in the arteries, narrowing & hardening them. This plaque buildup increases the risk of:`,
+						`Hypertension accelerates the process of atherosclerosis. Where plaque builds up in the arteries, narrowing & hardening them. This plaque buildup increases the risk of:`,
+						lines_(
 							`- coronary artery disease`,
 							`- heart attack`,
-							`- stroke`,
-							``,
-							`Effective blood pressure management slows down the progression of atherosclerosis. Maintaining the elasticity & openness of the arteries. Ensuring adequate blood flow to the heart & other organs.`,
-						].join(nl),]],
+							`- stroke`,),
+						nl,
+						`Effective blood pressure management slows down the progression of atherosclerosis. Maintaining the elasticity & openness of the arteries. Ensuring adequate blood flow to the heart & other organs.`,]],
 					[`#### Preventing Heart Failure`, [
 						`Reducing the heart's workload & minimizing damage to the cardiovascular system. Blood pressure management plays a critical role in preventing heart failure. Heart failure occurs when the heart is unable to pump sufficient blood to meet the body's needs. A condition often precipitated by uncontrolled high blood pressure.`,]],
 					[`#### Decreasing Risk of Stroke`, [
 						`High blood pressure is a leading risk factor for stroke. By damaging & weakening the blood vessels in the brain. Hypertension can lead to blood vessel breaks or blockages, resulting in stroke. Managing blood pressure reduces the risk of both ischemic & hemorrhagic strokes. By protecting the integrity of cerebral blood vessels.`,]],
 					[`#### Enhancing ${mobile_hidden__span_([`Overall `])}Cardiovascular Health`, [
-						[
-							`Controlling blood pressure benefits the entire cardiovascular system. Reducing the risk of:`,
+						`Controlling blood pressure benefits the entire cardiovascular system. Reducing the risk of:`,
+						lines_(
 							`- kidney damage`,
 							`- peripheral artery disease`,
-							`- even cognitive decline`].join(nl),]],
+							`- even cognitive decline`,),]],
 					[`#### Strategies${mobile_hidden__span_([` for Blood Pressure Management`])}`, [
 						`Managing blood pressure involves a combination of lifestyle changes. If necessary, therapy or medication. Lifestyle modifications include:`,
-						`- adopting a heart-healthy diet (rich in fruits, vegetables, & low in sodium)`,
-						`- regular physical activity`,
-						`- maintaining a healthy weight`,
-						`- managing stress`,
-						`- avoiding tobacco`,
-						`- excessive alcohol consumption`,
-						``,
-						`Antihypertensive medications help achieve & maintain target blood pressure levels in severe cases.`]],],]],
+						lines_(
+							`- adopting a heart-healthy diet (rich in fruits, vegetables, & low in sodium)`,
+							`- regular physical activity`,
+							`- maintaining a healthy weight`,
+							`- managing stress`,
+							`- avoiding tobacco`,
+							`- excessive alcohol consumption`,),
+						nl,
+						`Antihypertensive medications help achieve & maintain target blood pressure levels in severe cases.`,]],],]],
 			[`### Cholesterol Management`, [
 				`Cholesterol, a waxy substance found in the blood. It plays a dual role in the body's functioning, being both vital & potentially harmful.`,
 				()=>[
@@ -298,57 +290,53 @@ export default (ctx:request_ctx_T)=>''
 						`The impact of macrophages on atherosclerotic plaque buildup is a delicate balance between their role in initial defense & their contribution to plaque progression & instability. Research into therapies that can modulate the activity of macrophages, promoting their protective roles while minimizing their harmful effects, is ongoing. Such strategies could offer new avenues for the prevention & treatment of atherosclerosis & its complications.`,]],
 				]]],
 			[`### Regular Check-ups`, [
-				[
-					`Regular medical check-ups are critical to manage cardiac health & prevent issues. Heart disease remains a leading cause of morbidity & mortality worldwide. Regular check-ups are important feedback to maintain & improve heart health. Through:`,
+				`Regular medical check-ups are critical to manage cardiac health & prevent issues. Heart disease remains a leading cause of morbidity & mortality worldwide. Regular check-ups are important feedback to maintain & improve heart health. Through:`,
+				lines_(
 					`- early detection`,
 					`- personalized advice`,
-					`- ongoing monitoring`,
-					``
-				].join(nl),
+					`- ongoing monitoring`,),
+				nl,
 				()=>[
 					[`#### Early Detection${mobile_hidden__span_([`: The First Line of Defense`])}`, [
 						`Some conditions like hypertension, high cholesterol, & diabetes, may not present obvious symptoms. Routine screenings detect these conditions early. Early detection facilitates timely intervention. Reducing the risk of developing more severe cardiovascular diseases. Including coronary artery disease & heart failure.`,]],
 					[`#### Tailored Health Strategies${mobile_hidden__span_([`: A Personalized Approach`])}`, [
-						[
-							`Regular check-ups provide an opportunity for healthcare providers to offer personalized health advice. Based on an individual's risk factors, lifestyle, & family history. This tailored guidance can include effective strategies on`,
+						`Regular check-ups provide an opportunity for healthcare providers to offer personalized health advice. Based on an individual's risk factors, lifestyle, & family history. This tailored guidance can include effective strategies on`,
+						lines_(
 							`- diet`,
 							`- exercise`,
 							`- smoking cessation`,
-							`- stress management`,
-							``,
-							`Key components in maintaining optimal cardiac health. Personalized health strategies empower you to make informed decisions about their lifestyle. Improving your heart health.`
-						].join(nl),]],
+							`- stress management`,),
+						nl,
+						`Key components in maintaining optimal cardiac health. Personalized health strategies empower you to make informed decisions about their lifestyle. Improving your heart health.`,]],
 					[`#### Ongoing Monitoring${mobile_hidden__span_([`: Keeping the Heart in Check`])}`, [
-						[
-							`Regular check-up visits allow healthcare providers to track:`,
+						`Regular check-up visits allow healthcare providers to track:`,
+						lines_(
 							`- your heart health`,
 							`- progress of any therapies or medications`,
-							`- adjust therapies or medications`,
-							``,
-							`Continuous monitoring identifies & manages any changes in cardiac health. Preventing complications & improving outcomes.`
-						].join(nl),]],
+							`- adjust therapies or medications`,),
+						nl,
+						`Continuous monitoring identifies & manages any changes in cardiac health. Preventing complications & improving outcomes.`,]],
 					[`#### Early Detection${mobile_hidden__span_([`: The First Line of Defense`])}`, [
 						`Some conditions like hypertension, high cholesterol, & diabetes, may not present obvious symptoms. Routine screenings detect these conditions early. Early detection facilitates timely intervention. Reducing the risk of developing more severe cardiovascular diseases. Including coronary artery disease & heart failure.`,]],],]],]
 	]],
 	[`## When to Seek Medical Help`, [
-		[
-			`Don't ignore potential warning signs:`,
+		`Don't ignore potential warning signs:`,
+		lines_(
 			`- **Chest Pain or Discomfort**`,
 			`- **Shortness of Breath**`,
 			`- **Irregular Heartbeat**`,
-			`- **Swelling in Your Legs**`,
-		].join(nl),]],
+			`- **Swelling in Your Legs**`,),]],
 	[`## Managing Heart Conditions`, [
 		`For those diagnosed with heart conditions. Management is key to maintaining quality of life & preventing further complications.`,
 		()=>[
 			[`### Medication Adherence`, [
-				[
-					`For conditions like hypertension or atrial fibrillation, adhering to prescribed medications is vital. To:`,
+				`For conditions like hypertension or atrial fibrillation, adhering to prescribed medications is vital. To:`,
+				lines_(
 					`- reduce plaque`,
 					`- lower blood pressure`,
 					`- lower cholesterol`,
 					`- manage blood sugar`,
-					`- prevent blood clots`,].join(nl),]],
+					`- prevent blood clots`,),]],
 			[`### Cardiac Rehabilitation`, [
 				`A supervised program after a heart attack or surgery. Cardiac rehab programs offer a guided approach to recovery. Helping patients slowly regain strength & endurance.`,]],
 		]]],

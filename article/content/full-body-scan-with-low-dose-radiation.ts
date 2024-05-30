@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { nl } from '@rappstack/ui--any/string'
+import { lines_, nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
@@ -16,59 +16,61 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## What is a Full Body Scan?`, [
-		`A full body scan is a sophisticated medical imaging technique. It employs low-dose radiation to craft detailed visuals. Of the internal architecture of the human body, encompassing bones, organs, & tissues. The brilliance lies in its "low-dose" approach. Balancing minimal radiation exposure with the acquisition of high-quality images.`].join(nl)],
+		`A full body scan is a sophisticated medical imaging technique. It employs low-dose radiation to craft detailed visuals. Of the internal architecture of the human body, encompassing bones, organs, & tissues. The brilliance lies in its "low-dose" approach. Balancing minimal radiation exposure with the acquisition of high-quality images.`,]],
 	[`## Understanding Low-Dose Radiation Scans`, [
-		`A low-dose radiation scan involves a lower amount of radiation. Compared to standard diagnostic CT scans. A low-dose CT scan for lung cancer screening might use about 1.4 millisieverts (mSv) of radiation. Less than the 7 mSv used in a regular diagnostic CT scan of the chest${footnote__sup__sort([ref_l1_7_footnote__sup_(ctx),ref_l1_14_footnote__sup_(ctx)])}. Reducing the radiation dose minimizes the risks associated with ionizing radiation. Which includes DNA damage that could lead to cancer.`].join(nl)],
+		`A low-dose radiation scan involves a lower amount of radiation. Compared to standard diagnostic CT scans. A low-dose CT scan for lung cancer screening might use about 1.4 millisieverts (mSv) of radiation. Less than the 7 mSv used in a regular diagnostic CT scan of the chest${footnote__sup__sort([ref_l1_7_footnote__sup_(ctx),ref_l1_14_footnote__sup_(ctx)])}. Reducing the radiation dose minimizes the risks associated with ionizing radiation. Which includes DNA damage that could lead to cancer.`,]],
 	[`## The Purpose`, [
 		`The scan stands on the front line of preventive medicine. Its mission? Early detection of health anomalies. Among the array of conditions it can reveal are:`,
-		`- Early-stage cancers`,
-		`- Cardiac diseases`,
-		`- Bone irregularities`].join(nl)],
+		lines_(
+			`- Early-stage cancers`,
+			`- Cardiac diseases`,
+			`- Bone irregularities`,),]],
 	[`## How It Works`, [
-		`During the procedure, you'll lie on a scanning table that slides through the machine. The machine rotates around you, capturing numerous X-ray images.  A computer then processes these images to create detailed cross-sections of your body, allowing doctors to examine your organs, bones, & blood vessels for potential issues. The entire process is swift, often concluding within mere minutes.`].join(nl)],
+		`During the procedure, you'll lie on a scanning table that slides through the machine. The machine rotates around you, capturing numerous X-ray images.  A computer then processes these images to create detailed cross-sections of your body, allowing doctors to examine your organs, bones, & blood vessels for potential issues. The entire process is swift, often concluding within mere minutes.`,]],
 	[`## The Benefits`, [
-		[
-			`Full-body scans use low-dose radiation to detect a wide range of diseases & conditions. Before symptoms appear. These scans identify early stages of diseases that are otherwise asymptomatic in their initial stages. Such as${footnote__sup__sort([ref_l1_4_footnote__sup_(ctx),ref_l1_9_footnote__sup_(ctx)])}:`,
-			``,
+		`Full-body scans use low-dose radiation to detect a wide range of diseases & conditions. Before symptoms appear. These scans identify early stages of diseases that are otherwise asymptomatic in their initial stages. Such as${footnote__sup__sort([ref_l1_4_footnote__sup_(ctx),ref_l1_9_footnote__sup_(ctx)])}:`,
+		nl,
+		lines_(
 			`- certain cancers`,
 			`- vascular diseases`,
-			`- musculoskeletal disorders`,
-			``,
-			`Early detection often allows for earlier treatment. Which can improve prognosis and, in some cases, lead to a cure.`,
-			``
-		].join(nl),
+			`- musculoskeletal disorders`,),
+		nl,
+		`Early detection often allows for earlier treatment. Which can improve prognosis and, in some cases, lead to a cure.`,
+		nl,
 		()=>[
 			[`### Early Detection`, [
-				`Pinpoints diseases in their nascent stages when they're most amenable to treatment.`].join(nl)],
+				`Pinpoints diseases in their nascent stages when they're most amenable to treatment.`,]],
 			[`### Comprehensive Insight`, [
-				`Delivers a holistic health snapshot, potentially uncovering hidden issues.`].join(nl)],
+				`Delivers a holistic health snapshot, potentially uncovering hidden issues.`,]],
 			[`### Non-Invasive`, [
-				`Simple & straightforward, the scan requires no incisions or extended hospital stays.`].join(nl)],
+				`Simple & straightforward, the scan requires no incisions or extended hospital stays.`,]],
 		]]],
 	[`## Considerations`, ()=>[
 		[`Pros`, [
-			`- Quick & painless`,
-			`- Identifies a broad spectrum of conditions`,
-			`- Provides peace of mind`].join(nl)],
+			lines_(
+				`- Quick & painless`,
+				`- Identifies a broad spectrum of conditions`,
+				`- Provides peace of mind`,)]],
 		[`Cons`, [
-			`- Radiation Exposure`,
-			`- May lead to unwarranted worry or additional testing`,
-			`- Accessibility & cost may be prohibitive for some`].join(nl)]]],
+			lines_(
+				`- Radiation Exposure`,
+				`- May lead to unwarranted worry or additional testing`,
+				`- Accessibility & cost may be prohibitive for some`,),]],]],
 	[`## Risks & Concerns`, [
-		`Despite their benefits, full-body scans with low-dose radiation are not without risks. The main concern is the cumulative effect of radiation exposure. Even low doses of radiation can contribute to an increased risk of cancer over a person’s lifetime. According to studies, repeated exposure, even to low doses, can add up. Increasing the risk of developing cancer${footnote__sup__sort([ref_l1_5_footnote__sup_(ctx),ref_l1_10_footnote__sup_(ctx)])}. These scans can lead to false positives. Where the detection of benign conditions might lead to unnecessary follow-up tests & procedures. That carry their own risks${ref_l1_4_footnote__sup_(ctx)}.`
-	].join(nl)],
+		`Despite their benefits, full-body scans with low-dose radiation are not without risks. The main concern is the cumulative effect of radiation exposure. Even low doses of radiation can contribute to an increased risk of cancer over a person’s lifetime. According to studies, repeated exposure, even to low doses, can add up. Increasing the risk of developing cancer${footnote__sup__sort([ref_l1_5_footnote__sup_(ctx),ref_l1_10_footnote__sup_(ctx)])}. These scans can lead to false positives. Where the detection of benign conditions might lead to unnecessary follow-up tests & procedures. That carry their own risks${ref_l1_4_footnote__sup_(ctx)}.`,]],
 	[`## Current Recommendations`, [
-		`Given the risks associated with radiation. Medical guidelines generally do not recommend routine full-body scans for asymptomatic individuals. Without specific risk factors${footnote__sup__sort([ref_l1_4_footnote__sup_(ctx),ref_l1_10_footnote__sup_(ctx)])}. The use of these scans is advised only in certain circumstances. Where the benefits outweigh the risks. Such as in high-risk populations for specific cancers. Low-dose CT scans are recommended for lung cancer screening in older adults with a significant history of smoking${ref_l1_19_footnote__sup_(ctx)}.`].join(nl)],
+		`Given the risks associated with radiation. Medical guidelines generally do not recommend routine full-body scans for asymptomatic individuals. Without specific risk factors${footnote__sup__sort([ref_l1_4_footnote__sup_(ctx),ref_l1_10_footnote__sup_(ctx)])}. The use of these scans is advised only in certain circumstances. Where the benefits outweigh the risks. Such as in high-risk populations for specific cancers. Low-dose CT scans are recommended for lung cancer screening in older adults with a significant history of smoking${ref_l1_19_footnote__sup_(ctx)}.`,]],
 	[`## Who Should Consider It?`, [
-		`The scan is particularly beneficial for individuals with a moderate to high risk of certain conditions, owing to genetic predispositions, lifestyle factors, or age. Nonetheless, it's imperative to engage in a dialogue with a healthcare professional to ascertain the appropriateness of a full body scan in your health regimen.`].join(nl)],
+		`The scan is particularly beneficial for individuals with a moderate to high risk of certain conditions, owing to genetic predispositions, lifestyle factors, or age. Nonetheless, it's imperative to engage in a dialogue with a healthcare professional to ascertain the appropriateness of a full body scan in your health regimen.`,]],
 	[`## Technological Advancements & Safety Measures`, [
-		`Advancements in imaging technology continue to reduce the risks associated with radiation. Modern CT scanners & techniques, such as iterative reconstruction, allow for lower radiation doses. While maintaining image quality${footnote__sup__sort([ref_l1_15_footnote__sup_(ctx),ref_l1_16_footnote__sup_(ctx)])}. Medical facilities are adopting protocols to ensure that scans are justified & optimized. Performing scans only when necessary & with the minimum radiation dose required. To achieve diagnostic quality${footnote__sup__sort([ref_l1_6_footnote__sup_(ctx),ref_l1_18_footnote__sup_(ctx)])}.`].join(nl)],
+		`Advancements in imaging technology continue to reduce the risks associated with radiation. Modern CT scanners & techniques, such as iterative reconstruction, allow for lower radiation doses. While maintaining image quality${footnote__sup__sort([ref_l1_15_footnote__sup_(ctx),ref_l1_16_footnote__sup_(ctx)])}. Medical facilities are adopting protocols to ensure that scans are justified & optimized. Performing scans only when necessary & with the minimum radiation dose required. To achieve diagnostic quality${footnote__sup__sort([ref_l1_6_footnote__sup_(ctx),ref_l1_18_footnote__sup_(ctx)])}.`,]],
 	[`## How to Prepare`, [
 		`Preparatory steps are straightforward. Potential prerequisites include:`,
-		`- Fasting for a few hours pre-scan.`,
-		`- Removing metallic objects to prevent image distortion.`].join(nl)],
+		lines_(
+			`- Fasting for a few hours pre-scan.`,
+			`- Removing metallic objects to prevent image distortion.`,),]],
 	[`## Conclusion`, [
-		`Full-body scans using low-dose radiation offer significant benefits in detecting diseases early. But it comes with potential risks. Patients & healthcare providers must consider the justification for such scans. Taking into account individual risk factors & the potential for cumulative radiation exposure. As imaging technology advances, ongoing research & updated guidelines will be essential. In maximizing the benefits of these scans. While minimizing their risks.`].join(nl)],
+		`Full-body scans using low-dose radiation offer significant benefits in detecting diseases early. But it comes with potential risks. Patients & healthcare providers must consider the justification for such scans. Taking into account individual risk factors & the potential for cumulative radiation exposure. As imaging technology advances, ongoing research & updated guidelines will be essential. In maximizing the benefits of these scans. While minimizing their risks.`,]],
 ])
 // @formatter:on
 function ref_l1_4_footnote__sup_(ctx:request_ctx_T) {

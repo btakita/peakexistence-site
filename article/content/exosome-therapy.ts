@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { nl } from '@rappstack/ui--any/string'
+import { lines_, nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -19,131 +19,134 @@ export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 		[`## Exosomes`, [
 			`Exosomes are tiny, extracellular vesicles released by almost all types of cells. Acting as messengers that for intercellular communication. These vesicles influence the behavior & function of recipient cells, including:`,
-			`- proteins`,
-			`- lipids`,
-			`- RNA`,
-			`- DNA`,
-			``,
-			`Exosomes play a critical role in the regulation of numerous physiological processes. From tissue repair to immune responses.`,
-		].join(nl)],
+			lines_(
+				`- proteins`,
+				`- lipids`,
+				`- RNA`,
+				`- DNA`,),
+			nl,
+			`Exosomes play a critical role in the regulation of numerous physiological processes. From tissue repair to immune responses.`,]],
 	[`## Understanding Exosome Therapy`, [
 		`Exosomes are typically 30–150 nm in diameter. Almost all types of cells release exosomes. Exosomes are involved in numerous physiological processes, including:`,
-		``,
-    `- tissue repair`,
-    `- immune response`,
-    `- cellular communication`,
-		``,
+		nl,
+		lines_(
+			`- tissue repair`,
+			`- immune response`,
+			`- cellular communication`,),
+		nl,
     `Exosome therapy leverages the natural signaling pathways of exosomes to promote healing & regeneration. Exosomes can be isolated from stem cells or other cell types. Then administered to patients to achieve various therapeutic effects.`,
-		``,
-		`By isolating exosomes from stem cells or other cell types & administering them to target areas. It's possible to stimulate repair & recovery at a cellular level. Unlike stem cells, exosomes do not replicate. Reducing the risk of tumor formation & other complications associated with cell therapies${footnote__sup__sort([ref_e1_1_footnote__sup_(ctx),ref_e1_2_footnote__sup_(ctx)])}.`].join(nl)],
+		nl,
+		`By isolating exosomes from stem cells or other cell types & administering them to target areas. It's possible to stimulate repair & recovery at a cellular level. Unlike stem cells, exosomes do not replicate. Reducing the risk of tumor formation & other complications associated with cell therapies${footnote__sup__sort([ref_e1_1_footnote__sup_(ctx),ref_e1_2_footnote__sup_(ctx)])}.`,]],
 	[`## Mechanisms of Exosome Therapy`, [
 		`Exosomes function primarily through the transfer of RNA, proteins, & other bioactive molecules. To recipient cells. This transfer can modulate cellular activities in several ways:`,
 		()=>[
 			[`### Gene Regulation`, [
-				`Exosomes can deliver specific RNAs to alter gene expression in target cells. Correcting genetic defects or modulating disease processes${ref_e1_3_footnote__sup_(ctx)}.`].join(nl)],
+				`Exosomes can deliver specific RNAs to alter gene expression in target cells. Correcting genetic defects or modulating disease processes${ref_e1_3_footnote__sup_(ctx)}.`,]],
 			[`### Protein Delivery`, [
-				`Proteins carried by exosomes can directly influence the signaling pathways within recipient cells. Leading to therapeutic effects${ref_e1_4_footnote__sup_(ctx)}.`].join(nl)],
+				`Proteins carried by exosomes can directly influence the signaling pathways within recipient cells. Leading to therapeutic effects${ref_e1_4_footnote__sup_(ctx)}.`,]],
 			[`### Immunomodulation`, [
-				`Exosomes can play a role in regulating immune responses. Which is particularly useful in conditions like autoimmune diseases or in organ transplantation${ref_e1_5_footnote__sup_(ctx)}.`].join(nl)],
+				`Exosomes can play a role in regulating immune responses. Which is particularly useful in conditions like autoimmune diseases or in organ transplantation${ref_e1_5_footnote__sup_(ctx)}.`,]],
 		]]],
 	[`## How Exosome Therapy Works?`, [
 		()=>[
 			[`### Harvesting`, [
-				`Exosomes derived & isolated from stem cells or other cell types. In a laboratory setting.`].join(nl)],
+				`Exosomes derived & isolated from stem cells or other cell types. In a laboratory setting.`,]],
 			[`### Administration`, [
 				`Depending on the condition, exosomes are delivered via:`,
-				`- injection`,
-				`- intravenously (into a vein)`,
-				`- topically (on the skin)`,
-			].join(nl)],
+				lines_(
+					`- injection`,
+					`- intravenously (into a vein)`,
+					`- topically (on the skin)`,),]],
 			[`### Cellular Communication`, [
 				`Exosomes interact with target cells. Delivering their payload to:`,
-				`- promote healing`,
-				`- reduce inflammation`,
-				`- stimulate tissue repair`
-			].join(nl)],
+				lines_(
+					`- promote healing`,
+					`- reduce inflammation`,
+					`- stimulate tissue repair`,),]],
 		]]],
 	[`## Clinical Applications of Exosome Therapy`, [
 		`Exosome therapy has wide-ranging applications across various fields of medicine. Some of the most promising areas of research & treatment include:`,
 		()=>[
 			[`### Regenerative Medicine`, [
 				`Exosomes derived from mesenchymal stem cells (MSCs) promote tissue regeneration. In conditions such as${footnote__sup__sort([ref_e1_1_footnote__sup_(ctx),ref_e1_6_footnote__sup_(ctx)])}:`,
-				``,
-				`- cutaneous wound healing`,
-				`- myocardial infarction`,
-				`- cardiac regeneration`,
-				`- cartilage repair`,
-				`- osteoarthritis`].join(nl)],
+				nl,
+				lines_(
+					`- cutaneous wound healing`,
+					`- myocardial infarction`,
+					`- cardiac regeneration`,
+					`- cartilage repair`,
+					`- osteoarthritis`,),]],
 			[`### Oncology (Cancer Therapy)`, [
 				`Exosomes can carry therapeutic agents directly to tumor cells. This approach has been explored in various cancers. Where exosomes target tumor cells. Delivering cytotoxic agents or genetic material to inhibit tumor growth${ref_e1_5_footnote__sup_(ctx)}.`,
-				``,
+				nl,
 				`Exosome therapy is being explored for its potential to:`,
-				`- modulate the immune response against tumors`,
-				`- deliver targeted cancer therapies`,
-				`- minimize the side effects of traditional treatments`].join(nl)],
+				lines_(
+					`- modulate the immune response against tumors`,
+					`- deliver targeted cancer therapies`,
+					`- minimize the side effects of traditional treatments`,),]],
 			[`### Neurodegenerative Diseases`, [
 				`Exosomes deliver neuroprotective substances directly to the brain. Offering a new approach to managing diseases like${ref_e1_7_footnote__sup_(ctx)}:`,
-				`- Alzheimer's disease`,
-				`- Parkinson's disease`,
-				`- Multiple Sclerosis`,
-				``,
-				`Early research suggests that exosomes can deliver therapeutic molecules directly to the brain. Slowing disease progression & alleviating symptoms.`
-			].join(nl)],
+				lines_(
+					`- Alzheimer's disease`,
+					`- Parkinson's disease`,
+					`- Multiple Sclerosis`,),
+				nl,
+				`Early research suggests that exosomes can deliver therapeutic molecules directly to the brain. Slowing disease progression & alleviating symptoms.`,]],
 			[`### Cosmetic & Anti-Aging${mobile_hidden__span_([` Treatments`])}`, [
 				`Exosome therapy is also making strides in cosmetic medicine. Offering novel solutions for:`,
-				`- skin rejuvenation`,
-				`- hair regrowth`,
-				`- anti-aging treatments`,
-				``,
-				`By promoting cell renewal & tissue repair. Exosome therapy can enhance skin appearance, elasticity, & overall health.`].join(nl)],
+				lines_(
+					`- skin rejuvenation`,
+					`- hair regrowth`,
+					`- anti-aging treatments`,),
+				nl,
+				`By promoting cell renewal & tissue repair. Exosome therapy can enhance skin appearance, elasticity, & overall health.`,]],
 			[`### Wound Healing & Tissue Regeneration`, [
-				`Accelerates healing in burns, diabetic ulcers, or after surgery.`].join(nl)],
+				`Accelerates healing in burns, diabetic ulcers, or after surgery.`,]],
 			[`### Joint Pain & Osteoarthritis`, [
-				`Reduces inflammation & promoting cartilage repair.`].join(nl)],
+				`Reduces inflammation & promoting cartilage repair.`,]],
 			[`### Heart Disease`, [
-				`Regenerates damaged heart tissue after a heart attack.`].join(nl)],
+				`Regenerates damaged heart tissue after a heart attack.`,]],
 			[`### Neurological Conditions`, [
-				`Parkinson's, Alzheimer's, & recovery after stroke.`].join(nl)],
+				`Parkinson's, Alzheimer's, & recovery after stroke.`,]],
 			[`### Cosmetic Uses`, [
-				`Investigated for hair regrowth & skin rejuvenation.`].join(nl)],
+				`Investigated for hair regrowth & skin rejuvenation.`,]],
 		]]],
 	[`## Advantages Over Stem Cell Therapy`, [
 		()=>[
 			[`### Safety`, [
-				`As acellular products, exosomes have a lower risk of inducing immune rejection. Or forming tumors. Compared to whole stem cells.`].join(nl)],
+				`As acellular products, exosomes have a lower risk of inducing immune rejection. Or forming tumors. Compared to whole stem cells.`,]],
 			[`### Targeting Ability`, [
-				`Exosomes can target specific tissues or cells. To deliver specific therapeutic molecules to target tissues. Enhancing the efficacy & reducing the side effects of treatments.`].join(nl)],
+				`Exosomes can target specific tissues or cells. To deliver specific therapeutic molecules to target tissues. Enhancing the efficacy & reducing the side effects of treatments.`,]],
 			[`### Versatility`, [
-				`Exosomes can carry a wide range of therapeutic molecules. Making them suitable for various therapeutic applications${footnote__sup__sort([ref_e1_2_footnote__sup_(ctx),ref_e1_8_footnote__sup_(ctx)])}.`].join(nl)],
+				`Exosomes can carry a wide range of therapeutic molecules. Making them suitable for various therapeutic applications${footnote__sup__sort([ref_e1_2_footnote__sup_(ctx),ref_e1_8_footnote__sup_(ctx)])}.`,]],
 			[`### Easier Storage & Delivery`, [
-				`Exosomes may be more stable & easier to handle in a clinical setting.`].join(nl)],
-		]]],
+				`Exosomes may be more stable & easier to handle in a clinical setting.`,]],],]],
 	[`## Challenges & Future Directions`, [
 		` Despite its promising potential, exosome therapy faces several challenges:`,
 		nl,
 		()=>[
 			[`### Standardization`, [
-				`There is a need for standardized methods for exosome isolation, characterization, & storage. To ensure the consistency & quality of therapeutic exosomes${ref_e1_3_footnote__sup_(ctx)}.`].join(nl)],
+				`There is a need for standardized methods for exosome isolation, characterization, & storage. To ensure the consistency & quality of therapeutic exosomes${ref_e1_3_footnote__sup_(ctx)}.`,]],
 			[`### Regulatory Hurdles`, [
-				`As a relatively new therapeutic approach, exosome therapy must navigate complex regulatory pathways. To gain approval for clinical use${ref_e1_4_footnote__sup_(ctx)}.`].join(nl)],
-		]]],
+				`As a relatively new therapeutic approach, exosome therapy must navigate complex regulatory pathways. To gain approval for clinical use${ref_e1_4_footnote__sup_(ctx)}.`,]],],]],
 		[`## A Note of Caution`, [
 			`It's crucial to approach exosome therapy with a balanced perspective:`,
 			()=>[
 				[`### Avoid Unproven Claims`, [
-					`Be wary of clinics offering unapproved exosome therapies making exaggerated promises.`].join(nl)],
+					`Be wary of clinics offering unapproved exosome therapies making exaggerated promises.`,]],
 				[`### Talk to Your Doctor`, [
-					`If you're considering exosome therapy. Consult a reputable doctor specializing in the condition you seek treatment for.`].join(nl)],
+					`If you're considering exosome therapy. Consult a reputable doctor specializing in the condition you seek treatment for.`,]],
 				[`### Seek Reliable Information`, [
-					`Look for information from research institutions, medical societies, & patient advocacy groups.`].join(nl)],
+					`Look for information from research institutions, medical societies, & patient advocacy groups.`,]],
 			]]],
 	[`## Conclusion`, [
 		`Exosome therapy stands at the frontier of regenerative medicine. Where the body's molecular mechanisms drive the healing. Exosome therapy is changing the way we approach the treatment of a myriad of conditions, with its:`,
-		`- broad applicability`,
-		`- minimal invasiveness`,
-		`- promising outcomes`,
-		``,
-		`Exosome therapy represents a significant advance in the field of regenerative medicine. Offering a versatile & safe approach to treating a wide array of diseases. As research continues to unravel, the full potential of exosomes. This therapy is poised to become a cornerstone of future medical treatments. Transforming the landscape of disease management & patient care.`].join(nl)],
+		lines_(
+			`- broad applicability`,
+			`- minimal invasiveness`,
+			`- promising outcomes`,),
+		nl,
+		`Exosome therapy represents a significant advance in the field of regenerative medicine. Offering a versatile & safe approach to treating a wide array of diseases. As research continues to unravel, the full potential of exosomes. This therapy is poised to become a cornerstone of future medical treatments. Transforming the landscape of disease management & patient care.`,]],
 ])
 // @formatter:on
 function ref_e1_1_footnote__sup_(ctx:request_ctx_T) {

@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { nl } from '@rappstack/ui--any/string'
+import { lines_, nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -11,94 +11,98 @@ import { mobile_hidden__span_ } from '../../responsive/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...exercise_with_oxygen_therapy,
-	description_md: [
+	description_md: lines_(
 		`Exercise with Oxygen Therapy (EWOT) is a therapeutic technique. That combines physical activity with the inhalation with the inhalation of enriched oxygen. To enhance physiological & cognitive functions. By enhancing oxygen availability to the tissues. This method leverages the increased availability of oxygen to:`,
-		``,
+		nl,
 		`- improved athletic performance`,
 		`- accelerate recovery`,
 		`- support overall health`,
-		``,
+		nl,
 		`This article explores the concept of EWOT, its mechanisms, benefits, & potential applications in both clinical & fitness settings.`
-	].join(nl),
+	,),
 })
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## What is ${mobile_hidden__span_([`Exercise with Oxygen Therapy`, `It`])}?`, [
-		`Exercise with Oxygen Therapy (EWOT) combines physical activity with increased oxygen intake. During an EWOT session, you’ll perform simple exercises. While breathing in a higher concentration of oxygen. This process helps your body deliver more oxygen to your cells, muscles, & organs. Resulting in a range of incredible health benefits.`].join(nl)],
+		`Exercise with Oxygen Therapy (EWOT) combines physical activity with increased oxygen intake. During an EWOT session, you’ll perform simple exercises. While breathing in a higher concentration of oxygen. This process helps your body deliver more oxygen to your cells, muscles, & organs. Resulting in a range of incredible health benefits.`,]],
 	[`## The Science Behind EWOT: How it Works`, [
 		`EWOT involves breathing higher concentrations of oxygen during exercise. Ranging from 30% to 60% of oxygen compared to the 21% found in ambient air. By increasing the oxygen content in the blood. More oxygen is available to muscle tissue & the brain. Enhancing the efficiency of metabolic processes & reducing the reliance on anaerobic energy pathways. Which produces lactic acid & leads to quicker fatigue${footnote__sup__sort([ref_e1_3_footnote__sup_(ctx),ref_e1_8_footnote__sup_(ctx)])}.`,
-		``,
+		nl,
 		`During conventional exercise, our muscles require oxygen to produce energy for movement. As we age or encounter health challenges, our body’s ability to deliver oxygen efficiently may diminish. However, EWOT addresses this by enhancing oxygen delivery, allowing your body to work at its full potential during exercise.`,
-		``,
+		nl,
 		`When you exercise with additional oxygen, your blood becomes oxygen-rich. Enhancing the oxygen saturation of tissues & organs. This increased oxygenation:`,
-		``,
-		`- supports cellular function`,
-		`- aids in detoxification`,
-		`- helps improve overall cardiovascular health`].join(nl)],
+		nl,
+		lines_(
+			`- supports cellular function`,
+			`- aids in detoxification`,
+			`- helps improve overall cardiovascular health`,),]],
 	[`## Benefits of EWOT`, [
 		()=>[
 			[`### Improved Exercise Performance`, [
-				`Studies have shown that EWOT enhances physical performance by increasing endurance & reducing fatigue. This is particularly beneficial for athletes & individuals engaged in high-intensity workouts${footnote__sup__sort([ref_e1_3_footnote__sup_(ctx),ref_e1_11_footnote__sup_(ctx)])}.`].join(nl)],
+				`Studies have shown that EWOT enhances physical performance by increasing endurance & reducing fatigue. This is particularly beneficial for athletes & individuals engaged in high-intensity workouts${footnote__sup__sort([ref_e1_3_footnote__sup_(ctx),ref_e1_11_footnote__sup_(ctx)])}.`,]],
 			[`### Accelerated Recovery`, [
-				`Oxygen plays a crucial role in recovery processes. Including the repair of muscle tissue & the reduction of inflammation. EWOT can help speed up these recovery mechanisms. Allowing for quicker restoration of muscle function & reduced soreness after exercise${footnote__sup__sort([ref_e1_3_footnote__sup_(ctx),ref_e1_11_footnote__sup_(ctx)])}. Giving you more frequent & effective exercise.`].join(nl)],
+				`Oxygen plays a crucial role in recovery processes. Including the repair of muscle tissue & the reduction of inflammation. EWOT can help speed up these recovery mechanisms. Allowing for quicker restoration of muscle function & reduced soreness after exercise${footnote__sup__sort([ref_e1_3_footnote__sup_(ctx),ref_e1_11_footnote__sup_(ctx)])}. Giving you more frequent & effective exercise.`,]],
 			[`### Enhanced Cognitive Function`, [
 				`EWOT benefits physical performance & has positive effects on cognitive functions. Such as:`,
-				``,
-				`- memory`,
-				`- focus`,
-				`- reaction times`,
-				``,
-				`This is due to improved oxygenation of the brain during exercise${footnote__sup__sort([ref_e1_7_footnote__sup_(ctx),ref_e1_17_footnote__sup_(ctx)])}.`].join(nl)],
+				nl,
+				lines_(
+					`- memory`,
+					`- focus`,
+					`- reaction times`,),
+				nl,
+				`This is due to improved oxygenation of the brain during exercise${footnote__sup__sort([ref_e1_7_footnote__sup_(ctx),ref_e1_17_footnote__sup_(ctx)])}.`,]],
 			[`### Cardiovascular Health`, [
-				`Increased oxygen levels support heart health. Improving blood flow & circulation. By improving oxygen delivery & reducing the workload on the heart during physical activity. EWOT contributes to better cardiovascular health. And helps in managing conditions, like hypertension & chronic heart failure${footnote__sup__sort([ref_e1_9_footnote__sup_(ctx),ref_e1_19_footnote__sup_(ctx)])}.`].join(nl)],
+				`Increased oxygen levels support heart health. Improving blood flow & circulation. By improving oxygen delivery & reducing the workload on the heart during physical activity. EWOT contributes to better cardiovascular health. And helps in managing conditions, like hypertension & chronic heart failure${footnote__sup__sort([ref_e1_9_footnote__sup_(ctx),ref_e1_19_footnote__sup_(ctx)])}.`,]],
 			[`### Enhanced Weight Loss`, [
-				`Combining oxygen therapy with exercise can boost metabolism, aiding in weight management efforts.`].join(nl)],
+				`Combining oxygen therapy with exercise can boost metabolism, aiding in weight management efforts.`,]],
 			[`### Detoxification`, [
-				`Oxygen is essential for cellular detoxification. Helping to remove waste & improve cellular health.`].join(nl)],
+				`Oxygen is essential for cellular detoxification. Helping to remove waste & improve cellular health.`,]],
 			[`### Boosted Mental Clarity`, [
-				`Improved oxygenation improves cognitive function. Promoting better focus & mental clarity.`].join(nl)],
+				`Improved oxygenation improves cognitive function. Promoting better focus & mental clarity.`,]],
 			[`### Reduced Inflammation`, [
-				`Oxygen plays a vital role in reducing inflammation. Alleviating chronic inflammatory conditions.`].join(nl)],
+				`Oxygen plays a vital role in reducing inflammation. Alleviating chronic inflammatory conditions.`,]],
 		]]],
 	[`## Applications of EWOT`, [
 		`EWOT is used in various settings, from sports training facilities to rehabilitation centers. It is particularly effective for:`,
-		`- Athletes looking to enhance performance & reduce recovery times.`,
-		`- Individuals with chronic conditions such as COPD. Where improved oxygenation can significantly enhance life quality${footnote__sup__sort([ref_e1_1_footnote__sup_(ctx),ref_e1_2_footnote__sup_(ctx)])}.`,
-		`- Older adults & those recovering from injuries. Where it can aid in faster recovery & improve functional capacity${footnote__sup__sort([ref_e1_10_footnote__sup_(ctx),ref_e1_15_footnote__sup_(ctx)])}.`,
-	].join(nl)],
+		lines_(
+			`- Athletes looking to enhance performance & reduce recovery times.`,
+			`- Individuals with chronic conditions such as COPD. Where improved oxygenation can significantly enhance life quality${footnote__sup__sort([ref_e1_1_footnote__sup_(ctx),ref_e1_2_footnote__sup_(ctx)])}.`,
+			`- Older adults & those recovering from injuries. Where it can aid in faster recovery & improve functional capacity${footnote__sup__sort([ref_e1_10_footnote__sup_(ctx),ref_e1_15_footnote__sup_(ctx)])}.`,),]],
 	[`## ${mobile_hidden__span_([`Improved `])}Stamina & Endurance`, [
-		`By increasing oxygen intake during exercise, EWOT helps you push your boundaries. Leading to improved stamina & endurance over time.`].join(nl)],
+		`By increasing oxygen intake during exercise, EWOT helps you push your boundaries. Leading to improved stamina & endurance over time.`,]],
 	[`## Implementing EWOT`, [
-		`Individuals typically use an oxygen concentrator. Connected to a mask or nasal cannula during exercise sessions. It is important to start with moderate intensities to assess tolerance. Increasing the duration & intensity of workouts under the guidance of a healthcare professional.`].join(nl)],
+		`Individuals typically use an oxygen concentrator. Connected to a mask or nasal cannula during exercise sessions. It is important to start with moderate intensities to assess tolerance. Increasing the duration & intensity of workouts under the guidance of a healthcare professional.`,]],
 	[`## Conclusion`, [
-		`Exercise with Oxygen Therapy offers a multifaceted approach to enhancing physical & mental health. Through the synergistic effects of increased oxygen intake & physical activity. As research continues, the potential applications of EWOT expand. Promising significant benefits for both athletic performance & general wellness${footnote__sup__sort([ref_e1_3_footnote__sup_(ctx),ref_e1_8_footnote__sup_(ctx),ref_e1_11_footnote__sup_(ctx),ref_e1_17_footnote__sup_(ctx)])}.`].join(nl)],
+		`Exercise with Oxygen Therapy offers a multifaceted approach to enhancing physical & mental health. Through the synergistic effects of increased oxygen intake & physical activity. As research continues, the potential applications of EWOT expand. Promising significant benefits for both athletic performance & general wellness${footnote__sup__sort([ref_e1_3_footnote__sup_(ctx),ref_e1_8_footnote__sup_(ctx),ref_e1_11_footnote__sup_(ctx),ref_e1_17_footnote__sup_(ctx)])}.`,]],
 	[`## Why Choose Dr. ${mobile_hidden__span_([`Manny `])}Emenike${mobile_hidden__span_([` for EWOT`])}?`, [
 		`When you choose Dr. Manny Emenike for your EWOT journey, you can expect:`,
-		`- A comprehensive evaluation to determine if EWOT is right for you`,
-		`- Personalized EWOT programs tailored to your specific health goals`,
-		`- Expert guidance & support throughout your entire EWOT experience`,
-		`- A caring & compassionate approach to your overall health & well-being`,
-		``,
-		`The benefits of EWOT are extensive.`,
-		`- Improving oxygen circulation`,
-		`- Restoring blood flow`,
-		`- Increasing ATP production`,
-		``,
+		lines_(
+			`- A comprehensive evaluation to determine if EWOT is right for you`,
+			`- Personalized EWOT programs tailored to your specific health goals`,
+			`- Expert guidance & support throughout your entire EWOT experience`,
+			`- A caring & compassionate approach to your overall health & well-being`,
+			``,
+			`The benefits of EWOT are extensive.`,
+			`- Improving oxygen circulation`,
+			`- Restoring blood flow`,
+			`- Increasing ATP production`,),
+		nl,
 		`Some benefits include:`,
-		`- boosting immunity`,
-		`- accelerating recovery from illness or injury`,
-		`- improving cardiovascular health`,
-		`- supporting lung function`,
-		`- enhancing physical performance`,
-		`- promoting detoxification`,
-		`- reducing inflammation`,
-		`- aiding in weight loss`,
-		``,
+		lines_(
+			`- boosting immunity`,
+			`- accelerating recovery from illness or injury`,
+			`- improving cardiovascular health`,
+			`- supporting lung function`,
+			`- enhancing physical performance`,
+			`- promoting detoxification`,
+			`- reducing inflammation`,
+			`- aiding in weight loss`,),
+		nl,
 		`EWOT is suitable for individuals of all ages & physical conditions. From top athletes to elderly patients with restricted blood flow. When EWOT is correctly performed for no more than 15 minutes at a time. There are no associated risks or side effects. EWOT is considered safe, & there is no risk of oxygen toxicity.`,
-		``,
-		`Exercise with Oxygen Therapy (EWOT) is a safe & efficient method. To improve oxygen circulation in the body & promote overall health & wellness. With overwhelming benefits & faster results compared to other oxygen therapies. EWOT is an accessible & effective option. For individuals seeking to optimize their health & vitality.`].join(nl)],
+		nl,
+		`Exercise with Oxygen Therapy (EWOT) is a safe & efficient method. To improve oxygen circulation in the body & promote overall health & wellness. With overwhelming benefits & faster results compared to other oxygen therapies. EWOT is an accessible & effective option. For individuals seeking to optimize their health & vitality.`,]],
 ])
 // @formatter:on
 function ref_e1_1_footnote__sup_(ctx:request_ctx_T) {

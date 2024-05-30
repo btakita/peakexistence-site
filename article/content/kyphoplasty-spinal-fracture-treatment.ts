@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { nl } from '@rappstack/ui--any/string'
+import { lines_, nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -18,106 +18,101 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_([`Understanding `])}Vertebral Compression Fractures`, [
-		`Vertebral compression fractures occur when the bony block or vertebral body in the spine collapses, which can lead to severe pain, deformity, & loss of height. These fractures are most common in the thoracic & lumbar regions of the spine & are often associated with osteoporosis or metastatic tumors${footnote__sup__sort([ref10_footnote__sup_(ctx), ref20_footnote__sup_(ctx),])}.`].join(nl)],
+		`Vertebral compression fractures occur when the bony block or vertebral body in the spine collapses, which can lead to severe pain, deformity, & loss of height. These fractures are most common in the thoracic & lumbar regions of the spine & are often associated with osteoporosis or metastatic tumors${footnote__sup__sort([ref10_footnote__sup_(ctx), ref20_footnote__sup_(ctx),])}.`,]],
 	[`## Understanding Kyphoplasty`, [
 		`Kyphoplasty is typically performed under local anesthesia. Allowing the patient to remain awake & comfortable. Sedation or general anesthesia is used patient's condition & the surgeon's preference. The procedure involves the following steps:`,
 		()=>[
 			[`### Small Incision`, [
-				`A small incision is made in the back.`].join(nl)],
+				`A small incision is made in the back.`,]],
 			[`### Image Guidance`, [
-				`Using X-ray or fluoroscopy, the surgeon guides a narrow tube into the fractured vertebra.`].join(nl)],
+				`Using X-ray or fluoroscopy, the surgeon guides a narrow tube into the fractured vertebra.`,]],
 			[`### Balloon Inflation`, [
-				`A special balloon is then inserted through the tube. Gently inflated to create a cavity & restore height to the collapsed vertebra${footnote__sup__sort([ref4_footnote__sup_(ctx), ref10_footnote__sup_(ctx), ref11_footnote__sup_(ctx)])}. This helps to create space & elevate the collapsed vertebra. Returning the vertebra to its original position`].join(nl)],
+				`A special balloon is then inserted through the tube. Gently inflated to create a cavity & restore height to the collapsed vertebra${footnote__sup__sort([ref4_footnote__sup_(ctx), ref10_footnote__sup_(ctx), ref11_footnote__sup_(ctx)])}. This helps to create space & elevate the collapsed vertebra. Returning the vertebra to its original position`,]],
 			[`### Balloon Deflation & Removal`, [
-				`Once the vertebra is elevated, the balloon is deflated & removed, leaving a cavity.`
-			].join(nl)],
+				`Once the vertebra is elevated, the balloon is deflated & removed, leaving a cavity.`,]],
 			[`### Bone Cement`, [
-				`The cavity is filled with a bone cement called polymethylmethacrylate (PMMA).`].join(nl)],
+				`The cavity is filled with a bone cement called polymethylmethacrylate (PMMA).`,]],
 			[`### Stabilization`, [
-				`This cement hardens quickly, stabilizing the fracture & supporting the vertebral bone. Securing it in its corrected position${footnote__sup__sort([ref4_footnote__sup_(ctx), ref10_footnote__sup_(ctx), ref11_footnote__sup_(ctx)])}.`].join(nl)],
+				`This cement hardens quickly, stabilizing the fracture & supporting the vertebral bone. Securing it in its corrected position${footnote__sup__sort([ref4_footnote__sup_(ctx), ref10_footnote__sup_(ctx), ref11_footnote__sup_(ctx)])}.`,]],
 			[`### Recovery`, [
-				`Most patients can go home the same day as the procedure. Some patients have immediate pain relief. Others may experience a reduction in pain within a couple of days${footnote__sup__sort([ref4_footnote__sup_(ctx), ref11_footnote__sup_(ctx), ref19_footnote__sup_(ctx)])}.`].join(nl)],
-		]]],
+				`Most patients can go home the same day as the procedure. Some patients have immediate pain relief. Others may experience a reduction in pain within a couple of days${footnote__sup__sort([ref4_footnote__sup_(ctx), ref11_footnote__sup_(ctx), ref19_footnote__sup_(ctx)])}.`,]],],]],
 	[`## The Kyphoplasty Procedure`, ()=>[
 		[`### Preparation`, [
-			`Patients undergo imaging tests such as X-rays or MRI. To confirm the location & severity of the fracture.`].join(nl)],
+			`Patients undergo imaging tests such as X-rays or MRI. To confirm the location & severity of the fracture.`,]],
 		[`### Procedure`, [
-			`A small incision is made in the back. Using fluoroscopy, a type of live X-ray, the surgeon inserts a narrow tube. Guiding the balloon device through the tube into the vertebra.`].join(nl)],
+			`A small incision is made in the back. Using fluoroscopy, a type of live X-ray, the surgeon inserts a narrow tube. Guiding the balloon device through the tube into the vertebra.`,]],
 		[`### Balloon Inflation & Cement Injection`, [
-			`The balloon is inflated to lift the fractured bone. Restoring height to the collapsed vertebra. After deflation, bone cement is injected to fill the space & stabilize the bone.`].join(nl)],
+			`The balloon is inflated to lift the fractured bone. Restoring height to the collapsed vertebra. After deflation, bone cement is injected to fill the space & stabilize the bone.`,]],
 		[`### Closure`, [
-			`The instruments are removed. The incision is closed with stitches or adhesive strips.`].join(nl)]]],
+			`The instruments are removed. The incision is closed with stitches or adhesive strips.`,]]]],
 	[`## Benefits of Kyphoplasty`, [
 		`Kyphoplasty offers several advantages over traditional treatments for vertebral compression fractures:`,
 		()=>[
 			[`### Pain Relief`, [
-				`The majority of patients report significant pain relief following the procedure. The stabilized vertebra no longer compresses nerves & surrounding tissues. A major study shows significant improvements in back pain & disability${ref17_footnote__sup_(ctx)}.`].join(nl)],
+				`The majority of patients report significant pain relief following the procedure. The stabilized vertebra no longer compresses nerves & surrounding tissues. A major study shows significant improvements in back pain & disability${ref17_footnote__sup_(ctx)}.`,]],
 			[`### Improved Mobility`, [
-				`Stabilizing the spine increases mobility. Patients often experience restored mobility after the procedure. Allowing patients to return to their daily activities with more comfort. Shortly after the procedure${footnote__sup__sort([ ref14_footnote__sup_(ctx), ref18_footnote__sup_(ctx)])}.`].join(nl)],
+				`Stabilizing the spine increases mobility. Patients often experience restored mobility after the procedure. Allowing patients to return to their daily activities with more comfort. Shortly after the procedure${footnote__sup__sort([ ref14_footnote__sup_(ctx), ref18_footnote__sup_(ctx)])}.`,]],
 			[`### Height Restoration`, [
-				`The procedure can restore the lost vertebral height. Reducing kyphotic (hunched) posture. Beneficial for improving posture & decreasing spinal deformity.`].join(nl)],
+				`The procedure can restore the lost vertebral height. Reducing kyphotic (hunched) posture. Beneficial for improving posture & decreasing spinal deformity.`,]],
 			[`### Spinal Stabilization`, [
-				`By stabilizing the fracture & restoring vertebral height. Kyphoplasty can prevent further vertebral collapse & correct spinal deformities${footnote__sup__sort([ref4_footnote__sup_(ctx), ref10_footnote__sup_(ctx),])}.`].join(nl)],
+				`By stabilizing the fracture & restoring vertebral height. Kyphoplasty can prevent further vertebral collapse & correct spinal deformities${footnote__sup__sort([ref4_footnote__sup_(ctx), ref10_footnote__sup_(ctx),])}.`,]],
 			[`### Minimally Invasive`, [
-				`Kyphoplasty has small incisions & is typically performed as an outpatient procedure. Resulting in less surgical trauma & quicker recovery times compared to open surgery${footnote__sup__sort([ref4_footnote__sup_(ctx), ref10_footnote__sup_(ctx), ref18_footnote__sup_(ctx),])}.`].join(nl)],
+				`Kyphoplasty has small incisions & is typically performed as an outpatient procedure. Resulting in less surgical trauma & quicker recovery times compared to open surgery${footnote__sup__sort([ref4_footnote__sup_(ctx), ref10_footnote__sup_(ctx), ref18_footnote__sup_(ctx),])}.`,]],
 			[`### Low Complication Rate`, [
-				`Kyphoplasty has a lower risk of complications compared to open spine surgery.`].join(nl)],
+				`Kyphoplasty has a lower risk of complications compared to open spine surgery.`,]],
 			[`### Short Recovery Time`, [
-				`Patients often return home on the same day of the procedure. Quickly resuming normal activities.`].join(nl)],
-		]]],
+				`Patients often return home on the same day of the procedure. Quickly resuming normal activities.`,]],],]],
 	[`## Ideal Candidates${mobile_hidden__span_([` or Kyphoplasty`])}`, [
 		`Kyphoplasty is most effective for patients who have recently suffered vertebral compression fractures. Ideal candidates typically include:`,
 		()=>[
 			[`### Osteoporosis Patients`, [
-				`Individuals with fractures due to weakened bones caused by osteoporosis.`].join(nl)],
+				`Individuals with fractures due to weakened bones caused by osteoporosis.`,]],
 			[`### Cancer Patients`, [
-				`Patients experiencing spinal fractures due to cancer-related bone degradation.`].join(nl)],
+				`Patients experiencing spinal fractures due to cancer-related bone degradation.`,]],
 			[`### Trauma Patients`, [
-				`Those who have sustained spinal fractures from acute injury.`].join(nl)],
+				`Those who have sustained spinal fractures from acute injury.`,]],
 			[`### Recent Fracture`, [
-				`Best results are usually achieved when the fracture is recent.`].join(nl)],
+				`Best results are usually achieved when the fracture is recent.`,]],
 			[`### Persistent Pain`, [
-				`When conservative measures like rest, medication, or bracing haven't helped.`].join(nl)],
-		]]],
+				`When conservative measures like rest, medication, or bracing haven't helped.`,]],],]],
 	[`## Recovery & Care${mobile_hidden__span_([` Post-Procedure`])}`, [
 		`Post-procedure care for kyphoplasty is straightforward. Patients are generally advised to:`,
 		()=>[
 			[`### Rest`, [
-				`Short periods of rest followed by gradual increases in activity.`].join(nl)],
+				`Short periods of rest followed by gradual increases in activity.`,]],
 			[`### Medication`, [
-				`Pain management through prescribed or over-the-counter pain relievers.`].join(nl)],
+				`Pain management through prescribed or over-the-counter pain relievers.`,]],
 			[`### Follow-Up`, [
-				`Routine check-ups to monitor the spine’s healing & stability.`].join(nl)],
+				`Routine check-ups to monitor the spine’s healing & stability.`,]],
 			[`### Physical Therapy`, [
-				`Physical therapy benefits some patients. Strengthening their back muscles & improving spinal flexibility.`].join(nl)],
-		]]],
+				`Physical therapy benefits some patients. Strengthening their back muscles & improving spinal flexibility.`,]],],]],
 	[`## Success Rates${mobile_hidden__span_([` & Patient Satisfaction`])}`, [
-		`Kyphoplasty has a high success rate. With most studies showing around a 90% success rate. Significantly relieving the pain of fractured vertebrae${ref13_footnote__sup_(ctx)}. Patient satisfaction is also high. Studies indicating ~92% of people who undergo kyphoplasty report better pain relief. After the procedure${ref11_footnote__sup_(ctx)}.`].join(nl)],
+		`Kyphoplasty has a high success rate. With most studies showing around a 90% success rate. Significantly relieving the pain of fractured vertebrae${ref13_footnote__sup_(ctx)}. Patient satisfaction is also high. Studies indicating ~92% of people who undergo kyphoplasty report better pain relief. After the procedure${ref11_footnote__sup_(ctx)}.`,]],
 	[`## Important Considerations`, [
 		`Kyphoplasty is generally considered safe. As with any surgical procedure, there are potential risks & complications, including:`,
 		()=>[
 			[`### Not for Everyone`, [
-				`Your doctor will assess if your specific fracture type, bone quality, & overall health make you a good candidate.`].join(nl)],
+				`Your doctor will assess if your specific fracture type, bone quality, & overall health make you a good candidate.`,]],
 			[`### Potential Risks`, [
-				`Like any procedure, kyphoplasty carries some risks, including cement leakage, infection, or nerve damage${footnote__sup__sort([ref11_footnote__sup_(ctx), ref16_footnote__sup_(ctx), ref19_footnote__sup_(ctx)])}.`].join(nl)],
+				`Like any procedure, kyphoplasty carries some risks, including cement leakage, infection, or nerve damage${footnote__sup__sort([ref11_footnote__sup_(ctx), ref16_footnote__sup_(ctx), ref19_footnote__sup_(ctx)])}.`,]],
 			[`### Temporary Relief`, [
-				`While often effective, pain relief may diminish over time for some patients.`].join(nl)],
-		]]],
+				`While often effective, pain relief may diminish over time for some patients.`,]],],]],
 	[`## The Role of Your Doctor`, [
 		()=>[
 			[`### Open Communication`, [
-				`Discuss your symptoms, health history, & goals with your doctor. To determine if kyphoplasty is appropriate.`].join(nl)],
+				`Discuss your symptoms, health history, & goals with your doctor. To determine if kyphoplasty is appropriate.`,]],
 			[`### Understanding the Procedure`, [
-				`Ask your doctor to explain the procedure in detail. Including potential benefits, risks, & the recovery process.`].join(nl)],
+				`Ask your doctor to explain the procedure in detail. Including potential benefits, risks, & the recovery process.`,]],
 		]]],
 	[`## Conclusion`, [
 		`Kyphoplasty represents a significant advancement in the treatment of vertebral compression fractures. A minimally invasive option for patients suffering from back pain due to spinal fractures. That can:`,
-		`- provide immediate pain relief`,
-		`- restore vertebral height`,
-		`- improve mobility`,
-		`- improve quality of life`,
-		``,
-		`As with any medical procedure. Patients should discuss the potential risks & benefits with their healthcare provider. To determine if kyphoplasty is the right treatment for their specific condition.`].join(nl)],
+		lines_(
+			`- provide immediate pain relief`,
+			`- restore vertebral height`,
+			`- improve mobility`,
+			`- improve quality of life`,),
+		nl,
+		`As with any medical procedure. Patients should discuss the potential risks & benefits with their healthcare provider. To determine if kyphoplasty is the right treatment for their specific condition.`,]],
 ])
 // @formatter:on
 function ref4_footnote__sup_(ctx:request_ctx_T) {

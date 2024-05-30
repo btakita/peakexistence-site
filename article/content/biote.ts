@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { nl } from '@rappstack/ui--any/string'
+import { lines_, nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
@@ -11,55 +11,56 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	...biote,
 	subtitle: `Pioneering Hormone Optimization & Practice Building`,
 	description: `BioTE® is a healthcare company specializing in hormone optimization & precision medicine. Founded in 2012. BioTE® has pioneered the development & implementation of advanced hormone therapy techniques. Focusing on bioidentical hormone replacement therapy (BHRT) using pellet insertion. The company offers a comprehensive platform. That supports patients in managing hormonal imbalances. And equips healthcare providers with the necessary tools & training. To integrate hormone optimization into their practices. BioTE®'s approach is grounded in over 80 years of scientific research. Translating into clinically validated treatments. That address the earliest indicators of aging & hormone-related health issues. With a strong commitment to improving patient outcomes. BioTE® provides tailored therapies that aim to restore vitality, enhance well-being, & improve overall quality of life for individuals experiencing hormonal imbalances.`,
-	description_md: [
+	description_md: lines_(
 		`BioTE® is a healthcare company specializing in hormone optimization & precision medicine. Founded in 2012. BioTE® has pioneered the development & implementation of advanced hormone therapy techniques. Focusing on bioidentical hormone replacement therapy (BHRT) using pellet insertion. The company offers a comprehensive platform that:`,
-		``,
-		`- Supports patients in managing hormonal imbalances.`,
-		`- Equips healthcare providers with the necessary tools & training. To integrate hormone optimization into their practices.`,
-		``,
+		nl,
+		lines_(
+			`- Supports patients in managing hormonal imbalances.`,
+			`- Equips healthcare providers with the necessary tools & training. To integrate hormone optimization into their practices.`,),
+		nl,
 		`BioTE®'s approach is grounded in over 80 years of scientific research. Translating into clinically validated treatments. That address the earliest indicators of aging & hormone-related health issues. With a strong commitment to improving patient outcomes. BioTE® provides tailored therapies that aim to:`,
-		``,
-		`- restore vitality`,
-		`- enhance well-being`,
-		`- improve overall quality of life for individuals experiencing hormonal imbalances`,
-	].join(nl)
+		nl,
+		lines_(
+			`- restore vitality`,
+			`- enhance well-being`,
+			`- improve overall quality of life for individuals experiencing hormonal imbalances`,),)
 })
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## What is BioTE®?`, [
-		`BioTE® Medical specializes in BHRT using pellet therapy. A method that involves the subcutaneous insertion of bioidentical hormone pellets. These pellets are about the size of a grain of rice. The pellets are placed under the skin. Typically, in the hip or buttock area. During a quick & minimally invasive procedure. The pellets release small, physiologic doses of hormones. Identical to the ones naturally produced by the body. Providing a steady stream of hormones over several months. Which helps in minimizing side effects & improving the efficacy of the treatment${footnote__sup__sort([ref_b3_4_footnote__sup_(ctx),ref_b3_3_footnote__sup_(ctx),ref_b3_3_1_footnote__sup_(ctx),ref_b2_7_footnote__sup_(ctx),ref_b2_7_1_footnote__sup_(ctx),ref_b4_2_footnote__sup_(ctx),ref_b4_2_1_footnote__sup_(ctx),ref_b4_5_footnote__sup_(ctx),ref_b4_7_footnote__sup_(ctx),ref_b1_5_1_footnote__sup_(ctx),ref_b1_1_footnote__sup_(ctx),ref_b1_2_footnote__sup_(ctx)])}.`].join(nl)],
+		`BioTE® Medical specializes in BHRT using pellet therapy. A method that involves the subcutaneous insertion of bioidentical hormone pellets. These pellets are about the size of a grain of rice. The pellets are placed under the skin. Typically, in the hip or buttock area. During a quick & minimally invasive procedure. The pellets release small, physiologic doses of hormones. Identical to the ones naturally produced by the body. Providing a steady stream of hormones over several months. Which helps in minimizing side effects & improving the efficacy of the treatment${footnote__sup__sort([ref_b3_4_footnote__sup_(ctx),ref_b3_3_footnote__sup_(ctx),ref_b3_3_1_footnote__sup_(ctx),ref_b2_7_footnote__sup_(ctx),ref_b2_7_1_footnote__sup_(ctx),ref_b4_2_footnote__sup_(ctx),ref_b4_2_1_footnote__sup_(ctx),ref_b4_5_footnote__sup_(ctx),ref_b4_7_footnote__sup_(ctx),ref_b1_5_1_footnote__sup_(ctx),ref_b1_1_footnote__sup_(ctx),ref_b1_2_footnote__sup_(ctx)])}.`,]],
 	[`## Services & Offerings`, [
 		`BioTE®'s core offering revolves around its proprietary method of hormone optimization. Which is designed to alleviate symptoms associated with hormonal imbalance. Such as fatigue, mood swings, & sleep disturbances. This method is particularly beneficial during menopause for women & andropause for men. Addressing the natural decline in hormone production that occurs with age${footnote__sup__sort([ref_b4_1_footnote__sup_(ctx),ref_b4_3_footnote__sup_(ctx),ref_b4_8_footnote__sup_(ctx),ref_b4_9_footnote__sup_(ctx)])}.`,
 		()=>[
 			[`### Reduces Breast Cancer in Women`, [
-				`Testosterone pellet therapy reduces the incidence of breast cancer in women. It is part of BioTE®'s hormone optimization offerings${footnote__sup__sort([ref_b3_3_footnote__sup_(ctx),ref_b3_3_1_footnote__sup_(ctx),ref_b4_6_footnote__sup_(ctx),ref_b4_9_footnote__sup_(ctx)])}.`].join(nl)],
+				`Testosterone pellet therapy reduces the incidence of breast cancer in women. It is part of BioTE®'s hormone optimization offerings${footnote__sup__sort([ref_b3_3_footnote__sup_(ctx),ref_b3_3_1_footnote__sup_(ctx),ref_b4_6_footnote__sup_(ctx),ref_b4_9_footnote__sup_(ctx)])}.`,]],
 		]]],
 	[`## Benefits of BioTE®`, ()=>[
 		[`### Personalized Treatment`, [
-			`Each BioTE® treatment plan is meticulously tailored to the individual's hormonal needs. Offering a personalized approach to hormone therapy. This customization ensures that patients receive the precise hormone levels. Required to address their specific imbalances${footnote__sup__sort([ref_b2_7_footnote__sup_(ctx),ref_b2_7_1_footnote__sup_(ctx),ref_b1_5_1_footnote__sup_(ctx),ref_b1_5_footnote__sup_(ctx)])}.`].join(nl)],
+			`Each BioTE® treatment plan is meticulously tailored to the individual's hormonal needs. Offering a personalized approach to hormone therapy. This customization ensures that patients receive the precise hormone levels. Required to address their specific imbalances${footnote__sup__sort([ref_b2_7_footnote__sup_(ctx),ref_b2_7_1_footnote__sup_(ctx),ref_b1_5_1_footnote__sup_(ctx),ref_b1_5_footnote__sup_(ctx)])}.`,]],
 		[`### Consistent Hormone Delivery`, [
-			`The pellet system provides a steady release of hormones. Avoiding the peaks & troughs associated with other hormone replacement methods. This consistency helps in maintaining optimal hormone levels. Leading to more stable & effective symptom relief${footnote__sup__sort([ref_b2_6_footnote__sup_(ctx),ref_b2_6_footnote__sup_(ctx),ref_b1_1_footnote__sup_(ctx),ref_b1_6_footnote__sup_(ctx),ref_b2_1_footnote__sup_(ctx)])}.`].join(nl)],
+			`The pellet system provides a steady release of hormones. Avoiding the peaks & troughs associated with other hormone replacement methods. This consistency helps in maintaining optimal hormone levels. Leading to more stable & effective symptom relief${footnote__sup__sort([ref_b2_6_footnote__sup_(ctx),ref_b2_6_footnote__sup_(ctx),ref_b1_1_footnote__sup_(ctx),ref_b1_6_footnote__sup_(ctx),ref_b2_1_footnote__sup_(ctx)])}.`,]],
 		[`### Natural & Safe`, [
-			`BioTE® uses bioidentical hormones. Which are chemically identical to those the human body naturally produces. This similarity may reduce the risk of adverse effects associated with synthetic hormones. Making BioTE® a safer option for hormone replacement therapy${footnote__sup__sort([ref_b3_4_footnote__sup_(ctx),ref_b2_7_footnote__sup_(ctx),ref_b2_7_1_footnote__sup_(ctx),ref_b1_1_footnote__sup_(ctx),ref_b1_2_footnote__sup_(ctx),ref_b1_3_footnote__sup_(ctx)])}.`].join(nl)],
+			`BioTE® uses bioidentical hormones. Which are chemically identical to those the human body naturally produces. This similarity may reduce the risk of adverse effects associated with synthetic hormones. Making BioTE® a safer option for hormone replacement therapy${footnote__sup__sort([ref_b3_4_footnote__sup_(ctx),ref_b2_7_footnote__sup_(ctx),ref_b2_7_1_footnote__sup_(ctx),ref_b1_1_footnote__sup_(ctx),ref_b1_2_footnote__sup_(ctx),ref_b1_3_footnote__sup_(ctx)])}.`,]],
 		[`### Convenience`, [
-			`With BioTE®, there's no need for daily pills or creams. The pellets provide a long-lasting hormone supply, typically for 3–6 months. This convenience eliminates the hassle of daily hormone therapy management. Making it easier for patients to maintain consistent hormone levels. Without frequent medication reminders${footnote__sup__sort([ref_b2_7_footnote__sup_(ctx),ref_b2_7_1_footnote__sup_(ctx),ref_b1_1_footnote__sup_(ctx),ref_b1_2_footnote__sup_(ctx),ref_b1_5_footnote__sup_(ctx)])}.`].join(nl)],
+			`With BioTE®, there's no need for daily pills or creams. The pellets provide a long-lasting hormone supply, typically for 3–6 months. This convenience eliminates the hassle of daily hormone therapy management. Making it easier for patients to maintain consistent hormone levels. Without frequent medication reminders${footnote__sup__sort([ref_b2_7_footnote__sup_(ctx),ref_b2_7_1_footnote__sup_(ctx),ref_b1_1_footnote__sup_(ctx),ref_b1_2_footnote__sup_(ctx),ref_b1_5_footnote__sup_(ctx)])}.`,]],
 		[`### Comprehensive Support`, [
-			`BioTE® Certified Providers offer extensive support throughout the therapy process. From initial consultation & lab testing to pellet insertion & follow-up care. This support ensures that patients are well-informed & comfortable with their treatment plan${footnote__sup__sort([ref_b2_6_footnote__sup_(ctx),ref_b1_4_footnote__sup_(ctx),ref_b1_6_footnote__sup_(ctx)])}.`].join(nl)],
+			`BioTE® Certified Providers offer extensive support throughout the therapy process. From initial consultation & lab testing to pellet insertion & follow-up care. This support ensures that patients are well-informed & comfortable with their treatment plan${footnote__sup__sort([ref_b2_6_footnote__sup_(ctx),ref_b1_4_footnote__sup_(ctx),ref_b1_6_footnote__sup_(ctx)])}.`,]],
 		[`### Improved Quality of Life`, [
 			`Patients undergoing BioTE® therapy often report significant improvements in their quality of life. Symptoms such as${footnote__sup__sort([ref_b2_7_footnote__sup_(ctx),ref_b2_7_1_footnote__sup_(ctx),ref_b2_6_footnote__sup_(ctx),ref_b1_2_footnote__sup_(ctx),ref_b1_5_footnote__sup_(ctx)])}:`,
-			``,
-			`- fatigue`,
-			`- mood swings`,
-			`- brain fog`,
-			`- decreased libido`,
-			``,
-			`It can be effectively managed. Allowing individuals to regain their vitality & enjoy a more fulfilling life.`].join(nl)]]],
+			lines_(
+				`- fatigue`,
+				`- mood swings`,
+				`- brain fog`,
+				`- decreased libido`,),
+			nl,
+			`It can be effectively managed. Allowing individuals to regain their vitality & enjoy a more fulfilling life.`,]],]],
 	[`## The BioTE® Process`, [
-		`The journey with BioTE® begins with a consultation with a certified provider. Who conducts a thorough evaluation, including lab tests, to assess hormone levels. Based on these results, a customized pellet therapy plan is developed. The pellet insertion is a quick procedure performed under local anesthesia. With minimal downtime required. Patients can resume normal activities shortly after. With some restrictions on strenuous exercise for a few days. To ensure proper pellet settling${footnote__sup__sort([ref_b1_1_footnote__sup_(ctx),ref_b1_2_footnote__sup_(ctx),ref_b1_6_footnote__sup_(ctx)])}.`].join(nl)],
+		`The journey with BioTE® begins with a consultation with a certified provider. Who conducts a thorough evaluation, including lab tests, to assess hormone levels. Based on these results, a customized pellet therapy plan is developed. The pellet insertion is a quick procedure performed under local anesthesia. With minimal downtime required. Patients can resume normal activities shortly after. With some restrictions on strenuous exercise for a few days. To ensure proper pellet settling${footnote__sup__sort([ref_b1_1_footnote__sup_(ctx),ref_b1_2_footnote__sup_(ctx),ref_b1_6_footnote__sup_(ctx)])}.`,]],
 	[`## Conclusion`, [
-		`For individuals seeking a natural, effective, & personalized solution to hormonal imbalances. The BioTE® method offers a promising option. Its benefits extend beyond symptom relief. Encompassing improved quality of life, convenience, & safety. By choosing BioTE®, patients embark on a journey toward hormonal balance & enhanced well-being. Guided by the expertise of certified providers. Supported by the latest advancements in bioidentical hormone replacement therapy.`].join(nl)],
+		`For individuals seeking a natural, effective, & personalized solution to hormonal imbalances. The BioTE® method offers a promising option. Its benefits extend beyond symptom relief. Encompassing improved quality of life, convenience, & safety. By choosing BioTE®, patients embark on a journey toward hormonal balance & enhanced well-being. Guided by the expertise of certified providers. Supported by the latest advancements in bioidentical hormone replacement therapy.`,]],
 ])
 // @formatter:on
 function ref_b1_1_footnote__sup_(ctx:request_ctx_T) {

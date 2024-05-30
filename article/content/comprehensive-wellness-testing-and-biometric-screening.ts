@@ -4,7 +4,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
-import { nl } from '@rappstack/ui--any/string'
+import { lines_, nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -17,58 +17,60 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_([`Guide to Comprehensive `])}Wellness Testing & Biometric Screening`, [
-		`Comprehensive wellness testing & biometric screening. Your guide to gain deeper insights into your health. These tools provide a snapshot of one's current health status. And offer a roadmap for making informed lifestyle choices & preventive measures. Taking a proactive approach to your health is more important than ever. Comprehensive wellness testing & screening empowers your journey towards optimal well-being.`].join(nl)],
+		`Comprehensive wellness testing & biometric screening. Your guide to gain deeper insights into your health. These tools provide a snapshot of one's current health status. And offer a roadmap for making informed lifestyle choices & preventive measures. Taking a proactive approach to your health is more important than ever. Comprehensive wellness testing & screening empowers your journey towards optimal well-being.`,]],
 	[`## ${mobile_hidden__span_([`Comprehensive `])}Wellness Testing`, [
 		`Comprehensive wellness testing involves a series of health assessments. Evaluating various aspects of your health & well-being. These tests go beyond routine check-ups. Aiming to uncover potential health issues before they develop into serious conditions. Analyzing a wide range of biomarkers, comprehensive wellness tests provide a detailed overview of your${footnote__sup__sort([ref_i1_1_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}:`,
-		`- nutritional deficiencies`,
-		`- hormone levels`,
-		`- cardiovascular health`,
-		`- immune system status`,
-		``,
+		lines_(
+			`- nutritional deficiencies`,
+			`- hormone levels`,
+			`- cardiovascular health`,
+			`- immune system status`,),
+		nl,
 		`These tests typically include:`,
-		`- expanded lab panels`,
-		`- advanced screening tests`,
-		`- an extended consultation with a healthcare provider`,
-		``,
-		`The goal is to identify potential health issues before they become serious. Allowing for timely intervention & management${footnote__sup__sort([/* ref6_footnote__sup_(ctx), */])}.`,].join(nl)],
+		lines_(
+			`- expanded lab panels`,
+			`- advanced screening tests`,
+			`- an extended consultation with a healthcare provider`,),
+		nl,
+		`The goal is to identify potential health issues before they become serious. Allowing for timely intervention & management${footnote__sup__sort([/* ref6_footnote__sup_(ctx), */])}.`,],],
 	[`## ${mobile_hidden__span_([`The Role of `])}Biometric Screening`, [
-		[
-			`Biometric screening is a clinical process that measures physical characteristics such as${ref_i1_3_footnote__sup_(ctx)}:`,
+		`Biometric screening is a clinical process that measures physical characteristics such as${ref_i1_3_footnote__sup_(ctx)}:`,
+		lines_(
 			`- height`,
 			`- weight`,
 			`- body mass index (BMI)`,
 			`- blood pressure`,
 			`- blood cholesterol`,
-			`- blood glucose levels`,
-			``,
-			`These screenings usually take about 10–15 minutes. Providing immediate feedback on an individual's health risks. Biometric screenings identify risk factors for chronic diseases. Which may not show obvious symptoms in their early stages, such as${footnote__sup__sort([ref_i1_1_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),/* ref_i1_4_footnote__sup_(ctx), */])}:`,
+			`- blood glucose levels`,),
+		nl,
+		`These screenings usually take about 10–15 minutes. Providing immediate feedback on an individual's health risks. Biometric screenings identify risk factors for chronic diseases. Which may not show obvious symptoms in their early stages, such as${footnote__sup__sort([ref_i1_1_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),/* ref_i1_4_footnote__sup_(ctx), */])}:`,
+		lines_(
 			`- hypertension`,
 			`- diabetes`,
-			`- cardiovascular conditions`,
-			``
-		].join(nl),
+			`- cardiovascular conditions`,),
+		nl,
 		()=>[
 			[`### Components${mobile_hidden__span_([` of Biometric Screening`])}`, [
 				`Biometric screening is a detailed checkup for your entire body. Conducted in the clinic, home, or workplace. It goes beyond addressing immediate concerns. Providing a detailed snapshot of your overall health. These tests include${footnote__sup__sort([ref4_footnote__sup_(ctx),/* ref_s1_3_footnote__sup_(ctx), */ ref_s1_5_footnote__sup_(ctx), /* cholesterol */ ref_s1_9_footnote__sup_(ctx), /* vit d */ ref_s1_10_footnote__sup_(ctx), /* vit d */ ref_s1_17_footnote__sup_(ctx), /* thyroid */])}:`,
 				()=>[
 					['### Blood tests', [
 						`A comprehensive metabolic panel (CMP) & complete blood count (CBC). Assessing organ function, blood cell health, & potential risk factors for various conditions. Assessing${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_1_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}:`,
-						`- organ function`,
-						`- blood cell health`,
-						`- blood pressure`,
-						`- blood glucose levels`,
-						`- potential risk factors for various conditions`
-					].join(nl)],
+						lines_(
+							`- organ function`,
+							`- blood cell health`,
+							`- blood pressure`,
+							`- blood glucose levels`,
+							`- potential risk factors for various conditions`),]],
 					['### Urine tests', [
-						`Can reveal signs of infection, kidney function, & diabetes${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}.`].join(nl)],
+						`Can reveal signs of infection, kidney function, & diabetes${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}.`,]],
 					[`### Cholesterol tests`, [
-						`Measures different types of cholesterol (LDL, HDL, triglycerides) to assess heart disease risk${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_2_footnote__sup_(ctx),])}.`].join(nl)],
+						`Measures different types of cholesterol (LDL, HDL, triglycerides) to assess heart disease risk${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_2_footnote__sup_(ctx),])}.`,]],
 					[`### Thyroid screening`, [
-						`Check thyroid function, which can impact metabolism & energy levels${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}.`].join(nl)],
+						`Check thyroid function, which can impact metabolism & energy levels${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}.`,]],
 					[`### Vitamin D tests`, [
-						`Vitamin D deficiency is linked to various health concerns${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}.`].join(nl)],
+						`Vitamin D deficiency is linked to various health concerns${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}.`,]],
 					[`### Additional tests`, [
-						`Depending on your age, gender, & health history. Further tests like STD screenings or bone density scans assess areas of improvement${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}.`].join(nl)],
+						`Depending on your age, gender, & health history. Further tests like STD screenings or bone density scans assess areas of improvement${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}.`,]],
 				]]]],
 		``,
 		`These screenings are quick, usually taking about 10–15 minutes. Providing immediate feedback on an employee's health status. The primary aim is to establish a health baseline. That can be used to monitor changes over time. Identifying risk factors for chronic diseases like${footnote__sup__sort([ref1_footnote__sup_(ctx), ref3_footnote__sup_(ctx), ref4_footnote__sup_(ctx),])}:`,
@@ -79,36 +81,36 @@ export default (ctx:request_ctx_T)=>''
 	[`## Benefits${mobile_hidden__span_([` of Comprehensive Wellness Testing:`])}`, [
 		()=>[
 			[`### Early Disease Detection`, [
-				`These tests can detect early signs of chronic conditions, allowing for timely intervention & management${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx), ref_i1_4_footnote__sup_(ctx),])}.`].join(nl)],
+				`These tests can detect early signs of chronic conditions, allowing for timely intervention & management${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx), ref_i1_4_footnote__sup_(ctx),])}.`,]],
 			[`### Personalized Healthcare`, [
-				`Test results help your doctor tailor preventive measures & treatment plans for you.`].join(nl)],
+				`Test results help your doctor tailor preventive measures & treatment plans for you.`,]],
 			[`### Personalized Health Insights`, [
-				`By understanding individual health risks. Individuals can receive personalized recommendations to improve their health outcomes${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx), ref_i1_4_footnote__sup_(ctx),])}.`].join(nl)],
+				`By understanding individual health risks. Individuals can receive personalized recommendations to improve their health outcomes${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx), ref_i1_4_footnote__sup_(ctx),])}.`,]],
 			[`### Proactive Management`, [
-				`By understanding your risk factors. You can make informed lifestyle choices to improve your overall health. Identifying & addressing health risks early reduces the likelihood & impact of health issues later${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx), ref_i1_4_footnote__sup_(ctx),])}.`].join(nl)],
+				`By understanding your risk factors. You can make informed lifestyle choices to improve your overall health. Identifying & addressing health risks early reduces the likelihood & impact of health issues later${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx), ref_i1_4_footnote__sup_(ctx),])}.`,]],
 			[`### Enhanced Health Awareness`, [
-				`Comprehensive testing & screening increases health awareness, empowering individuals to make informed decisions about their health & lifestyle${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx), ref_i1_4_footnote__sup_(ctx),])}.`].join(nl)],
+				`Comprehensive testing & screening increases health awareness, empowering individuals to make informed decisions about their health & lifestyle${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx), ref_i1_4_footnote__sup_(ctx),])}.`,]],
 			[`### Peace of Mind`, [
-				`Knowing your health status can reduce anxiety. Empowering you to take charge of your well-being.`].join(nl)],
+				`Knowing your health status can reduce anxiety. Empowering you to take charge of your well-being.`,]],
 		]]],
 	[`## Considering ${mobile_hidden__span_([`Comprehensive `])}Wellness Testing?`, [
 		`Here's what to keep in mind:`,
 		()=>[
 			[`### Consult your doctor`, [
-				`Discuss your health goals & risk factors. To determine if comprehensive testing is right for you.`].join(nl)],
+				`Discuss your health goals & risk factors. To determine if comprehensive testing is right for you.`,]],
 			[`### Understand the options`, [
-				`Different labs & providers offer various testing panels. Research & choose one that aligns with your needs.`].join(nl)],
+				`Different labs & providers offer various testing panels. Research & choose one that aligns with your needs.`,]],
 			[`### ${mobile_hidden__span_([`Review c`, `C`])}osts & insurance coverage`, [
-				`Testing costs can vary. Investigate insurance coverage to understand your financial responsibility.`].join(nl)],
+				`Testing costs can vary. Investigate insurance coverage to understand your financial responsibility.`,]],
 			[`### Interpreting results`, [
 				`Don't panic if you see abnormal results. Discuss them with your doctor to determine the next steps.`].join(nl)],
 		]]],
 ])
-+ md__raw_({ ctx }, [
++ md__raw_({ ctx }, lines_(
 	`**Comprehensive wellness testing & screening is an investment in your long-term health. By taking a proactive approach, you can:**`,
-	`- **gain valuable insights**`,
-	`- **empower yourself with knowledge**`,
-	`- **work with your doctor to create a personalized path to optimal well-being**`].join(nl))
+		`- **gain valuable insights**`,
+		`- **empower yourself with knowledge**`,
+		`- **work with your doctor to create a personalized path to optimal well-being**`))
 function ref1_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({
 		ctx,

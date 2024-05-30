@@ -4,7 +4,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
-import { nl } from '@rappstack/ui--any/string'
+import { lines_, nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -26,160 +26,162 @@ export default (ctx:request_ctx_T)=>''
 			`The SCS system consists of:`,
 			()=>[
 				[`#### Generator`, [
-					`A small, battery-powered device surgically implanted under the skin. Typically, in the abdomen or buttock.`].join(nl)],
+					`A small, battery-powered device surgically implanted under the skin. Typically, in the abdomen or buttock.`,]],
 				[`#### Leads`, [
-					`Thin, insulated wires with electrodes at the tip. Placed near the spinal cord within the epidural space.`].join(nl)],
+					`Thin, insulated wires with electrodes at the tip. Placed near the spinal cord within the epidural space.`,]],
 				[`#### Remote Control`, [
-					`A handheld device allows you to turn the system on & off. And adjust stimulation settings like intensity & pulse patterns.`].join(nl)],
-			]]],
+					`A handheld device allows you to turn the system on & off. And adjust stimulation settings like intensity & pulse patterns.`,]],],]],
 		[`### Masking Pain Signals`, [
-			`The electrical pulses delivered by the SCS system aim to create a tingling sensation. That helps to override or mask pain signals traveling to your brain. The exact mechanism isn't fully understood. It may involve influencing how the nervous system processes pain.`].join(nl)],
+			`The electrical pulses delivered by the SCS system aim to create a tingling sensation. That helps to override or mask pain signals traveling to your brain. The exact mechanism isn't fully understood. It may involve influencing how the nervous system processes pain.`,]],
 		[`### ${mobile_hidden__span_([`What Is Known About the `])}Mechanism of SCS`, [
 			`The exact mechanism of Spinal Cord Stimulation (SCS) is not fully understood. Research has made significant progress in elucidating the mechanisms behind SCS. The specific pathways & processes involved remain partially hypothetical & elusive. Research has identified multiple potential mechanisms at both the spinal & supraspinal levels. Including${footnote__sup__sort([ref3_1_footnote__sup_(ctx),ref3_2_footnote__sup_(ctx),ref3_5_footnote__sup_(ctx)])}:`,
-			`- the modulation of wide dynamic range (WDR) neurons`,
-			`- increased release of inhibitory neurotransmitters like GABA`,
-			`- changes in the excitatory & inhibitory balance within the spinal cord`,
-			``,
+			lines_(
+				`- the modulation of wide dynamic range (WDR) neurons`,
+				`- increased release of inhibitory neurotransmitters like GABA`,
+				`- changes in the excitatory & inhibitory balance within the spinal cord`,),
+			nl,
 			`Different SCS modalities may engage distinct mechanisms to achieve pain relief. Such as tonic & burst stimulation${footnote__sup__sort([ref3_3_footnote__sup_(ctx),ref3_5_footnote__sup_(ctx)])}.`,
-			``,
-			`The complexity of pain pathways. And individual variability in response to SCS therapy. Make an ongoing challenge of fully understanding its mechanism of action.`].join(nl)],]],
+			nl,
+			`The complexity of pain pathways. And individual variability in response to SCS therapy. Make an ongoing challenge of fully understanding its mechanism of action.`,]],]],
 	[`## The SCS Procedure`, [
 		`The SCS procedure typically involves two stages${footnote__sup__sort([ref7_footnote__sup_(ctx),ref9_footnote__sup_(ctx)/*,ref13_footnote__sup_(ctx)*/])}:`,
 		()=>[
 			[`### Evaluation`, [
-				`A thorough assessment with a pain specialist determines if SCS is a suitable option. This includes medical history, physical exam, imaging, & often a psychological evaluation.`].join(nl)],
+				`A thorough assessment with a pain specialist determines if SCS is a suitable option. This includes medical history, physical exam, imaging, & often a psychological evaluation.`,]],
 			[`### Trial Period`, [
-				`Before permanent implantation, a temporary trial is conducted. Connecting leads without a surgical incision to an external generator worn on a belt. To test the effectiveness of the device. Success is usually defined as a 50% or greater reduction in pain. This trial phase lasts about a week. Allowing the patient & doctor to evaluate the effectiveness of the stimulation settings. Gauging how well you respond to the therapy.`].join(nl)],
+				`Before permanent implantation, a temporary trial is conducted. Connecting leads without a surgical incision to an external generator worn on a belt. To test the effectiveness of the device. Success is usually defined as a 50% or greater reduction in pain. This trial phase lasts about a week. Allowing the patient & doctor to evaluate the effectiveness of the stimulation settings. Gauging how well you respond to the therapy.`,]],
 			[`### Permanent Implantation`, [
-				`If the trial is successful, a permanent device is implanted. Through a minimally invasive surgical procedure. To implant the generator & leads to their final position.`].join(nl)],
+				`If the trial is successful, a permanent device is implanted. Through a minimally invasive surgical procedure. To implant the generator & leads to their final position.`,]],
 			[`### Programming & Optimization`, [
-				`Your doctor works with you to find the optimal stimulation settings. That provides the best pain relief & minimize any side effects. Adjusting the device's settings according to your pain management needs over time.`].join(nl)],
-		]]],
+				`Your doctor works with you to find the optimal stimulation settings. That provides the best pain relief & minimize any side effects. Adjusting the device's settings according to your pain management needs over time.`,]],],]],
 	[`## Applications for ${mobile_hidden__span_([`Spinal Cord Stimulation`, `SCS`])}`, [
 		`SCS is most commonly used for chronic pain conditions. That has not responded to more conservative treatments. It is often considered a last resort when other therapies. Such as medication, physical therapy, or surgery, have failed. Conditions commonly treated with SCS include:`,
 		()=>[
 			[`### Chronic back, neck, & limb pain`, [
-				`Especially in cases where surgery has not relieved pain.`].join(nl)],
+				`Especially in cases where surgery has not relieved pain.`,]],
 			[`### Neuropathic Pain`, [
-				`Such as pain resulting from nerve damage in conditions like diabetic neuropathy or shingles.`].join(nl)],
+				`Such as pain resulting from nerve damage in conditions like diabetic neuropathy or shingles.`,]],
 			[`### Complex Regional Pain Syndrome (CRPS)`, [
-				`CRPS is a chronic condition affecting a limb. Usually after injury, causing burning pain, swelling, & skin changes.`].join(nl)],
+				`CRPS is a chronic condition affecting a limb. Usually after injury, causing burning pain, swelling, & skin changes.`,]],
 			[`### Peripheral Neuropathy`, [
-				`Nerve damage often in the legs & feet due to conditions like diabetes or chemotherapy.`].join(nl)],
+				`Nerve damage often in the legs & feet due to conditions like diabetes or chemotherapy.`,]],
 			[`### Radiculopathy`, [
-				`Pain radiating down the leg due to a compressed spinal nerve root.`].join(nl)],
+				`Pain radiating down the leg due to a compressed spinal nerve root.`,]],
 			[`### Arachnoiditis`, [
-				`Inflammation & scarring of the protective layers of the spinal nerves.`].join(nl)],
+				`Inflammation & scarring of the protective layers of the spinal nerves.`,]],
 			[`### Failed Back Surgery Syndrome (FBSS)`, [
-				`FBSS is a persistent pain following one or more spine surgeries. Also known as post-laminectomy syndrome.`].join(nl)],
+				`FBSS is a persistent pain following one or more spine surgeries. Also known as post-laminectomy syndrome.`,]],
 			[`### Visceral Abdominal & Perineal Pain`, [
-				`${footnote__sup__sort([ref1_footnote__sup_(ctx),ref5_footnote__sup_(ctx),ref9_footnote__sup_(ctx)/*,ref16_footnote__sup_(ctx)*/])}`].join(nl)],
+				`${footnote__sup__sort([ref1_footnote__sup_(ctx),ref5_footnote__sup_(ctx),ref9_footnote__sup_(ctx)/*,ref16_footnote__sup_(ctx)*/])}`,]],
 			[`### Other Causes`, [
 				`Other cases may be conidered, such as:`,
-				`- intractable back & leg pain`,
-				`- phantom limb pain`,
-				`- pain after spinal cord injury`].join(nl)],
-		]]],
+				lines_(
+					`- intractable back & leg pain`,
+					`- phantom limb pain`,
+					`- pain after spinal cord injury`,),]],],]],
 	[`## Benefits${mobile_hidden__span_([` of Spinal Cord Stimulation`])}`, [
 		`SCS offers several advantages over traditional pain management methods:`,
 		()=>[
 			[`### Targeted Pain Relief`, [
-				`SCS delivers relief directly to the area of pain. Without the systemic side effects of oral medications${ref6_footnote__sup_(ctx)}.`].join(nl)],
+				`SCS delivers relief directly to the area of pain. Without the systemic side effects of oral medications${ref6_footnote__sup_(ctx)}.`,]],
 			[`### Increased Mobility`, [
-				`Reduction in pain can improve mobility & overall quality of life.`].join(nl)],
+				`Reduction in pain can improve mobility & overall quality of life.`,]],
 			[`### Adjustable Therapy`, [
-				`Stimulation settings can be remotely adjusted. Increased or decreased in intensity & modulation. To meet individual pain relief needs${footnote__sup__sort([ref6_footnote__sup_(ctx),ref7_footnote__sup_(ctx)])}.`].join(nl)],
+				`Stimulation settings can be remotely adjusted. Increased or decreased in intensity & modulation. To meet individual pain relief needs${footnote__sup__sort([ref6_footnote__sup_(ctx),ref7_footnote__sup_(ctx)])}.`,]],
 			[`### Reversible Procedure`, [
-				`Unlike many surgical interventions for chronic pain, SCS is reversible. The device can be turned off or surgically removed if desired.`].join(nl)],
+				`Unlike many surgical interventions for chronic pain, SCS is reversible. The device can be turned off or surgically removed if desired.`,]],
 			[`### Reduced Medication Use`, [
-				`SCS can reduce the need for pharmaceutical pain medications, including opioids. helping patients avoid the side effects associated with long-term use of pain medications${ref6_footnote__sup_(ctx)}<!--ref13_footnote__sup_(ctx)-->.`].join(nl)],
+				`SCS can reduce the need for pharmaceutical pain medications, including opioids. helping patients avoid the side effects associated with long-term use of pain medications${ref6_footnote__sup_(ctx)}<!--ref13_footnote__sup_(ctx)-->.`,]],
 			[`### Improved Quality of Life`, [
 				`Patients often report${ref15_footnote__sup_(ctx)}:`,
-				`- better sleep`,
-				`- increased activity levels`,
-				`- an improvement in quality of life`].join(nl)],
-		]]],
+				lines_(
+					`- better sleep`,
+					`- increased activity levels`,
+					`- an improvement in quality of life`,),]],],]],
 	[`## Considerations, Risks, & Complications`, [
 		`While SCS is generally safe, it carries potential risks & complications, including:`,
 		()=>[
 			[`### Not a Cure`, [
-				`SCS is primarily focused on symptom management, not curing the underlying condition.`].join(nl)],
+				`SCS is primarily focused on symptom management, not curing the underlying condition.`,]],
 			[`### Infection`, [
-				`As with any surgical procedure, there is a risk of infection.`].join(nl)],
+				`As with any surgical procedure, there is a risk of infection.`,]],
 			[`### Variability in Effectiveness`, [
-				`The degree of pain relief can vary between people. Open communication with your pain specialist is essential for realistic expectations.`].join(nl)],
+				`The degree of pain relief can vary between people. Open communication with your pain specialist is essential for realistic expectations.`,]],
 			[`### Potential Risks`, [
 				`As with any implanted device, risks include:`,
-				`- infection`,
-				`- Bleeding`,
-				`- Nerve damage`,
-				`- Lead migration or breakage`,
-				`- battery failure`,
-				`- need for surgical revision`,
-				`- Device malfunction${footnote__sup__sort([ref4_footnote__sup_(ctx),ref11_footnote__sup_(ctx)])}`].join(nl)],
-		]]],
+				lines_(
+					`- infection`,
+					`- Bleeding`,
+					`- Nerve damage`,
+					`- Lead migration or breakage`,
+					`- battery failure`,
+					`- need for surgical revision`,
+					`- Device malfunction${footnote__sup__sort([ref4_footnote__sup_(ctx),ref11_footnote__sup_(ctx)])}`,),]],],]],
 	[`## Controversies & Considerations`, [
 		`Recent reviews have cast doubt on the long-term efficacy of SCS. A Cochrane Review concluded that SCS provides no better relief than a placebo for treating low back pain. With little to no benefit for improving quality of life. The review also highlighted the lack of long-term data. And poorly documented adverse side effects. Suggesting that the benefits of SCS may not outweigh the costs & risks${footnote__sup__sort([/*ref2_footnote__sup_(ctx),*/ref3_footnote__sup_(ctx)])}.`,
-		``,
-		`Despite these concerns, many patients & clinicians report positive outcomes with SCS. The therapy remains a viable option for those with intractable chronic pain. The field of neuromodulation is rapidly evolving. With newer devices & technologies offering improved outcomes${footnote__sup__sort([ref5_footnote__sup_(ctx),ref8_footnote__sup_(ctx)/*,ref13_footnote__sup_(ctx)*/])}.`].join(nl)],
+		nl,
+		`Despite these concerns, many patients & clinicians report positive outcomes with SCS. The therapy remains a viable option for those with intractable chronic pain. The field of neuromodulation is rapidly evolving. With newer devices & technologies offering improved outcomes${footnote__sup__sort([ref5_footnote__sup_(ctx),ref8_footnote__sup_(ctx)/*,ref13_footnote__sup_(ctx)*/])}.`,]],
 	[`## The Future of ${mobile_hidden__span_([`Spinal Cord Stimulation`, `SCS`])}`, [
-		[
-			`Advancements in technology continue. Enhancing the effectiveness & usability of spinal cord stimulation devices. Recent developments include:`,
-			``,
+		`Advancements in technology continue. Enhancing the effectiveness & usability of spinal cord stimulation devices. Recent developments include:`,
+		nl,
+		lines_(
 			`- rechargeable systems with longer life spans`,
 			`- more precise targeting of electrical impulses`,
-			`- using sub-perception stimulation techniques that do not produce the tingling sensation of paresthesia`,
-			``
-		].join(nl),
+			`- using sub-perception stimulation techniques that do not produce the tingling sensation of paresthesia`,),
+		nl,
 		()=>[
 			[`### Improving Modulation Protocols`, [
 				`Advances in SCS technology include the development of various new stimulation patterns & waveforms. Designed to enhance pain relief & patient outcomes. For example, time-dynamic pulse modulation using novel patterns. Such as stochastic rate modulation & sinusoidal rate modulation. It has shown improved analgesia in preclinical studies${ref1_1_footnote__sup_(ctx)}. Additionally, the emergence of paresthesia-free or subperception stimulation patterns. Such as Differential Target Multiplexed (DTM) stimulation & fast-acting subperception therapy (FAST). Offers alternatives to conventional tonic stimulation & may be more effective in certain cases${ref1_4_footnote__sup_(ctx)}.`,
-				``,
+				nl,
 				`The use of improved modulation protocols with existing devices. Depends on the specific device & its capabilities. Newer SCS systems are programmable & adaptable. Allowing for updates & the use of novel waveforms${footnote__sup__sort([ref1_2_footnote__sup_(ctx),ref1_3_footnote__sup_(ctx)])}. For instance, devices that include feature capabilities can include these modulation adjustments${ref1_9_footnote__sup_(ctx)}:`,
-				`- high-frequency stimulation`,
-				`- burst stimulation`,
-				`- other novel waveforms`,
-				``,
-				`Not all existing devices may be compatible with the latest modulation protocols. Using improved modulation protocols requires that the device's hardware & software support these updates. If an implanted device does not support the new protocols. A device upgrade or replacement may be necessary. To take advantage of the latest advancements in SCS therapy${footnote__sup__sort([ref1_2_footnote__sup_(ctx),ref1_3_footnote__sup_(ctx)])}.`].join(nl)],
+				lines_(
+					`- high-frequency stimulation`,
+					`- burst stimulation`,
+					`- other novel waveforms`,),
+				nl,
+				`Not all existing devices may be compatible with the latest modulation protocols. Using improved modulation protocols requires that the device's hardware & software support these updates. If an implanted device does not support the new protocols. A device upgrade or replacement may be necessary. To take advantage of the latest advancements in SCS therapy${footnote__sup__sort([ref1_2_footnote__sup_(ctx),ref1_3_footnote__sup_(ctx)])}.`,]],
 			[`### SCS for Other Conditions`, [
 				()=>[
 					[`#### Refractory Angina`, [
 						`Research indicates SCS as an effective & safe treatment option. With clinical trials & systematic reviews demonstrating its efficacy in providing${footnote__sup__sort([ref2_1_footnote__sup_(ctx),ref2_2_footnote__sup_(ctx),ref2_3_footnote__sup_(ctx),ref2_5_footnote__sup_(ctx),ref2_7_footnote__sup_(ctx),ref2_8_footnote__sup_(ctx),ref2_13_footnote__sup_(ctx),ref2_15_footnote__sup_(ctx)])}:`,
-						`- symptomatic relief`,
-						`- functional status improvement`,
-						`- enhanced quality of life for patient`,
-						``,
+						lines_(
+							`- symptomatic relief`,
+							`- functional status improvement`,
+							`- enhanced quality of life for patient`,),
+						nl,
 						`Authoritative institutions have recognized SCS as a therapeutic alternative to refractory angina. With class IIb recommendations${footnote__sup__sort([ref2_1_footnote__sup_(ctx),ref2_2_footnote__sup_(ctx)])}:`,
-						`- American College of Cardiology`,
-						`- American Heart Association`,
-						`- European Society of Cardiology`,
-						``,
+						lines_(
+							`- American College of Cardiology`,
+							`- American Heart Association`,
+							`- European Society of Cardiology`,),
+						nl,
 						`The mechanism of action for the anti-anginal & anti-ischemic effects of SCS may include${ref2_1_footnote__sup_(ctx)}:`,
-						`- direct pain blocking`,
-						`- reduced oxygen consumption`,
-						`- decreased sympathetic tone`,
-						`- redistribution of myocardial blood flow`,
-						`- modulation of intracardiac neurons`].join(nl)],
+						lines_(
+							`- direct pain blocking`,
+							`- reduced oxygen consumption`,
+							`- decreased sympathetic tone`,
+							`- redistribution of myocardial blood flow`,
+							`- modulation of intracardiac neurons`,),]],
 					[`#### Gastrointestinal Disorders`, [
 						`Studies have explored the use of SCS for Gastrointestinal conditions such as${footnote__sup__sort([ref2_4_footnote__sup_(ctx)/*,ref2_6_footnote__sup_(ctx)*/,ref2_9_footnote__sup_(ctx),ref2_10_footnote__sup_(ctx),ref2_11_footnote__sup_(ctx),ref2_12_footnote__sup_(ctx),ref2_14_footnote__sup_(ctx),ref2_16_footnote__sup_(ctx)])}:`,
-						`- chronic nausea`,
-						`- vomiting`,
-						`- refractory abdominal pain`,
-						`- gastroparesis`,
-						``,
+						lines_(
+							`- chronic nausea`,
+							`- vomiting`,
+							`- refractory abdominal pain`,
+							`- gastroparesis`,),
+						nl,
 						`Research suggests that SCS can improve gastric motility & accelerate gastric emptying. By inhibiting sympathetic activity${footnote__sup__sort([ref2_6_footnote__sup_(ctx),ref2_10_footnote__sup_(ctx)])}. Clinical trials have shown that SCS can lead to significant improvements in${footnote__sup__sort([ref2_4_footnote__sup_(ctx),ref2_9_footnote__sup_(ctx),ref2_11_footnote__sup_(ctx),ref2_12_footnote__sup_(ctx)])}:`,
-						`- abdominal pain`,
-						`- nausea`,
-						`- vomiting`,
-						`- reduced opioid requirements in patients with these conditions`,
-						``,
-						`The pain relief mechanism involves activation of inhibitory dorsal horn cells & autonomic modulation${ref2_9_footnote__sup_(ctx)}.`].join(nl)]
-				]]],
-		]]],
+						lines_(
+							`- abdominal pain`,
+							`- nausea`,
+							`- vomiting`,
+							`- reduced opioid requirements in patients with these conditions`,),
+						nl,
+						`The pain relief mechanism involves activation of inhibitory dorsal horn cells & autonomic modulation${ref2_9_footnote__sup_(ctx)}.`,]],],]],],]],
 	[`## The Takeaway`, [
-		`Spinal cord stimulation provides a powerful addition to the range of chronic pain management options. If unrelenting pain disrupts your life & other treatments have fallen short. Discuss with a qualified pain management specialist whether SCS might be a potential avenue to explore. For improved quality of life.`].join(nl)],
+		`Spinal cord stimulation provides a powerful addition to the range of chronic pain management options. If unrelenting pain disrupts your life & other treatments have fallen short. Discuss with a qualified pain management specialist whether SCS might be a potential avenue to explore. For improved quality of life.`,]],
 	[`## Conclusion`, [
-		`Spinal Cord Stimulation represents a significant development in the field of pain management. Particularly for patients with chronic pain conditions unresponsive to other treatments. The therapy continues to provide relief for many patients. While some recent studies question its long-term efficacy. As with any medical intervention. Have a thorough evaluation & discussion of potential risks & benefits with a healthcare provider. To determine if SCS is an appropriate treatment option.`].join(nl)],
+		`Spinal Cord Stimulation represents a significant development in the field of pain management. Particularly for patients with chronic pain conditions unresponsive to other treatments. The therapy continues to provide relief for many patients. While some recent studies question its long-term efficacy. As with any medical intervention. Have a thorough evaluation & discussion of potential risks & benefits with a healthcare provider. To determine if SCS is an appropriate treatment option.`,]],
 ])
 // @formatter:on
 function ref1_footnote__sup_(ctx:request_ctx_T) {

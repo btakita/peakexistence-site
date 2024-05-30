@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { nl } from '@rappstack/ui--any/string'
+import { lines_, nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -16,51 +16,54 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 +	dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
-		[`## What Is It?`, [
-			`An Intercostal Nerve Block is a non-surgical procedure. A simple injection. It targets pain. This pain stems from the chest or upper abdominal area. Doctors use this block to diagnose or treat pain.`,
-			``,
-			`An Intercostal Nerve Block involves local anesthetics & Corticosteroids. This medicine gets injected near the ribs. It numbs nerve pain in the chest or abdomen.`].join(nl)],
-		[`## Indications for ${mobile_hidden__span_([`Intercostal Nerve Block`, `ICNB`])}`, [
-			`ICNB is primarily indicated for pain management in conditions affecting the thorax & upper abdomen. It provides excellent analgesia for patients with rib fractures. Facilitating improved respiratory function & pain control. ICNB is beneficial for postsurgical pain management following chest & upper abdominal surgeries. Such as${footnote__sup__sort([ref_i1_1_footnote__sup_(ctx),ref_i1_2_footnote__sup_(ctx)])}:`,
-			``,
-      `- thoracotomy`,
-      `- thoracostomy`,
-      `- mastectomy`,
-      `- gastrostomy`,
-      `- cholecystectomy`,
-			``,
-      `It is also used in the treatment of herpes zoster (shingles) or post-herpetic neuralgia. Offering relief from the severe, lingering pain that sometimes follows a shingles infection${ref_i1_1_footnote__sup_(ctx)}.`].join(nl)],
-		[`## How Does It Work?`, [
-			`The block targets intercostal nerves. These nerves lie between the ribs. They send pain signals to the brain. The injection stops these signals. Thus, it reduces pain.`].join(nl)],
-		[`## The Procedure`, [
-			`The procedure for administering an intercostal nerve block. It involves placing the patient in a position that allows easy access. To the intercostal spaces. Usually lying on the side or sitting up. A healthcare provider locates the target intercostal space using ultrasound guidance. Inserts a needle either in-plane or out-of-plane. To penetrate the external & internal intercostal muscles. The optimal target is just below the internal intercostal muscle. Ensuring the needle tip remains superficial to the parietal pleura. A small volume of local anesthetic, typically 3–5 mL, is then injected at each level to achieve the block${ref_i1_1_footnote__sup_(ctx)}.`].join(nl)],
-		[`## Why Use It?`, [
-			`Patients seek this treatment for various reasons:`,
+	[`## What Is It?`, [
+		`An Intercostal Nerve Block is a non-surgical procedure. A simple injection. It targets pain. This pain stems from the chest or upper abdominal area. Doctors use this block to diagnose or treat pain.`,
+		nl,
+		`An Intercostal Nerve Block involves local anesthetics & Corticosteroids. This medicine gets injected near the ribs. It numbs nerve pain in the chest or abdomen.`,]],
+	[`## Indications for ${mobile_hidden__span_([`Intercostal Nerve Block`, `ICNB`])}`, [
+		`ICNB is primarily indicated for pain management in conditions affecting the thorax & upper abdomen. It provides excellent analgesia for patients with rib fractures. Facilitating improved respiratory function & pain control. ICNB is beneficial for postsurgical pain management following chest & upper abdominal surgeries. Such as${footnote__sup__sort([ref_i1_1_footnote__sup_(ctx),ref_i1_2_footnote__sup_(ctx)])}:`,
+		nl,
+		lines_(
+			`- thoracotomy`,
+			`- thoracostomy`,
+			`- mastectomy`,
+			`- gastrostomy`,
+			`- cholecystectomy`,),
+		nl,
+		`It is also used in the treatment of herpes zoster (shingles) or post-herpetic neuralgia. Offering relief from the severe, lingering pain that sometimes follows a shingles infection${ref_i1_1_footnote__sup_(ctx)}.`,]],
+	[`## How Does It Work?`, [
+		`The block targets intercostal nerves. These nerves lie between the ribs. They send pain signals to the brain. The injection stops these signals. Thus, it reduces pain.`,]],
+	[`## The Procedure`, [
+		`The procedure for administering an intercostal nerve block. It involves placing the patient in a position that allows easy access. To the intercostal spaces. Usually lying on the side or sitting up. A healthcare provider locates the target intercostal space using ultrasound guidance. Inserts a needle either in-plane or out-of-plane. To penetrate the external & internal intercostal muscles. The optimal target is just below the internal intercostal muscle. Ensuring the needle tip remains superficial to the parietal pleura. A small volume of local anesthetic, typically 3–5 mL, is then injected at each level to achieve the block${ref_i1_1_footnote__sup_(ctx)}.`,]],
+	[`## Why Use It?`, [
+		`Patients seek this treatment for various reasons:`,
+		lines_(
 			`- To manage chest wall pain.`,
 			`- To alleviate pain from shingles.`,
-			`- To reduce pain after surgery in the chest or upper abdomen.`].join(nl)],
-		[`## Benefits of ${mobile_hidden__span_([`Intercostal Nerve Block`, `ICNB`])}`, [
-			`The primary benefit of ICNB is its ability to provide targeted & effective pain relief. Which can significantly improve a patient's quality of life. Especially in the context of acute injuries or postoperative recovery. By alleviating pain. ICNB can facilitate better respiratory function in patients with rib fractures. reducing the risk of pulmonary complications. For surgical patients, ICNB can enhance recovery. By allowing earlier mobilization & reducing the reliance on systemic opioids. Which come with their own set of side effects${footnote__sup__sort([ref_i1_2_footnote__sup_(ctx),ref_i1_6_footnote__sup_(ctx)])}.`,
-			()=>[
-				[`### Pain relief`, [
-					`Effective for acute pain from rib fractures, chest wall injuries, or shingles (postherpetic neuralgia).`].join(nl)],
-				[`### Pain management after surgery`, [
-					`Helps manage pain after chest or upper abdominal surgeries.`].join(nl)],
-				[`### Diagnostic tool`, [
-					`It can help pinpoint the source of chronic pain.`].join(nl)],
-			]]],
-		[`## Risks & Considerations`, [
-			`While ICNB is generally safe, it is not without risks. Potential complications include:`,
-			``,
-      `- pneumothorax (lung collapse)`,
-      `- local anesthetic toxicity`,
-      `- bleeding`,
-      `- infection at the injection site`,
-			``,
-      `However, these serious complications are rare. Especially when the procedure is performed using ultrasound guidance to enhance accuracy & safety. Patients may experience temporary soreness or bruising at the injection site. Which typically resolves within a few days.`].join(nl)],
-		[`## Conclusion`, [
-			`Intercostal nerve block represents a valuable tool in the arsenal of pain management strategies. Offering significant benefits for patients suffering from thoracic & upper abdominal pain. By providing targeted analgesia with minimal systemic side effects. ICNB can improve patient outcomes in both acute & chronic pain scenarios. As with any medical procedure, the decision to proceed with an ICNB should be made in consultation with a healthcare provider. Considering the specific needs & medical history of the patient. With proper application & adherence to safety protocols. ICNB can be a highly effective means of managing pain & facilitating recovery.`].join(nl)],
-	])
+			`- To reduce pain after surgery in the chest or upper abdomen.`,),]],
+	[`## Benefits of ${mobile_hidden__span_([`Intercostal Nerve Block`, `ICNB`])}`, [
+		`The primary benefit of ICNB is its ability to provide targeted & effective pain relief. Which can significantly improve a patient's quality of life. Especially in the context of acute injuries or postoperative recovery. By alleviating pain. ICNB can facilitate better respiratory function in patients with rib fractures. reducing the risk of pulmonary complications. For surgical patients, ICNB can enhance recovery. By allowing earlier mobilization & reducing the reliance on systemic opioids. Which come with their own set of side effects${footnote__sup__sort([ref_i1_2_footnote__sup_(ctx),ref_i1_6_footnote__sup_(ctx)])}.`,
+		()=>[
+			[`### Pain relief`, [
+				`Effective for acute pain from rib fractures, chest wall injuries, or shingles (postherpetic neuralgia).`,]],
+			[`### Pain management after surgery`, [
+				`Helps manage pain after chest or upper abdominal surgeries.`,]],
+			[`### Diagnostic tool`, [
+				`It can help pinpoint the source of chronic pain.`,]],
+		]]],
+	[`## Risks & Considerations`, [
+		`While ICNB is generally safe, it is not without risks. Potential complications include:`,
+		nl,
+		lines_(
+			`- pneumothorax (lung collapse)`,
+			`- local anesthetic toxicity`,
+			`- bleeding`,
+			`- infection at the injection site`,),
+		nl,
+		`However, these serious complications are rare. Especially when the procedure is performed using ultrasound guidance to enhance accuracy & safety. Patients may experience temporary soreness or bruising at the injection site. Which typically resolves within a few days.`,]],
+	[`## Conclusion`, [
+		`Intercostal nerve block represents a valuable tool in the arsenal of pain management strategies. Offering significant benefits for patients suffering from thoracic & upper abdominal pain. By providing targeted analgesia with minimal systemic side effects. ICNB can improve patient outcomes in both acute & chronic pain scenarios. As with any medical procedure, the decision to proceed with an ICNB should be made in consultation with a healthcare provider. Considering the specific needs & medical history of the patient. With proper application & adherence to safety protocols. ICNB can be a highly effective means of managing pain & facilitating recovery.`,]],
+])
 // @formatter:on
 function ref_i1_1_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({

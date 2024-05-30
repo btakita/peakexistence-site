@@ -3,21 +3,21 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { nl } from '@rappstack/ui--any/string'
+import { lines_, nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...early_disease_detection,
-	description_md: [
+	description_md: lines_(
 		`Early disease detection stands as a cornerstone of preventive medicine. Offering significant benefits to patient outcomes & healthcare economics.`,
-		``,
+		nl,
 		`Medical professionals can implement interventions that are both more effective & less invasive. By identifying diseases at their nascent stages. Enhancing patient prognosis & reducing the burden on healthcare systems. This article delves into the importance of:`,
 		`- early disease detection`,
 		`- the technologies driving advancements in this field`,
 		`- the impact of these developments on patient care`,
-	].join(nl)
+	)
 })
 // @formatter:off
 // language=md
@@ -25,136 +25,142 @@ export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## Early Disease Detection`, [
 		`Early disease detection. Refers to the identification of a condition before the manifestation of significant symptoms. This proactive approach aims to uncover hidden diseases & risk factors. Enabling interventions that prevent the progression of the disease. Particularly chronic & life-threatening illnesses such as:`,
-    `- cancer`,
-    `- cardiovascular diseases`,
-    `- diabetes`,
-		``,
+		lines_(
+			`- cancer`,
+			`- cardiovascular diseases`,
+			`- diabetes`,),
+		nl,
     `Diagnosing diseases before they progress leads to better health outcomes. For instance, early-stage cancers are more treatable & often curable. Compared to their later-stage counterparts, which might require more complex & costly interventions${footnote__sup__sort([ref_m1_2_footnote__sup_(ctx),ref_m1_3_footnote__sup_(ctx)])}.`,
-		``,
-		`The benefits of early detection are manifold. Extending from improved health outcomes to significant cost savings for healthcare systems.`].join(nl)],
+		nl,
+		`The benefits of early detection are manifold. Extending from improved health outcomes to significant cost savings for healthcare systems.`,]],
 	[`## Benefits${mobile_hidden__span_([` of Early Disease Detection`])}`, [
 		()=>[
 			[`### Improved Outcomes`, [
-				`Many diseases, when caught early, are more responsive to treatment.`].join(nl)],
+				`Many diseases, when caught early, are more responsive to treatment.`,]],
 			[`### Easier Treatment`, [
-				`Treating diseases in their early stages is often less invasive. With fewer side effects & a higher success rate.`].join(nl)],
+				`Treating diseases in their early stages is often less invasive. With fewer side effects & a higher success rate.`,]],
 			[`### Preventing Complications`, [
-				`Early intervention can stop a disease from progressing. Preventing serious health complications, such as organ damage or disability.`].join(nl)],
+				`Early intervention can stop a disease from progressing. Preventing serious health complications, such as organ damage or disability.`,]],
 			[`### Improved Quality of Life`, [
-				`Successful early treatment may mean a faster recovery. And less disruption to a person's life.`].join(nl)],
+				`Successful early treatment may mean a faster recovery. And less disruption to a person's life.`,]],
 			[`### Increased Survival Rates`, [
-				`With deadly illnesses such as cancer. Early diagnosis is often associated with significantly higher survival rates.`].join(nl)],
+				`With deadly illnesses such as cancer. Early diagnosis is often associated with significantly higher survival rates.`,]],
 			[`### Cost-Effectiveness`, [
-				`By preventing disease progression. Early detection reduces the need for more complex, costly treatments & hospitalizations.`].join(nl)],
+				`By preventing disease progression. Early detection reduces the need for more complex, costly treatments & hospitalizations.`,]],
 		]]],
 	[`## Methods of Early Detection`, [
 		`Early disease detection utilizes a variety of methods. Tailored to specific diseases & conditions. These include:`,
 		()=>[
 			[`### Regular Screenings`, [
-				`Proactive screenings for various conditions based on age, risk factors, & family history.`].join(nl)],
+				`Proactive screenings for various conditions based on age, risk factors, & family history.`,]],
 			[`#### Cancer screenings`, [
-				`Mammograms, colonoscopies, skin checks`].join(nl)],
+				`Mammograms, colonoscopies, skin checks`,]],
 			[`#### Cardiovascular health`, [
-				`Blood pressure, cholesterol, & blood sugar checks`].join(nl)],
+				`Blood pressure, cholesterol, & blood sugar checks`,]],
 			[`#### Bone health`, [
-				`Bone density scans (for osteoporosis risk)`].join(nl)],
+				`Bone density scans (for osteoporosis risk)`,]],
 			[`### Self-Awareness`, [
-				`Paying attention to your body. And reporting any new, persistent, or unusual symptoms to your doctor. This could include unexplained pain, lumps, changes in bowel habits, or non-healing wounds.`].join(nl)],
+				`Paying attention to your body. And reporting any new, persistent, or unusual symptoms to your doctor. This could include unexplained pain, lumps, changes in bowel habits, or non-healing wounds.`,]],
 			[`### Genetic Testing`, [
-				`For some with a strong family history of specific diseases. Genetic testing may identify a higher risk, prompting closer monitoring or early intervention.`].join(nl)],
+				`For some with a strong family history of specific diseases. Genetic testing may identify a higher risk, prompting closer monitoring or early intervention.`,]],
 			[`### Emerging Technologies`, [
-				`Researchers are developing new technologies like advanced blood tests & imaging. Continuously improving early detection for many conditions.`].join(nl)],
+				`Researchers are developing new technologies like advanced blood tests & imaging. Continuously improving early detection for many conditions.`,]],
 		]]],
 	[`## Who Should Be Screened?`, [
 		()=>[
 			[`### Everyone`, [
-				`Regular health checkups are vital for all.`].join(nl)],
+				`Regular health checkups are vital for all.`,]],
 			[`### Higher Risk Individuals`, [
 				`Those with the following may need more frequent or specialized screenings:`,
-				`- Family history of specific diseases`,
-				`- Personal risk factors (smoking, obesity, etc.)`,
-				`- Prior exposure to toxins or environmental hazards`].join(nl)],
+				lines_(
+					`- Family history of specific diseases`,
+					`- Personal risk factors (smoking, obesity, etc.)`,
+					`- Prior exposure to toxins or environmental hazards`,),]],
 			[`### Screening Programs`, [
 				`Screening involves testing asymptomatic individuals. To identify those who may have an increased risk of a particular disease. Examples include:`,
-				`- mammograms for breast cancer`,
-				`- colonoscopies for colorectal cancer`,
-				`- blood pressure measurements for hypertension`].join(nl)],
+				lines_(
+					`- mammograms for breast cancer`,
+					`- colonoscopies for colorectal cancer`,
+					`- blood pressure measurements for hypertension`,),]],
 			[`### Genetic Testing & Counseling`, [
-				`For diseases with a known genetic predisposition. Genetic testing & counseling can provide individuals with information about their risk factors. Guiding preventive measures & early interventions.`].join(nl)],
+				`For diseases with a known genetic predisposition. Genetic testing & counseling can provide individuals with information about their risk factors. Guiding preventive measures & early interventions.`,]],
 			[`### Biomarker Detection`, [
-				`Advancements in medical science have led to the identification of biomarkers. Indicating the early stages of a disease. Markers found in blood, tissues, or other bodily fluids. It Can signal the presence of disease before symptoms occur.`].join(nl)],
+				`Advancements in medical science have led to the identification of biomarkers. Indicating the early stages of a disease. Markers found in blood, tissues, or other bodily fluids. It Can signal the presence of disease before symptoms occur.`,]],
 		]]],
 	[`## Challenges & Considerations`, [
-		`Early disease detection has its challenges. False positives can lead to unnecessary anxiety & interventions. While false negatives may provide a false sense of security. The sensitivity & specificity of screening tests are crucial factors. Socioeconomic factors limit access to early detection programs. Underscoring the need for equitable healthcare policies.`].join(nl)],
+		`Early disease detection has its challenges. False positives can lead to unnecessary anxiety & interventions. While false negatives may provide a false sense of security. The sensitivity & specificity of screening tests are crucial factors. Socioeconomic factors limit access to early detection programs. Underscoring the need for equitable healthcare policies.`,]],
 	[`## Overcoming Barriers`, [
 		()=>[
 			[`### Cost`, [
-				`Work with your doctor & insurer to understand coverage & access affordable options.`].join(nl)],
+				`Work with your doctor & insurer to understand coverage & access affordable options.`,]],
 			[`### Misinformation`, [
-				`Rely on trusted sources of medical information. Like your doctor, reputable health organizations, or peer-reviewed research.`].join(nl)],
+				`Rely on trusted sources of medical information. Like your doctor, reputable health organizations, or peer-reviewed research.`,]],
 			[`### Fear`, [
-				`The benefits of early detection outweigh the potential discomfort of screenings. Talk to your doctor about any anxiety.`].join(nl)],
+				`The benefits of early detection outweigh the potential discomfort of screenings. Talk to your doctor about any anxiety.`,]],
 		]]],
 	[`## Empowering Yourself`, [
 		()=>[
 			[`### Talk to Your Doctor`, [
-				`Discuss your individual risk factors & create a personalized screening plan.`].join(nl)],
+				`Discuss your individual risk factors & create a personalized screening plan.`,]],
 			[`### Know Your Body`, [
-				`Be vigilant about changes & get them checked.`].join(nl)],
+				`Be vigilant about changes & get them checked.`,]],
 			[`### Advocate for Your Health`, [
-				`Don't be afraid to ask questions & seek second opinions if necessary.`].join(nl)],
+				`Don't be afraid to ask questions & seek second opinions if necessary.`,]],
 		]]],
 	[`## Technologies Paving the Way`, [
 		()=>[
 			[`### AI & Machine Learning`, [
 				`Artificial intelligence (AI) & machine learning (ML) are transforming early disease detection. These technologies are capable of analyzing vast amounts of medical data, including:`,
-				`- genetic information`,
-				`- medical imaging`,
-				`- patient health records`,
-				``,
-				`To identify patterns that precede illness3. For example, AI algorithms can analyze mammograms with higher accuracy than traditional methods. Leading to earlier detection of breast cancer${ref_m1_2_footnote__sup_(ctx)}. Similarly, AI-driven tools used in cardiology detect subtle signs of heart disease. That may be overlooked in routine examinations${ref_m1_2_footnote__sup_(ctx)}.`].join(nl)],
+				lines_(
+					`- genetic information`,
+					`- medical imaging`,
+					`- patient health records`,),
+				nl,
+				`To identify patterns that precede illness3. For example, AI algorithms can analyze mammograms with higher accuracy than traditional methods. Leading to earlier detection of breast cancer${ref_m1_2_footnote__sup_(ctx)}. Similarly, AI-driven tools used in cardiology detect subtle signs of heart disease. That may be overlooked in routine examinations${ref_m1_2_footnote__sup_(ctx)}.`,]],
 			[`### Genetic Screening`, [
-				`Advancements in genetic screening have also enhanced our ability to detect diseases early. Technologies like CRISPR & next-generation sequencing. Allow for detailed analysis of an individual’s genetic makeup. Helping to predict the likelihood of developing certain conditions${ref_m1_3_footnote__sup_(ctx)}. This facilitates early intervention & personalizes medicine. Crafting treatments to the genetic profile of the patient.`].join(nl)],
+				`Advancements in genetic screening have also enhanced our ability to detect diseases early. Technologies like CRISPR & next-generation sequencing. Allow for detailed analysis of an individual’s genetic makeup. Helping to predict the likelihood of developing certain conditions${ref_m1_3_footnote__sup_(ctx)}. This facilitates early intervention & personalizes medicine. Crafting treatments to the genetic profile of the patient.`,]],
 			[`### Wearable Technology`, [
 				`Wearable technology has become sophisticated. Capable of monitoring a wide range of physiological parameters in real-time. Devices that track:`,
-				`- heart rate`,
-				`- blood glucose levels`,
-				`- even oxygen saturation`,
-				``,
-				`Can alert users to potential health issues before they become apparent${ref_m1_3_footnote__sup_(ctx)}. This continuous monitoring is invaluable for early disease detection & management. Particularly for chronic conditions.`].join(nl)],
+				lines_(
+					`- heart rate`,
+					`- blood glucose levels`,
+					`- even oxygen saturation`,),
+				nl,
+				`Can alert users to potential health issues before they become apparent${ref_m1_3_footnote__sup_(ctx)}. This continuous monitoring is invaluable for early disease detection & management. Particularly for chronic conditions.`,]],
 			[`### Impact on Healthcare`, [
 				`The integration of advanced technologies into routine medical practice. It has profound implications for healthcare delivery. Early disease detection enables:`,
 				()=>[
 					[`#### Reduce Healthcare Costs`, [
-						`Early intervention typically requires less extensive treatment compared to addressing advanced-stage diseases. This reduction in treatment complexity & duration can lead to significant cost savings${ref_m1_2_footnote__sup_(ctx)}.`].join(nl)],
+						`Early intervention typically requires less extensive treatment compared to addressing advanced-stage diseases. This reduction in treatment complexity & duration can lead to significant cost savings${ref_m1_2_footnote__sup_(ctx)}.`,]],
 					[`#### Improved Patient Outcomes`, [
-						`Patients benefit from higher survival rates & better quality of life. When catching & treating diseases early${ref_m1_2_footnote__sup_((ctx))}.`].join(nl)],
+						`Patients benefit from higher survival rates & better quality of life. When catching & treating diseases early${ref_m1_2_footnote__sup_((ctx))}.`,]],
 					[`#### Enhanced Preventive Care`, [
-						`With better predictive tools, healthcare shifts from a reactive to a proactive model. Where prevention & early intervention become the norm${ref_m1_2_footnote__sup_(ctx)}.`].join(nl)],
-				]]],
-		]]],
+						`With better predictive tools, healthcare shifts from a reactive to a proactive model. Where prevention & early intervention become the norm${ref_m1_2_footnote__sup_(ctx)}.`,]],],]],],]],
 	[`## Challenges & Future Directions`, [
 		`Innovations such as AI & machine learning enhance the accuracy of diagnostic tools. While wearable technology is enabling continuous monitoring of vital health indicators. These advancements promise to make early detection more accessible & accurate. Revolutionizing the approach to preventive healthcare.`,
-		``,
+		nl,
 		`Despite its benefits, the implementation of early disease detection technologies faces several challenges. These include${footnote__sup__sort([ref_m1_2_footnote__sup_(ctx),ref_m1_3_footnote__sup_(ctx)])}:`,
-    `- the need for large-scale validation studies`,
-    `- integration into existing healthcare systems`,
-    `- addressing privacy concerns related to genetic & data privacy`,
-    `- widespread education & training for healthcare providers to effectively utilize these advanced technologies`,
-		``,
+		lines_(
+			`- the need for large-scale validation studies`,
+			`- integration into existing healthcare systems`,
+			`- addressing privacy concerns related to genetic & data privacy`,
+			`- widespread education & training for healthcare providers to effectively utilize these advanced technologies`,),
+		nl,
 		`Early disease detection will play an increasingly central role in healthcare. The potential to transform healthcare is immense with:`,
-    `- ongoing advancements in AI`,
-    `- genetic screening`,
-    `- wearable technologies`,
-		``,
-    `The focus will continue to shift towards more personalized & preventive care. Promising a future where life-threatening diseases can be more effectively managed. Or eradicated. Before they can cause significant harm.`].join(nl)],
+		lines_(
+			`- ongoing advancements in AI`,
+			`- genetic screening`,
+			`- wearable technologies`,),
+		nl,
+    `The focus will continue to shift towards more personalized & preventive care. Promising a future where life-threatening diseases can be more effectively managed. Or eradicated. Before they can cause significant harm.`,]],
 	[`## The Takeaway`, [
 		`Early disease detection offers the potential to change the course of your health by:`,
-		`- partnering with your doctor`,
-		`- taking charge of your health`,
-		`- preventative screenings`,
-		``,
-		`Give yourself the invaluable gift of a longer, healthier, & more fulfilling life.`].join(nl)],
+		lines_(
+			`- partnering with your doctor`,
+			`- taking charge of your health`,
+			`- preventative screenings`,),
+		nl,
+		`Give yourself the invaluable gift of a longer, healthier, & more fulfilling life.`,]],
 ])
 // @formatter:on
 function ref_m1_2_footnote__sup_(ctx:request_ctx_T) {
