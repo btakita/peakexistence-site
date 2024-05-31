@@ -27,16 +27,16 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## Meditation: ${mobile_hidden__span_([`An Ancient Tool for `])}Inner Exploration`, ()=>[
-			[`### Centering the Mind`, [
-				`Meditation involves techniques to focus attention & cultivate calmness. Common forms include mindfulness meditation, focused breathing, & guided visualizations.`,]],
-			[`### Benefits Beyond Relaxation`, [
-				`Research shows that meditation:`,
-				`- reduces stress`,
-				`- improves anxiety & mood`,
-				`- enhances focus`,
-				`- promotes physical health changes`,]],
-			[`### Brainwave States`, [
-				`During meditation, our brainwave patterns may shift. With increased alpha & theta waves associated with relaxation & deep thought.`,]],]],
+		[`### Centering the Mind`, [
+			`Meditation involves techniques to focus attention & cultivate calmness. Common forms include mindfulness meditation, focused breathing, & guided visualizations.`,]],
+		[`### Benefits Beyond Relaxation`, [
+			`Research shows that meditation:`,
+			`- reduces stress`,
+			`- improves anxiety & mood`,
+			`- enhances focus`,
+			`- promotes physical health changes`,]],
+		[`### Brainwave States`, [
+			`During meditation, our brainwave patterns may shift. With increased alpha & theta waves associated with relaxation & deep thought.`,]],]],
 	[`## ${mobile_hidden__span_([`Understanding `])}Meditation`, [
 		`Meditation is a time-honored practice that involves the use of various techniques. To achieve a state of deep relaxation & heightened awareness. Techniques aimed at calming the mind & reducing stress. Traditional forms include${footnote__sup__sort([ref_m1_1_footnote__sup_(ctx),ref_m1_2_footnote__sup_(ctx)])}:`,
 		nl,
@@ -131,8 +131,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Seek credible information`, [
 				`Look for research-backed information & be wary of exaggerated claims.`,]],
 			[`### Consult with your doctor`, [
-				`Especially if you have any existing health conditions.`,]],
-		]]],
+				`Especially if you have any existing health conditions.`,]],],]],
 	[`## Practical Applications${mobile_hidden__span_([` & Accessibility`])}`, [
 		`The connections between our minds, bodies. We are learning more about the subtle vibrational nature of our world. Meditation, with its long history & growing scientific support, illuminates the potential & application.`,
 		nl,

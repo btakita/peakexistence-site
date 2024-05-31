@@ -26,8 +26,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Epidural`, [
 				`Refers to the epidural space, which is the area surrounding the spinal cord filled with fatty tissue & cerebrospinal fluid.`,]],
 			[`### Neuroregeneration`, [
-				`The process of regrowing damaged nerve cells & fibers. This is a field of active research with the goal of restoring function after nervous system injuries like spinal cord injuries.`,]],
-		],
+				`The process of regrowing damaged nerve cells & fibers. This is a field of active research with the goal of restoring function after nervous system injuries like spinal cord injuries.`,]],],
 		nl,
 		`Epidural neoregeneration involves the application of therapies through the epidural space. The area outside the dura mater of the spinal cord. The outermost layer of meninges around the spinal cord. To promote the healing & regrowth of neural tissues. Regenerating damaged nerves. Leading to pain reduction & improved function. Several approaches show promising results in facilitating neural recovery. With functional improvements in SCI patients or animal experiments:`,
 		nl,
@@ -41,9 +40,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Stem Cells`, [
 				`Stem cells have promising potential for use in Epidural Neoregeneration. Through their ability to differentiate into various types of cells, including neural cells. And to secrete growth factors that promote tissue repair & regeneration. These stem cells can repair damaged neural tissues in the spinal cord. By fostering the growth of new neurons & supporting cells. Enhancing neural connectivity & reducing inflammation. This regenerative capability is particularly promising for treating spinal cord injuries. As it can lead to the restoration of motor and sensory functions that were impaired or lost due to the injury${footnote__sup__sort([ref_s1_6_footnote__sup_(ctx),ref_s1_2_footnote__sup_(ctx),ref_s1_3_footnote__sup_(ctx)])}.`,]],
 			[`### Anti-inflammatory Agents`, [
-				`Reduce inflammation, creating a better environment for healing. Are considered safe to use with Epidural Procedures${ref_a1_1_footnote__sup_(ctx)}.`,]],
-		],
-	]],
+				`Reduce inflammation, creating a better environment for healing. Are considered safe to use with Epidural Procedures${ref_a1_1_footnote__sup_(ctx)}.`,]],],]],
 	[`## Why Consider Epidural Neoregeneration?`, [
 		`People turn to Epidural Neuroregeneration for several reasons:`,
 		`- Restoring nervous function.`,
@@ -61,19 +58,17 @@ export default (ctx:request_ctx_T)=>''
 			nl,
 			`Another significant advancement in this field is the development of miniaturized, implantable devices. That can deliver sustained & targeted epidural stimulation. These devices are designed to be less invasive & can be controlled externally. Allowing for personalized therapy adjustments based on the patient's progress & specific needs${ref_e1_1_footnote__sup_(ctx)}.`,]],
 	[`## The Process`, [
-		dl_tree_({
-			ctx,
-			_:sticky_h2__dl_tree_props_,
-			dl_class: '[counter-reset:_order]',
-			dt_class: class_('[&>h3]:before:[counter-increment:order]', '[&>h3]:before:content-[counter(order)_\'._\']')
-		}, ()=>[
-			[`### Consultation`, [
+		()=>[
+			{
+				dl_class: '[counter-reset:_order]',
+				dt_class: class_('[&>h3]:before:[counter-increment:order]','[&>h3]:before:content-[counter(order)_\'._\']'),
+			},
+ 			[`### Consultation`, [
 				`A specialist assesses the patient.`]],
 			[`### Procedure`, [
 				`Using imaging guidance, a needle delivers the healing substances.`]],
 			[`### Recovery`, [
-				`Patients often go home the same day. Full benefits may take time to appear.`]],
-		]),]],
+				`Patients often go home the same day. Full benefits may take time to appear.`]],],]],
 	[`## Pros & Cons`, [
 		()=>[
 			[`### Pros`, [

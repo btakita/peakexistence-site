@@ -41,8 +41,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Comprehensive Insight`, [
 				`Delivers a holistic health snapshot, potentially uncovering hidden issues.`,]],
 			[`### Non-Invasive`, [
-				`Simple & straightforward, the scan requires no incisions or extended hospital stays.`,]],
-		]]],
+				`Simple & straightforward, the scan requires no incisions or extended hospital stays.`,]],],]],
 	[`## Considerations`, ()=>[
 		[`Pros`, [
 			`- Quick & painless`,

@@ -44,8 +44,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Increased Survival Rates`, [
 				`With deadly illnesses such as cancer. Early diagnosis is often associated with significantly higher survival rates.`,]],
 			[`### Cost-Effectiveness`, [
-				`By preventing disease progression. Early detection reduces the need for more complex, costly treatments & hospitalizations.`,]],
-		]]],
+				`By preventing disease progression. Early detection reduces the need for more complex, costly treatments & hospitalizations.`,]],],]],
 	[`## Methods of Early Detection`, [
 		`Early disease detection utilizes a variety of methods. Tailored to specific diseases & conditions. These include:`,
 		()=>[
@@ -62,8 +61,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Genetic Testing`, [
 				`For some with a strong family history of specific diseases. Genetic testing may identify a higher risk, prompting closer monitoring or early intervention.`,]],
 			[`### Emerging Technologies`, [
-				`Researchers are developing new technologies like advanced blood tests & imaging. Continuously improving early detection for many conditions.`,]],
-		]]],
+				`Researchers are developing new technologies like advanced blood tests & imaging. Continuously improving early detection for many conditions.`,]],],]],
 	[`## Who Should Be Screened?`, [
 		()=>[
 			[`### Everyone`, [
@@ -81,8 +79,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Genetic Testing & Counseling`, [
 				`For diseases with a known genetic predisposition. Genetic testing & counseling can provide individuals with information about their risk factors. Guiding preventive measures & early interventions.`,]],
 			[`### Biomarker Detection`, [
-				`Advancements in medical science have led to the identification of biomarkers. Indicating the early stages of a disease. Markers found in blood, tissues, or other bodily fluids. It Can signal the presence of disease before symptoms occur.`,]],
-		]]],
+				`Advancements in medical science have led to the identification of biomarkers. Indicating the early stages of a disease. Markers found in blood, tissues, or other bodily fluids. It Can signal the presence of disease before symptoms occur.`,]],],]],
 	[`## Challenges & Considerations`, [
 		`Early disease detection has its challenges. False positives can lead to unnecessary anxiety & interventions. While false negatives may provide a false sense of security. The sensitivity & specificity of screening tests are crucial factors. Socioeconomic factors limit access to early detection programs. Underscoring the need for equitable healthcare policies.`,]],
 	[`## Overcoming Barriers`, [
@@ -92,8 +89,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Misinformation`, [
 				`Rely on trusted sources of medical information. Like your doctor, reputable health organizations, or peer-reviewed research.`,]],
 			[`### Fear`, [
-				`The benefits of early detection outweigh the potential discomfort of screenings. Talk to your doctor about any anxiety.`,]],
-		]]],
+				`The benefits of early detection outweigh the potential discomfort of screenings. Talk to your doctor about any anxiety.`,]],],]],
 	[`## Empowering Yourself`, [
 		()=>[
 			[`### Talk to Your Doctor`, [
@@ -101,8 +97,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Know Your Body`, [
 				`Be vigilant about changes & get them checked.`,]],
 			[`### Advocate for Your Health`, [
-				`Don't be afraid to ask questions & seek second opinions if necessary.`,]],
-		]]],
+				`Don't be afraid to ask questions & seek second opinions if necessary.`,]],],]],
 	[`## Technologies Paving the Way`, [
 		()=>[
 			[`### AI & Machine Learning`, [

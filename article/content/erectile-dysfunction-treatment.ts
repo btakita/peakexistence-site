@@ -29,7 +29,7 @@ export default (ctx:request_ctx_T)=>''
 					`- hypertension`,
 					`- diabetes`,
 					`- hyperlipidemia`,
-					`- smoking`,]]],]],
+					`- smoking`,]],],]],
 	[`## ED & Your Heart`, [
 		`Erections require healthy blood flow. Cardiovascular diseases damage blood vessels & impair this vital function. Diseases like:`,
 		`- atherosclerosis (plaque buildup in arteries)`,
@@ -92,8 +92,7 @@ export default (ctx:request_ctx_T)=>''
 							[`##### Mechanism`, [
 								`These medications help lower high blood pressure, enhancing arterial health & blood flow.`,]],
 							[`##### Impact on ED`, [
-								`Improved blood flow can alleviate ED symptoms. As erectile function depends on the ability to achieve & adequate penile blood flow${ref_m1_1_footnote__sup_(ctx)}.`,]],
-						]]],
+								`Improved blood flow can alleviate ED symptoms. As erectile function depends on the ability to achieve & adequate penile blood flow${ref_m1_1_footnote__sup_(ctx)}.`,]],],]],
 					[`#### Cholesterol Level Medication`, [
 						()=>[
 							[`##### Medications Used`, [
@@ -101,8 +100,7 @@ export default (ctx:request_ctx_T)=>''
 							[`##### Mechanism`, [
 								`These drugs reduce cholesterol levels. Decreasing the risk of atherosclerosis. A condition where plaque builds up in the arteries.`,]],
 							[`##### Impact on ED`, [
-								`These medications prevent arterial plaque buildup. Helping ensure better blood flow throughout the body, including to the penile region. Improving or preventing ED${ref_m1_2_footnote__sup_(ctx)}.`,]],
-						]]],
+								`These medications prevent arterial plaque buildup. Helping ensure better blood flow throughout the body, including to the penile region. Improving or preventing ED${ref_m1_2_footnote__sup_(ctx)}.`,]],],]],
 					[`#### Diabetes Medication`, [
 						()=>[
 							[`##### Medications Used`, [

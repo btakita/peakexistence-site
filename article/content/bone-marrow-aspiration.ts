@@ -42,19 +42,16 @@ export default (ctx:request_ctx_T)=>''
 				nl,
 				`The procedure also plays a crucial role in detecting infections. And the presence of other abnormal cells.`,]],
 			[`### Monitoring & Management`, [
-				`Bone marrow aspiration enables monitoring the progress of known conditions. And measuring the effectiveness of treatments. For patients undergoing chemotherapy or other targeted therapies. Periodic aspirations can provide a clear picture of response & recovery. Guiding further treatment decisions & adjustments.`,]],
-		]
-	]],
+				`Bone marrow aspiration enables monitoring the progress of known conditions. And measuring the effectiveness of treatments. For patients undergoing chemotherapy or other targeted therapies. Periodic aspirations can provide a clear picture of response & recovery. Guiding further treatment decisions & adjustments.`,]],],]],
 	[`## The Procedure: A Closer Look`, [
 		`Performed by a specialized medical professional. The procedure often targets the marrow within the hipbone or breastbone. Under local anesthesia to minimize discomfort. A needle inserted into the bone draws out a sample of marrow. The process is swift, usually completed within a few minutes. It provides invaluable insights into the health & functionality of the patient's marrow.`,
-		dl_tree_({
-			ctx,
-			_: sticky_h2__dl_tree_props_,
-			dl_class: '[counter-reset:_order]',
-			dt_class: class_(
-				'[&>h3]:before:[counter-increment:order]',
-				'[&>h3]:before:content-[counter(order)_\'._\']'
-			)}, ()=>[
+		()=>[
+			{
+				dl_class: '[counter-reset:_order]',
+				dt_class: class_(
+					'[&>h3]:before:[counter-increment:order]',
+					'[&>h3]:before:content-[counter(order)_\'._\']')
+			},
 			[`### Location`, [
 				`Commonly performed on the back of the hip bone (pelvis), less often on the breastbone (sternum).`,]],
 			[`### Numbing`, [
@@ -62,8 +59,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Aspiration`, [
 				`A special needle inserted through the bone into the bone marrow cavity. A syringe withdraws a small amount of liquid bone marrow.`,]],
 			[`### Biopsy`, [
-				`Often a bone marrow biopsy is also done. This involves removing a tiny, solid core of bone marrow tissue.`,]],
-		])]],
+				`Often a bone marrow biopsy is also done. This involves removing a tiny, solid core of bone marrow tissue.`,]],],]],
 	[`## What to Expect`, [
 		`Despite its importance, a bone marrow aspiration procedure may evoke apprehension. Understanding what to expect:`,
 		()=>[

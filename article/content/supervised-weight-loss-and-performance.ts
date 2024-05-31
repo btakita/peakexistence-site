@@ -19,7 +19,6 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 		`- the role of medical & nutritional professionals in these programs`,
 		`- the impact on athletic performance`,)
 })
-
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
@@ -155,8 +154,7 @@ export default (ctx:request_ctx_T)=>''
 					[`#### Performance Optimization`, [
 						`Losing weight while maintaining muscle mass can enhance athletic performance in many sports. Supervised programs help achieve this balance.`,]],
 					[`#### Reduced Injury Risk`, [
-						`Excessive weight gain can increase stress on joints & lead to injuries. Supervised weight loss can help athletes maintain a healthy weight for injury prevention.`,]],
-				]]],
+						`Excessive weight gain can increase stress on joints & lead to injuries. Supervised weight loss can help athletes maintain a healthy weight for injury prevention.`,]],],]],
 			[`### Benefits of Supervised Weight Loss for Athletes`, ()=>[
 				[`#### Optimize Performance`, [
 					`Proper weight management can significantly enhance an athlete’s performance. Especially in sports where speed, agility, & endurance are crucial. Lower body fat percentages often lead to better efficiency & stamina${ref_s1_20_footnote__sup_(ctx)}.`,]],
@@ -178,9 +176,7 @@ export default (ctx:request_ctx_T)=>''
 					[`### Focus on Performance Enhancement`, [
 						`The goal is to achieve optimal weight for performance, not just aesthetics. Unrealistic expectations can be counterproductive.`,]],
 					[`### Sustainability`, [
-						`Supervised programs provide a solid foundation. For the athlete to develop healthy habits for long-term weight management success.`,]],
-				]]],
-		]]],
+						`Supervised programs provide a solid foundation. For the athlete to develop healthy habits for long-term weight management success.`,]],],]],]]],
 	[`## Conclusion`, [
 		`Supervised weight loss & performance programs offer an approach to weight management, health, & wellness. That is:`,
 		nl,
@@ -258,10 +254,11 @@ function ref_s1_19_footnote__sup_(ctx:request_ctx_T) {
 		id: 's1_19'
 	}, [
 		tb_a_({
-			href: 'https://www.sciencedirect.com/science/article/pii/S2405844023062400',
-			nofollow: true,
-			wrap: true,
-		}, 'A pilot study of the effects of supervised exercise training on body composition, cardiometabolic risk factors, muscle strength and functional capacity in individuals with bariatric surgery')
+				href: 'https://www.sciencedirect.com/science/article/pii/S2405844023062400',
+				nofollow: true,
+				wrap: true,
+			},
+			'A pilot study of the effects of supervised exercise training on body composition, cardiometabolic risk factors, muscle strength and functional capacity in individuals with bariatric surgery')
 	])
 }
 function ref_s1_20_footnote__sup_(ctx:request_ctx_T) {

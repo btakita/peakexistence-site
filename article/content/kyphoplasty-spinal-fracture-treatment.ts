@@ -44,7 +44,7 @@ export default (ctx:request_ctx_T)=>''
 		[`### Balloon Inflation & Cement Injection`, [
 			`The balloon is inflated to lift the fractured bone. Restoring height to the collapsed vertebra. After deflation, bone cement is injected to fill the space & stabilize the bone.`,]],
 		[`### Closure`, [
-			`The instruments are removed. The incision is closed with stitches or adhesive strips.`,]]]],
+			`The instruments are removed. The incision is closed with stitches or adhesive strips.`,]],]],
 	[`## Benefits of Kyphoplasty`, [
 		`Kyphoplasty offers several advantages over traditional treatments for vertebral compression fractures:`,
 		()=>[

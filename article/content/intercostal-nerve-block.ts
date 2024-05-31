@@ -47,8 +47,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Pain management after surgery`, [
 				`Helps manage pain after chest or upper abdominal surgeries.`,]],
 			[`### Diagnostic tool`, [
-				`It can help pinpoint the source of chronic pain.`,]],
-		]]],
+				`It can help pinpoint the source of chronic pain.`,]],],]],
 	[`## Risks & Considerations`, [
 		`While ICNB is generally safe, it is not without risks. Potential complications include:`,
 		nl,

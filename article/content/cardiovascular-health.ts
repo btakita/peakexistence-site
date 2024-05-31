@@ -42,8 +42,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Arrhythmias`, [
 				`Abnormal heart rhythms like atrial fibrillation (AFib) disrupt blood flow & increase stroke risk.`,]],
 			[`### Heart Valve Problems`, [
-				`Malfunctioning valves can leak or become narrow. Affecting the heart's ability to efficiently pump blood.`,]],
-		]]],
+				`Malfunctioning valves can leak or become narrow. Affecting the heart's ability to efficiently pump blood.`,]],],]],
 	[`## Risk Factors You Can Control`, [
 		`Many factors influencing heart disease are within your power to modify:`,
 		()=>[
@@ -60,8 +59,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Inactivity`, [
 				`Regular exercise is essential for a healthy heart.`,]],
 			[`### Unhealthy Diet`, [
-				`A diet high in saturated fats, processed foods, & added sugar is harmful to your heart.`,]],
-		]]],
+				`A diet high in saturated fats, processed foods, & added sugar is harmful to your heart.`,]],],]],
 	[`## Protecting Your Heart${mobile_hidden__span_([`: The Power of Prevention`])}`, [
 		`A healthy Lifestyle is your greatest weapon against heart disease.`,
 		()=>[
@@ -114,7 +112,7 @@ export default (ctx:request_ctx_T)=>''
 						`- regular physical activity`,
 						`- behavioral modifications`,
 						nl,
-						`A heart-healthy diet rich in fruits, vegetables, whole grains, & lean proteins. With consistent exercise, it forms the foundation of effective weight management. Addressing psychological factors & establishing a supportive environment are crucial for long-term success.`,]]],]],
+						`A heart-healthy diet rich in fruits, vegetables, whole grains, & lean proteins. With consistent exercise, it forms the foundation of effective weight management. Addressing psychological factors & establishing a supportive environment are crucial for long-term success.`,]],],]],
 			[`### Manage Stress`, [
 				`Stress, particularly when chronic, can have deleterious effects on the heart. Stress triggers a cascade of physiological responses. This includes the release of adrenaline. Which increases heart rate & blood pressure. Placing undue strain on the cardiovascular system. Stress often leads to unhealthy coping mechanisms. Such as poor dietary choices, smoking, & inactivity. Which further exacerbates heart disease risk.`,
 				()=>[
@@ -127,8 +125,7 @@ export default (ctx:request_ctx_T)=>''
 							[`##### Improved Cholesterol Levels`, [
 								`Stress reduction correlates with better cholesterol profiles. Including lower levels of LDL ("bad") cholesterol. And higher levels of HDL ("good") cholesterol.`,]],
 							[`##### Decreased Inflammation`, [
-								`Chronic stress links to inflammation, a key player in heart disease. Stress management techniques can help mitigate this inflammatory response.`,]],
-						]]],
+								`Chronic stress links to inflammation, a key player in heart disease. Stress management techniques can help mitigate this inflammatory response.`,]],],]],
 					[`#### Strategies${mobile_hidden__span_([` for Effective Stress Management`])}`, [
 						`Achieving effective stress management requires a multifaceted approach. Tailored to your lifestyle & preferences. Key strategies include:`,
 						()=>[
@@ -163,8 +160,7 @@ export default (ctx:request_ctx_T)=>''
 					[`#### Yoga: A Versatile Practice for All`, [
 						`One of yoga's greatest strengths is its accessibility & adaptability. From gentle restorative classes to more vigorous vinyasa flows. Yoga offers something for everyone, regardless of age, fitness level, or experience. This integration is an invaluable tool for integrating stress management into daily life. Fostering a healthier heart & a more balanced existence.`,]],
 					[`#### ${mobile_hidden__span_([`The `])}Ripple Effect of Yoga${mobile_hidden__span_([` on Cardiac Health`])}`, [
-						`By mitigating stress & its physical repercussions. Yoga sets off a cascade of benefits for the heart. It paves the way for a lifestyle that values balance, wellness, & mindfulness. Key components in the prevention & management of heart disease. As people incorporate yoga into their routines. They often find themselves adopting other heart-healthy habits. Such as improved diet & increased physical activity. Amplifying yoga's positive impact on cardiac health.`,]],
-				]]],
+						`By mitigating stress & its physical repercussions. Yoga sets off a cascade of benefits for the heart. It paves the way for a lifestyle that values balance, wellness, & mindfulness. Key components in the prevention & management of heart disease. As people incorporate yoga into their routines. They often find themselves adopting other heart-healthy habits. Such as improved diet & increased physical activity. Amplifying yoga's positive impact on cardiac health.`,]],],]],
 			[`### Quit Smoking${mobile_hidden__span_([` & Other `, `/`])}Tobacco Products`, [
 				`One of the best things you can do for your heart. Smoking & chronic nicotine use causes damage to blood vessels & the heart. Smoking is a major risk factor for heart disease. Quitting smoking drastically reduces the risk of cardiac complications.`,
 				()=>[
@@ -229,8 +225,7 @@ export default (ctx:request_ctx_T)=>''
 							[`##### Prevention of Heart Attacks & Strokes`, [
 								`Unblocking arteries & reducing plaque buildup lowers the risk of Heart Attacks & Strokes`,]],
 							[`##### Enhanced Overall Heart Function`, [
-								`Balanced cholesterol levels support heart health by preventing conditions that strain the heart. Such as high blood pressure & atherosclerosis.`,]],
-						]]],
+								`Balanced cholesterol levels support heart health by preventing conditions that strain the heart. Such as high blood pressure & atherosclerosis.`,]],],]],
 					[`#### Strategies${mobile_hidden__span_([` for Cholesterol Management`])}`, [
 						`Controlling cholesterol involves a multifaceted approach.`,
 						()=>[
@@ -241,9 +236,7 @@ export default (ctx:request_ctx_T)=>''
 							[`##### Weight Management`, [
 								`Achieving & maintaining a healthy weight is crucial in managing cholesterol levels. As excess weight links to elevated LDL & reduced HDL cholesterol.`,]],
 							[`##### Medication`, [
-								`For some individuals, lifestyle changes alone may not suffice to control cholesterol levels. Cholesterol-balancing therapies medications may be prescribed to help manage cholesterol.`,]],
-						]]],
-				]]],
+								`For some individuals, lifestyle changes alone may not suffice to control cholesterol levels. Cholesterol-balancing therapies medications may be prescribed to help manage cholesterol.`,]],],]],],]],
 			[`### Macrophages${mobile_hidden__span_([` & their Complex Role in Plaque Buildup`])}`, [
 				`Macrophages, a type of white blood cell, play a complex role in plaque buildup within arteries. Their actions can be both beneficial & harmful. Depending on the stage of plaque development.`,
 				``,
@@ -265,8 +258,7 @@ export default (ctx:request_ctx_T)=>''
 								[`###### Inflamed Plaque`, [
 									`As plaque grows, macrophages release chemicals that further attract inflammatory cells. Increasing inflammation within the artery wall.`,]],
 								[`###### Unstable Plaques`, [
-									`Inflammation destabilizes the plaque, increasing its risk of rupture. Which can cause a heart attack or stroke.`,]]
-							]]]]],
+									`Inflammation destabilizes the plaque, increasing its risk of rupture. Which can cause a heart attack or stroke.`,]],]],],]],
 					[`#### Macrophages & Plaque Stability`, [
 						`Macrophages are not only agents of plaque instability. But it can also contribute to plaque stability & resolution. Some macrophages can remove cholesterol from plaques. Transporting it back to the liver for excretion. A process known as reverse cholesterol transport. Certain macrophage phenotypes can promote healing & tissue repair. Within the plaque & the artery wall. Stabilizing the plaque & reducing the risk of rupture.`,
 						()=>[
@@ -274,11 +266,9 @@ export default (ctx:request_ctx_T)=>''
 								[`###### Changing Types`, [
 									`There are different subtypes of macrophages, some more inflammatory than others. Promoting a shift towards less inflammatory types may be helpful.`,]],
 								[`###### Cholesterol Removal`, [
-									`Under specific conditions, macrophages can help remove cholesterol from within the plaque.`,]]
-							]]]]],
+									`Under specific conditions, macrophages can help remove cholesterol from within the plaque.`,]],]],],]],
 					[`#### Balance Between Harm & Help`, [
-						`The impact of macrophages on atherosclerotic plaque buildup is a delicate balance between their role in initial defense & their contribution to plaque progression & instability. Research into therapies that can modulate the activity of macrophages, promoting their protective roles while minimizing their harmful effects, is ongoing. Such strategies could offer new avenues for the prevention & treatment of atherosclerosis & its complications.`,]],
-				]]],
+						`The impact of macrophages on atherosclerotic plaque buildup is a delicate balance between their role in initial defense & their contribution to plaque progression & instability. Research into therapies that can modulate the activity of macrophages, promoting their protective roles while minimizing their harmful effects, is ongoing. Such strategies could offer new avenues for the prevention & treatment of atherosclerosis & its complications.`,]],],]],
 			[`### Regular Check-ups`, [
 				`Regular medical check-ups are critical to manage cardiac health & prevent issues. Heart disease remains a leading cause of morbidity & mortality worldwide. Regular check-ups are important feedback to maintain & improve heart health. Through:`,
 				`- early detection`,
@@ -304,8 +294,7 @@ export default (ctx:request_ctx_T)=>''
 						nl,
 						`Continuous monitoring identifies & manages any changes in cardiac health. Preventing complications & improving outcomes.`,]],
 					[`#### Early Detection${mobile_hidden__span_([`: The First Line of Defense`])}`, [
-						`Some conditions like hypertension, high cholesterol, & diabetes, may not present obvious symptoms. Routine screenings detect these conditions early. Early detection facilitates timely intervention. Reducing the risk of developing more severe cardiovascular diseases. Including coronary artery disease & heart failure.`,]],],]],]
-	]],
+						`Some conditions like hypertension, high cholesterol, & diabetes, may not present obvious symptoms. Routine screenings detect these conditions early. Early detection facilitates timely intervention. Reducing the risk of developing more severe cardiovascular diseases. Including coronary artery disease & heart failure.`,]],],]],],]],
 	[`## When to Seek Medical Help`, [
 		`Don't ignore potential warning signs:`,
 		`- **Chest Pain or Discomfort**`,
@@ -323,8 +312,7 @@ export default (ctx:request_ctx_T)=>''
 				`- manage blood sugar`,
 				`- prevent blood clots`,]],
 			[`### Cardiac Rehabilitation`, [
-				`A supervised program after a heart attack or surgery. Cardiac rehab programs offer a guided approach to recovery. Helping patients slowly regain strength & endurance.`,]],
-		]]],
+				`A supervised program after a heart attack or surgery. Cardiac rehab programs offer a guided approach to recovery. Helping patients slowly regain strength & endurance.`,]],],]],
 	[`## Recovery & Rehabilitation`, [
 		`Recovering from a heart condition or surgery is a journey. A multidisciplinary approach ensures comprehensive rehabilitation.`,
 		()=>[
@@ -333,8 +321,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Dietary Adjustments`, [
 				`Post-recovery diets might include sodium or fluid restrictions to help manage heart function.`,]],
 			[`### Psychological${mobile_hidden__span_([` & `, `/`])}Emotional Support`, [
-				`Recovery can be challenging to your emotions & mental health. Support groups & counseling can offer solace & encouragement.`,]],
-		]]],
+				`Recovery can be challenging to your emotions & mental health. Support groups & counseling can offer solace & encouragement.`,]],],]],
 	[`## The Future of Cardiac Health`, [
 		`Advancements in medical research offer new pathways for treating & preventing heart disease. From innovative surgical techniques & personalized medicine. To wearable technology that monitors heart health in real-time.`,
 		()=>[
@@ -343,8 +330,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Regenerative Medicine`, [
 				`Regenerating damaged heart tissue through stem cells. Offers ways to heal the heart from disease & surgery.`,]],
 			[`### Digital Health`, [
-				`Wearable devices & mobile apps offer new avenues for monitoring heart health. Providing real-time data to your healthcare providers.`,]],
-		]]],
+				`Wearable devices & mobile apps offer new avenues for monitoring heart health. Providing real-time data to your healthcare providers.`,]],],]],
 	[`## The Bottom Line`, [
 		`Cardiac health is largely in your hands. With healthy choices, managing risk factors, & seeking prompt medical care when necessary. You can maximize your chances of enjoying a long & heart-healthy life.`,]],
 ])

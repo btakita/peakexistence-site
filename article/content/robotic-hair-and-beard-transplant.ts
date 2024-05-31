@@ -26,9 +26,8 @@ export default (ctx:request_ctx_T)=>''
 			[`### Follicular Unit Extraction`, [
 				`Using its robotic arm & advanced algorithms. The precision system identifies & extracts optimal hair follicles from the donor area.${bodyexpert_footnote__sup_(ctx)}${bernsteinmedical_footnote__sup_(ctx)}.`,]],
 			[`### ${mobile_hidden__span_([`Recipient `])}Site Creation & Implantation`, [
-				`The surgeon programs the design plan into the robot. Which then creates recipient sites. Implanting the harvested follicles at the correct angle & depth for a natural-looking outcome${bernsteinmedical_footnote__sup_(ctx)}${aedit_footnote__sup_(ctx)}.`,]],
-		],
-		``,
+				`The surgeon programs the design plan into the robot. Which then creates recipient sites. Implanting the harvested follicles at the correct angle & depth for a natural-looking outcome${bernsteinmedical_footnote__sup_(ctx)}${aedit_footnote__sup_(ctx)}.`,]],],
+		nl,
 		`The process begins with the robotic system scanning & mapping the patient's scalp. To identify the optimal harvesting sites for hair follicles. Sophisticated algorithms guide the robot arm to select the best donor hairs. Based on their angle & depth to ensure a natural-looking result. The robotic arm has a tiny punch tool. Which extracts individual follicular units from the scalp. These units are then implanted in the balding or thinning areas of the head or face. Following the natural growth pattern of the hair. To ensure seamless & aesthetically pleasing results.`]],
 	[`## Advantages${mobile_hidden__span_([` of Robotic Transplants`])}`, ()=>[
 		[`### Precision, Accuracy, & Efficiency`, [

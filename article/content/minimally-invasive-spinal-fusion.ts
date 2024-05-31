@@ -95,7 +95,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Patient's Anatomy`, [
 				`Individual anatomy can make some people better candidates for MIS techniques.`,]],
 			[`### Surgeon's Expertise`, [
-				`The experience of the surgeon in performing specific MIS procedures is crucial for optimal outcomes.`,]]],]],
+				`The experience of the surgeon in performing specific MIS procedures is crucial for optimal outcomes.`,]],],]],
 	[`## Considerations`, ()=>[
 		[`### It's Still Surgery`, [
 			`Even minimally invasive techniques carry risks like infection, nerve injury, or implant complications.`,]],

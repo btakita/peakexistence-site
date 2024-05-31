@@ -56,8 +56,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Reduced Inflammation`, [
 				`HBOT has been shown to decrease inflammation & edema, which can significantly improve outcomes in inflammatory conditions${mobile_hidden__span_([ref_h1_2_footnote__sup_(ctx)/*,ref_h1_6_footnote__sup_(ctx)*/])}.`,]],
 			[`### Neurological Improvement`, [
-				`For neurological conditions. HBOT can stimulate the formation of new neural connections & improve brain function${ref_h1_7_footnote__sup_(ctx)}.`,]],
-		]]],
+				`For neurological conditions. HBOT can stimulate the formation of new neural connections & improve brain function${ref_h1_7_footnote__sup_(ctx)}.`,]],],]],
 	[`## Conditions Treated with HBOT`, [
 		`HBOT has shown remarkable benefits in treating various medical conditions. Including but not limited to:`,
 		()=>[
@@ -71,20 +70,20 @@ export default (ctx:request_ctx_T)=>''
 			[`### Carbon Monoxide Poisoning`, [
 				`HBOT helps eliminate carbon monoxide from the bloodstream. Reducing the risk of long-term complications associated with carbon monoxide poisoning.`,]],
 			[`### Non-Healing Bone Fractures`, [
-				`HBOT aids in bone repair & regeneration. Accelerating the healing process for non-healing bone fractures.`,]],
-		]]],
+				`HBOT aids in bone repair & regeneration. Accelerating the healing process for non-healing bone fractures.`,]],],]],
 	[`## Safety & Side Effects`, [
 		`While HBOT is generally safe, it is not devoid of risks. Potential side effects include middle ear injuries, sinus problems, & in rare cases, oxygen toxicity. Which can lead to seizures${footnote__sup__sort([ref_h1_2_footnote__sup_(ctx),ref_h1_8_footnote__sup_(ctx)])}. These risks are typically managed by adjusting the pressure levels & duration of treatment. They are generally reversible with proper medical care.`,]],
 	[`## Considerations & Future Directions`, [
 		`Despite its many applications, HBOT is not universally applicable for all medical conditions. It requires specific protocols tailored to each condition's needs. Treatments are usually conducted in specialized facilities. As research continues, the potential applications of HBOT are expanding. With ongoing studies investigating its efficacy in newer areas. Like psychiatric disorders & autoimmune diseases${footnote__sup__sort([ref_h1_5_footnote__sup_(ctx),ref_h1_7_footnote__sup_(ctx)])}.`,]],
 	[`## Your HBOT Experience`, [
 		`During your HBOT sessions at Dr. Manny Emenike’s Internal Medicine practice, you can expect a warm & supportive atmosphere. Our team will guide you through the entire process, addressing any questions or concerns you may have.`,
-		``,
+		nl,
 		`HBOT sessions last between 60 & 90 minutes. During which you can relax inside the hyperbaric chamber. Many patients find this time to be an excellent opportunity to unwind, read, or listen to music.`,
-		``,
+		nl,
 		`The number of HBOT sessions varies on your specific medical condition & response to treatment. Dr. Manny Emenike will create your personalized treatment plan. To ensure the best possible outcome for you.`,
+		nl,
 		`Athletes have found tremendous benefits in HBOT treatments. Professional athletes & sports organizations incorporate hyperbaric chambers into their training regiment. The increased oxygen promotes blood flow & waste removal, expediting recovery time. The heightened oxygen levels enhance brain function & decision-making abilities. Providing athletes with improved focus & quicker decision-making during games. HBOT’s elevated oxygen levels accelerate healing time from injuries. Enabling athletes a swift return to training & competition.`,
-		``,
+		nl,
 		`Prominent athletes regularly use hyperbaric chambers for recovery, training, enhancement, & well-being. Such as:`,
 		`- Steve Weatherford (NFL)`,
 		`- Terrell Owens (NFL)`,

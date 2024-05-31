@@ -61,8 +61,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Guided Meditations with Sound`, [
 				`Voice guidance combined with ambient music or nature sounds. Facilitate relaxation & introspection${ref_s2_1_footnote__sup_(ctx)}.`,]],
 			[`### Voice`, [
-				`Chanting, toning, & overtone singing help you find your natural resonance. Facilitating emotional release & connection.`,]],
-		]]],
+				`Chanting, toning, & overtone singing help you find your natural resonance. Facilitating emotional release & connection.`,]],],]],
 	[`## Applications & Benefits`, [
 		`Sound therapy offers a wide range of health benefits, which include:`,
 		()=>[

@@ -59,8 +59,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Boosted Mental Clarity`, [
 				`Improved oxygenation improves cognitive function. Promoting better focus & mental clarity.`,]],
 			[`### Reduced Inflammation`, [
-				`Oxygen plays a vital role in reducing inflammation. Alleviating chronic inflammatory conditions.`,]],
-		]]],
+				`Oxygen plays a vital role in reducing inflammation. Alleviating chronic inflammatory conditions.`,]],],]],
 	[`## Applications of EWOT`, [
 		`EWOT is used in various settings, from sports training facilities to rehabilitation centers. It is particularly effective for:`,
 		`- Athletes looking to enhance performance & reduce recovery times.`,

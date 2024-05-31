@@ -56,8 +56,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Sustained Antidepressant Effects`, [
 				`Exercise could help maintain the antidepressant effects of ketamine over longer periods. Reducing the frequency of required doses${footnote__sup__sort([ref_k1_12_footnote__sup_(ctx),ref_k1_13_footnote__sup_(ctx)])}.`,]],
 			[`### Improved Physical & Mental Health`, [
-				`Regular exercise enhances physical fitness & mental health. Which supports the overall effectiveness of ketamine therapy in improving patient outcomes${footnote__sup__sort([ref_k1_16_1_footnote__sup_(ctx),ref_k1_16_2_footnote__sup_(ctx),ref_k1_18_footnote__sup_(ctx)])}.`,]],
-		]]],
+				`Regular exercise enhances physical fitness & mental health. Which supports the overall effectiveness of ketamine therapy in improving patient outcomes${footnote__sup__sort([ref_k1_16_1_footnote__sup_(ctx),ref_k1_16_2_footnote__sup_(ctx),ref_k1_18_footnote__sup_(ctx)])}.`,]],],]],
 	[`## Key Benefits${mobile_hidden__span_([` of Exercise with Ketamine Infusions`])}`, [
 		`Enhanced Mood & Motivation. Ketamine has shown promise in alleviating symptoms of depression & anxiety. Ketamine with exercise can elevate mood & motivation. Making workouts more enjoyable & rewarding.`,
 		nl,

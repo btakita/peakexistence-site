@@ -41,8 +41,7 @@ export default (ctx:request_ctx_T)=>''
 					[`### ${mobile_hidden__span_([`Enhanced `])}Self-awareness${mobile_hidden__span_([` & `, `/`])}Emotional Processing`, [
 						`Patients often report increased self-awareness & emotional processing. Which is critical for long-term psychological health.`,]],
 					[`### ${mobile_hidden__span_([`Reduction in `])}Treatment-Resistant Symptoms`, [
-						`Psychedelic therapy has been particularly effective in treating symptoms. That has not responded to other treatment modalities.`,]],
-				]]],
+						`Psychedelic therapy has been particularly effective in treating symptoms. That has not responded to other treatment modalities.`,]],],]],
 			[`### Mechanisms of Action`, [
 				`The therapeutic effects of psychedelics stem from altering brain function. Research suggests that psychedelics disrupt the default mode network (DMN). A brain network associated with self-referential thoughts & the ego. This disruption increases brain connectivity & plasticity. Allowing patients to break free from rigid patterns of thought & behavior${footnote__sup__sort([ref_p1_12_footnote__sup_(ctx),ref_p1_15_footnote__sup_(ctx)])}.`,
 				nl,
@@ -109,7 +108,7 @@ export default (ctx:request_ctx_T)=>''
 			nl,
 			`Dr. Emenike maintains a patient-centric approach, emphasizing collaboration & understanding.`,]],
 		[`### Cutting-edge Research`, [
-			`Dr. Emenike continually integrates evidence-based research & best practices into his treatment protocols. Offering patients the most effective & up to date care. Dr. Emenike's brings expert discresion with avid interest in the latest scientific advancements. Bringing the best up-to-date care to you.`,]]]],
+			`Dr. Emenike continually integrates evidence-based research & best practices into his treatment protocols. Offering patients the most effective & up to date care. Dr. Emenike's brings expert discresion with avid interest in the latest scientific advancements. Bringing the best up-to-date care to you.`,]],]],
 ])
 // @formatter:on
 function ref_p1_5_footnote__sup_(ctx:request_ctx_T) {

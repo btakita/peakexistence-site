@@ -49,8 +49,7 @@ export default (ctx:request_ctx_T)=>''
 		nl,
 		()=>[
 			[`### ${mobile_hidden__span_([`Awareness of the implant’s blocking effect on opioids may create a placebo effect.`, `Placebo Effect`])}`, [
-				`Naltrexone implants block the physical cravings to abuse of opioids. But Naltrexone does not eliminate the desire for the euphoric effects of opioids. Using opioids with the implant will not result in the usual euphoric effects. This could lead to increasing the opioid dosage, causing a higher risk of overdose. Don't use opioids while using Naltrexone.`,]]
-		]]],
+				`Naltrexone implants block the physical cravings to abuse of opioids. But Naltrexone does not eliminate the desire for the euphoric effects of opioids. Using opioids with the implant will not result in the usual euphoric effects. This could lead to increasing the opioid dosage, causing a higher risk of overdose. Don't use opioids while using Naltrexone.`,]],],]],
 	[`## Conclusion`, [
 		`Naltrexone implants represent a significant advancement in the treatment of opioid & alcohol dependence. By providing a long-term, steady release of medication, these implants:`,
 		nl,

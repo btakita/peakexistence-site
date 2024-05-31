@@ -43,8 +43,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Protein Delivery`, [
 				`Proteins carried by exosomes can directly influence the signaling pathways within recipient cells. Leading to therapeutic effects${ref_e1_4_footnote__sup_(ctx)}.`,]],
 			[`### Immunomodulation`, [
-				`Exosomes can play a role in regulating immune responses. Which is particularly useful in conditions like autoimmune diseases or in organ transplantation${ref_e1_5_footnote__sup_(ctx)}.`,]],
-		]]],
+				`Exosomes can play a role in regulating immune responses. Which is particularly useful in conditions like autoimmune diseases or in organ transplantation${ref_e1_5_footnote__sup_(ctx)}.`,]],],]],
 	[`## How Exosome Therapy Works?`, [
 		()=>[
 			[`### Harvesting`, [
@@ -58,8 +57,7 @@ export default (ctx:request_ctx_T)=>''
 				`Exosomes interact with target cells. Delivering their payload to:`,
 				`- promote healing`,
 				`- reduce inflammation`,
-				`- stimulate tissue repair`,]],
-		]]],
+				`- stimulate tissue repair`,]],],]],
 	[`## Clinical Applications of Exosome Therapy`, [
 		`Exosome therapy has wide-ranging applications across various fields of medicine. Some of the most promising areas of research & treatment include:`,
 		()=>[
@@ -101,8 +99,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Neurological Conditions`, [
 				`Parkinson's, Alzheimer's, & recovery after stroke.`,]],
 			[`### Cosmetic Uses`, [
-				`Investigated for hair regrowth & skin rejuvenation.`,]],
-		]]],
+				`Investigated for hair regrowth & skin rejuvenation.`,]],],]],
 	[`## Advantages Over Stem Cell Therapy`, [
 		()=>[
 			[`### Safety`, [
@@ -129,8 +126,7 @@ export default (ctx:request_ctx_T)=>''
 				[`### Talk to Your Doctor`, [
 					`If you're considering exosome therapy. Consult a reputable doctor specializing in the condition you seek treatment for.`,]],
 				[`### Seek Reliable Information`, [
-					`Look for information from research institutions, medical societies, & patient advocacy groups.`,]],
-			]]],
+					`Look for information from research institutions, medical societies, & patient advocacy groups.`,]],],]],
 	[`## Conclusion`, [
 		`Exosome therapy stands at the frontier of regenerative medicine. Where the body's molecular mechanisms drive the healing. Exosome therapy is changing the way we approach the treatment of a myriad of conditions, with its:`,
 		`- broad applicability`,

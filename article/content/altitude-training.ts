@@ -142,7 +142,7 @@ export default (ctx:request_ctx_T)=>''
 				[`#### Earth.com (2023)`, [
 					`This source discusses how living at high altitude leads to metabolic changes. Associated with a reduced risk of diseases like diabetes & coronary artery disease. Indirectly supporting how high-altitude living could contribute to longer life spans${ref9_7_footnote__sup_(ctx)}.`,]],
 				[`#### Science Daily (2011)`, [
-					`Study titled "Living at high altitude reduces risk of dying from heart disease: Low oxygen may spur genes to create blood vessels"${ref9_8_footnote__sup_(ctx)}.`]],]],]]],
+					`Study titled "Living at high altitude reduces risk of dying from heart disease: Low oxygen may spur genes to create blood vessels"${ref9_8_footnote__sup_(ctx)}.`]],]],],]],
 	[`## Considerations & Risks`, [
 		[
 			`Altitude training offers significant advantages. It requires careful planning & monitoring to avoid potential drawbacks. Such as altitude sickness & overtraining. Athletes must allow adequate time for acclimatization & recovery. They should consider individual responses to altitude, as these can vary${footnote__sup__sort([ref11_footnote__sup_(ctx), ref17_footnote__sup_(ctx)])}. The logistics of accessing suitable high-altitude training locations. Or the costs associated with simulated altitude environments can be prohibitive for some.`,],

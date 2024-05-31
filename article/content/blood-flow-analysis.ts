@@ -78,8 +78,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Aneurysms`, [
 				`Weakened sections of arteries can bulge (aneurysm), raising the risk of rupture.`]],
 			[`### Peripheral Artery Disease (PAD)`, [
-				`Atherosclerosis in the legs or arms restricts blood flow.`]],
-		]]],
+				`Atherosclerosis in the legs or arms restricts blood flow.`]],],]],
 		[`## How is Blood Flow Analyzed?`, [
 		`Blood flow analysis uses diagnostic techniques to visualize & assess the movement of blood. Through the body's arteries & veins. Providing valuable information on the velocity, volume, & turbulence of blood flow. Allowing healthcare professionals to detect abnormalities indicating underlying health issues. Various techniques help doctors evaluate blood flow:`,
 			()=>[
@@ -151,8 +150,7 @@ export default (ctx:request_ctx_T)=>''
 				`- engaging in regular exercise`,
 				`- managing stress`,]],
 			[`### ${mobile_hidden__span_([`Role of `])}Supplements & Medications`, [
-				`Supplements or medications may be necessary to improve blood flow & heart health. Blood flow analysis can help determine the most effective options. Whether its anticoagulants to prevent clots or statins to lower cholesterol levels.`]],
-		]]],
+				`Supplements or medications may be necessary to improve blood flow & heart health. Blood flow analysis can help determine the most effective options. Whether its anticoagulants to prevent clots or statins to lower cholesterol levels.`]],],]],
 	[`## The Takeaway`, [
 		`Blood flow analysis provides a window into your circulatory health. Offering unparalleled insights into the health of the heart & vessels. Enabling:`,
 		`- early detection`,

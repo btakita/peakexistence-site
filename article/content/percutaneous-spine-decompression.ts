@@ -78,8 +78,7 @@ export default(ctx:request_ctx_T)=>''
 			[`### Nucleoplasty`, [
 				`Where a small amount of disc nucleus is removed to decompress the disc`,]],
 			[`### Annuloplasty`, [
-				`where the disc annulus is treated to reduce pain & inflammation`,]],
-		],
+				`where the disc annulus is treated to reduce pain & inflammation`,]],],
 		nl,
 		`One of the tools used in percutaneous discectomy is the Stryker Dekompressor. Which allows for the aspiration of disc material during percutaneous discectomies. In the lumbar, thoracic, & cervical regions of the spine. This system offers clinically proven tools for identifying & treating symptomatic discs. Providing significant pain relief, reduced use of analgesics, & improved quality of life${ref1_footnote__sup_(ctx)}.`]],
 	[`## Techniques & Technologies`, [

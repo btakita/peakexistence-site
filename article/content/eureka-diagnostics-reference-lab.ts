@@ -26,8 +26,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Toxicology Screening`, [
 				`Offering comprehensive drug & alcohol testing for various contexts. Including employment screening & medical evaluations.`,]],
 			[`### Imaging`, [
-				`X-rays, ultrasounds, CT scans, & potentially other modalities depending on their capabilities.`,]],
-		],]],
+				`X-rays, ultrasounds, CT scans, & potentially other modalities depending on their capabilities.`,]],],]],
 	[`## The Eureka Advantage`, [
 		`What sets Eureka Diagnostics apart is its commitment to innovation, accuracy, & speed. The laboratory employs cutting-edge technologies. Ensuring precise results & reduced turnaround times. This efficiency is critical in healthcare. Where timely diagnosis can impact patient outcomes.`,
 		()=>[

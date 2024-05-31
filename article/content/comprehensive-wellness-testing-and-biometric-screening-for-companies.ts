@@ -22,8 +22,7 @@ export default (ctx:request_ctx_T)=>''
 		`In today's world, taking a proactive approach to your health is more important than ever. Comprehensive wellness testing & screening empowers your journey towards optimal well-being. This article explores what these tests entail. Their benefits. How to navigate the options available.`,
 		()=>[
 			[`### Corporate Wellness`, [
-				`Comprehensive wellness testing & biometric screening emerge as key components in corporate wellness programs. Offering a proactive approach to managing employee health. These initiatives aim to improve individual health outcomes. Enhancing overall workplace productivity & reducing healthcare costs.`,]]]
-		]],
+				`Comprehensive wellness testing & biometric screening emerge as key components in corporate wellness programs. Offering a proactive approach to managing employee health. These initiatives aim to improve individual health outcomes. Enhancing overall workplace productivity & reducing healthcare costs.`,]],],]],
 	[`## ${mobile_hidden__span_([`Understanding Comprehensive `])}Wellness Testing`, [
 		`Comprehensive wellness testing goes beyond traditional health assessments. To provide a detailed overview of an employee's health status. This type of testing typically includes:`,
 		`- expanded lab panels`,
@@ -76,8 +75,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Cost Savings`, [
 				`By identifying & addressing health risks early. Companies can significantly reduce healthcare expenses related to treating chronic diseases. Additionally, healthier employees tend to have lower absenteeism rates & higher productivity levels${footnote__sup__sort([ref_c_3_footnote__sup_(ctx), ref_c_10_footnote__sup_(ctx),])}.`,]],
 			[`### ${mobile_hidden__span_([`Enhanced `])}Employee Engagement & Morale`, [
-				`Implementing health screenings shows employees that their health is valued by the organization. This boosts morale & increases employee engagement. Leading to a more positive & productive work environment${ref_c_15_footnote__sup_(ctx)}.`,]],
-		]]],
+				`Implementing health screenings shows employees that their health is valued by the organization. This boosts morale & increases employee engagement. Leading to a more positive & productive work environment${ref_c_15_footnote__sup_(ctx)}.`,]],],]],
 	[`## Considering ${mobile_hidden__span_([`Comprehensive `])}Wellness Testing?`, [
 		`Here's what to keep in mind:`,
 		()=>[

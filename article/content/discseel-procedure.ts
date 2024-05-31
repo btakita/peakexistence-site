@@ -66,15 +66,13 @@ export default (ctx:request_ctx_T)=>''
 		`Discseel® is for patients who have failed to find relief through conventional treatments. Such as physical therapy, medications, or injections. Ideal candidates are those with confirmed annular tears. Often detected using an Annulogram. Often undetectable through standard MRI scans.`,
 		nl,
 		`This procedure might be considered if you have:`,
-		,
 		()=>[
 			[`### Chronic Back Pain`, [
 				`Persistent pain for at least six months, primarily in the lower back.`,]],
 			[`### Discogenic Pain`, [
 				`Pain confirmed to originate from a damaged disc.`,]],
 			[`### Failed Conservative Treatments`, [
-				`When rest, medication, & physical therapy haven't provided sufficient relief.`,]],
-		]]],
+				`When rest, medication, & physical therapy haven't provided sufficient relief.`,]],],]],
 	[`## Patient Experiences`, [
 		`Testimonials from patients who have undergone the Discseel® Procedure are overwhelmingly positive. Many report significant pain reduction & a return to normal activities. For instance, patients have described being able to enjoy active lifestyles again. Free from the chronic pain that once hindered them${footnote__sup__sort([/* ref1_footnote__sup_(ctx), ref4_footnote__sup_(ctx), */ ref7_footnote__sup_(ctx), ref8_footnote__sup_(ctx)])}.`,]],
 		[`## Recovery & Outcomes`, [
@@ -88,15 +86,13 @@ export default (ctx:request_ctx_T)=>''
 			[`### Evolving Treatment`, [
 				`Long-term effectiveness data is still emerging.`,]],
 			[`### Candid Discussion`, [
-				`Talk to your doctor about the potential risks, success rates, & if it's the right approach. In your specific situation.`,]],
-		]]],
+				`Talk to your doctor about the potential risks, success rates, & if it's the right approach. In your specific situation.`,]],],]],
 	[`## Where to Find the Discseel® Procedure`, [
 		()=>[
 			[`### Specialized Providers`, [
 				`Not all spine centers offer this treatment. Search for surgeons trained in the Discseel® Procedure.`,]],
 			[`### Insurance Coverage`, [
-				`Coverage varies. Consult with your insurance provider.`,]],
-		]]],
+				`Coverage varies. Consult with your insurance provider.`,]],],]],
 	[`## The Bottom Line`, [
 		`The Discseel® Procedure provides an alternative for chronic back pain. Stemming from damaged discs. When other treatments have failed. It's a promising & less invasive option. It's vital to have realistic expectations. And a thorough discussion with a qualified spine specialist. To determine if it's suitable for your individual needs.`,]],
 	[`## Conclusion`, [

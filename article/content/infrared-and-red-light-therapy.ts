@@ -35,11 +35,10 @@ export default (ctx:request_ctx_T)=>''
 		nl,
 		`PBM accelerates recovery & relieves symptoms without invasive procedures.`,]],
 	[`## Mechanisms of Action`, [
-		[
-			`The therapeutic effects of infrared & red light therapy. Are primarily attributed to their impact on mitochondrial function within cells. The mitochondria are the "powerhouses" of cells, responsible for energy production. Red & infrared light is absorbed by a mitochondrial enzyme called cytochrome c oxidase. Which plays a pivotal role in the cellular respiratory chain${footnote__sup__sort(ref_i1_7_footnote__sup_(ctx),ref_i1_8_footnote__sup_(ctx))}.`,
-			nl,
-			`This absorption of light energy leads to:`,
-			nl,],
+		`The therapeutic effects of infrared & red light therapy. Are primarily attributed to their impact on mitochondrial function within cells. The mitochondria are the "powerhouses" of cells, responsible for energy production. Red & infrared light is absorbed by a mitochondrial enzyme called cytochrome c oxidase. Which plays a pivotal role in the cellular respiratory chain${footnote__sup__sort(ref_i1_7_footnote__sup_(ctx),ref_i1_8_footnote__sup_(ctx))}.`,
+		nl,
+		`This absorption of light energy leads to:`,
+		nl,
 		()=>[
 			[`### Increased Production of ATP`, [
 				`Enhanced ATP (adenosine triphosphate) production provides more energy for cells. Facilitating various healing & regenerative processes${footnote__sup__sort(ref_i1_7_footnote__sup_(ctx),ref_i1_8_footnote__sup_(ctx))}.`,]],
@@ -84,8 +83,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Mood Enhancement`, [
 				`Exposure to red & infrared light can improve mood & energy. By increasing serotonin levels.`,]],
 			[`### Safety & Considerations`, [
-				`Infrared & red light therapy is generally considered safe, with minimal side effects. It is crucial to use these therapies under the guidance of a qualified professional. especially when treating serious medical conditions. The most common side effects include temporary discomfort & redness at the treatment site${ref_i1_14_footnote__sup_(ctx)}.`,]],
-		]]],
+				`Infrared & red light therapy is generally considered safe, with minimal side effects. It is crucial to use these therapies under the guidance of a qualified professional. especially when treating serious medical conditions. The most common side effects include temporary discomfort & redness at the treatment site${ref_i1_14_footnote__sup_(ctx)}.`,]],],]],
 	[`## Considerations`, [
 		()=>[
 			[`### Pros`, [
@@ -102,16 +100,17 @@ export default (ctx:request_ctx_T)=>''
 		`- individuals with chronic pain conditions`,
 		`- those seeking anti-aging solutions`,]],
 	[`## Getting Started`, [
-		dl_tree_({ ctx, _: sticky_h2__dl_tree_props_,
-			dl_class: '[counter-reset:_order]',
-			dt_class: class_('[&>h3]:before:[counter-increment:order]', '[&>h3]:before:content-[counter(order)_\'._\']')
-		}, ()=>[
+		()=>[
+			{
+				dl_class: '[counter-reset:_order]',
+				dt_class: class_('[&>h3]:before:[counter-increment:order]', '[&>h3]:before:content-[counter(order)_\'._\']'),
+			},
 			[`### Research`, [
 				`Understand the specific benefits & find a reputable provider or device.`,]],
 			[`### Consultation`, [
 				`Talk to a healthcare professional, especially if you have pre-existing conditions.`,]],
 			[`### Trial Sessions`, [
-				`Start with a few sessions to see how your body responds.`,]],]),]],
+				`Start with a few sessions to see how your body responds.`,]],],]],
 	[`## Takeaway`, [
 		`Infrared & red light therapy represents a significant advancement in non-invasive medical treatments. Offering a wide range of health benefits from pain relief & injury recovery. To skin rejuvenation & mental health improvement. These therapies are likely to become more integrated into routine medical practice. Providing patients with safe, effective, & natural treatment options for a variety of ailments${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx),ref_i1_15_footnote__sup_(ctx)])}.`,]],
 	[`## Conclusion`, [

@@ -71,8 +71,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Enhanced Mental Clarity`, [
 				`The combination of exercise & detoxification supports brain health. By improving circulation & oxygen supply to the brain. This results in better focus, memory, & cognitive function.`,]],
 			[`### Balanced Hormones`, [
-				`Regular exercise helps regulate hormone levels. Detox therapy eliminates hormone-disrupting toxins from the body. Bringing harmony to your body's internal environment.`,]],
-		]]],
+				`Regular exercise helps regulate hormone levels. Detox therapy eliminates hormone-disrupting toxins from the body. Bringing harmony to your body's internal environment.`,]],],]],
 	[`## ${mobile_hidden__span_([`Exercise with Detox Therapy `])}Techniques`, [
 		()=>[
 			[`### Yoga & Stretching`, [
@@ -86,8 +85,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Sauna Sessions`, [
 				`Combine exercise with sauna sessions, facilitating toxin release through sweat.`,]],
 			[`### Hydration`, [
-				`Stay well-hydrated during exercise to support detoxification through urine & sweat.`,]],
-		]]],
+				`Stay well-hydrated during exercise to support detoxification through urine & sweat.`,]],],]],
 		[`## Implementing Exercise into Detox Therapy`, [
 			`When incorporating exercise into a detox plan. It's essential to choose activities that align with the body's current state. With the goals of the detox. Gentle, low-impact exercises like walking, swimming, yoga, & Tai Chi are often recommended. Especially for those in the early stages of detox or those with limited physical fitness. As the body adjusts & strengthens, more vigorous activities can be introduced.`,]],
 		[`## Conclusion`, [

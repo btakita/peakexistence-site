@@ -65,14 +65,12 @@ export default (ctx:request_ctx_T)=>''
 					[`### Vitamin D tests`, [
 						`Vitamin D deficiency is linked to various health concerns${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}.`,]],
 					[`### Additional tests`, [
-						`Depending on your age, gender, & health history. Further tests like STD screenings or bone density scans assess areas of improvement${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}.`,]],
-				]]]],
+						`Depending on your age, gender, & health history. Further tests like STD screenings or bone density scans assess areas of improvement${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}.`,]],],]],],
 		``,
 		`These screenings are quick, usually taking about 10–15 minutes. Providing immediate feedback on an employee's health status. The primary aim is to establish a health baseline. That can be used to monitor changes over time. Identifying risk factors for chronic diseases like${footnote__sup__sort([ref1_footnote__sup_(ctx), ref3_footnote__sup_(ctx), ref4_footnote__sup_(ctx),])}:`,
 		`- hypertension`,
 		`- diabetes`,
-		`- cardiovascular conditions`
-	]],
+		`- cardiovascular conditions`,]],
 	[`## Benefits${mobile_hidden__span_([` of Comprehensive Wellness Testing:`])}`, [
 		()=>[
 			[`### Early Disease Detection`, [
@@ -86,8 +84,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Enhanced Health Awareness`, [
 				`Comprehensive testing & screening increases health awareness, empowering individuals to make informed decisions about their health & lifestyle${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx), ref_i1_4_footnote__sup_(ctx),])}.`,]],
 			[`### Peace of Mind`, [
-				`Knowing your health status can reduce anxiety. Empowering you to take charge of your well-being.`,]],
-		]]],
+				`Knowing your health status can reduce anxiety. Empowering you to take charge of your well-being.`,]],],]],
 	[`## Considering ${mobile_hidden__span_([`Comprehensive `])}Wellness Testing?`, [
 		`Here's what to keep in mind:`,
 		()=>[
@@ -98,9 +95,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### ${mobile_hidden__span_([`Review c`, `C`])}osts & insurance coverage`, [
 				`Testing costs can vary. Investigate insurance coverage to understand your financial responsibility.`,]],
 			[`### Interpreting results`, [
-				`Don't panic if you see abnormal results. Discuss them with your doctor to determine the next steps.`].join(nl)],
-		]]],
-])
+				`Don't panic if you see abnormal results. Discuss them with your doctor to determine the next steps.`].join(nl)],],]],])
 + md__raw_({ ctx }, lines_(
 	`**Comprehensive wellness testing & screening is an investment in your long-term health. By taking a proactive approach, you can:**`,
 		`- **gain valuable insights**`,

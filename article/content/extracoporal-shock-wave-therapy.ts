@@ -32,8 +32,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Breaking-Up Calcifications`, [
 				`In some conditions like tendinosis, ESWT may help break up painful calcium deposits.`,]],
 			[`### Break down scar tissue`, [
-				`The high-energy shock waves disrupt the fibrous tissue bands. That cause pain & restrict movement. This process promotes the remodeling of scar tissue into a more organized structure. Enhancing flexibility & function.`,]],
-		]]],
+				`The high-energy shock waves disrupt the fibrous tissue bands. That cause pain & restrict movement. This process promotes the remodeling of scar tissue into a more organized structure. Enhancing flexibility & function.`,]],],]],
 	[`## Conditions${mobile_hidden__span_([` ESWT May Be Used For`, ` Treated`])}`, [
 		`The therapy capitalizes on the body's natural healing mechanisms. Triggering the release of growth factors & anti-inflammatory compounds. Facilitating tissue regeneration & repair.`,
 		()=>[
@@ -59,8 +58,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Focused Shock Wave Therapy (FSWT)`, [
 				`This involves the application of acoustic waves transmitted in a narrow, focused pattern. Initially used for lithotripsy (kidney stone treatment) & later explored for musculoskeletal applications.`,]],
 			[`### Radial Shock Wave Therapy (RSWT)`, [
-				`In this type, acoustic waves are transmitted in a more diffuse, radial pattern. It is commonly used for treating superficial musculoskeletal conditions.${mac_20527246_footnote__sup_(ctx)}`,]],
-		]]],
+				`In this type, acoustic waves are transmitted in a more diffuse, radial pattern. It is commonly used for treating superficial musculoskeletal conditions.${mac_20527246_footnote__sup_(ctx)}`,]],],]],
 	[`## Clinical Applications of ESWT`, [
 		[
 			`ESWT has been studied & used for various musculoskeletal conditions, including:`,
@@ -85,8 +83,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Bone Healing & Rehabilitation`, [
 				`ESWT accelerates bone healing & treating conditions. Such as delayed bone union or avascular necrosis. Its regenerative capabilities encourage bone tissue repair. Making it a valuable tool in orthopedic rehabilitation.`,]],
 			[`### Sports Injuries`, [
-				`Athletes recovering from sports-related injuries find ESWT to be a game-changer. By speeding up the healing process & reducing downtime. ESWT allows athletes to return to their activities faster. With reduced risk of re-injury.`,]],
-		]]],
+				`Athletes recovering from sports-related injuries find ESWT to be a game-changer. By speeding up the healing process & reducing downtime. ESWT allows athletes to return to their activities faster. With reduced risk of re-injury.`,]],],]],
 	[`## The Benefits of ESWT`, [
 		()=>[
 			[`### Non-Invasive`, [
@@ -96,8 +93,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Rapid Results`, [
 				`Many patients experience significant pain relief & improved function after a few sessions.`,]],
 			[`### No Downtime`, [
-				`ESWT requires no downtime. Allowing patients to continue with their daily activities immediately after treatment.`,]],
-		]]],
+				`ESWT requires no downtime. Allowing patients to continue with their daily activities immediately after treatment.`,]],],]],
 	[`## The ESWT Procedure`, [
 		()=>[
 			[`### Non-Invasive`, [
@@ -109,14 +105,12 @@ export default (ctx:request_ctx_T)=>''
 			[`### Treatment Sessions`, [
 				`Typically, it requires multiple sessions over several weeks.`,]],
 			[`### Some Discomfort`, [
-				`The procedure can cause tingling, aching, or a feeling similar to a strong elastic band snap.`,]],
-		]]],
+				`The procedure can cause tingling, aching, or a feeling similar to a strong elastic band snap.`,]],],]],
 	[`## What the Evidence Says`, ()=>[
 			[`### Mixed Results`, [
 				`Research shows ESWT can be effective for certain conditions. Especially plantar fasciitis, tennis elbow, & some shoulder problems. Research is ongoing for other conditions.`,]],
 			[`### Not a Cure-All`, [
-				`It's crucial to have realistic expectations. ESWT offers pain relief & improves function. Often works best alongside other treatments like physical therapy.`,]],
-		]],
+				`It's crucial to have realistic expectations. ESWT offers pain relief & improves function. Often works best alongside other treatments like physical therapy.`,]],]],
 	[`## Efficacy & Evidence`, [
 		`Several systematic reviews & meta-analyses have evaluated the efficacy of ESWT for various conditions. The evidence is promising. There is still a need for more high-quality studies & standardized protocols.${PMC10648068_footnote__sup_(ctx)}${jot_10_1097__footnote__sup_(ctx)}`,
 		nl,
@@ -126,8 +120,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### If Conservative Treatment Fails`, [
 				`ESWT may be useful when like rest, medication, or physical therapy are not sufficient.`,]],
 			[`### Seeking a Non-Surgical Option`, [
-				`ESWT may be an option before considering more invasive procedures. Like injections or surgery.`,]],
-		]]],
+				`ESWT may be an option before considering more invasive procedures. Like injections or surgery.`,]],],]],
 	[`## Safety & Contraindications`, [
 		`ESWT is generally considered safe. With few reported side effects, such as temporary pain or discomfort during treatment${PMC10648068_footnote__sup_(ctx)}${PMC7608508_footnote__sup_(ctx)}. Contraindications may include${PMC10648068_footnote__sup_(ctx)}:`,
 		`- anticoagulant therapy`,

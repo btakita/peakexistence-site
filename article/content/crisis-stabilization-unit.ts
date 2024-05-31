@@ -70,8 +70,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Short-term Stabilization`, [
 				`The core offering of CSUs is short-term stabilization. This includes therapeutic interventions aimed at alleviating acute symptoms. Medication management, if necessary. The environment is calming & supportive. Providing a safe space for individuals in distress.`,]],
 			[`### Connection to Ongoing Care`, [
-				`Crisis Stabilization Units play connect patients with long-term care options. Before discharge, staff work with patients to develop a follow-up care plan. Which may include outpatient therapy, community resources, or other supportive services.`,]],
-		]]],
+				`Crisis Stabilization Units play connect patients with long-term care options. Before discharge, staff work with patients to develop a follow-up care plan. Which may include outpatient therapy, community resources, or other supportive services.`,]],],]],
 	[`## Who Can Benefit?`, [
 		`CSUs may be helpful for people experiencing:`,
 		`- Severe depression or anxiety`,
@@ -91,8 +90,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Preventative Focus`, [
 				`Proactive support in CSUs can help prevent relapse. Reducing the future need for hospitalization.`,]],
 			[`### Stepping Stone`, [
-				`For some, CSUs can be a bridge to the appropriate level of treatment. Rather than rushed decisions for long-term care.`,]],
-		]]],
+				`For some, CSUs can be a bridge to the appropriate level of treatment. Rather than rushed decisions for long-term care.`,]],],]],
 	[`## Benefits${mobile_hidden__span_([` of Crisis Stabilization Units`])}`, [
 		`CSUs fill a critical gap in the mental health care system. By offering an alternative to hospitalization for individuals in crisis. This approach provides immediate relief for patients. Alleviating the burden on emergency departments & inpatient psychiatric facilities. By focusing on rapid stabilization & connection to ongoing care. CSUs helps prevent the escalation of mental health crises & promote long-term recovery.`,
 		()=>[
@@ -109,10 +107,7 @@ export default (ctx:request_ctx_T)=>''
 					[`#### Continuity of Care`, [
 						`By emphasizing the connection to ongoing treatment. CSUs ensure that patients have access to the resources they need. To manage their mental health in the long term.`,]],
 					[`#### Community Impact`, [
-						`CSUs play a vital role in maintaining public safety & enhancing the quality of life within communities. By stabilizing individuals in acute crisis & connecting them with ongoing support${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`,]]
-				]
-			]],
-		]]],
+						`CSUs play a vital role in maintaining public safety & enhancing the quality of life within communities. By stabilizing individuals in acute crisis & connecting them with ongoing support${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`,]],],]],],]],
 	[`## The Takeaway`, [
 		`Crisis stabilization units are an accessible & responsive form of mental health care. Providing rapid, compassionate, & targeted support during crises. They empower individuals to:`,
 		`- regain stability`,

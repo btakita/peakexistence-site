@@ -101,8 +101,7 @@ export default (ctx:request_ctx_T)=>''
 			[`### Mobility Improvement`, [
 				`Enhances quality of life.`,]],
 			[`### Surgery Delay`, [
-				`Buying time may prevent the need for replacement.`
-			,]],],]],
+				`Buying time may prevent the need for replacement.`,]],],]],
 	[`## Considerations`, [
 		()=>[
 			[`### Pros`, [

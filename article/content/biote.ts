@@ -33,8 +33,7 @@ export default (ctx:request_ctx_T)=>''
 		`BioTE®'s core offering revolves around its proprietary method of hormone optimization. Which is designed to alleviate symptoms associated with hormonal imbalance. Such as fatigue, mood swings, & sleep disturbances. This method is particularly beneficial during menopause for women & andropause for men. Addressing the natural decline in hormone production that occurs with age${footnote__sup__sort([ref_b4_1_footnote__sup_(ctx),ref_b4_3_footnote__sup_(ctx),ref_b4_8_footnote__sup_(ctx),ref_b4_9_footnote__sup_(ctx)])}.`,
 		()=>[
 			[`### Reduces Breast Cancer in Women`, [
-				`Testosterone pellet therapy reduces the incidence of breast cancer in women. It is part of BioTE®'s hormone optimization offerings${footnote__sup__sort([ref_b3_3_footnote__sup_(ctx),ref_b3_3_1_footnote__sup_(ctx),ref_b4_6_footnote__sup_(ctx),ref_b4_9_footnote__sup_(ctx)])}.`,]],
-		]]],
+				`Testosterone pellet therapy reduces the incidence of breast cancer in women. It is part of BioTE®'s hormone optimization offerings${footnote__sup__sort([ref_b3_3_footnote__sup_(ctx),ref_b3_3_1_footnote__sup_(ctx),ref_b4_6_footnote__sup_(ctx),ref_b4_9_footnote__sup_(ctx)])}.`,]],],]],
 	[`## Benefits of BioTE®`, ()=>[
 		[`### Personalized Treatment`, [
 			`Each BioTE® treatment plan is meticulously tailored to the individual's hormonal needs. Offering a personalized approach to hormone therapy. This customization ensures that patients receive the precise hormone levels. Required to address their specific imbalances${footnote__sup__sort([ref_b2_7_footnote__sup_(ctx),ref_b2_7_1_footnote__sup_(ctx),ref_b1_5_1_footnote__sup_(ctx),ref_b1_5_footnote__sup_(ctx)])}.`,]],

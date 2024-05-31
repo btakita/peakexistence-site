@@ -14,7 +14,6 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	title: 'Spinal Cord Stimulation: Managing Chronic Pain with Electrical Impulses',
 	description: `Chronic pain, particularly in the back & limbs, can be debilitating for sufferers. Often leading to significant reductions in quality of life & functional ability. Traditional treatments such as medications, physical therapy, or surgery may not provide relief. Leaving patients in continuous discomfort. Spinal cord stimulation (SCS) emerges as a solution for pain management. Offering hope & substantial pain relief for those with chronic pain conditions.`,
 })
-
 // @formatter:off
 // language=md
 export default (ctx:request_ctx_T)=>''
@@ -263,10 +262,11 @@ function ref8_footnote__sup_(ctx:request_ctx_T) {
 		id: 'springer8'
 	}, [
 		tb_a_({
-			href: 'https://link.springer.com/article/10.1007/s40122-021-00287-4',
-			nofollow: true,
-			wrap: true,
-		}, 'Efficacy and Safety of 10 kHz Spinal Cord Stimulation Using Cervical and Thoracic Leads: A Single-Center Retrospective Experience')
+				href: 'https://link.springer.com/article/10.1007/s40122-021-00287-4',
+				nofollow: true,
+				wrap: true,
+			},
+			'Efficacy and Safety of 10 kHz Spinal Cord Stimulation Using Cervical and Thoracic Leads: A Single-Center Retrospective Experience')
 	])
 }
 function ref9_footnote__sup_(ctx:request_ctx_T) {
@@ -347,10 +347,11 @@ function ref1_1_footnote__sup_(ctx:request_ctx_T) {
 		id: 'nature'
 	}, [
 		tb_a_({
-			href: 'https://www.nature.com/articles/s41598-020-77212-w',
-			nofollow: true,
-			wrap: true,
-		}, 'Time-dynamic pulse modulation of spinal cord stimulation reduces mechanical hypersensitivity and spontaneous pain in rats')
+				href: 'https://www.nature.com/articles/s41598-020-77212-w',
+				nofollow: true,
+				wrap: true,
+			},
+			'Time-dynamic pulse modulation of spinal cord stimulation reduces mechanical hypersensitivity and spontaneous pain in rats')
 	])
 }
 function ref1_2_footnote__sup_(ctx:request_ctx_T) {
@@ -371,10 +372,11 @@ function ref1_3_footnote__sup_(ctx:request_ctx_T) {
 		id: 'nih1_3'
 	}, [
 		tb_a_({
-			href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10301664/',
-			nofollow: true,
-			wrap: true,
-		}, 'Advances in Spinal Cord Neuromodulation: The Integration of Neuroengineering, Computational Approaches, and Innovative Conceptual Frameworks')
+				href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10301664/',
+				nofollow: true,
+				wrap: true,
+			},
+			'Advances in Spinal Cord Neuromodulation: The Integration of Neuroengineering, Computational Approaches, and Innovative Conceptual Frameworks')
 	])
 }
 function ref1_4_footnote__sup_(ctx:request_ctx_T) {
@@ -383,10 +385,11 @@ function ref1_4_footnote__sup_(ctx:request_ctx_T) {
 		id: 'biomedcentral1_4'
 	}, [
 		tb_a_({
-			href: 'https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07637-x',
-			nofollow: true,
-			wrap: true,
-		}, 'Efficacy of the latest new stimulation patterns of spinal cord stimulation for intractable neuropathic pain compared to conventional stimulation: study protocol for a clinical trial')
+				href: 'https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-023-07637-x',
+				nofollow: true,
+				wrap: true,
+			},
+			'Efficacy of the latest new stimulation patterns of spinal cord stimulation for intractable neuropathic pain compared to conventional stimulation: study protocol for a clinical trial')
 	])
 }
 function ref1_9_footnote__sup_(ctx:request_ctx_T) {
@@ -492,10 +495,11 @@ function ref2_8_footnote__sup_(ctx:request_ctx_T) {
 		id: 'springer2_8'
 	}, [
 		tb_a_({
-			href: 'https://link.springer.com/article/10.1007/s12471-020-01422-0',
-			nofollow: true,
-			wrap: true,
-		}, 'Improvement in quality of life and angina pectoris: 1-year follow-up of patients with refractory angina pectoris and spinal cord stimulation')
+				href: 'https://link.springer.com/article/10.1007/s12471-020-01422-0',
+				nofollow: true,
+				wrap: true,
+			},
+			'Improvement in quality of life and angina pectoris: 1-year follow-up of patients with refractory angina pectoris and spinal cord stimulation')
 	])
 }
 function ref2_9_footnote__sup_(ctx:request_ctx_T) {
@@ -504,10 +508,11 @@ function ref2_9_footnote__sup_(ctx:request_ctx_T) {
 		id: 'lww2_9'
 	}, [
 		tb_a_({
-			href: 'https://journals.lww.com/ctg/fulltext/2020/02000/treatment_of_chronic_abdominal_pain_with_10_khz.3.aspx',
-			nofollow: true,
-			wrap: true,
-		}, 'Treatment of Chronic Abdominal Pain With 10-kHz Spinal Cord Stimulation: Safety and Efficacy Results From a 12-Month Prospective, Multicenter, Feasibility Study')
+				href: 'https://journals.lww.com/ctg/fulltext/2020/02000/treatment_of_chronic_abdominal_pain_with_10_khz.3.aspx',
+				nofollow: true,
+				wrap: true,
+			},
+			'Treatment of Chronic Abdominal Pain With 10-kHz Spinal Cord Stimulation: Safety and Efficacy Results From a 12-Month Prospective, Multicenter, Feasibility Study')
 	])
 }
 function ref2_10_footnote__sup_(ctx:request_ctx_T) {
@@ -516,10 +521,11 @@ function ref2_10_footnote__sup_(ctx:request_ctx_T) {
 		id: 'nih2_10'
 	}, [
 		tb_a_({
-			href: 'https://pubmed.ncbi.nlm.nih.gov/24341686/',
-			nofollow: true,
-			wrap: true,
-		}, 'Therapeutic potential of spinal cord stimulation for gastrointestinal motility disorders: a preliminary rodent study')
+				href: 'https://pubmed.ncbi.nlm.nih.gov/24341686/',
+				nofollow: true,
+				wrap: true,
+			},
+			'Therapeutic potential of spinal cord stimulation for gastrointestinal motility disorders: a preliminary rodent study')
 	])
 }
 function ref2_11_footnote__sup_(ctx:request_ctx_T) {
@@ -528,10 +534,11 @@ function ref2_11_footnote__sup_(ctx:request_ctx_T) {
 		id: 'q4cdn'
 	}, [
 		tb_a_({
-			href: 'https://s28.q4cdn.com/260621474/files/doc_downloads/outcomes/2020/08/Treatment-of-Chronic-Abdominal-Pain-With-10-kHz-Spinal-Cord-Stimulation-Results-From-a-12-Month-Prospective-Multicenter-Feasibility-Study.pdf',
-			nofollow: true,
-			wrap: true,
-		}, 'Treatment of Chronic Abdominal Pain With 10-kHz Spinal Cord Stimulation: Safety and Efficacy Results From a 12-Month Prospective, Multicenter, Feasibility Study')
+				href: 'https://s28.q4cdn.com/260621474/files/doc_downloads/outcomes/2020/08/Treatment-of-Chronic-Abdominal-Pain-With-10-kHz-Spinal-Cord-Stimulation-Results-From-a-12-Month-Prospective-Multicenter-Feasibility-Study.pdf',
+				nofollow: true,
+				wrap: true,
+			},
+			'Treatment of Chronic Abdominal Pain With 10-kHz Spinal Cord Stimulation: Safety and Efficacy Results From a 12-Month Prospective, Multicenter, Feasibility Study')
 	])
 }
 function ref2_12_footnote__sup_(ctx:request_ctx_T) {
@@ -552,10 +559,11 @@ function ref2_13_footnote__sup_(ctx:request_ctx_T) {
 		id: 'wiley'
 	}, [
 		tb_a_({
-			href: 'https://onlinelibrary.wiley.com/doi/full/10.1002/clc.24016',
-			nofollow: true,
-			wrap: true,
-		}, 'Design and rationale of the efficacy of spinal cord stimulation in patients with refractory angina pectoris (SCRAP) trial')
+				href: 'https://onlinelibrary.wiley.com/doi/full/10.1002/clc.24016',
+				nofollow: true,
+				wrap: true,
+			},
+			'Design and rationale of the efficacy of spinal cord stimulation in patients with refractory angina pectoris (SCRAP) trial')
 	])
 }
 function ref2_14_footnote__sup_(ctx:request_ctx_T) {
