@@ -1,4 +1,6 @@
 import '../index.css'
+import { about__doc_html_ } from '@btakita/ui--server--peakexistence/about'
+import { partners__doc_html_ } from '@btakita/ui--server--peakexistence/partner'
 import { tag__doc_html_, tags__doc_html_ } from '@btakita/ui--server--peakexistence/tag'
 import { tag__set } from '@rappstack/domain--server--blog/tag'
 import { Elysia } from 'elysia'
@@ -10,6 +12,14 @@ export default middleware_(middleware_ctx=>
 	new Elysia({
 		name: 'root_routes'
 	})
+		.get('/about', async context=>{
+			const ctx = peakexistence_request_ctx__ensure(middleware_ctx, context, { blog_site })
+			return html_response__new(about__doc_html_({ ctx }))
+		})
+		.get('/partners', async context=>{
+			const ctx = peakexistence_request_ctx__ensure(middleware_ctx, context, { blog_site })
+			return html_response__new(partners__doc_html_({ ctx }))
+		})
 		.get('/tags', async context=>{
 			const ctx = peakexistence_request_ctx__ensure(
 				middleware_ctx,
