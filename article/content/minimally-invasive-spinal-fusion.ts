@@ -31,10 +31,9 @@ export default (ctx:request_ctx_T)=>''
 		`Minimally invasive spinal fusion joins two or more vertebrae. This limits movement & reduces pain. Small incisions & specialized instruments aid the procedure.`,]],
 	[`## ${mobile_hidden__span_([`The `])}Evolution of ${mobile_hidden__span_([`Minimally Invasive Spinal`, `MIS`])} Fusion`, [
 		`Minimally invasive spinal fusion techniques address the drawbacks of open spine surgery. These techniques involve:`,
-		lines_(
-			`- smaller skin incisions`,
-			`- less tissue damage`,
-			`- quicker recovery`,),
+		`- smaller skin incisions`,
+		`- less tissue damage`,
+		`- quicker recovery`,
 		nl,
 		`While achieving clinical outcomes comparable to open surgery${footnote__sup__sort([ref14_footnote__sup_(ctx), ref18_footnote__sup_(ctx)])}. The development of MISF began with lumbar discectomy under a microscope. Since expanding to include a variety of procedures for decompression & fusion${ref14_footnote__sup_(ctx)}.`,]],
 	[`## Key Principles of MIS Fusion`, ()=>[
@@ -59,12 +58,11 @@ export default (ctx:request_ctx_T)=>''
 		`MISF employs specialized instruments, such as tubular retractors & endoscopes. To access the spine through small incisions. Using an operating microscope or endoscope equipped with a camera. Allows surgeons to visualize the surgical site. Without the need for large incisions${footnote__sup__sort([ref1_footnote__sup_(ctx),/* ref3_footnote__sup_(ctx), */ ref5_footnote__sup_(ctx), ref14_footnote__sup_(ctx),])}. Using advanced imaging techniques, such as fluoroscopy or computer-assisted navigation. To guide the accurate placement of hardware. Such as screws & rods, to stabilize the spine${footnote__sup__sort([ref10_footnote__sup_(ctx), ref20_footnote__sup_(ctx),])}.`,]],
 	[`## Indications for ${mobile_hidden__span_([`Minimally Invasive Spinal`, `MIS`])} Fusion`, [
 		`MISF is recommended for various spinal conditions. When nonsurgical treatments fail to provide adequate relief. Indications include${footnote__sup__sort([ref11_footnote__sup_(ctx), ref16_footnote__sup_(ctx), ref20_footnote__sup_(ctx),])}:`,
-		lines_(
-			`- herniated discs`,
-			`- spinal stenosis`,
-			`- spondylolisthesis`,
-			`- degenerative spinal disease`,
-			`- spine deformities like scoliosis`,),
+		`- herniated discs`,
+		`- spinal stenosis`,
+		`- spondylolisthesis`,
+		`- degenerative spinal disease`,
+		`- spine deformities like scoliosis`,
 		nl,
 		`The specific approach & technique used in MISF depend on the location & nature of the spinal pathology.`,]],
 	[`## Benefits of ${mobile_hidden__span_([`Minimally Invasive Spinal`, `MIS`])} Fusion`, [

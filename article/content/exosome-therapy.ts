@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -19,20 +19,18 @@ export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 		[`## Exosomes`, [
 			`Exosomes are tiny, extracellular vesicles released by almost all types of cells. Acting as messengers that for intercellular communication. These vesicles influence the behavior & function of recipient cells, including:`,
-			lines_(
-				`- proteins`,
-				`- lipids`,
-				`- RNA`,
-				`- DNA`,),
+			`- proteins`,
+			`- lipids`,
+			`- RNA`,
+			`- DNA`,
 			nl,
 			`Exosomes play a critical role in the regulation of numerous physiological processes. From tissue repair to immune responses.`,]],
 	[`## Understanding Exosome Therapy`, [
 		`Exosomes are typically 30–150 nm in diameter. Almost all types of cells release exosomes. Exosomes are involved in numerous physiological processes, including:`,
 		nl,
-		lines_(
-			`- tissue repair`,
-			`- immune response`,
-			`- cellular communication`,),
+		`- tissue repair`,
+		`- immune response`,
+		`- cellular communication`,
 		nl,
     `Exosome therapy leverages the natural signaling pathways of exosomes to promote healing & regeneration. Exosomes can be isolated from stem cells or other cell types. Then administered to patients to achieve various therapeutic effects.`,
 		nl,
@@ -53,16 +51,14 @@ export default (ctx:request_ctx_T)=>''
 				`Exosomes derived & isolated from stem cells or other cell types. In a laboratory setting.`,]],
 			[`### Administration`, [
 				`Depending on the condition, exosomes are delivered via:`,
-				lines_(
-					`- injection`,
-					`- intravenously (into a vein)`,
-					`- topically (on the skin)`,),]],
+				`- injection`,
+				`- intravenously (into a vein)`,
+				`- topically (on the skin)`,]],
 			[`### Cellular Communication`, [
 				`Exosomes interact with target cells. Delivering their payload to:`,
-				lines_(
-					`- promote healing`,
-					`- reduce inflammation`,
-					`- stimulate tissue repair`,),]],
+				`- promote healing`,
+				`- reduce inflammation`,
+				`- stimulate tissue repair`,]],
 		]]],
 	[`## Clinical Applications of Exosome Therapy`, [
 		`Exosome therapy has wide-ranging applications across various fields of medicine. Some of the most promising areas of research & treatment include:`,
@@ -70,34 +66,30 @@ export default (ctx:request_ctx_T)=>''
 			[`### Regenerative Medicine`, [
 				`Exosomes derived from mesenchymal stem cells (MSCs) promote tissue regeneration. In conditions such as${footnote__sup__sort([ref_e1_1_footnote__sup_(ctx),ref_e1_6_footnote__sup_(ctx)])}:`,
 				nl,
-				lines_(
-					`- cutaneous wound healing`,
-					`- myocardial infarction`,
-					`- cardiac regeneration`,
-					`- cartilage repair`,
-					`- osteoarthritis`,),]],
+				`- cutaneous wound healing`,
+				`- myocardial infarction`,
+				`- cardiac regeneration`,
+				`- cartilage repair`,
+				`- osteoarthritis`,]],
 			[`### Oncology (Cancer Therapy)`, [
 				`Exosomes can carry therapeutic agents directly to tumor cells. This approach has been explored in various cancers. Where exosomes target tumor cells. Delivering cytotoxic agents or genetic material to inhibit tumor growth${ref_e1_5_footnote__sup_(ctx)}.`,
 				nl,
 				`Exosome therapy is being explored for its potential to:`,
-				lines_(
-					`- modulate the immune response against tumors`,
-					`- deliver targeted cancer therapies`,
-					`- minimize the side effects of traditional treatments`,),]],
+				`- modulate the immune response against tumors`,
+				`- deliver targeted cancer therapies`,
+				`- minimize the side effects of traditional treatments`,]],
 			[`### Neurodegenerative Diseases`, [
 				`Exosomes deliver neuroprotective substances directly to the brain. Offering a new approach to managing diseases like${ref_e1_7_footnote__sup_(ctx)}:`,
-				lines_(
-					`- Alzheimer's disease`,
-					`- Parkinson's disease`,
-					`- Multiple Sclerosis`,),
+				`- Alzheimer's disease`,
+				`- Parkinson's disease`,
+				`- Multiple Sclerosis`,
 				nl,
 				`Early research suggests that exosomes can deliver therapeutic molecules directly to the brain. Slowing disease progression & alleviating symptoms.`,]],
 			[`### Cosmetic & Anti-Aging${mobile_hidden__span_([` Treatments`])}`, [
 				`Exosome therapy is also making strides in cosmetic medicine. Offering novel solutions for:`,
-				lines_(
-					`- skin rejuvenation`,
-					`- hair regrowth`,
-					`- anti-aging treatments`,),
+				`- skin rejuvenation`,
+				`- hair regrowth`,
+				`- anti-aging treatments`,
 				nl,
 				`By promoting cell renewal & tissue repair. Exosome therapy can enhance skin appearance, elasticity, & overall health.`,]],
 			[`### Wound Healing & Tissue Regeneration`, [
@@ -141,10 +133,9 @@ export default (ctx:request_ctx_T)=>''
 			]]],
 	[`## Conclusion`, [
 		`Exosome therapy stands at the frontier of regenerative medicine. Where the body's molecular mechanisms drive the healing. Exosome therapy is changing the way we approach the treatment of a myriad of conditions, with its:`,
-		lines_(
-			`- broad applicability`,
-			`- minimal invasiveness`,
-			`- promising outcomes`,),
+		`- broad applicability`,
+		`- minimal invasiveness`,
+		`- promising outcomes`,
 		nl,
 		`Exosome therapy represents a significant advance in the field of regenerative medicine. Offering a versatile & safe approach to treating a wide array of diseases. As research continues to unravel, the full potential of exosomes. This therapy is poised to become a cornerstone of future medical treatments. Transforming the landscape of disease management & patient care.`,]],
 ])

@@ -4,7 +4,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -21,42 +21,37 @@ export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
 	[`## ${mobile_hidden__span_(['Understanding '])}Anti-Aging & Life Extension`, [
 		`Anti-aging therapies are primarily concerned with slowing down or reversing the processes. That is commonly associated with aging. This includes the:`,
-		lines_(
-			`- appearance of wrinkles`,
-			`- loss of skin elasticity`,
-			`- the decline in organ function`,),
+		`- appearance of wrinkles`,
+		`- loss of skin elasticity`,
+		`- the decline in organ function`,
 		nl,
 		`Life extension therapies go a step further by seeking to increase the overall lifespan of individuals. Through various biomedical interventions${footnote__sup__sort([ref1_footnote__sup_(ctx), ref3_footnote__sup_(ctx), ref4_footnote__sup_(ctx)])}.`]],
 	[`## ${mobile_hidden__span_(['Scientific '])}Foundations & Approaches`, ()=>[
 		[`### Cellular & Molecular Strategies`, [
 			`At the heart of many anti-aging therapies is the focus on cellular & molecular health. Research identifies critical factors in the aging process.:`,
 			nl,
-			lines_(
-				`- telomere shortening`,
-				`- DNA damage`,
-				`- cellular senescence`,),
+			`- telomere shortening`,
+			`- DNA damage`,
+			`- cellular senescence`,
 			nl,
 			`Therapies that target these aspects include the use of${footnote__sup__sort([ref1_footnote__sup_(ctx), ref3_footnote__sup_(ctx), ref16_footnote__sup_(ctx)])}:`,
-			lines_(
-				`- telomerase activators`,
-				`- senolytics which selectively remove aging cells`,
-				`- antioxidants that reduce cellular damage caused by free radicals`,),]],
+			`- telomerase activators`,
+			`- senolytics which selectively remove aging cells`,
+			`- antioxidants that reduce cellular damage caused by free radicals`,]],
 		[`###  Hormonal & Genetic Intervention`, [
 			`Hormone replacement therapies have been used to replace or augment hormones that decline with age. Such as DHEA & growth hormone. potentially restoring some youthful characteristics. Additionally, genetic engineering & the use of CRISPR technology offer promising avenues. For modifying the genetic factors that contribute to aging & disease${footnote__sup__sort([ref13_footnote__sup_(ctx), ref16_footnote__sup_(ctx)])}.`]],
 		[`### Stem Cell Therapies`, [
 			`Stem cells have the potential to repair or replace damaged tissues & organs. A capability that diminishes with age. Recent advancements in stem cell technology are being explored. For their ability to treat age-related diseases & extend lifespan. Such as${footnote__sup__sort([ref3_footnote__sup_(ctx), ref16_footnote__sup_(ctx)])}:`,
-			lines_(
-				`- mesenchymal stem cells`,
-				`- induced pluripotent stem cells (iPSCs)`),]],]],
+			`- mesenchymal stem cells`,
+			`- induced pluripotent stem cells (iPSCs)`]],]],
 	[`## ${mobile_hidden__span_(['Practical '])}Applications & Treatments`, ()=>[
 		[`### Skin & Cosmetic Treatments`, [
 			`Anti-aging skin care treatments such as retinoids, antioxidants, & various non-surgical procedures like laser therapy & microneedling help in reducing the visible signs of aging, thereby improving skin health & appearance${footnote__sup__sort([ref2_footnote__sup_(ctx), ref10_footnote__sup_(ctx), ref14_footnote__sup_(ctx)])}.`]],
 		[`### Diet & Lifestyle Modifications`, [
 			`Lifestyle choices play a significant role in aging. Impacting one's biological age & overall health with${footnote__sup__sort([ref5_footnote__sup_(ctx), ref12_footnote__sup_(ctx)])}:`,
-			lines_(
-				`- diets rich in antioxidants`,
-				`- regular physical activity`,
-				`- avoiding harmful habits like smoking`,),]],
+			`- diets rich in antioxidants`,
+			`- regular physical activity`,
+			`- avoiding harmful habits like smoking`,]],
 		[`### Pharmacological Interventions`, [
 			`Drugs like Metformin & Rapamycin are being studied for their potential to extend lifespan. By mimicking the effects of calorie restriction. A well-known mechanism associated with longer life spans in various organisms${ref9_footnote__sup_(ctx)}.`,]],
 		[`### Metformin`, [
@@ -69,9 +64,8 @@ export default (ctx:request_ctx_T)=>''
 						`Metformin improves insulin sensitivity & glucose metabolism. Which is crucial for preventing age-related metabolic diseases such as type 2 diabetes. By regulating metabolism, metformin may help maintain youthful cellular function & delay aging${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx), ref_m2_9_footnote__sup_(ctx)])}.`]],
 					[`##### ${mobile_hidden__span_(['Decreased Risk of '])}Cardiovascular Disease`, [
 						`Studies associate Metformin with protecting heart health${ref_m2_2_footnote__sup_(ctx)}`,
-						lines_(
-							`- a lower incidence of cardiac events`,
-							`- reduced mortality from cardiovascular diseases`,),]],
+						`- a lower incidence of cardiac events`,
+						`- reduced mortality from cardiovascular diseases`,]],
 					[`##### Lower Incidence of Cancer`, [
 						`Metformin links to a reduced diagnosis of cancer. And lower cancer mortality rates among patients. This protective effect against cancer supports its role in extending life expectancy. Improving overall health${ref_m2_2_footnote__sup_(ctx)}.`]],
 					[`##### Neuroprotective Effects`, [
@@ -84,24 +78,21 @@ export default (ctx:request_ctx_T)=>''
 						`Metformin use associates with lower all-cause mortality. Suggesting that it has broad benefits for extending life span & enhancing healthspan${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx), ref_m2_7_footnote__sup_(ctx)])}.`]],]],
 				[`#### Mechanism of Action`, [
 					`Metformin enhances cellular enzymes that mimic the longevity benefits of calorie restriction. A well-known strategy for extending lifespan in various organisms. This action primarily involves${footnote__sup__sort([ref_m1_1_footnote__sup_(ctx), ref_m1_2_footnote__sup_(ctx), ref_m1_4_footnote__sup_(ctx), ref_m1_5_footnote__sup_(ctx)])}:`,
-					lines_(
-						`- improving insulin sensitivity`,
-						`- reducing oxidative stress`,
-						`- enhancing mitochondrial function`,),]],
+					`- improving insulin sensitivity`,
+					`- reducing oxidative stress`,
+					`- enhancing mitochondrial function`,]],
 				[`#### Clinical Studies & Trials`, [
 					`The drug is currently under investigation in several clinical trials. To determine its efficacy in extending life & improving healthspan. Notably, the Targeting Aging with Metformin (TAME) trial is a significant study that plans to enroll 3,000 individuals aged 65–79. To assess whether Metformin can delay the onset of age-related diseases such as:`,
-					lines_(
-						`- stroke`,
-						`- heart failure`,
-						`- cancer`,),
+					`- stroke`,
+					`- heart failure`,
+					`- cancer`,
 					nl,
 					`This trial aims to provide a more granular understanding of Metformin's effects on the aging process in humans${ref_m1_3_footnote__sup_(ctx)}.`]],
 				[`#### Preliminary Findings`, [
 					`Early studies & preliminary data suggest that Metformin may induce anti-aging transcriptional changes in humans. Although the results remain controversial. Some studies have shown that Metformin can improve markers of healthspan. Such as reducing early mortality associated with various diseases, including${footnote__sup__sort([ref_m1_4_footnote__sup_(ctx), ref_m1_5_footnote__sup_(ctx)])}:`,
-					lines_(
-						`- diabetes`,
-						`- cardiovascular disease`,
-						`- possibly cancer`,),]],
+					`- diabetes`,
+					`- cardiovascular disease`,
+					`- possibly cancer`,]],
 				[`#### Usage Among Non-Diabetics`, [
 					`Metformin is a well-established treatment for type 2 diabetes. Its role in non-diabetics for anti-aging purposes is less clear. There is ongoing research to determine whether the general population can benefit from Metformin. In the same way diabetics do. With some early evidence suggesting potential health benefits${ref_m1_5_footnote__sup_(ctx)}.`]],
 				[`#### Safety & Side Effects`, [
@@ -129,24 +120,21 @@ export default (ctx:request_ctx_T)=>''
 					`Life extension research continues to progress. Future studies may involve artificial intelligence & nanotechnology to advance understanding & interventions. Achieving an indefinite lifespan may seem like science fiction. Yet ongoing progress gives cause for hope. The goal of life extension is not merely extending life. But enhancing healthy, productive life is free from age-related diseases & disabilities. Promoting a longer, healthier existence. A healthy lifestyle includes a balanced diet, regular physical activity, & weight management. Playing a pivotal role in life extension efforts.`]],
 				[`#### Research & Development`, [
 					`Ongoing research explores the potential of using:`,
-					lines_(
-						`- human-induced pluripotent stem cells (iPSCs)`,
-						`- transdifferentiated cells`,),
+					`- human-induced pluripotent stem cells (iPSCs)`,
+					`- transdifferentiated cells`,
 					nl,
 					`To model human aging & identify anti-aging drugs. These cellular models can advance our understanding of the aging process. Helping with the development of interventions${ref_g1_6_footnote__sup_(ctx)}.`]],
 				[`#### Potential for Clinical Application`, [
 					`While much of the current research is in preclinical stages or animal models. There is significant interest in translating these findings into human therapies. Developing interventions that reverse age-related changes. Extending both lifespan & healthspan${footnote__sup__sort([ref_g1_3_footnote__sup_(ctx), ref_g1_7_footnote__sup_(ctx)])}.`]],],]],]],
 	[`## Ethical & Social Considerations`, [
 		`As with any rapidly advancing field. Anti-aging & life extension therapies raise important ethical & social questions. Issues need to be thoughtfully addressed such as${footnote__sup__sort([ref4_footnote__sup_(ctx), ref8_footnote__sup_(ctx)])}:`,
-		lines_(
-			`- disparity in access to these treatments`,
-			`- implications of a significantly longer human lifespan on resources & social structures`,
-			`- moral considerations of extending life at all costs`,),]],
+		`- disparity in access to these treatments`,
+		`- implications of a significantly longer human lifespan on resources & social structures`,
+		`- moral considerations of extending life at all costs`,]],
 	[`## The Future${mobile_hidden__span_([` of Anti-Aging & Life Extension`])}`, [
 		`The field of anti-aging & life extension is at a fascinating juncture. With breakthroughs in biology, technology, & medicine paving the way for revolutionary therapies. With the goals of${footnote__sup__sort([ref3_footnote__sup_(ctx), ref4_footnote__sup_(ctx), ref16_footnote__sup_(ctx)])}:`,
-		lines_(
-			`- extending lifespan`,
-			`- ensuring that those extra years are lived in good health`,),]],
+		`- extending lifespan`,
+		`- ensuring that those extra years are lived in good health`,]],
 ])
 function ref1_footnote__sup_(ctx:request_ctx_T) {
 	return footnote__sup_({

@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -106,11 +106,10 @@ export default (ctx:request_ctx_T)=>''
 		]]],
 	[`## Conclusion`, [
 		`Kyphoplasty represents a significant advancement in the treatment of vertebral compression fractures. A minimally invasive option for patients suffering from back pain due to spinal fractures. That can:`,
-		lines_(
-			`- provide immediate pain relief`,
-			`- restore vertebral height`,
-			`- improve mobility`,
-			`- improve quality of life`,),
+		`- provide immediate pain relief`,
+		`- restore vertebral height`,
+		`- improve mobility`,
+		`- improve quality of life`,
 		nl,
 		`As with any medical procedure. Patients should discuss the potential risks & benefits with their healthcare provider. To determine if kyphoplasty is the right treatment for their specific condition.`,]],
 ])

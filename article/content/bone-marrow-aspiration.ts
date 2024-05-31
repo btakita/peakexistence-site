@@ -35,11 +35,10 @@ export default (ctx:request_ctx_T)=>''
 				`It's often used when other tests cannot identify the cause of fevers, fatigue, or weakness.`,]],
 			[`### Diagnostic Clarity`, [
 				`The primary purpose of bone marrow aspiration is diagnostic. The procedure allows for the detailed examination of marrow cells. Aiding in the diagnosis of a wide array of diseases affecting the blood & bone marrow. It identifies conditions such as:`,
-				lines_(
-					`- leukemia`,
-					`- lymphoma`,
-					`- multiple myeloma`,
-					`- myelodysplastic syndromes`,),
+				`- leukemia`,
+				`- lymphoma`,
+				`- multiple myeloma`,
+				`- myelodysplastic syndromes`,
 				nl,
 				`The procedure also plays a crucial role in detecting infections. And the presence of other abnormal cells.`,]],
 			[`### Monitoring & Management`, [

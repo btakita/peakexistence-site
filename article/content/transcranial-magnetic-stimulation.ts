@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
@@ -26,12 +26,11 @@ export default (ctx:request_ctx_T)=>''
 		[`### Other Potential Uses`, [
 			`Research is ongoing to explore the efficacy of TMS in treating other conditions such as:`,
 			nl,
-			lines_(
-				`- migraines`,
-				`- smoking cessation`,
-				`- bipolar disorder`,
-				`- post-traumatic stress disorder (PTSD)`,
-				`- epilepsy`,),
+			`- migraines`,
+			`- smoking cessation`,
+			`- bipolar disorder`,
+			`- post-traumatic stress disorder (PTSD)`,
+			`- epilepsy`,
 			nl,
 			`While these applications are still under investigation, preliminary results are encouraging${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_3_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx)])}.`,]],]],
 	[`## Efficacy`, [
@@ -39,16 +38,14 @@ export default (ctx:request_ctx_T)=>''
 	[`## Safety & Side Effects`, [
 		`TMS is generally well-tolerated. The most common side effects are mild headaches & scalp discomfort during or after the procedure. Serious side effects, such as seizures, are rare but can occur. Particularly in individuals with a history of epilepsy or other neurological conditions. Unlike electroconvulsive therapy (ECT), TMS${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_3_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx),ref_1_5_footnote__sup_(ctx)])}:`,
 		nl,
-		lines_(
-			`- does not require anesthesia`,
-			`- does not cause memory loss`,
-			`- does not cause cognitive impairment`,),]],
+		`- does not require anesthesia`,
+		`- does not cause memory loss`,
+		`- does not cause cognitive impairment`,]],
 	[`## Future Directions`, [
 		`The field of TMS is rapidly evolving. With ongoing research aimed at optimizing treatment protocols & expanding its clinical applications. Recent innovations include:`,
 		nl,
-		lines_(
-			`- synchronizing TMS with patients' intrinsic brain oscillatory rhythms`,
-			`- using neuroimaging biomarkers to predict treatment response`,),
+		`- synchronizing TMS with patients' intrinsic brain oscillatory rhythms`,
+		`- using neuroimaging biomarkers to predict treatment response`,
 		nl,
     `These advancements hold the potential to enhance the efficacy & precision of TMS. Making TMS a more versatile tool in the treatment of neuropsychiatric disorders${footnote__sup__sort([ref_1_2_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx),ref_1_5_footnote__sup_(ctx)])}.`,]],
 	[`## Concussion`, [

@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -52,10 +52,9 @@ export default (ctx:request_ctx_T)=>''
 	[`## What Patients Can Expect`, ()=>[
 		[`### Consultation & Planning`, [
 			`Before undergoing a robotic hair or beard transplant. patients will have a detailed consultation with a specialist to:`,
-			lines_(
-				`- discuss their goals`,
-				`- evaluate their hair loss`,
-				`- design a treatment plan`,),
+			`- discuss their goals`,
+			`- evaluate their hair loss`,
+			`- design a treatment plan`,
 			nl,
 			`This plan outlines the desired outcome & the number of transplant follicles.`,]],
 		[`### Procedure & Recovery`, [

@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
@@ -19,17 +19,15 @@ export default (ctx:request_ctx_T)=>''
 		nl,
 		`Genetic testing examines changes in chromosomes, genes, or proteins to:`,
 		nl,
-		lines_(
-			`- identify genetic disorders`,
-			`- predict risks of disease`,
-			`- inform treatment strategies`,),
+		`- identify genetic disorders`,
+		`- predict risks of disease`,
+		`- inform treatment strategies`,
 		nl,
     `It can be performed on a sample of blood, hair, skin, amniotic fluid, or other tissue. The results of genetic tests can help${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx),ref_g1_2_footnote__sup_(ctx)])}:`,
 		nl,
-		lines_(
-			`- diagnose conditions`,
-			`- guide decisions about medical care`,
-			`- determine treatment plans`,),]],
+		`- diagnose conditions`,
+		`- guide decisions about medical care`,
+		`- determine treatment plans`,]],
 	[`## Types of Genetic Testing`, ()=>[
 		[`### Diagnostic Testing`, [
 			`Genetic Testing Identifies specific genetic conditions if symptoms suggest a particular disorder. It confirms or rules out a suspected genetic disorder in symptomatic individuals. It provides a definitive diagnosis. And it can be crucial in determining the appropriate management & treatment of the condition${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx),ref_g1_2_footnote__sup_(ctx)])}.`,]],
@@ -44,16 +42,14 @@ export default (ctx:request_ctx_T)=>''
 		[`### Forensic Testing`, [
 			`Genetic forensic testing uses DNA sequences to identify an individual for legal purposes. It can be used to${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx),ref_g1_2_footnote__sup_(ctx)])}:`,
 			nl,
-			lines_(
-				`- identify crime or catastrophe victims`,
-				`- rule out or implicate a crime suspect`,
-				`- establish biological relationships, such as paternity`,),]],]],
+			`- identify crime or catastrophe victims`,
+			`- rule out or implicate a crime suspect`,
+			`- establish biological relationships, such as paternity`,]],]],
 	[`## Benefits of Genetic Testing`, [
 		`The benefits of genetic testing extend beyond diagnosing diseases. It provides a sense of relief from uncertainty & helps people make informed decisions. About managing their health care${ref_g1_7_footnote__sup_(ctx)}.`,
 		nl,
-		lines_(
-			`- A positive result can direct a person toward available prevention, monitoring, & treatment options.`,
-			`- A negative result can eliminate the need for unnecessary checkups & screening tests.`,),
+		`- A positive result can direct a person toward available prevention, monitoring, & treatment options.`,
+		`- A negative result can eliminate the need for unnecessary checkups & screening tests.`,
 		nl,
 		()=>[
 			[`### Personalized Medicine`, [
@@ -67,21 +63,18 @@ export default (ctx:request_ctx_T)=>''
 		nl,
 		()=>[
 			[`### Pros`, [
-				lines_(
-					`- Offers detailed health insights`,
-					`- Can guide personalized healthcare`,
-					`- Help family planning & risk assessment`,),]],
+				`- Offers detailed health insights`,
+				`- Can guide personalized healthcare`,
+				`- Help family planning & risk assessment`,]],
 			[`### Cons`, [
-				lines_(
-					`- Potential for emotional distress`,
-					`- Privacy concerns regarding genetic information`,
-					`- It may lead to discrimination by insurers or employers`,),]],],]],
+				`- Potential for emotional distress`,
+				`- Privacy concerns regarding genetic information`,
+				`- It may lead to discrimination by insurers or employers`,]],],]],
 	[`## Who Should Consider Genetic Testing?`, [
 		`Individuals with:`,
-		lines_(
-			`- a family history of certain genetic conditions`,
-			`- those planning to start a family`,
-			`- anyone curious about their genetic makeup could benefit from genetic testing`,),]],
+		`- a family history of certain genetic conditions`,
+		`- those planning to start a family`,
+		`- anyone curious about their genetic makeup could benefit from genetic testing`,]],
 	[`## How to Proceed`, ()=>[
 		[`### Consultation`, [
 			`Speak with a genetic counselor or healthcare provider. To understand which tests are suitable.`,]],

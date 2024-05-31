@@ -27,11 +27,10 @@ export default (ctx:request_ctx_T)=>''
 		nl,
 		`To facilitate deep psychological insights & emotional healing. Clinical research demonstrates the potential of psychedelics to treat mental health conditions including${footnote__sup__sort([ref_p2_2_footnote__sup_(ctx),ref_p2_4_footnote__sup_(ctx)])}:`,
 		nl,
-		lines_(
-			`- depression`,
-			`- anxiety`,
-			`- PTSD`,
-			`- substance use disorders`,),
+		`- depression`,
+		`- anxiety`,
+		`- PTSD`,
+		`- substance use disorders`,
 		nl,
 		()=>[
 			[`### Benefits`, [
@@ -57,9 +56,8 @@ export default (ctx:request_ctx_T)=>''
 					[`#### Shift in Perspective`, [
 						`Altered states of consciousness can lead to experiences described as mystical or transcendent. These experiences can change the way individuals perceive their problems, including${footnote__sup__sort([ref_p3_2_footnote__sup_(ctx),ref_p3_4_footnote__sup_(ctx)])}:`,
 						nl,
-						lines_(
-							`- reducing the perceived magnitude of issues`,
-							`- enhancing their sense of meaning & purpose in life`,),
+						`- reducing the perceived magnitude of issues`,
+						`- enhancing their sense of meaning & purpose in life`,
 						nl,
 						`Such shifts can be particularly beneficial for individuals dealing with existential distress. Or those who feel stuck in negative thought cycles.`,]],],]],
 			[`### Clinical Research & Evidence`, [
@@ -77,11 +75,10 @@ export default (ctx:request_ctx_T)=>''
 	[`## Exercise Therapy${mobile_hidden__span_([`: Enhancing Physical & Mental Health`])}`, [
 		`Exercise therapy encompasses structured physical activities designed to achieve specific health outcomes. Beyond its physical benefits, exercise is known to${footnote__sup__sort([ref_p2_12_footnote__sup_(ctx)/*,ref_p2_15_footnote__sup_(ctx)*/])}:`,
 		nl,
-		lines_(
-			`- improve mood`,
-			`- reduce anxiety`,
-			`- depression symptoms`,
-			`- enhance cognitive function`,),
+		`- improve mood`,
+		`- reduce anxiety`,
+		`- depression symptoms`,
+		`- enhance cognitive function`,
 		nl,
     `Making it a valuable tool for mental health management.`,]],
 	[`## ${mobile_hidden__span_([`Synergistic Effects of `])}Psychedelics & Exercise`, [
@@ -89,18 +86,16 @@ export default (ctx:request_ctx_T)=>''
 	[`## Potential Benefits & Considerations`, [
 		`Psychedelics with exercise therapy address both mental & physical health. Benefits include${footnote__sup__sort([ref_p2_3_footnote__sup_(ctx),ref_p2_4_footnote__sup_(ctx)])}:`,
 		nl,
-		lines_(
-			`- enhanced exercise motivation`,
-			`- improved mood & mental health`,
-			`- increased creativity & problem-solving during physical activities`,
-			`- deeper, more meaningful engagement with exercise routines`,),
+		`- enhanced exercise motivation`,
+		`- improved mood & mental health`,
+		`- increased creativity & problem-solving during physical activities`,
+		`- deeper, more meaningful engagement with exercise routines`,
 		nl,
 		`This approach also presents challenges & considerations. Significant barriers include:`,
 		nl,
-		lines_(
-			`- the legal status of psychedelics`,
-			`- variability in individual responses to these substances`,
-			`- the need for professional guidance to safely navigate psychedelic experiences`,),]],
+		`- the legal status of psychedelics`,
+		`- variability in individual responses to these substances`,
+		`- the need for professional guidance to safely navigate psychedelic experiences`,]],
 	[`## Psychedelic Therapy with Peak Existence`, ()=>[
 		[`### Holistic Healing`, [
 			`Dr. Emenike treats the root causes of ailments with treating symptoms. Combining exercise & psychedelic therapy addresses mental, emotional, & physical health. Promoting a truly holistic healing experience`,]],
@@ -108,10 +103,9 @@ export default (ctx:request_ctx_T)=>''
 			`Dr. Emenike ensures a safe & controlled environment for your psychedelic sessions. Dr. Emenike is a licensed medical professional. Adhering to medical best practices & ethical standards. Prioritizing patient well-being.`,]],
 		[`### Personalized Treatment Plans`, [
 			`Dr. Manny Emenike tailors treatment plans to suit each patient’s:`,
-			lines_(
-				`- unique needs`,
-				`- medical history`,
-				`- therapeutic goals`,),
+			`- unique needs`,
+			`- medical history`,
+			`- therapeutic goals`,
 			nl,
 			`Dr. Emenike maintains a patient-centric approach, emphasizing collaboration & understanding.`,]],
 		[`### Cutting-edge Research`, [

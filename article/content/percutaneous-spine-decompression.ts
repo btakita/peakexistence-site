@@ -20,7 +20,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 		`- lumbar spinal stenosis (LSS)`,
 		`- radiculopathy`,
 		nl,
-		`Percutaneous spine decompression offers a promising alternative to traditional open surgery. Providing patients with reduced recovery times & lower risk of complications.`)
+		`Percutaneous spine decompression offers a promising alternative to traditional open surgery. Providing patients with reduced recovery times & lower risk of complications.`,)
 })
 // @formatter:off
 // language=md
@@ -30,25 +30,22 @@ export default(ctx:request_ctx_T)=>''
 		`Percutaneous spine decompression is a minimally invasive procedure. Aimed at relieving pressure on spinal nerves. Caused by conditions like herniated discs or spinal stenosis. This option may offer an alternative to or with more extensive surgical interventions.`,
 		nl,
 		`Spinal compression occurs when the spinal cord or nerve roots compressed by:`,
-		lines_(
-			`- bone`,
-			`- disc material`,
-			`- other tissues`,),
+		`- bone`,
+		`- disc material`,
+		`- other tissues`,
 		nl,
 		`This pressure can lead to:`,
 		nl,
-		lines_(
-			`- significant pain`,
-			`- numbness`,
-			`- weakness`,
-			`- in severe cases, loss of mobility`,),
+		`- significant pain`,
+		`- numbness`,
+		`- weakness`,
+		`- in severe cases, loss of mobility`,
 		nl,
 		`Conditions that commonly cause spinal compression include:`,
 		nl,
-		lines_(
-			`- herniated discs`,
-			`- spinal stenosis (narrowing of the spinal canal)`,
-			`- degenerative disc disease`,),]],
+		`- herniated discs`,
+		`- spinal stenosis (narrowing of the spinal canal)`,
+		`- degenerative disc disease`,]],
 	[`## ${mobile_hidden__span_([`Understanding `])}Percutaneous Spine Decompression`, [
 		`Percutaneous spine decompression involves the use of specialized instruments. To remove or modify tissue that is causing nerve compression in the spinal column. To relieve pressure on compressed nerves in the spine. This technique treats conditions that cause chronic lower back & leg pain. The procedure's named "percutaneous" due to using a small puncture in the skin. Rather than through an open incision.`,
 		nl,
@@ -56,10 +53,9 @@ export default(ctx:request_ctx_T)=>''
 	[`## ${mobile_hidden__span_([`The Procedure: `])}How It Works`, [
 		`Percutaneous spine decompression is performed using a needle-like instrument. Inserted through the skin (percutaneous) into the affected area of the spine. The procedure is typically guided by fluoroscopy (live X-ray) to ensure accuracy. Depending on the specific technique used, the procedure may involve:`,
 		nl,
-		lines_(
-			`- removing a small portion of the herniated disc (percutaneous discectomy)`,
-			`- enlarging the spinal canal (percutaneous laminotomy/laminectomy)`,
-			`- reducing pressure on the nerve roots (foraminotomy)`,),
+		`- removing a small portion of the herniated disc (percutaneous discectomy)`,
+		`- enlarging the spinal canal (percutaneous laminotomy/laminectomy)`,
+		`- reducing pressure on the nerve roots (foraminotomy)`,
 		nl,
 		`Percutaneous spine decompression is generally performed under local anesthesia combined with sedation. Allowing the patient to remain awake but relaxed. The specifics of the procedure can vary depending on the technique used. Commonly involves:`,
 		nl,
@@ -72,10 +68,9 @@ export default(ctx:request_ctx_T)=>''
 				`Tiny amounts of disc material or other tissues within the spinal canal. Are removed using various tools. This creates more space for the compressed nerve.`,]],
 			[`### Decompression`, [
 				`Depending on the specific condition & technique. Such as mechanical decompression, laser or radiofrequency ablation. Problematic tissue or disc material is removed or reduced. Relieving pressure on the spinal nerves. To decompress the nerve alleviating:`,
-				lines_(
-					`- pain`,
-					`- numbness`,
-					`- muscle weakness`,),]],],
+				`- pain`,
+				`- numbness`,
+				`- muscle weakness`,]],],
 		nl,
 		`Common techniques under the umbrella of percutaneous decompression include:`,
 		nl,
@@ -90,10 +85,9 @@ export default(ctx:request_ctx_T)=>''
 	[`## Techniques & Technologies`, [
 		`Several techniques fall under the umbrella of percutaneous spine decompression, including:`,
 		nl,
-		lines_(
-			`- percutaneous endoscopic lumbar discectomy (PELD)`,
-			`- percutaneous laser disc decompression (PLDD)`,
-			`- percutaneous mechanical disc decompression`,),
+		`- percutaneous endoscopic lumbar discectomy (PELD)`,
+		`- percutaneous laser disc decompression (PLDD)`,
+		`- percutaneous mechanical disc decompression`,
 		nl,
 		`These techniques use different types of equipment. To achieve decompression of the affected spinal nerves. Equipment includes endoscopic cameras, laser devices, & mechanical tools${footnote__sup__sort([ref_p1_2_footnote__sup_(ctx),ref_p1_3_footnote__sup_(ctx)])}.`,
 		nl,
@@ -155,10 +149,9 @@ export default(ctx:request_ctx_T)=>''
 	[`## Considerations & Limitations`, [
 		`Percutaneous spine decompression is not suitable for all patients. The effectiveness of the procedure depends on factors such as${footnote__sup__sort([ref_p1_3_footnote__sup_(ctx),ref_p1_7_footnote__sup_(ctx)])}:`,
 		nl,
-		lines_(
-			`- the specific nature of the spinal condition`,
-			`- the overall health of the patient`,
-			`- the precise location of the nerve compression`,),
+		`- the specific nature of the spinal condition`,
+		`- the overall health of the patient`,
+		`- the precise location of the nerve compression`,
 		nl,
 		`It is crucial for patients to undergo a thorough medical evaluation. To determine if percutaneous decompression is the most appropriate treatment option.`,
 		nl,

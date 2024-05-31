@@ -26,10 +26,9 @@ export default (ctx:request_ctx_T)=>''
 		]],
 	[`## ${mobile_hidden__span_([`Understanding Comprehensive `])}Wellness Testing`, [
 		`Comprehensive wellness testing goes beyond traditional health assessments. To provide a detailed overview of an employee's health status. This type of testing typically includes:`,
-		lines_(
-			`- expanded lab panels`,
-			`- advanced screening tests`,
-			`- an extended consultation with a healthcare provider`,),
+		`- expanded lab panels`,
+		`- advanced screening tests`,
+		`- an extended consultation with a healthcare provider`,
 		nl,
 		`The goal is to identify potential health issues before they become serious. Allowing for timely intervention & management${footnote__sup__sort([/* ref6_footnote__sup_(ctx), */])}.`,]],
 	[`## ${mobile_hidden__span_([`The Role of `])}Biometric Screening`, [
@@ -39,12 +38,11 @@ export default (ctx:request_ctx_T)=>''
 		()=>[
 			[`### Blood tests`, [
 				`A comprehensive metabolic panel (CMP) & complete blood count (CBC). Assessing:`,
-				lines_(
-					`- organ function`,
-					`- blood cell health`,
-					`- blood pressure`,
-					`- blood glucose levels`,
-					`- potential risk factors for various conditions.`,),,]],
+				`- organ function`,
+				`- blood cell health`,
+				`- blood pressure`,
+				`- blood glucose levels`,
+				`- potential risk factors for various conditions.`,]],
 			[`### Urine tests`, [
 				`It can reveal signs of infection, kidney function, & diabetes.`,]],
 			[`### Cholesterol tests`, [
@@ -58,10 +56,9 @@ export default (ctx:request_ctx_T)=>''
 				`Depending on your age, gender, & health history. Further tests like STD screenings or bone density scans assess areas of improvement.`,]],],
 		nl,
 		`These screenings are quick, usually taking about 10–15 minutes. Providing immediate feedback on an employee's health status. The primary aim is to establish a health baseline. That can be used to monitor changes over time. Identifying risk factors for chronic diseases like${footnote__sup__sort([ref_c_1_footnote__sup_(ctx), ref_c_3_footnote__sup_(ctx), ref_c_4_footnote__sup_(ctx),])}:`,
-		lines_(
-			`- hypertension`,
-			`- diabetes`,
-			`- cardiovascular conditions`,),]],
+		`- hypertension`,
+		`- diabetes`,
+		`- cardiovascular conditions`,]],
 	[`## Benefits${mobile_hidden__span_([` of Comprehensive Wellness Testing:`])}`, [
 		()=>[
 			[`### Personalized Healthcare`, [

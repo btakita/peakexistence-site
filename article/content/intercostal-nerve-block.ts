@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -23,12 +23,11 @@ export default (ctx:request_ctx_T)=>''
 	[`## Indications for ${mobile_hidden__span_([`Intercostal Nerve Block`, `ICNB`])}`, [
 		`ICNB is primarily indicated for pain management in conditions affecting the thorax & upper abdomen. It provides excellent analgesia for patients with rib fractures. Facilitating improved respiratory function & pain control. ICNB is beneficial for postsurgical pain management following chest & upper abdominal surgeries. Such as${footnote__sup__sort([ref_i1_1_footnote__sup_(ctx),ref_i1_2_footnote__sup_(ctx)])}:`,
 		nl,
-		lines_(
-			`- thoracotomy`,
-			`- thoracostomy`,
-			`- mastectomy`,
-			`- gastrostomy`,
-			`- cholecystectomy`,),
+		`- thoracotomy`,
+		`- thoracostomy`,
+		`- mastectomy`,
+		`- gastrostomy`,
+		`- cholecystectomy`,
 		nl,
 		`It is also used in the treatment of herpes zoster (shingles) or post-herpetic neuralgia. Offering relief from the severe, lingering pain that sometimes follows a shingles infection${ref_i1_1_footnote__sup_(ctx)}.`,]],
 	[`## How Does It Work?`, [
@@ -37,10 +36,9 @@ export default (ctx:request_ctx_T)=>''
 		`The procedure for administering an intercostal nerve block. It involves placing the patient in a position that allows easy access. To the intercostal spaces. Usually lying on the side or sitting up. A healthcare provider locates the target intercostal space using ultrasound guidance. Inserts a needle either in-plane or out-of-plane. To penetrate the external & internal intercostal muscles. The optimal target is just below the internal intercostal muscle. Ensuring the needle tip remains superficial to the parietal pleura. A small volume of local anesthetic, typically 3–5 mL, is then injected at each level to achieve the block${ref_i1_1_footnote__sup_(ctx)}.`,]],
 	[`## Why Use It?`, [
 		`Patients seek this treatment for various reasons:`,
-		lines_(
-			`- To manage chest wall pain.`,
-			`- To alleviate pain from shingles.`,
-			`- To reduce pain after surgery in the chest or upper abdomen.`,),]],
+		`- To manage chest wall pain.`,
+		`- To alleviate pain from shingles.`,
+		`- To reduce pain after surgery in the chest or upper abdomen.`,]],
 	[`## Benefits of ${mobile_hidden__span_([`Intercostal Nerve Block`, `ICNB`])}`, [
 		`The primary benefit of ICNB is its ability to provide targeted & effective pain relief. Which can significantly improve a patient's quality of life. Especially in the context of acute injuries or postoperative recovery. By alleviating pain. ICNB can facilitate better respiratory function in patients with rib fractures. reducing the risk of pulmonary complications. For surgical patients, ICNB can enhance recovery. By allowing earlier mobilization & reducing the reliance on systemic opioids. Which come with their own set of side effects${footnote__sup__sort([ref_i1_2_footnote__sup_(ctx),ref_i1_6_footnote__sup_(ctx)])}.`,
 		()=>[
@@ -54,11 +52,10 @@ export default (ctx:request_ctx_T)=>''
 	[`## Risks & Considerations`, [
 		`While ICNB is generally safe, it is not without risks. Potential complications include:`,
 		nl,
-		lines_(
-			`- pneumothorax (lung collapse)`,
-			`- local anesthetic toxicity`,
-			`- bleeding`,
-			`- infection at the injection site`,),
+		`- pneumothorax (lung collapse)`,
+		`- local anesthetic toxicity`,
+		`- bleeding`,
+		`- infection at the injection site`,
 		nl,
 		`However, these serious complications are rare. Especially when the procedure is performed using ultrasound guidance to enhance accuracy & safety. Patients may experience temporary soreness or bruising at the injection site. Which typically resolves within a few days.`,]],
 	[`## Conclusion`, [

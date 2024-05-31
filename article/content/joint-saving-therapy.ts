@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -23,10 +23,9 @@ export default (ctx:request_ctx_T)=>''
 	[`## Principles of ${mobile_hidden__span_([`Joint Saving Therapy`, `JST`])}`, [
 		`Joint saving therapy maintains or improves joint function. While minimizing pain & preventing further damage. The approach is typically multi-faceted. Involving a combination of:`,
 		nl,
-		lines_(
-			`- physical therapy`,
-			`- lifestyle modifications`,
-			`- sometimes pharmacological interventions`,),
+		`- physical therapy`,
+		`- lifestyle modifications`,
+		`- sometimes pharmacological interventions`,
 		nl,
     `The therapy is tailored to individual needs. Depending on the specific joint involved & the severity of the condition${footnote__sup__sort([ref_j1_1_footnote__sup_(ctx),ref_j1_2_footnote__sup_(ctx)])}.`,]],
 	[`## Key Techniques in ${mobile_hidden__span_([`Joint Saving Therapy`, `JST`])}`, ()=>[
@@ -49,10 +48,9 @@ export default (ctx:request_ctx_T)=>''
 		[`### Pain Management`, [
 			`Effective pain management is crucial in joint saving therapy. This may involve the use of:`,
 			nl,
-			lines_(
-				`- non-steroidal anti-inflammatory drugs (NSAIDs)`,
-				`- local injections of corticosteroids`,
-				`- newer therapies such as viscosupplementation, where lubricating substances are injected into the joint`,),
+			`- non-steroidal anti-inflammatory drugs (NSAIDs)`,
+			`- local injections of corticosteroids`,
+			`- newer therapies such as viscosupplementation, where lubricating substances are injected into the joint`,
 			nl,
 			`For chronic conditions like osteoarthritis. Managing pain is essential for maintaining mobility & quality of life${footnote__sup__sort([ref_j1_2_footnote__sup_(ctx),ref_j1_5_footnote__sup_(ctx)])}.`,]],
 		[`### Medications`, [
@@ -73,17 +71,15 @@ export default (ctx:request_ctx_T)=>''
 		[`### ${mobile_hidden__span_([`Advanced `])}Non-Surgical Techniques`, [
 			`For some patients, more advanced interventions may be necessary. These can include:`,
 			nl,
-			lines_(
-				`- joint injections`,
-				`- regenerative medicine techniques like platelet-rich plasma (PRP) therapy`,
-				`- even gene therapy in some cases`,),
+			`- joint injections`,
+			`- regenerative medicine techniques like platelet-rich plasma (PRP) therapy`,
+			`- even gene therapy in some cases`,
 			nl,
 			`These treatments aim to${footnote__sup__sort([ref_j1_3_footnote__sup_(ctx),ref_j1_4_footnote__sup_(ctx)])}:`,
 			nl,
-			lines_(
-				`- reduce inflammation`,
-				`- promote healing`,
-				`- help regenerate joint tissues`,),]],
+			`- reduce inflammation`,
+			`- promote healing`,
+			`- help regenerate joint tissues`,]],
 		[`### Injections`, [
 			()=>[
 				[`#### Aims`, [
@@ -110,22 +106,19 @@ export default (ctx:request_ctx_T)=>''
 	[`## Considerations`, [
 		()=>[
 			[`### Pros`, [
-				lines_(
-					`- Non-surgical, less risk.`,
-					`- It can improve joint health naturally.`,
-					`- Offers a comprehensive, holistic approach.`,),]],
+				`- Non-surgical, less risk.`,
+				`- It can improve joint health naturally.`,
+				`- Offers a comprehensive, holistic approach.`,]],
 			[`### Cons`, [
-				lines_(
-					`- May not offer permanent solutions.`,
-					`- Results vary by individual.`,
-					`- Some treatments require ongoing commitment.`,),]],],]],
+				`- May not offer permanent solutions.`,
+				`- Results vary by individual.`,
+				`- Some treatments require ongoing commitment.`,]],],]],
 	[`## Conclusion`, [
 		`Joint saving therapy offers a comprehensive approach to managing joint health. Combining physical interventions, lifestyle changes, & sometimes advanced medical treatments. Its goal is to:`,
 		nl,
-		lines_(
-			`- preserve joint function`,
-			`- minimize pain`,
-			`- delay the progression of joint diseases`,),
+		`- preserve joint function`,
+		`- minimize pain`,
+		`- delay the progression of joint diseases`,
 		nl,
     `As research continues to advance, new & more effective joint saving therapies. Are likely to become available. Offering hope & improved outcomes. For people suffering from joint-related conditions.`,]],
 ])

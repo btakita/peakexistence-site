@@ -36,20 +36,18 @@ export default (ctx:request_ctx_T)=>''
 			[`### Neurological Conditions`, [
 				`More recent research has explored the use of HBOT in treating neurological conditions like${ref_h1_7_footnote__sup_(ctx)}:`,
 				nl,
-				lines_(
-					`- stroke`,
-					`- traumatic brain injuries`,
-					`- long COVID`,),
+				`- stroke`,
+				`- traumatic brain injuries`,
+				`- long COVID`,
 				nl,
 				`Where it helps reduce inflammation & promote neuroplasticity.`,]],],]],
 	[`## Benefits of ${mobile_hidden__span_([`Exercise with Oxygen Therapy`, 'HBOT'])}`, [
 		[
 			`The therapeutic benefits of HBOT are primarily due to its ability to increase oxygen concentration in:`,
 			nl,
-			lines_(
-				`- all body fluids`,
-				`- tissues`,
-				`- cells`,),
+			`- all body fluids`,
+			`- tissues`,
+			`- cells`,
 			nl,],
     `HBOT enhances the body’s immune response to fight bacterial & fungal infections. Aiding in the recovery from severe soft tissue infections. Some of the well-documented benefits include:`,
 		()=>[
@@ -67,10 +65,9 @@ export default (ctx:request_ctx_T)=>''
 				`HBOT can alleviate the side effects of radiation therapy in cancer patients. Promoting tissue healing & reducing inflammation.`,]],
 			[`### Chronic Wounds`, [
 				`HBOT stimulates the growth of new blood vessels. And enhances the body’s ability to heal chronic wounds, such as:`,
-				lines_(
-					`- diabetic foot ulcers`,
-					`- non-healing surgical wounds`,
-					`- radiation-induced tissue injuries`,),]],
+				`- diabetic foot ulcers`,
+				`- non-healing surgical wounds`,
+				`- radiation-induced tissue injuries`,]],
 			[`### Carbon Monoxide Poisoning`, [
 				`HBOT helps eliminate carbon monoxide from the bloodstream. Reducing the risk of long-term complications associated with carbon monoxide poisoning.`,]],
 			[`### Non-Healing Bone Fractures`, [
@@ -89,15 +86,14 @@ export default (ctx:request_ctx_T)=>''
 		`Athletes have found tremendous benefits in HBOT treatments. Professional athletes & sports organizations incorporate hyperbaric chambers into their training regiment. The increased oxygen promotes blood flow & waste removal, expediting recovery time. The heightened oxygen levels enhance brain function & decision-making abilities. Providing athletes with improved focus & quicker decision-making during games. HBOT’s elevated oxygen levels accelerate healing time from injuries. Enabling athletes a swift return to training & competition.`,
 		``,
 		`Prominent athletes regularly use hyperbaric chambers for recovery, training, enhancement, & well-being. Such as:`,
-		lines_(
-			`- Steve Weatherford (NFL)`,
-			`- Terrell Owens (NFL)`,
-			`- Rashad Jennings (NFL)`,
-			`- Matt Kemp (MLB)`,
-			`- Adrian Beltre (MLB)`,
-			`- Tiger Woods (PGA)`,
-			`- Urijah Faber (UFC)`,
-			`- Michael Phelps (Olympic Swimmer)`,),]],
+		`- Steve Weatherford (NFL)`,
+		`- Terrell Owens (NFL)`,
+		`- Rashad Jennings (NFL)`,
+		`- Matt Kemp (MLB)`,
+		`- Adrian Beltre (MLB)`,
+		`- Tiger Woods (PGA)`,
+		`- Urijah Faber (UFC)`,
+		`- Michael Phelps (Olympic Swimmer)`,]],
 	[`## Conclusion`, [
 		`Hyperbaric Oxygen Therapy remains a vital tool in modern medicine. Offering significant benefits for a variety of health conditions. With its ability to enhance oxygen delivery to tissues. HBOT plays a crucial role in treating conditions. That benefits from increased oxygen levels. As research evolves, new therapeutic potentials for HBOT are discovered. Promising to expand its use in clinical practice.`,]],
 ])

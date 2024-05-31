@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
@@ -18,27 +18,24 @@ export default (ctx:request_ctx_T)=>''
 		[
 			`A Traumatic Brain Injury (TBI) occurs when an external force causes brain dysfunction. Typically resulting from a:`,
 			nl,
-			lines_(
-				`- violent blow or jolt to the head or body`,
-				`- from an object penetrating the skull`,),
+			`- violent blow or jolt to the head or body`,
+			`- from an object penetrating the skull`,
 			nl,
 			`Concussions, a subset of TBI, are often referred to as mild TBIs & result from similar mechanisms. Both conditions can lead to a range of symptoms, including${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_3_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx)])}:`,
 			nl,
-			lines_(
-				`- physical`,
-				`- cognitive`,
-				`- emotional`,
-				`- sleep-related issues`,),],]],
+			`- physical`,
+			`- cognitive`,
+			`- emotional`,
+			`- sleep-related issues`,],]],
 		[`## Diagnostic Approaches`, ()=>[
 			[`### Neurological Examination`, [
 				`Diagnosing TBI begins with a thorough neurological examination. This includes:`,
 				nl,
-				lines_(
-					`- assessing motor & sensory skills`,
-					`- hearing & speech`,
-					`- coordination & balance`,
-					`- mental status`,
-					`- changes in mood or behavior`,),
+				`- assessing motor & sensory skills`,
+				`- hearing & speech`,
+				`- coordination & balance`,
+				`- mental status`,
+				`- changes in mood or behavior`,
 				nl,
 				`Tools like the Acute Concussion Evaluation (ACE) form help assess individuals who have suffered a mild TBI. Tracking symptoms & recovery over time.`,]],
 			[`### Imaging Techniques`, [
@@ -51,19 +48,17 @@ export default (ctx:request_ctx_T)=>''
 						[
 							`Used for more detailed images of brain tissue. Particularly useful in detecting subtle changes & injuries not visible on CT scans. Advanced MRI techniques can identify microscopic injuries & bleeding${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx)])}:`,
 							nl,
-							lines_(
-								`- diffusion tensor imaging`,
-								`- susceptibility-weighted imaging`,),],]],
+							`- diffusion tensor imaging`,
+							`- susceptibility-weighted imaging`,],]],
 					[`### Blood Tests`, [
 						`Innovative blood tests examine blood for proteins that indicate brain injury. Such as the Banyan Brain Trauma Indicator (BTI). These tests diagnose concussions & other mild TBIs${ref_1_2_footnote__sup_(ctx)}.`,]],
 					[`### Neuropsychological Tests`, [
 						`These tests assess cognitive functions such as:`,
 						nl,
-						lines_(
-							`- memory`,
-							`- concentration`,
-							`- information processing`,
-							`- executive functioning`,),
+						`- memory`,
+						`- concentration`,
+						`- information processing`,
+						`- executive functioning`,
 						nl,
 						`They are often used alongside imaging to provide a comprehensive evaluation of brain function following a TBI${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx)])}.`,]],],]],
 			[`## Therapeutic Approaches`, ()=>[
@@ -84,27 +79,24 @@ export default (ctx:request_ctx_T)=>''
 				[`### Surgery`, [
 					`In severe cases, surgery may be necessary to:`,
 					nl,
-					lines_(
-						`- address brain bleeds`,
-						`- remove clots`,
-						`- repair skull fractures`,),
+					`- address brain bleeds`,
+					`- remove clots`,
+					`- repair skull fractures`,
 					nl,
           `Surgical intervention aims to prevent further damage & stabilize the patient${footnote__sup__sort([ref_1_2_footnote__sup_(ctx),ref_1_3_footnote__sup_(ctx)])}.`,]],]],
 			[`## Conclusion`, [
 				`Traumatic Brain Injury (TBI) & concussions require specialized diagnostic & therapeutic approaches. To manage their complex & varied symptoms. Diagnostics include:`,
 				nl,
-				lines_(
-					`- Advanced imaging techniques`,
-					`- innovative blood tests`,
-					`- comprehensive neuropsychological assessments`,),
+				`- Advanced imaging techniques`,
+				`- innovative blood tests`,
+				`- comprehensive neuropsychological assessments`,
 				nl,
 				`Treatment involves a combination of:`,
 				nl,
-				lines_(
-					`- rest`,
-					`- rehabilitation`,
-					`- medication`,
-					`- in severe cases, surgery`,),]],]],
+				`- rest`,
+				`- rehabilitation`,
+				`- medication`,
+				`- in severe cases, surgery`,]],]],
 ])
 // @formatter:on
 function ref_1_1_footnote__sup_(ctx:request_ctx_T) {

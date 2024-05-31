@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -23,10 +23,9 @@ export default (ctx:request_ctx_T)=>''
 		`The Aurora ZIP™ procedure is minimally invasive. It requires minimal blood loss, using only intravenous (IV) sedation. Patients typically go home the same day, & the recovery period lasts only about one week${footnote__sup__sort([/* ref5_footnote__sup_(ctx), ref10_footnote__sup_(ctx), */])}.`,
 		nl,
 		`The Aurora ZIP™ procedure avoids the disadvantages of traditional fusion surgeries:`,
-		lines_(
-			`- general anesthesia`,
-			`- extensive back surgery`,
-			`- a prolonged recovery period`,),]],
+		`- general anesthesia`,
+		`- extensive back surgery`,
+		`- a prolonged recovery period`,]],
 	[`## How ${mobile_hidden__span_([`the `])}Aurora ZIP™ ${mobile_hidden__span_([`System `])}Works`, [
 		`The Aurora ZIP™ Lumbar Fusion system is a state-of-the-art spinal fixation device. That aims to provide superior stabilization & support during lumbar spinal fusion surgeries. Traditional fusion procedures rely on screws & rods. Which is an invasive surgery. Requiring significant recovery time. The Aurora ZIP™ system introduces a less invasive alternative.`,
 		nl,
@@ -37,20 +36,18 @@ export default (ctx:request_ctx_T)=>''
 	[`## ${mobile_hidden__span_([`Key Features`, `Feature`])} & Design Benefits`, ()=>[
 		[`### Minimally Invasive Approach`, [
 			`The system's innovative design allows for smaller incisions & less muscle disruption. Which leads to:`,
-			lines_(
-				`- reduced operative time`,
-				`- less postoperative pain`,
-				`- faster recovery`,),]],
+			`- reduced operative time`,
+			`- less postoperative pain`,
+			`- faster recovery`,]],
 		[`### Enhanced Stability`, [
 			`The zip technology provides robust mechanical stabilization. Which is critical for the successful fusion of the vertebrae.`,]],
 		[`### Biocompatible Materials`, [
 			`Made from high-quality materials that are compatible with the human body. The Aurora ZIP™ system ensures durability & long-term reliability.`,]],
 		[`### Versatility`, [
 			`The Aurora ZIP™ system is useful to treat various lumbar spinal issues, including:`,
-			lines_(
-				`- degenerative disc disease`,
-				`- spondylolisthesis`,
-				`- spinal stenosis`,),]],
+			`- degenerative disc disease`,
+			`- spondylolisthesis`,
+			`- spinal stenosis`,]],
 		[`### Less Bone Removal`, [
 			`The Aurora ZIP™ procedure may require less bone removal compared to traditional fusion techniques.`,]],]],
 	[`## ${mobile_hidden__span_([`Clinical Efficacy, Patient Outcomes, & Surgeon Experiences`, `Efficacy & Patient Outcomes`])}`, [
@@ -117,18 +114,16 @@ export default (ctx:request_ctx_T)=>''
 			`The best surgical option depends on your specific diagnosis, health condition, & goals.`,]],
 		[`### Candid Discussion`, [
 			`Ask your surgeon about:`,
-			lines_(
-				`- their experience with this procedure`,
-				`- the potential benefits & risks in your situation`,
-				`- realistic expectations for recovery`,),]],]],
+			`- their experience with this procedure`,
+			`- the potential benefits & risks in your situation`,
+			`- realistic expectations for recovery`,]],]],
 	[`## The Takeaway`, [
 		`Aurora ZIP™ Lumbar Fusion provides a minimally invasive option for spinal fusion. This evolving technology may offer benefits for certain patients. Consult with an experienced spine surgeon specializing in this technique. To determine if it's the right approach for your individual needs.`,]],
 	[`## Conclusion`, [
 		`The Aurora ZIP™ Lumbar Fusion is an alternative to traditional spinal surgery. It is:`,
-		lines_(
-			`- minimally invasive`,
-			`- effective`,
-			`- safe`,),
+		`- minimally invasive`,
+		`- effective`,
+		`- safe`,
 		nl,
 		`Its innovative design & positive clinical outcomes. Positions it as a preferred option for patients. Seeking relief from chronic back & leg pain due to spinal instability. The Aurora ZIP™ Lumbar Fusion offers a quicker path to recovery & improved quality of life. For those suffering from debilitating spinal conditions.`,]]
 ])

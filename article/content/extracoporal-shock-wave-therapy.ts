@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_ } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -39,10 +39,9 @@ export default (ctx:request_ctx_T)=>''
 		()=>[
 			[`### Tendinopathies`, [
 				`Chronic conditions like:`,
-				lines_(
-					`- plantar fasciitis (heel pain)`,
-					`- tennis elbow`,
-					`- rotator cuff tendinitis`,),]],
+				`- plantar fasciitis (heel pain)`,
+				`- tennis elbow`,
+				`- rotator cuff tendinitis`,]],
 			[`### Joint Pain`, [
 				`Sometimes used for osteoarthritis, particularly in early stages.`,]],
 			[`### Non-Healing Wounds`, [
@@ -51,10 +50,9 @@ export default (ctx:request_ctx_T)=>''
 				`Potential use in stimulating repair of non-healing fractures.`,]],
 			[`### Other Applications`, [
 				`Conditions like:`,
-				lines_(
-					`- erectile dysfunction`,
-					`- cellulite reduction`,
-					`- even kidney stone treatment (where it originated)`,),]],],]],
+				`- erectile dysfunction`,
+				`- cellulite reduction`,
+				`- even kidney stone treatment (where it originated)`,]],],]],
 	[`## Types of ESWT`, [
 		`There are two main types of ESWT:`,
 		()=>[
@@ -66,22 +64,20 @@ export default (ctx:request_ctx_T)=>''
 	[`## Clinical Applications of ESWT`, [
 		[
 			`ESWT has been studied & used for various musculoskeletal conditions, including:`,
-			lines_(
-				`- Tendinopathies (e.g., shoulder, elbow, Achilles, patellar)${PMC10648068_footnote__sup_(ctx)}${mac_20527246_footnote__sup_(ctx)}`,
-				`- Plantar fasciitis${PMC10648068_footnote__sup_(ctx)}`,
-				`- Delayed or non-union fractures${PMC10648068_footnote__sup_(ctx)}${jot_10_1097__footnote__sup_(ctx)}`,
-				`- Bone defects & avascular necrosis${mac_20527246_footnote__sup_(ctx)}`,
-				`- Spasticity in neurological disorders (e.g., stroke, multiple sclerosis, cerebral palsy)${mac_20527246_footnote__sup_(ctx)}`,),
+			`- Tendinopathies (e.g., shoulder, elbow, Achilles, patellar)${PMC10648068_footnote__sup_(ctx)}${mac_20527246_footnote__sup_(ctx)}`,
+			`- Plantar fasciitis${PMC10648068_footnote__sup_(ctx)}`,
+			`- Delayed or non-union fractures${PMC10648068_footnote__sup_(ctx)}${jot_10_1097__footnote__sup_(ctx)}`,
+			`- Bone defects & avascular necrosis${mac_20527246_footnote__sup_(ctx)}`,
+			`- Spasticity in neurological disorders (e.g., stroke, multiple sclerosis, cerebral palsy)${mac_20527246_footnote__sup_(ctx)}`,
 			nl,
 			`The versatility of extracorporeal shock wave therapy extends across various domains of medicine. With its application proving beneficial in the treatment of:`,],
 		()=>[
 			[`### Musculoskeletal Disorders`, [
 				`ESWT has shown remarkable efficacy in managing conditions such as:`,
-				lines_(
-					`- plantar fasciitis`,
-					`- tennis elbow`,
-					`- jumper's knee`,
-					`- shoulder tendinitis`,),
+				`- plantar fasciitis`,
+				`- tennis elbow`,
+				`- jumper's knee`,
+				`- shoulder tendinitis`,
 				nl,
 				`By alleviating pain & promoting tissue healing. ESWT enables patients to regain mobility & improve their quality of life.`,]],
 			[`### Chronic Pain Syndromes`, [
@@ -134,12 +130,11 @@ export default (ctx:request_ctx_T)=>''
 		]]],
 	[`## Safety & Contraindications`, [
 		`ESWT is generally considered safe. With few reported side effects, such as temporary pain or discomfort during treatment${PMC10648068_footnote__sup_(ctx)}${PMC7608508_footnote__sup_(ctx)}. Contraindications may include${PMC10648068_footnote__sup_(ctx)}:`,
-		lines_(
-			`- anticoagulant therapy`,
-			`- bleeding disorders`,
-			`- acute infections`,
-			`- pregnancy`,
-			`- application over growth plates or nerve tracts`,),]],
+		`- anticoagulant therapy`,
+		`- bleeding disorders`,
+		`- acute infections`,
+		`- pregnancy`,
+		`- application over growth plates or nerve tracts`,]],
 	[`## Future Directions`, [
 		`As research into extracorporeal shock wave therapy continues to advance. The potential applications of this technology are expanding. Ongoing studies are exploring the efficacy of ESWT. In wound healing, cardiovascular diseases, & even erectile dysfunction. Promising to broaden the scope of this treatment.`,]],
 	[`## Conclusion`, [

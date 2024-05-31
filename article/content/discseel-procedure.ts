@@ -4,7 +4,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -53,10 +53,9 @@ export default (ctx:request_ctx_T)=>''
 				`Research shows that 70% of patients treated with the Discseel® Procedure report improvements. In pain, function, & quality of life${ref18_footnote__sup_(ctx)}.`]],],]],
 	[`## Minimally Invasive`, [
 		`The Discseel® Procedure is minimally invasive. Discseel® uses a needle puncture & does not have disadvantages of traditional spinal surgery:`,
-		lines_(
-			`- large incisions`,
-			`- significant blood loss`,
-			`- lengthy recovery times`,),
+		`- large incisions`,
+		`- significant blood loss`,
+		`- lengthy recovery times`,
 		nl,
 		`This approach reduces the risk of complications & shortens the recovery period.`,]],
 	[`## Treating Pain`, [

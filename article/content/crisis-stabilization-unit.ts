@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -20,10 +20,9 @@ export default (ctx:request_ctx_T)=>''
 		`Crisis Stabilization Units (CSUs) are facilities providing immediate support & intervention. For individuals experiencing acute behavioral health crises. These units play a crucial role in the mental health care system. By offering a safe & structured environment for stabilization & assessment. Thereby preventing the need for more restrictive treatments like hospitalization. `,]],
 	[`## Purpose${mobile_hidden__span_([` of Crisis Stabilization Units`])}`, [
 		`The primary purpose of Crisis Stabilization Units is to provide rapid assessment & treatment. To individuals experiencing severe psychiatric distress or substance use issues. These facilities aim to:`,
-		lines_(
-			`- de-escalate crises`,
-			`- stabilize patients`,
-			`- determine the next steps for treatment`,),
+		`- de-escalate crises`,
+		`- stabilize patients`,
+		`- determine the next steps for treatment`,
 		nl,
     `In a less restrictive setting than a hospital emergency department. CSUs help to alleviate the burden on traditional emergency rooms. Improving the overall efficiency of the mental health care system${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx),ref_c1_3_footnote__sup_(ctx)])}.`,]],
 	[`## Services Offered${mobile_hidden__span_([` by Crisis Stabilization Units`])}`, [
@@ -31,35 +30,31 @@ export default (ctx:request_ctx_T)=>''
 		()=>[
 			[`### Immediate Crisis Intervention`, [
 				`CSUs handle various crises, including:`,
-				lines_(
-					`- severe anxiety`,
-					`- suicidal ideation`,
-					`- psychotic episodes`,
-					`- substance withdrawal`,),
+				`- severe anxiety`,
+				`- suicidal ideation`,
+				`- psychotic episodes`,
+				`- substance withdrawal`,
 				nl,
 				`They provide 24-hour monitoring & support, ensuring that individuals receive timely & appropriate care${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`,]],
 			[`### Comprehensive Assessment`, [
 				`Upon arrival, patients undergo a thorough assessment. Which includes evaluating their:`,
-				lines_(
-					`- mental status`,
-					`- medical stability`,
-					`- overall risk factors`,),
+				`- mental status`,
+				`- medical stability`,
+				`- overall risk factors`,
 				nl,
 				`Creating a tailored treatment plan that addresses the specific needs of each individual${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}.`,]],
 			[`### Short-term Treatment`, [
 				`Treatment in a CSU typically includes:`,
-				lines_(
-					`- medication management`,
-					`- individual & group counseling`,
-					`- psychoeducation`,),
+				`- medication management`,
+				`- individual & group counseling`,
+				`- psychoeducation`,
 				nl,
 				`These interventions are focused on stabilizing the patient's condition. To allow them to transition to less intensive care settings${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)/*,ref_c1_5_footnote__sup_(ctx)*/])}.`,]],
 			[`### Connection to Ongoing Care`, [
 				`CSUs facilitate a smooth transition to ongoing treatment services. Depending on the individual's needs, this may involve${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx)])}:`,
-				lines_(
-					`- arranging outpatient therapy`,
-					`- connecting patients with community resources`,
-					`- coordinating with longer-term residential facilities`,),]],
+				`- arranging outpatient therapy`,
+				`- connecting patients with community resources`,
+				`- coordinating with longer-term residential facilities`,]],
 			[`### 24/7 Availability`, [
 				`Offering immediate support during a crisis`,]],
 			[`### Medication Management`, [
@@ -79,12 +74,11 @@ export default (ctx:request_ctx_T)=>''
 		]]],
 	[`## Who Can Benefit?`, [
 		`CSUs may be helpful for people experiencing:`,
-		lines_(
-			`- Severe depression or anxiety`,
-			`- Suicidal thoughts or attempts`,
-			`- Psychotic symptoms`,
-			`- Crisis due to major life stressors`,
-			`- Substance use issues contributing to the crisis`,),
+		`- Severe depression or anxiety`,
+		`- Suicidal thoughts or attempts`,
+		`- Psychotic symptoms`,
+		`- Crisis due to major life stressors`,
+		`- Substance use issues contributing to the crisis`,
 		nl,
 		`CSUs provide advantages over traditional inpatient hospitalization:`,
 		()=>[
@@ -121,16 +115,14 @@ export default (ctx:request_ctx_T)=>''
 		]]],
 	[`## The Takeaway`, [
 		`Crisis stabilization units are an accessible & responsive form of mental health care. Providing rapid, compassionate, & targeted support during crises. They empower individuals to:`,
-		lines_(
-			`- regain stability`,
-			`- connect with resources`,
-			`- pave the way for lasting recovery`,),]],
+		`- regain stability`,
+		`- connect with resources`,
+		`- pave the way for lasting recovery`,]],
 	[`## Conclusion`, [
 		`Crisis Stabilization Units are an integral part of the behavioral health care continuum. Offering a critical service for individuals in acute psychological distress. CSUs save lives. And enhance the efficiency & effectiveness of mental health services by providing:`,
-		lines_(
-			`- immediate intervention`,
-			`- comprehensive assessment`,
-			`- a pathway to continued care`,),
+		`- immediate intervention`,
+		`- comprehensive assessment`,
+		`- a pathway to continued care`,
 		nl,
     `As the demand for mental health services continues to grow. Crisis Stabilization Units become even more pivotal. In meeting the needs of communities across the nation${footnote__sup__sort([ref_c1_1_footnote__sup_(ctx),ref_c1_2_footnote__sup_(ctx),ref_c1_3_footnote__sup_(ctx)])}.`,]],
 ])

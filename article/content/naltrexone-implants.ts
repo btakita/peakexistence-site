@@ -9,7 +9,7 @@ import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
 const description_md = lines_(
 	`Naltrexone implants. A significant advancement in the treatment of opioid & alcohol dependence. These implants deliver a steady dose of the opioid antagonist naltrexone. Over an extended period typically ranging from two to six months. By providing a continuous blockade of opioid receptors. Naltrexone implants help reduce cravings & prevent relapse.`,
-	``,
+	nl,
 	`By eliminating the need for daily pills & minimizing the risk of non-adherence. Naltrexone implants can offer an extended period of support & focus on recovery. Offering a new hope for individuals struggling with addiction. This article explores the efficacy, benefits, & challenges associated with naltrexone implants. Drawing on recent research & clinical findings.`)
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
@@ -54,10 +54,9 @@ export default (ctx:request_ctx_T)=>''
 	[`## Conclusion`, [
 		`Naltrexone implants represent a significant advancement in the treatment of opioid & alcohol dependence. By providing a long-term, steady release of medication, these implants:`,
 		nl,
-		lines_(
-			`- enhance compliance`,
-			`- reduce cravings`,
-			`- ultimately, supporting recovery`,),
+		`- enhance compliance`,
+		`- reduce cravings`,
+		`- ultimately, supporting recovery`,
 		nl,
     `Further research is needed to fully understand their long-term efficacy & safety. As the medical community continues to explore & refine this treatment option. Naltrexone implants hold the potential to become a key component. In the arsenal against addiction.`,]],
 ])

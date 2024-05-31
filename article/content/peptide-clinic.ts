@@ -32,18 +32,16 @@ export default (ctx:request_ctx_T)=>''
 	[`## ${mobile_hidden__span_([`Understanding `])}Peptide Therapy`, [
 		`Peptide Therapy offers a targeted approach to treatment. With a lower risk of side effects compared to traditional pharmaceuticals. In peptide therapy, synthetic peptides are administered. To direct cells to perform specific functions such as${ref_p1_2_footnote__sup_(ctx)}:`,
 		nl,
-		lines_(
-			`- accelerating healing`,
-			`- boosting the immune system`,
-			`- enhancing muscle growth`,),
+		`- accelerating healing`,
+		`- boosting the immune system`,
+		`- enhancing muscle growth`,
 		nl,
 		`Peptide clinics operate under the guidance of medical professionals. Who assess individual health needs to prescribe specific peptides. That can target a variety of health goals for:`,
 		nl,
-		lines_(
-			`- anti-aging`,
-			`- weight loss`,
-			`- muscle growth`,
-			`- immune system support`,),]],
+		`- anti-aging`,
+		`- weight loss`,
+		`- muscle growth`,
+		`- immune system support`,]],
 	[`## Services Offered in Peptide Clinics`, [
 		`Peptide clinics specialize in the administration of peptide therapies. Tailored to individual health needs. These clinics often provide a comprehensive assessment. That includes detailed medical histories. To ensure that peptide therapy is suitable for the patient. Common treatments offered include:`,
 		nl,
@@ -93,16 +91,14 @@ export default (ctx:request_ctx_T)=>''
 	[`## Regulatory & Quality Assurance`, [
 		`Peptide therapies are regulated to ensure safety & efficacy. Patients should seek treatment from licensed medical professionals & clinics. That adheres to strict regulatory standards. This ensures that${footnote__sup__sort([/*ref_p1_7_footnote__sup_(ctx)*/])}:`,
 		nl,
-		lines_(
-			`- the peptides used are of high quality`,
-			`- treatments are administered safely & effectively`,),]],
+		`- the peptides used are of high quality`,
+		`- treatments are administered safely & effectively`,]],
 	[`## Conclusion`, [
 		`Peptide clinics represent a significant advancement in personalized medicine. Offering targeted therapies that can improve a range of physiological functions. And treat various health conditions. Providing you with innovative options for enhancing your:`,
-		lines_(
-			`- health`,
-			`- well-being`,
-			`- vitality`,
-			`- longevity`,),
+		`- health`,
+		`- well-being`,
+		`- vitality`,
+		`- longevity`,
 		nl,
 		`If you are considering peptide therapy, evaluate the benefits & risks. With professional help. To make an informed decision.`,]],
 ])

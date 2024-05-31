@@ -4,7 +4,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -50,10 +50,9 @@ export default (ctx:request_ctx_T)=>''
 						`Proper blood circulation ensures the brain receives a continuous supply of oxygen & glucose. Which is essential for energy production. This energy is vital for the brain to perform various cognitive functions efficiently. Including memory, problem-solving, & decision-making${footnote__sup__sort([ref_b2_1_footnote__sup_(ctx),ref_b2_2_footnote__sup_(ctx),ref_b2_3_footnote__sup_(ctx)])}.`]],
 					[`#### Increase Brain Activity`, [
 						`Studies have shown that increased blood flow, particularly in regions of the brain, correlate with:`,
-						lines_(
-							`- memory & learning`,
-							`- correlates with higher cognitive abilities`,
-							`- IQ scores`,),
+						`- memory & learning`,
+						`- correlates with higher cognitive abilities`,
+						`- IQ scores`,
 						nl,
 						`Research has demonstrated that cerebral blood flow (CBF) is positively correlated with IQ. Highlighting that areas with more blood flow tend to have better cognitive functioning${ref_b2_2_footnote__sup_(ctx)}.`]],
 					[`#### Prevent of Cognitive Decline`, [
@@ -64,10 +63,9 @@ export default (ctx:request_ctx_T)=>''
 						`Enhanced blood circulation has long-term effects. Including the maintenance of healthy brain structure & function. Studies using imaging techniques like arterial spin labeling. Show that individuals with higher IQ scores exhibit distinct patterns of blood flow in the brain. Suggesting that efficient vascular health is integral to superior cognitive performance${ref_b2_2_footnote__sup_(ctx)}.`]],],]],
 			[`### Peripheral Circulation`, [
 				`Good blood flow in the arms & legs prevents:`,
-				lines_(
-					`- pain`,
-					`- wounds`,
-					`- potential complications like amputation in severe cases`),]],],]],
+				`- pain`,
+				`- wounds`,
+				`- potential complications like amputation in severe cases`,]],],]],
 	[`## Conditions Affect Blood Flow`, [
 		`Several conditions can compromise blood flow:`,
 		()=>[
@@ -99,11 +97,10 @@ export default (ctx:request_ctx_T)=>''
 					`Cholesterol levels are a key indicator of heart disease risk. High cholesterol correlates with plaque formation.`]],],]],
 	[`## Significance${mobile_hidden__span_([` of Blood Flow Analysis`])}`, [
 		`Blood flow analysis diagnoses, manages, & prevents cardiovascular diseases. Including:`,
-		lines_(
-			`- arteriosclerosis`,
-			`- peripheral artery disease`,
-			`- aortic stenosis`,
-			`- congenital heart defects`,),
+		`- arteriosclerosis`,
+		`- peripheral artery disease`,
+		`- aortic stenosis`,
+		`- congenital heart defects`,
 		()=>[
 			[`### Diagnosing ${mobile_hidden__span_([`Cardiovascular `])}Disease`, [
 				`Early detection is key in managing cardiovascular diseases. Blood flow analysis provides a critical advantage. By identifying issues like blockages, clots, or weakened vessel walls. Physicians can intervene early, often preventing the progression of disease & avoiding severe complications.`]],],]],
@@ -122,13 +119,12 @@ export default (ctx:request_ctx_T)=>''
 				`Assessing how medications, lifestyle changes, or procedures are improving blood flow.`]],
 			[`### Guiding Treatment Decisions`, [
 				`Beyond diagnosis, blood flow analysis informs treatment strategies. Offering insights into the effectiveness of interventions. Such as:`,
-				lines_(
-					`- preventative care`,
-					`- medication`,
-					`- non-surgical therapies`,
-					`- surgical therapies`,
-					`  - stenting`,
-					`  - bypass surgery`),
+				`- preventative care`,
+				`- medication`,
+				`- non-surgical therapies`,
+				`- surgical therapies`,
+				`  - stenting`,
+				`  - bypass surgery`,
 				nl,
 				`For patients undergoing treatment for conditions like atrial fibrillation or chronic heart failure. Regular blood flow assessments can monitor disease progression & guide ongoing care.`]],
 			[`### Advancing Surgical Outcomes`, [
@@ -151,19 +147,17 @@ export default (ctx:request_ctx_T)=>''
 				`Regular checkups are crucial.`]],
 			[`### Lifestyle & Dietary Interventions`, [
 				`Blood flow analysis informs healthcare providers to recommend specific lifestyle & dietary changes. To improve cardiovascular health. Personal interventions to address the unique risk factors include:`,
-				lines_(
-					`- heart-healthy foods`,
-					`- engaging in regular exercise`,
-					`- managing stress`),]],
+				`- heart-healthy foods`,
+				`- engaging in regular exercise`,
+				`- managing stress`,]],
 			[`### ${mobile_hidden__span_([`Role of `])}Supplements & Medications`, [
 				`Supplements or medications may be necessary to improve blood flow & heart health. Blood flow analysis can help determine the most effective options. Whether its anticoagulants to prevent clots or statins to lower cholesterol levels.`]],
 		]]],
 	[`## The Takeaway`, [
 		`Blood flow analysis provides a window into your circulatory health. Offering unparalleled insights into the health of the heart & vessels. Enabling:`,
-		lines_(
-			`- early detection`,
-			`- guiding treatment`,
-			`- preventive strategies`,),
+		`- early detection`,
+		`- guiding treatment`,
+		`- preventive strategies`,
 		nl,
 		`This advanced diagnostic tool paves the way for healthier hearts & longer lives.`]],
 ])

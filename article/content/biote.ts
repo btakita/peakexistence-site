@@ -14,16 +14,14 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	description_md: lines_(
 		`BioTE® is a healthcare company specializing in hormone optimization & precision medicine. Founded in 2012. BioTE® has pioneered the development & implementation of advanced hormone therapy techniques. Focusing on bioidentical hormone replacement therapy (BHRT) using pellet insertion. The company offers a comprehensive platform that:`,
 		nl,
-		lines_(
-			`- Supports patients in managing hormonal imbalances.`,
-			`- Equips healthcare providers with the necessary tools & training. To integrate hormone optimization into their practices.`,),
+		`- Supports patients in managing hormonal imbalances.`,
+		`- Equips healthcare providers with the necessary tools & training. To integrate hormone optimization into their practices.`,
 		nl,
 		`BioTE®'s approach is grounded in over 80 years of scientific research. Translating into clinically validated treatments. That address the earliest indicators of aging & hormone-related health issues. With a strong commitment to improving patient outcomes. BioTE® provides tailored therapies that aim to:`,
 		nl,
-		lines_(
-			`- restore vitality`,
-			`- enhance well-being`,
-			`- improve overall quality of life for individuals experiencing hormonal imbalances`,),)
+		`- restore vitality`,
+		`- enhance well-being`,
+		`- improve overall quality of life for individuals experiencing hormonal imbalances`,)
 })
 // @formatter:off
 // language=md
@@ -50,11 +48,10 @@ export default (ctx:request_ctx_T)=>''
 			`BioTE® Certified Providers offer extensive support throughout the therapy process. From initial consultation & lab testing to pellet insertion & follow-up care. This support ensures that patients are well-informed & comfortable with their treatment plan${footnote__sup__sort([ref_b2_6_footnote__sup_(ctx),ref_b1_4_footnote__sup_(ctx),ref_b1_6_footnote__sup_(ctx)])}.`,]],
 		[`### Improved Quality of Life`, [
 			`Patients undergoing BioTE® therapy often report significant improvements in their quality of life. Symptoms such as${footnote__sup__sort([ref_b2_7_footnote__sup_(ctx),ref_b2_7_1_footnote__sup_(ctx),ref_b2_6_footnote__sup_(ctx),ref_b1_2_footnote__sup_(ctx),ref_b1_5_footnote__sup_(ctx)])}:`,
-			lines_(
-				`- fatigue`,
-				`- mood swings`,
-				`- brain fog`,
-				`- decreased libido`,),
+			`- fatigue`,
+			`- mood swings`,
+			`- brain fog`,
+			`- decreased libido`,
 			nl,
 			`It can be effectively managed. Allowing individuals to regain their vitality & enjoy a more fulfilling life.`,]],]],
 	[`## The BioTE® Process`, [

@@ -2,7 +2,6 @@ import { eureka_diagnostics_reference_lab } from '@btakita/domain--server--peake
 import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
@@ -42,9 +41,8 @@ export default (ctx:request_ctx_T)=>''
 		`By offering a comprehensive suite of diagnostic services. Eureka Diagnostics empowers healthcare providers. With the information needed to make accurate diagnoses & develop effective treatment plans. This collaboration is pivotal in advancing patient care & improving health outcomes.`,]],
 	[`## Conclusion`, [
 		`Eureka Diagnostics exemplifies the future of medical diagnostics. It plays a crucial role in the healthcare ecosystem:`,
-		lines_(
-			`- through its advanced testing capabilities`,
-			`- rapid service`,
-			`- patient-focused approach`,),]],
+		`- through its advanced testing capabilities`,
+		`- rapid service`,
+		`- patient-focused approach`,]],
 ])
 // @formatter:on

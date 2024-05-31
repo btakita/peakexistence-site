@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -11,7 +11,7 @@ import { mobile_hidden__span_ } from '../../responsive/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...exercise_with_detox_therapy,
-	description: `Combining exercise with detox therapy emerges as a powerful strategy. This holistic approach focuses on cleansing the body of toxins. While strengthing the mind & body through physical activity. This article delves into the benefits of integrating exercise with detox therapy. Exploring how this combination can enhances recovery and well-being.`
+	description: `Combining exercise with detox therapy emerges as a powerful strategy. This holistic approach focuses on cleansing the body of toxins. While strengthening the mind & body through physical activity. This article delves into the benefits of integrating exercise with detox therapy. Exploring how this combination can enhances recovery and well-being.`
 })
 // @formatter:off
 // language=md
@@ -20,38 +20,34 @@ export default (ctx:request_ctx_T)=>''
 	[`## Why Exercise with Detox Therapy?`, [
 		`Exercise & detoxification are both essential elements in maintaining a healthy lifestyle. When combined, their effects can be more transformative.`,
 		nl,
-		lines_(
-			`Exercise helps in:`,
-			`- weight management`,
-			`- cardiovascular health`,
-			`- reducing stress`,
-			`- improving mood`,
-			`- increasing overall energy levels`,),
+		`Exercise helps in:`,
+		`- weight management`,
+		`- cardiovascular health`,
+		`- reducing stress`,
+		`- improving mood`,
+		`- increasing overall energy levels`,
 		nl,
 		`Detox therapy focuses on:`,
-		lines_(
-			`- ridding the body of harmful toxins`,
-			`- promoting better organ function`,
-			`- bolstering the immune system`,),
+		`- ridding the body of harmful toxins`,
+		`- promoting better organ function`,
+		`- bolstering the immune system`,
 		nl,
 		`The synergy between exercise & detox therapy is a potent approach to a healthier life.`,]],
 		[`## The Synergy of Exercise & Detox Therapy`, [
 			`Detox therapy eliminates toxins from the body. Often accumulated due to environmental pollutants, unhealthy eating habits, & stress. Techniques can range from dietary changes & juice fasting. To more intensive treatments like colon cleanses. Exercise amplifies the benefits of detox therapy. Exercise stimulates the body's natural detoxification processes. Promoting the elimination of toxins through sweat & enhancing circulation.`,]],
 		[`## Detoxification`, [
 			`Detoxification & fasting has been practiced for therapeutic purposes for thousands of years. Evolving to cater to diverse needs beyond drug & alcohol rehab. By removing free radicals & heavy metals, detoxification promotes:`,
-			lines_(
-				`- anti-aging benefits`,
-				`- enhances nutrient absorption`,
-				`- enables the body to combat oxidative stress`,),
+			`- anti-aging benefits`,
+			`- enhances nutrient absorption`,
+			`- enables the body to combat oxidative stress`,
 			nl,
 			`Detoxification helps:`,
-			lines_(
-				`- restore balance in various systems`,
-				`- boosts energy levels`,
-				`- strengthens the immune system`,
-				`- prevents chronic illnesses linked to environmental toxins`,
-				`- promotes healthy skin`,
-				`- aids in weight loss by improving metabolism`,),]],
+			`- restore balance in various systems`,
+			`- boosts energy levels`,
+			`- strengthens the immune system`,
+			`- prevents chronic illnesses linked to environmental toxins`,
+			`- promotes healthy skin`,
+			`- aids in weight loss by improving metabolism`,]],
 	[`## Benefits of Exercise with Detox Therapy`, [
 		()=>[
 			[`### Enhanced Detoxification`, [
@@ -97,10 +93,9 @@ export default (ctx:request_ctx_T)=>''
 		[`## Conclusion`, [
 			`Exercise with detox therapy offers a comprehensive approach to health & wellness. Addressing the physical, mental, & emotional aspects of recovery. This holistic strategy improves detox therapy & contributes to long-term well-being by:`,
 			nl,
-			lines_(
-				`- enhancing the body's natural detoxification processes`,
-				`- improving mental health`,
-				`- boosting immune function`,),
+			`- enhancing the body's natural detoxification processes`,
+			`- improving mental health`,
+			`- boosting immune function`,
 			nl,
       `Consult with healthcare professionals before starting any new exercise with detox regimen. To ensure its safety & application for your individual health needs.`,]],
 ])

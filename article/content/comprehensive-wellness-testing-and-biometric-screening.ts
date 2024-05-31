@@ -20,34 +20,30 @@ export default (ctx:request_ctx_T)=>''
 		`Comprehensive wellness testing & biometric screening. Your guide to gain deeper insights into your health. These tools provide a snapshot of one's current health status. And offer a roadmap for making informed lifestyle choices & preventive measures. Taking a proactive approach to your health is more important than ever. Comprehensive wellness testing & screening empowers your journey towards optimal well-being.`,]],
 	[`## ${mobile_hidden__span_([`Comprehensive `])}Wellness Testing`, [
 		`Comprehensive wellness testing involves a series of health assessments. Evaluating various aspects of your health & well-being. These tests go beyond routine check-ups. Aiming to uncover potential health issues before they develop into serious conditions. Analyzing a wide range of biomarkers, comprehensive wellness tests provide a detailed overview of your${footnote__sup__sort([ref_i1_1_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}:`,
-		lines_(
-			`- nutritional deficiencies`,
-			`- hormone levels`,
-			`- cardiovascular health`,
-			`- immune system status`,),
+		`- nutritional deficiencies`,
+		`- hormone levels`,
+		`- cardiovascular health`,
+		`- immune system status`,
 		nl,
 		`These tests typically include:`,
-		lines_(
-			`- expanded lab panels`,
-			`- advanced screening tests`,
-			`- an extended consultation with a healthcare provider`,),
+		`- expanded lab panels`,
+		`- advanced screening tests`,
+		`- an extended consultation with a healthcare provider`,
 		nl,
 		`The goal is to identify potential health issues before they become serious. Allowing for timely intervention & management${footnote__sup__sort([/* ref6_footnote__sup_(ctx), */])}.`,],],
 	[`## ${mobile_hidden__span_([`The Role of `])}Biometric Screening`, [
 		`Biometric screening is a clinical process that measures physical characteristics such as${ref_i1_3_footnote__sup_(ctx)}:`,
-		lines_(
-			`- height`,
-			`- weight`,
-			`- body mass index (BMI)`,
-			`- blood pressure`,
-			`- blood cholesterol`,
-			`- blood glucose levels`,),
+		`- height`,
+		`- weight`,
+		`- body mass index (BMI)`,
+		`- blood pressure`,
+		`- blood cholesterol`,
+		`- blood glucose levels`,
 		nl,
 		`These screenings usually take about 10–15 minutes. Providing immediate feedback on an individual's health risks. Biometric screenings identify risk factors for chronic diseases. Which may not show obvious symptoms in their early stages, such as${footnote__sup__sort([ref_i1_1_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),/* ref_i1_4_footnote__sup_(ctx), */])}:`,
-		lines_(
-			`- hypertension`,
-			`- diabetes`,
-			`- cardiovascular conditions`,),
+		`- hypertension`,
+		`- diabetes`,
+		`- cardiovascular conditions`,
 		nl,
 		()=>[
 			[`### Components${mobile_hidden__span_([` of Biometric Screening`])}`, [
@@ -55,12 +51,11 @@ export default (ctx:request_ctx_T)=>''
 				()=>[
 					['### Blood tests', [
 						`A comprehensive metabolic panel (CMP) & complete blood count (CBC). Assessing organ function, blood cell health, & potential risk factors for various conditions. Assessing${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_1_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}:`,
-						lines_(
-							`- organ function`,
-							`- blood cell health`,
-							`- blood pressure`,
-							`- blood glucose levels`,
-							`- potential risk factors for various conditions`),]],
+						`- organ function`,
+						`- blood cell health`,
+						`- blood pressure`,
+						`- blood glucose levels`,
+						`- potential risk factors for various conditions`,]],
 					['### Urine tests', [
 						`Can reveal signs of infection, kidney function, & diabetes${footnote__sup__sort([ref4_footnote__sup_(ctx), ref_i1_3_footnote__sup_(ctx),])}.`,]],
 					[`### Cholesterol tests`, [

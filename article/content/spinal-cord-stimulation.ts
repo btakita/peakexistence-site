@@ -4,7 +4,7 @@ import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
 import { md__raw_ } from '@rappstack/ui--any/md'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -35,10 +35,9 @@ export default (ctx:request_ctx_T)=>''
 			`The electrical pulses delivered by the SCS system aim to create a tingling sensation. That helps to override or mask pain signals traveling to your brain. The exact mechanism isn't fully understood. It may involve influencing how the nervous system processes pain.`,]],
 		[`### ${mobile_hidden__span_([`What Is Known About the `])}Mechanism of SCS`, [
 			`The exact mechanism of Spinal Cord Stimulation (SCS) is not fully understood. Research has made significant progress in elucidating the mechanisms behind SCS. The specific pathways & processes involved remain partially hypothetical & elusive. Research has identified multiple potential mechanisms at both the spinal & supraspinal levels. Including${footnote__sup__sort([ref3_1_footnote__sup_(ctx),ref3_2_footnote__sup_(ctx),ref3_5_footnote__sup_(ctx)])}:`,
-			lines_(
-				`- the modulation of wide dynamic range (WDR) neurons`,
-				`- increased release of inhibitory neurotransmitters like GABA`,
-				`- changes in the excitatory & inhibitory balance within the spinal cord`,),
+			`- the modulation of wide dynamic range (WDR) neurons`,
+			`- increased release of inhibitory neurotransmitters like GABA`,
+			`- changes in the excitatory & inhibitory balance within the spinal cord`,
 			nl,
 			`Different SCS modalities may engage distinct mechanisms to achieve pain relief. Such as tonic & burst stimulation${footnote__sup__sort([ref3_3_footnote__sup_(ctx),ref3_5_footnote__sup_(ctx)])}.`,
 			nl,
@@ -75,10 +74,9 @@ export default (ctx:request_ctx_T)=>''
 				`${footnote__sup__sort([ref1_footnote__sup_(ctx),ref5_footnote__sup_(ctx),ref9_footnote__sup_(ctx)/*,ref16_footnote__sup_(ctx)*/])}`,]],
 			[`### Other Causes`, [
 				`Other cases may be conidered, such as:`,
-				lines_(
-					`- intractable back & leg pain`,
-					`- phantom limb pain`,
-					`- pain after spinal cord injury`,),]],],]],
+				`- intractable back & leg pain`,
+				`- phantom limb pain`,
+				`- pain after spinal cord injury`,]],],]],
 	[`## Benefits${mobile_hidden__span_([` of Spinal Cord Stimulation`])}`, [
 		`SCS offers several advantages over traditional pain management methods:`,
 		()=>[
@@ -94,10 +92,9 @@ export default (ctx:request_ctx_T)=>''
 				`SCS can reduce the need for pharmaceutical pain medications, including opioids. helping patients avoid the side effects associated with long-term use of pain medications${ref6_footnote__sup_(ctx)}<!--ref13_footnote__sup_(ctx)-->.`,]],
 			[`### Improved Quality of Life`, [
 				`Patients often report${ref15_footnote__sup_(ctx)}:`,
-				lines_(
-					`- better sleep`,
-					`- increased activity levels`,
-					`- an improvement in quality of life`,),]],],]],
+				`- better sleep`,
+				`- increased activity levels`,
+				`- an improvement in quality of life`,]],],]],
 	[`## Considerations, Risks, & Complications`, [
 		`While SCS is generally safe, it carries potential risks & complications, including:`,
 		()=>[
@@ -109,14 +106,13 @@ export default (ctx:request_ctx_T)=>''
 				`The degree of pain relief can vary between people. Open communication with your pain specialist is essential for realistic expectations.`,]],
 			[`### Potential Risks`, [
 				`As with any implanted device, risks include:`,
-				lines_(
-					`- infection`,
-					`- Bleeding`,
-					`- Nerve damage`,
-					`- Lead migration or breakage`,
-					`- battery failure`,
-					`- need for surgical revision`,
-					`- Device malfunction${footnote__sup__sort([ref4_footnote__sup_(ctx),ref11_footnote__sup_(ctx)])}`,),]],],]],
+				`- infection`,
+				`- Bleeding`,
+				`- Nerve damage`,
+				`- Lead migration or breakage`,
+				`- battery failure`,
+				`- need for surgical revision`,
+				`- Device malfunction${footnote__sup__sort([ref4_footnote__sup_(ctx),ref11_footnote__sup_(ctx)])}`,]],],]],
 	[`## Controversies & Considerations`, [
 		`Recent reviews have cast doubt on the long-term efficacy of SCS. A Cochrane Review concluded that SCS provides no better relief than a placebo for treating low back pain. With little to no benefit for improving quality of life. The review also highlighted the lack of long-term data. And poorly documented adverse side effects. Suggesting that the benefits of SCS may not outweigh the costs & risks${footnote__sup__sort([/*ref2_footnote__sup_(ctx),*/ref3_footnote__sup_(ctx)])}.`,
 		nl,
@@ -124,58 +120,51 @@ export default (ctx:request_ctx_T)=>''
 	[`## The Future of ${mobile_hidden__span_([`Spinal Cord Stimulation`, `SCS`])}`, [
 		`Advancements in technology continue. Enhancing the effectiveness & usability of spinal cord stimulation devices. Recent developments include:`,
 		nl,
-		lines_(
-			`- rechargeable systems with longer life spans`,
-			`- more precise targeting of electrical impulses`,
-			`- using sub-perception stimulation techniques that do not produce the tingling sensation of paresthesia`,),
+		`- rechargeable systems with longer life spans`,
+		`- more precise targeting of electrical impulses`,
+		`- using sub-perception stimulation techniques that do not produce the tingling sensation of paresthesia`,
 		nl,
 		()=>[
 			[`### Improving Modulation Protocols`, [
 				`Advances in SCS technology include the development of various new stimulation patterns & waveforms. Designed to enhance pain relief & patient outcomes. For example, time-dynamic pulse modulation using novel patterns. Such as stochastic rate modulation & sinusoidal rate modulation. It has shown improved analgesia in preclinical studies${ref1_1_footnote__sup_(ctx)}. Additionally, the emergence of paresthesia-free or subperception stimulation patterns. Such as Differential Target Multiplexed (DTM) stimulation & fast-acting subperception therapy (FAST). Offers alternatives to conventional tonic stimulation & may be more effective in certain cases${ref1_4_footnote__sup_(ctx)}.`,
 				nl,
 				`The use of improved modulation protocols with existing devices. Depends on the specific device & its capabilities. Newer SCS systems are programmable & adaptable. Allowing for updates & the use of novel waveforms${footnote__sup__sort([ref1_2_footnote__sup_(ctx),ref1_3_footnote__sup_(ctx)])}. For instance, devices that include feature capabilities can include these modulation adjustments${ref1_9_footnote__sup_(ctx)}:`,
-				lines_(
-					`- high-frequency stimulation`,
-					`- burst stimulation`,
-					`- other novel waveforms`,),
+				`- high-frequency stimulation`,
+				`- burst stimulation`,
+				`- other novel waveforms`,
 				nl,
 				`Not all existing devices may be compatible with the latest modulation protocols. Using improved modulation protocols requires that the device's hardware & software support these updates. If an implanted device does not support the new protocols. A device upgrade or replacement may be necessary. To take advantage of the latest advancements in SCS therapy${footnote__sup__sort([ref1_2_footnote__sup_(ctx),ref1_3_footnote__sup_(ctx)])}.`,]],
 			[`### SCS for Other Conditions`, [
 				()=>[
 					[`#### Refractory Angina`, [
 						`Research indicates SCS as an effective & safe treatment option. With clinical trials & systematic reviews demonstrating its efficacy in providing${footnote__sup__sort([ref2_1_footnote__sup_(ctx),ref2_2_footnote__sup_(ctx),ref2_3_footnote__sup_(ctx),ref2_5_footnote__sup_(ctx),ref2_7_footnote__sup_(ctx),ref2_8_footnote__sup_(ctx),ref2_13_footnote__sup_(ctx),ref2_15_footnote__sup_(ctx)])}:`,
-						lines_(
-							`- symptomatic relief`,
-							`- functional status improvement`,
-							`- enhanced quality of life for patient`,),
+						`- symptomatic relief`,
+						`- functional status improvement`,
+						`- enhanced quality of life for patient`,
 						nl,
 						`Authoritative institutions have recognized SCS as a therapeutic alternative to refractory angina. With class IIb recommendations${footnote__sup__sort([ref2_1_footnote__sup_(ctx),ref2_2_footnote__sup_(ctx)])}:`,
-						lines_(
-							`- American College of Cardiology`,
-							`- American Heart Association`,
-							`- European Society of Cardiology`,),
+						`- American College of Cardiology`,
+						`- American Heart Association`,
+						`- European Society of Cardiology`,
 						nl,
 						`The mechanism of action for the anti-anginal & anti-ischemic effects of SCS may include${ref2_1_footnote__sup_(ctx)}:`,
-						lines_(
-							`- direct pain blocking`,
-							`- reduced oxygen consumption`,
-							`- decreased sympathetic tone`,
-							`- redistribution of myocardial blood flow`,
-							`- modulation of intracardiac neurons`,),]],
+						`- direct pain blocking`,
+						`- reduced oxygen consumption`,
+						`- decreased sympathetic tone`,
+						`- redistribution of myocardial blood flow`,
+						`- modulation of intracardiac neurons`,]],
 					[`#### Gastrointestinal Disorders`, [
 						`Studies have explored the use of SCS for Gastrointestinal conditions such as${footnote__sup__sort([ref2_4_footnote__sup_(ctx)/*,ref2_6_footnote__sup_(ctx)*/,ref2_9_footnote__sup_(ctx),ref2_10_footnote__sup_(ctx),ref2_11_footnote__sup_(ctx),ref2_12_footnote__sup_(ctx),ref2_14_footnote__sup_(ctx),ref2_16_footnote__sup_(ctx)])}:`,
-						lines_(
-							`- chronic nausea`,
-							`- vomiting`,
-							`- refractory abdominal pain`,
-							`- gastroparesis`,),
+						`- chronic nausea`,
+						`- vomiting`,
+						`- refractory abdominal pain`,
+						`- gastroparesis`,
 						nl,
 						`Research suggests that SCS can improve gastric motility & accelerate gastric emptying. By inhibiting sympathetic activity${footnote__sup__sort([ref2_6_footnote__sup_(ctx),ref2_10_footnote__sup_(ctx)])}. Clinical trials have shown that SCS can lead to significant improvements in${footnote__sup__sort([ref2_4_footnote__sup_(ctx),ref2_9_footnote__sup_(ctx),ref2_11_footnote__sup_(ctx),ref2_12_footnote__sup_(ctx)])}:`,
-						lines_(
-							`- abdominal pain`,
-							`- nausea`,
-							`- vomiting`,
-							`- reduced opioid requirements in patients with these conditions`,),
+						`- abdominal pain`,
+						`- nausea`,
+						`- vomiting`,
+						`- reduced opioid requirements in patients with these conditions`,
 						nl,
 						`The pain relief mechanism involves activation of inhibitory dorsal horn cells & autonomic modulation${ref2_9_footnote__sup_(ctx)}.`,]],],]],],]],
 	[`## The Takeaway`, [

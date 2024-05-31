@@ -25,14 +25,13 @@ export default (ctx:request_ctx_T)=>''
 	[`## ${mobile_hidden__span_([`Understanding `])}Ultrasonic Screening`, [
 		`Ultrasonic screening, or ultrasound, is a diagnostic imaging technique. That uses sound waves to produce images of structures within the body. It helps visualize blood flow & the condition of blood vessel walls. This method is crucial for detecting abnormalities. Which are common in chronic vascular diseases. Such as${footnote__sup__sort([ref_s1_3_footnote__sup_(ctx),ref_s1_5_footnote__sup_(ctx),ref_s3_1_footnote__sup_(ctx),ref_s3_4_footnote__sup_(ctx)])}:`,
 		nl,
-		lines_(
-			`- atherosclerosis`,
-			`- blockages`,
-			`- aneurysms`,
-			`- clots`,
-			`- plaque buildup`,
-			`- abnormalities in blood flow`,
-			`- malformations in blood vessels`,),
+		`- atherosclerosis`,
+		`- blockages`,
+		`- aneurysms`,
+		`- clots`,
+		`- plaque buildup`,
+		`- abnormalities in blood flow`,
+		`- malformations in blood vessels`,
 		nl,
 		`Ultrasonic screening, or ultrasound, is a painless & safe procedure. It does not involve ionizing radiation. It offers a real-time view of blood flow & vessel structure. Allowing healthcare professionals to assess the health of arteries & veins. The versatility of ultrasonic technology makes it indispensable in identifying abnormalities. Which are indicative of chronic vessel conditions.`,]],
 	[`## Benefits of Ultrasonic Screening${mobile_hidden__span_([` in Chronic Vessel Management`])}`, ()=>[
@@ -52,10 +51,9 @@ export default (ctx:request_ctx_T)=>''
 		[`### Evaluation of Carotid Artery Disease`, [
 			`Carotid ultrasound is employed to examine the carotid arteries in the neck. That supply blood to the brain. This screening is vital for assessing the risk of stroke. Especially in patients with known risk factors such as${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s3_3_footnote__sup_(ctx),ref_s3_5_footnote__sup_(ctx),ref_s3_6_footnote__sup_(ctx)])}:`,
 			nl,
-			lines_(
-				`- high blood pressure`,
-				`- high cholesterol`,
-				`- history of smoking`,),]],
+			`- high blood pressure`,
+			`- high cholesterol`,
+			`- history of smoking`,]],
 		[`### Monitoring of Aneurysms`, [
 			`Ultrasound is crucial in the surveillance of aneurysms, particularly abdominal aortic aneurysms. Regular ultrasound screenings can monitor the size & growth of aneurysms. Helping to determine the need for surgical intervention to prevent rupture${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s3_1_footnote__sup_(ctx)])}.`,]],
 		[`### Venous Insufficiency Assessment`, [
@@ -68,10 +66,9 @@ export default (ctx:request_ctx_T)=>''
 				`Ultrasound of the carotid arteries in the neck can detect plaque buildup. A key indicator of atherosclerosis. This narrowing of the arteries increases the risk of stroke${footnote__sup__sort([ref_s3_3_footnote__sup_(ctx),ref_s3_4_footnote__sup_(ctx),ref_s3_5_footnote__sup_(ctx),ref_s3_6_footnote__sup_(ctx)])}.`,]],
 			[`### Peripheral Artery Disease (PAD)`, [
 				`Ultrasound of the arteries in the legs & arms can diagnose PAD. PAD results from blockages that impede blood flow, leading to${footnote__sup__sort([ref_s3_7_footnote__sup_(ctx),ref_s3_8_footnote__sup_(ctx)])}:`,
-				lines_(
-					`- leg pain`,
-					`- wounds`,
-					`- an increased risk of amputation`,),]],
+				`- leg pain`,
+				`- wounds`,
+				`- an increased risk of amputation`,]],
 			[`### Abdominal Aortic Aneurysm (AAA)`, [
 				`Ultrasound can detect an abdominal aortic aneurysm, a potentially life-threatening bulge in the body's largest artery. Early detection enables monitoring & potential surgical intervention before the aneurysm ruptures${ref_s3_1_footnote__sup_(ctx)}.`,]],
 			[`### Aneurysms`, [
@@ -96,42 +93,37 @@ export default (ctx:request_ctx_T)=>''
 				`A primary application of ultrasonic screening is in the detection of atherosclerosis. A condition characterized by the buildup of plaque in the arteries. This can lead to reduced blood flow & can precipitate conditions. Such as coronary artery disease, peripheral artery disease, & stroke. Early detection through ultrasound can lead to timely interventions. Reducing the risk of severe outcomes${footnote__sup__sort([ref_s3_3_footnote__sup_(ctx),ref_s3_4_footnote__sup_(ctx),ref_s3_5_footnote__sup_(ctx),ref_s3_6_footnote__sup_(ctx)])}.`,]],
 			[`### Varicose Veins & Chronic Venous Insufficiency`, [
 				`Ultrasound is effective in evaluating the structure & function of the venous system. Aiding in the diagnosis of varicose veins & chronic venous insufficiency. These conditions, while often considered cosmetic, can lead to:`,
-				lines_(
-					`- discomfort`,
-					`- pain`,
-					`- more serious health issues if left untreated`,),]],],]],
+				`- discomfort`,
+				`- pain`,
+				`- more serious health issues if left untreated`,]],],]],
 	[`## Who Should Consider Ultrasound Screening?`, [
 		`Ultrasound screening may be recommended for individuals with risk factors for chronic vascular diseases, including${footnote__sup__sort([ref_s3_1_footnote__sup_(ctx),ref_s3_2_footnote__sup_(ctx),ref_s3_3_footnote__sup_(ctx),ref_s3_5_footnote__sup_(ctx),ref_s3_6_footnote__sup_(ctx)])}:`,
 		nl,
-		lines_(
-			`- Older adults (especially over the age of 65)`,
-			`- Smokers`,
-			`- People with diabetes`,
-			`- People with high blood pressure (hypertension)`,
-			`- People with high cholesterol`,
-			`- Family history of heart disease, stroke, or aneurysms`,
-			`- Individuals experiencing symptoms like leg pain, unexplained swelling, or non-healing wounds.`,),]],
+		`- Older adults (especially over the age of 65)`,
+		`- Smokers`,
+		`- People with diabetes`,
+		`- People with high blood pressure (hypertension)`,
+		`- People with high cholesterol`,
+		`- Family history of heart disease, stroke, or aneurysms`,
+		`- Individuals experiencing symptoms like leg pain, unexplained swelling, or non-healing wounds.`,]],
 	[`## ${mobile_hidden__span_([`Advancements in`, `Advanced`])} Ultrasonic Technology`, [
 		`Recent advancements in ultrasonic technology have significantly enhanced its efficacy & applications. Modern ultrasound machines equipped with Doppler technology. Can measure the direction & speed of blood flow through vessels. This capability is particularly useful in assessing conditions like${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s3_2_footnote__sup_(ctx),ref_s3_3_footnote__sup_(ctx),ref_s3_5_footnote__sup_(ctx)])}:`,
 		nl,
-		lines_(
-			`- peripheral artery disease (PAD)`,
-			`- chronic venous insufficiency`,),
+		`- peripheral artery disease (PAD)`,
+		`- chronic venous insufficiency`,
 		nl,
 		`High-resolution ultrasound has improved the ability to visualize the vascular wall & surrounding tissues. Allowing for a more detailed assessment of vascular health. This level of detail is critical for early detection & management of chronic conditions. That affect the vascular system${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s3_2_footnote__sup_(ctx),ref_s3_3_footnote__sup_(ctx),ref_s3_5_footnote__sup_(ctx)])}. Other advancements include:`,
 		nl,
-		lines_(
-			`- 3D ultrasound for plaque volume estimation`,
-			`- color vector Doppler for flow visualization`,
-			`- shear wave elastography for assessing arterial stiffness`,),]],
+		`- 3D ultrasound for plaque volume estimation`,
+		`- color vector Doppler for flow visualization`,
+		`- shear wave elastography for assessing arterial stiffness`,]],
 	[`## Conclusion`, [
 		`Ultrasonic screening has revolutionized the detection & management of chronic vessel conditions. Offering a window into the vascular system. Without the need for invasive procedures or exposure to radiation. Early identification of conditions including:`,
 		nl,
-		lines_(
-			`- atherosclerosis`,
-			`- DVT`,
-			`- varicose veins`,
-			`- aneurysms`,),
+		`- atherosclerosis`,
+		`- DVT`,
+		`- varicose veins`,
+		`- aneurysms`,
 		nl,
 		`As technology advances, the precision & utility of ultrasonic screening continue to improve. Underscoring its importance in maintaining cardiovascular health. Preventing the progression of chronic vessel diseases.`,]],
 ])

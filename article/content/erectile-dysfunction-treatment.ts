@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -26,17 +26,15 @@ export default (ctx:request_ctx_T)=>''
 		()=>[
 			[`### Unveiling the Connection`, [
 				`Endothelial dysfunction is the endothelium's impaired ability to regulate blood vessel dilation. It plays a pivotal role in both ED & CVD. Risk factors exacerbate this condition, such as:`,
-				lines_(
 					`- hypertension`,
 					`- diabetes`,
 					`- hyperlipidemia`,
-					`- smoking`,),]]],]],
+					`- smoking`,]]],]],
 	[`## ED & Your Heart`, [
 		`Erections require healthy blood flow. Cardiovascular diseases damage blood vessels & impair this vital function. Diseases like:`,
-		lines_(
-			`- atherosclerosis (plaque buildup in arteries)`,
-			`- high blood pressure`,
-			`- diabetes`,),
+		`- atherosclerosis (plaque buildup in arteries)`,
+		`- high blood pressure`,
+		`- diabetes`,
 		nl,
 		`ED can be an early warning sign of these conditions. Offering a window for proactive heart health measures.`,]],
 	[`## Treating Cardiovascular Health Can Restore Sexual Function`, [
@@ -47,20 +45,18 @@ export default (ctx:request_ctx_T)=>''
 				`Some medications used for heart problems can contribute to ED. The right balance or alternative medications can improve both heart health & sexual function.`,]],
 			[`### Overall Well-Being`, [
 				`Healthy lifestyle changes that benefit your heart. Such as:`,
-				lines_(
-					`- exercise`,
-					`- a heart-healthy diet`,
-					`- stress management`,),]],],]],
+				`- exercise`,
+				`- a heart-healthy diet`,
+				`- stress management`,]],],]],
 	[`## Comprehensive Screening${mobile_hidden__span_([`: The First Step`])}`, [
 		`A thorough evaluation is essential when Erectile Dysfunction occurs. To uncover any underlying cardiovascular risk factors or diseases. This comprehensive screening includes:`,
 		()=>[
 			[`### Medical history review`, [
 				`Focusing on cardiovascular risk factors such as:`,
-				lines_(
-					`- hypertension`,
-					`- diabetes`,
-					`- smoking`,
-					`- family history of heart disease`,),]],
+				`- hypertension`,
+				`- diabetes`,
+				`- smoking`,
+				`- family history of heart disease`,]],
 			[`### Physical examination`, [
 				`Including blood pressure measurement & assessment of the vascular system.`,]],
 			[`### Laboratory tests`, [
@@ -117,33 +113,29 @@ export default (ctx:request_ctx_T)=>''
 								`Reduces the risk of vascular & neurological damage that can impair erectile function. Thereby helping to maintain or improve sexual health${ref_m1_3_footnote__sup_(ctx)}.`,]],],]],],]],
 			[`### Supplemental ED Treatment`, [
 				`While addressing cardiovascular health, your doctor may still recommend:`,
-				lines_(
-					`- Oral medications (PDE5 inhibitors) to support blood flow.`,
-					`- Other ED treatments if needed (injections, devices)`),]],],]],
+				`- Oral medications (PDE5 inhibitors) to support blood flow.`,
+				`- Other ED treatments if needed (injections, devices)`]],],]],
 	[`## Integrated Treatment${mobile_hidden__span_([` Approaches`])}`, [
 		`Addressing ED in the context of cardiovascular health involves a multifaceted treatment strategy. Improving erectile function & mitigating cardiovascular risk factors.`,
 		()=>[
 			[`### Lifestyle Modifications`, [
 				`Central to managing both ED & cardiovascular health are lifestyle changes. A healthy lifestyle has a significant positive impact:`,
-				lines_(
-					`- dietary improvements`,
-					`- regular physical activity`,
-					`- smoking cessation`,
-					`- moderation of alcohol consumption.`,),]],
+				`- dietary improvements`,
+				`- regular physical activity`,
+				`- smoking cessation`,
+				`- moderation of alcohol consumption.`,]],
 			[`### Pharmacological Treatments`, [
 				`For many men with ED, phosphodiesterase type 5 (PDE5) inhibitors are effective. These medications may not be suitable for everyone. Especially those with certain heart conditions or those taking nitrates for chest pain. In such cases, alternative treatments & careful management of cardiovascular medications are necessary.`,]],
 			[`### Monitoring & Management${mobile_hidden__span_([` of Cardiovascular Conditions`])}`, [
 				`Continuous monitoring & management of their heart condition are paramount. Integral components of treatment include:`,
-				lines_(
-					`- adjustments to cardiovascular medications`,
-					`- adoption of heart-healthy diets`,
-					`- regular follow-up with healthcare providers`,),]],
+				`- adjustments to cardiovascular medications`,
+				`- adoption of heart-healthy diets`,
+				`- regular follow-up with healthcare providers`,]],
 			[`### ${mobile_hidden__span_([`Addressing `])}Psychological Components`, [
 				`The psychological impact of ED & heart disease is critical to long-term health. Counseling & therapy benefits sexual function & heart health by:`,
-				lines_(
-					`- providing support`,
-					`- alleviating stress`,
-					`- improving well-being`,),]],],]],
+				`- providing support`,
+				`- alleviating stress`,
+				`- improving well-being`,]],],]],
 	[`## Beyond Treating Symptoms`, [
 		`Recognizing the link between ED & heart health empowers you to take an active role in managing both. This involves:`,
 		()=>[
@@ -155,19 +147,17 @@ export default (ctx:request_ctx_T)=>''
 				`Lifestyle changes & ongoing medication management are key for sustainable improvement.`,]],],]],
 	[`## Benefits${mobile_hidden__span_([` of a Heart-Centered Approach`])}`, [
 		`By addressing the underlying cardiovascular issues that contributing to ED. You're not just improving your sex life, you're:`,
-		lines_(
-			`- Reducing the risk of heart attack & stroke`,
-			`- Enhancing your overall energy & well-being`,
-			`- Protecting your health for years to come`,),]],
+		`- Reducing the risk of heart attack & stroke`,
+		`- Enhancing your overall energy & well-being`,
+		`- Protecting your health for years to come`,]],
 	[`## The Takeaway`, [
 		`ED is more than a bedroom problem. It's often a sign your heart needs attention. Embrace the connection between heart health & sexual function. Partner with your doctor. You can reclaim your vitality both inside & outside the bedroom.`,]],
 	[`## Conclusion`, [
 		`Erectile dysfunction is more than a sexual health issue. It's a potential indicator of underlying cardiovascular problems. Recognizing & treating these interconnected conditions can lead to better health outcomes. Highlighting the necessity for an integrated treatment approach. Men with ED can safeguard their heart health & reclaim their sexual vitality through:`,
-		lines_(
-			`- comprehensive evaluation`,
-			`- healthy lifestyle modifications`,
-			`- appropriate medical treatments`,
-			`- social support`,),]],
+		`- comprehensive evaluation`,
+		`- healthy lifestyle modifications`,
+		`- appropriate medical treatments`,
+		`- social support`,]],
 ])
 // @formatter:on
 function ref_d1_1_footnote__sup_(ctx:request_ctx_T) {

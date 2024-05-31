@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { lines_, nl } from '@rappstack/ui--any/string'
+import { nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -19,32 +19,28 @@ export default (ctx:request_ctx_T)=>''
 	[`## Understanding Ketamine Therapy`, [
 		`Ketamine was originally used as an anesthetic. It has gained significant attention for its rapid-acting antidepressant properties. Ketamine therapy involves the administration of low doses of ketamine. Under medical supervision to treat various mental health disorders, including:`,
 		nl,
-		lines_(
-			`- depression`,
-			`- anxiety`,
-			`- PTSD`,),
+		`- depression`,
+		`- anxiety`,
+		`- PTSD`,
 		nl,
     `Unlike traditional antidepressants that may take weeks to become effective. Ketamine can produce noticeable improvements in mood within hours of administration. It is particularly effective in cases of treatment-resistant depression. Where other medications have failed${footnote__sup__sort([ref_k1_1_footnote__sup_(ctx),ref_k1_2_footnote__sup_(ctx)])}. The therapy administers through:`,
 		nl,
-		lines_(
-			`- intravenous infusions`,
-			`- intranasal sprays`,
-			`- oral lozenges`,),
+		`- intravenous infusions`,
+		`- intranasal sprays`,
+		`- oral lozenges`,
 		nl,
     `Ketamine's mechanism involves N-methyl-D-aspartate (NMDA) receptor antagonism. Which leads to increased brain plasticity & the formation of new neural connections. Reversing the neural deficits associated with depression${ref_k1_5_footnote__sup_(ctx)}.`,]],
 		[`## Conditions Treated${mobile_hidden__span_([` by Ketamine Infusion Therapy`])}`, [
 			`Ketamine infusion therapy targets major depressive disorder (MDD) & treatment-resistant depression (TRD):`,
-			lines_(
-				`- Researched success rate as high as 70% in treating MDD & TRD`,
-				`- Many patients experience significant improvement after just one or two infusions.`,
-				`- 35% reporting complete resolution of depression symptoms`,
-				`- 63% of patients with suicidal ideation no longer experience suicidal thoughts. Within three days of treatment`,),
+			`- Researched success rate as high as 70% in treating MDD & TRD`,
+			`- Many patients experience significant improvement after just one or two infusions.`,
+			`- 35% reporting complete resolution of depression symptoms`,
+			`- 63% of patients with suicidal ideation no longer experience suicidal thoughts. Within three days of treatment`,
 			nl,
 			`Ketamine is effective in treating:`,
-			lines_(
-				`- anxiety disorders`,
-				`- post-traumatic stress disorder (PTSD)`,
-				`- obsessive-compulsive disorder (OCD)`,),]],
+			`- anxiety disorders`,
+			`- post-traumatic stress disorder (PTSD)`,
+			`- obsessive-compulsive disorder (OCD)`,]],
 		[`## Mechanism of Action`, [
 			`Traditional antidepressants primarily target serotonin pathways. Ketamine acts on the N-methyl-D-aspartate (NMDA) receptors in the brain. By blocking these receptors, ketamine increases the levels of glutamate. A neurotransmitter that plays a crucial role in synaptic plasticity & neural communication. This action helps to restore & strengthen neural connections. In brain regions associated with mood regulation. Leading to rapid antidepressant effects${footnote__sup__sort([ref_k2_2_footnote__sup_(ctx),ref_k2_3_footnote__sup_(ctx)])}.`]],
 		[`## How Does ${mobile_hidden__span_([`Ketamine Treatment`, `It`])} Work?`, [
@@ -57,9 +53,8 @@ export default (ctx:request_ctx_T)=>''
 		[
 			`Clinical studies demonstrate the effectiveness of ketamine infusion therapy. In alleviating symptoms of depression${ref_k1_1_footnote__sup_(ctx)}. Patients often experience significant improvements after one or two infusions. For instance, within three days of treatment${ref_k2_2_footnote__sup_(ctx)}:`,
 			nl,
-			lines_(
-				`- approximately 35% of patients report complete resolution of depressive symptoms`,
-				`- 63% of those with suicidal ideation no longer have suicidal thoughts`,),
+			`- approximately 35% of patients report complete resolution of depressive symptoms`,
+			`- 63% of those with suicidal ideation no longer have suicidal thoughts`,
 			nl,
       `These rapid effects are particularly beneficial for individuals in acute depressive crises.`,],]],
 		[`## Administration & Treatment Protocols`, [
@@ -68,25 +63,22 @@ export default (ctx:request_ctx_T)=>''
 		[
 			`Ketamine is generally considered safe. It can cause side effects such as dissociation, elevated blood pressure, nausea, & dizziness. These effects are usually transient and subside shortly after the infusion ends. Ketamine should be used with caution in individuals with a history of:`,
 			nl,
-			lines_(
-				`- psychosis`,
-				`- substance use disorders`,
-				`- cardiovascular issues`,),
+			`- psychosis`,
+			`- substance use disorders`,
+			`- cardiovascular issues`,
 			nl,
 			`It is not recommended for${ref_k2_4_footnote__sup_(ctx)}:`,
 			nl,
-			lines_(
-				`- pregnant or breastfeeding women`,
-				`- teenagers`,
-				`- older adults with dementia`,),],]],
+			`- pregnant or breastfeeding women`,
+			`- teenagers`,
+			`- older adults with dementia`,],]],
 	[`## Long-Term Efficacy & Research`, [
 		`The long-term benefits & safety of ketamine infusion therapy are still under investigation. Current research suggests that ketamine provides rapid relief. Its effects may diminish over time, necessitating repeated treatments. There is also a need for more studies to determine the optimal dosing schedules. And to explore the potential of other administration routes. Such as intranasal or oral ketamine${footnote__sup__sort([ref_k2_1_footnote__sup_(ctx),ref_k2_4_footnote__sup_(ctx)])}.`,]],
 	[`## Getting Ketamine Infusion Therapy`, [
 		`If ketamine infusion therapy interests you, consult with your healthcare provider. Dr Emenike, & the staff will:`,
-		lines_(
-			`- gather information about your symptoms & medical history`,
-			`- discuss the treatment process`,
-			`- schedule your treatment sessions`,),
+		`- gather information about your symptoms & medical history`,
+		`- discuss the treatment process`,
+		`- schedule your treatment sessions`,
 		nl,
 		`Only Kaiser Insurance covers Ketamine infusion therapy for insurance reimbursement. But Ketamine treatment is an affordable option for depression & other psychiatric indications.`,]],
 	[`## Conclusion`, [

@@ -46,18 +46,16 @@ export default (ctx:request_ctx_T)=>''
 	]],
 	[`## Why Consider Epidural Neoregeneration?`, [
 		`People turn to Epidural Neuroregeneration for several reasons:`,
-		lines_(
-			`- Restoring nervous function.`,
-			`- Chronic pain from nerve damage.`,
-			`- Conditions like spinal cord injuries or degenerative disc disease.`,
-			`- Failed back surgery syndrome.`,),]],
+		`- Restoring nervous function.`,
+		`- Chronic pain from nerve damage.`,
+		`- Conditions like spinal cord injuries or degenerative disc disease.`,
+		`- Failed back surgery syndrome.`,]],
 		[`## Recent Advancements & Research`, [
 			`Recent studies have provided substantial evidence supporting the efficacy of epidural neoregeneration techniques. For instance, a study highlighted in an article from the National Center for Biotechnology Information (NCBI). Discusses how epidural OFS applied shortly after SCI could${ref_e1_1_footnote__sup_(ctx)}:`,
 			nl,
-			lines_(
-				`- protect spinal cord tissue`,
-				`- preserve myelin`,
-				`- promotes the regeneration of oligodendrocytes which is crucial for myelin repair`,),
+			`- protect spinal cord tissue`,
+			`- preserve myelin`,
+			`- promotes the regeneration of oligodendrocytes which is crucial for myelin repair`,
 			nl,
       `These findings suggest that early intervention using epidural OFS impacts recovery outcomes.`,
 			nl,
@@ -79,25 +77,22 @@ export default (ctx:request_ctx_T)=>''
 	[`## Pros & Cons`, [
 		()=>[
 			[`### Pros`, [
-				lines_(
-					`- Potential for long-term pain relief.`,
-					`- Non-surgical. Lower risk than surgery.`,
-					`- Can improve nerve function & health.`,),]],
+				`- Potential for long-term pain relief.`,
+				`- Non-surgical. Lower risk than surgery.`,
+				`- Can improve nerve function & health.`,]],
 			[`### Cons`, [
-				lines_(
-					`- Results can vary. Not a guaranteed fix.`,
-					`- May require multiple sessions.`,
-					`- Limited availability. Not widely offered yet.`,),]],],]],
+				`- Results can vary. Not a guaranteed fix.`,
+				`- May require multiple sessions.`,
+				`- Limited availability. Not widely offered yet.`,]],],]],
 	[`## Challenges & Future Directions`, [
 		`While epidural neoregeneration offers substantial promise. There are several challenges that researchers & clinicians continue to face:`,
 		()=>[
 			[`### Optimizing Stimulation Parameters`, [
 				`Determining the most effective parameters of stimulation, including:`,
 				nl,
-				lines_(
-					`- frequencies`,
-					`- intensities`,
-					`- durations`,),
+				`- frequencies`,
+				`- intensities`,
+				`- durations`,
 				nl,
 				`For different types of SCI remains a critical area of research.`,]],
 			[`### Long-Term Efficacy & Safety`, [

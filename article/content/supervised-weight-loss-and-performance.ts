@@ -17,7 +17,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 		nl,
 		`- the benefits of supervised weight loss`,
 		`- the role of medical & nutritional professionals in these programs`,
-		`- the impact on athletic performance`)
+		`- the impact on athletic performance`,)
 })
 
 // @formatter:off
@@ -27,46 +27,41 @@ export default (ctx:request_ctx_T)=>''
 	[`## ${mobile_hidden__span_([`The Essence of `])}Supervised Weight Loss`, [
 		`Supervised weight loss programs are meticulously designed interventions. That aims to help individuals achieve their weight loss goals through a combination of${ref_s2_1_footnote__sup_(ctx)}:`,
 		nl,
-		lines_(
-			`- dietary modifications`,
-			`- physical activity`,
-			`- behavioral therapy`,
-			`- sometimes medical treatments`,),
+		`- dietary modifications`,
+		`- physical activity`,
+		`- behavioral therapy`,
+		`- sometimes medical treatments`,
 		nl,
     `These programs are led by a team of healthcare professionals, including:`,
 		nl,
-		lines_(
-			`- dietitians`,
-			`- nutritionists`,
-			`- physicians`,
-			`- fitness experts`,),
+		`- dietitians`,
+		`- nutritionists`,
+		`- physicians`,
+		`- fitness experts`,
 		nl,
     `Who provides personalized care based on an individual's:`,
 		nl,
-		lines_(
-			`- weight loss objectives`,
-			`- nutritional needs`,
-			`- fitness level`,
-			`- lifestyle`,
-			`- health status`,
-			`- medical history`,),
+		`- weight loss objectives`,
+		`- nutritional needs`,
+		`- fitness level`,
+		`- lifestyle`,
+		`- health status`,
+		`- medical history`,
 		nl,
 		`Supervised weight loss programs are led by healthcare professionals. Including dietitians, nutritionists, & fitness trainers. These experts craft personalized plans. Based on thorough health evaluations. Considering factors such as medical history, nutritional needs, & fitness levels. The cornerstone of supervision lies in its ability to offer:`,
 		nl,
-		lines_(
-			`- custom advice`,
-			`- continuous support`,
-			`- adjustments to the program as needed`,),
+		`- custom advice`,
+		`- continuous support`,
+		`- adjustments to the program as needed`,
 		nl,
 		`Ensuring a healthy, sustainable weight loss journey.`,]],
 	[`## Components of Success`, ()=>[
 		[`### Customized Diet & Exercise Plans`, [
 			`Supervised programs offer personalized nutrition & exercise regimens. Ensuring sustainable weight loss. Tailored plans address individual needs, preferences, & goals, enhancing effectiveness. By catering to your${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s2_2_footnote__sup_(ctx)])}:`,
 			nl,
-			lines_(
-				`- preferences`,
-				`- medical conditions`,
-				`- metabolic needs`,),
+			`- preferences`,
+			`- medical conditions`,
+			`- metabolic needs`,
 			nl,
 			()=>[
 				[`#### Nutritional Guidance`, [
@@ -80,54 +75,48 @@ export default (ctx:request_ctx_T)=>''
 			nl,
 			`These programs include psychological support to ensure long-term success. By addressing${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s2_3_footnote__sup_(ctx)])}:`,
 			nl,
-			lines_(
-				`- emotional eating`,
-				`- develop healthy habits`,
-				`- foster a positive relationship with food & exercise.`,),]],
+			`- emotional eating`,
+			`- develop healthy habits`,
+			`- foster a positive relationship with food & exercise.`,]],
 		[`### Education`, [
 			`Participants receive education on nutrition, exercise, & lifestyle changes necessary for weight management. Participants gain valuable knowledge about nutrition, exercise, & healthy living. Empowering them to make informed decisions necessary for weight management. With & beyond the program.`,]],
 		[`### Accountability`, [
 			`Regular check-ins with healthcare providers offer accountability, keeping individuals motivated & on track.  This ongoing evaluation helps${ref_s2_2_footnote__sup_(ctx)}:`,
 			nl,
-			lines_(
-				`- maintain motivation`,
-				`- address challenges`,
-				`- celebrate successes along the way.`,),]],]],
+			`- maintain motivation`,
+			`- address challenges`,
+			`- celebrate successes along the way.`,]],]],
 	[`## Benefits Beyond Weight Loss`, [
 		`Participants often experience a wide range of additional benefits:`,
 		()=>[
 			[`### Improved Physical Health`, [
 				`Weight loss associates with${ref_s2_4_footnote__sup_(ctx)}:`,
 				nl,
-				lines_(
-					`- lower blood pressure`,
-					`- improve cholesterol levels`,
-					`- reduce the risk of chronic diseases such as diabetes & heart disease`,
-					`- enhance mobility`,),]],
+				`- lower blood pressure`,
+				`- improve cholesterol levels`,
+				`- reduce the risk of chronic diseases such as diabetes & heart disease`,
+				`- enhance mobility`,]],
 			[`### Enhanced Mental Well-being`, [
 				`Achieving weight loss goals can lead to${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s2_3_footnote__sup_(ctx)])}:`,
 				nl,
-				lines_(
-					`- increase self-esteem`,
-					`- reduced symptoms of depression & anxiety`,
-					`- overall improvements in quality of life`,)]],
+				`- increase self-esteem`,
+				`- reduced symptoms of depression & anxiety`,
+				`- overall improvements in quality of life`,]],
 			[`### Boosted Performance`, [
 				`With weight loss, individuals often report:`,
 				nl,
-				lines_(
-					`- higher energy levels`,
-					`- improved sleep quality`,
-					`- enhanced cognitive function`,),
+				`- higher energy levels`,
+				`- improved sleep quality`,
+				`- enhanced cognitive function`,
 				nl,
 				`Allowing them to perform daily tasks more efficiently & enjoy a more active lifestyle${footnote__sup__sort([ref_s2_2_footnote__sup_(ctx),ref_s2_4_footnote__sup_(ctx)])}.`,]],],]],
 	[`## Challenges & Considerations`, [
 		`Supervised weight loss programs require commitment & lifestyle changes. That may be challenging for some individuals. The cost of participation & the need for ongoing support post-program are important considerations. The personalized approach & comprehensive care provided by these programs. Increase the likelihood of achieving sustainable weight loss & improved health outcomes${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s2_3_footnote__sup_(ctx)])}.`,]],
 	[`## Choosing the Right Program`, [
 			`Selecting a supervised weight loss program involves considering the qualifications of:`,
-			lines_(
-				`- the supervising team`,
-				`- the comprehensiveness of the program`,
-				`- its ability to be customized.`,),
+			`- the supervising team`,
+			`- the comprehensiveness of the program`,
+			`- its ability to be customized.`,
 			nl,
 			`It’s important to choose a program that focuses on weight loss. And on enhancing physical performance & well-being.`,]],
 	[`## ${mobile_hidden__span_([`Importance of `])}Supervised Weight Loss in Sports`, [
@@ -136,11 +125,10 @@ export default (ctx:request_ctx_T)=>''
 			[`### Goal: Enhance Performance`, [
 				`The primary aim of supervised weight loss is to achieve a healthy weight. Enhancing physical performance is a significant secondary goal. Programs designed to reduce weight. And to improve the body’s efficiency & capability in physical activities. Enhanced performance might include:`,
 				nl,
-				lines_(
-					`- increased stamina`,
-					`- increased strength`,
-					`- increased flexibility`,
-					`- reduction in fatigue during exercise or daily activities`,),]],
+				`- increased stamina`,
+				`- increased strength`,
+				`- increased flexibility`,
+				`- reduction in fatigue during exercise or daily activities`,]],
 			[`### Components of Supervised Weight Loss for Athletes`, [
 				`Athletes often have specific weight goals based on their sport or discipline. Here's the advantage of supervised weight loss programs for athletes:`,
 				()=>[
@@ -157,10 +145,9 @@ export default (ctx:request_ctx_T)=>''
 					[`#### Progress Monitoring`, [
 						`Regular check-ins with healthcare professionals to:`,
 						nl,
-						lines_(
-							`- track progress`,
-							`- adjust the program as needed`,
-							`- address any concerns`,),]],
+						`- track progress`,
+						`- adjust the program as needed`,
+						`- address any concerns`,]],
 					[`#### Motivation & Support`, [
 						`Supervised programs offer ongoing support & accountability from healthcare professionals.`,]],
 					[`#### Physical Activity Guidance`, [
@@ -178,10 +165,9 @@ export default (ctx:request_ctx_T)=>''
 				[`#### Improve Health Outcomes`, [
 					`Beyond performance, supervised weight loss has broader health benefits, including${footnote__sup__sort([ref_s1_14_footnote__sup_(ctx),ref_s1_16_footnote__sup_(ctx)])}:`,
 					nl,
-					lines_(
-						`- improved cardiovascular health`,
-						`- better metabolic profiles`,
-						`- enhanced overall well-being`,),]],]],
+					`- improved cardiovascular health`,
+					`- better metabolic profiles`,
+					`- enhanced overall well-being`,]],]],
 			[`### Challenges & Considerations`, [
 				`Supervised weight loss programs require a significant commitment from the athlete. And coordination among various healthcare providers. The cost & access to specialized professionals can be a barrier for some athletes. The psychological pressure to achieve weight goals can lead to stress. Highlighting the need for comprehensive mental health support within these programs${footnote__sup__sort([ref_s1_4_footnote__sup_(ctx),ref_s1_18_footnote__sup_(ctx)])}.`,
 				()=>[
@@ -198,11 +184,10 @@ export default (ctx:request_ctx_T)=>''
 	[`## Conclusion`, [
 		`Supervised weight loss & performance programs offer an approach to weight management, health, & wellness. That is:`,
 		nl,
-		lines_(
-			`- personalized`,
-			`- structured`,
-			`- safe`,
-			`- strategic`,),
+		`- personalized`,
+		`- structured`,
+		`- safe`,
+		`- strategic`,
 		nl,
     `With the dual goals of enhancing performance & promoting long-term health. By integrating medical oversight, nutritional counseling, & tailored physical training. These programs help athletes achieve their weight objectives. And pave the way for improved physical performance. For those committed to transforming their health & optimizing their capabilities. Supervised weight loss represents a path filled with support, expertise, & profound results. Boosting their competitive edge & safeguarding their well-being.`,]],
 ])

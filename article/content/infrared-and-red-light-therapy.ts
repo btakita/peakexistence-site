@@ -11,7 +11,7 @@ import { mobile_hidden__span_ } from '../../responsive/index.js'
 const description_md = lines_(
 	`The sun's warmth on your skin is a comforting sensation. Red light therapy treatments harness specific wavelengths of light. To penetrate the skin, aiming to rejuvenate, heal, & energize at a cellular level. Infrared & red light therapy, collectively known as photobiomodulation (PBM), are non-invasive treatments that use specific wavelengths of light to penetrate the skin & promote cellular repair & regeneration. These therapies have gained significant attention in the medical community for their ability to alleviate pain, reduce inflammation, enhance skin health, & accelerate healing.`,
 	nl,
-	`This article explores the mechanisms, benefits, & applications of infrared & red light therapy. Providing insights into how these light-based treatments are transforming approaches. To health & wellness.`)
+	`This article explores the mechanisms, benefits, & applications of infrared & red light therapy. Providing insights into how these light-based treatments are transforming approaches. To health & wellness.`,)
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...infrared_and_red_light_therapy,
@@ -28,11 +28,10 @@ export default (ctx:request_ctx_T)=>''
 		`Infrared & red light therapy involves the use of light-emitting diodes (LEDs) or lasers. NTto deliver specific wavelengths of light to the body. Red light ranges from 620 to 700 nanometers (nm), while infrared light spans from 700 nm to about 1,000 nm. These wavelengths penetrate different depths of tissue. With red light affecting surface layers such as the skin. With infrared light reaching deeper tissues like muscles & joints${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx),ref_i1_15_footnote__sup_(ctx)])}.`,
 		nl,
 		`The mechanism behind PBM uses the light's interaction with mitochondria. The energy-producing centers within cells. This interaction boosts the production of adenosine triphosphate (ATP). Enhancing cellular energy & promoting various healing processes. PBM is used in various medical fields, including:`,
-		lines_(
-			`- dentistry`,
-			`- dermatology`,
-			`- physical therapy`,
-			`- pain management`,),
+		`- dentistry`,
+		`- dermatology`,
+		`- physical therapy`,
+		`- pain management`,
 		nl,
 		`PBM accelerates recovery & relieves symptoms without invasive procedures.`,]],
 	[`## Mechanisms of Action`, [
@@ -49,20 +48,18 @@ export default (ctx:request_ctx_T)=>''
 			[`### Reduction in Oxidative Stress`, [
 				`By increasing cellular energy production, light therapy helps reduce oxidative stress. Oxidative stress causes${footnote__sup__sort(ref_i1_7_footnote__sup_(ctx),ref_i1_8_footnote__sup_(ctx))}:`,
 				nl,
-				lines_(
-					`- inflammation`,
-					`- aging`,
-					`- chronic disease processes`,),]],],]],
+				`- inflammation`,
+				`- aging`,
+				`- chronic disease processes`,]],],]],
 	[`## How They Work`, [
 		()=>[
 			[`### Red Light Therapy (RLT)`, [
 				`Utilizes wavelengths of red light, ranging from 630 to 700 nanometers (nm). It's effective for surface-level skin treatments, enhancing collagen production, & reducing inflammation.`,]],
 			[`### Infrared Therapy`, [
 				`Involves wavelengths longer than red light, usually between 700 nm to 1 mm. It penetrates deeper into the body, improving:`,
-				lines_(
-					`- circulation`,
-					`- relieving pain`,
-					`- enhancing muscle recovery`,),]],],]],
+				`- circulation`,
+				`- relieving pain`,
+				`- enhancing muscle recovery`,]],],]],
 	[`## Clinical Applications${mobile_hidden__span_([` & `, `/`])}Benefits`, [
 		()=>[
 			[`### Pain Management`, [
@@ -70,13 +67,12 @@ export default (ctx:request_ctx_T)=>''
 			[`### Skin Health & Rejuvenation`, [
 				`Red light therapy is particularly noted for its anti-aging effects on the skin. It${footnote__sup__sort([ref_i1_11_footnote__sup_(ctx),ref_i1_13_footnote__sup_(ctx)])}:`,
 				nl,
-				lines_(
-					`- stimulates collagen production`,
-					`- reduces wrinkles`,
-					`- improves skin elasticity`,
-					`- accelerates wound healing`,
-					`- reduces scarring`,
-					`- reduces signs of UV damage`,),]],
+				`- stimulates collagen production`,
+				`- reduces wrinkles`,
+				`- improves skin elasticity`,
+				`- accelerates wound healing`,
+				`- reduces scarring`,
+				`- reduces signs of UV damage`,]],
 			[`### Accelerated Healing`, [
 				`Both therapies promote faster healing of wounds, burns, & surgical incisions. By stimulating tissue regeneration & reducing inflammation. This makes them valuable tools in post-operative care & injury recovery${footnote__sup__sort([ref_i1_1_footnote__sup_(ctx),ref_i1_2_footnote__sup_(ctx)])}.`,]],
 			[`### Improved Muscle Recovery`, [
@@ -93,21 +89,18 @@ export default (ctx:request_ctx_T)=>''
 	[`## Considerations`, [
 		()=>[
 			[`### Pros`, [
-				lines_(
-					`- Non-invasive with no known serious side effects`,
-					`- Can be used for a wide range of conditions`,
-					`- Scientifically backed by numerous studies`,),]],
+				`- Non-invasive with no known serious side effects`,
+				`- Can be used for a wide range of conditions`,
+				`- Scientifically backed by numerous studies`,]],
 			[`### Cons`, [
-				lines_(
-					`- Results can vary & may take time to manifest`,
-					`- The initial cost of devices or therapy sessions can be high`,
-					`- Not a standalone cure for serious medical conditions`,),]],],]],
+				`- Results can vary & may take time to manifest`,
+				`- The initial cost of devices or therapy sessions can be high`,
+				`- Not a standalone cure for serious medical conditions`,]],],]],
 	[`## Who Can Benefit?`, [
 		`Anyone looking for a gentle & effective therapy to improve skin health, relieve pain, or enhance recovery. It's especially useful for:`,
-		lines_(
-			`- athletes`,
-			`- individuals with chronic pain conditions`,
-			`- those seeking anti-aging solutions`,),]],
+		`- athletes`,
+		`- individuals with chronic pain conditions`,
+		`- those seeking anti-aging solutions`,]],
 	[`## Getting Started`, [
 		dl_tree_({ ctx, _: sticky_h2__dl_tree_props_,
 			dl_class: '[counter-reset:_order]',
