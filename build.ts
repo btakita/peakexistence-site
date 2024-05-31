@@ -50,7 +50,7 @@ export async function build(config?:relysjs__build_config_T) {
 				esmfile,
 			],
 		}),
-		relysjs__ready__wait(60_000),
+		relysjs__ready__wait(Infinity),
 	])
 }
 function server_external_() {
