@@ -39,13 +39,13 @@
     "marked": "^12.0.2",
     "marked-gfm-heading-id": "^3.1.3",
     "relementjs": "^0.80.16",
-    "relysjs": "^1.21.44",
+    "relysjs": "^1.21.45",
     "tailwindcss-noscript": "^2.0.1"
   },
   "devDependencies": {
     "@btakita/dev-bin": "workspace:*",
     "@ctx-core/preprocess": "^0.1.3",
-    "@rebuildjs/tailwindcss": "^0.10.35",
+    "@rebuildjs/tailwindcss": "^0.10.36",
     "@tailwindcss/forms": "^0.5.7",
     "@types/aos": "^3.0.7",
     "bun-types": "latest",
