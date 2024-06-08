@@ -10,7 +10,7 @@ import { mobile_hidden__span_ } from '../../responsive/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...intercostal_nerve_block,
-	description: `Intercostal nerve block (ICNB) is a minimally invasive procedure. That has become a cornerstone in the management of acute & chronic pain. Associated with the chest & upper abdominal regions. By targeting the intercostal nerves, which run beneath each rib. And play a crucial role in transmitting pain signals from the chest & upper abdomen. ICNB offers significant pain relief for various conditions. This article delves into the intricacies of intercostal nerve block. Exploring its indications, procedure, benefits, & potential risks.`
+	description: `Intercostal nerve block (ICNB) is a minimally invasive procedure. That has become a cornerstone in the management of acute & chronic pain. Associated with the chest & upper abdominal regions. By targeting the intercostal nerves, which run beneath each rib. And play a crucial role in transmitting pain signals from the chest & upper abdomen. ICNB offers significant pain relief for various conditions. This article delves into the intricacies of intercostal nerve block. Exploring its indications, procedure, benefits, & potential risks.`,
 })
 // @formatter:off
 // language=md

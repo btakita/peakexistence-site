@@ -16,7 +16,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 		`- Aurora ZIP™ Procedure`,
 		`- Discseel® Procedure`,
 		`- Kyphoplasty`,
-		`- Percutaneous Spine Decompression`,
+		`- Percutaneous Disc Decompression`,
 		`- Spinal Cord Stimulation`,),
 })
 // @formatter:off
@@ -62,14 +62,14 @@ export default (ctx:request_ctx_T)=>''
 				`- Immediate pain relief`,
 				`- Restores vertebral height`,
 				`- Quick procedure, typically under an hour`,]],],]],
-	[`## [Percutaneous Spine Decompression](/articles/percutaneous-spine-decompression)`, [
-		`Percutaneous spine decompression is also known as nucleoplasty. It is a minimally invasive procedure that relieves pain caused by herniated discs. The procedure uses a needle inserted into the disc. To remove excess tissue, relieving pressure on the nerves. This technique is guided by real-time imaging & can be performed using various methods. Including cutting & aspiration, chemical dissolution, or thermal ablation. Patients typically report a positive change in their condition following the procedure. Returning to normal daily activities with minimal pain${ref1_16_footnote__sup_(ctx)}${ref1_20_footnote__sup_(ctx)}.`,
+	[`## [Percutaneous Disc Decompression](/articles/percutaneous-disc-decompression)`, [
+		`Percutaneous Disc Decompression is also known as nucleoplasty. It is a minimally invasive procedure that relieves pain caused by herniated discs. The procedure uses a needle inserted into the disc. To remove excess tissue, relieving pressure on the nerves. This technique is guided by real-time imaging & can be performed using various methods. Including cutting & aspiration, chemical dissolution, or thermal ablation. Patients typically report a positive change in their condition following the procedure. Returning to normal daily activities with minimal pain${ref1_16_footnote__sup_(ctx)}${ref1_20_footnote__sup_(ctx)}.`,
 		()=>[
 			[`### Targets`, [
 				`Pressure on spinal nerves caused by disc bulges or stenosis.`,]],
 			[`### Approach`, [
 				`Removal of tiny amounts of disc or bone to create more space for nerves.`,]],
-			[`### Advantages of Percutaneous Spine Decompression`, [
+			[`### Advantages of Percutaneous Disc Decompression`, [
 				`- Minimal scarring`,
 				`- Reduced risk of muscle damage`,
 				`- Outpatient procedure`,]],],]],
@@ -94,7 +94,7 @@ export default (ctx:request_ctx_T)=>''
 		`- Aurora ZIP™`,
 		`- Discseel®`,
 		`- Kyphoplasty`,
-		`- Percutaneous Spine Decompression`,
+		`- Percutaneous Disc Decompression`,
 		`- Spinal Cord Stimulation`,
 		nl,
 		`Emphasizing:`,

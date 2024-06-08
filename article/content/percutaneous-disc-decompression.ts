@@ -1,4 +1,4 @@
-import { percutaneous_spine_decompression } from '@btakita/domain--server--peakexistence/feature'
+import { percutaneous_disc_decompression } from '@btakita/domain--server--peakexistence/feature'
 import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/sticky'
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
@@ -9,27 +9,27 @@ import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
-	...percutaneous_spine_decompression,
-	title: 'Percutaneous Spine Decompression: Minimally Invasive Relief for Chronic Back Pain',
-	description: `Chronic back pain is a prevalent issue that affects millions of individuals worldwide. Significantly impacting their quality of life. Traditional surgical treatments for spine-related conditions can often be invasive. Requiring long recovery periods & sometimes resulting in substantial postoperative discomfort. Percutaneous spine decompression emerges as a minimally invasive alternative. Designed to alleviate pain & improve function in patients. Suffering from debilitating spinal conditions such as herniated discs, spinal stenosis, & radiculopathy. This article explores the innovative technique of percutaneous spine decompression. outlining its procedure, benefits, & who can benefit from this advanced treatment.`,
+	...percutaneous_disc_decompression,
+	title: 'Percutaneous Disc Decompression: Minimally Invasive Relief for Chronic Back Pain',
+	description: `Chronic back pain is a prevalent issue that affects millions of individuals worldwide. Significantly impacting their quality of life. Traditional surgical treatments for spine-related conditions can often be invasive. Requiring long recovery periods & sometimes resulting in substantial postoperative discomfort. Percutaneous Disc Decompression emerges as a minimally invasive alternative. Designed to alleviate pain & improve function in patients. Suffering from debilitating spinal conditions such as herniated discs, spinal stenosis, & radiculopathy. This article explores the innovative technique of Percutaneous Disc Decompression. outlining its procedure, benefits, & who can benefit from this advanced treatment.`,
 	/// language=md
 	description_md: lines_(
-		`Chronic back pain is a prevalent issue that affects millions of individuals worldwide. Significantly impacting their quality of life. Traditional surgical treatments for spine-related conditions can often be invasive. Requiring long recovery periods & sometimes resulting in substantial postoperative discomfort. Percutaneous spine decompression emerges as a minimally invasive alternative. Designed to alleviate pain & improve function in patients. Suffering from debilitating spinal conditions such as:`,
+		`Chronic back pain is a prevalent issue that affects millions of individuals worldwide. Significantly impacting their quality of life. Traditional surgical treatments for spine-related conditions can often be invasive. Requiring long recovery periods & sometimes resulting in substantial postoperative discomfort. Percutaneous Disc Decompression emerges as a minimally invasive alternative. Designed to alleviate pain & improve function in patients. Suffering from debilitating spinal conditions such as:`,
 		nl,
 		`- herniated discs`,
 		`- lumbar spinal stenosis (LSS)`,
 		`- radiculopathy`,
 		nl,
-		`Percutaneous spine decompression offers a promising alternative to traditional open surgery. Providing patients with reduced recovery times & lower risk of complications.`,)
+		`Percutaneous Disc Decompression offers a promising alternative to traditional open surgery. Providing patients with reduced recovery times & lower risk of complications.`,)
 })
 // @formatter:off
 // language=md
 export default(ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
-	[`## ${mobile_hidden__span_([`Understanding `])}Spinal Compression`, [
-		`Percutaneous spine decompression is a minimally invasive procedure. Aimed at relieving pressure on spinal nerves. Caused by conditions like herniated discs or spinal stenosis. This option may offer an alternative to or with more extensive surgical interventions.`,
+	[`## ${mobile_hidden__span_([`Understanding `])}Disc Compression`, [
+		`Percutaneous Disc Decompression is a minimally invasive procedure. Aimed at relieving pressure on spinal nerves. Caused by conditions like herniated discs or spinal stenosis. This option may offer an alternative to or with more extensive surgical interventions.`,
 		nl,
-		`Spinal compression occurs when the spinal cord or nerve roots compressed by:`,
+		`Disc compression occurs when the spinal cord or nerve roots compressed by:`,
 		`- bone`,
 		`- disc material`,
 		`- other tissues`,
@@ -46,18 +46,18 @@ export default(ctx:request_ctx_T)=>''
 		`- herniated discs`,
 		`- spinal stenosis (narrowing of the spinal canal)`,
 		`- degenerative disc disease`,]],
-	[`## ${mobile_hidden__span_([`Understanding `])}Percutaneous Spine Decompression`, [
-		`Percutaneous spine decompression involves the use of specialized instruments. To remove or modify tissue that is causing nerve compression in the spinal column. To relieve pressure on compressed nerves in the spine. This technique treats conditions that cause chronic lower back & leg pain. The procedure's named "percutaneous" due to using a small puncture in the skin. Rather than through an open incision.`,
+	[`## ${mobile_hidden__span_([`Understanding `])}Percutaneous Disc Decompression`, [
+		`Percutaneous Disc Decompression involves the use of specialized instruments. To remove or modify tissue that is causing nerve compression in the spinal column. To relieve pressure on compressed nerves in the spine. This technique treats conditions that cause chronic lower back & leg pain. The procedure's named "percutaneous" due to using a small puncture in the skin. Rather than through an open incision.`,
 		nl,
 		`The procedure is typically performed under local anesthesia & does not require large incisions. Which helps preserve the structural integrity of the spine & surrounding tissues${footnote__sup__sort([ref_p1_1_footnote__sup_(ctx),ref_p1_3_footnote__sup_(ctx)])}.`,]],
 	[`## ${mobile_hidden__span_([`The Procedure: `])}How It Works`, [
-		`Percutaneous spine decompression is performed using a needle-like instrument. Inserted through the skin (percutaneous) into the affected area of the spine. The procedure is typically guided by fluoroscopy (live X-ray) to ensure accuracy. Depending on the specific technique used, the procedure may involve:`,
+		`Percutaneous Disc Decompression is performed using a needle-like instrument. Inserted through the skin (percutaneous) into the affected area of the spine. The procedure is typically guided by fluoroscopy (live X-ray) to ensure accuracy. Depending on the specific technique used, the procedure may involve:`,
 		nl,
 		`- removing a small portion of the herniated disc (percutaneous discectomy)`,
 		`- enlarging the spinal canal (percutaneous laminotomy/laminectomy)`,
 		`- reducing pressure on the nerve roots (foraminotomy)`,
 		nl,
-		`Percutaneous spine decompression is generally performed under local anesthesia combined with sedation. Allowing the patient to remain awake but relaxed. The specifics of the procedure can vary depending on the technique used. Commonly involves:`,
+		`Percutaneous Disc Decompression is generally performed under local anesthesia combined with sedation. Allowing the patient to remain awake but relaxed. The specifics of the procedure can vary depending on the technique used. Commonly involves:`,
 		nl,
 		()=>[
 			[`### Imaging Guidance`, [
@@ -82,7 +82,7 @@ export default(ctx:request_ctx_T)=>''
 		nl,
 		`One of the tools used in percutaneous discectomy is the Stryker Dekompressor. Which allows for the aspiration of disc material during percutaneous discectomies. In the lumbar, thoracic, & cervical regions of the spine. This system offers clinically proven tools for identifying & treating symptomatic discs. Providing significant pain relief, reduced use of analgesics, & improved quality of life${ref1_footnote__sup_(ctx)}.`]],
 	[`## Techniques & Technologies`, [
-		`Several techniques fall under the umbrella of percutaneous spine decompression, including:`,
+		`Several techniques fall under the umbrella of Percutaneous Disc Decompression, including:`,
 		nl,
 		`- percutaneous endoscopic lumbar discectomy (PELD)`,
 		`- percutaneous laser disc decompression (PLDD)`,
@@ -97,15 +97,15 @@ export default(ctx:request_ctx_T)=>''
 				`User a laser to vaporize a small portion of the disc. Reducing its size & relieving pressure on the spinal nerves${ref_p1_2_footnote__sup_(ctx)}.`,]],
 			[`### Percutaneous mechanical disc decompression`, [
 				`Uses a mechanical device to remove disc material. Through a small needle inserted into the disc${ref_p1_7_footnote__sup_(ctx)}.`,]],],]],
-	[`## Conditions ${mobile_hidden__span_([`Percutaneous Spine Decompression`, `It`])} Is Used For`, ()=>[
+	[`## Conditions ${mobile_hidden__span_([`Percutaneous Disc Decompression`, `It`])} Is Used For`, ()=>[
 		[`### Herniated Discs`, [
 			`When a portion of a spinal disc bulges outwards, potentially pinching a nerve.`,]],
 		[`### Spinal Stenosis`, [
 			`A narrowing of the spinal canal that can compress nerves.`,]],
 		[`### Foraminal Stenosis`, [
 			`Narrowing of the openings where nerves exit the spinal canal.`,]],]],
-	[`## Benefits${mobile_hidden__span_([` of Percutaneous Spine Decompression`])}`, [
-		`Percutaneous spine decompression is desirable for its minimally invasive nature. And the significant benefits it offers:`,
+	[`## Benefits${mobile_hidden__span_([` of Percutaneous Disc Decompression`])}`, [
+		`Percutaneous Disc Decompression is desirable for its minimally invasive nature. And the significant benefits it offers:`,
 		()=>[
 			[`### Minimally Invasive`, [
 				`The procedure involves small incisions. Resulting in less tissue damage, reduced blood loss, & minimal scarring. Compared to traditional open spinal surgery.`,]],
@@ -122,11 +122,11 @@ export default(ctx:request_ctx_T)=>''
 			[`### Outpatient Procedure`, [
 				`Many percutaneous decompression treatments can be performed on an outpatient basis. Eliminating the need for prolonged hospital stays. Allowing patients to return home the same day${footnote__sup__sort([ref_p1_1_footnote__sup_(ctx),ref_p1_4_footnote__sup_(ctx)])}.`,]],]]],
 	[`## Clinical Efficacy & Applications`, [
-		`Percutaneous spine decompression has been shown to be effective. In treating specific cases of spinal compression. Patients with lumbar disc herniation who undergo PELD often experience significant pain relief. And improved mobility. The procedure is advantageous for those who have not responded well to conservative treatments. Such as physical therapy or medication${footnote__sup__sort([ref_p1_3_footnote__sup_(ctx),ref_p1_6_footnote__sup_(ctx)])}.`,
+		`Percutaneous Disc Decompression has been shown to be effective. In treating specific cases of spinal compression. Patients with lumbar disc herniation who undergo PELD often experience significant pain relief. And improved mobility. The procedure is advantageous for those who have not responded well to conservative treatments. Such as physical therapy or medication${footnote__sup__sort([ref_p1_3_footnote__sup_(ctx),ref_p1_6_footnote__sup_(ctx)])}.`,
 		nl,
-		`Studies compared percutaneous methods like PLDD to conventional open discectomy. Found percutaneous techniques often result in quicker recovery times & fewer complications. This makes percutaneous spine decompression an attractive option for eligible patients. Seeking less invasive treatment solutions${footnote__sup__sort([ref_p1_2_footnote__sup_(ctx),ref_p1_5_footnote__sup_(ctx)])}.`,]],
+		`Studies compared percutaneous methods like PLDD to conventional open discectomy. Found percutaneous techniques often result in quicker recovery times & fewer complications. This makes Percutaneous Disc Decompression an attractive option for eligible patients. Seeking less invasive treatment solutions${footnote__sup__sort([ref_p1_2_footnote__sup_(ctx),ref_p1_5_footnote__sup_(ctx)])}.`,]],
 	[`## Ideal Candidates${mobile_hidden__span_([` for the Procedure`])}`, [
-		`Percutaneous spine decompression is not suitable for everyone with back pain. Ideal candidates typically include those who:`,
+		`Percutaneous Disc Decompression is not suitable for everyone with back pain. Ideal candidates typically include those who:`,
 		()=>[
 			[`### Chronic Back Pain`, [
 				`Due to a diagnosed disc or vertebral body problem.`,]],
@@ -144,9 +144,9 @@ export default(ctx:request_ctx_T)=>''
 			[`### More Extensive Surgery`, [
 				`Due to severe structural damage or instability of the spine.`,]],],]],
 	[`## What Patients Can Expect`, [
-		`Before undergoing percutaneous spine decompression, patients will undergo a thorough evaluation. Including imaging studies to determine the exact cause & location of their pain. Post-procedure, patients are generally advised to engage in light activities. Avoiding strenuous exercise for a period. Follow-up care may include physical therapy to strengthen the spine & improve mobility.`,]],
+		`Before undergoing Percutaneous Disc Decompression, patients will undergo a thorough evaluation. Including imaging studies to determine the exact cause & location of their pain. Post-procedure, patients are generally advised to engage in light activities. Avoiding strenuous exercise for a period. Follow-up care may include physical therapy to strengthen the spine & improve mobility.`,]],
 	[`## Considerations & Limitations`, [
-		`Percutaneous spine decompression is not suitable for all patients. The effectiveness of the procedure depends on factors such as${footnote__sup__sort([ref_p1_3_footnote__sup_(ctx),ref_p1_7_footnote__sup_(ctx)])}:`,
+		`Percutaneous Disc Decompression is not suitable for all patients. The effectiveness of the procedure depends on factors such as${footnote__sup__sort([ref_p1_3_footnote__sup_(ctx),ref_p1_7_footnote__sup_(ctx)])}:`,
 		nl,
 		`- the specific nature of the spinal condition`,
 		`- the overall health of the patient`,
@@ -156,7 +156,7 @@ export default(ctx:request_ctx_T)=>''
 		nl,
 		()=>[
 			[`### Mixed Results`, [
-				`The effectiveness of percutaneous spine decompression can vary. With some people experiencing significant improvement & others minimal relief.`,]],
+				`The effectiveness of Percutaneous Disc Decompression can vary. With some people experiencing significant improvement & others minimal relief.`,]],
 			[`### Evolving Techniques`, [
 				`Different techniques & devices are used. So discussion with your doctor about the specific approach is crucial.`,]],
 			[`### May Not Be a Long-Term Fix`, [
@@ -165,11 +165,11 @@ export default(ctx:request_ctx_T)=>''
 		[`### Accurate Diagnosis`, [
 			`Ensures that nerve compression is the primary source of your symptoms.`,]],
 		[`### Individualized Treatment Plan`, [
-			`Your doctor can assess if percutaneous spine decompression is the most appropriate option. Based on your specific condition, health status, & goals.`,]],]],
+			`Your doctor can assess if Percutaneous Disc Decompression is the most appropriate option. Based on your specific condition, health status, & goals.`,]],]],
 	[`## The Takeaway`, [
-		`Percutaneous spine decompression offers a potential pathway to relief. For those coping with nerve compression in the spine. It provides a minimally invasive option between conservative care & major surgery. Open communication with a qualified specialist is key to understanding if this procedure is right for you.`,]],
+		`Percutaneous Disc Decompression offers a potential pathway to relief. For those coping with nerve compression in the spine. It provides a minimally invasive option between conservative care & major surgery. Open communication with a qualified specialist is key to understanding if this procedure is right for you.`,]],
 	[`## Conclusion`, [
-		`Percutaneous spine decompression is a minimally invasive surgical option. A promising alternative for patients seeking relief from chronic spinal pain. Offering a less invasive alternative to traditional surgery with compelling benefits. Without the extended recovery time associated with traditional surgery. For patients struggling with chronic back pain. This procedure offers a promising pathway to regain a pain-free lifestyle. Returning to daily activities with minimal disruption. As with any medical treatment, a thorough evaluation by a qualified spine specialist is essential. To determine the most appropriate treatment plan for each individual patient.`,]],
+		`Percutaneous Disc Decompression is a minimally invasive surgical option. A promising alternative for patients seeking relief from chronic spinal pain. Offering a less invasive alternative to traditional surgery with compelling benefits. Without the extended recovery time associated with traditional surgery. For patients struggling with chronic back pain. This procedure offers a promising pathway to regain a pain-free lifestyle. Returning to daily activities with minimal disruption. As with any medical treatment, a thorough evaluation by a qualified spine specialist is essential. To determine the most appropriate treatment plan for each individual patient.`,]],
 ])
 // @formatter:on
 function ref1_footnote__sup_(ctx:request_ctx_T) {
