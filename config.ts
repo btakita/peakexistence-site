@@ -1,3 +1,4 @@
+import { phone_number } from '@btakita/domain--server--peakexistence/contact'
 import { type blog_site_T } from '@rappstack/domain--server--blog/site'
 import { type author_T } from '@rappstack/domain--server/site'
 import { app_marked__set } from '@rappstack/ui--server/md'
@@ -44,7 +45,7 @@ export const blog_site:blog_site_T = {
 	author_a1: [dr_manny_emenike, brian_takita],
 	description: 'Experience Your Peak Existence',
 	title: 'Peak Existence',
-	phone: '+18189066900',
+	phone: phone_number,
 	font__meta_props_a1: [
 		{ rel: 'preconnect', href: 'https://fonts.googleapis.com' },
 		{ rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 1 },
