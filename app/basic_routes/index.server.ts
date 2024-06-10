@@ -10,7 +10,7 @@ import { blog_site } from '../../config.js'
 import { peakexistence_request_ctx__ensure } from '../../ctx/index.js'
 export default middleware_(middleware_ctx=>
 	new Elysia({
-		name: 'root_routes'
+		name: 'basic_routes'
 	})
 		.get('/about', async context=>{
 			const ctx = peakexistence_request_ctx__ensure(middleware_ctx, context, { blog_site })
