@@ -12,7 +12,7 @@ import {
 	type relysjs__build_config_T,
 	relysjs__ready__wait,
 	relysjs_browser__build,
-	relysjs_server__build
+	relysjs_server__build, run
 } from 'relysjs/server'
 import { config__init } from './config.js'
 import tailwindcss_config from './tailwind.config.js'
@@ -28,27 +28,39 @@ export async function build(config?:relysjs__build_config_T) {
 	const preprocess_plugin = preprocess_plugin_()
 	const esmfile = esmfile_()
 	await Promise.all([
-		relysjs_browser__build({
-			...config ?? {},
-			publicPath: '/',
-			plugins: [
-				rebuild_tailwind_plugin,
-				preprocess_plugin,
-				esmfile,
-			],
+		run(async ()=>{
+			try {
+				return relysjs_browser__build({
+					...config ?? {},
+					publicPath: '/',
+					plugins: [
+						rebuild_tailwind_plugin,
+						preprocess_plugin,
+						esmfile,
+					],
+				})
+			} finally {
+				console.info('relysjs_browser__build|done')
+			}
 		}),
-		relysjs_server__build({
-			...config ?? {},
-			target: 'es2022',
-			external: await server_external_(),
-			minify: false,
-			publicPath: '/',
-			plugins: [
-				esmcss_esbuild_plugin_(),
-				rebuild_tailwind_plugin,
-				preprocess_plugin,
-				esmfile,
-			],
+		run(async ()=>{
+			try {
+				return relysjs_server__build({
+					...config ?? {},
+					target: 'es2022',
+					external: await server_external_(),
+					minify: false,
+					publicPath: '/',
+					plugins: [
+						esmcss_esbuild_plugin_(),
+						rebuild_tailwind_plugin,
+						preprocess_plugin,
+						esmfile,
+					],
+				})
+			} finally {
+				console.info('relysjs_server__build|done')
+			}
 		}),
 		relysjs__ready__wait(Infinity),
 	])
