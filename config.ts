@@ -17,6 +17,7 @@ import { server__relement } from 'relementjs/server'
 import { app_ctx, cwd__set, port__set, src_path__set } from 'relysjs/server'
 import { post_mod_a1 } from './article/index.js'
 import fa_waves_sine_svg from './icon/fa_waves_sine.svg.file.js'
+import emenike_thumbnail_webp from './public/image/emenike-thumbnail.webp'
 relement__use(server__relement)
 const website = 'https://pe.briantakita.me'
 export const dr_manny_emenike = <author_T>{
@@ -24,7 +25,7 @@ export const dr_manny_emenike = <author_T>{
 	'@id': url__join(website, '#dr-manny-emenike-Person'),
 	name: 'Dr. Manny Emenike',
 	url: url__join(website, 'about#dr-manny-emenike'),
-	image: 'https://placehold.co/48x48.webp',
+	image: url__join(website, emenike_thumbnail_webp),
 	sameAs: [
 		'https://www.mannyemenikemd.com'
 	],

@@ -1,3 +1,10 @@
+import {
+	AboutPage_id_ref_,
+	ContactPage_id_ref_,
+	Organization_id_ref_,
+	site__author_id_ref_a1_,
+	WebSite_id_ref_
+} from '@btakita/domain--server--peakexistence/jsonld'
 import { sticky__top__nav_class } from '@btakita/ui--server--peakexistence/sticky'
 import { post_path_prefix__set } from '@rappstack/domain--any--blog/post'
 import { blog_request_ctx__ensure, type blog_request_ctx__ensure_config_T } from '@rappstack/domain--server--blog/ctx'
@@ -17,5 +24,10 @@ export function peakexistence_request_ctx__ensure(
 	post_path_prefix__set(ctx, 'articles')
 	marked__set(ctx, app_marked_(ctx))
 	breadcrumbs__nav_class__set(ctx, sticky__top__nav_class)
+	site__author_id_ref_a1_(ctx)
+	WebSite_id_ref_(ctx)
+	Organization_id_ref_(ctx)
+	AboutPage_id_ref_(ctx)
+	ContactPage_id_ref_(ctx)
 	return ctx
 }
