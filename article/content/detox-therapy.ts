@@ -25,10 +25,10 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
-	[`## Types of Detox Therapies`, [
+	[`# Types of Detox Therapies`, [
 		`Detox therapies can be broadly categorized into several types. Each is tailored to meet the specific needs of individuals. Based on the substance of abuse & the severity of addiction.`,
 		()=>[
-			[`### Cognitive Behavioral Therapy (CBT)`, [
+			[`## Cognitive Behavioral Therapy (CBT)`, [
 				`CBT is a type of talk therapy that emphasizes problem-solving & goal-setting. It helps individuals:`,
 				`- recognize & reframe negative thought patterns`,
 				`- develop positive coping skills`,
@@ -38,12 +38,12 @@ export default (ctx:request_ctx_T)=>''
 				nl,
 				`Cognitive Behavioral Therapy (CBT) is a widely used technique in detox therapy. It helps individuals recognize & change negative thought patterns & behaviors associated with substance abuse. CBT equips patients with coping skills & the ability to identify & prevent relapse triggers. Making it a crucial component of the recovery process${ref_2_1_footnote__sup_(ctx)}.`,
 				()=>[
-					[`#### Types of Cognitive Behavioral Therapy`, [
+					[`### Types of Cognitive Behavioral Therapy`, [
 						`CBT encompasses a range of techniques & approaches, each tailored to address specific issues. Here are some of the most common types of CBT:`,
 						()=>[
-							[`##### Cognitive Therapy (CT)`, [
+							[`#### Cognitive Therapy (CT)`, [
 								`Cognitive Therapy focuses on identifying & changing unhelpful or distorted thinking patterns. It involves collaborative elements like agenda-setting & homework assignments between sessions. Emphasizing the correction of cognitive distortions or thinking errors${ref_3_5_footnote__sup_(ctx)}.`,]],
-							[`##### Dialectical Behavior Therapy (DBT)`, [
+							[`#### Dialectical Behavior Therapy (DBT)`, [
 								`Dialectical Behavior Therapy (DBT) is a structured form of cognitive behavioral therapy (CBT). Developed by Marsha Linehan in the 1970s. Designed to help individuals who experience intense emotions & have difficulty managing them. DBT combines strategies like:`,
 								`- mindfulness`,
 								`- acceptance`,
@@ -72,7 +72,7 @@ export default (ctx:request_ctx_T)=>''
 								`DBT is particularly effective for individuals:`,
 								`- with Borderline Personality Disorder (BPD)`,
 								`- experiencing extreme, unpredictable emotions`,]],
-							[`##### Acceptance & Commitment Therapy (ACT)`, [
+							[`#### Acceptance & Commitment Therapy (ACT)`, [
 								`Acceptance & Commitment Therapy (ACT) is a psychotherapy approach. That combines acceptance & mindfulness strategies with commitment & behavior-change techniques to enhance psychological flexibility. Developed by Steven C. Hayes, ACT encourages individuals to accept their thoughts & feelings. Without judgment & to commit to actions aligned with their personal values. By focusing on six core principles${footnote__sup__sort([ref_5_2_footnote__sup_(ctx),ref_5_3_footnote__sup_(ctx),ref_5_4_footnote__sup_(ctx),ref_5_5_footnote__sup_(ctx)])}:`,
 								`- acceptance`,
 								`- cognitive defusion`,
@@ -90,12 +90,12 @@ export default (ctx:request_ctx_T)=>''
 								`- chronic pain`,
 								nl,
 								`ACT helps individuals live meaningful lives despite their internal challenges. Through techniques like mindfulness exercises & emotion exposure.`,]],],]],],]],
-			[`### Individual Therapy`, [
+			[`## Individual Therapy`, [
 				`Individual therapy focuses on addressing unique emotional & psychological challenges. Faced by individuals during detox. It${ref_2_1_footnote__sup_(ctx)}:`,
 				`- provides insight into the root causes of addiction`,
 				`- offers motivation`,
 				`- guides patients on how to manage triggers & maintain sobriety`,]],
-			[`### Family Therapy`, [
+			[`## Family Therapy`, [
 				`Family therapy is a type of psychotherapy that involves family members in treatment to:`,
 				`- improve communication`,
 				`- resolve conflicts`,
@@ -117,7 +117,7 @@ export default (ctx:request_ctx_T)=>''
 				`- improve communication within the family`,
 				`- rebuild trust`,
 				`- educate family members on avoiding enabling behaviors that could lead to relapse`,]],
-			[`### Group Therapy`, [
+			[`## Group Therapy`, [
 				`Group therapy is a form of psychotherapy. Where one or more therapists work with several individuals simultaneously. It helps people manage mental health conditions or cope with negative experiences. By providing a supportive environment. Where participants can share their challenges & learn from each other. Group therapy sessions typically involve 5 to 15 members & last about 1 to 2 hours. These sessions can be held in various settings, including${footnote__sup__sort([ref_8_2_footnote__sup_(ctx),ref_8_3_footnote__sup_(ctx),ref_8_4_footnote__sup_(ctx),ref_8_5_footnote__sup_(ctx)])}:`,
 				`- private practices`,
 				`- hospitals`,
@@ -130,10 +130,10 @@ export default (ctx:request_ctx_T)=>''
 				`- learn practical communication skills`,
 				nl,
 				`Group therapy is essential for building a supportive community & fostering long-term recovery.`,]],],]],
-	[`## Diagnostic Approaches`, [
+	[`# Diagnostic Approaches`, [
 		`Effective detox therapy begins with a comprehensive diagnostic process. To assess the individual's physical & mental health.`,
 		()=>[
-			[`### Neurological Examination`, [
+			[`## Neurological Examination`, [
 				`A thorough neurological examination assesses:`,
 				`- motor & sensory skills`,
 				`  - coordination`,
@@ -142,68 +142,68 @@ export default (ctx:request_ctx_T)=>''
 				`- mood changes`,
 				nl,
 				`This helps identify any underlying neurological issues to address during detox${footnote__sup__sort([ref_2_2_footnote__sup_(ctx),ref_2_3_footnote__sup_(ctx)])}.`,]],
-			[`### Imaging Techniques`, [
+			[`## Imaging Techniques`, [
 				`Imaging studies including CT scans & MRIs:`,
 				`- rule out secondary causes of symptoms`,
 				`- provide detailed insights into brain health`,
 				nl,
 				`These techniques are crucial for diagnosing conditions that may complicate the detox process${footnote__sup__sort([ref_2_2_footnote__sup_(ctx),ref_2_3_footnote__sup_(ctx)])}.`,]],
-			[`### Blood Tests`, [
+			[`## Blood Tests`, [
 				`Blood tests help identify underlying conditions that may affect detox. Such as:`,
 				`- infections`,
 				`- inflammation`,
 				`- metabolic disorders`,
 				nl,
 				`They also measure the levels of substances in the bloodstream to tailor the detox process${ref_2_2_footnote__sup_(ctx)}.`,]],
-			[`### Neuropsychological Tests`, [
+			[`## Neuropsychological Tests`, [
 				`Neuropsychological tests assess cognitive functions like memory, concentration, & information processing. These tests provide a comprehensive evaluation of brain function. To tailor individualized treatment plans${footnote__sup__sort([ref_2_2_footnote__sup_(ctx),ref_2_3_footnote__sup_(ctx)])}.`,]],],]],
-	[`## Monitoring During Detox`, [
+	[`# Monitoring During Detox`, [
 		`Monitoring is a critical component of detox therapy. To ensure the safety & effectiveness of the treatment.`,
 		()=>[
-			[`### Symptom Tracking`, [
+			[`## Symptom Tracking`, [
 				`Patients are often asked to maintain diaries to track symptoms, including withdrawal symptoms:`,
 				`- frequency`,
 				`- duration`,
 				`- intensity`,
 				nl,
 				`This information helps healthcare providers adjust treatment plans as needed${footnote__sup__sort([ref_2_2_footnote__sup_(ctx),ref_2_3_footnote__sup_(ctx)])}.`,]],
-			[`### Objective Assessments`, [
+			[`## Objective Assessments`, [
 				`Regular assessments by healthcare providers, including the use of tools like:`,
 				`- the Headache Impact Test (HIT-6)`,
 				`- the Migraine Disability Assessment (MIDAS) questionnaire`,
 				nl,
 				`Help quantify the impact of symptoms & monitor progress${ref_2_2_footnote__sup_(ctx)}.`,]],],]],
-	[`## Treatment Options`, [
+	[`# Treatment Options`, [
 		`Detox therapy involves a combination of pharmacological & non-pharmacological treatments. To manage withdrawal symptoms & support recovery.`,
 		()=>[
-			[`### Pharmacological Treatments`, [
+			[`## Pharmacological Treatments`, [
 				()=>[
-					[`#### Medication-Assisted Treatment (MAT)`, [
+					[`### Medication-Assisted Treatment (MAT)`, [
 						`MAT involves using medications like:`,
 						`- methadone`,
 						`- buprenorphine`,
 						`- naltrexone`,
 						nl,
 						`To manage withdrawal symptoms & reduce cravings. These medications are particularly effective for opioid & alcohol detox${footnote__sup__sort([ref_2_2_footnote__sup_(ctx),ref_2_3_footnote__sup_(ctx)])}.`,]],
-					[`#### Short-term Medication`, [
+					[`### Short-term Medication`, [
 						`Short-term medications, such as benzodiazepines for alcohol detox, help${footnote__sup__sort([ref_2_2_footnote__sup_(ctx),ref_2_3_footnote__sup_(ctx)])}:`,
 						`- manage acute withdrawal symptoms`,
 						`- prevent complications like seizures & delirium tremens`,]],],]],
-			[`### Non-Pharmacological Treatments`, [
+			[`## Non-Pharmacological Treatments`, [
 				()=>[
-					[`#### Infralow Frequency (ILF) Neuromodulation`, [
+					[`### Infralow Frequency (ILF) Neuromodulation`, [
 						`ILF brain training helps re-regulate the central nervous system. Reducing headache frequency & intensity during detox${ref_2_2_footnote__sup_(ctx)}.`]],
-					[`#### Occipital Nerve Stimulation (ONS)`, [
+					[`### Occipital Nerve Stimulation (ONS)`, [
 						`ONS involves implanting a device to stimulate the occipital nerves. Reducing headache frequency & severity in chronic migraine patients${ref_2_2_footnote__sup_(ctx)}.`,]],],]],
-			[`### Lifestyle Modifications`, [
+			[`## Lifestyle Modifications`, [
 				()=>[
-					[`#### Regular Exercise`, [
+					[`### Regular Exercise`, [
 						`Physical activity helps reduce withdrawal symptoms & improve overall well-being.`,]],
-					[`#### Healthy Diet`, [
+					[`### Healthy Diet`, [
 						`Identifying & avoiding dietary triggers can help manage symptoms.`,]],
-					[`#### Stress Management`, [
+					[`### Stress Management`, [
 						`Techniques like mindfulness, meditation, & cognitive-behavioral therapy (CBT) help reduce stress & prevent relapse${footnote__sup__sort([ref_2_2_footnote__sup_(ctx),ref_2_3_footnote__sup_(ctx)])}.`,]],],]],],]],
-	[`## Conclusion`, [
+	[`# Conclusion`, [
 		`Detox therapy is a vital step in the recovery process for individuals struggling with substance abuse & addiction. Essential interventions for successful detoxification include:`,
 		`- comprehensive diagnostic evaluations`,
 		`- effective monitoring`,

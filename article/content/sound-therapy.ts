@@ -17,92 +17,92 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
-	[`## The Foundations of Sound Therapy`, [
+	[`# The Foundations of Sound Therapy`, [
 		`Sound therapy is also known as sound healing or vibrational medicine. Sound therapy's predicated on the principle that matter vibrates at specific frequencies. Including the human body, vibrates at specific frequencies. Health & well-being influenced by these vibrational states. Disrupting or unbalancing the body's natural frequencies leads to physical or emotional disharmony. Sound therapy seeks to restore balance & promote healing. By using various musical instruments & vocal techniques to produce therapeutic sounds & vibrations${footnote__sup__sort([ref_s1_2_footnote__sup_(ctx),ref_s2_5_footnote__sup_(ctx),ref_s2_9_footnote__sup_(ctx)])}.`,]],
-	[`## How Does ${mobile_hidden__span_([`Sound Therapy`, `It`])} Work?`, [
+	[`# How Does ${mobile_hidden__span_([`Sound Therapy`, `It`])} Work?`, [
 		`Several theories explain the potential mechanisms of sound therapy:`,
 		()=>[
-			[`### Brainwave Entrainment`, [
+			[`## Brainwave Entrainment`, [
 				`Our brainwaves naturally shift between different states (beta for alertness, alpha for relaxation, etc.). Sound therapy uses rhythmic beats or frequencies that resonate with your body & mind. Towards desired states.`,]],
-			[`### Cellular Resonance`, [
+			[`## Cellular Resonance`, [
 				`The concept is that our cells & organs vibrate at certain frequencies. Positing that external vibrations might promote harmony & balance within the body.`,]],
-			[`### Psychological Impact`, [
+			[`## Psychological Impact`, [
 				`Music & specific sounds:`,
 				`- evoke emotions`,
 				`- reduce stress`,
 				`- facilitate a sense of calm`,]],],]],
-	[`## The Science of Sound`, [
+	[`# The Science of Sound`, [
 		`The therapeutic effects of sound ground in both physics & neurobiology. Sound waves transmit through the air as vibrations. Interacting with the body in a profound way. These vibrations can stimulate the release of nitric oxide. A molecule that promotes healing & reduces inflammation. Sound therapy influences brainwave patterns. Leading to${ref_s2_5_footnote__sup_(ctx)}:`,
 		nl,
 		`- increased relaxation`,
 		`- reduced stress levels`,
 		`- enhanced cognitive function`,]],
-	[`## Modalities of Sound Therapy`, [
+	[`# Modalities of Sound Therapy`, [
 		`Sound therapy encompasses a wide range of techniques & instruments. Offering unique vibrational qualities & benefits. Some of the most widely used modalities include:`,
 		()=>[
-			[`### Sound Baths`, [
+			[`## Sound Baths`, [
 				`Immersive experiences using crystal singing bowls, gongs, & other resonant instruments. To bathe participants in a wash of vibrations. Participants lie down & are "bathed" in sound waves. Produced by gongs, singing bowls, or other instruments. These sessions promote deep relaxation & stress relief${footnote__sup__sort([ref_s2_1_footnote__sup_(ctx),ref_s1_2_footnote__sup_(ctx),ref_s1_4_footnote__sup_(ctx)])}.`,]],
-			[`### Binaural Beats`, [
+			[`## Binaural Beats`, [
 				`A method involving the delivery of two slightly different frequencies to each ear. Encouraging the brain to perceive a third tone that promotes relaxation & focus. The brain perceives these tones as a single beat. Altering brainwave activity to${footnote__sup__sort([ref_s2_7_footnote__sup_(ctx),ref_s1_1_footnote__sup_(ctx)])}:`,
 				nl,
 				`- reduce stress`,
 				`- enhance relaxation`,
 				`- improve sleep quality`,]],
-			[`### Tuning Forks`, [
+			[`## Tuning Forks`, [
 				`Used to apply specific vibrations directly to the body. Helping to release tension & energy blockages. This method uses calibrated metal tuning forks. To apply specific vibrations to different parts of the body. It is similar to acupuncture. But uses sound frequencies instead of needles to stimulate the body's energy pathways${ref_s1_3_footnote__sup_(ctx)}.`,]],
-			[`### Vibroacoustic Therapy`, [
+			[`## Vibroacoustic Therapy`, [
 				`Low-frequency vibrations are transmitted to the body. Through speakers embedded in furniture or mats. This method is particularly effective for reducing pain & improving mobility. In conditions like Parkinson's disease & fibromyalgia${footnote__sup__sort([ref_s2_4_footnote__sup_(ctx),ref_s2_10_footnote__sup_(ctx),ref_s1_5_footnote__sup_(ctx)])}.`,]],
-			[`### Music Therapy`, [
+			[`## Music Therapy`, [
 				`Led by trained therapists, using music to address emotional, cognitive, or physical needs${footnote__sup__sort([ref_s2_5_footnote__sup_(ctx),ref_s2_9_footnote__sup_(ctx)])}.`,]],
-			[`### Tibetan Singing Bowls`, [
+			[`## Tibetan Singing Bowls`, [
 				`These ancient bowls produce rich overtones that promote deep meditation & relaxation${ref_s2_1_footnote__sup_(ctx)}.`,]],
-			[`### Gongs`, [
+			[`## Gongs`, [
 				`Produce a broad spectrum of sound that stimulates a deep meditative state & relaxation${ref_s2_1_footnote__sup_(ctx)}.`,]],
-			[`### Guided Meditations with Sound`, [
+			[`## Guided Meditations with Sound`, [
 				`Voice guidance combined with ambient music or nature sounds. Facilitate relaxation & introspection${ref_s2_1_footnote__sup_(ctx)}.`,]],
-			[`### Voice`, [
+			[`## Voice`, [
 				`Chanting, toning, & overtone singing help you find your natural resonance. Facilitating emotional release & connection.`,]],],]],
-	[`## Applications & Benefits`, [
+	[`# Applications & Benefits`, [
 		`Sound therapy offers a wide range of health benefits, which include:`,
 		()=>[
-			[`### Reduce Stress & Anxiety`, [
+			[`## Reduce Stress & Anxiety`, [
 				`Sound therapy significantly lowers stress levels by promoting relaxation & reducing anxiety. Through the calming effect of harmonic sounds on the brain & nervous system. Promoting a sense of peace & well-being${footnote__sup__sort([ref_s1_2_footnote__sup_(ctx),ref_s1_6_footnote__sup_(ctx)])}.`,]],
-			[`### Improve Sleep`, [
+			[`## Improve Sleep`, [
 				`The soothing nature of sound therapy can enhance sleep quality. By helping individuals relax & quieten their minds before bedtime. Benefiting those with insomnia or sleep disturbances${ref_s1_1_footnote__sup_(ctx)}.`,]],
-			[`### Emotional Healing`, [
+			[`## Emotional Healing`, [
 				`Sound therapy facilitates emotional release. Particularly beneficial for those dealing with trauma, grief, or depression. Contributing to greater emotional resilience & well-being${ref_s1_2_footnote__sup_(ctx)}.`,]],
-			[`### Cognitive Function`, [
+			[`## Cognitive Function`, [
 				`Sound therapy stimulates brainwave patterns associated with learning & creativity. Improving${ref_s1_7_footnote__sup_(ctx)}:`,
 				`- attention`,
 				`- focus`,
 				`- memory`,
 				`- clarity`,
 				`- cognitive function`,]],
-			[`### Manage Pain`, [
+			[`## Manage Pain`, [
 				`Vibrational medicine has shown promise in alleviating chronic pain & discomfort. Offering a non-invasive alternative to traditional pain management strategies. Certain sound frequencies reduce pain by altering the body's pain perception pathways. Including${footnote__sup__sort([ref_s1_3_footnote__sup_(ctx),ref_s2_7_footnote__sup_(ctx),ref_s2_10_footnote__sup_(ctx)])}:`,
 				nl,
 				`- chronic pain`,
 				`- postoperative pain`,]],
-			[`### Improve Mood`, [
+			[`## Improve Mood`, [
 				`Uplifting sounds may boost mood & offer temporary relief for depression${ref_s2_5_footnote__sup_(ctx)}.`,]],
-			[`### Enhanced Meditation`, [
+			[`## Enhanced Meditation`, [
 				`Sound can serve as a focus or enhance a meditative state.`,]],],]],
-	[`## Clinical Applications & Research`, [
+	[`# Clinical Applications & Research`, [
 		`Sound therapy is increasingly being incorporated into clinical settings. To complement traditional medical treatments. Research has demonstrated its effectiveness in various settings, including hospitals. Where it helps patients manage pain & anxiety. It is also used in mental health clinics. To support treatments for conditions like PTSD & depression${footnote__sup__sort([ref_s1_2_footnote__sup_(ctx),ref_s1_8_footnote__sup_(ctx),ref_s2_7_footnote__sup_(ctx),ref_s2_10_footnote__sup_(ctx)])}.`,]],
-	[`## Who Might Consider ${mobile_hidden__span_([`Sound Therapy`, `It`])}?`, [
+	[`# Who Might Consider ${mobile_hidden__span_([`Sound Therapy`, `It`])}?`, [
 		`Sound therapy is generally safe & can be explored by anyone interested in:`,
 		`- Stress Reduction`,
 		`- Seeking deeper relaxation`,
 		`- Mood support`,
 		`- Enhancing creativity or meditation`,
 		`- Complement to other therapies`,]],
-	[`## ${mobile_hidden__span_([`Finding a `])}Sound Therapy Practitioner`, [
+	[`# ${mobile_hidden__span_([`Finding a `])}Sound Therapy Practitioner`, [
 		`- If seeking sound therapy for specific health conditions. Look for certified therapists with training & experience in addressing your needs.`,
 		`- Consider whether you prefer individual sessions or group experiences like sound baths.`,
 		`- **Trust your intuition:** Choose a practitioner & environment that feels comfortable & resonant for you.`,]],
-	[`## Integrating Sound Therapy into Wellness Routines`, [
+	[`# Integrating Sound Therapy into Wellness Routines`, [
 		`Adding sound therapy into your wellness routine can be as simple as attending sound baths or meditation classes. Using sound healing instruments. For a more personalized approach, work with a sound therapy practitioner. Who provides tailored sessions designed to address specific health goals & concerns.`,]],
-	[`## Conclusion`, [
+	[`# Conclusion`, [
 		`Sound therapy offers a unique & powerful avenue for healing. Rooted in the ancient understanding of vibration & its modern-day applications. By harnessing the therapeutic properties of sound. You can embark on a journey of relaxation, healing, & profound transformation. Underscoring the intricate connection between sound, the body, & the mind.`,]],
 ])
 // @formatter:on

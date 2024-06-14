@@ -22,18 +22,18 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
-	[`## Principles of ${mobile_hidden__span_([`Hyperbaric Oxygen Therapy`, `HBOT`])}`, [
+	[`# Principles of ${mobile_hidden__span_([`Hyperbaric Oxygen Therapy`, `HBOT`])}`, [
 		`HBOT involves placing a patient in a hyperbaric chamber. Either a large room or a smaller, individual unit. Increasing atmospheric pressure is up to three times higher than normal air pressure. Under these conditions, patients breathe 100% oxygen. Which significantly increases the oxygen saturation of the blood${footnote__sup__sort([ref_h1_2_footnote__sup_(ctx),ref_h1_4_footnote__sup_(ctx)])}. This hyper-oxygenated blood circulates throughout the body. Promoting healing & regeneration at a cellular level.`,]],
-	[`## Clinical Applications`, [
+	[`# Clinical Applications`, [
 		`HBOT was first utilized in the mid-20th century for treating decompression sickness. A hazard of scuba diving. Its applications have expanded significantly over the years:`,
 		()=>[
-			[`### Wound Healing`, [
+			[`## Wound Healing`, [
 				`HBOT is effective in accelerating the healing process of chronic wounds. Such as diabetic foot ulcers, by enhancing oxygen delivery to damaged tissues${footnote__sup__sort([ref_h1_1_footnote__sup_(ctx),ref_h1_2_footnote__sup_(ctx)])}.`,]],
-			[`### Carbon Monoxide Poisoning`, [
+			[`## Carbon Monoxide Poisoning`, [
 				`It is a primary treatment for carbon monoxide poisoning. Helping to displace carbon monoxide from hemoglobin & restore normal oxygen levels${ref_h1_2_footnote__sup_(ctx)}.`,]],
-			[`### Infection Control`, [
+			[`## Infection Control`, [
 				`The high levels of oxygen delivered during HBOT are toxic to certain bacteria. Which can reduce infections. Particularly anaerobic bacterial infections & gas gangrene${ref_h1_2_footnote__sup_(ctx)}.`,]],
-			[`### Neurological Conditions`, [
+			[`## Neurological Conditions`, [
 				`More recent research has explored the use of HBOT in treating neurological conditions like${ref_h1_7_footnote__sup_(ctx)}:`,
 				nl,
 				`- stroke`,
@@ -41,7 +41,7 @@ export default (ctx:request_ctx_T)=>''
 				`- long COVID`,
 				nl,
 				`Where it helps reduce inflammation & promote neuroplasticity.`,]],],]],
-	[`## Benefits of ${mobile_hidden__span_([`Exercise with Oxygen Therapy`, 'HBOT'])}`, [
+	[`# Benefits of ${mobile_hidden__span_([`Exercise with Oxygen Therapy`, 'HBOT'])}`, [
 		[
 			`The therapeutic benefits of HBOT are primarily due to its ability to increase oxygen concentration in:`,
 			nl,
@@ -51,31 +51,31 @@ export default (ctx:request_ctx_T)=>''
 			nl,],
     `HBOT enhances the body’s immune response to fight bacterial & fungal infections. Aiding in the recovery from severe soft tissue infections. Some of the well-documented benefits include:`,
 		()=>[
-			[`### Enhanced Healing`, [
+			[`## Enhanced Healing`, [
 				`By increasing oxygen levels in the bloodstream. HBOT helps foster new blood vessel formation & tissue regeneration. Speeding up the healing process${mobile_hidden__span_([ref_h1_1_footnote__sup_(ctx),ref_h1_2_footnote__sup_(ctx)])}.`,]],
-			[`### Reduced Inflammation`, [
+			[`## Reduced Inflammation`, [
 				`HBOT has been shown to decrease inflammation & edema, which can significantly improve outcomes in inflammatory conditions${mobile_hidden__span_([ref_h1_2_footnote__sup_(ctx)/*,ref_h1_6_footnote__sup_(ctx)*/])}.`,]],
-			[`### Neurological Improvement`, [
+			[`## Neurological Improvement`, [
 				`For neurological conditions. HBOT can stimulate the formation of new neural connections & improve brain function${ref_h1_7_footnote__sup_(ctx)}.`,]],],]],
-	[`## Conditions Treated with HBOT`, [
+	[`# Conditions Treated with HBOT`, [
 		`HBOT has shown remarkable benefits in treating various medical conditions. Including but not limited to:`,
 		()=>[
-			[`### Radiation Injuries`, [
+			[`## Radiation Injuries`, [
 				`HBOT can alleviate the side effects of radiation therapy in cancer patients. Promoting tissue healing & reducing inflammation.`,]],
-			[`### Chronic Wounds`, [
+			[`## Chronic Wounds`, [
 				`HBOT stimulates the growth of new blood vessels. And enhances the body’s ability to heal chronic wounds, such as:`,
 				`- diabetic foot ulcers`,
 				`- non-healing surgical wounds`,
 				`- radiation-induced tissue injuries`,]],
-			[`### Carbon Monoxide Poisoning`, [
+			[`## Carbon Monoxide Poisoning`, [
 				`HBOT helps eliminate carbon monoxide from the bloodstream. Reducing the risk of long-term complications associated with carbon monoxide poisoning.`,]],
-			[`### Non-Healing Bone Fractures`, [
+			[`## Non-Healing Bone Fractures`, [
 				`HBOT aids in bone repair & regeneration. Accelerating the healing process for non-healing bone fractures.`,]],],]],
-	[`## Safety & Side Effects`, [
+	[`# Safety & Side Effects`, [
 		`While HBOT is generally safe, it is not devoid of risks. Potential side effects include middle ear injuries, sinus problems, & in rare cases, oxygen toxicity. Which can lead to seizures${footnote__sup__sort([ref_h1_2_footnote__sup_(ctx),ref_h1_8_footnote__sup_(ctx)])}. These risks are typically managed by adjusting the pressure levels & duration of treatment. They are generally reversible with proper medical care.`,]],
-	[`## Considerations & Future Directions`, [
+	[`# Considerations & Future Directions`, [
 		`Despite its many applications, HBOT is not universally applicable for all medical conditions. It requires specific protocols tailored to each condition's needs. Treatments are usually conducted in specialized facilities. As research continues, the potential applications of HBOT are expanding. With ongoing studies investigating its efficacy in newer areas. Like psychiatric disorders & autoimmune diseases${footnote__sup__sort([ref_h1_5_footnote__sup_(ctx),ref_h1_7_footnote__sup_(ctx)])}.`,]],
-	[`## Your HBOT Experience`, [
+	[`# Your HBOT Experience`, [
 		`During your HBOT sessions at Dr. Manny Emenike’s Internal Medicine practice, you can expect a warm & supportive atmosphere. Our team will guide you through the entire process, addressing any questions or concerns you may have.`,
 		nl,
 		`HBOT sessions last between 60 & 90 minutes. During which you can relax inside the hyperbaric chamber. Many patients find this time to be an excellent opportunity to unwind, read, or listen to music.`,
@@ -93,7 +93,7 @@ export default (ctx:request_ctx_T)=>''
 		`- Tiger Woods (PGA)`,
 		`- Urijah Faber (UFC)`,
 		`- Michael Phelps (Olympic Swimmer)`,]],
-	[`## Conclusion`, [
+	[`# Conclusion`, [
 		`Hyperbaric Oxygen Therapy remains a vital tool in modern medicine. Offering significant benefits for a variety of health conditions. With its ability to enhance oxygen delivery to tissues. HBOT plays a crucial role in treating conditions. That benefits from increased oxygen levels. As research evolves, new therapeutic potentials for HBOT are discovered. Promising to expand its use in clinical practice.`,]],
 ])
 // @formatter:on

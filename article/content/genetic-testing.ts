@@ -14,7 +14,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
-	[`## What is Genetic Testing?`, [
+	[`# What is Genetic Testing?`, [
 		`Genetic testing analyzes DNA. The chemical database that carries instructions for the body's functions. It can reveal alterations in genes that may cause illness or disease. From predicting the risk of chronic diseases to uncovering family heritage.`,
 		nl,
 		`Genetic testing examines changes in chromosomes, genes, or proteins to:`,
@@ -28,61 +28,61 @@ export default (ctx:request_ctx_T)=>''
 		`- diagnose conditions`,
 		`- guide decisions about medical care`,
 		`- determine treatment plans`,]],
-	[`## Types of Genetic Testing`, ()=>[
-		[`### Diagnostic Testing`, [
+	[`# Types of Genetic Testing`, ()=>[
+		[`## Diagnostic Testing`, [
 			`Genetic Testing Identifies specific genetic conditions if symptoms suggest a particular disorder. It confirms or rules out a suspected genetic disorder in symptomatic individuals. It provides a definitive diagnosis. And it can be crucial in determining the appropriate management & treatment of the condition${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx),ref_g1_2_footnote__sup_(ctx)])}.`,]],
-		[`### Predictive & Presymptomatic Testing`, [
+		[`## Predictive & Presymptomatic Testing`, [
 			`Genetic Testing detects gene mutations associated with disorders that appear after birth. Often later in life. They can be particularly valuable for individuals with a family history of a genetic disorder but no current symptoms. This testing helps in taking preventive measures. Or planning for the future healthcare needs${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx),ref_g1_2_footnote__sup_(ctx)])}.`,]],
-		[`### Pharmacogenomics`, [
+		[`## Pharmacogenomics`, [
 			`Genetic testing for pharmacogenomics predicts how an individual will respond to specific medications. Helping healthcare providers choose the most effective & least harmful treatment options. This personalized approach improves patient care. Reducing the trial-and-error process often associated with prescribing medications${ref_g1_4_footnote__sup_(ctx)}.`,]],
-		[`### Carrier Testing`, [
+		[`## Carrier Testing`, [
 			`Offered to individuals who have a family history of a genetic disorder. Or belong to certain ethnic groups that are at a higher risk for specific genetic conditions. Carrier testing can determine whether a person carries a copy of a gene mutation. That could be passed on to their children. Helping couples make informed reproductive choices${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx),ref_g1_2_footnote__sup_(ctx)])}.`,]],
-		[`### Prenatal Testing & Newborn Screening`, [
+		[`## Prenatal Testing & Newborn Screening`, [
 			`Prenatal testing is used to detect changes in a fetus's genes or chromosomes before birth. This type of testing can help expectant parents make decisions about pregnancy management. Or prepare for the birth of a child with a genetic condition. Newborn screening is the most widespread use of genetic testing. It is mandated in many countries to identify genetic disorders that can be treated early in life${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx),ref_g1_2_footnote__sup_(ctx),ref_g1_4_footnote__sup_(ctx)])}.`,]],
-		[`### Forensic Testing`, [
+		[`## Forensic Testing`, [
 			`Genetic forensic testing uses DNA sequences to identify an individual for legal purposes. It can be used to${footnote__sup__sort([ref_g1_1_footnote__sup_(ctx),ref_g1_2_footnote__sup_(ctx)])}:`,
 			nl,
 			`- identify crime or catastrophe victims`,
 			`- rule out or implicate a crime suspect`,
 			`- establish biological relationships, such as paternity`,]],]],
-	[`## Benefits of Genetic Testing`, [
+	[`# Benefits of Genetic Testing`, [
 		`The benefits of genetic testing extend beyond diagnosing diseases. It provides a sense of relief from uncertainty & helps people make informed decisions. About managing their health care${ref_g1_7_footnote__sup_(ctx)}.`,
 		nl,
 		`- A positive result can direct a person toward available prevention, monitoring, & treatment options.`,
 		`- A negative result can eliminate the need for unnecessary checkups & screening tests.`,
 		nl,
 		()=>[
-			[`### Personalized Medicine`, [
+			[`## Personalized Medicine`, [
 				`Tailors treatment plans to the individual's genetic makeup.`,]],
-			[`### Preventive Measures`, [
+			[`## Preventive Measures`, [
 				`Identifies risks early, allowing for lifestyle changes or interventions.`,]],
-			[`### Family Planning`, [
+			[`## Family Planning`, [
 				`Informs couples about potential genetic disorders in offspring.`,]],],]],
-	[`## Challenges & Considerations`, [
+	[`# Challenges & Considerations`, [
 		`Genetic testing carries potential risks & limitations. The accuracy of tests can vary. Not all genetic tests can detect every mutation that causes a particular disorder. Moreover, genetic testing can have emotional, social, & financial consequences. It is essential to undergo genetic counseling before & after testing. To understand the potential outcomes & implications of the results${footnote__sup__sort([ref_g1_5_footnote__sup_(ctx),ref_g1_6_footnote__sup_(ctx)])}.`,
 		nl,
 		()=>[
-			[`### Pros`, [
+			[`## Pros`, [
 				`- Offers detailed health insights`,
 				`- Can guide personalized healthcare`,
 				`- Help family planning & risk assessment`,]],
-			[`### Cons`, [
+			[`## Cons`, [
 				`- Potential for emotional distress`,
 				`- Privacy concerns regarding genetic information`,
 				`- It may lead to discrimination by insurers or employers`,]],],]],
-	[`## Who Should Consider Genetic Testing?`, [
+	[`# Who Should Consider Genetic Testing?`, [
 		`Individuals with:`,
 		`- a family history of certain genetic conditions`,
 		`- those planning to start a family`,
 		`- anyone curious about their genetic makeup could benefit from genetic testing`,]],
-	[`## How to Proceed`, ()=>[
-		[`### Consultation`, [
+	[`# How to Proceed`, ()=>[
+		[`## Consultation`, [
 			`Speak with a genetic counselor or healthcare provider. To understand which tests are suitable.`,]],
-		[`### Testing`, [
+		[`## Testing`, [
 			`It Involves collecting a sample of blood, saliva, or tissue.`,]],
-		[`### Results & Counseling`, [
+		[`## Results & Counseling`, [
 			`Discuss the results with a professional to understand the implications.`,]],]],
-	[`## Conclusion`, [
+	[`# Conclusion`, [
 		`Genetic illuminates the path to understanding our deepest biological secrets. Genetic testing holds the promise of personalized healthcare. Offering insights that enable more precise & personalized healthcare. As technology advances, the scope & accuracy of genetic testing will continue to improve. Further integrating genetics into everyday medical practice & helping individuals make better-informed health decisions.`,]],
 ])
 // @formatter:on

@@ -14,7 +14,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
-	[`## Understanding TBI & Concussions`, [
+	[`# Understanding TBI & Concussions`, [
 		[
 			`A Traumatic Brain Injury (TBI) occurs when an external force causes brain dysfunction. Typically resulting from a:`,
 			nl,
@@ -27,8 +27,8 @@ export default (ctx:request_ctx_T)=>''
 			`- cognitive`,
 			`- emotional`,
 			`- sleep-related issues`,],]],
-		[`## Diagnostic Approaches`, ()=>[
-			[`### Neurological Examination`, [
+		[`# Diagnostic Approaches`, ()=>[
+			[`## Neurological Examination`, [
 				`Diagnosing TBI begins with a thorough neurological examination. This includes:`,
 				nl,
 				`- assessing motor & sensory skills`,
@@ -38,21 +38,21 @@ export default (ctx:request_ctx_T)=>''
 				`- changes in mood or behavior`,
 				nl,
 				`Tools like the Acute Concussion Evaluation (ACE) form help assess individuals who have suffered a mild TBI. Tracking symptoms & recovery over time.`,]],
-			[`### Imaging Techniques`, [
+			[`## Imaging Techniques`, [
 				`Imaging plays a crucial role in diagnosing TBIs, especially moderate to severe cases. Common imaging techniques include:`,
 				nl,
 				()=>[
-					[`#### Computed Tomography (CT) Scans`, [
+					[`### Computed Tomography (CT) Scans`, [
 						`Widely used to detect bleeding, bruising, or swelling in the brain. CT scans provide quick, detailed images that are essential in emergency settings${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_2_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx)])}.`]],
-					[`#### Magnetic Resonance Imaging (MRI)`, [
+					[`### Magnetic Resonance Imaging (MRI)`, [
 						[
 							`Used for more detailed images of brain tissue. Particularly useful in detecting subtle changes & injuries not visible on CT scans. Advanced MRI techniques can identify microscopic injuries & bleeding${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx)])}:`,
 							nl,
 							`- diffusion tensor imaging`,
 							`- susceptibility-weighted imaging`,],]],
-					[`### Blood Tests`, [
+					[`## Blood Tests`, [
 						`Innovative blood tests examine blood for proteins that indicate brain injury. Such as the Banyan Brain Trauma Indicator (BTI). These tests diagnose concussions & other mild TBIs${ref_1_2_footnote__sup_(ctx)}.`,]],
-					[`### Neuropsychological Tests`, [
+					[`## Neuropsychological Tests`, [
 						`These tests assess cognitive functions such as:`,
 						nl,
 						`- memory`,
@@ -76,7 +76,7 @@ export default (ctx:request_ctx_T)=>''
 							`To manage emotional and psychological symptoms.`,]],
 						[`#### Stimulants`, [
 							`To improve attention & awareness in patients experiencing chronic fatigue${footnote__sup__sort([ref_1_2_footnote__sup_(ctx),ref_1_3_footnote__sup_(ctx)])}.`,]],],]],
-				[`### Surgery`, [
+				[`## Surgery`, [
 					`In severe cases, surgery may be necessary to:`,
 					nl,
 					`- address brain bleeds`,
@@ -84,7 +84,7 @@ export default (ctx:request_ctx_T)=>''
 					`- repair skull fractures`,
 					nl,
           `Surgical intervention aims to prevent further damage & stabilize the patient${footnote__sup__sort([ref_1_2_footnote__sup_(ctx),ref_1_3_footnote__sup_(ctx)])}.`,]],]],
-			[`## Conclusion`, [
+			[`# Conclusion`, [
 				`Traumatic Brain Injury (TBI) & concussions require specialized diagnostic & therapeutic approaches. To manage their complex & varied symptoms. Diagnostics include:`,
 				nl,
 				`- Advanced imaging techniques`,

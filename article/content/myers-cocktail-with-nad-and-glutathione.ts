@@ -16,10 +16,10 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
-  [`## The Components`, ()=>[
-		[`### Myer's Cocktail`, [
+  [`# The Components`, ()=>[
+		[`## Myer's Cocktail`, [
 			`Dr. John Myers developed this therapy in the 1950s. This intravenous therapy combines essential vitamins & minerals. Including vitamin C, B vitamins, magnesium, & calcium. These components are crucial for various bodily functions, including energy production, immune response, & nerve function. The IV transport bypasses the digestive system, maximizing absorption into the bloodstream${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx),ref_m1_9_footnote__sup_(ctx),ref_m1_18_footnote__sup_(ctx)])}.`,]],
-		[`### NAD (Nicotinamide Adenine Dinucleotide)`, [
+		[`## NAD (Nicotinamide Adenine Dinucleotide)`, [
 			`NAD is a vital coenzyme present in all living cells. And is involved in hundreds of metabolic processes. It helps:`,
 			nl,
 			`- convert nutrients into energy`,
@@ -31,80 +31,80 @@ export default (ctx:request_ctx_T)=>''
 			`- increasing cellular energy`,
 			`- improving mental clarity`,
 			`- reversing signs of aging`,]],
-		[`### Glutathione`, [
+		[`## Glutathione`, [
 			`Known as the master antioxidant. Glutathione protects the body from oxidative stress & free radicals. It plays a critical role in the liver's detoxification process & improves immune function. It's essential for maintaining cellular health & preventing aging-related decline. Glutathione levels in the body may decrease due to factors such as${ref_m2_3_footnote__sup_(ctx)}:`,
 			nl,
 			`- poor nutrition`,
 			`- environmental toxins`,
 			`- stress`,]],]],
-  [`## Health Benefits of the Combined Therapy`, ()=>[
-		[`### Enhanced Detoxification & Antioxidant Protection`, [
+  [`# Health Benefits of the Combined Therapy`, ()=>[
+		[`## Enhanced Detoxification & Antioxidant Protection`, [
 			`- Glutathione plays a critical role in detoxifying harmful substances in the body. By neutralizing free radicals & reactive oxygen species, Glutathione helps protect cells from damage${footnote__sup__sort([ref_m2_3_footnote__sup_(ctx),ref_m1_7_footnote__sup_(ctx),ref_m1_13_footnote__sup_(ctx)])}.`,
 			`- NAD assists in the repair of damaged DNA & enhances the body's resilience to stress & aging${footnote__sup__sort([ref_m1_18_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx),ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx)])}.`,]],
-		[`### Boosted Metabolic Function & Energy Levels`, [
+		[`## Boosted Metabolic Function & Energy Levels`, [
 			`- NAD converts energy from carbohydrates, fats, & proteins into ATP. The cellular energy currency${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx),ref_m1_18_footnote__sup_(ctx),ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx)])}.`,
 			`- The B vitamins in Myer's Cocktail are crucial co-factors in metabolic processes. Improving energy production${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx),ref_m1_9_footnote__sup_(ctx)])}.`,]],
-		[`### Improved Immune Function`, [
+		[`## Improved Immune Function`, [
 			`- Vitamin C & Zinc in Myer's Cocktail supports various cellular functions. Of the innate & adaptive immune system${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx),ref_m1_9_footnote__sup_(ctx)])}.`,
 			`- Glutathione enhances the immune response by promoting the proliferation of lymphocytes. Crucial white blood cells for immune responses${footnote__sup__sort([ref_m2_3_footnote__sup_(ctx),ref_m1_13_footnote__sup_(ctx)])}.`,]],
-		[`### Support for Neurological Health`, [
+		[`## Support for Neurological Health`, [
 			`- NAD benefits brain health. By supporting the function of neurons & protecting against neurodegenerative diseases${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx),ref_m1_18_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx),ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx)])}.`,
 			`- Magnesium in Myer's Cocktail can help regulate neurotransmitter function. Which is vital for maintaining normal nerve & muscle function, & brain health${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx),ref_m1_9_footnote__sup_(ctx)])}.`,]],
-		[`### Cardiovascular Health`, [
+		[`## Cardiovascular Health`, [
 			`- Magnesium helps maintain heart rhythm, muscle & nerve function, & blood pressure levels${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx),ref_m1_9_footnote__sup_(ctx)])}.`,
 			`- NAD improves cholesterol levels, lowers blood pressure, & reduces the risk of heart disease. By improving endothelial function${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx),ref_m1_18_footnote__sup_(ctx),ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx)])}.`,]],]],
-  [`## ${mobile_hidden__span_([`The Foundation: `])}The Myers' Cocktail`, [
+  [`# ${mobile_hidden__span_([`The Foundation: `])}The Myers' Cocktail`, [
 		()=>[
-			[`### Components`, [
+			[`## Components`, [
 				`Myers' Cocktail is a combination of${ref_m2_1_footnote__sup_(ctx)}:`,
 				()=>[
-					[`#### B vitamins`, [
+					[`### B vitamins`, [
 						`Play a crucial role in energy production, metabolism, & cell function.`,]],
-					[`#### Vitamin C`, [
+					[`### Vitamin C`, [
 						`A powerful antioxidant that supports the immune system.`,]],
-					[`#### Magnesium`, [
+					[`### Magnesium`, [
 						`An essential mineral involved in over 300 biochemical reactions in the body.`,]],
-					[`#### Calcium`, [
+					[`### Calcium`, [
 						`Important for bone health & muscle function.`,]],
-					[`#### Other ingredients`, [
+					[`### Other ingredients`, [
 						`Depending on the variation. The cocktail may also include components like L-carnitine (involved in energy metabolism).`,]],],]],],
     nl,
 		()=>[
-			[`### Benefits of the Myers' Cocktail`, ()=>[
-				[`#### Fatigue & chronic pain`, [
+			[`## Benefits of the Myers' Cocktail`, ()=>[
+				[`### Fatigue & chronic pain`, [
 					`Alleviates symptoms of fatigue, headaches, & chronic pain conditions like fibromyalgia.`,]],
-				[`#### Migraines`, [
+				[`### Migraines`, [
 					`Some studies suggest potential benefits in reducing migraine frequency & severity.`,]],
-				[`#### Upper respiratory tract infections`, [
+				[`### Upper respiratory tract infections`, [
 					`The high dose of vitamin C might support the immune system during infections.`,]],
-				[`#### Overall well-being`, [
+				[`### Overall well-being`, [
 					`It can enhance energy levels, improve mood, & promote well-being.`,]],]],],]],
-  [`## NAD+ & Glutathione`, ()=>[
-		[`### NAD+ (nicotinamide adenine dinucleotide)`, [
+  [`# NAD+ & Glutathione`, ()=>[
+		[`## NAD+ (nicotinamide adenine dinucleotide)`, [
 			`An essential coenzyme involved in cellular energy production & metabolism. NAD+ levels decline with age. Some research suggests it may play a role in aging & age-related health conditions${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx)],ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx))}.`,]],
-		[`### Glutathione`, [
+		[`## Glutathione`, [
 			`Glutathione protects cells from damage & helps with detoxification. Glutathione levels can also decrease with age & various health issues${ref_m2_3_footnote__sup_(ctx)}.`,]],
-		[`### Benefits`, ()=>[
-			[`#### Enhanced energy production`, [
+		[`## Benefits`, ()=>[
+			[`### Enhanced energy production`, [
 				`NAD+ impacts cellular energy. Its inclusion can further boost energy levels${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx),ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx)])}.`,]],
-			[`#### Increased antioxidant defense`, [
+			[`### Increased antioxidant defense`, [
 				`Glutathione's potent antioxidant properties offer protection against cellular damage.`,]],
-			[`#### Anti-aging effects`, [
+			[`### Anti-aging effects`, [
 				`Research on NAD+ & its connection to aging is ongoing. Some hypothesize it may contribute to improved cellular function & longevity${footnote__sup__sort([ref_m2_2_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx),ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx)])}.`,]],]],]],
-  [`## Synergistic Benefits`, [
+  [`# Synergistic Benefits`, [
     `When combined, the Myer's Cocktail with NAD & Glutathione offers a comprehensive approach to wellness:`,
 		()=>[
-			[`### Enhanced Energy Production`, [
+			[`## Enhanced Energy Production`, [
 				`The Myer's vitamins & NAD boost mitochondrial function, providing a significant energy uplift.`,]],
-			[`### Detoxification & Antioxidant Support`, [
+			[`## Detoxification & Antioxidant Support`, [
 				`Glutathione, alongside Vitamin C & other nutrients. Helps neutralize free radicals & remove toxins, protecting against cellular damage.`,]],
-			[`### Immune System Boost`, [
+			[`## Immune System Boost`, [
 				`The blend of vitamins & antioxidants strengthens the immune response. Helping the body fight off infections & diseases.`,]],
-			[`### Improved Mental Clarity`, [
+			[`## Improved Mental Clarity`, [
 				`NAD improves cognitive function. The nutrient boost can also help alleviate symptoms of depression & anxiety.`,]],
-			[`### Anti-Aging Effects`, [
+			[`## Anti-Aging Effects`, [
 				`By repairing DNA & reducing oxidative stress. This cocktail can slow the aging process. Promoting healthier skin & reducing the risk of chronic diseases.`,]],],]],
-	[`## Clinical Applications`, [
+	[`# Clinical Applications`, [
 		`The Myer's Cocktail with NAD & Glutathione is used to treat & manage conditions such as${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx),ref_m2_2_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx),ref_m1_9_footnote__sup_(ctx),ref_m1_18_footnote__sup_(ctx),ref_m3_4_footnote__sup_(ctx),ref_m3_5_footnote__sup_(ctx),ref_m3_6_footnote__sup_(ctx),ref_m3_7_footnote__sup_(ctx),ref_m3_8_footnote__sup_(ctx),ref_m3_9_footnote__sup_(ctx)])}:`,
 		nl,
 		`- chronic fatigue syndrome${ref_m3_1_footnote__sup_(ctx)}`,
@@ -117,7 +117,7 @@ export default (ctx:request_ctx_T)=>''
 		nl,
 		`- improve recovery after physical performance`,
 		`- reduce symptoms of hangovers`,]],
-  [`## Who Can Benefit?`, [
+  [`# Who Can Benefit?`, [
     `This therapy can be particularly beneficial for those experiencing:`,
 		nl,
 		`- Chronic fatigue or low energy levels${ref_m3_1_footnote__sup_(ctx)}`,
@@ -125,14 +125,14 @@ export default (ctx:request_ctx_T)=>''
 		`- Mental fog or cognitive decline`,
 		`- Signs of aging or oxidative stress`,
 		`- Athletes seeking enhanced recovery`,]],
-  [`## Safety & Considerations`, [
+  [`# Safety & Considerations`, [
     `The Myer's Cocktail with NAD & Glutathione is generally safe. It's crucial to consult with a healthcare professional before starting treatment. This ensures a therapy tailored to your individual health needs. And avoids potential interactions with existing conditions or medications. Potential side effects include:`,
 		nl,
 		`- discomfort at the injection site`,
 		`- infrequent allergic reactions`,
 		nl,
     `Which underscores the importance of a professional medical setting for administration${footnote__sup__sort([ref_m2_1_footnote__sup_(ctx),ref_m1_2_footnote__sup_(ctx),ref_m1_5_footnote__sup_(ctx),ref_m3_2_footnote__sup_(ctx),ref_m3_3_footnote__sup_(ctx)])}.`,]],
-  [`## Conclusion`, [
+  [`# Conclusion`, [
 		`The combination of Myer's Cocktail with NAD & Glutathione offers a potent therapeutic option. That leverages the benefits of each component to support overall health. And treat specific health conditions. This integrative approach:`,
 		nl,
 		`- detoxifies`,

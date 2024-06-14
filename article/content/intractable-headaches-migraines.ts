@@ -15,8 +15,8 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
-	[`## Diagnostics`, ()=>[
-		[`### Neurological Examination`, [
+	[`# Diagnostics`, ()=>[
+		[`## Neurological Examination`, [
 			`The first step in diagnosing intractable headaches is a comprehensive neurological examination. This involves assessing the patient's${footnote__sup__sort([ref_1_2_footnote__sup_(ctx),ref_1_3_footnote__sup_(ctx)])}:`,
 			nl,
 			`- motor & sensory skills`,
@@ -28,16 +28,16 @@ export default (ctx:request_ctx_T)=>''
 			`- headache pattern`,
 			`- headache triggers`,
 			`- previous treatments`,]],
-		[`### Imaging Techniques`, [
+		[`## Imaging Techniques`, [
 			`Imaging studies are crucial in ruling out secondary causes of headaches. Such as brain tumors or vascular abnormalities. Common imaging techniques include:`,
 			()=>[
-				[`#### Computed Tomography (CT) Scans`, [
+				[`### Computed Tomography (CT) Scans`, [
 					`Useful for detecting acute issues like bleeding or structural abnormalities.`,]],
-				[`#### Magnetic Resonance Imaging (MRI)`, [
+				[`### Magnetic Resonance Imaging (MRI)`, [
 					`Provides detailed images of brain tissue. Helping to identify subtle changes & injuries not visible on CT scans${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_2_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx)])}.`]],],]],
-		[`### Blood Tests`, [
+		[`## Blood Tests`, [
 			`Blood tests can help identify underlying conditions that may contribute to headache symptoms. Such as infections, inflammation, or metabolic disorders. Blood tests, like the Banyan Brain Trauma Indicator (BTI), examine blood for proteins indicating brain injury. Aiding in the diagnosis of concussions and other mild TBIs${ref_1_2_footnote__sup_(ctx)}.`]],
-		[`### Neuropsychological Tests`, [
+		[`## Neuropsychological Tests`, [
 			`These tests assess cognitive function. Such as:`,
 			nl,
 			`- memory`,
@@ -46,8 +46,8 @@ export default (ctx:request_ctx_T)=>''
 			`- executive functioning`,
 			nl,
 			`They are often used alongside imaging. To provide a comprehensive evaluation of brain function. Following a TBI or chronic headache.`,]],]],
-	[`## Monitoring`, ()=>[
-		[`### Symptom Tracking`, [
+	[`# Monitoring`, ()=>[
+		[`## Symptom Tracking`, [
 			`Monitoring intractable headaches involves regular tracking of symptoms. Patients are often asked to maintain headache diaries. Noting traits of their headaches including:`,
 			nl,
 			`- frequency`,
@@ -56,16 +56,16 @@ export default (ctx:request_ctx_T)=>''
 			`- triggers`,
 			nl,
       `This information helps healthcare providers tailor treatment plans & adjust therapies as needed${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_2_footnote__sup_(ctx)])}.`,]],
-		[`### Objective Assessments`, [
+		[`## Objective Assessments`, [
 			`Quantitative symptom tracking by healthcare providers during clinic visits is crucial. This includes regular assessments of headache frequency, intensity, & impact on daily activities. Commonly used tests to quantify the burden of headaches on patients' lives include:`,
 			nl,
 			`- the Headache Impact Test (HIT-6)`,
 			`- the Migraine Disability Assessment (MIDAS) questionnaire`,]],]],
-	[`## Treatment`, ()=>[
-		[`### Pharmacological Treatments`, [
+	[`# Treatment`, ()=>[
+		[`## Pharmacological Treatments`, [
 			`Pharmacological treatments for intractable headaches often involve a combination of preventive & abortive medications:`,
 			()=>[
-				[`#### Preventive Medications`, [
+				[`### Preventive Medications`, [
 					`Preventive Medications include:`,
 					nl,
 					`- beta-blockers`,
@@ -74,29 +74,29 @@ export default (ctx:request_ctx_T)=>''
 					`- monoclonal antibodies targeting calcitonin gene-related peptide (CGRP)`,
 					nl,
 					`These medications aim to reduce the frequency & severity of headaches${footnote__sup__sort([ref_1_2_footnote__sup_(ctx),ref_1_3_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx)])}.`,]],
-				[`#### Abortive Medications`, [
+				[`### Abortive Medications`, [
 					`Abortive Medications relieve headache symptoms once they occur. Common abortive treatments include:`,
 					nl,
 					`- triptans`,
 					`- nonsteroidal anti-inflammatory drugs (NSAIDs)`,
 					`- ergotamines`,]],],]],
-		[`### Non-Pharmacological Treatments`, [
+		[`## Non-Pharmacological Treatments`, [
 			`Non-pharmacological treatments play a significant role in managing intractable headaches:`,
 			()=>[
-				[`#### Infralow Frequency (ILF) Neuromodulation`, [
+				[`### Infralow Frequency (ILF) Neuromodulation`, [
 					`ILF brain training manages intractable headaches by re-regulating the central nervous system. This approach involves tailored neurofeedback sessions. That stabilizes brain function. Reducing headache frequency & intensity${ref_1_1_footnote__sup_(ctx)}.`]],
-				[`#### Occipital Nerve Stimulation (ONS)`, [
+				[`### Occipital Nerve Stimulation (ONS)`, [
 					`ONS involves implanting a device that stimulates the occipital nerves. Which can reduce headache frequency & severity in patients with chronic migraines. This treatment is particularly useful for patients who do not respond to conventional therapies${ref_1_4_footnote__sup_(ctx)}.`]],],]],
-		[`### Lifestyle Modifications`, [
+		[`## Lifestyle Modifications`, [
 			`Lifestyle modifications are essential in managing intractable headaches. These include:`,
 			()=>[
-				[`#### Regular Exercise`, [
+				[`### Regular Exercise`, [
 					`Physical activity can help reduce headache frequency & improve overall well-being.`,]],
-				[`#### Healthy Diet`, [
+				[`### Healthy Diet`, [
 					`Identifying & avoiding dietary triggers, such as caffeine & certain foods, can help manage headaches.`,]],
-				[`#### Stress Management`, [
+				[`### Stress Management`, [
 					`Techniques like mindfulness, meditation & cognitive-behavioral therapy (CBT). It can help reduce stress & prevent headaches${footnote__sup__sort([ref_1_2_footnote__sup_(ctx),ref_1_3_footnote__sup_(ctx)])}.`,]],],]],]],
-	[`## Conclusion`, [
+	[`# Conclusion`, [
 		`Intractable headaches & migraines are challenging conditions that require a multifaceted approach. To diagnosis, monitoring, & treatment. Comprehensive diagnostic evaluations are essential for accurate diagnosis, including:`,
 		nl,
 		`- neurological examinations`,

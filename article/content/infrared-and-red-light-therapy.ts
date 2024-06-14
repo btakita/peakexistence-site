@@ -22,7 +22,7 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
-	[`## ${mobile_hidden__span_([`What is `])}Infrared & Red Light Therapy${mobile_hidden__span_([`?`])}`, [
+	[`# ${mobile_hidden__span_([`What is `])}Infrared & Red Light Therapy${mobile_hidden__span_([`?`])}`, [
 		`Infrared & red light therapy uses low levels of red light & infrared light. To stimulate cellular repair & regeneration. Infrared & red light therapy are forms of photobiomodulation. Using light to stimulate cellular activity. Leading to beneficial effects on the body's tissues. Unlike ultraviolet light, these therapies provide healing energy without adverse effects.`,
 		nl,
 		`Infrared & red light therapy involves the use of light-emitting diodes (LEDs) or lasers. NTto deliver specific wavelengths of light to the body. Red light ranges from 620 to 700 nanometers (nm), while infrared light spans from 700 nm to about 1,000 nm. These wavelengths penetrate different depths of tissue. With red light affecting surface layers such as the skin. With infrared light reaching deeper tissues like muscles & joints${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx),ref_i1_15_footnote__sup_(ctx)])}.`,
@@ -34,36 +34,36 @@ export default (ctx:request_ctx_T)=>''
 		`- pain management`,
 		nl,
 		`PBM accelerates recovery & relieves symptoms without invasive procedures.`,]],
-	[`## Mechanisms of Action`, [
+	[`# Mechanisms of Action`, [
 		`The therapeutic effects of infrared & red light therapy. Are primarily attributed to their impact on mitochondrial function within cells. The mitochondria are the "powerhouses" of cells, responsible for energy production. Red & infrared light is absorbed by a mitochondrial enzyme called cytochrome c oxidase. Which plays a pivotal role in the cellular respiratory chain${footnote__sup__sort(ref_i1_7_footnote__sup_(ctx),ref_i1_8_footnote__sup_(ctx))}.`,
 		nl,
 		`This absorption of light energy leads to:`,
 		nl,
 		()=>[
-			[`### Increased Production of ATP`, [
+			[`## Increased Production of ATP`, [
 				`Enhanced ATP (adenosine triphosphate) production provides more energy for cells. Facilitating various healing & regenerative processes${footnote__sup__sort(ref_i1_7_footnote__sup_(ctx),ref_i1_8_footnote__sup_(ctx))}.`,]],
-			[`### Release of Nitric Oxide`, [
+			[`## Release of Nitric Oxide`, [
 				`Light therapy stimulates the release of nitric oxide. A vasodilator that improves blood circulation. To deliver more oxygen & nutrients to tissues. Which aids in healing & reduces pain${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx),ref_i1_15_footnote__sup_(ctx)])}.`,]],
-			[`### Reduction in Oxidative Stress`, [
+			[`## Reduction in Oxidative Stress`, [
 				`By increasing cellular energy production, light therapy helps reduce oxidative stress. Oxidative stress causes${footnote__sup__sort(ref_i1_7_footnote__sup_(ctx),ref_i1_8_footnote__sup_(ctx))}:`,
 				nl,
 				`- inflammation`,
 				`- aging`,
 				`- chronic disease processes`,]],],]],
-	[`## How They Work`, [
+	[`# How They Work`, [
 		()=>[
-			[`### Red Light Therapy (RLT)`, [
+			[`## Red Light Therapy (RLT)`, [
 				`Utilizes wavelengths of red light, ranging from 630 to 700 nanometers (nm). It's effective for surface-level skin treatments, enhancing collagen production, & reducing inflammation.`,]],
-			[`### Infrared Therapy`, [
+			[`## Infrared Therapy`, [
 				`Involves wavelengths longer than red light, usually between 700 nm to 1 mm. It penetrates deeper into the body, improving:`,
 				`- circulation`,
 				`- relieving pain`,
 				`- enhancing muscle recovery`,]],],]],
-	[`## Clinical Applications${mobile_hidden__span_([` & `, `/`])}Benefits`, [
+	[`# Clinical Applications${mobile_hidden__span_([` & `, `/`])}Benefits`, [
 		()=>[
-			[`### Pain Management`, [
+			[`## Pain Management`, [
 				`Infrared & red light therapy is effective in reducing pain associated with various conditions. Including arthritis, back pain, & tendinitis. By enhancing circulation & reducing inflammation. These therapies help alleviate pain & improve mobility${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx),ref_i1_15_footnote__sup_(ctx)])}.`,]],
-			[`### Skin Health & Rejuvenation`, [
+			[`## Skin Health & Rejuvenation`, [
 				`Red light therapy is particularly noted for its anti-aging effects on the skin. It${footnote__sup__sort([ref_i1_11_footnote__sup_(ctx),ref_i1_13_footnote__sup_(ctx)])}:`,
 				nl,
 				`- stimulates collagen production`,
@@ -72,48 +72,48 @@ export default (ctx:request_ctx_T)=>''
 				`- accelerates wound healing`,
 				`- reduces scarring`,
 				`- reduces signs of UV damage`,]],
-			[`### Accelerated Healing`, [
+			[`## Accelerated Healing`, [
 				`Both therapies promote faster healing of wounds, burns, & surgical incisions. By stimulating tissue regeneration & reducing inflammation. This makes them valuable tools in post-operative care & injury recovery${footnote__sup__sort([ref_i1_1_footnote__sup_(ctx),ref_i1_2_footnote__sup_(ctx)])}.`,]],
-			[`### Improved Muscle Recovery`, [
+			[`## Improved Muscle Recovery`, [
 				`Accelerates the healing process in muscles, making it popular among athletes.`,]],
-			[`### Enhanced Circulation`, [
+			[`## Enhanced Circulation`, [
 				`Boosts blood flow, delivering more oxygen & nutrients to tissues.`,]],
-			[`### Mental Well-being`, [
+			[`## Mental Well-being`, [
 				`Emerging research suggests that red light therapy has beneficial effects on mental health. Including reducing symptoms of depression & anxiety. The therapy's ability to improve cellular function extends to neurological benefits. Enhancing mood & cognitive function${ref_i1_15_footnote__sup_(ctx)}.`,]],
-			[`### Mood Enhancement`, [
+			[`## Mood Enhancement`, [
 				`Exposure to red & infrared light can improve mood & energy. By increasing serotonin levels.`,]],
-			[`### Safety & Considerations`, [
+			[`## Safety & Considerations`, [
 				`Infrared & red light therapy is generally considered safe, with minimal side effects. It is crucial to use these therapies under the guidance of a qualified professional. especially when treating serious medical conditions. The most common side effects include temporary discomfort & redness at the treatment site${ref_i1_14_footnote__sup_(ctx)}.`,]],],]],
-	[`## Considerations`, [
+	[`# Considerations`, [
 		()=>[
-			[`### Pros`, [
+			[`## Pros`, [
 				`- Non-invasive with no known serious side effects`,
 				`- Can be used for a wide range of conditions`,
 				`- Scientifically backed by numerous studies`,]],
-			[`### Cons`, [
+			[`## Cons`, [
 				`- Results can vary & may take time to manifest`,
 				`- The initial cost of devices or therapy sessions can be high`,
 				`- Not a standalone cure for serious medical conditions`,]],],]],
-	[`## Who Can Benefit?`, [
+	[`# Who Can Benefit?`, [
 		`Anyone looking for a gentle & effective therapy to improve skin health, relieve pain, or enhance recovery. It's especially useful for:`,
 		`- athletes`,
 		`- individuals with chronic pain conditions`,
 		`- those seeking anti-aging solutions`,]],
-	[`## Getting Started`, [
+	[`# Getting Started`, [
 		()=>[
 			{
 				dl_class: '[counter-reset:_order]',
 				dt_class: class_('[&>h3]:before:[counter-increment:order]', '[&>h3]:before:content-[counter(order)_\'._\']'),
 			},
-			[`### Research`, [
+			[`## Research`, [
 				`Understand the specific benefits & find a reputable provider or device.`,]],
-			[`### Consultation`, [
+			[`## Consultation`, [
 				`Talk to a healthcare professional, especially if you have pre-existing conditions.`,]],
-			[`### Trial Sessions`, [
+			[`## Trial Sessions`, [
 				`Start with a few sessions to see how your body responds.`,]],],]],
-	[`## Takeaway`, [
+	[`# Takeaway`, [
 		`Infrared & red light therapy represents a significant advancement in non-invasive medical treatments. Offering a wide range of health benefits from pain relief & injury recovery. To skin rejuvenation & mental health improvement. These therapies are likely to become more integrated into routine medical practice. Providing patients with safe, effective, & natural treatment options for a variety of ailments${footnote__sup__sort([ref_i1_3_footnote__sup_(ctx),ref_i1_15_footnote__sup_(ctx)])}.`,]],
-	[`## Conclusion`, [
+	[`# Conclusion`, [
 		`Infrared & red light therapy casts a warm glow on non-invasive healing techniques. By offering a spectrum of health benefits with minimal risks. They are an example of using light as medicine. Solace from pain, yearning for youthful skin, or striving for peak physical performance. These therapies bring wellness illuminated by the very essence of light.`,]],
 ])
 // @formatter:on

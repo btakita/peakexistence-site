@@ -18,9 +18,9 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
-	[`## What is it?`, [
+	[`# What is it?`, [
 		`JST encompasses various treatments. These aim to maintain or enhance joint health. It's for those with joint pain or degenerative conditions.`,]],
-	[`## Principles of ${mobile_hidden__span_([`Joint Saving Therapy`, `JST`])}`, [
+	[`# Principles of ${mobile_hidden__span_([`Joint Saving Therapy`, `JST`])}`, [
 		`Joint saving therapy maintains or improves joint function. While minimizing pain & preventing further damage. The approach is typically multi-faceted. Involving a combination of:`,
 		nl,
 		`- physical therapy`,
@@ -28,24 +28,24 @@ export default (ctx:request_ctx_T)=>''
 		`- sometimes pharmacological interventions`,
 		nl,
     `The therapy is tailored to individual needs. Depending on the specific joint involved & the severity of the condition${footnote__sup__sort([ref_j1_1_footnote__sup_(ctx),ref_j1_2_footnote__sup_(ctx)])}.`,]],
-	[`## Key Techniques in ${mobile_hidden__span_([`Joint Saving Therapy`, `JST`])}`, ()=>[
-		[`### Physical Therapy`, [
+	[`# Key Techniques in ${mobile_hidden__span_([`Joint Saving Therapy`, `JST`])}`, ()=>[
+		[`## Physical Therapy`, [
 			`Physical therapy is a cornerstone of joint saving therapy. It includes exercises that strengthen the muscles around the joints. Which can help stabilize & protect the joint structure. Hydrotherapy, where exercises are performed in water, can be particularly beneficial. As they reduce the load on painful joints. While still allowing for movement & resistance training${footnote__sup__sort([ref_j1_1_footnote__sup_(ctx),ref_j1_2_footnote__sup_(ctx)])}.`,
 			()=>[
-				[`#### Aims`, [
+				[`### Aims`, [
 					`Improve movement, strengthen muscles.`,]],
-				[`#### How`, [
+				[`### How`, [
 					`Exercises, stretches, & manual therapy.`,
 					()=>[
-						[`##### Proper body mechanics`, [
+						[`#### Proper body mechanics`, [
 							`Learning techniques for daily activities (lifting, walking, etc.) that minimize stress on joints.`,]],
-						[`##### Assistive devices`, [
+						[`#### Assistive devices`, [
 							`Using canes, braces, or ergonomic tools to support joints & reduce strain.`,]],
-						[`##### Heat & cold therapy`, [
+						[`#### Heat & cold therapy`, [
 							`Applying heat or cold packs to manage inflammation & pain.`,]],
-						[`##### Strength training`, [
+						[`#### Strength training`, [
 							`Building muscle strength around a joint improves stability & reduces stress on the joint itself.`,]],],]],],]],
-		[`### Pain Management`, [
+		[`## Pain Management`, [
 			`Effective pain management is crucial in joint saving therapy. This may involve the use of:`,
 			nl,
 			`- non-steroidal anti-inflammatory drugs (NSAIDs)`,
@@ -53,22 +53,22 @@ export default (ctx:request_ctx_T)=>''
 			`- newer therapies such as viscosupplementation, where lubricating substances are injected into the joint`,
 			nl,
 			`For chronic conditions like osteoarthritis. Managing pain is essential for maintaining mobility & quality of life${footnote__sup__sort([ref_j1_2_footnote__sup_(ctx),ref_j1_5_footnote__sup_(ctx)])}.`,]],
-		[`### Medications`, [
+		[`## Medications`, [
 			()=>[
-				[`#### Aims`, [
+				[`### Aims`, [
 					`Reduce pain, control inflammation.`,]],
-				[`#### Types`, [
+				[`### Types`, [
 					`NSAIDs, supplements like glucosamine.`,]],],]],
-		[`### Lifestyle Changes`, [
+		[`## Lifestyle Changes`, [
 			`Adjustments in daily activities can significantly impact joint health. Weight management is critical. As excess body weight adds stress on weight-bearing joints like the hips & knees. Nutritional counseling may also be part of joint saving therapy. Focusing on a diet that supports joint health. Including supplements like omega-3 fatty acids which have anti-inflammatory properties${ref_j1_6_footnote__sup_(ctx)}.`,
 			()=>[
-				[`#### Aims`, [
+				[`### Aims`, [
 					`Reduce joint stress.`,]],
-				[`#### How`, [
+				[`### How`, [
 					`Weight management, nutrition, ergonomic adjustments.`,]],],]],
-		[`### Education & Behavioral Changes`, [
+		[`## Education & Behavioral Changes`, [
 			`Educating patients about their conditions & how to protect their joints. Is another key aspect of therapy. This might include learning how to modify activities to reduce joint stress. Or using assistive devices to aid mobility. Behavioral changes such as quitting smoking or reducing alcohol consumption. It can also have a positive impact on joint health${ref_j1_6_footnote__sup_(ctx)}.`,]],
-		[`### ${mobile_hidden__span_([`Advanced `])}Non-Surgical Techniques`, [
+		[`## ${mobile_hidden__span_([`Advanced `])}Non-Surgical Techniques`, [
 			`For some patients, more advanced interventions may be necessary. These can include:`,
 			nl,
 			`- joint injections`,
@@ -80,39 +80,39 @@ export default (ctx:request_ctx_T)=>''
 			`- reduce inflammation`,
 			`- promote healing`,
 			`- help regenerate joint tissues`,]],
-		[`### Injections`, [
+		[`## Injections`, [
 			()=>[
-				[`#### Aims`, [
+				[`### Aims`, [
 					`Provide lubrication, reduce inflammation.`,]],
-				[`#### Types`, [
+				[`### Types`, [
 					`Corticosteroids, hyaluronic acid.`,
 					()=>[
-						[`##### Corticosteroid injections`, [
+						[`#### Corticosteroid injections`, [
 							`Reduce inflammation & pain around the joint, but their use is limited due to potential side effects.`,]],
-						[`##### Hyaluronic acid injections`, [
+						[`#### Hyaluronic acid injections`, [
 							`Aim to improve lubrication within the joint, potentially helpful for osteoarthritis.`,]],
-						[`##### Platelet-rich plasma (PRP) therapy`, [
+						[`#### Platelet-rich plasma (PRP) therapy`, [
 							`An emerging technique that uses a patient's own platelets to promote healing & reduce inflammation.`,]],],]],],]],]],
-	[`## Benefits of ${mobile_hidden__span_([`Joint Saving Therapy`, `JST`])}`, [
+	[`# Benefits of ${mobile_hidden__span_([`Joint Saving Therapy`, `JST`])}`, [
 		`The primary benefit of joint saving therapy is its potential to delay or even prevent the need for joint replacement surgery. By managing symptoms effectively & slowing the progression of joint damage. Patients can maintain a higher quality of life for longer. Additionally, joint saving therapy can help individuals remain active. Which is crucial for overall health & well-being.`,
 		()=>[
-			[`### Pain Reduction`, [
+			[`## Pain Reduction`, [
 				`Alleviates discomfort.`,]],
-			[`### Mobility Improvement`, [
+			[`## Mobility Improvement`, [
 				`Enhances quality of life.`,]],
-			[`### Surgery Delay`, [
+			[`## Surgery Delay`, [
 				`Buying time may prevent the need for replacement.`,]],],]],
-	[`## Considerations`, [
+	[`# Considerations`, [
 		()=>[
-			[`### Pros`, [
+			[`## Pros`, [
 				`- Non-surgical, less risk.`,
 				`- It can improve joint health naturally.`,
 				`- Offers a comprehensive, holistic approach.`,]],
-			[`### Cons`, [
+			[`## Cons`, [
 				`- May not offer permanent solutions.`,
 				`- Results vary by individual.`,
 				`- Some treatments require ongoing commitment.`,]],],]],
-	[`## Conclusion`, [
+	[`# Conclusion`, [
 		`Joint saving therapy offers a comprehensive approach to managing joint health. Combining physical interventions, lifestyle changes, & sometimes advanced medical treatments. Its goal is to:`,
 		nl,
 		`- preserve joint function`,

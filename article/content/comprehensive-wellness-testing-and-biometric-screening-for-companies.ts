@@ -18,74 +18,74 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
-	[`## ${mobile_hidden__span_([`Comprehensive `])}Wellness Testing & Biometric Screening for Companies`, [
+	[`# ${mobile_hidden__span_([`Comprehensive `])}Wellness Testing & Biometric Screening for Companies`, [
 		`In today's world, taking a proactive approach to your health is more important than ever. Comprehensive wellness testing & screening empowers your journey towards optimal well-being. This article explores what these tests entail. Their benefits. How to navigate the options available.`,
 		()=>[
-			[`### Corporate Wellness`, [
+			[`## Corporate Wellness`, [
 				`Comprehensive wellness testing & biometric screening emerge as key components in corporate wellness programs. Offering a proactive approach to managing employee health. These initiatives aim to improve individual health outcomes. Enhancing overall workplace productivity & reducing healthcare costs.`,]],],]],
-	[`## ${mobile_hidden__span_([`Understanding Comprehensive `])}Wellness Testing`, [
+	[`# ${mobile_hidden__span_([`Understanding Comprehensive `])}Wellness Testing`, [
 		`Comprehensive wellness testing goes beyond traditional health assessments. To provide a detailed overview of an employee's health status. This type of testing typically includes:`,
 		`- expanded lab panels`,
 		`- advanced screening tests`,
 		`- an extended consultation with a healthcare provider`,
 		nl,
 		`The goal is to identify potential health issues before they become serious. Allowing for timely intervention & management${footnote__sup__sort([/* ref6_footnote__sup_(ctx), */])}.`,]],
-	[`## ${mobile_hidden__span_([`The Role of `])}Biometric Screening`, [
+	[`# ${mobile_hidden__span_([`The Role of `])}Biometric Screening`, [
 		`Comprehensive wellness testing & screening is a detailed checkup for your entire body. Conducted in the clinic, home, or workplace. It goes beyond addressing immediate concerns. Aiming to provide a detailed snapshot of your overall health. These tests can include:`,
 		nl,
 		`Biometric screening is a clinical process conducted in the clinic or workplace. To assess various health parameters including${footnote__sup__sort([ref_c_4_footnote__sup_(ctx),/* ref_s1_3_footnote__sup_(ctx), */ ref_c_s1_5_footnote__sup_(ctx), ref_c_s1_9_footnote__sup_(ctx), ref_c_s1_10_footnote__sup_(ctx), ref_c_s1_17_footnote__sup_(ctx),])}:`,
 		()=>[
-			[`### Blood tests`, [
+			[`## Blood tests`, [
 				`A comprehensive metabolic panel (CMP) & complete blood count (CBC). Assessing:`,
 				`- organ function`,
 				`- blood cell health`,
 				`- blood pressure`,
 				`- blood glucose levels`,
 				`- potential risk factors for various conditions.`,]],
-			[`### Urine tests`, [
+			[`## Urine tests`, [
 				`It can reveal signs of infection, kidney function, & diabetes.`,]],
-			[`### Cholesterol tests`, [
+			[`## Cholesterol tests`, [
 				`Measure different types of cholesterol (LDL, HDL, triglycerides) to assess heart disease risk.`,]],
-			[`### Thyroid screening`, [
+			[`## Thyroid screening`, [
 				`Thyroid function can impact metabolism & energy levels.`,]],
-			[`### Vitamin D tests`, [
+			[`## Vitamin D tests`, [
 				`Vitamin D deficiency links to health concerns such as bone pain, muscle weakness, & more.`,]],
-			[`### Body Mass Index (BMI)`],
-			[`### Additional tests`, [
+			[`## Body Mass Index (BMI)`],
+			[`## Additional tests`, [
 				`Depending on your age, gender, & health history. Further tests like STD screenings or bone density scans assess areas of improvement.`,]],],
 		nl,
 		`These screenings are quick, usually taking about 10–15 minutes. Providing immediate feedback on an employee's health status. The primary aim is to establish a health baseline. That can be used to monitor changes over time. Identifying risk factors for chronic diseases like${footnote__sup__sort([ref_c_1_footnote__sup_(ctx), ref_c_3_footnote__sup_(ctx), ref_c_4_footnote__sup_(ctx),])}:`,
 		`- hypertension`,
 		`- diabetes`,
 		`- cardiovascular conditions`,]],
-	[`## Benefits${mobile_hidden__span_([` of Comprehensive Wellness Testing:`])}`, [
+	[`# Benefits${mobile_hidden__span_([` of Comprehensive Wellness Testing:`])}`, [
 		()=>[
-			[`### Personalized Healthcare`, [
+			[`## Personalized Healthcare`, [
 				`Test results help your doctor tailor preventive measures & treatment plans for you.`,]],
-			[`### Proactive Management`, [
+			[`## Proactive Management`, [
 				`By understanding your risk factors. You can make informed lifestyle choices to improve your overall health.`,]],
-			[`### Peace of Mind`, [
+			[`## Peace of Mind`, [
 				`Knowing your health status can reduce anxiety. Empowering you to take charge of your well-being.`,]],
-			[`### Targeted Wellness Initiatives`, [
+			[`## Targeted Wellness Initiatives`, [
 				`The data collected from biometric screenings enables organizations to tailor their wellness programs. To address specific health issues prevalent among their employees. For instance, if a significant number of employees are found to have high blood pressure. Programs can be designed to promote regular exercise, stress reduction, & healthy eating${ref_c_3_footnote__sup_(ctx)}.`,]],
-			[`### Early Disease Detection`, [
+			[`## Early Disease Detection`, [
 				`Biometric screenings can detect early signs of chronic conditions, allowing for early intervention. This helps in managing the condition more effectively. Improving long-term outcomes. And reducing the long-term costs associated with advanced diseases${ref_c_3_footnote__sup_(ctx)}.`,]],
-			[`### Personalized Health Plans`, [
+			[`## Personalized Health Plans`, [
 				`By understanding individual health risks. Employers can offer personalized support & resources to help employees manage their health better. This may include access to nutrition counseling, fitness programs, or mental health services${footnote__sup__sort([ref_c_3_footnote__sup_(ctx), ref_c_4_footnote__sup_(ctx)])}.`,]],
-			[`### Cost Savings`, [
+			[`## Cost Savings`, [
 				`By identifying & addressing health risks early. Companies can significantly reduce healthcare expenses related to treating chronic diseases. Additionally, healthier employees tend to have lower absenteeism rates & higher productivity levels${footnote__sup__sort([ref_c_3_footnote__sup_(ctx), ref_c_10_footnote__sup_(ctx),])}.`,]],
-			[`### ${mobile_hidden__span_([`Enhanced `])}Employee Engagement & Morale`, [
+			[`## ${mobile_hidden__span_([`Enhanced `])}Employee Engagement & Morale`, [
 				`Implementing health screenings shows employees that their health is valued by the organization. This boosts morale & increases employee engagement. Leading to a more positive & productive work environment${ref_c_15_footnote__sup_(ctx)}.`,]],],]],
-	[`## Considering ${mobile_hidden__span_([`Comprehensive `])}Wellness Testing?`, [
+	[`# Considering ${mobile_hidden__span_([`Comprehensive `])}Wellness Testing?`, [
 		`Here's what to keep in mind:`,
 		()=>[
-			[`### Consult your doctor`, [
+			[`## Consult your doctor`, [
 				`Discuss your health goals & risk factors. To determine if comprehensive testing is right for you.`,]],
-			[`### Understand the options`, [
+			[`## Understand the options`, [
 				`Different labs & providers offer various testing panels. Research & choose one that aligns with your needs.`,]],
-			[`### Review costs & insurance coverage`, [
+			[`## Review costs & insurance coverage`, [
 				`Testing costs can vary. Investigate insurance coverage to understand your financial responsibility.`,]],
-			[`### Interpreting results`, [
+			[`## Interpreting results`, [
 				`Don't panic if you see abnormal results. Discuss them with your doctor to determine the next steps.`,]],],]],
 ])
 + md__raw_({ ctx }, lines_(

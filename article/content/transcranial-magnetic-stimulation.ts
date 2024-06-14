@@ -16,14 +16,14 @@ export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 // language=md
 export default (ctx:request_ctx_T)=>''
 + dl_tree_({ ctx, _: sticky_h2__dl_tree_props_ }, ()=>[
-	[`## Mechanism of Action`, [
+	[`# Mechanism of Action`, [
 		`TMS operates by generating a rapidly changing magnetic field. Through an electromagnetic coil placed against the scalp. This magnetic field induces small electric currents in the brain. Targeting the superficial layers of the cerebral cortex. These currents modulate neuronal activity, leading to changes in brain function. The repeated stimulation is known as repetitive TMS (rTMS). TMS can produce lasting changes in brain activity. Through mechanisms akin to synaptic plasticity. Such as long-term potentiation${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx),ref_1_5_footnote__sup_(ctx)])}.`]],
-	[`## Clinical Applications`, ()=>[
-		[`### Major Depressive Disorder (MDD)`, [
+	[`# Clinical Applications`, ()=>[
+		[`## Major Depressive Disorder (MDD)`, [
 			`TMS is FDA-approved for the treatment of MDD. Particularly in patients who have not responded to conventional treatment like antidepressants & psychotherapy. The treatment involves daily sessions over several weeks. With each session lasting between 20 to 50 minutes. The electromagnetic coil is typically positioned over the dorsolateral prefrontal cortex. A brain region implicated in mood regulation${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_3_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx)])}.`]],
-		[`### Obsessive-Compulsive Disorder (OCD)`, [
+		[`## Obsessive-Compulsive Disorder (OCD)`, [
 			`TMS has received FDA approval for treating OCD. The deep TMS (dTMS) variant uses a different coil to stimulate deeper brain regions. Showing promise in alleviating OCD symptoms${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_2_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx)])}.`]],
-		[`### Other Potential Uses`, [
+		[`## Other Potential Uses`, [
 			`Research is ongoing to explore the efficacy of TMS in treating other conditions such as:`,
 			nl,
 			`- migraines`,
@@ -33,22 +33,22 @@ export default (ctx:request_ctx_T)=>''
 			`- epilepsy`,
 			nl,
 			`While these applications are still under investigation, preliminary results are encouraging${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_3_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx)])}.`,]],]],
-	[`## Efficacy`, [
+	[`# Efficacy`, [
 		`Clinical studies show TMS reduces depressive symptoms. About 50% to 60% of patients with treatment-resistant depression. With approximately one-third achieving full remission. These effects, while not permanent, can last for several months. Many patients opt for maintenance sessions to prolong the benefits${footnote__sup__sort([ref_1_3_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx),ref_1_5_footnote__sup_(ctx)])}.`]],
-	[`## Safety & Side Effects`, [
+	[`# Safety & Side Effects`, [
 		`TMS is generally well-tolerated. The most common side effects are mild headaches & scalp discomfort during or after the procedure. Serious side effects, such as seizures, are rare but can occur. Particularly in individuals with a history of epilepsy or other neurological conditions. Unlike electroconvulsive therapy (ECT), TMS${footnote__sup__sort([ref_1_1_footnote__sup_(ctx),ref_1_3_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx),ref_1_5_footnote__sup_(ctx)])}:`,
 		nl,
 		`- does not require anesthesia`,
 		`- does not cause memory loss`,
 		`- does not cause cognitive impairment`,]],
-	[`## Future Directions`, [
+	[`# Future Directions`, [
 		`The field of TMS is rapidly evolving. With ongoing research aimed at optimizing treatment protocols & expanding its clinical applications. Recent innovations include:`,
 		nl,
 		`- synchronizing TMS with patients' intrinsic brain oscillatory rhythms`,
 		`- using neuroimaging biomarkers to predict treatment response`,
 		nl,
     `These advancements hold the potential to enhance the efficacy & precision of TMS. Making TMS a more versatile tool in the treatment of neuropsychiatric disorders${footnote__sup__sort([ref_1_2_footnote__sup_(ctx),ref_1_4_footnote__sup_(ctx),ref_1_5_footnote__sup_(ctx)])}.`,]],
-	[`## Concussion`, [
+	[`# Concussion`, [
 		`Transcranial Magnetic Stimulation (TMS) represents a significant advancement. In the treatment of depression & other neuropsychiatric conditions. Its noninvasive & provides relief for patients who have not responded to traditional therapies. Making TMS a valuable addition to the therapeutic arsenal. TMS is poised to play an increasingly important role in mental health care.`]],
 ])
 // @formatter:on
