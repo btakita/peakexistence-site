@@ -13,6 +13,7 @@ import { mobile_hidden__span_ } from '../../responsive/index.js'
 export const meta_ = (ctx:request_ctx_T)=>post_meta__validate(ctx, {
 	pub_date: '2024-03-22T20:42:15.614Z',
 	...comprehensive_wellness_testing_and_biometric_screening_for_companies,
+	draft: true,
 })
 // @formatter:off
 // language=md

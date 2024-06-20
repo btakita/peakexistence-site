@@ -3,7 +3,7 @@ import { sticky_h2__dl_tree_props_ } from '@btakita/ui--server--peakexistence/st
 import { post_meta__validate } from '@rappstack/domain--server--blog/post'
 import { tb_a_ } from '@rappstack/ui--any/anchor'
 import { dl_tree_ } from '@rappstack/ui--any/dl'
-import { nl } from '@rappstack/ui--any/string'
+import { lines_, nl } from '@rappstack/ui--any/string'
 import { footnote__sup_, footnote__sup__sort } from '@rappstack/ui--server--blog/footnote'
 import { type request_ctx_T } from 'rebuildjs/server'
 import { mobile_hidden__span_ } from '../../responsive/index.js'
@@ -181,14 +181,14 @@ function ref_e1_4_footnote__sup_(ctx:request_ctx_T) {
 			href: 'https://stemcellres.biomedcentral.com/articles/10.1186/s13287-023-03287-7',
 			nofollow: true,
 			wrap: true,
-		}, 'Mesenchymal stromal/stem cell (MSC)-derived exosomes in clinical trials'),
-		'(',
-		tb_a_({
+		}, 'Mesenchymal stromal/stem cell (MSC)-derived exosomes in clinical trials')
+		+ '('
+		+ tb_a_({
 			href: 'https://web.archive.org/web/20240123053041/https://stemcellres.biomedcentral.com/articles/10.1186/s13287-023-03287-7',
 			nofollow: true,
 			wrap: true
-		}, 'Internet Archive'),
-		')'
+		}, 'Internet Archive')
+		+ ')'
 	])
 }
 function ref_e1_5_footnote__sup_(ctx:request_ctx_T) {
@@ -200,14 +200,14 @@ function ref_e1_5_footnote__sup_(ctx:request_ctx_T) {
 			href: 'https://www.nature.com/articles/s41467-019-12321-3',
 			nofollow: true,
 			wrap: true,
-		}, 'CAR exosomes derived from effector CAR-T cells have potent antitumour effects and low toxicity'),
-		'(',
-		tb_a_({
+		}, 'CAR exosomes derived from effector CAR-T cells have potent antitumour effects and low toxicity')
+		+ '('
+		+ tb_a_({
 			href: 'https://web.archive.org/web/20230329041536/https://www.nature.com/articles/s41467-019-12321-3',
 			nofollow: true,
 			wrap: true
-		}, 'Internet Archive'),
-		')'
+		}, 'Internet Archive')
+		+ ')'
 	])
 }
 function ref_e1_6_footnote__sup_(ctx:request_ctx_T) {
@@ -216,10 +216,11 @@ function ref_e1_6_footnote__sup_(ctx:request_ctx_T) {
 		id: 'e1_6'
 	}, [
 		tb_a_({
-			href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8538523/',
-			nofollow: true,
-			wrap: true,
-		}, 'Engineered Exosomes-Based Photothermal Therapy with MRI/CT Imaging Guidance Enhances Anticancer Efficacy through Deep Tumor Nucleus Penetration'),
+				href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8538523/',
+				nofollow: true,
+				wrap: true,
+			},
+			'Engineered Exosomes-Based Photothermal Therapy with MRI/CT Imaging Guidance Enhances Anticancer Efficacy through Deep Tumor Nucleus Penetration'),
 	])
 }
 function ref_e1_7_footnote__sup_(ctx:request_ctx_T) {
@@ -240,9 +241,10 @@ function ref_e1_8_footnote__sup_(ctx:request_ctx_T) {
 		id: 'e1_8'
 	}, [
 		tb_a_({
-			href: 'https://journals.sagepub.com/doi/10.1177/1545968320926164',
-			nofollow: true,
-			wrap: true,
-		}, 'Mesenchymal Stem Cell–Derived Exosomes Improve Functional Recovery in Rats After Traumatic Brain Injury: A Dose-Response and Therapeutic Window Study'),
+				href: 'https://journals.sagepub.com/doi/10.1177/1545968320926164',
+				nofollow: true,
+				wrap: true,
+			},
+			'Mesenchymal Stem Cell–Derived Exosomes Improve Functional Recovery in Rats After Traumatic Brain Injury: A Dose-Response and Therapeutic Window Study'),
 	])
 }

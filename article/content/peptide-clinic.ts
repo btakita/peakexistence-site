@@ -160,14 +160,14 @@ function ref_p1_5_footnote__sup_(ctx:request_ctx_T) {
 			href: 'https://gsia.tums.ac.ir/Images/UserFiles/12127/file/Peptides%20Toxicity.PDF',
 			nofollow: true,
 			wrap: true,
-		}, 'Toxicity of Biologically Active Peptides and Future Safety Aspects: An Update'),
-		'(',
-		tb_a_({
+		}, 'Toxicity of Biologically Active Peptides and Future Safety Aspects: An Update')
+		+ '('
+		+ tb_a_({
 			href: 'https://archive.is/VAvnZ',
 			nofollow: true,
 			wrap: true,
-		}, 'archive.is'),
-		')'
+		}, 'archive.is')
+		+ ')'
 	])
 }
 function ref_p1_6_footnote__sup_(ctx:request_ctx_T) {
