@@ -39,7 +39,7 @@
     "marked": "^13.0.2",
     "marked-gfm-heading-id": "^4.0.0",
     "relementjs": "^0.80.26",
-    "relysjs": "^1.21.63",
+    "relysjs": "^1.21.64",
     "tailwindcss-noscript": "^2.0.1"
   },
   "devDependencies": {
