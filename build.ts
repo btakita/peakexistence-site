@@ -36,6 +36,7 @@ export async function build(config?:relysjs__build_config_T) {
 				return relysjs_browser__build({
 					...config ?? {},
 					publicPath: '/',
+					conditions: ['style'],
 					plugins: [
 						object_store_asset,
 						rebuild_tailwind_plugin,
@@ -55,6 +56,7 @@ export async function build(config?:relysjs__build_config_T) {
 					external: await server_external_(),
 					minify: false,
 					publicPath: '/',
+					conditions: ['style'],
 					plugins: [
 						object_store_asset,
 						esmcss_esbuild_plugin_(),
@@ -68,7 +70,9 @@ export async function build(config?:relysjs__build_config_T) {
 			}
 		}),
 	]
-	build_promises.push(relysjs__ready__wait(300_000))
+	if (config?.rebuildjs?.watch !== false) {
+		build_promises.push(relysjs__ready__wait(300_000))
+	}
 	await Promise.all(build_promises)
 }
 function server_external_() {
