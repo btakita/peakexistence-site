@@ -18,8 +18,11 @@
     "start": "sourcemap__resolve__bun -f start.ts"
   },
   "dependencies": {
+    "@btakita/domain--any--peakexistence": "workspace:*",
     "@btakita/domain--server--peakexistence": "workspace:*",
+    "@btakita/ui--browser--peakexistence": "workspace:*",
     "@btakita/ui--server--peakexistence": "workspace:*",
+    "rebuildjs": "^0.70.37",
     "@rappstack/domain--any--blog": "^0.1.0",
     "@rappstack/domain--server": "^0.1.0",
     "@rappstack/domain--server--auth": "^0.1.0",
