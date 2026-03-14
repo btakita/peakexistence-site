@@ -1,5 +1,4 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
+@import 'tailwindcss';
 
 /* Additional styles */
 @import '_style/utility-patterns.css';
@@ -7,8 +6,8 @@
 @import '_style/toggle-switch.css';
 @import '_style/theme.css';
 
-@import 'tailwindcss/utilities';
-/* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
+@config '../tailwind.config.ts';
+
 @layer utilities {
 	.rtl {
 		direction: rtl;

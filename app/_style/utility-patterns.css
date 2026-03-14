@@ -11,7 +11,7 @@
 .h4 {
 	@apply text-2xl font-bold leading-snug tracking-tight;
 }
-@screen md {
+@media (width >= 768px) {
 	.h1 {
 		@apply text-5xl;
 	}
