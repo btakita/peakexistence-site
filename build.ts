@@ -27,7 +27,7 @@ export async function build(config?:relysjs__build_config_T) {
 	})
 	const preprocess_plugin = preprocess_plugin_()
 	const esmfile = esmfile_()
-	await Promise.all([
+	const build_promises:Promise<unknown>[] = [
 		run(async ()=>{
 			try {
 				return relysjs_browser__build({
@@ -62,8 +62,11 @@ export async function build(config?:relysjs__build_config_T) {
 				console.info('relysjs_server__build|done')
 			}
 		}),
-		relysjs__ready__wait(Infinity),
-	])
+	]
+	if (config?.rebuildjs?.watch !== false) {
+		build_promises.push(relysjs__ready__wait(Infinity))
+	}
+	await Promise.all(build_promises)
 }
 function server_external_() {
 	return readdir(
