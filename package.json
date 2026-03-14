@@ -29,6 +29,7 @@
     "@rappstack/ui--server": "^0.1.0",
     "@rappstack/ui--server--blog": "^0.1.0",
     "@sinclair/typebox": "^0.34.48",
+    "@tailwindcss/forms": "^0.5.11",
     "@tailwindcss/typography": "^0.5.19",
     "aos": "^2.3.4",
     "cssnano": "^7.0.4",
@@ -38,14 +39,14 @@
     "elysia": "^1.4.27",
     "esbuild-plugin-esmfile": "^0.2.9",
     "esbuild-plugin-object-store-asset": "^0.0.2",
-    "object-store-asset": "^0.0.1",
     "esmcss": "^0.2.12",
     "highlight.js": "^11.10.0",
     "marked": "^13.0.2",
     "marked-gfm-heading-id": "^4.0.0",
+    "marked-highlight": "^2.2.3",
+    "object-store-asset": "^0.0.1",
     "relementjs": "^0.80.26",
-    "relysjs": "^1.21.75",
-    "@tailwindcss/forms": "^0.5.11"
+    "relysjs": "^1.21.75"
   },
   "devDependencies": {
     "@btakita/dev-bin": "^0.1.0",
