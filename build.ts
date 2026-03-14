@@ -61,9 +61,7 @@ export async function build(config?:relysjs__build_config_T) {
 			}
 		}),
 	]
-	if (config?.rebuildjs?.watch !== false) {
-		build_promises.push(relysjs__ready__wait(Infinity))
-	}
+	build_promises.push(relysjs__ready__wait(300_000))
 	await Promise.all(build_promises)
 }
 function server_external_() {

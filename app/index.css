@@ -1,20 +1,336 @@
-@import 'tailwindcss';
-
 /* Additional styles */
 @import '_style/utility-patterns.css';
 @import '_style/range-slider.css';
 @import '_style/toggle-switch.css';
 @import '_style/theme.css';
 
-@config '../tailwind.config.ts';
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@source '../../../../lib/ui--server--peakexistence/**/*.ts';
+@source '../../../../lib/ui--browser--peakexistence/**/*.ts';
+@source '../../../../lib/domain--any--peakexistence/**/*.ts';
+@source '../**/*.ts';
+
+@theme {
+	/* Colors */
+	--color-gray-100: #FBFBFB;
+	--color-gray-200: #EAEAEA;
+	--color-gray-300: #DFDFDF;
+	--color-gray-400: #999999;
+	--color-gray-500: #7F7F7F;
+	--color-gray-600: #666666;
+	--color-gray-700: #4C4C4C;
+	--color-gray-800: #333333;
+	--color-gray-900: #191919;
+
+	--color-blue-100: #E6F0FD;
+	--color-blue-200: #CCE2FC;
+	--color-blue-300: #99C5FA;
+	--color-blue-400: #66A9F7;
+	--color-blue-500: #338CF5;
+	--color-blue-600: #0070F4;
+	--color-blue-700: #0064DA;
+	--color-blue-800: #0059C2;
+	--color-blue-900: #004391;
+
+	--color-teal-100: #E6FFFA;
+	--color-teal-200: #B2F5EA;
+	--color-teal-300: #81E6D9;
+	--color-teal-400: #4FD1C5;
+	--color-teal-500: #3ABAB4;
+	--color-teal-600: #319795;
+	--color-teal-700: #2C7A7B;
+	--color-teal-800: #285E61;
+	--color-teal-900: #234E52;
+
+	/* Box shadows */
+	--shadow-xs: 0 0 0 1px rgba(0, 0, 0, 0.16);
+	--shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+	--shadow-default: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+	--shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.04), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+	--shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+	--shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.12), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+	--shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+	--shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+	--shadow-outline: 0 0 0 3px rgba(66, 153, 225, 0.5);
+	--shadow-none: none;
+
+	/* Spacing */
+	--spacing-9\/16: 56.25%;
+	--spacing-3\/4: 75%;
+	--spacing-1\/1: 100%;
+
+	/* Font family */
+	--font-family-inter: Inter, sans-serif;
+
+	/* Font sizes */
+	--font-size-xs: 0.75rem;
+	--font-size-sm: 0.875rem;
+	--font-size-base: 1rem;
+	--font-size-lg: 1.125rem;
+	--font-size-xl: 1.25rem;
+	--font-size-2xl: 1.5rem;
+	--font-size-3xl: 2rem;
+	--font-size-4xl: 2.625rem;
+	--font-size-5xl: 3.25rem;
+	--font-size-6xl: 5.5rem;
+
+	/* Inset */
+	--inset-1\/2: 50%;
+	--inset-full: 100%;
+
+	/* Letter spacing */
+	--tracking-tighter: -0.02em;
+	--tracking-tight: -0.01em;
+	--tracking-normal: 0;
+	--tracking-wide: 0.01em;
+	--tracking-wider: 0.02em;
+	--tracking-widest: 0.4em;
+
+	/* Line height */
+	--leading-none: 1;
+	--leading-tighter: 1.125;
+	--leading-tight: 1.25;
+	--leading-snug: 1.375;
+	--leading-normal: 1.5;
+	--leading-relaxed: 1.625;
+	--leading-loose: 2;
+	--leading-3: .75rem;
+	--leading-4: 1rem;
+	--leading-5: 1.2rem;
+	--leading-6: 1.5rem;
+	--leading-7: 1.75rem;
+	--leading-8: 2rem;
+	--leading-9: 2.25rem;
+	--leading-10: 2.5rem;
+
+	/* Min width */
+	--min-width-10: 2.5rem;
+	--min-width-48: 12rem;
+
+	/* Opacity */
+	--opacity-90: 0.9;
+
+	/* Scale */
+	--scale-98: .98;
+
+	/* Animation */
+	--animate-float: float 3s ease-in-out infinite;
+
+	/* Keyframes */
+	@keyframes float {
+		0%, 100% { transform: translateY(0); }
+		50% { transform: translateY(-5%); }
+	}
+
+	/* Z-index */
+	--z--1: -1;
+}
+
+/* Skin utility classes — per-utility-type colors that can't be expressed as a single --color-* variable */
+@utility text-skin-base {
+	color: rgb(var(--color-text-base));
+}
+@utility text-skin-light {
+	color: rgb(var(--color-text-light));
+}
+@utility text-skin-accent {
+	color: rgb(var(--color-accent));
+}
+@utility text-skin-invert {
+	color: rgb(var(--color-fill));
+}
+
+@utility bg-skin-fill {
+	background-color: rgb(var(--color-fill));
+}
+@utility bg-skin-fill-light {
+	background-color: rgb(var(--color-fill-light));
+}
+@utility bg-skin-accent {
+	background-color: rgb(var(--color-accent));
+}
+@utility bg-skin-accent-light {
+	background-color: rgb(var(--color-accent-light));
+}
+@utility bg-skin-invert {
+	background-color: rgb(var(--color-text-base));
+}
+@utility bg-skin-invert-light {
+	background-color: rgb(var(--color-text-light));
+}
+@utility bg-skin-card {
+	background-color: rgb(var(--color-card));
+}
+@utility bg-skin-card-muted {
+	background-color: rgb(var(--color-card-muted));
+}
+
+@utility outline-skin-fill {
+	outline-color: rgb(var(--color-accent));
+}
+
+@utility border-skin-line {
+	border-color: rgb(var(--color-border));
+}
+@utility border-skin-fill {
+	border-color: rgb(var(--color-text-base));
+}
+@utility border-skin-fill-light {
+	border-color: rgb(var(--color-text-light));
+}
+@utility border-skin-accent {
+	border-color: rgb(var(--color-accent));
+}
+@utility border-skin-accent-light {
+	border-color: rgb(var(--color-accent-light));
+}
+
+@utility fill-skin-base {
+	fill: rgb(var(--color-text-base));
+}
+@utility fill-skin-accent {
+	fill: rgb(var(--color-accent));
+}
 
 @layer utilities {
 	.rtl {
 		direction: rtl;
 	}
 }
+
 * {
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden; /* Chrome and Safari */
 	-moz-backface-visibility: hidden; /* Firefox */
+}
+
+/* Typography prose overrides — unlayered so they override @layer utilities from the typography plugin */
+.prose a {
+	color: rgb(var(--color-accent));
+	font-weight: 500;
+	overflow-wrap: break-word;
+	text-decoration-style: dotted;
+	text-underline-offset: 4px;
+}
+.prose blockquote {
+	border-left-color: rgb(var(--color-accent));
+	opacity: .8;
+	font-style: italic;
+}
+.prose code {
+	border-radius: .25rem;
+	color: rgb(var(--color-text-base));
+	display: inline-block;
+	font-family: JetBrains Mono, monospace;
+	padding: .25rem;
+	word-wrap: normal;
+}
+.prose code::before {
+	content: '';
+}
+.prose code::after {
+	content: '';
+}
+.prose em {
+	font-style: italic;
+}
+.prose figcaption {
+	color: rgb(var(--color-text-base));
+	opacity: .75;
+}
+.prose figure {
+	margin-left: auto;
+	margin-right: auto;
+}
+.prose h1 {
+	font-size: 1.875rem;
+	line-height: 3rem;
+	color: rgb(var(--color-text-base));
+	margin-bottom: .75rem;
+}
+.prose h2 {
+	font-size: 1.5rem;
+	line-height: 2rem;
+	margin-top: 0;
+	color: rgb(var(--color-text-base));
+	margin-bottom: .5rem;
+}
+.prose h3 {
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+	color: rgb(var(--color-text-base));
+	margin-top: .25rem;
+	margin-bottom: .5rem;
+}
+.prose h4 {
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	color: rgb(var(--color-text-base));
+	margin-top: .25rem;
+	margin-bottom: .5rem;
+}
+.prose h5 {
+	color: rgb(var(--color-text-base));
+	margin-top: .25rem;
+	margin-bottom: .5rem;
+}
+.prose h6 {
+	color: rgb(var(--color-text-base));
+	margin-top: .25rem;
+	margin-bottom: .5rem;
+}
+.prose hr {
+	border-color: rgb(var(--color-border));
+}
+.prose img {
+	border-color: rgb(var(--color-border));
+	border-width: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: .5rem;
+}
+.prose li {
+	color: rgb(var(--color-text-base));
+}
+.prose ul > li::marker {
+	color: rgb(var(--color-accent));
+}
+.prose ol {
+	padding-left: 1.5rem;
+	color: rgb(var(--color-text-base));
+}
+.prose p {
+	color: rgb(var(--color-text-base));
+}
+.prose pre {
+	font-family: JetBrains Mono, monospace;
+	color: rgb(var(--color-text-base));
+}
+.prose strong {
+	color: rgb(var(--color-text-base));
+	font-weight: 500;
+}
+.prose summary {
+	color: rgb(var(--color-text-base));
+	cursor: pointer;
+}
+.prose table {
+	color: rgb(var(--color-text-base));
+}
+.prose td {
+	border-color: rgb(var(--color-border));
+	border-width: 1px;
+}
+.prose th {
+	border-color: rgb(var(--color-border));
+	border-width: 1px;
+	color: rgb(var(--color-text-base));
+}
+.prose ul {
+	overflow-x: clip;
+	padding-left: 2rem;
+	color: rgb(var(--color-text-base));
 }
