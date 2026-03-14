@@ -1,4 +1,7 @@
 import './index.css'
+import { server__relement } from 'relementjs/server'
+import { relement__use } from 'relementjs'
+relement__use(server__relement)
 import { home__doc_html_ } from '@btakita/ui--server--peakexistence/home'
 import { sitemap__xml_ } from '@btakita/ui--server--peakexistence/sitemap'
 import { text_response__new, xml_response__new } from '@rappstack/domain--server/response'
