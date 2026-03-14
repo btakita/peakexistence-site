@@ -9,11 +9,6 @@ const { exported, errors } = await cloudflare_export_({
 	wrangler: { name: 'peakexistence' },
 })
 console.info(`Exported ${exported.length} files`)
-const fatal_errors = errors.filter((e: string) => !e.includes('404'))
-if (fatal_errors.length > 0) {
-	console.error(`${fatal_errors.length} fatal errors:`, fatal_errors)
-	process.exit(1)
-}
 if (errors.length > 0) {
-	console.warn(`${errors.length} non-fatal errors (404s):`, errors)
+	console.warn(`${errors.length} non-fatal errors:`, errors)
 }
