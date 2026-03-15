@@ -30,7 +30,7 @@ export async function build(config?:relysjs__build_config_T) {
 		asset_base_url: import_meta_env_().ASSET_BASE_URL,
 		base_path: import_meta_env_().ASSET_BASE_PATH,
 	})
-	const build_promises:Promise<unknown>[] = [
+	await Promise.all([
 		run(async ()=>{
 			try {
 				return relysjs_browser__build({
@@ -69,11 +69,8 @@ export async function build(config?:relysjs__build_config_T) {
 				console.info('relysjs_server__build|done')
 			}
 		}),
-	]
-	if (config?.rebuildjs?.watch !== false) {
-		build_promises.push(relysjs__ready__wait(300_000))
-	}
-	await Promise.all(build_promises)
+		relysjs__ready__wait(300_000),
+	])
 }
 function server_external_() {
 	return readdir(
