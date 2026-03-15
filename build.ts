@@ -5,6 +5,7 @@ import { import_meta_env_ } from 'ctx-core/env'
 import { is_entry_file_ } from 'ctx-core/fs'
 import { type Plugin } from 'esbuild'
 import esmfile_ from 'esbuild-plugin-esmfile'
+import { object_store_asset_esbuild_plugin_ } from 'esbuild-plugin-object-store-asset'
 import { esmcss_esbuild_plugin_ } from 'esmcss'
 import { readdir } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
@@ -25,6 +26,9 @@ export async function build(config?:relysjs__build_config_T) {
 	})
 	const preprocess_plugin = preprocess_plugin_()
 	const esmfile = esmfile_()
+	const object_store_asset = object_store_asset_esbuild_plugin_({
+		asset_base_url: import_meta_env_().ASSET_BASE_URL,
+	})
 	await Promise.all([
 		run(async ()=>{
 			try {
@@ -33,6 +37,7 @@ export async function build(config?:relysjs__build_config_T) {
 					publicPath: '/',
 					conditions: ['style'],
 					plugins: [
+						object_store_asset,
 						esmfile,
 						rebuild_tailwind_plugin,
 						preprocess_plugin,
@@ -52,6 +57,7 @@ export async function build(config?:relysjs__build_config_T) {
 					publicPath: '/',
 					conditions: ['style'],
 					plugins: [
+						object_store_asset,
 						esmfile,
 						esmcss_esbuild_plugin_(),
 						rebuild_tailwind_plugin,
