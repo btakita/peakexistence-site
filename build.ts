@@ -38,10 +38,10 @@ export async function build(config?:relysjs__build_config_T) {
 					publicPath: '/',
 					conditions: ['style'],
 					plugins: [
+						esmfile,
 						object_store_asset,
 						rebuild_tailwind_plugin,
 						preprocess_plugin,
-						esmfile,
 					],
 				})
 			} finally {
@@ -58,11 +58,11 @@ export async function build(config?:relysjs__build_config_T) {
 					publicPath: '/',
 					conditions: ['style'],
 					plugins: [
+						esmfile,
 						object_store_asset,
 						esmcss_esbuild_plugin_(),
 						rebuild_tailwind_plugin,
 						preprocess_plugin,
-						esmfile,
 					],
 				})
 			} finally {
